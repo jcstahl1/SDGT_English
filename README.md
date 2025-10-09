@@ -1,6 +1,6 @@
 # Unofficial English Translation
 
-This repository contains **JSON translation data** extracted from `.uasset` files of the original game.  
+This repository contains **JSON translation data**
 All files here represent **text-only content** (no binaries, models, or other assets).  
 The goal of this project is to make the game accessible to English-speaking players through a community-driven translation patch.
 ---
