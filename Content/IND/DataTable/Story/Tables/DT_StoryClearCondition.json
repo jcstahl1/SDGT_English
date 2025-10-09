@@ -1,0 +1,148 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_StoryClearCondition",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'StoryEpisodeData_ClearCondition'",
+        "ObjectPath": "/Script/GameProject"
+      }
+    },
+    "Rows": {
+      "story_clearcondition_001": {
+        "a": "プレイヤーからみて",
+        "Target": "EStoryClearCondition_Target::Rival1",
+        "b": "との",
+        "Type": "EStoryClearCondition_Type::Rank",
+        "c": "が",
+        "Num": 1,
+        "Comp": "EStoryClearCondition_Comparison::OrOver",
+        "Text": {
+          "Namespace": "",
+          "Key": "88E6CE4A4AA226F975A0F3BA01428097",
+          "SourceString": "Defeat the target rival",
+          "LocalizedString": "Defeat the target rival"
+        },
+        "StartText": {
+          "TableId": "/Game/IND/StringTable/BP/ST_GameMessage.ST_GameMessage",
+          "Key": "DT_StoryClearCond_DefeatRival",
+          "SourceString": "<ClearTextRivalName>{name}</>に勝利せよ",
+          "LocalizedString": "Defeat <ClearTextRivalName>{name}</>"
+        },
+        "memo": "ライバルとの順位差分が1以上なら勝っている。負けている場合はマイナスの値になります。"
+      },
+      "story_clearcondition_002_01": {
+        "a": "プレイヤーからみて",
+        "Target": "EStoryClearCondition_Target::Rival1",
+        "b": "との",
+        "Type": "EStoryClearCondition_Type::Advantage",
+        "c": "が",
+        "Num": -100,
+        "Comp": "EStoryClearCondition_Comparison::OrOver",
+        "Text": {
+          "Namespace": "",
+          "Key": "AD5B61F942E519932273E69B4F6B3757",
+          "SourceString": "Don’t let the rival pull away",
+          "LocalizedString": "Don’t let the rival pull away"
+        },
+        "StartText": {
+          "TableId": "/Game/IND/StringTable/BP/ST_GameMessage.ST_GameMessage",
+          "Key": "DT_StoryClearCond_FinishRaceWithin",
+          "SourceString": "<ClearTextRivalName>{name}</>と<ClearTextValue>{value}</>ｍ以内でゴールせよ",
+          "LocalizedString": "Finish the race within <ClearTextValue>{value}</>m of <ClearTextRivalName>{name}</>"
+        },
+        "memo": "負けていても-100mまではクリア"
+      },
+      "story_clearcondition_002_02": {
+        "a": "プレイヤーからみて",
+        "Target": "EStoryClearCondition_Target::Rival1",
+        "b": "との",
+        "Type": "EStoryClearCondition_Type::Advantage",
+        "c": "が",
+        "Num": -300,
+        "Comp": "EStoryClearCondition_Comparison::OrOver",
+        "Text": {
+          "Namespace": "",
+          "Key": "98D959B0445DDB28FA438B82D2084F6C",
+          "SourceString": "Don’t let the rival get away",
+          "LocalizedString": "Don’t let the rival get away"
+        },
+        "StartText": {
+          "TableId": "/Game/IND/StringTable/BP/ST_GameMessage.ST_GameMessage",
+          "Key": "DT_StoryClearCond_FinishRaceWithin",
+          "SourceString": "<ClearTextRivalName>{name}</>と<ClearTextValue>{value}</>ｍ以内でゴールせよ",
+          "LocalizedString": "Finish the race within <ClearTextValue>{value}</>m of <ClearTextRivalName>{name}</>"
+        },
+        "memo": "負けていても-300mまではクリア"
+      },
+      "story_clearcondition_002_03": {
+        "a": "プレイヤーからみて",
+        "Target": "EStoryClearCondition_Target::Rival1",
+        "b": "との",
+        "Type": "EStoryClearCondition_Type::Advantage",
+        "c": "が",
+        "Num": -150,
+        "Comp": "EStoryClearCondition_Comparison::OrOver",
+        "Text": {
+          "Namespace": "",
+          "Key": "7DB878054D15EC802C90B9884E079E1B",
+          "SourceString": "Don’t fall behind the rival",
+          "LocalizedString": "Don’t fall behind the rival"
+        },
+        "StartText": {
+          "TableId": "/Game/IND/StringTable/BP/ST_GameMessage.ST_GameMessage",
+          "Key": "DT_StoryClearCond_FinishRaceWithin",
+          "SourceString": "<ClearTextRivalName>{name}</>と<ClearTextValue>{value}</>ｍ以内でゴールせよ",
+          "LocalizedString": "Finish the race within <ClearTextValue>{value}</>m of <ClearTextRivalName>{name}</>"
+        },
+        "memo": "負けていても-150mまではクリア"
+      },
+      "story_clearcondition_003": {
+        "a": "プレイヤーからみて",
+        "Target": "EStoryClearCondition_Target::Rival1",
+        "b": "との",
+        "Type": "EStoryClearCondition_Type::Advantage",
+        "c": "が",
+        "Num": 30,
+        "Comp": "EStoryClearCondition_Comparison::OrOver",
+        "Text": {
+          "Namespace": "",
+          "Key": "8FC531D44B78CE8F6AFAAC9AF7A8BBA8",
+          "SourceString": "Leave the rival in the dust",
+          "LocalizedString": "Leave the rival in the dust"
+        },
+        "StartText": {
+          "TableId": "/Game/IND/StringTable/BP/ST_GameMessage.ST_GameMessage",
+          "Key": "DT_StoryClearCond_DefeatMoreThan",
+          "SourceString": "<ClearTextRivalName>{name}</>を<ClearTextValue>{value}</>ｍ以上離して勝利せよ",
+          "LocalizedString": "Defeat<ClearTextRivalName>{name}</>by more than <ClearTextValue>{value}</> m"
+        },
+        "memo": "アドバンテージ距離30mに到達でクリア"
+      },
+      "story_clearcondition_004": {
+        "a": "プレイヤーからみて",
+        "Target": "EStoryClearCondition_Target::RivalAll",
+        "b": "との",
+        "Type": "EStoryClearCondition_Type::Rank",
+        "c": "が",
+        "Num": 1,
+        "Comp": "EStoryClearCondition_Comparison::OrOver",
+        "Text": {
+          "TableId": "/Game/IND/StringTable/BP/ST_GameMessage.ST_GameMessage",
+          "Key": "SpecialMode_Goal1st",
+          "SourceString": "1位でゴールせよ",
+          "LocalizedString": "Goal in 1st place"
+        },
+        "StartText": {
+          "TableId": "/Game/IND/StringTable/BP/ST_GameMessage.ST_GameMessage",
+          "Key": "SpecialMode_Goal1st",
+          "SourceString": "1位でゴールせよ",
+          "LocalizedString": "Goal in 1st place"
+        },
+        "memo": "None"
+      }
+    }
+  }
+]

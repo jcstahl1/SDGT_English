@@ -1,0 +1,2629 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_ReceiveRewardData",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "UserDefinedStruct'ST_ReceiveRewardData'",
+        "ObjectPath": "GameProject/Content/IND/DataTable/RewardIcon/ST_ReceiveRewardData.2"
+      }
+    },
+    "Rows": {
+      "0": {
+        "RewardCategoryID_23_D591463E48E5C2FBCEB07D9ECA639B25": "ERewardCategoryID::Invalid",
+        "IconTexture_5_B374551C4A6B5F9D2A3DA3B2BA2AC31F": null,
+        "AvatarIconMID_26_547C4E2A4189354B64FA88BC1635CB6D": null,
+        "FrameID_8_1AC5EDC24FCF86ADEAD459B8C9F15D97": "ERewardIconFrameID::NewEnumerator0",
+        "ReplaceIconCaption_11_8D6C7FAB488B787840B4EA991AB84056": {
+          "Namespace": "",
+          "Key": "E70CDB834C765B8FD99B97BE39F01006",
+          "SourceString": "Description for the replaceable icon at the top left (hidden if empty)",
+          "LocalizedString": "Description for the replaceable icon at the top left (hidden if empty)"
+        },
+        "SubCaption_17_ADAC392F4585582F02AED78C097BE449": {
+          "Namespace": "",
+          "Key": "365473D24978DB42C39FC583552DF3A6",
+          "SourceString": "Caption at the bottom right of the icon",
+          "LocalizedString": "Caption at the bottom right of the icon"
+        },
+        "Title_21_5CD87E4540BD6979BA08B1A3516FD590": {
+          "Namespace": "",
+          "Key": "9A97F6B74273631323AA9B96210A0097",
+          "SourceString": "Reward title ({num} is replaced by the quantity)",
+          "LocalizedString": "Reward title ({num} is replaced by the quantity)"
+        },
+        "Detail_18_30F67F4341FAF3109709C483919AB18D": {
+          "Namespace": "",
+          "Key": "B35CA785439D827C7216DC9DB0900236",
+          "SourceString": "Reward description",
+          "LocalizedString": "Reward description"
+        },
+        "CategoryName_31_3C5342C74B1B17E7D86A7599C09D19C8": {
+          "CultureInvariantString": null
+        },
+        "RewardNameFormat_35_D47578024AC592ABAD1CD5BE544ED740": {
+          "CultureInvariantString": null
+        }
+      },
+      "1": {
+        "RewardCategoryID_23_D591463E48E5C2FBCEB07D9ECA639B25": "ERewardCategoryID::Cash",
+        "IconTexture_5_B374551C4A6B5F9D2A3DA3B2BA2AC31F": {
+          "ObjectName": "Texture2D'T_Com_RewardIcon001'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/RewardIcon/Texture/T_Com_RewardIcon001.0"
+        },
+        "AvatarIconMID_26_547C4E2A4189354B64FA88BC1635CB6D": null,
+        "FrameID_8_1AC5EDC24FCF86ADEAD459B8C9F15D97": "ERewardIconFrameID::NewEnumerator0",
+        "ReplaceIconCaption_11_8D6C7FAB488B787840B4EA991AB84056": {
+          "CultureInvariantString": null
+        },
+        "SubCaption_17_ADAC392F4585582F02AED78C097BE449": {
+          "CultureInvariantString": null
+        },
+        "Title_21_5CD87E4540BD6979BA08B1A3516FD590": {
+          "Namespace": "",
+          "Key": "3E5CE85540E96F4525F09986B295F85B",
+          "SourceString": "Cash {num}",
+          "LocalizedString": "Cash {num}"
+        },
+        "Detail_18_30F67F4341FAF3109709C483919AB18D": {
+          "Namespace": "",
+          "Key": "B35CA785439D827C7216DC9DB0900236",
+          "SourceString": "Reward description",
+          "LocalizedString": "Reward description"
+        },
+        "CategoryName_31_3C5342C74B1B17E7D86A7599C09D19C8": {
+          "Namespace": "",
+          "Key": "A80A315A4E49108756BDC9909A8328AD",
+          "SourceString": "Cash",
+          "LocalizedString": "Cash"
+        },
+        "RewardNameFormat_35_D47578024AC592ABAD1CD5BE544ED740": {
+          "Namespace": "",
+          "Key": "8A2AA5D34BA6E0CC3065079CC2D713F1",
+          "SourceString": "{num}",
+          "LocalizedString": "{num}"
+        }
+      },
+      "2": {
+        "RewardCategoryID_23_D591463E48E5C2FBCEB07D9ECA639B25": "ERewardCategoryID::CustomizePoint",
+        "IconTexture_5_B374551C4A6B5F9D2A3DA3B2BA2AC31F": {
+          "ObjectName": "Texture2D'T_Com_RewardIcon002'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/RewardIcon/Texture/T_Com_RewardIcon002.0"
+        },
+        "AvatarIconMID_26_547C4E2A4189354B64FA88BC1635CB6D": null,
+        "FrameID_8_1AC5EDC24FCF86ADEAD459B8C9F15D97": "ERewardIconFrameID::NewEnumerator0",
+        "ReplaceIconCaption_11_8D6C7FAB488B787840B4EA991AB84056": {
+          "CultureInvariantString": null
+        },
+        "SubCaption_17_ADAC392F4585582F02AED78C097BE449": {
+          "CultureInvariantString": null
+        },
+        "Title_21_5CD87E4540BD6979BA08B1A3516FD590": {
+          "Namespace": "",
+          "Key": "294FAF98455C900EE2B73B9597E7BAF0",
+          "SourceString": "Customization Points {num} points",
+          "LocalizedString": "Customization Points {num} points"
+        },
+        "Detail_18_30F67F4341FAF3109709C483919AB18D": {
+          "Namespace": "",
+          "Key": "B35CA785439D827C7216DC9DB0900236",
+          "SourceString": "Reward description",
+          "LocalizedString": "Reward description"
+        },
+        "CategoryName_31_3C5342C74B1B17E7D86A7599C09D19C8": {
+          "Namespace": "",
+          "Key": "5315DBE341F40D85F52045967B797938",
+          "SourceString": "Customization Points",
+          "LocalizedString": "Customization Points"
+        },
+        "RewardNameFormat_35_D47578024AC592ABAD1CD5BE544ED740": {
+          "Namespace": "",
+          "Key": "C2011128410F9055E276DE8ABE6588AE",
+          "SourceString": "{num} points",
+          "LocalizedString": "{num} points"
+        }
+      },
+      "3": {
+        "RewardCategoryID_23_D591463E48E5C2FBCEB07D9ECA639B25": "ERewardCategoryID::CustomizeTicket",
+        "IconTexture_5_B374551C4A6B5F9D2A3DA3B2BA2AC31F": {
+          "ObjectName": "Texture2D'T_Com_RewardIcon003'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/RewardIcon/Texture/T_Com_RewardIcon003.0"
+        },
+        "AvatarIconMID_26_547C4E2A4189354B64FA88BC1635CB6D": null,
+        "FrameID_8_1AC5EDC24FCF86ADEAD459B8C9F15D97": "ERewardIconFrameID::NewEnumerator0",
+        "ReplaceIconCaption_11_8D6C7FAB488B787840B4EA991AB84056": {
+          "CultureInvariantString": null
+        },
+        "SubCaption_17_ADAC392F4585582F02AED78C097BE449": {
+          "CultureInvariantString": null
+        },
+        "Title_21_5CD87E4540BD6979BA08B1A3516FD590": {
+          "Namespace": "",
+          "Key": "FE3DE45448D67F81B13CA4AB9DE17DF4",
+          "SourceString": "Dress-Up Token {num} tickets",
+          "LocalizedString": "Dress-Up Token {num} tickets"
+        },
+        "Detail_18_30F67F4341FAF3109709C483919AB18D": {
+          "Namespace": "",
+          "Key": "B35CA785439D827C7216DC9DB0900236",
+          "SourceString": "Reward description",
+          "LocalizedString": "Reward description"
+        },
+        "CategoryName_31_3C5342C74B1B17E7D86A7599C09D19C8": {
+          "Namespace": "",
+          "Key": "024493514383C897FCD0AD89623162A1",
+          "SourceString": "Dress-Up Token",
+          "LocalizedString": "Dress-Up Token"
+        },
+        "RewardNameFormat_35_D47578024AC592ABAD1CD5BE544ED740": {
+          "Namespace": "",
+          "Key": "A9F41DAF4326C9A549F506960B8D6722",
+          "SourceString": "{num} tickets",
+          "LocalizedString": "{num} tickets"
+        }
+      },
+      "4": {
+        "RewardCategoryID_23_D591463E48E5C2FBCEB07D9ECA639B25": "ERewardCategoryID::AvatarPoint",
+        "IconTexture_5_B374551C4A6B5F9D2A3DA3B2BA2AC31F": {
+          "ObjectName": "Texture2D'T_Com_RewardIcon004'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/RewardIcon/Texture/T_Com_RewardIcon004.0"
+        },
+        "AvatarIconMID_26_547C4E2A4189354B64FA88BC1635CB6D": null,
+        "FrameID_8_1AC5EDC24FCF86ADEAD459B8C9F15D97": "ERewardIconFrameID::NewEnumerator0",
+        "ReplaceIconCaption_11_8D6C7FAB488B787840B4EA991AB84056": {
+          "CultureInvariantString": null
+        },
+        "SubCaption_17_ADAC392F4585582F02AED78C097BE449": {
+          "CultureInvariantString": null
+        },
+        "Title_21_5CD87E4540BD6979BA08B1A3516FD590": {
+          "Namespace": "",
+          "Key": "6DAC32C04BD5E9D5D35014843CBC30F2",
+          "SourceString": "Avatar Points {num} points",
+          "LocalizedString": "Avatar Points {num} points"
+        },
+        "Detail_18_30F67F4341FAF3109709C483919AB18D": {
+          "Namespace": "",
+          "Key": "B35CA785439D827C7216DC9DB0900236",
+          "SourceString": "Reward description",
+          "LocalizedString": "Reward description"
+        },
+        "CategoryName_31_3C5342C74B1B17E7D86A7599C09D19C8": {
+          "Namespace": "",
+          "Key": "17845599408D63E42D7417A9F71C1CD3",
+          "SourceString": "Avatar Points",
+          "LocalizedString": "Avatar Points"
+        },
+        "RewardNameFormat_35_D47578024AC592ABAD1CD5BE544ED740": {
+          "Namespace": "",
+          "Key": "932A81164E85E19CE5324CAA0D399559",
+          "SourceString": "{num} points",
+          "LocalizedString": "{num} points"
+        }
+      },
+      "5": {
+        "RewardCategoryID_23_D591463E48E5C2FBCEB07D9ECA639B25": "ERewardCategoryID::AvatarTicket",
+        "IconTexture_5_B374551C4A6B5F9D2A3DA3B2BA2AC31F": {
+          "ObjectName": "Texture2D'T_Com_RewardIcon005'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/RewardIcon/Texture/T_Com_RewardIcon005.0"
+        },
+        "AvatarIconMID_26_547C4E2A4189354B64FA88BC1635CB6D": null,
+        "FrameID_8_1AC5EDC24FCF86ADEAD459B8C9F15D97": "ERewardIconFrameID::NewEnumerator0",
+        "ReplaceIconCaption_11_8D6C7FAB488B787840B4EA991AB84056": {
+          "CultureInvariantString": null
+        },
+        "SubCaption_17_ADAC392F4585582F02AED78C097BE449": {
+          "CultureInvariantString": null
+        },
+        "Title_21_5CD87E4540BD6979BA08B1A3516FD590": {
+          "Namespace": "",
+          "Key": "8A0C74324F01C07BA7AFC68D5EC751E6",
+          "SourceString": "Avatar Ticket {num} tickets",
+          "LocalizedString": "Avatar Ticket {num} tickets"
+        },
+        "Detail_18_30F67F4341FAF3109709C483919AB18D": {
+          "Namespace": "",
+          "Key": "B35CA785439D827C7216DC9DB0900236",
+          "SourceString": "Reward description",
+          "LocalizedString": "Reward description"
+        },
+        "CategoryName_31_3C5342C74B1B17E7D86A7599C09D19C8": {
+          "Namespace": "",
+          "Key": "053047CE4819F09FFA917094D54DC94D",
+          "SourceString": "Avatar Ticket",
+          "LocalizedString": "Avatar Ticket"
+        },
+        "RewardNameFormat_35_D47578024AC592ABAD1CD5BE544ED740": {
+          "Namespace": "",
+          "Key": "9CE89A644BE12A2E9FA697B733F8266A",
+          "SourceString": "{num} tickets",
+          "LocalizedString": "{num} tickets"
+        }
+      },
+      "6": {
+        "RewardCategoryID_23_D591463E48E5C2FBCEB07D9ECA639B25": "ERewardCategoryID::Meter",
+        "IconTexture_5_B374551C4A6B5F9D2A3DA3B2BA2AC31F": {
+          "ObjectName": "Texture2D'T_Com_RewardIcon006'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/RewardIcon/Texture/T_Com_RewardIcon006.0"
+        },
+        "AvatarIconMID_26_547C4E2A4189354B64FA88BC1635CB6D": null,
+        "FrameID_8_1AC5EDC24FCF86ADEAD459B8C9F15D97": "ERewardIconFrameID::NewEnumerator0",
+        "ReplaceIconCaption_11_8D6C7FAB488B787840B4EA991AB84056": {
+          "Namespace": "",
+          "Key": "48EA51A3452228222E8D538939AFC29B",
+          "SourceString": " ",
+          "LocalizedString": " "
+        },
+        "SubCaption_17_ADAC392F4585582F02AED78C097BE449": {
+          "CultureInvariantString": null
+        },
+        "Title_21_5CD87E4540BD6979BA08B1A3516FD590": {
+          "Namespace": "",
+          "Key": "C36D5BD040BF6AD0BE38A8A4998F6FEE",
+          "SourceString": "Meter {partsname}",
+          "LocalizedString": "Meter {partsname}"
+        },
+        "Detail_18_30F67F4341FAF3109709C483919AB18D": {
+          "Namespace": "",
+          "Key": "B35CA785439D827C7216DC9DB0900236",
+          "SourceString": "Reward description",
+          "LocalizedString": "Reward description"
+        },
+        "CategoryName_31_3C5342C74B1B17E7D86A7599C09D19C8": {
+          "Namespace": "",
+          "Key": "D5AE38F048E734382201768D3207A933",
+          "SourceString": "Meter",
+          "LocalizedString": "Meter"
+        },
+        "RewardNameFormat_35_D47578024AC592ABAD1CD5BE544ED740": {
+          "Namespace": "",
+          "Key": "E70618DC43A447CCFD00778DA13243F1",
+          "SourceString": "{partsname}",
+          "LocalizedString": "{partsname}"
+        }
+      },
+      "7": {
+        "RewardCategoryID_23_D591463E48E5C2FBCEB07D9ECA639B25": "ERewardCategoryID::AuraShape",
+        "IconTexture_5_B374551C4A6B5F9D2A3DA3B2BA2AC31F": {
+          "ObjectName": "Texture2D'T_Com_RewardIcon007'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/RewardIcon/Texture/T_Com_RewardIcon007.0"
+        },
+        "AvatarIconMID_26_547C4E2A4189354B64FA88BC1635CB6D": null,
+        "FrameID_8_1AC5EDC24FCF86ADEAD459B8C9F15D97": "ERewardIconFrameID::NewEnumerator0",
+        "ReplaceIconCaption_11_8D6C7FAB488B787840B4EA991AB84056": {
+          "Namespace": "",
+          "Key": "D5F23A1C43088C76BE2F2F9B84CFF8DC",
+          "SourceString": " ",
+          "LocalizedString": " "
+        },
+        "SubCaption_17_ADAC392F4585582F02AED78C097BE449": {
+          "CultureInvariantString": null
+        },
+        "Title_21_5CD87E4540BD6979BA08B1A3516FD590": {
+          "Namespace": "",
+          "Key": "2FA379D2451D3290EB8B0FAFEC3DB5A9",
+          "SourceString": "Aura {partsname}",
+          "LocalizedString": "Aura {partsname}"
+        },
+        "Detail_18_30F67F4341FAF3109709C483919AB18D": {
+          "Namespace": "",
+          "Key": "B35CA785439D827C7216DC9DB0900236",
+          "SourceString": "Reward description",
+          "LocalizedString": "Reward description"
+        },
+        "CategoryName_31_3C5342C74B1B17E7D86A7599C09D19C8": {
+          "Namespace": "",
+          "Key": "8189370D4B98E5A988C194ABACAB0478",
+          "SourceString": "Aura",
+          "LocalizedString": "Aura"
+        },
+        "RewardNameFormat_35_D47578024AC592ABAD1CD5BE544ED740": {
+          "Namespace": "",
+          "Key": "BB3562354574FD69D43CDCA0017B6170",
+          "SourceString": "{partsname}",
+          "LocalizedString": "{partsname}"
+        }
+      },
+      "8": {
+        "RewardCategoryID_23_D591463E48E5C2FBCEB07D9ECA639B25": "ERewardCategoryID::AuraColor",
+        "IconTexture_5_B374551C4A6B5F9D2A3DA3B2BA2AC31F": {
+          "ObjectName": "Texture2D'T_Com_RewardIcon008'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/RewardIcon/Texture/T_Com_RewardIcon008.0"
+        },
+        "AvatarIconMID_26_547C4E2A4189354B64FA88BC1635CB6D": null,
+        "FrameID_8_1AC5EDC24FCF86ADEAD459B8C9F15D97": "ERewardIconFrameID::NewEnumerator0",
+        "ReplaceIconCaption_11_8D6C7FAB488B787840B4EA991AB84056": {
+          "Namespace": "",
+          "Key": "3EA11E384DEE732DF608C99C09423781",
+          "SourceString": " ",
+          "LocalizedString": " "
+        },
+        "SubCaption_17_ADAC392F4585582F02AED78C097BE449": {
+          "CultureInvariantString": null
+        },
+        "Title_21_5CD87E4540BD6979BA08B1A3516FD590": {
+          "Namespace": "",
+          "Key": "F31AA61E417F88B37C593FB274EFA6F3",
+          "SourceString": "Aura Color {partsname}",
+          "LocalizedString": "Aura Color {partsname}"
+        },
+        "Detail_18_30F67F4341FAF3109709C483919AB18D": {
+          "Namespace": "",
+          "Key": "B35CA785439D827C7216DC9DB0900236",
+          "SourceString": "Reward description",
+          "LocalizedString": "Reward description"
+        },
+        "CategoryName_31_3C5342C74B1B17E7D86A7599C09D19C8": {
+          "Namespace": "",
+          "Key": "CA6550AC42426860B10F1C91B02EE969",
+          "SourceString": "Aura Color",
+          "LocalizedString": "Aura Color"
+        },
+        "RewardNameFormat_35_D47578024AC592ABAD1CD5BE544ED740": {
+          "Namespace": "",
+          "Key": "BEEB0FBA40512F3DFBD98DA9882659BE",
+          "SourceString": "{partsname}",
+          "LocalizedString": "{partsname}"
+        }
+      },
+      "9": {
+        "RewardCategoryID_23_D591463E48E5C2FBCEB07D9ECA639B25": "ERewardCategoryID::AvatartFace",
+        "IconTexture_5_B374551C4A6B5F9D2A3DA3B2BA2AC31F": {
+          "ObjectName": "Texture2D'T_Com_RewardIcon009'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/RewardIcon/Texture/T_Com_RewardIcon009.0"
+        },
+        "AvatarIconMID_26_547C4E2A4189354B64FA88BC1635CB6D": null,
+        "FrameID_8_1AC5EDC24FCF86ADEAD459B8C9F15D97": "ERewardIconFrameID::NewEnumerator0",
+        "ReplaceIconCaption_11_8D6C7FAB488B787840B4EA991AB84056": {
+          "Namespace": "",
+          "Key": "81FF27A043851C2AACA869A86589308C",
+          "SourceString": " ",
+          "LocalizedString": " "
+        },
+        "SubCaption_17_ADAC392F4585582F02AED78C097BE449": {
+          "CultureInvariantString": null
+        },
+        "Title_21_5CD87E4540BD6979BA08B1A3516FD590": {
+          "Namespace": "",
+          "Key": "0E0AC20A42B495AFB9B5B3B6880A2F25",
+          "SourceString": "Avatar {partsname}",
+          "LocalizedString": "Avatar {partsname}"
+        },
+        "Detail_18_30F67F4341FAF3109709C483919AB18D": {
+          "Namespace": "",
+          "Key": "B35CA785439D827C7216DC9DB0900236",
+          "SourceString": "Reward description",
+          "LocalizedString": "Reward description"
+        },
+        "CategoryName_31_3C5342C74B1B17E7D86A7599C09D19C8": {
+          "Namespace": "",
+          "Key": "6134A9384D320909B272EA87345F54A8",
+          "SourceString": "Avatar",
+          "LocalizedString": "Avatar"
+        },
+        "RewardNameFormat_35_D47578024AC592ABAD1CD5BE544ED740": {
+          "Namespace": "",
+          "Key": "0E9087864C151BFF632940AA36B1F63D",
+          "SourceString": "{partsname}",
+          "LocalizedString": "{partsname}"
+        }
+      },
+      "10": {
+        "RewardCategoryID_23_D591463E48E5C2FBCEB07D9ECA639B25": "ERewardCategoryID::AvatartEye",
+        "IconTexture_5_B374551C4A6B5F9D2A3DA3B2BA2AC31F": {
+          "ObjectName": "Texture2D'T_Com_RewardIcon010'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/RewardIcon/Texture/T_Com_RewardIcon010.0"
+        },
+        "AvatarIconMID_26_547C4E2A4189354B64FA88BC1635CB6D": null,
+        "FrameID_8_1AC5EDC24FCF86ADEAD459B8C9F15D97": "ERewardIconFrameID::NewEnumerator0",
+        "ReplaceIconCaption_11_8D6C7FAB488B787840B4EA991AB84056": {
+          "Namespace": "",
+          "Key": "1A2B174542BD711AF9F3DAA4A24227B4",
+          "SourceString": " ",
+          "LocalizedString": " "
+        },
+        "SubCaption_17_ADAC392F4585582F02AED78C097BE449": {
+          "CultureInvariantString": null
+        },
+        "Title_21_5CD87E4540BD6979BA08B1A3516FD590": {
+          "Namespace": "",
+          "Key": "7E5ACB6D4D7AE9EFF35A24B29A48FA1A",
+          "SourceString": "Avatar {partsname}",
+          "LocalizedString": "Avatar {partsname}"
+        },
+        "Detail_18_30F67F4341FAF3109709C483919AB18D": {
+          "Namespace": "",
+          "Key": "B35CA785439D827C7216DC9DB0900236",
+          "SourceString": "Reward description",
+          "LocalizedString": "Reward description"
+        },
+        "CategoryName_31_3C5342C74B1B17E7D86A7599C09D19C8": {
+          "Namespace": "",
+          "Key": "9B759CA94F600B5511FC8FB9D287444B",
+          "SourceString": "Avatar",
+          "LocalizedString": "Avatar"
+        },
+        "RewardNameFormat_35_D47578024AC592ABAD1CD5BE544ED740": {
+          "Namespace": "",
+          "Key": "397496624BEE2EBD32A6CF8C095563CB",
+          "SourceString": "{partsname}",
+          "LocalizedString": "{partsname}"
+        }
+      },
+      "11": {
+        "RewardCategoryID_23_D591463E48E5C2FBCEB07D9ECA639B25": "ERewardCategoryID::AvatartMouth",
+        "IconTexture_5_B374551C4A6B5F9D2A3DA3B2BA2AC31F": {
+          "ObjectName": "Texture2D'T_Com_RewardIcon011'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/RewardIcon/Texture/T_Com_RewardIcon011.0"
+        },
+        "AvatarIconMID_26_547C4E2A4189354B64FA88BC1635CB6D": null,
+        "FrameID_8_1AC5EDC24FCF86ADEAD459B8C9F15D97": "ERewardIconFrameID::NewEnumerator0",
+        "ReplaceIconCaption_11_8D6C7FAB488B787840B4EA991AB84056": {
+          "Namespace": "",
+          "Key": "A7E3696E410C6498C9B33F9F8A0627FC",
+          "SourceString": " ",
+          "LocalizedString": " "
+        },
+        "SubCaption_17_ADAC392F4585582F02AED78C097BE449": {
+          "CultureInvariantString": null
+        },
+        "Title_21_5CD87E4540BD6979BA08B1A3516FD590": {
+          "Namespace": "",
+          "Key": "97982F9C464E1ED6A9AECA92863FEF02",
+          "SourceString": "Avatar {partsname}",
+          "LocalizedString": "Avatar {partsname}"
+        },
+        "Detail_18_30F67F4341FAF3109709C483919AB18D": {
+          "Namespace": "",
+          "Key": "B35CA785439D827C7216DC9DB0900236",
+          "SourceString": "Reward description",
+          "LocalizedString": "Reward description"
+        },
+        "CategoryName_31_3C5342C74B1B17E7D86A7599C09D19C8": {
+          "Namespace": "",
+          "Key": "55596B484D5E1AFD7B3016A9203C00F9",
+          "SourceString": "Avatar",
+          "LocalizedString": "Avatar"
+        },
+        "RewardNameFormat_35_D47578024AC592ABAD1CD5BE544ED740": {
+          "Namespace": "",
+          "Key": "5BD1FE9A45C8EEA1521A948F299E6714",
+          "SourceString": "{partsname}",
+          "LocalizedString": "{partsname}"
+        }
+      },
+      "12": {
+        "RewardCategoryID_23_D591463E48E5C2FBCEB07D9ECA639B25": "ERewardCategoryID::AvatartHair",
+        "IconTexture_5_B374551C4A6B5F9D2A3DA3B2BA2AC31F": {
+          "ObjectName": "Texture2D'T_Com_RewardIcon012'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/RewardIcon/Texture/T_Com_RewardIcon012.0"
+        },
+        "AvatarIconMID_26_547C4E2A4189354B64FA88BC1635CB6D": null,
+        "FrameID_8_1AC5EDC24FCF86ADEAD459B8C9F15D97": "ERewardIconFrameID::NewEnumerator0",
+        "ReplaceIconCaption_11_8D6C7FAB488B787840B4EA991AB84056": {
+          "Namespace": "",
+          "Key": "2F38C0AB4B9C229AB49265B0C160F7A8",
+          "SourceString": " ",
+          "LocalizedString": " "
+        },
+        "SubCaption_17_ADAC392F4585582F02AED78C097BE449": {
+          "CultureInvariantString": null
+        },
+        "Title_21_5CD87E4540BD6979BA08B1A3516FD590": {
+          "Namespace": "",
+          "Key": "5BDED0C8466105A24B1C6C9991104342",
+          "SourceString": "Avatar {partsname}",
+          "LocalizedString": "Avatar {partsname}"
+        },
+        "Detail_18_30F67F4341FAF3109709C483919AB18D": {
+          "Namespace": "",
+          "Key": "B35CA785439D827C7216DC9DB0900236",
+          "SourceString": "Reward description",
+          "LocalizedString": "Reward description"
+        },
+        "CategoryName_31_3C5342C74B1B17E7D86A7599C09D19C8": {
+          "Namespace": "",
+          "Key": "3979AB0B431D4B8A008AFA9F5E5CD4C8",
+          "SourceString": "Avatar",
+          "LocalizedString": "Avatar"
+        },
+        "RewardNameFormat_35_D47578024AC592ABAD1CD5BE544ED740": {
+          "Namespace": "",
+          "Key": "EC5B514D47D941E9330EEAA57AC36137",
+          "SourceString": "{partsname}",
+          "LocalizedString": "{partsname}"
+        }
+      },
+      "13": {
+        "RewardCategoryID_23_D591463E48E5C2FBCEB07D9ECA639B25": "ERewardCategoryID::AvatartGlasses",
+        "IconTexture_5_B374551C4A6B5F9D2A3DA3B2BA2AC31F": {
+          "ObjectName": "Texture2D'T_Com_RewardIcon013'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/RewardIcon/Texture/T_Com_RewardIcon013.0"
+        },
+        "AvatarIconMID_26_547C4E2A4189354B64FA88BC1635CB6D": null,
+        "FrameID_8_1AC5EDC24FCF86ADEAD459B8C9F15D97": "ERewardIconFrameID::NewEnumerator0",
+        "ReplaceIconCaption_11_8D6C7FAB488B787840B4EA991AB84056": {
+          "Namespace": "",
+          "Key": "676F012A4AA9D3FB732195A394962055",
+          "SourceString": " ",
+          "LocalizedString": " "
+        },
+        "SubCaption_17_ADAC392F4585582F02AED78C097BE449": {
+          "CultureInvariantString": null
+        },
+        "Title_21_5CD87E4540BD6979BA08B1A3516FD590": {
+          "Namespace": "",
+          "Key": "EF11A55847D43D102DFB51B90D36C17B",
+          "SourceString": "Avatar {partsname}",
+          "LocalizedString": "Avatar {partsname}"
+        },
+        "Detail_18_30F67F4341FAF3109709C483919AB18D": {
+          "Namespace": "",
+          "Key": "B35CA785439D827C7216DC9DB0900236",
+          "SourceString": "Reward description",
+          "LocalizedString": "Reward description"
+        },
+        "CategoryName_31_3C5342C74B1B17E7D86A7599C09D19C8": {
+          "Namespace": "",
+          "Key": "6A806B364D35702603F6EDA2C48AE121",
+          "SourceString": "Avatar",
+          "LocalizedString": "Avatar"
+        },
+        "RewardNameFormat_35_D47578024AC592ABAD1CD5BE544ED740": {
+          "Namespace": "",
+          "Key": "6ECC7CC34A8037A9CB346A805A7EDE5C",
+          "SourceString": "{partsname}",
+          "LocalizedString": "{partsname}"
+        }
+      },
+      "14": {
+        "RewardCategoryID_23_D591463E48E5C2FBCEB07D9ECA639B25": "ERewardCategoryID::AvatartFaceAccessory",
+        "IconTexture_5_B374551C4A6B5F9D2A3DA3B2BA2AC31F": {
+          "ObjectName": "Texture2D'T_Com_RewardIcon014'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/RewardIcon/Texture/T_Com_RewardIcon014.0"
+        },
+        "AvatarIconMID_26_547C4E2A4189354B64FA88BC1635CB6D": null,
+        "FrameID_8_1AC5EDC24FCF86ADEAD459B8C9F15D97": "ERewardIconFrameID::NewEnumerator0",
+        "ReplaceIconCaption_11_8D6C7FAB488B787840B4EA991AB84056": {
+          "Namespace": "",
+          "Key": "EE1E766E419CDAA9BDA0088442D0C731",
+          "SourceString": " ",
+          "LocalizedString": " "
+        },
+        "SubCaption_17_ADAC392F4585582F02AED78C097BE449": {
+          "CultureInvariantString": null
+        },
+        "Title_21_5CD87E4540BD6979BA08B1A3516FD590": {
+          "Namespace": "",
+          "Key": "7ADBF1EE4AE13C6EA253AA86CE873C98",
+          "SourceString": "Avatar {partsname}",
+          "LocalizedString": "Avatar {partsname}"
+        },
+        "Detail_18_30F67F4341FAF3109709C483919AB18D": {
+          "Namespace": "",
+          "Key": "B35CA785439D827C7216DC9DB0900236",
+          "SourceString": "Reward description",
+          "LocalizedString": "Reward description"
+        },
+        "CategoryName_31_3C5342C74B1B17E7D86A7599C09D19C8": {
+          "Namespace": "",
+          "Key": "9E60CF774FB69054E06192A299CD00E7",
+          "SourceString": "Avatar",
+          "LocalizedString": "Avatar"
+        },
+        "RewardNameFormat_35_D47578024AC592ABAD1CD5BE544ED740": {
+          "Namespace": "",
+          "Key": "0A07018B45557601D7CDC392451F7122",
+          "SourceString": "{partsname}",
+          "LocalizedString": "{partsname}"
+        }
+      },
+      "15": {
+        "RewardCategoryID_23_D591463E48E5C2FBCEB07D9ECA639B25": "ERewardCategoryID::AvatartBody",
+        "IconTexture_5_B374551C4A6B5F9D2A3DA3B2BA2AC31F": {
+          "ObjectName": "Texture2D'T_Com_RewardIcon015'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/RewardIcon/Texture/T_Com_RewardIcon015.0"
+        },
+        "AvatarIconMID_26_547C4E2A4189354B64FA88BC1635CB6D": null,
+        "FrameID_8_1AC5EDC24FCF86ADEAD459B8C9F15D97": "ERewardIconFrameID::NewEnumerator0",
+        "ReplaceIconCaption_11_8D6C7FAB488B787840B4EA991AB84056": {
+          "Namespace": "",
+          "Key": "E11422C7492CEC7CD57228B23C3345CF",
+          "SourceString": " ",
+          "LocalizedString": " "
+        },
+        "SubCaption_17_ADAC392F4585582F02AED78C097BE449": {
+          "CultureInvariantString": null
+        },
+        "Title_21_5CD87E4540BD6979BA08B1A3516FD590": {
+          "Namespace": "",
+          "Key": "5AE1C2AB469EA44C65D19791797E465F",
+          "SourceString": "Avatar {partsname}",
+          "LocalizedString": "Avatar {partsname}"
+        },
+        "Detail_18_30F67F4341FAF3109709C483919AB18D": {
+          "Namespace": "",
+          "Key": "B35CA785439D827C7216DC9DB0900236",
+          "SourceString": "Reward description",
+          "LocalizedString": "Reward description"
+        },
+        "CategoryName_31_3C5342C74B1B17E7D86A7599C09D19C8": {
+          "Namespace": "",
+          "Key": "C51ACB794F466D1A8464C9AF902F29DC",
+          "SourceString": "Avatar",
+          "LocalizedString": "Avatar"
+        },
+        "RewardNameFormat_35_D47578024AC592ABAD1CD5BE544ED740": {
+          "Namespace": "",
+          "Key": "EBB966914B4993E4501DBFA8F61B1CE1",
+          "SourceString": "{partsname}",
+          "LocalizedString": "{partsname}"
+        }
+      },
+      "16": {
+        "RewardCategoryID_23_D591463E48E5C2FBCEB07D9ECA639B25": "ERewardCategoryID::AvatartBodyAccessory",
+        "IconTexture_5_B374551C4A6B5F9D2A3DA3B2BA2AC31F": {
+          "ObjectName": "Texture2D'T_Com_RewardIcon016'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/RewardIcon/Texture/T_Com_RewardIcon016.0"
+        },
+        "AvatarIconMID_26_547C4E2A4189354B64FA88BC1635CB6D": null,
+        "FrameID_8_1AC5EDC24FCF86ADEAD459B8C9F15D97": "ERewardIconFrameID::NewEnumerator0",
+        "ReplaceIconCaption_11_8D6C7FAB488B787840B4EA991AB84056": {
+          "Namespace": "",
+          "Key": "CE686C684356BCF84CE7B4975E46D62F",
+          "SourceString": " ",
+          "LocalizedString": " "
+        },
+        "SubCaption_17_ADAC392F4585582F02AED78C097BE449": {
+          "CultureInvariantString": null
+        },
+        "Title_21_5CD87E4540BD6979BA08B1A3516FD590": {
+          "Namespace": "",
+          "Key": "9D6BD915471046C5302C489747839169",
+          "SourceString": "Avatar {partsname}",
+          "LocalizedString": "Avatar {partsname}"
+        },
+        "Detail_18_30F67F4341FAF3109709C483919AB18D": {
+          "Namespace": "",
+          "Key": "B35CA785439D827C7216DC9DB0900236",
+          "SourceString": "Reward description",
+          "LocalizedString": "Reward description"
+        },
+        "CategoryName_31_3C5342C74B1B17E7D86A7599C09D19C8": {
+          "Namespace": "",
+          "Key": "501B68904FE5D5292768A0B8D81D2DCD",
+          "SourceString": "Avatar",
+          "LocalizedString": "Avatar"
+        },
+        "RewardNameFormat_35_D47578024AC592ABAD1CD5BE544ED740": {
+          "Namespace": "",
+          "Key": "B951488F40A94DCC89E91C81BC5C4229",
+          "SourceString": "{partsname}",
+          "LocalizedString": "{partsname}"
+        }
+      },
+      "17": {
+        "RewardCategoryID_23_D591463E48E5C2FBCEB07D9ECA639B25": "ERewardCategoryID::AvatartBehind",
+        "IconTexture_5_B374551C4A6B5F9D2A3DA3B2BA2AC31F": {
+          "ObjectName": "Texture2D'T_Com_RewardIcon017'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/RewardIcon/Texture/T_Com_RewardIcon017.0"
+        },
+        "AvatarIconMID_26_547C4E2A4189354B64FA88BC1635CB6D": null,
+        "FrameID_8_1AC5EDC24FCF86ADEAD459B8C9F15D97": "ERewardIconFrameID::NewEnumerator0",
+        "ReplaceIconCaption_11_8D6C7FAB488B787840B4EA991AB84056": {
+          "Namespace": "",
+          "Key": "DBF36B4A41E2F29D2E27DD8C26E4D54A",
+          "SourceString": " ",
+          "LocalizedString": " "
+        },
+        "SubCaption_17_ADAC392F4585582F02AED78C097BE449": {
+          "CultureInvariantString": null
+        },
+        "Title_21_5CD87E4540BD6979BA08B1A3516FD590": {
+          "Namespace": "",
+          "Key": "AAE2737349F005C23BFA20AD58E316BD",
+          "SourceString": "Avatar {partsname}",
+          "LocalizedString": "Avatar {partsname}"
+        },
+        "Detail_18_30F67F4341FAF3109709C483919AB18D": {
+          "Namespace": "",
+          "Key": "B35CA785439D827C7216DC9DB0900236",
+          "SourceString": "Reward description",
+          "LocalizedString": "Reward description"
+        },
+        "CategoryName_31_3C5342C74B1B17E7D86A7599C09D19C8": {
+          "Namespace": "",
+          "Key": "ED2357304FFFEE1A9F470FB71D5E8F8F",
+          "SourceString": "Avatar",
+          "LocalizedString": "Avatar"
+        },
+        "RewardNameFormat_35_D47578024AC592ABAD1CD5BE544ED740": {
+          "Namespace": "",
+          "Key": "E006BA2546D2AD2D6EFE29AA09571C20",
+          "SourceString": "{partsname}",
+          "LocalizedString": "{partsname}"
+        }
+      },
+      "18": {
+        "RewardCategoryID_23_D591463E48E5C2FBCEB07D9ECA639B25": "ERewardCategoryID::AvatartBG",
+        "IconTexture_5_B374551C4A6B5F9D2A3DA3B2BA2AC31F": {
+          "ObjectName": "Texture2D'T_Com_RewardIcon018'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/RewardIcon/Texture/T_Com_RewardIcon018.0"
+        },
+        "AvatarIconMID_26_547C4E2A4189354B64FA88BC1635CB6D": null,
+        "FrameID_8_1AC5EDC24FCF86ADEAD459B8C9F15D97": "ERewardIconFrameID::NewEnumerator0",
+        "ReplaceIconCaption_11_8D6C7FAB488B787840B4EA991AB84056": {
+          "Namespace": "",
+          "Key": "3F0AE753480E903619D66981A5F363B1",
+          "SourceString": " ",
+          "LocalizedString": " "
+        },
+        "SubCaption_17_ADAC392F4585582F02AED78C097BE449": {
+          "CultureInvariantString": null
+        },
+        "Title_21_5CD87E4540BD6979BA08B1A3516FD590": {
+          "Namespace": "",
+          "Key": "4EE93C9B43955C38A844C583E2FBF778",
+          "SourceString": "Avatar {partsname}",
+          "LocalizedString": "Avatar {partsname}"
+        },
+        "Detail_18_30F67F4341FAF3109709C483919AB18D": {
+          "Namespace": "",
+          "Key": "B35CA785439D827C7216DC9DB0900236",
+          "SourceString": "Reward description",
+          "LocalizedString": "Reward description"
+        },
+        "CategoryName_31_3C5342C74B1B17E7D86A7599C09D19C8": {
+          "Namespace": "",
+          "Key": "D1731B9A447B66C3DFBCD09E89F81643",
+          "SourceString": "Avatar",
+          "LocalizedString": "Avatar"
+        },
+        "RewardNameFormat_35_D47578024AC592ABAD1CD5BE544ED740": {
+          "Namespace": "",
+          "Key": "5C2D79664A2CE067132116B44C020AAF",
+          "SourceString": "{partsname}",
+          "LocalizedString": "{partsname}"
+        }
+      },
+      "19": {
+        "RewardCategoryID_23_D591463E48E5C2FBCEB07D9ECA639B25": "ERewardCategoryID::AvatartEffect",
+        "IconTexture_5_B374551C4A6B5F9D2A3DA3B2BA2AC31F": {
+          "ObjectName": "Texture2D'T_Com_RewardIcon019'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/RewardIcon/Texture/T_Com_RewardIcon019.0"
+        },
+        "AvatarIconMID_26_547C4E2A4189354B64FA88BC1635CB6D": null,
+        "FrameID_8_1AC5EDC24FCF86ADEAD459B8C9F15D97": "ERewardIconFrameID::NewEnumerator0",
+        "ReplaceIconCaption_11_8D6C7FAB488B787840B4EA991AB84056": {
+          "Namespace": "",
+          "Key": "B34E236F488164E00536BE9399D2E268",
+          "SourceString": " ",
+          "LocalizedString": " "
+        },
+        "SubCaption_17_ADAC392F4585582F02AED78C097BE449": {
+          "CultureInvariantString": null
+        },
+        "Title_21_5CD87E4540BD6979BA08B1A3516FD590": {
+          "Namespace": "",
+          "Key": "8DF4BED94FC9A8996959E2BD79537B25",
+          "SourceString": "Avatar {partsname}",
+          "LocalizedString": "Avatar {partsname}"
+        },
+        "Detail_18_30F67F4341FAF3109709C483919AB18D": {
+          "Namespace": "",
+          "Key": "B35CA785439D827C7216DC9DB0900236",
+          "SourceString": "Reward description",
+          "LocalizedString": "Reward description"
+        },
+        "CategoryName_31_3C5342C74B1B17E7D86A7599C09D19C8": {
+          "Namespace": "",
+          "Key": "50F9A5E94292330DA5ED8E9429419583",
+          "SourceString": "Avatar",
+          "LocalizedString": "Avatar"
+        },
+        "RewardNameFormat_35_D47578024AC592ABAD1CD5BE544ED740": {
+          "Namespace": "",
+          "Key": "ABB97F024487B4A7D76EA8BDD625C944",
+          "SourceString": "{partsname}",
+          "LocalizedString": "{partsname}"
+        }
+      },
+      "20": {
+        "RewardCategoryID_23_D591463E48E5C2FBCEB07D9ECA639B25": "ERewardCategoryID::AvatartSpecial",
+        "IconTexture_5_B374551C4A6B5F9D2A3DA3B2BA2AC31F": {
+          "ObjectName": "Texture2D'T_Com_RewardIcon020'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/RewardIcon/Texture/T_Com_RewardIcon020.0"
+        },
+        "AvatarIconMID_26_547C4E2A4189354B64FA88BC1635CB6D": null,
+        "FrameID_8_1AC5EDC24FCF86ADEAD459B8C9F15D97": "ERewardIconFrameID::NewEnumerator0",
+        "ReplaceIconCaption_11_8D6C7FAB488B787840B4EA991AB84056": {
+          "Namespace": "",
+          "Key": "B0A10CA5421A094168D7FCA0907ED883",
+          "SourceString": " ",
+          "LocalizedString": " "
+        },
+        "SubCaption_17_ADAC392F4585582F02AED78C097BE449": {
+          "CultureInvariantString": null
+        },
+        "Title_21_5CD87E4540BD6979BA08B1A3516FD590": {
+          "Namespace": "",
+          "Key": "7C04A3604D901F55718E4780C244B41F",
+          "SourceString": "Avatar {partsname}",
+          "LocalizedString": "Avatar {partsname}"
+        },
+        "Detail_18_30F67F4341FAF3109709C483919AB18D": {
+          "Namespace": "",
+          "Key": "B35CA785439D827C7216DC9DB0900236",
+          "SourceString": "Reward description",
+          "LocalizedString": "Reward description"
+        },
+        "CategoryName_31_3C5342C74B1B17E7D86A7599C09D19C8": {
+          "Namespace": "",
+          "Key": "0F6F2CFE486B95613D1CF1993276B6A1",
+          "SourceString": "Avatar",
+          "LocalizedString": "Avatar"
+        },
+        "RewardNameFormat_35_D47578024AC592ABAD1CD5BE544ED740": {
+          "Namespace": "",
+          "Key": "B9598C4A48F9AFE0FA57BEAD46E6383A",
+          "SourceString": "{partsname}",
+          "LocalizedString": "{partsname}"
+        }
+      },
+      "21": {
+        "RewardCategoryID_23_D591463E48E5C2FBCEB07D9ECA639B25": "ERewardCategoryID::ChatStamp",
+        "IconTexture_5_B374551C4A6B5F9D2A3DA3B2BA2AC31F": {
+          "ObjectName": "Texture2D'T_Com_RewardIcon021'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/RewardIcon/Texture/T_Com_RewardIcon021.0"
+        },
+        "AvatarIconMID_26_547C4E2A4189354B64FA88BC1635CB6D": null,
+        "FrameID_8_1AC5EDC24FCF86ADEAD459B8C9F15D97": "ERewardIconFrameID::NewEnumerator0",
+        "ReplaceIconCaption_11_8D6C7FAB488B787840B4EA991AB84056": {
+          "Namespace": "",
+          "Key": "B4E284B5438C61D44DB0D7974B0D6709",
+          "SourceString": " ",
+          "LocalizedString": " "
+        },
+        "SubCaption_17_ADAC392F4585582F02AED78C097BE449": {
+          "CultureInvariantString": null
+        },
+        "Title_21_5CD87E4540BD6979BA08B1A3516FD590": {
+          "Namespace": "",
+          "Key": "0A71FB1B4971A9BC092F2E829DCB11EF",
+          "SourceString": "Chat Stamp {partsname}",
+          "LocalizedString": "Chat Stamp {partsname}"
+        },
+        "Detail_18_30F67F4341FAF3109709C483919AB18D": {
+          "Namespace": "",
+          "Key": "B35CA785439D827C7216DC9DB0900236",
+          "SourceString": "Reward description",
+          "LocalizedString": "Reward description"
+        },
+        "CategoryName_31_3C5342C74B1B17E7D86A7599C09D19C8": {
+          "Namespace": "",
+          "Key": "9D04DB0F49AD8EAC9BD66F8AE2FAEA20",
+          "SourceString": "Chat Stamp",
+          "LocalizedString": "Chat Stamp"
+        },
+        "RewardNameFormat_35_D47578024AC592ABAD1CD5BE544ED740": {
+          "Namespace": "",
+          "Key": "78F0E3B34CAEECA045FD828AEA3F9CA8",
+          "SourceString": "{partsname}",
+          "LocalizedString": "{partsname}"
+        }
+      },
+      "22": {
+        "RewardCategoryID_23_D591463E48E5C2FBCEB07D9ECA639B25": "ERewardCategoryID::MirrorAccessory",
+        "IconTexture_5_B374551C4A6B5F9D2A3DA3B2BA2AC31F": {
+          "ObjectName": "Texture2D'T_Com_RewardIcon022'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/RewardIcon/Texture/T_Com_RewardIcon022.0"
+        },
+        "AvatarIconMID_26_547C4E2A4189354B64FA88BC1635CB6D": null,
+        "FrameID_8_1AC5EDC24FCF86ADEAD459B8C9F15D97": "ERewardIconFrameID::NewEnumerator0",
+        "ReplaceIconCaption_11_8D6C7FAB488B787840B4EA991AB84056": {
+          "Namespace": "",
+          "Key": "9ED95A9044D014FAB839E592D0C983E8",
+          "SourceString": " ",
+          "LocalizedString": " "
+        },
+        "SubCaption_17_ADAC392F4585582F02AED78C097BE449": {
+          "CultureInvariantString": null
+        },
+        "Title_21_5CD87E4540BD6979BA08B1A3516FD590": {
+          "Namespace": "",
+          "Key": "C554FEEB4A5F30B625C68EBD27489291",
+          "SourceString": "Mirror Accessory {partsname}",
+          "LocalizedString": "Mirror Accessory {partsname}"
+        },
+        "Detail_18_30F67F4341FAF3109709C483919AB18D": {
+          "Namespace": "",
+          "Key": "B35CA785439D827C7216DC9DB0900236",
+          "SourceString": "Reward description",
+          "LocalizedString": "Reward description"
+        },
+        "CategoryName_31_3C5342C74B1B17E7D86A7599C09D19C8": {
+          "Namespace": "",
+          "Key": "83A9F5C94ACF467B4D47F1852E967783",
+          "SourceString": "Mirror Accessory",
+          "LocalizedString": "Mirror Accessory"
+        },
+        "RewardNameFormat_35_D47578024AC592ABAD1CD5BE544ED740": {
+          "Namespace": "",
+          "Key": "50EBD132441B3776412E839ACE9FC52C",
+          "SourceString": "{partsname}",
+          "LocalizedString": "{partsname}"
+        }
+      },
+      "23": {
+        "RewardCategoryID_23_D591463E48E5C2FBCEB07D9ECA639B25": "ERewardCategoryID::RaceCutin",
+        "IconTexture_5_B374551C4A6B5F9D2A3DA3B2BA2AC31F": {
+          "ObjectName": "Texture2D'T_Com_RewardIcon023'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/RewardIcon/Texture/T_Com_RewardIcon023.0"
+        },
+        "AvatarIconMID_26_547C4E2A4189354B64FA88BC1635CB6D": null,
+        "FrameID_8_1AC5EDC24FCF86ADEAD459B8C9F15D97": "ERewardIconFrameID::NewEnumerator0",
+        "ReplaceIconCaption_11_8D6C7FAB488B787840B4EA991AB84056": {
+          "Namespace": "",
+          "Key": "85128CB44581B111429A41B96760A418",
+          "SourceString": " ",
+          "LocalizedString": " "
+        },
+        "SubCaption_17_ADAC392F4585582F02AED78C097BE449": {
+          "CultureInvariantString": null
+        },
+        "Title_21_5CD87E4540BD6979BA08B1A3516FD590": {
+          "Namespace": "",
+          "Key": "CF32C35048336F55A0F6EEB172139C06",
+          "SourceString": "Race Cut-In {partsname}",
+          "LocalizedString": "Race Cut-In {partsname}"
+        },
+        "Detail_18_30F67F4341FAF3109709C483919AB18D": {
+          "Namespace": "",
+          "Key": "B35CA785439D827C7216DC9DB0900236",
+          "SourceString": "Reward description",
+          "LocalizedString": "Reward description"
+        },
+        "CategoryName_31_3C5342C74B1B17E7D86A7599C09D19C8": {
+          "Namespace": "",
+          "Key": "807A084142A032A42DA24FBF0F0EF610",
+          "SourceString": "Race Cut-In",
+          "LocalizedString": "Race Cut-In"
+        },
+        "RewardNameFormat_35_D47578024AC592ABAD1CD5BE544ED740": {
+          "Namespace": "",
+          "Key": "933AA1DB481C131699C53994EE6F36C5",
+          "SourceString": "{partsname}",
+          "LocalizedString": "{partsname}"
+        }
+      },
+      "24": {
+        "RewardCategoryID_23_D591463E48E5C2FBCEB07D9ECA639B25": "ERewardCategoryID::Title",
+        "IconTexture_5_B374551C4A6B5F9D2A3DA3B2BA2AC31F": {
+          "ObjectName": "Texture2D'T_Com_RewardIcon024'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/RewardIcon/Texture/T_Com_RewardIcon024.0"
+        },
+        "AvatarIconMID_26_547C4E2A4189354B64FA88BC1635CB6D": null,
+        "FrameID_8_1AC5EDC24FCF86ADEAD459B8C9F15D97": "ERewardIconFrameID::NewEnumerator0",
+        "ReplaceIconCaption_11_8D6C7FAB488B787840B4EA991AB84056": {
+          "Namespace": "",
+          "Key": "2EC97E4C494D17613A3A748EC7905A0B",
+          "SourceString": " ",
+          "LocalizedString": " "
+        },
+        "SubCaption_17_ADAC392F4585582F02AED78C097BE449": {
+          "CultureInvariantString": null
+        },
+        "Title_21_5CD87E4540BD6979BA08B1A3516FD590": {
+          "Namespace": "",
+          "Key": "EE4434EA406846C5F118308F00E76A8F",
+          "SourceString": "Title {partsname}",
+          "LocalizedString": "Title {partsname}"
+        },
+        "Detail_18_30F67F4341FAF3109709C483919AB18D": {
+          "Namespace": "",
+          "Key": "B35CA785439D827C7216DC9DB0900236",
+          "SourceString": "Reward description",
+          "LocalizedString": "Reward description"
+        },
+        "CategoryName_31_3C5342C74B1B17E7D86A7599C09D19C8": {
+          "Namespace": "",
+          "Key": "8DBE51D4457119DFC01E37BC12BE8107",
+          "SourceString": "Title",
+          "LocalizedString": "Title"
+        },
+        "RewardNameFormat_35_D47578024AC592ABAD1CD5BE544ED740": {
+          "Namespace": "",
+          "Key": "09EC56D24F79E486AF75EB84109F9D96",
+          "SourceString": "{partsname}",
+          "LocalizedString": "{partsname}"
+        }
+      },
+      "25": {
+        "RewardCategoryID_23_D591463E48E5C2FBCEB07D9ECA639B25": "ERewardCategoryID::FullTuneCarTicket",
+        "IconTexture_5_B374551C4A6B5F9D2A3DA3B2BA2AC31F": {
+          "ObjectName": "Texture2D'T_Com_RewardIcon025'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/RewardIcon/Texture/T_Com_RewardIcon025.0"
+        },
+        "AvatarIconMID_26_547C4E2A4189354B64FA88BC1635CB6D": null,
+        "FrameID_8_1AC5EDC24FCF86ADEAD459B8C9F15D97": "ERewardIconFrameID::NewEnumerator0",
+        "ReplaceIconCaption_11_8D6C7FAB488B787840B4EA991AB84056": {
+          "CultureInvariantString": null
+        },
+        "SubCaption_17_ADAC392F4585582F02AED78C097BE449": {
+          "CultureInvariantString": null
+        },
+        "Title_21_5CD87E4540BD6979BA08B1A3516FD590": {
+          "Namespace": "",
+          "Key": "2D14E46348E16ACB87C7E39F91E67F3B",
+          "SourceString": "Full-Tune Car Purchase Ticket {num} tickets",
+          "LocalizedString": "Full-Tune Car Purchase Ticket {num} tickets"
+        },
+        "Detail_18_30F67F4341FAF3109709C483919AB18D": {
+          "Namespace": "",
+          "Key": "B35CA785439D827C7216DC9DB0900236",
+          "SourceString": "Reward description",
+          "LocalizedString": "Reward description"
+        },
+        "CategoryName_31_3C5342C74B1B17E7D86A7599C09D19C8": {
+          "Namespace": "",
+          "Key": "C061BD4E4C6408F135455CB2133B6537",
+          "SourceString": "Full-Tune Car Purchase Ticket",
+          "LocalizedString": "Full-Tune Car Purchase Ticket"
+        },
+        "RewardNameFormat_35_D47578024AC592ABAD1CD5BE544ED740": {
+          "Namespace": "",
+          "Key": "BB83D99B426323F957558295D5C51AD0",
+          "SourceString": "{num} tickets",
+          "LocalizedString": "{num} tickets"
+        }
+      },
+      "26": {
+        "RewardCategoryID_23_D591463E48E5C2FBCEB07D9ECA639B25": "ERewardCategoryID::PaperCup",
+        "IconTexture_5_B374551C4A6B5F9D2A3DA3B2BA2AC31F": {
+          "ObjectName": "Texture2D'T_Com_RewardIcon026'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/RewardIcon/Texture/T_Com_RewardIcon026.0"
+        },
+        "AvatarIconMID_26_547C4E2A4189354B64FA88BC1635CB6D": null,
+        "FrameID_8_1AC5EDC24FCF86ADEAD459B8C9F15D97": "ERewardIconFrameID::NewEnumerator0",
+        "ReplaceIconCaption_11_8D6C7FAB488B787840B4EA991AB84056": {
+          "Namespace": "",
+          "Key": "2D09651C45E4857F92720FBC56716E76",
+          "SourceString": " ",
+          "LocalizedString": " "
+        },
+        "SubCaption_17_ADAC392F4585582F02AED78C097BE449": {
+          "CultureInvariantString": null
+        },
+        "Title_21_5CD87E4540BD6979BA08B1A3516FD590": {
+          "Namespace": "",
+          "Key": "C60029ED4FEA0D23758E37A2AC130B39",
+          "SourceString": "Paper Cup {partsname}",
+          "LocalizedString": "Paper Cup {partsname}"
+        },
+        "Detail_18_30F67F4341FAF3109709C483919AB18D": {
+          "Namespace": "",
+          "Key": "B35CA785439D827C7216DC9DB0900236",
+          "SourceString": "Reward description",
+          "LocalizedString": "Reward description"
+        },
+        "CategoryName_31_3C5342C74B1B17E7D86A7599C09D19C8": {
+          "Namespace": "",
+          "Key": "9A7925164D0B5E43451EA396D73331C3",
+          "SourceString": "Paper Cup",
+          "LocalizedString": "Paper Cup"
+        },
+        "RewardNameFormat_35_D47578024AC592ABAD1CD5BE544ED740": {
+          "Namespace": "",
+          "Key": "ED58E821442E439CD69DB29D7BE63934",
+          "SourceString": "{partsname}",
+          "LocalizedString": "{partsname}"
+        }
+      },
+      "27": {
+        "RewardCategoryID_23_D591463E48E5C2FBCEB07D9ECA639B25": "ERewardCategoryID::BGM",
+        "IconTexture_5_B374551C4A6B5F9D2A3DA3B2BA2AC31F": {
+          "ObjectName": "Texture2D'T_Com_RewardIcon027'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/RewardIcon/Texture/T_Com_RewardIcon027.0"
+        },
+        "AvatarIconMID_26_547C4E2A4189354B64FA88BC1635CB6D": null,
+        "FrameID_8_1AC5EDC24FCF86ADEAD459B8C9F15D97": "ERewardIconFrameID::NewEnumerator0",
+        "ReplaceIconCaption_11_8D6C7FAB488B787840B4EA991AB84056": {
+          "CultureInvariantString": null
+        },
+        "SubCaption_17_ADAC392F4585582F02AED78C097BE449": {
+          "CultureInvariantString": null
+        },
+        "Title_21_5CD87E4540BD6979BA08B1A3516FD590": {
+          "Namespace": "",
+          "Key": "4638C76D4D165E3506EA8385028870F9",
+          "SourceString": "BGM {partsname}",
+          "LocalizedString": "BGM {partsname}"
+        },
+        "Detail_18_30F67F4341FAF3109709C483919AB18D": {
+          "Namespace": "",
+          "Key": "B35CA785439D827C7216DC9DB0900236",
+          "SourceString": "Reward description",
+          "LocalizedString": "Reward description"
+        },
+        "CategoryName_31_3C5342C74B1B17E7D86A7599C09D19C8": {
+          "Namespace": "",
+          "Key": "9505F3174D533EBA50A0BAB16E4AE65E",
+          "SourceString": "BGM",
+          "LocalizedString": "BGM"
+        },
+        "RewardNameFormat_35_D47578024AC592ABAD1CD5BE544ED740": {
+          "Namespace": "",
+          "Key": "A27635344B39DDA5997FCAA1A4ED6B44",
+          "SourceString": "{partsname}",
+          "LocalizedString": "{partsname}"
+        }
+      },
+      "28": {
+        "RewardCategoryID_23_D591463E48E5C2FBCEB07D9ECA639B25": "ERewardCategoryID::MatchingOnomatopoeia",
+        "IconTexture_5_B374551C4A6B5F9D2A3DA3B2BA2AC31F": {
+          "ObjectName": "Texture2D'T_Com_RewardIcon028'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/RewardIcon/Texture/T_Com_RewardIcon028.0"
+        },
+        "AvatarIconMID_26_547C4E2A4189354B64FA88BC1635CB6D": null,
+        "FrameID_8_1AC5EDC24FCF86ADEAD459B8C9F15D97": "ERewardIconFrameID::NewEnumerator0",
+        "ReplaceIconCaption_11_8D6C7FAB488B787840B4EA991AB84056": {
+          "Namespace": "",
+          "Key": "A84966AF48CDF44DF4D82BB8430BAA31",
+          "SourceString": " ",
+          "LocalizedString": " "
+        },
+        "SubCaption_17_ADAC392F4585582F02AED78C097BE449": {
+          "CultureInvariantString": null
+        },
+        "Title_21_5CD87E4540BD6979BA08B1A3516FD590": {
+          "Namespace": "",
+          "Key": "7B2587A64E4F95CFE2B32F8F491D3FFF",
+          "SourceString": "Matching Onomatopoeia {partsname}",
+          "LocalizedString": "Matching Onomatopoeia {partsname}"
+        },
+        "Detail_18_30F67F4341FAF3109709C483919AB18D": {
+          "Namespace": "",
+          "Key": "B35CA785439D827C7216DC9DB0900236",
+          "SourceString": "Reward description",
+          "LocalizedString": "Reward description"
+        },
+        "CategoryName_31_3C5342C74B1B17E7D86A7599C09D19C8": {
+          "Namespace": "",
+          "Key": "B57C29984925FD664B8F1BA2242A17DF",
+          "SourceString": "Matching Onomatopoeia",
+          "LocalizedString": "Matching Onomatopoeia"
+        },
+        "RewardNameFormat_35_D47578024AC592ABAD1CD5BE544ED740": {
+          "Namespace": "",
+          "Key": "68886ED84D0412D5047DF0932C96CBF2",
+          "SourceString": "{partsname}",
+          "LocalizedString": "{partsname}"
+        }
+      },
+      "29": {
+        "RewardCategoryID_23_D591463E48E5C2FBCEB07D9ECA639B25": "ERewardCategoryID::StartCameraOnomatopoeia",
+        "IconTexture_5_B374551C4A6B5F9D2A3DA3B2BA2AC31F": {
+          "ObjectName": "Texture2D'T_Com_RewardIcon029'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/RewardIcon/Texture/T_Com_RewardIcon029.0"
+        },
+        "AvatarIconMID_26_547C4E2A4189354B64FA88BC1635CB6D": null,
+        "FrameID_8_1AC5EDC24FCF86ADEAD459B8C9F15D97": "ERewardIconFrameID::NewEnumerator0",
+        "ReplaceIconCaption_11_8D6C7FAB488B787840B4EA991AB84056": {
+          "Namespace": "",
+          "Key": "271BC4B54DE53334CAAA278A49E5939A",
+          "SourceString": " ",
+          "LocalizedString": " "
+        },
+        "SubCaption_17_ADAC392F4585582F02AED78C097BE449": {
+          "CultureInvariantString": null
+        },
+        "Title_21_5CD87E4540BD6979BA08B1A3516FD590": {
+          "Namespace": "",
+          "Key": "572606674C0261D16AE2E1801E32739C",
+          "SourceString": "Car Entrance Onomatopoeia {partsname}",
+          "LocalizedString": "Car Entrance Onomatopoeia {partsname}"
+        },
+        "Detail_18_30F67F4341FAF3109709C483919AB18D": {
+          "Namespace": "",
+          "Key": "B35CA785439D827C7216DC9DB0900236",
+          "SourceString": "Reward description",
+          "LocalizedString": "Reward description"
+        },
+        "CategoryName_31_3C5342C74B1B17E7D86A7599C09D19C8": {
+          "Namespace": "",
+          "Key": "0174714F492EC49C5542BF8EB64C32F7",
+          "SourceString": "Car Entrance Onomatopoeia",
+          "LocalizedString": "Car Entrance Onomatopoeia"
+        },
+        "RewardNameFormat_35_D47578024AC592ABAD1CD5BE544ED740": {
+          "Namespace": "",
+          "Key": "1885AD8E42F41B5935B75AB600706B48",
+          "SourceString": "{partsname}",
+          "LocalizedString": "{partsname}"
+        }
+      },
+      "30": {
+        "RewardCategoryID_23_D591463E48E5C2FBCEB07D9ECA639B25": "ERewardCategoryID::RaceOnomatopoeia",
+        "IconTexture_5_B374551C4A6B5F9D2A3DA3B2BA2AC31F": {
+          "ObjectName": "Texture2D'T_Com_RewardIcon030'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/RewardIcon/Texture/T_Com_RewardIcon030.0"
+        },
+        "AvatarIconMID_26_547C4E2A4189354B64FA88BC1635CB6D": null,
+        "FrameID_8_1AC5EDC24FCF86ADEAD459B8C9F15D97": "ERewardIconFrameID::NewEnumerator0",
+        "ReplaceIconCaption_11_8D6C7FAB488B787840B4EA991AB84056": {
+          "Namespace": "",
+          "Key": "BF768A344D34A8D05355B7BC0B3E2EFA",
+          "SourceString": " ",
+          "LocalizedString": " "
+        },
+        "SubCaption_17_ADAC392F4585582F02AED78C097BE449": {
+          "CultureInvariantString": null
+        },
+        "Title_21_5CD87E4540BD6979BA08B1A3516FD590": {
+          "Namespace": "",
+          "Key": "9CA112B94502EA74313BE8B8967B3FE4",
+          "SourceString": "Race Onomatopoeia {partsname}",
+          "LocalizedString": "Race Onomatopoeia {partsname}"
+        },
+        "Detail_18_30F67F4341FAF3109709C483919AB18D": {
+          "Namespace": "",
+          "Key": "B35CA785439D827C7216DC9DB0900236",
+          "SourceString": "Reward description",
+          "LocalizedString": "Reward description"
+        },
+        "CategoryName_31_3C5342C74B1B17E7D86A7599C09D19C8": {
+          "Namespace": "",
+          "Key": "3789F84545DEC67E64205AA869EBB4A1",
+          "SourceString": "Race Onomatopoeia",
+          "LocalizedString": "Race Onomatopoeia"
+        },
+        "RewardNameFormat_35_D47578024AC592ABAD1CD5BE544ED740": {
+          "Namespace": "",
+          "Key": "EC60DF1247369E7A4B077DA72265AE7C",
+          "SourceString": "{partsname}",
+          "LocalizedString": "{partsname}"
+        }
+      },
+      "31": {
+        "RewardCategoryID_23_D591463E48E5C2FBCEB07D9ECA639B25": "ERewardCategoryID::StartMenuBG",
+        "IconTexture_5_B374551C4A6B5F9D2A3DA3B2BA2AC31F": {
+          "ObjectName": "Texture2D'T_Com_RewardIcon031'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/RewardIcon/Texture/T_Com_RewardIcon031.0"
+        },
+        "AvatarIconMID_26_547C4E2A4189354B64FA88BC1635CB6D": null,
+        "FrameID_8_1AC5EDC24FCF86ADEAD459B8C9F15D97": "ERewardIconFrameID::NewEnumerator0",
+        "ReplaceIconCaption_11_8D6C7FAB488B787840B4EA991AB84056": {
+          "Namespace": "",
+          "Key": "761781E64285C8671CC273BCD291EC5E",
+          "SourceString": " ",
+          "LocalizedString": " "
+        },
+        "SubCaption_17_ADAC392F4585582F02AED78C097BE449": {
+          "CultureInvariantString": null
+        },
+        "Title_21_5CD87E4540BD6979BA08B1A3516FD590": {
+          "Namespace": "",
+          "Key": "14E7FFFA40077E6B65DB99B5216CF070",
+          "SourceString": "Menu Background {partsname}",
+          "LocalizedString": "Menu Background {partsname}"
+        },
+        "Detail_18_30F67F4341FAF3109709C483919AB18D": {
+          "Namespace": "",
+          "Key": "B35CA785439D827C7216DC9DB0900236",
+          "SourceString": "Reward description",
+          "LocalizedString": "Reward description"
+        },
+        "CategoryName_31_3C5342C74B1B17E7D86A7599C09D19C8": {
+          "Namespace": "",
+          "Key": "725BF8DF49D899901A2F9A832EB87A54",
+          "SourceString": "Menu Background",
+          "LocalizedString": "Menu Background"
+        },
+        "RewardNameFormat_35_D47578024AC592ABAD1CD5BE544ED740": {
+          "Namespace": "",
+          "Key": "CA70ED4D43C031A71D6ECB9E445BB4AF",
+          "SourceString": "{partsname}",
+          "LocalizedString": "{partsname}"
+        }
+      },
+      "32": {
+        "RewardCategoryID_23_D591463E48E5C2FBCEB07D9ECA639B25": "ERewardCategoryID::CarBodyDxColor",
+        "IconTexture_5_B374551C4A6B5F9D2A3DA3B2BA2AC31F": {
+          "ObjectName": "Texture2D'T_Com_RewardIcon032'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/RewardIcon/Texture/T_Com_RewardIcon032.0"
+        },
+        "AvatarIconMID_26_547C4E2A4189354B64FA88BC1635CB6D": null,
+        "FrameID_8_1AC5EDC24FCF86ADEAD459B8C9F15D97": "ERewardIconFrameID::NewEnumerator0",
+        "ReplaceIconCaption_11_8D6C7FAB488B787840B4EA991AB84056": {
+          "Namespace": "",
+          "Key": "4FB513A843EB72E076B8D28153362F00",
+          "SourceString": " ",
+          "LocalizedString": " "
+        },
+        "SubCaption_17_ADAC392F4585582F02AED78C097BE449": {
+          "CultureInvariantString": null
+        },
+        "Title_21_5CD87E4540BD6979BA08B1A3516FD590": {
+          "Namespace": "",
+          "Key": "969079B3403D66A9B4BBA2A2838C315D",
+          "SourceString": "Body Color {partsname}",
+          "LocalizedString": "Body Color {partsname}"
+        },
+        "Detail_18_30F67F4341FAF3109709C483919AB18D": {
+          "Namespace": "",
+          "Key": "B35CA785439D827C7216DC9DB0900236",
+          "SourceString": "Reward description",
+          "LocalizedString": "Reward description"
+        },
+        "CategoryName_31_3C5342C74B1B17E7D86A7599C09D19C8": {
+          "Namespace": "",
+          "Key": "D5637B1D4EC0952BD6C51C9BEC33C505",
+          "SourceString": "Body Color",
+          "LocalizedString": "Body Color"
+        },
+        "RewardNameFormat_35_D47578024AC592ABAD1CD5BE544ED740": {
+          "Namespace": "",
+          "Key": "3358EAE446B431F6B735A7B6824A5EE9",
+          "SourceString": "{partsname}",
+          "LocalizedString": "{partsname}"
+        }
+      },
+      "33": {
+        "RewardCategoryID_23_D591463E48E5C2FBCEB07D9ECA639B25": "ERewardCategoryID::AuraLine",
+        "IconTexture_5_B374551C4A6B5F9D2A3DA3B2BA2AC31F": {
+          "ObjectName": "Texture2D'T_Com_RewardIcon033'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/RewardIcon/Texture/T_Com_RewardIcon033.0"
+        },
+        "AvatarIconMID_26_547C4E2A4189354B64FA88BC1635CB6D": null,
+        "FrameID_8_1AC5EDC24FCF86ADEAD459B8C9F15D97": "ERewardIconFrameID::NewEnumerator0",
+        "ReplaceIconCaption_11_8D6C7FAB488B787840B4EA991AB84056": {
+          "Namespace": "",
+          "Key": "D769022E45CA096A5981A9B4770686D3",
+          "SourceString": " ",
+          "LocalizedString": " "
+        },
+        "SubCaption_17_ADAC392F4585582F02AED78C097BE449": {
+          "CultureInvariantString": null
+        },
+        "Title_21_5CD87E4540BD6979BA08B1A3516FD590": {
+          "Namespace": "",
+          "Key": "364D10B3499FCB25941D60984844D892",
+          "SourceString": "AuraLevel{num}",
+          "LocalizedString": "AuraLevel{num}"
+        },
+        "Detail_18_30F67F4341FAF3109709C483919AB18D": {
+          "Namespace": "",
+          "Key": "B35CA785439D827C7216DC9DB0900236",
+          "SourceString": "Reward description",
+          "LocalizedString": "Reward description"
+        },
+        "CategoryName_31_3C5342C74B1B17E7D86A7599C09D19C8": {
+          "Namespace": "",
+          "Key": "4C713B2B4597EF83ED0B38910DFB523A",
+          "SourceString": "Aura",
+          "LocalizedString": "Aura"
+        },
+        "RewardNameFormat_35_D47578024AC592ABAD1CD5BE544ED740": {
+          "Namespace": "",
+          "Key": "7AB5CD5C4383D0761C867EA5AF032C50",
+          "SourceString": "Level{num}",
+          "LocalizedString": "Level{num}"
+        }
+      },
+      "34": {
+        "RewardCategoryID_23_D591463E48E5C2FBCEB07D9ECA639B25": "ERewardCategoryID::FullTuneCarFragmentTicket",
+        "IconTexture_5_B374551C4A6B5F9D2A3DA3B2BA2AC31F": {
+          "ObjectName": "Texture2D'T_Com_RewardIcon034'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/RewardIcon/Texture/T_Com_RewardIcon034.0"
+        },
+        "AvatarIconMID_26_547C4E2A4189354B64FA88BC1635CB6D": null,
+        "FrameID_8_1AC5EDC24FCF86ADEAD459B8C9F15D97": "ERewardIconFrameID::NewEnumerator0",
+        "ReplaceIconCaption_11_8D6C7FAB488B787840B4EA991AB84056": {
+          "CultureInvariantString": null
+        },
+        "SubCaption_17_ADAC392F4585582F02AED78C097BE449": {
+          "CultureInvariantString": null
+        },
+        "Title_21_5CD87E4540BD6979BA08B1A3516FD590": {
+          "Namespace": "",
+          "Key": "290EBB564BE163A2CB2B44B384FA3CEA",
+          "SourceString": "Full-Tune Car Purchase Ticket Fragment {num} tickets",
+          "LocalizedString": "Full-Tune Car Purchase Ticket Fragment {num} tickets"
+        },
+        "Detail_18_30F67F4341FAF3109709C483919AB18D": {
+          "Namespace": "",
+          "Key": "B35CA785439D827C7216DC9DB0900236",
+          "SourceString": "Reward description",
+          "LocalizedString": "Reward description"
+        },
+        "CategoryName_31_3C5342C74B1B17E7D86A7599C09D19C8": {
+          "Namespace": "",
+          "Key": "9AC74AC242F244B6257608A2389609BD",
+          "SourceString": "Full-Tune Car Purchase Ticket Fragment",
+          "LocalizedString": "Full-Tune Car Purchase Ticket Fragment"
+        },
+        "RewardNameFormat_35_D47578024AC592ABAD1CD5BE544ED740": {
+          "Namespace": "",
+          "Key": "AD1E9F2040A47EA5F5172C8C5D7232A2",
+          "SourceString": "{num} tickets",
+          "LocalizedString": "{num} tickets"
+        }
+      },
+      "35": {
+        "RewardCategoryID_23_D591463E48E5C2FBCEB07D9ECA639B25": "ERewardCategoryID::Liminous",
+        "IconTexture_5_B374551C4A6B5F9D2A3DA3B2BA2AC31F": {
+          "ObjectName": "Texture2D'T_Com_RewardIcon035'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/RewardIcon/Texture/T_Com_RewardIcon035.0"
+        },
+        "AvatarIconMID_26_547C4E2A4189354B64FA88BC1635CB6D": null,
+        "FrameID_8_1AC5EDC24FCF86ADEAD459B8C9F15D97": "ERewardIconFrameID::NewEnumerator0",
+        "ReplaceIconCaption_11_8D6C7FAB488B787840B4EA991AB84056": {
+          "Namespace": "",
+          "Key": "ECF27709457B105DFA951C8A42D32460",
+          "SourceString": " ",
+          "LocalizedString": " "
+        },
+        "SubCaption_17_ADAC392F4585582F02AED78C097BE449": {
+          "CultureInvariantString": null
+        },
+        "Title_21_5CD87E4540BD6979BA08B1A3516FD590": {
+          "Namespace": "",
+          "Key": "D316A75149D915A140F704B8D44526E1",
+          "SourceString": "Luminous Parts {partsname}",
+          "LocalizedString": "Luminous Parts {partsname}"
+        },
+        "Detail_18_30F67F4341FAF3109709C483919AB18D": {
+          "Namespace": "",
+          "Key": "B35CA785439D827C7216DC9DB0900236",
+          "SourceString": "Reward description",
+          "LocalizedString": "Reward description"
+        },
+        "CategoryName_31_3C5342C74B1B17E7D86A7599C09D19C8": {
+          "Namespace": "",
+          "Key": "054D0A1B4D5014F3037B12862216B6D8",
+          "SourceString": "Luminous Parts",
+          "LocalizedString": "Luminous Parts"
+        },
+        "RewardNameFormat_35_D47578024AC592ABAD1CD5BE544ED740": {
+          "Namespace": "",
+          "Key": "0CB91F6B4F8D01CFBA69CEB418EB186B",
+          "SourceString": "{partsname}",
+          "LocalizedString": "{partsname}"
+        }
+      },
+      "36": {
+        "RewardCategoryID_23_D591463E48E5C2FBCEB07D9ECA639B25": "ERewardCategoryID::TeamLogo",
+        "IconTexture_5_B374551C4A6B5F9D2A3DA3B2BA2AC31F": {
+          "ObjectName": "Texture2D'T_Com_RewardIcon036'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/RewardIcon/Texture/T_Com_RewardIcon036.0"
+        },
+        "AvatarIconMID_26_547C4E2A4189354B64FA88BC1635CB6D": null,
+        "FrameID_8_1AC5EDC24FCF86ADEAD459B8C9F15D97": "ERewardIconFrameID::NewEnumerator5",
+        "ReplaceIconCaption_11_8D6C7FAB488B787840B4EA991AB84056": {
+          "CultureInvariantString": null
+        },
+        "SubCaption_17_ADAC392F4585582F02AED78C097BE449": {
+          "CultureInvariantString": null
+        },
+        "Title_21_5CD87E4540BD6979BA08B1A3516FD590": {
+          "Namespace": "",
+          "Key": "C01CF60042CDE34B7F816F800E14E809",
+          "SourceString": "Team Sticker {partsname}",
+          "LocalizedString": "Team Sticker {partsname}"
+        },
+        "Detail_18_30F67F4341FAF3109709C483919AB18D": {
+          "Namespace": "",
+          "Key": "B35CA785439D827C7216DC9DB0900236",
+          "SourceString": "Reward description",
+          "LocalizedString": "Reward description"
+        },
+        "CategoryName_31_3C5342C74B1B17E7D86A7599C09D19C8": {
+          "Namespace": "",
+          "Key": "C5299A9F40640CFA1631FA9AB2C2322C",
+          "SourceString": "Team Sticker",
+          "LocalizedString": "Team Sticker"
+        },
+        "RewardNameFormat_35_D47578024AC592ABAD1CD5BE544ED740": {
+          "Namespace": "",
+          "Key": "5BE9481B4041333B3BB940A9E89E192F",
+          "SourceString": "{partsname}",
+          "LocalizedString": "{partsname}"
+        }
+      },
+      "37": {
+        "RewardCategoryID_23_D591463E48E5C2FBCEB07D9ECA639B25": "ERewardCategoryID::Invalid",
+        "IconTexture_5_B374551C4A6B5F9D2A3DA3B2BA2AC31F": {
+          "ObjectName": "Texture2D'T_Com_RewardIcon037'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/RewardIcon/Texture/T_Com_RewardIcon037.0"
+        },
+        "AvatarIconMID_26_547C4E2A4189354B64FA88BC1635CB6D": null,
+        "FrameID_8_1AC5EDC24FCF86ADEAD459B8C9F15D97": "ERewardIconFrameID::NewEnumerator0",
+        "ReplaceIconCaption_11_8D6C7FAB488B787840B4EA991AB84056": {
+          "Namespace": "",
+          "Key": "E70CDB834C765B8FD99B97BE39F01006",
+          "SourceString": "Description for the replaceable icon at the top left (hidden if empty)",
+          "LocalizedString": "Description for the replaceable icon at the top left (hidden if empty)"
+        },
+        "SubCaption_17_ADAC392F4585582F02AED78C097BE449": {
+          "Namespace": "",
+          "Key": "365473D24978DB42C39FC583552DF3A6",
+          "SourceString": "Caption at the bottom right of the icon",
+          "LocalizedString": "Caption at the bottom right of the icon"
+        },
+        "Title_21_5CD87E4540BD6979BA08B1A3516FD590": {
+          "Namespace": "",
+          "Key": "9A97F6B74273631323AA9B96210A0097",
+          "SourceString": "Reward title ({num} is replaced by the quantity)",
+          "LocalizedString": "Reward title ({num} is replaced by the quantity)"
+        },
+        "Detail_18_30F67F4341FAF3109709C483919AB18D": {
+          "Namespace": "",
+          "Key": "B35CA785439D827C7216DC9DB0900236",
+          "SourceString": "Reward description",
+          "LocalizedString": "Reward description"
+        },
+        "CategoryName_31_3C5342C74B1B17E7D86A7599C09D19C8": {
+          "CultureInvariantString": null
+        },
+        "RewardNameFormat_35_D47578024AC592ABAD1CD5BE544ED740": {
+          "CultureInvariantString": null
+        }
+      },
+      "38": {
+        "RewardCategoryID_23_D591463E48E5C2FBCEB07D9ECA639B25": "ERewardCategoryID::Invalid",
+        "IconTexture_5_B374551C4A6B5F9D2A3DA3B2BA2AC31F": {
+          "ObjectName": "Texture2D'T_Com_RewardIcon038'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/RewardIcon/Texture/T_Com_RewardIcon038.0"
+        },
+        "AvatarIconMID_26_547C4E2A4189354B64FA88BC1635CB6D": null,
+        "FrameID_8_1AC5EDC24FCF86ADEAD459B8C9F15D97": "ERewardIconFrameID::NewEnumerator0",
+        "ReplaceIconCaption_11_8D6C7FAB488B787840B4EA991AB84056": {
+          "Namespace": "",
+          "Key": "E70CDB834C765B8FD99B97BE39F01006",
+          "SourceString": "Description for the replaceable icon at the top left (hidden if empty)",
+          "LocalizedString": "Description for the replaceable icon at the top left (hidden if empty)"
+        },
+        "SubCaption_17_ADAC392F4585582F02AED78C097BE449": {
+          "Namespace": "",
+          "Key": "365473D24978DB42C39FC583552DF3A6",
+          "SourceString": "Caption at the bottom right of the icon",
+          "LocalizedString": "Caption at the bottom right of the icon"
+        },
+        "Title_21_5CD87E4540BD6979BA08B1A3516FD590": {
+          "Namespace": "",
+          "Key": "9A97F6B74273631323AA9B96210A0097",
+          "SourceString": "Reward title ({num} is replaced by the quantity)",
+          "LocalizedString": "Reward title ({num} is replaced by the quantity)"
+        },
+        "Detail_18_30F67F4341FAF3109709C483919AB18D": {
+          "Namespace": "",
+          "Key": "B35CA785439D827C7216DC9DB0900236",
+          "SourceString": "Reward description",
+          "LocalizedString": "Reward description"
+        },
+        "CategoryName_31_3C5342C74B1B17E7D86A7599C09D19C8": {
+          "CultureInvariantString": null
+        },
+        "RewardNameFormat_35_D47578024AC592ABAD1CD5BE544ED740": {
+          "CultureInvariantString": null
+        }
+      },
+      "39": {
+        "RewardCategoryID_23_D591463E48E5C2FBCEB07D9ECA639B25": "ERewardCategoryID::Invalid",
+        "IconTexture_5_B374551C4A6B5F9D2A3DA3B2BA2AC31F": {
+          "ObjectName": "Texture2D'T_Com_RewardIcon039'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/RewardIcon/Texture/T_Com_RewardIcon039.0"
+        },
+        "AvatarIconMID_26_547C4E2A4189354B64FA88BC1635CB6D": null,
+        "FrameID_8_1AC5EDC24FCF86ADEAD459B8C9F15D97": "ERewardIconFrameID::NewEnumerator0",
+        "ReplaceIconCaption_11_8D6C7FAB488B787840B4EA991AB84056": {
+          "Namespace": "",
+          "Key": "E70CDB834C765B8FD99B97BE39F01006",
+          "SourceString": "Description for the replaceable icon at the top left (hidden if empty)",
+          "LocalizedString": "Description for the replaceable icon at the top left (hidden if empty)"
+        },
+        "SubCaption_17_ADAC392F4585582F02AED78C097BE449": {
+          "Namespace": "",
+          "Key": "365473D24978DB42C39FC583552DF3A6",
+          "SourceString": "Caption at the bottom right of the icon",
+          "LocalizedString": "Caption at the bottom right of the icon"
+        },
+        "Title_21_5CD87E4540BD6979BA08B1A3516FD590": {
+          "Namespace": "",
+          "Key": "9A97F6B74273631323AA9B96210A0097",
+          "SourceString": "Reward title ({num} is replaced by the quantity)",
+          "LocalizedString": "Reward title ({num} is replaced by the quantity)"
+        },
+        "Detail_18_30F67F4341FAF3109709C483919AB18D": {
+          "Namespace": "",
+          "Key": "B35CA785439D827C7216DC9DB0900236",
+          "SourceString": "Reward description",
+          "LocalizedString": "Reward description"
+        },
+        "CategoryName_31_3C5342C74B1B17E7D86A7599C09D19C8": {
+          "CultureInvariantString": null
+        },
+        "RewardNameFormat_35_D47578024AC592ABAD1CD5BE544ED740": {
+          "CultureInvariantString": null
+        }
+      },
+      "40": {
+        "RewardCategoryID_23_D591463E48E5C2FBCEB07D9ECA639B25": "ERewardCategoryID::Invalid",
+        "IconTexture_5_B374551C4A6B5F9D2A3DA3B2BA2AC31F": {
+          "ObjectName": "Texture2D'T_Com_RewardIcon040'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/RewardIcon/Texture/T_Com_RewardIcon040.0"
+        },
+        "AvatarIconMID_26_547C4E2A4189354B64FA88BC1635CB6D": null,
+        "FrameID_8_1AC5EDC24FCF86ADEAD459B8C9F15D97": "ERewardIconFrameID::NewEnumerator0",
+        "ReplaceIconCaption_11_8D6C7FAB488B787840B4EA991AB84056": {
+          "Namespace": "",
+          "Key": "E70CDB834C765B8FD99B97BE39F01006",
+          "SourceString": "Description for the replaceable icon at the top left (hidden if empty)",
+          "LocalizedString": "Description for the replaceable icon at the top left (hidden if empty)"
+        },
+        "SubCaption_17_ADAC392F4585582F02AED78C097BE449": {
+          "Namespace": "",
+          "Key": "365473D24978DB42C39FC583552DF3A6",
+          "SourceString": "Caption at the bottom right of the icon",
+          "LocalizedString": "Caption at the bottom right of the icon"
+        },
+        "Title_21_5CD87E4540BD6979BA08B1A3516FD590": {
+          "Namespace": "",
+          "Key": "9A97F6B74273631323AA9B96210A0097",
+          "SourceString": "Reward title ({num} is replaced by the quantity)",
+          "LocalizedString": "Reward title ({num} is replaced by the quantity)"
+        },
+        "Detail_18_30F67F4341FAF3109709C483919AB18D": {
+          "Namespace": "",
+          "Key": "B35CA785439D827C7216DC9DB0900236",
+          "SourceString": "Reward description",
+          "LocalizedString": "Reward description"
+        },
+        "CategoryName_31_3C5342C74B1B17E7D86A7599C09D19C8": {
+          "CultureInvariantString": null
+        },
+        "RewardNameFormat_35_D47578024AC592ABAD1CD5BE544ED740": {
+          "CultureInvariantString": null
+        }
+      },
+      "41": {
+        "RewardCategoryID_23_D591463E48E5C2FBCEB07D9ECA639B25": "ERewardCategoryID::Invalid",
+        "IconTexture_5_B374551C4A6B5F9D2A3DA3B2BA2AC31F": {
+          "ObjectName": "Texture2D'T_Com_RewardIcon041'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/RewardIcon/Texture/T_Com_RewardIcon041.0"
+        },
+        "AvatarIconMID_26_547C4E2A4189354B64FA88BC1635CB6D": null,
+        "FrameID_8_1AC5EDC24FCF86ADEAD459B8C9F15D97": "ERewardIconFrameID::NewEnumerator0",
+        "ReplaceIconCaption_11_8D6C7FAB488B787840B4EA991AB84056": {
+          "Namespace": "",
+          "Key": "E70CDB834C765B8FD99B97BE39F01006",
+          "SourceString": "Description for the replaceable icon at the top left (hidden if empty)",
+          "LocalizedString": "Description for the replaceable icon at the top left (hidden if empty)"
+        },
+        "SubCaption_17_ADAC392F4585582F02AED78C097BE449": {
+          "Namespace": "",
+          "Key": "365473D24978DB42C39FC583552DF3A6",
+          "SourceString": "Caption at the bottom right of the icon",
+          "LocalizedString": "Caption at the bottom right of the icon"
+        },
+        "Title_21_5CD87E4540BD6979BA08B1A3516FD590": {
+          "Namespace": "",
+          "Key": "9A97F6B74273631323AA9B96210A0097",
+          "SourceString": "Reward title ({num} is replaced by the quantity)",
+          "LocalizedString": "Reward title ({num} is replaced by the quantity)"
+        },
+        "Detail_18_30F67F4341FAF3109709C483919AB18D": {
+          "Namespace": "",
+          "Key": "B35CA785439D827C7216DC9DB0900236",
+          "SourceString": "Reward description",
+          "LocalizedString": "Reward description"
+        },
+        "CategoryName_31_3C5342C74B1B17E7D86A7599C09D19C8": {
+          "CultureInvariantString": null
+        },
+        "RewardNameFormat_35_D47578024AC592ABAD1CD5BE544ED740": {
+          "CultureInvariantString": null
+        }
+      },
+      "42": {
+        "RewardCategoryID_23_D591463E48E5C2FBCEB07D9ECA639B25": "ERewardCategoryID::Invalid",
+        "IconTexture_5_B374551C4A6B5F9D2A3DA3B2BA2AC31F": {
+          "ObjectName": "Texture2D'T_Com_RewardIcon042'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/RewardIcon/Texture/T_Com_RewardIcon042.0"
+        },
+        "AvatarIconMID_26_547C4E2A4189354B64FA88BC1635CB6D": null,
+        "FrameID_8_1AC5EDC24FCF86ADEAD459B8C9F15D97": "ERewardIconFrameID::NewEnumerator0",
+        "ReplaceIconCaption_11_8D6C7FAB488B787840B4EA991AB84056": {
+          "Namespace": "",
+          "Key": "E70CDB834C765B8FD99B97BE39F01006",
+          "SourceString": "Description for the replaceable icon at the top left (hidden if empty)",
+          "LocalizedString": "Description for the replaceable icon at the top left (hidden if empty)"
+        },
+        "SubCaption_17_ADAC392F4585582F02AED78C097BE449": {
+          "Namespace": "",
+          "Key": "365473D24978DB42C39FC583552DF3A6",
+          "SourceString": "Caption at the bottom right of the icon",
+          "LocalizedString": "Caption at the bottom right of the icon"
+        },
+        "Title_21_5CD87E4540BD6979BA08B1A3516FD590": {
+          "Namespace": "",
+          "Key": "9A97F6B74273631323AA9B96210A0097",
+          "SourceString": "Reward title ({num} is replaced by the quantity)",
+          "LocalizedString": "Reward title ({num} is replaced by the quantity)"
+        },
+        "Detail_18_30F67F4341FAF3109709C483919AB18D": {
+          "Namespace": "",
+          "Key": "B35CA785439D827C7216DC9DB0900236",
+          "SourceString": "Reward description",
+          "LocalizedString": "Reward description"
+        },
+        "CategoryName_31_3C5342C74B1B17E7D86A7599C09D19C8": {
+          "CultureInvariantString": null
+        },
+        "RewardNameFormat_35_D47578024AC592ABAD1CD5BE544ED740": {
+          "CultureInvariantString": null
+        }
+      },
+      "43": {
+        "RewardCategoryID_23_D591463E48E5C2FBCEB07D9ECA639B25": "ERewardCategoryID::Invalid",
+        "IconTexture_5_B374551C4A6B5F9D2A3DA3B2BA2AC31F": {
+          "ObjectName": "Texture2D'T_Com_RewardIcon043'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/RewardIcon/Texture/T_Com_RewardIcon043.0"
+        },
+        "AvatarIconMID_26_547C4E2A4189354B64FA88BC1635CB6D": null,
+        "FrameID_8_1AC5EDC24FCF86ADEAD459B8C9F15D97": "ERewardIconFrameID::NewEnumerator0",
+        "ReplaceIconCaption_11_8D6C7FAB488B787840B4EA991AB84056": {
+          "Namespace": "",
+          "Key": "E70CDB834C765B8FD99B97BE39F01006",
+          "SourceString": "Description for the replaceable icon at the top left (hidden if empty)",
+          "LocalizedString": "Description for the replaceable icon at the top left (hidden if empty)"
+        },
+        "SubCaption_17_ADAC392F4585582F02AED78C097BE449": {
+          "Namespace": "",
+          "Key": "365473D24978DB42C39FC583552DF3A6",
+          "SourceString": "Caption at the bottom right of the icon",
+          "LocalizedString": "Caption at the bottom right of the icon"
+        },
+        "Title_21_5CD87E4540BD6979BA08B1A3516FD590": {
+          "Namespace": "",
+          "Key": "9A97F6B74273631323AA9B96210A0097",
+          "SourceString": "Reward title ({num} is replaced by the quantity)",
+          "LocalizedString": "Reward title ({num} is replaced by the quantity)"
+        },
+        "Detail_18_30F67F4341FAF3109709C483919AB18D": {
+          "Namespace": "",
+          "Key": "B35CA785439D827C7216DC9DB0900236",
+          "SourceString": "Reward description",
+          "LocalizedString": "Reward description"
+        },
+        "CategoryName_31_3C5342C74B1B17E7D86A7599C09D19C8": {
+          "CultureInvariantString": null
+        },
+        "RewardNameFormat_35_D47578024AC592ABAD1CD5BE544ED740": {
+          "CultureInvariantString": null
+        }
+      },
+      "44": {
+        "RewardCategoryID_23_D591463E48E5C2FBCEB07D9ECA639B25": "ERewardCategoryID::Invalid",
+        "IconTexture_5_B374551C4A6B5F9D2A3DA3B2BA2AC31F": {
+          "ObjectName": "Texture2D'T_Com_RewardIcon044'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/RewardIcon/Texture/T_Com_RewardIcon044.0"
+        },
+        "AvatarIconMID_26_547C4E2A4189354B64FA88BC1635CB6D": null,
+        "FrameID_8_1AC5EDC24FCF86ADEAD459B8C9F15D97": "ERewardIconFrameID::NewEnumerator0",
+        "ReplaceIconCaption_11_8D6C7FAB488B787840B4EA991AB84056": {
+          "Namespace": "",
+          "Key": "E70CDB834C765B8FD99B97BE39F01006",
+          "SourceString": "Description for the replaceable icon at the top left (hidden if empty)",
+          "LocalizedString": "Description for the replaceable icon at the top left (hidden if empty)"
+        },
+        "SubCaption_17_ADAC392F4585582F02AED78C097BE449": {
+          "Namespace": "",
+          "Key": "365473D24978DB42C39FC583552DF3A6",
+          "SourceString": "Caption at the bottom right of the icon",
+          "LocalizedString": "Caption at the bottom right of the icon"
+        },
+        "Title_21_5CD87E4540BD6979BA08B1A3516FD590": {
+          "Namespace": "",
+          "Key": "9A97F6B74273631323AA9B96210A0097",
+          "SourceString": "Reward title ({num} is replaced by the quantity)",
+          "LocalizedString": "Reward title ({num} is replaced by the quantity)"
+        },
+        "Detail_18_30F67F4341FAF3109709C483919AB18D": {
+          "Namespace": "",
+          "Key": "B35CA785439D827C7216DC9DB0900236",
+          "SourceString": "Reward description",
+          "LocalizedString": "Reward description"
+        },
+        "CategoryName_31_3C5342C74B1B17E7D86A7599C09D19C8": {
+          "CultureInvariantString": null
+        },
+        "RewardNameFormat_35_D47578024AC592ABAD1CD5BE544ED740": {
+          "CultureInvariantString": null
+        }
+      },
+      "45": {
+        "RewardCategoryID_23_D591463E48E5C2FBCEB07D9ECA639B25": "ERewardCategoryID::Invalid",
+        "IconTexture_5_B374551C4A6B5F9D2A3DA3B2BA2AC31F": {
+          "ObjectName": "Texture2D'T_Com_RewardIcon045'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/RewardIcon/Texture/T_Com_RewardIcon045.0"
+        },
+        "AvatarIconMID_26_547C4E2A4189354B64FA88BC1635CB6D": null,
+        "FrameID_8_1AC5EDC24FCF86ADEAD459B8C9F15D97": "ERewardIconFrameID::NewEnumerator0",
+        "ReplaceIconCaption_11_8D6C7FAB488B787840B4EA991AB84056": {
+          "Namespace": "",
+          "Key": "E70CDB834C765B8FD99B97BE39F01006",
+          "SourceString": "Description for the replaceable icon at the top left (hidden if empty)",
+          "LocalizedString": "Description for the replaceable icon at the top left (hidden if empty)"
+        },
+        "SubCaption_17_ADAC392F4585582F02AED78C097BE449": {
+          "Namespace": "",
+          "Key": "365473D24978DB42C39FC583552DF3A6",
+          "SourceString": "Caption at the bottom right of the icon",
+          "LocalizedString": "Caption at the bottom right of the icon"
+        },
+        "Title_21_5CD87E4540BD6979BA08B1A3516FD590": {
+          "Namespace": "",
+          "Key": "9A97F6B74273631323AA9B96210A0097",
+          "SourceString": "Reward title ({num} is replaced by the quantity)",
+          "LocalizedString": "Reward title ({num} is replaced by the quantity)"
+        },
+        "Detail_18_30F67F4341FAF3109709C483919AB18D": {
+          "Namespace": "",
+          "Key": "B35CA785439D827C7216DC9DB0900236",
+          "SourceString": "Reward description",
+          "LocalizedString": "Reward description"
+        },
+        "CategoryName_31_3C5342C74B1B17E7D86A7599C09D19C8": {
+          "CultureInvariantString": null
+        },
+        "RewardNameFormat_35_D47578024AC592ABAD1CD5BE544ED740": {
+          "CultureInvariantString": null
+        }
+      },
+      "46": {
+        "RewardCategoryID_23_D591463E48E5C2FBCEB07D9ECA639B25": "ERewardCategoryID::Invalid",
+        "IconTexture_5_B374551C4A6B5F9D2A3DA3B2BA2AC31F": {
+          "ObjectName": "Texture2D'T_Com_RewardIcon046'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/RewardIcon/Texture/T_Com_RewardIcon046.0"
+        },
+        "AvatarIconMID_26_547C4E2A4189354B64FA88BC1635CB6D": null,
+        "FrameID_8_1AC5EDC24FCF86ADEAD459B8C9F15D97": "ERewardIconFrameID::NewEnumerator0",
+        "ReplaceIconCaption_11_8D6C7FAB488B787840B4EA991AB84056": {
+          "Namespace": "",
+          "Key": "E70CDB834C765B8FD99B97BE39F01006",
+          "SourceString": "Description for the replaceable icon at the top left (hidden if empty)",
+          "LocalizedString": "Description for the replaceable icon at the top left (hidden if empty)"
+        },
+        "SubCaption_17_ADAC392F4585582F02AED78C097BE449": {
+          "Namespace": "",
+          "Key": "365473D24978DB42C39FC583552DF3A6",
+          "SourceString": "Caption at the bottom right of the icon",
+          "LocalizedString": "Caption at the bottom right of the icon"
+        },
+        "Title_21_5CD87E4540BD6979BA08B1A3516FD590": {
+          "Namespace": "",
+          "Key": "9A97F6B74273631323AA9B96210A0097",
+          "SourceString": "Reward title ({num} is replaced by the quantity)",
+          "LocalizedString": "Reward title ({num} is replaced by the quantity)"
+        },
+        "Detail_18_30F67F4341FAF3109709C483919AB18D": {
+          "Namespace": "",
+          "Key": "B35CA785439D827C7216DC9DB0900236",
+          "SourceString": "Reward description",
+          "LocalizedString": "Reward description"
+        },
+        "CategoryName_31_3C5342C74B1B17E7D86A7599C09D19C8": {
+          "CultureInvariantString": null
+        },
+        "RewardNameFormat_35_D47578024AC592ABAD1CD5BE544ED740": {
+          "CultureInvariantString": null
+        }
+      },
+      "47": {
+        "RewardCategoryID_23_D591463E48E5C2FBCEB07D9ECA639B25": "ERewardCategoryID::Invalid",
+        "IconTexture_5_B374551C4A6B5F9D2A3DA3B2BA2AC31F": {
+          "ObjectName": "Texture2D'T_Com_RewardIcon047'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/RewardIcon/Texture/T_Com_RewardIcon047.0"
+        },
+        "AvatarIconMID_26_547C4E2A4189354B64FA88BC1635CB6D": null,
+        "FrameID_8_1AC5EDC24FCF86ADEAD459B8C9F15D97": "ERewardIconFrameID::NewEnumerator0",
+        "ReplaceIconCaption_11_8D6C7FAB488B787840B4EA991AB84056": {
+          "Namespace": "",
+          "Key": "E70CDB834C765B8FD99B97BE39F01006",
+          "SourceString": "Description for the replaceable icon at the top left (hidden if empty)",
+          "LocalizedString": "Description for the replaceable icon at the top left (hidden if empty)"
+        },
+        "SubCaption_17_ADAC392F4585582F02AED78C097BE449": {
+          "Namespace": "",
+          "Key": "365473D24978DB42C39FC583552DF3A6",
+          "SourceString": "Caption at the bottom right of the icon",
+          "LocalizedString": "Caption at the bottom right of the icon"
+        },
+        "Title_21_5CD87E4540BD6979BA08B1A3516FD590": {
+          "Namespace": "",
+          "Key": "9A97F6B74273631323AA9B96210A0097",
+          "SourceString": "Reward title ({num} is replaced by the quantity)",
+          "LocalizedString": "Reward title ({num} is replaced by the quantity)"
+        },
+        "Detail_18_30F67F4341FAF3109709C483919AB18D": {
+          "Namespace": "",
+          "Key": "B35CA785439D827C7216DC9DB0900236",
+          "SourceString": "Reward description",
+          "LocalizedString": "Reward description"
+        },
+        "CategoryName_31_3C5342C74B1B17E7D86A7599C09D19C8": {
+          "CultureInvariantString": null
+        },
+        "RewardNameFormat_35_D47578024AC592ABAD1CD5BE544ED740": {
+          "CultureInvariantString": null
+        }
+      },
+      "48": {
+        "RewardCategoryID_23_D591463E48E5C2FBCEB07D9ECA639B25": "ERewardCategoryID::Invalid",
+        "IconTexture_5_B374551C4A6B5F9D2A3DA3B2BA2AC31F": {
+          "ObjectName": "Texture2D'T_Com_RewardIcon048'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/RewardIcon/Texture/T_Com_RewardIcon048.0"
+        },
+        "AvatarIconMID_26_547C4E2A4189354B64FA88BC1635CB6D": null,
+        "FrameID_8_1AC5EDC24FCF86ADEAD459B8C9F15D97": "ERewardIconFrameID::NewEnumerator0",
+        "ReplaceIconCaption_11_8D6C7FAB488B787840B4EA991AB84056": {
+          "Namespace": "",
+          "Key": "E70CDB834C765B8FD99B97BE39F01006",
+          "SourceString": "Description for the replaceable icon at the top left (hidden if empty)",
+          "LocalizedString": "Description for the replaceable icon at the top left (hidden if empty)"
+        },
+        "SubCaption_17_ADAC392F4585582F02AED78C097BE449": {
+          "Namespace": "",
+          "Key": "365473D24978DB42C39FC583552DF3A6",
+          "SourceString": "Caption at the bottom right of the icon",
+          "LocalizedString": "Caption at the bottom right of the icon"
+        },
+        "Title_21_5CD87E4540BD6979BA08B1A3516FD590": {
+          "Namespace": "",
+          "Key": "9A97F6B74273631323AA9B96210A0097",
+          "SourceString": "Reward title ({num} is replaced by the quantity)",
+          "LocalizedString": "Reward title ({num} is replaced by the quantity)"
+        },
+        "Detail_18_30F67F4341FAF3109709C483919AB18D": {
+          "Namespace": "",
+          "Key": "B35CA785439D827C7216DC9DB0900236",
+          "SourceString": "Reward description",
+          "LocalizedString": "Reward description"
+        },
+        "CategoryName_31_3C5342C74B1B17E7D86A7599C09D19C8": {
+          "CultureInvariantString": null
+        },
+        "RewardNameFormat_35_D47578024AC592ABAD1CD5BE544ED740": {
+          "CultureInvariantString": null
+        }
+      },
+      "49": {
+        "RewardCategoryID_23_D591463E48E5C2FBCEB07D9ECA639B25": "ERewardCategoryID::Invalid",
+        "IconTexture_5_B374551C4A6B5F9D2A3DA3B2BA2AC31F": {
+          "ObjectName": "Texture2D'T_Com_RewardIcon049'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/RewardIcon/Texture/T_Com_RewardIcon049.0"
+        },
+        "AvatarIconMID_26_547C4E2A4189354B64FA88BC1635CB6D": null,
+        "FrameID_8_1AC5EDC24FCF86ADEAD459B8C9F15D97": "ERewardIconFrameID::NewEnumerator0",
+        "ReplaceIconCaption_11_8D6C7FAB488B787840B4EA991AB84056": {
+          "Namespace": "",
+          "Key": "E70CDB834C765B8FD99B97BE39F01006",
+          "SourceString": "Description for the replaceable icon at the top left (hidden if empty)",
+          "LocalizedString": "Description for the replaceable icon at the top left (hidden if empty)"
+        },
+        "SubCaption_17_ADAC392F4585582F02AED78C097BE449": {
+          "Namespace": "",
+          "Key": "365473D24978DB42C39FC583552DF3A6",
+          "SourceString": "Caption at the bottom right of the icon",
+          "LocalizedString": "Caption at the bottom right of the icon"
+        },
+        "Title_21_5CD87E4540BD6979BA08B1A3516FD590": {
+          "Namespace": "",
+          "Key": "9A97F6B74273631323AA9B96210A0097",
+          "SourceString": "Reward title ({num} is replaced by the quantity)",
+          "LocalizedString": "Reward title ({num} is replaced by the quantity)"
+        },
+        "Detail_18_30F67F4341FAF3109709C483919AB18D": {
+          "Namespace": "",
+          "Key": "B35CA785439D827C7216DC9DB0900236",
+          "SourceString": "Reward description",
+          "LocalizedString": "Reward description"
+        },
+        "CategoryName_31_3C5342C74B1B17E7D86A7599C09D19C8": {
+          "CultureInvariantString": null
+        },
+        "RewardNameFormat_35_D47578024AC592ABAD1CD5BE544ED740": {
+          "CultureInvariantString": null
+        }
+      },
+      "50": {
+        "RewardCategoryID_23_D591463E48E5C2FBCEB07D9ECA639B25": "ERewardCategoryID::Invalid",
+        "IconTexture_5_B374551C4A6B5F9D2A3DA3B2BA2AC31F": {
+          "ObjectName": "Texture2D'T_Com_RewardIcon050'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/RewardIcon/Texture/T_Com_RewardIcon050.0"
+        },
+        "AvatarIconMID_26_547C4E2A4189354B64FA88BC1635CB6D": null,
+        "FrameID_8_1AC5EDC24FCF86ADEAD459B8C9F15D97": "ERewardIconFrameID::NewEnumerator0",
+        "ReplaceIconCaption_11_8D6C7FAB488B787840B4EA991AB84056": {
+          "Namespace": "",
+          "Key": "E70CDB834C765B8FD99B97BE39F01006",
+          "SourceString": "Description for the replaceable icon at the top left (hidden if empty)",
+          "LocalizedString": "Description for the replaceable icon at the top left (hidden if empty)"
+        },
+        "SubCaption_17_ADAC392F4585582F02AED78C097BE449": {
+          "Namespace": "",
+          "Key": "365473D24978DB42C39FC583552DF3A6",
+          "SourceString": "Caption at the bottom right of the icon",
+          "LocalizedString": "Caption at the bottom right of the icon"
+        },
+        "Title_21_5CD87E4540BD6979BA08B1A3516FD590": {
+          "Namespace": "",
+          "Key": "9A97F6B74273631323AA9B96210A0097",
+          "SourceString": "Reward title ({num} is replaced by the quantity)",
+          "LocalizedString": "Reward title ({num} is replaced by the quantity)"
+        },
+        "Detail_18_30F67F4341FAF3109709C483919AB18D": {
+          "Namespace": "",
+          "Key": "B35CA785439D827C7216DC9DB0900236",
+          "SourceString": "Reward description",
+          "LocalizedString": "Reward description"
+        },
+        "CategoryName_31_3C5342C74B1B17E7D86A7599C09D19C8": {
+          "CultureInvariantString": null
+        },
+        "RewardNameFormat_35_D47578024AC592ABAD1CD5BE544ED740": {
+          "CultureInvariantString": null
+        }
+      },
+      "51": {
+        "RewardCategoryID_23_D591463E48E5C2FBCEB07D9ECA639B25": "ERewardCategoryID::Invalid",
+        "IconTexture_5_B374551C4A6B5F9D2A3DA3B2BA2AC31F": {
+          "ObjectName": "Texture2D'T_Com_RewardIcon051'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/RewardIcon/Texture/T_Com_RewardIcon051.0"
+        },
+        "AvatarIconMID_26_547C4E2A4189354B64FA88BC1635CB6D": null,
+        "FrameID_8_1AC5EDC24FCF86ADEAD459B8C9F15D97": "ERewardIconFrameID::NewEnumerator0",
+        "ReplaceIconCaption_11_8D6C7FAB488B787840B4EA991AB84056": {
+          "Namespace": "",
+          "Key": "E70CDB834C765B8FD99B97BE39F01006",
+          "SourceString": "Description for the replaceable icon at the top left (hidden if empty)",
+          "LocalizedString": "Description for the replaceable icon at the top left (hidden if empty)"
+        },
+        "SubCaption_17_ADAC392F4585582F02AED78C097BE449": {
+          "Namespace": "",
+          "Key": "365473D24978DB42C39FC583552DF3A6",
+          "SourceString": "Caption at the bottom right of the icon",
+          "LocalizedString": "Caption at the bottom right of the icon"
+        },
+        "Title_21_5CD87E4540BD6979BA08B1A3516FD590": {
+          "Namespace": "",
+          "Key": "9A97F6B74273631323AA9B96210A0097",
+          "SourceString": "Reward title ({num} is replaced by the quantity)",
+          "LocalizedString": "Reward title ({num} is replaced by the quantity)"
+        },
+        "Detail_18_30F67F4341FAF3109709C483919AB18D": {
+          "Namespace": "",
+          "Key": "B35CA785439D827C7216DC9DB0900236",
+          "SourceString": "Reward description",
+          "LocalizedString": "Reward description"
+        },
+        "CategoryName_31_3C5342C74B1B17E7D86A7599C09D19C8": {
+          "CultureInvariantString": null
+        },
+        "RewardNameFormat_35_D47578024AC592ABAD1CD5BE544ED740": {
+          "CultureInvariantString": null
+        }
+      },
+      "52": {
+        "RewardCategoryID_23_D591463E48E5C2FBCEB07D9ECA639B25": "ERewardCategoryID::Invalid",
+        "IconTexture_5_B374551C4A6B5F9D2A3DA3B2BA2AC31F": {
+          "ObjectName": "Texture2D'T_Com_RewardIcon052'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/RewardIcon/Texture/T_Com_RewardIcon052.0"
+        },
+        "AvatarIconMID_26_547C4E2A4189354B64FA88BC1635CB6D": null,
+        "FrameID_8_1AC5EDC24FCF86ADEAD459B8C9F15D97": "ERewardIconFrameID::NewEnumerator0",
+        "ReplaceIconCaption_11_8D6C7FAB488B787840B4EA991AB84056": {
+          "Namespace": "",
+          "Key": "E70CDB834C765B8FD99B97BE39F01006",
+          "SourceString": "Description for the replaceable icon at the top left (hidden if empty)",
+          "LocalizedString": "Description for the replaceable icon at the top left (hidden if empty)"
+        },
+        "SubCaption_17_ADAC392F4585582F02AED78C097BE449": {
+          "Namespace": "",
+          "Key": "365473D24978DB42C39FC583552DF3A6",
+          "SourceString": "Caption at the bottom right of the icon",
+          "LocalizedString": "Caption at the bottom right of the icon"
+        },
+        "Title_21_5CD87E4540BD6979BA08B1A3516FD590": {
+          "Namespace": "",
+          "Key": "9A97F6B74273631323AA9B96210A0097",
+          "SourceString": "Reward title ({num} is replaced by the quantity)",
+          "LocalizedString": "Reward title ({num} is replaced by the quantity)"
+        },
+        "Detail_18_30F67F4341FAF3109709C483919AB18D": {
+          "Namespace": "",
+          "Key": "B35CA785439D827C7216DC9DB0900236",
+          "SourceString": "Reward description",
+          "LocalizedString": "Reward description"
+        },
+        "CategoryName_31_3C5342C74B1B17E7D86A7599C09D19C8": {
+          "CultureInvariantString": null
+        },
+        "RewardNameFormat_35_D47578024AC592ABAD1CD5BE544ED740": {
+          "CultureInvariantString": null
+        }
+      },
+      "53": {
+        "RewardCategoryID_23_D591463E48E5C2FBCEB07D9ECA639B25": "ERewardCategoryID::Invalid",
+        "IconTexture_5_B374551C4A6B5F9D2A3DA3B2BA2AC31F": {
+          "ObjectName": "Texture2D'T_Com_RewardIcon053'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/RewardIcon/Texture/T_Com_RewardIcon053.0"
+        },
+        "AvatarIconMID_26_547C4E2A4189354B64FA88BC1635CB6D": null,
+        "FrameID_8_1AC5EDC24FCF86ADEAD459B8C9F15D97": "ERewardIconFrameID::NewEnumerator0",
+        "ReplaceIconCaption_11_8D6C7FAB488B787840B4EA991AB84056": {
+          "Namespace": "",
+          "Key": "E70CDB834C765B8FD99B97BE39F01006",
+          "SourceString": "Description for the replaceable icon at the top left (hidden if empty)",
+          "LocalizedString": "Description for the replaceable icon at the top left (hidden if empty)"
+        },
+        "SubCaption_17_ADAC392F4585582F02AED78C097BE449": {
+          "Namespace": "",
+          "Key": "365473D24978DB42C39FC583552DF3A6",
+          "SourceString": "Caption at the bottom right of the icon",
+          "LocalizedString": "Caption at the bottom right of the icon"
+        },
+        "Title_21_5CD87E4540BD6979BA08B1A3516FD590": {
+          "Namespace": "",
+          "Key": "9A97F6B74273631323AA9B96210A0097",
+          "SourceString": "Reward title ({num} is replaced by the quantity)",
+          "LocalizedString": "Reward title ({num} is replaced by the quantity)"
+        },
+        "Detail_18_30F67F4341FAF3109709C483919AB18D": {
+          "Namespace": "",
+          "Key": "B35CA785439D827C7216DC9DB0900236",
+          "SourceString": "Reward description",
+          "LocalizedString": "Reward description"
+        },
+        "CategoryName_31_3C5342C74B1B17E7D86A7599C09D19C8": {
+          "CultureInvariantString": null
+        },
+        "RewardNameFormat_35_D47578024AC592ABAD1CD5BE544ED740": {
+          "CultureInvariantString": null
+        }
+      },
+      "54": {
+        "RewardCategoryID_23_D591463E48E5C2FBCEB07D9ECA639B25": "ERewardCategoryID::Invalid",
+        "IconTexture_5_B374551C4A6B5F9D2A3DA3B2BA2AC31F": {
+          "ObjectName": "Texture2D'T_Com_RewardIcon054'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/RewardIcon/Texture/T_Com_RewardIcon054.0"
+        },
+        "AvatarIconMID_26_547C4E2A4189354B64FA88BC1635CB6D": null,
+        "FrameID_8_1AC5EDC24FCF86ADEAD459B8C9F15D97": "ERewardIconFrameID::NewEnumerator0",
+        "ReplaceIconCaption_11_8D6C7FAB488B787840B4EA991AB84056": {
+          "Namespace": "",
+          "Key": "E70CDB834C765B8FD99B97BE39F01006",
+          "SourceString": "Description for the replaceable icon at the top left (hidden if empty)",
+          "LocalizedString": "Description for the replaceable icon at the top left (hidden if empty)"
+        },
+        "SubCaption_17_ADAC392F4585582F02AED78C097BE449": {
+          "Namespace": "",
+          "Key": "365473D24978DB42C39FC583552DF3A6",
+          "SourceString": "Caption at the bottom right of the icon",
+          "LocalizedString": "Caption at the bottom right of the icon"
+        },
+        "Title_21_5CD87E4540BD6979BA08B1A3516FD590": {
+          "Namespace": "",
+          "Key": "9A97F6B74273631323AA9B96210A0097",
+          "SourceString": "Reward title ({num} is replaced by the quantity)",
+          "LocalizedString": "Reward title ({num} is replaced by the quantity)"
+        },
+        "Detail_18_30F67F4341FAF3109709C483919AB18D": {
+          "Namespace": "",
+          "Key": "B35CA785439D827C7216DC9DB0900236",
+          "SourceString": "Reward description",
+          "LocalizedString": "Reward description"
+        },
+        "CategoryName_31_3C5342C74B1B17E7D86A7599C09D19C8": {
+          "CultureInvariantString": null
+        },
+        "RewardNameFormat_35_D47578024AC592ABAD1CD5BE544ED740": {
+          "CultureInvariantString": null
+        }
+      },
+      "55": {
+        "RewardCategoryID_23_D591463E48E5C2FBCEB07D9ECA639B25": "ERewardCategoryID::Invalid",
+        "IconTexture_5_B374551C4A6B5F9D2A3DA3B2BA2AC31F": {
+          "ObjectName": "Texture2D'T_Com_RewardIcon055'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/RewardIcon/Texture/T_Com_RewardIcon055.0"
+        },
+        "AvatarIconMID_26_547C4E2A4189354B64FA88BC1635CB6D": null,
+        "FrameID_8_1AC5EDC24FCF86ADEAD459B8C9F15D97": "ERewardIconFrameID::NewEnumerator0",
+        "ReplaceIconCaption_11_8D6C7FAB488B787840B4EA991AB84056": {
+          "Namespace": "",
+          "Key": "E70CDB834C765B8FD99B97BE39F01006",
+          "SourceString": "Description for the replaceable icon at the top left (hidden if empty)",
+          "LocalizedString": "Description for the replaceable icon at the top left (hidden if empty)"
+        },
+        "SubCaption_17_ADAC392F4585582F02AED78C097BE449": {
+          "Namespace": "",
+          "Key": "365473D24978DB42C39FC583552DF3A6",
+          "SourceString": "Caption at the bottom right of the icon",
+          "LocalizedString": "Caption at the bottom right of the icon"
+        },
+        "Title_21_5CD87E4540BD6979BA08B1A3516FD590": {
+          "Namespace": "",
+          "Key": "9A97F6B74273631323AA9B96210A0097",
+          "SourceString": "Reward title ({num} is replaced by the quantity)",
+          "LocalizedString": "Reward title ({num} is replaced by the quantity)"
+        },
+        "Detail_18_30F67F4341FAF3109709C483919AB18D": {
+          "Namespace": "",
+          "Key": "B35CA785439D827C7216DC9DB0900236",
+          "SourceString": "Reward description",
+          "LocalizedString": "Reward description"
+        },
+        "CategoryName_31_3C5342C74B1B17E7D86A7599C09D19C8": {
+          "CultureInvariantString": null
+        },
+        "RewardNameFormat_35_D47578024AC592ABAD1CD5BE544ED740": {
+          "CultureInvariantString": null
+        }
+      },
+      "56": {
+        "RewardCategoryID_23_D591463E48E5C2FBCEB07D9ECA639B25": "ERewardCategoryID::Invalid",
+        "IconTexture_5_B374551C4A6B5F9D2A3DA3B2BA2AC31F": {
+          "ObjectName": "Texture2D'T_Com_RewardIcon056'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/RewardIcon/Texture/T_Com_RewardIcon056.0"
+        },
+        "AvatarIconMID_26_547C4E2A4189354B64FA88BC1635CB6D": null,
+        "FrameID_8_1AC5EDC24FCF86ADEAD459B8C9F15D97": "ERewardIconFrameID::NewEnumerator0",
+        "ReplaceIconCaption_11_8D6C7FAB488B787840B4EA991AB84056": {
+          "Namespace": "",
+          "Key": "E70CDB834C765B8FD99B97BE39F01006",
+          "SourceString": "Description for the replaceable icon at the top left (hidden if empty)",
+          "LocalizedString": "Description for the replaceable icon at the top left (hidden if empty)"
+        },
+        "SubCaption_17_ADAC392F4585582F02AED78C097BE449": {
+          "Namespace": "",
+          "Key": "365473D24978DB42C39FC583552DF3A6",
+          "SourceString": "Caption at the bottom right of the icon",
+          "LocalizedString": "Caption at the bottom right of the icon"
+        },
+        "Title_21_5CD87E4540BD6979BA08B1A3516FD590": {
+          "Namespace": "",
+          "Key": "9A97F6B74273631323AA9B96210A0097",
+          "SourceString": "Reward title ({num} is replaced by the quantity)",
+          "LocalizedString": "Reward title ({num} is replaced by the quantity)"
+        },
+        "Detail_18_30F67F4341FAF3109709C483919AB18D": {
+          "Namespace": "",
+          "Key": "B35CA785439D827C7216DC9DB0900236",
+          "SourceString": "Reward description",
+          "LocalizedString": "Reward description"
+        },
+        "CategoryName_31_3C5342C74B1B17E7D86A7599C09D19C8": {
+          "CultureInvariantString": null
+        },
+        "RewardNameFormat_35_D47578024AC592ABAD1CD5BE544ED740": {
+          "CultureInvariantString": null
+        }
+      },
+      "57": {
+        "RewardCategoryID_23_D591463E48E5C2FBCEB07D9ECA639B25": "ERewardCategoryID::Invalid",
+        "IconTexture_5_B374551C4A6B5F9D2A3DA3B2BA2AC31F": {
+          "ObjectName": "Texture2D'T_Com_RewardIcon057'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/RewardIcon/Texture/T_Com_RewardIcon057.0"
+        },
+        "AvatarIconMID_26_547C4E2A4189354B64FA88BC1635CB6D": null,
+        "FrameID_8_1AC5EDC24FCF86ADEAD459B8C9F15D97": "ERewardIconFrameID::NewEnumerator0",
+        "ReplaceIconCaption_11_8D6C7FAB488B787840B4EA991AB84056": {
+          "Namespace": "",
+          "Key": "E70CDB834C765B8FD99B97BE39F01006",
+          "SourceString": "Description for the replaceable icon at the top left (hidden if empty)",
+          "LocalizedString": "Description for the replaceable icon at the top left (hidden if empty)"
+        },
+        "SubCaption_17_ADAC392F4585582F02AED78C097BE449": {
+          "Namespace": "",
+          "Key": "365473D24978DB42C39FC583552DF3A6",
+          "SourceString": "Caption at the bottom right of the icon",
+          "LocalizedString": "Caption at the bottom right of the icon"
+        },
+        "Title_21_5CD87E4540BD6979BA08B1A3516FD590": {
+          "Namespace": "",
+          "Key": "9A97F6B74273631323AA9B96210A0097",
+          "SourceString": "Reward title ({num} is replaced by the quantity)",
+          "LocalizedString": "Reward title ({num} is replaced by the quantity)"
+        },
+        "Detail_18_30F67F4341FAF3109709C483919AB18D": {
+          "Namespace": "",
+          "Key": "B35CA785439D827C7216DC9DB0900236",
+          "SourceString": "Reward description",
+          "LocalizedString": "Reward description"
+        },
+        "CategoryName_31_3C5342C74B1B17E7D86A7599C09D19C8": {
+          "CultureInvariantString": null
+        },
+        "RewardNameFormat_35_D47578024AC592ABAD1CD5BE544ED740": {
+          "CultureInvariantString": null
+        }
+      },
+      "58": {
+        "RewardCategoryID_23_D591463E48E5C2FBCEB07D9ECA639B25": "ERewardCategoryID::Invalid",
+        "IconTexture_5_B374551C4A6B5F9D2A3DA3B2BA2AC31F": {
+          "ObjectName": "Texture2D'T_Com_RewardIcon058'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/RewardIcon/Texture/T_Com_RewardIcon058.0"
+        },
+        "AvatarIconMID_26_547C4E2A4189354B64FA88BC1635CB6D": null,
+        "FrameID_8_1AC5EDC24FCF86ADEAD459B8C9F15D97": "ERewardIconFrameID::NewEnumerator0",
+        "ReplaceIconCaption_11_8D6C7FAB488B787840B4EA991AB84056": {
+          "Namespace": "",
+          "Key": "E70CDB834C765B8FD99B97BE39F01006",
+          "SourceString": "Description for the replaceable icon at the top left (hidden if empty)",
+          "LocalizedString": "Description for the replaceable icon at the top left (hidden if empty)"
+        },
+        "SubCaption_17_ADAC392F4585582F02AED78C097BE449": {
+          "Namespace": "",
+          "Key": "365473D24978DB42C39FC583552DF3A6",
+          "SourceString": "Caption at the bottom right of the icon",
+          "LocalizedString": "Caption at the bottom right of the icon"
+        },
+        "Title_21_5CD87E4540BD6979BA08B1A3516FD590": {
+          "Namespace": "",
+          "Key": "9A97F6B74273631323AA9B96210A0097",
+          "SourceString": "Reward title ({num} is replaced by the quantity)",
+          "LocalizedString": "Reward title ({num} is replaced by the quantity)"
+        },
+        "Detail_18_30F67F4341FAF3109709C483919AB18D": {
+          "Namespace": "",
+          "Key": "B35CA785439D827C7216DC9DB0900236",
+          "SourceString": "Reward description",
+          "LocalizedString": "Reward description"
+        },
+        "CategoryName_31_3C5342C74B1B17E7D86A7599C09D19C8": {
+          "CultureInvariantString": null
+        },
+        "RewardNameFormat_35_D47578024AC592ABAD1CD5BE544ED740": {
+          "CultureInvariantString": null
+        }
+      },
+      "59": {
+        "RewardCategoryID_23_D591463E48E5C2FBCEB07D9ECA639B25": "ERewardCategoryID::Invalid",
+        "IconTexture_5_B374551C4A6B5F9D2A3DA3B2BA2AC31F": {
+          "ObjectName": "Texture2D'T_Com_RewardIcon059'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/RewardIcon/Texture/T_Com_RewardIcon059.0"
+        },
+        "AvatarIconMID_26_547C4E2A4189354B64FA88BC1635CB6D": null,
+        "FrameID_8_1AC5EDC24FCF86ADEAD459B8C9F15D97": "ERewardIconFrameID::NewEnumerator0",
+        "ReplaceIconCaption_11_8D6C7FAB488B787840B4EA991AB84056": {
+          "Namespace": "",
+          "Key": "E70CDB834C765B8FD99B97BE39F01006",
+          "SourceString": "Description for the replaceable icon at the top left (hidden if empty)",
+          "LocalizedString": "Description for the replaceable icon at the top left (hidden if empty)"
+        },
+        "SubCaption_17_ADAC392F4585582F02AED78C097BE449": {
+          "Namespace": "",
+          "Key": "365473D24978DB42C39FC583552DF3A6",
+          "SourceString": "Caption at the bottom right of the icon",
+          "LocalizedString": "Caption at the bottom right of the icon"
+        },
+        "Title_21_5CD87E4540BD6979BA08B1A3516FD590": {
+          "Namespace": "",
+          "Key": "9A97F6B74273631323AA9B96210A0097",
+          "SourceString": "Reward title ({num} is replaced by the quantity)",
+          "LocalizedString": "Reward title ({num} is replaced by the quantity)"
+        },
+        "Detail_18_30F67F4341FAF3109709C483919AB18D": {
+          "Namespace": "",
+          "Key": "B35CA785439D827C7216DC9DB0900236",
+          "SourceString": "Reward description",
+          "LocalizedString": "Reward description"
+        },
+        "CategoryName_31_3C5342C74B1B17E7D86A7599C09D19C8": {
+          "CultureInvariantString": null
+        },
+        "RewardNameFormat_35_D47578024AC592ABAD1CD5BE544ED740": {
+          "CultureInvariantString": null
+        }
+      },
+      "60": {
+        "RewardCategoryID_23_D591463E48E5C2FBCEB07D9ECA639B25": "ERewardCategoryID::Invalid",
+        "IconTexture_5_B374551C4A6B5F9D2A3DA3B2BA2AC31F": {
+          "ObjectName": "Texture2D'T_Com_RewardIcon060'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/RewardIcon/Texture/T_Com_RewardIcon060.0"
+        },
+        "AvatarIconMID_26_547C4E2A4189354B64FA88BC1635CB6D": null,
+        "FrameID_8_1AC5EDC24FCF86ADEAD459B8C9F15D97": "ERewardIconFrameID::NewEnumerator0",
+        "ReplaceIconCaption_11_8D6C7FAB488B787840B4EA991AB84056": {
+          "Namespace": "",
+          "Key": "E70CDB834C765B8FD99B97BE39F01006",
+          "SourceString": "Description for the replaceable icon at the top left (hidden if empty)",
+          "LocalizedString": "Description for the replaceable icon at the top left (hidden if empty)"
+        },
+        "SubCaption_17_ADAC392F4585582F02AED78C097BE449": {
+          "Namespace": "",
+          "Key": "365473D24978DB42C39FC583552DF3A6",
+          "SourceString": "Caption at the bottom right of the icon",
+          "LocalizedString": "Caption at the bottom right of the icon"
+        },
+        "Title_21_5CD87E4540BD6979BA08B1A3516FD590": {
+          "Namespace": "",
+          "Key": "9A97F6B74273631323AA9B96210A0097",
+          "SourceString": "Reward title ({num} is replaced by the quantity)",
+          "LocalizedString": "Reward title ({num} is replaced by the quantity)"
+        },
+        "Detail_18_30F67F4341FAF3109709C483919AB18D": {
+          "Namespace": "",
+          "Key": "B35CA785439D827C7216DC9DB0900236",
+          "SourceString": "Reward description",
+          "LocalizedString": "Reward description"
+        },
+        "CategoryName_31_3C5342C74B1B17E7D86A7599C09D19C8": {
+          "CultureInvariantString": null
+        },
+        "RewardNameFormat_35_D47578024AC592ABAD1CD5BE544ED740": {
+          "CultureInvariantString": null
+        }
+      },
+      "61": {
+        "RewardCategoryID_23_D591463E48E5C2FBCEB07D9ECA639B25": "ERewardCategoryID::Invalid",
+        "IconTexture_5_B374551C4A6B5F9D2A3DA3B2BA2AC31F": {
+          "ObjectName": "Texture2D'T_Com_RewardIcon061'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/RewardIcon/Texture/T_Com_RewardIcon061.0"
+        },
+        "AvatarIconMID_26_547C4E2A4189354B64FA88BC1635CB6D": null,
+        "FrameID_8_1AC5EDC24FCF86ADEAD459B8C9F15D97": "ERewardIconFrameID::NewEnumerator0",
+        "ReplaceIconCaption_11_8D6C7FAB488B787840B4EA991AB84056": {
+          "Namespace": "",
+          "Key": "E70CDB834C765B8FD99B97BE39F01006",
+          "SourceString": "Description for the replaceable icon at the top left (hidden if empty)",
+          "LocalizedString": "Description for the replaceable icon at the top left (hidden if empty)"
+        },
+        "SubCaption_17_ADAC392F4585582F02AED78C097BE449": {
+          "Namespace": "",
+          "Key": "365473D24978DB42C39FC583552DF3A6",
+          "SourceString": "Caption at the bottom right of the icon",
+          "LocalizedString": "Caption at the bottom right of the icon"
+        },
+        "Title_21_5CD87E4540BD6979BA08B1A3516FD590": {
+          "Namespace": "",
+          "Key": "9A97F6B74273631323AA9B96210A0097",
+          "SourceString": "Reward title ({num} is replaced by the quantity)",
+          "LocalizedString": "Reward title ({num} is replaced by the quantity)"
+        },
+        "Detail_18_30F67F4341FAF3109709C483919AB18D": {
+          "Namespace": "",
+          "Key": "B35CA785439D827C7216DC9DB0900236",
+          "SourceString": "Reward description",
+          "LocalizedString": "Reward description"
+        },
+        "CategoryName_31_3C5342C74B1B17E7D86A7599C09D19C8": {
+          "CultureInvariantString": null
+        },
+        "RewardNameFormat_35_D47578024AC592ABAD1CD5BE544ED740": {
+          "CultureInvariantString": null
+        }
+      },
+      "62": {
+        "RewardCategoryID_23_D591463E48E5C2FBCEB07D9ECA639B25": "ERewardCategoryID::Invalid",
+        "IconTexture_5_B374551C4A6B5F9D2A3DA3B2BA2AC31F": {
+          "ObjectName": "Texture2D'T_Com_RewardIcon062'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/RewardIcon/Texture/T_Com_RewardIcon062.0"
+        },
+        "AvatarIconMID_26_547C4E2A4189354B64FA88BC1635CB6D": null,
+        "FrameID_8_1AC5EDC24FCF86ADEAD459B8C9F15D97": "ERewardIconFrameID::NewEnumerator0",
+        "ReplaceIconCaption_11_8D6C7FAB488B787840B4EA991AB84056": {
+          "Namespace": "",
+          "Key": "E70CDB834C765B8FD99B97BE39F01006",
+          "SourceString": "Description for the replaceable icon at the top left (hidden if empty)",
+          "LocalizedString": "Description for the replaceable icon at the top left (hidden if empty)"
+        },
+        "SubCaption_17_ADAC392F4585582F02AED78C097BE449": {
+          "Namespace": "",
+          "Key": "365473D24978DB42C39FC583552DF3A6",
+          "SourceString": "Caption at the bottom right of the icon",
+          "LocalizedString": "Caption at the bottom right of the icon"
+        },
+        "Title_21_5CD87E4540BD6979BA08B1A3516FD590": {
+          "Namespace": "",
+          "Key": "9A97F6B74273631323AA9B96210A0097",
+          "SourceString": "Reward title ({num} is replaced by the quantity)",
+          "LocalizedString": "Reward title ({num} is replaced by the quantity)"
+        },
+        "Detail_18_30F67F4341FAF3109709C483919AB18D": {
+          "Namespace": "",
+          "Key": "B35CA785439D827C7216DC9DB0900236",
+          "SourceString": "Reward description",
+          "LocalizedString": "Reward description"
+        },
+        "CategoryName_31_3C5342C74B1B17E7D86A7599C09D19C8": {
+          "CultureInvariantString": null
+        },
+        "RewardNameFormat_35_D47578024AC592ABAD1CD5BE544ED740": {
+          "CultureInvariantString": null
+        }
+      },
+      "63": {
+        "RewardCategoryID_23_D591463E48E5C2FBCEB07D9ECA639B25": "ERewardCategoryID::Invalid",
+        "IconTexture_5_B374551C4A6B5F9D2A3DA3B2BA2AC31F": {
+          "ObjectName": "Texture2D'T_Com_RewardIcon063'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/RewardIcon/Texture/T_Com_RewardIcon063.0"
+        },
+        "AvatarIconMID_26_547C4E2A4189354B64FA88BC1635CB6D": null,
+        "FrameID_8_1AC5EDC24FCF86ADEAD459B8C9F15D97": "ERewardIconFrameID::NewEnumerator0",
+        "ReplaceIconCaption_11_8D6C7FAB488B787840B4EA991AB84056": {
+          "Namespace": "",
+          "Key": "E70CDB834C765B8FD99B97BE39F01006",
+          "SourceString": "Description for the replaceable icon at the top left (hidden if empty)",
+          "LocalizedString": "Description for the replaceable icon at the top left (hidden if empty)"
+        },
+        "SubCaption_17_ADAC392F4585582F02AED78C097BE449": {
+          "Namespace": "",
+          "Key": "365473D24978DB42C39FC583552DF3A6",
+          "SourceString": "Caption at the bottom right of the icon",
+          "LocalizedString": "Caption at the bottom right of the icon"
+        },
+        "Title_21_5CD87E4540BD6979BA08B1A3516FD590": {
+          "Namespace": "",
+          "Key": "9A97F6B74273631323AA9B96210A0097",
+          "SourceString": "Reward title ({num} is replaced by the quantity)",
+          "LocalizedString": "Reward title ({num} is replaced by the quantity)"
+        },
+        "Detail_18_30F67F4341FAF3109709C483919AB18D": {
+          "Namespace": "",
+          "Key": "B35CA785439D827C7216DC9DB0900236",
+          "SourceString": "Reward description",
+          "LocalizedString": "Reward description"
+        },
+        "CategoryName_31_3C5342C74B1B17E7D86A7599C09D19C8": {
+          "CultureInvariantString": null
+        },
+        "RewardNameFormat_35_D47578024AC592ABAD1CD5BE544ED740": {
+          "CultureInvariantString": null
+        }
+      },
+      "64": {
+        "RewardCategoryID_23_D591463E48E5C2FBCEB07D9ECA639B25": "ERewardCategoryID::Invalid",
+        "IconTexture_5_B374551C4A6B5F9D2A3DA3B2BA2AC31F": {
+          "ObjectName": "Texture2D'T_Com_RewardIcon064'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/RewardIcon/Texture/T_Com_RewardIcon064.0"
+        },
+        "AvatarIconMID_26_547C4E2A4189354B64FA88BC1635CB6D": null,
+        "FrameID_8_1AC5EDC24FCF86ADEAD459B8C9F15D97": "ERewardIconFrameID::NewEnumerator0",
+        "ReplaceIconCaption_11_8D6C7FAB488B787840B4EA991AB84056": {
+          "Namespace": "",
+          "Key": "E70CDB834C765B8FD99B97BE39F01006",
+          "SourceString": "Description for the replaceable icon at the top left (hidden if empty)",
+          "LocalizedString": "Description for the replaceable icon at the top left (hidden if empty)"
+        },
+        "SubCaption_17_ADAC392F4585582F02AED78C097BE449": {
+          "Namespace": "",
+          "Key": "365473D24978DB42C39FC583552DF3A6",
+          "SourceString": "Caption at the bottom right of the icon",
+          "LocalizedString": "Caption at the bottom right of the icon"
+        },
+        "Title_21_5CD87E4540BD6979BA08B1A3516FD590": {
+          "Namespace": "",
+          "Key": "9A97F6B74273631323AA9B96210A0097",
+          "SourceString": "Reward title ({num} is replaced by the quantity)",
+          "LocalizedString": "Reward title ({num} is replaced by the quantity)"
+        },
+        "Detail_18_30F67F4341FAF3109709C483919AB18D": {
+          "Namespace": "",
+          "Key": "B35CA785439D827C7216DC9DB0900236",
+          "SourceString": "Reward description",
+          "LocalizedString": "Reward description"
+        },
+        "CategoryName_31_3C5342C74B1B17E7D86A7599C09D19C8": {
+          "CultureInvariantString": null
+        },
+        "RewardNameFormat_35_D47578024AC592ABAD1CD5BE544ED740": {
+          "CultureInvariantString": null
+        }
+      }
+    }
+  }
+]

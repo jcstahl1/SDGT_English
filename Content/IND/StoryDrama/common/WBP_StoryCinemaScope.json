@@ -1,0 +1,594 @@
+[
+  {
+    "Type": "StructProperty",
+    "Name": "UberGraphFrame",
+    "Outer": "WBP_StoryCinemaScope_C",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "Transient | DuplicateTransient",
+    "Struct": {
+      "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "WBP_StoryCinemaScope_C",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WBP_StoryCinemaScope_C:WidgetTree'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_StoryCinemaScope.26"
+      },
+      "bAllowTemplate": true,
+      "bValidTemplate": true,
+      "TemplateAsset": {
+        "AssetPathName": "/Game/IND/StoryDrama/common/WBP_StoryCinemaScope.WidgetArchetype",
+        "SubPathString": ""
+      },
+      "UberGraphFramePointerProperty": {
+        "ObjectName": "StructProperty'WBP_StoryCinemaScope_C:UberGraphFrame'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_StoryCinemaScope.0"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'WBP_StoryCinemaScope_C:ExecuteUbergraph_WBP_StoryCinemaScope'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_StoryCinemaScope.14"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'UserWidget'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'WBP_StoryCinemaScope_C:UberGraphFrame'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_StoryCinemaScope.0"
+      },
+      {
+        "ObjectName": "Function'WBP_StoryCinemaScope_C:SetStoryInfo'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_StoryCinemaScope.16"
+      },
+      {
+        "ObjectName": "Function'WBP_StoryCinemaScope_C:ExecuteUbergraph_WBP_StoryCinemaScope'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_StoryCinemaScope.14"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_StoryCinemaScope_C:letterbox'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_StoryCinemaScope.19"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_StoryCinemaScope_C:ProgressBar_1'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_StoryCinemaScope.20"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_StoryCinemaScope_C:StoryInfo'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_StoryCinemaScope.11"
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_WBP_StoryCinemaScope": {
+        "ObjectName": "Function'WBP_StoryCinemaScope_C:ExecuteUbergraph_WBP_StoryCinemaScope'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_StoryCinemaScope.14"
+      },
+      "SetStoryInfo": {
+        "ObjectName": "Function'WBP_StoryCinemaScope_C:SetStoryInfo'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_StoryCinemaScope.16"
+      }
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "WBP_StoryCinemaScope_C'Default__WBP_StoryCinemaScope_C'",
+      "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_StoryCinemaScope.2"
+    }
+  },
+  {
+    "Type": "WBP_StoryCinemaScope_C",
+    "Name": "Default__WBP_StoryCinemaScope_C",
+    "Class": "WidgetBlueprintGeneratedClass'GameProject/Content/IND/StoryDrama/common/WBP_StoryCinemaScope.WBP_StoryCinemaScope_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "UberGraphFrame": {},
+      "bHasScriptImplementedTick": false,
+      "bHasScriptImplementedPaint": false
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_0",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_StoryCinemaScope_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_StoryCinemaScope.6"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_StoryCinemaScope_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_StoryCinemaScope.5"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_StoryCinemaScope_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_2'",
+          "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_StoryCinemaScope.7"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_0",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_StoryCinemaScope.9"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_StoryCinemaScope.8"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_2'",
+          "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_StoryCinemaScope.10"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -450.0,
+          "Top": 450.0,
+          "Right": 900.0,
+          "Bottom": 10.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_StoryCinemaScope_C:WidgetTree.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_StoryCinemaScope.3"
+      },
+      "Content": {
+        "ObjectName": "ProgressBar'WBP_StoryCinemaScope_C:WidgetTree.ProgressBar_1'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_StoryCinemaScope.21"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 1920.0,
+          "Bottom": 1080.0
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_StoryCinemaScope_C:WidgetTree.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_StoryCinemaScope.3"
+      },
+      "Content": {
+        "ObjectName": "Image'WBP_StoryCinemaScope_C:WidgetTree.letterbox'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_StoryCinemaScope.17"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_2",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 80.0,
+          "Top": 80.0,
+          "Right": 800.0,
+          "Bottom": 80.0
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_StoryCinemaScope_C:WidgetTree.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_StoryCinemaScope.3"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WBP_StoryCinemaScope_C:WidgetTree.StoryInfo'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_StoryCinemaScope.23"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -450.0,
+          "Top": 450.0,
+          "Right": 900.0,
+          "Bottom": 10.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_StoryCinemaScope.4"
+      },
+      "Content": {
+        "ObjectName": "ProgressBar'WidgetArchetype:WidgetTree_0.ProgressBar_1'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_StoryCinemaScope.22"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 1920.0,
+          "Bottom": 1080.0
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_StoryCinemaScope.4"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.letterbox'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_StoryCinemaScope.18"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_2",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 80.0,
+          "Top": 80.0,
+          "Right": 800.0,
+          "Bottom": 80.0
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_StoryCinemaScope.4"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.StoryInfo'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_StoryCinemaScope.24"
+      }
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "StoryInfo",
+    "Outer": "WBP_StoryCinemaScope_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'TextBlock'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "K2Node_CustomEvent_StoryInfo",
+    "Outer": "ExecuteUbergraph_WBP_StoryCinemaScope",
+    "Class": "UScriptClass'TextProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "EntryPoint",
+    "Outer": "ExecuteUbergraph_WBP_StoryCinemaScope",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_WBP_StoryCinemaScope",
+    "Outer": "WBP_StoryCinemaScope_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "IntProperty'WBP_StoryCinemaScope_C:ExecuteUbergraph_WBP_StoryCinemaScope.EntryPoint'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_StoryCinemaScope.13"
+      },
+      {
+        "ObjectName": "TextProperty'WBP_StoryCinemaScope_C:ExecuteUbergraph_WBP_StoryCinemaScope.K2Node_CustomEvent_StoryInfo'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_StoryCinemaScope.12"
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction | FUNC_HasDefaults"
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "StoryInfo",
+    "Outer": "SetStoryInfo",
+    "Class": "UScriptClass'TextProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "SetStoryInfo",
+    "Outer": "WBP_StoryCinemaScope_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "TextProperty'WBP_StoryCinemaScope_C:SetStoryInfo.StoryInfo'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_StoryCinemaScope.15"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Image",
+    "Name": "letterbox",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 1920.0,
+          "Y": 1080.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'letterbox'",
+          "ObjectPath": "GameProject/Content/IND/StoryDrama/Texture/other/letterbox.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_StoryCinemaScope_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_StoryCinemaScope.6"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "letterbox",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 1920.0,
+          "Y": 1080.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'letterbox'",
+          "ObjectPath": "GameProject/Content/IND/StoryDrama/Texture/other/letterbox.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_StoryCinemaScope.9"
+      }
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "letterbox",
+    "Outer": "WBP_StoryCinemaScope_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'Image'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "ProgressBar_1",
+    "Outer": "WBP_StoryCinemaScope_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'ProgressBar'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ProgressBar",
+    "Name": "ProgressBar_1",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'ProgressBar'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "FillColorAndOpacity": {
+        "R": 1.0,
+        "G": 0.25,
+        "B": 0.1,
+        "A": 1.0,
+        "Hex": "FF8959"
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_StoryCinemaScope_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_StoryCinemaScope.5"
+      }
+    }
+  },
+  {
+    "Type": "ProgressBar",
+    "Name": "ProgressBar_1",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'ProgressBar'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "FillColorAndOpacity": {
+        "R": 1.0,
+        "G": 0.25,
+        "B": 0.1,
+        "A": 1.0,
+        "Hex": "FF8959"
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_StoryCinemaScope.8"
+      }
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "StoryInfo",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "2399090D4B441C75443E2B998885010A",
+        "SourceString": "Chapter 1  Ep.1: The Night Before the Legend",
+        "LocalizedString": "Chapter 1  Ep.1: The Night Before the Legend"
+      },
+      "Font": {
+        "TypefaceFontName": "Default",
+        "Size": 36
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_StoryCinemaScope_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_2'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_StoryCinemaScope.7"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "StoryInfo",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "2399090D4B441C75443E2B998885010A",
+        "SourceString": "Chapter 1  Ep.1: The Night Before the Legend",
+        "LocalizedString": "Chapter 1  Ep.1: The Night Before the Legend"
+      },
+      "Font": {
+        "TypefaceFontName": "Default",
+        "Size": 36
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_2'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_StoryCinemaScope.10"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "WBP_StoryCinemaScope_C",
+    "Name": "WidgetArchetype",
+    "Class": "WidgetBlueprintGeneratedClass'GameProject/Content/IND/StoryDrama/common/WBP_StoryCinemaScope.WBP_StoryCinemaScope_C'",
+    "Template": {
+      "ObjectName": "WBP_StoryCinemaScope_C'Default__WBP_StoryCinemaScope_C'",
+      "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_StoryCinemaScope.2"
+    },
+    "Flags": "RF_Public | RF_Standalone | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "letterbox": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.letterbox'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_StoryCinemaScope.18"
+      },
+      "ProgressBar_1": {
+        "ObjectName": "ProgressBar'WidgetArchetype:WidgetTree_0.ProgressBar_1'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_StoryCinemaScope.22"
+      },
+      "StoryInfo": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.StoryInfo'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_StoryCinemaScope.24"
+      },
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_StoryCinemaScope.27"
+      },
+      "bCookedWidgetTree": true
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Outer": "WBP_StoryCinemaScope_C",
+    "Class": "UScriptClass'WidgetTree'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CanvasPanel'WBP_StoryCinemaScope_C:WidgetTree.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_StoryCinemaScope.3"
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree_0",
+    "Outer": "WidgetArchetype",
+    "Class": "UScriptClass'WidgetTree'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_StoryCinemaScope.4"
+      }
+    }
+  }
+]

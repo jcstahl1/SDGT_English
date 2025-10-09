@@ -1,0 +1,2945 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_WidgetSetting_Story_01_EpisodeExtend",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'MenuStoryDesignData'",
+        "ObjectPath": "/Script/GameProject"
+      }
+    },
+    "Rows": {
+      "s01_c01_e01": {
+        "Rival": {
+          "UseEpisodeData": true,
+          "CharacterID": []
+        },
+        "Load": {
+          "LoadingImageID": {
+            "AssetPathName": "/Game/IND/UI/Load/Texture/StoryLoadBG/T_Load_StoryBG_akinalake_n_f_01.T_Load_StoryBG_akinalake_n_f_01",
+            "SubPathString": ""
+          },
+          "LoadingTextID": {
+            "TableId": "/Game/IND/UI/DataTable/Story/StoryType/StoryType_01/Str_WD_Load_Story_01_Prologue.Str_WD_Load_Story_01_Prologue",
+            "Key": "1_1_1",
+            "SourceString": "This is the first battle of the street racer\r\nwho would later be called a legend—\r\nOne that never made it into the records...",
+            "LocalizedString": "This is the first battle of the street racer\r\nwho would later be called a legend—\r\nOne that never made it into the records..."
+          },
+          "NarrationVoice": {
+            "ObjectName": "SoundAtomCue'prolouge_01_01_01_01'",
+            "ObjectPath": "GameProject/Content/IND/Sound/VOICE/prolouge_01_01_01_01.0"
+          },
+          "NarrationVoiceDelay": 2.5,
+          "ViewTimeAfter": 2.0
+        },
+        "NextEpisode": {
+          "AnimType": 0,
+          "AutoSetting": true,
+          "ChapterID": -1,
+          "EpisodeID": -1,
+          "MainImage": {
+            "AssetPathName": "/Game/IND/UI/Load/Texture/StoryLoadBG/T_Load_StoryBG_akinalake_n_f_02.T_Load_StoryBG_akinalake_n_f_02",
+            "SubPathString": ""
+          },
+          "NarrationTextID": {
+            "TableId": "/Game/IND/UI/DataTable/Story/StoryType/StoryType_01/Str_WD_Race_Story_01_NextPreview.Str_WD_Race_Story_01_NextPreview",
+            "Key": "1_1_1",
+            "SourceString": "A man with a dangerous aura, Wataru Akiyama.\r\nMeeting him will change fate!",
+            "LocalizedString": "A man with a dangerous aura, Wataru Akiyama.\r\nMeeting him will change fate!"
+          },
+          "NarrationVoice": {
+            "ObjectName": "SoundAtomCue'yokoku_01_01_01_01'",
+            "ObjectPath": "GameProject/Content/IND/Sound/VOICE/yokoku_01_01_01_01.0"
+          },
+          "NarrationVoiceDelay": 1.0,
+          "ViewTimeAfter": 2.0,
+          "ViewTimeAll": 12.0,
+          "PlaybackSpeed": 1.0
+        }
+      },
+      "s01_c01_e02": {
+        "Rival": {
+          "UseEpisodeData": false,
+          "CharacterID": [
+            "WATARU"
+          ]
+        },
+        "Load": {
+          "LoadingImageID": {
+            "AssetPathName": "/Game/IND/UI/Load/Texture/StoryLoadBG/T_Load_StoryBG_akinalake_n_f_02.T_Load_StoryBG_akinalake_n_f_02",
+            "SubPathString": ""
+          },
+          "LoadingTextID": {
+            "TableId": "/Game/IND/UI/DataTable/Story/StoryType/StoryType_01/Str_WD_Load_Story_01_Prologue.Str_WD_Load_Story_01_Prologue",
+            "Key": "1_1_2",
+            "SourceString": "Wataru Akiyama flags down a street racer\r\n he happens to meet by chance. Surprised by the racer's\r\ntechnique, Wataru makes a proposal.",
+            "LocalizedString": "Wataru Akiyama flags down a street racer\r\n he happens to meet by chance. Surprised by the racer's\r\ntechnique, Wataru makes a proposal."
+          },
+          "NarrationVoice": {
+            "ObjectName": "SoundAtomCue'prolouge_01_01_02_01'",
+            "ObjectPath": "GameProject/Content/IND/Sound/VOICE/prolouge_01_01_02_01.0"
+          },
+          "NarrationVoiceDelay": 2.5,
+          "ViewTimeAfter": 2.0
+        },
+        "NextEpisode": {
+          "AnimType": 0,
+          "AutoSetting": true,
+          "ChapterID": -1,
+          "EpisodeID": -1,
+          "MainImage": {
+            "AssetPathName": "/Game/IND/UI/Load/Texture/StoryLoadBG/T_Load_StoryBG_akina_n_f_01.T_Load_StoryBG_akina_n_f_01",
+            "SubPathString": ""
+          },
+          "NarrationTextID": {
+            "TableId": "/Game/IND/UI/DataTable/Story/StoryType/StoryType_01/Str_WD_Race_Story_01_NextPreview.Str_WD_Race_Story_01_NextPreview",
+            "Key": "1_1_2",
+            "SourceString": "After parting with Wataru, a new encounter waited just ahead...",
+            "LocalizedString": "After parting with Wataru, a new encounter waited just ahead..."
+          },
+          "NarrationVoice": {
+            "ObjectName": "SoundAtomCue'yokoku_01_01_02_01'",
+            "ObjectPath": "GameProject/Content/IND/Sound/VOICE/yokoku_01_01_02_01.0"
+          },
+          "NarrationVoiceDelay": 1.0,
+          "ViewTimeAfter": 2.0,
+          "ViewTimeAll": 12.0,
+          "PlaybackSpeed": 1.0
+        }
+      },
+      "s01_c01_e03": {
+        "Rival": {
+          "UseEpisodeData": true,
+          "CharacterID": []
+        },
+        "Load": {
+          "LoadingImageID": {
+            "AssetPathName": "/Game/IND/UI/Load/Texture/StoryLoadBG/T_Load_StoryBG_akina_n_f_01.T_Load_StoryBG_akina_n_f_01",
+            "SubPathString": ""
+          },
+          "LoadingTextID": {
+            "TableId": "/Game/IND/UI/DataTable/Story/StoryType/StoryType_01/Str_WD_Load_Story_01_Prologue.Str_WD_Load_Story_01_Prologue",
+            "Key": "1_1_3",
+            "SourceString": "Koichiro Iketani is driving down Akina Pass.\r\nHe happens to run into the street racer who\r\nblew past him the other day.",
+            "LocalizedString": "Koichiro Iketani is driving down Akina Pass.\r\nHe happens to run into the street racer who\r\nblew past him the other day."
+          },
+          "NarrationVoice": {
+            "ObjectName": "SoundAtomCue'prolouge_01_01_03_01'",
+            "ObjectPath": "GameProject/Content/IND/Sound/VOICE/prolouge_01_01_03_01.0"
+          },
+          "NarrationVoiceDelay": 2.5,
+          "ViewTimeAfter": 2.0
+        },
+        "NextEpisode": {
+          "AnimType": 0,
+          "AutoSetting": true,
+          "ChapterID": -1,
+          "EpisodeID": -1,
+          "MainImage": {
+            "AssetPathName": "/Game/IND/UI/Load/Texture/StoryLoadBG/T_Load_StoryBG_akina_n_f_02.T_Load_StoryBG_akina_n_f_02",
+            "SubPathString": ""
+          },
+          "NarrationTextID": {
+            "TableId": "/Game/IND/UI/DataTable/Story/StoryType/StoryType_01/Str_WD_Race_Story_01_NextPreview.Str_WD_Race_Story_01_NextPreview",
+            "Key": "1_1_3",
+            "SourceString": "After getting blown away again, a smile on appears on Iketani's face?",
+            "LocalizedString": "After getting blown away again, a smile on appears on Iketani's face?"
+          },
+          "NarrationVoice": {
+            "ObjectName": "SoundAtomCue'yokoku_01_01_03_01'",
+            "ObjectPath": "GameProject/Content/IND/Sound/VOICE/yokoku_01_01_03_01.0"
+          },
+          "NarrationVoiceDelay": 1.0,
+          "ViewTimeAfter": 2.0,
+          "ViewTimeAll": 12.0,
+          "PlaybackSpeed": 1.0
+        }
+      },
+      "s01_c01_e04": {
+        "Rival": {
+          "UseEpisodeData": false,
+          "CharacterID": [
+            "IKETANI",
+            "KENJI"
+          ]
+        },
+        "Load": {
+          "LoadingImageID": {
+            "AssetPathName": "/Game/IND/UI/Load/Texture/StoryLoadBG/T_Load_StoryBG_akina_n_f_02.T_Load_StoryBG_akina_n_f_02",
+            "SubPathString": ""
+          },
+          "LoadingTextID": {
+            "TableId": "/Game/IND/UI/DataTable/Story/StoryType/StoryType_01/Str_WD_Load_Story_01_Prologue.Str_WD_Load_Story_01_Prologue",
+            "Key": "1_1_4",
+            "SourceString": "With his teammates in tow, Iketani\r\ngoes after a lone street racer.\r\nThe goal is to recruit him to the team.",
+            "LocalizedString": "With his teammates in tow, Iketani\r\ngoes after a lone street racer.\r\nThe goal is to recruit him to the team."
+          },
+          "NarrationVoice": {
+            "ObjectName": "SoundAtomCue'prolouge_01_01_04_01'",
+            "ObjectPath": "GameProject/Content/IND/Sound/VOICE/prolouge_01_01_04_01.0"
+          },
+          "NarrationVoiceDelay": 2.5,
+          "ViewTimeAfter": 2.0
+        },
+        "NextEpisode": {
+          "AnimType": 0,
+          "AutoSetting": true,
+          "ChapterID": -1,
+          "EpisodeID": -1,
+          "MainImage": {
+            "AssetPathName": "/Game/IND/UI/Load/Texture/StoryLoadBG/T_Load_StoryBG_akina_n_b_01.T_Load_StoryBG_akina_n_b_01",
+            "SubPathString": ""
+          },
+          "NarrationTextID": {
+            "TableId": "/Game/IND/UI/DataTable/Story/StoryType/StoryType_01/Str_WD_Race_Story_01_NextPreview.Str_WD_Race_Story_01_NextPreview",
+            "Key": "1_1_4",
+            "SourceString": "A mystery crew challenges the SpeedStars to a friendly match.\r\nWho are they really?",
+            "LocalizedString": "A mystery crew challenges the SpeedStars to a friendly match.\r\nWho are they really?"
+          },
+          "NarrationVoice": {
+            "ObjectName": "SoundAtomCue'yokoku_01_01_04_01'",
+            "ObjectPath": "GameProject/Content/IND/Sound/VOICE/yokoku_01_01_04_01.0"
+          },
+          "NarrationVoiceDelay": 1.0,
+          "ViewTimeAfter": 2.0,
+          "ViewTimeAll": 12.0,
+          "PlaybackSpeed": 1.0
+        }
+      },
+      "s01_c01_e05": {
+        "Rival": {
+          "UseEpisodeData": true,
+          "CharacterID": []
+        },
+        "Load": {
+          "LoadingImageID": {
+            "AssetPathName": "/Game/IND/UI/Load/Texture/StoryLoadBG/T_Load_StoryBG_akina_n_b_01.T_Load_StoryBG_akina_n_b_01",
+            "SubPathString": ""
+          },
+          "LoadingTextID": {
+            "TableId": "/Game/IND/UI/DataTable/Story/StoryType/StoryType_01/Str_WD_Load_Story_01_Prologue.Str_WD_Load_Story_01_Prologue",
+            "Key": "1_1_5",
+            "SourceString": "A mysterious street-racing team shows st Mt. Akina.\r\nBored of scouting, the members were looking for\r\nsomeone to kill time with.",
+            "LocalizedString": "A mysterious street-racing team shows st Mt. Akina.\r\nBored of scouting, the members were looking for\r\nsomeone to kill time with."
+          },
+          "NarrationVoice": {
+            "ObjectName": "SoundAtomCue'prolouge_01_01_05_01'",
+            "ObjectPath": "GameProject/Content/IND/Sound/VOICE/prolouge_01_01_05_01.0"
+          },
+          "NarrationVoiceDelay": 2.5,
+          "ViewTimeAfter": 2.0
+        },
+        "NextEpisode": {
+          "AnimType": 0,
+          "AutoSetting": true,
+          "ChapterID": -1,
+          "EpisodeID": -1,
+          "MainImage": {
+            "AssetPathName": "/Game/IND/UI/Load/Texture/StoryLoadBG/T_Load_StoryBG_akinalake_n_f_01.T_Load_StoryBG_akinalake_n_f_01",
+            "SubPathString": ""
+          },
+          "NarrationTextID": {
+            "TableId": "/Game/IND/UI/DataTable/Story/StoryType/StoryType_01/Str_WD_Race_Story_01_NextPreview.Str_WD_Race_Story_01_NextPreview",
+            "Key": "1_1_5",
+            "SourceString": "On the way back after leaving Kenta in the dust, a man was waiting up ahead…",
+            "LocalizedString": "On the way back after leaving Kenta in the dust, a man was waiting up ahead…"
+          },
+          "NarrationVoice": {
+            "ObjectName": "SoundAtomCue'yokoku_01_01_05_01'",
+            "ObjectPath": "GameProject/Content/IND/Sound/VOICE/yokoku_01_01_05_01.0"
+          },
+          "NarrationVoiceDelay": 1.0,
+          "ViewTimeAfter": 2.0,
+          "ViewTimeAll": 12.0,
+          "PlaybackSpeed": 1.0
+        }
+      },
+      "s01_c02_e01": {
+        "Rival": {
+          "UseEpisodeData": true,
+          "CharacterID": []
+        },
+        "Load": {
+          "LoadingImageID": {
+            "AssetPathName": "/Game/IND/UI/Load/Texture/StoryLoadBG/T_Load_StoryBG_akinalake_n_f_01.T_Load_StoryBG_akinalake_n_f_01",
+            "SubPathString": ""
+          },
+          "LoadingTextID": {
+            "TableId": "/Game/IND/UI/DataTable/Story/StoryType/StoryType_01/Str_WD_Load_Story_01_Prologue.Str_WD_Load_Story_01_Prologue",
+            "Key": "1_2_1",
+            "SourceString": "On the way back from scouting Akina, Ryosuke\r\nrevises the coming project plan.\r\nA lone street racer shows up.",
+            "LocalizedString": "On the way back from scouting Akina, Ryosuke\r\nrevises the coming project plan.\r\nA lone street racer shows up."
+          },
+          "NarrationVoice": {
+            "ObjectName": "SoundAtomCue'prolouge_01_02_01_01'",
+            "ObjectPath": "GameProject/Content/IND/Sound/VOICE/prolouge_01_02_01_01.0"
+          },
+          "NarrationVoiceDelay": 2.5,
+          "ViewTimeAfter": 2.0
+        },
+        "NextEpisode": {
+          "AnimType": 0,
+          "AutoSetting": true,
+          "ChapterID": -1,
+          "EpisodeID": -1,
+          "MainImage": {
+            "AssetPathName": "/Game/IND/UI/Load/Texture/StoryLoadBG/T_Load_StoryBG_akina_n_f_01.T_Load_StoryBG_akina_n_f_01",
+            "SubPathString": ""
+          },
+          "NarrationTextID": {
+            "TableId": "/Game/IND/UI/DataTable/Story/StoryType/StoryType_01/Str_WD_Race_Story_01_NextPreview.Str_WD_Race_Story_01_NextPreview",
+            "Key": "1_2_1",
+            "SourceString": "The friendly match on Akina.\r\nThere, a young man in an AE86 appears.",
+            "LocalizedString": "The friendly match on Akina.\r\nThere, a young man in an AE86 appears."
+          },
+          "NarrationVoice": {
+            "ObjectName": "SoundAtomCue'yokoku_01_02_01_01'",
+            "ObjectPath": "GameProject/Content/IND/Sound/VOICE/yokoku_01_02_01_01.0"
+          },
+          "NarrationVoiceDelay": 1.0,
+          "ViewTimeAfter": 2.0,
+          "ViewTimeAll": 12.0,
+          "PlaybackSpeed": 1.0
+        }
+      },
+      "s01_c02_e02": {
+        "Rival": {
+          "UseEpisodeData": false,
+          "CharacterID": [
+            "IKETANI",
+            "KENJI"
+          ]
+        },
+        "Load": {
+          "LoadingImageID": {
+            "AssetPathName": "/Game/IND/UI/Load/Texture/StoryLoadBG/T_Load_StoryBG_akina_n_f_01.T_Load_StoryBG_akina_n_f_01",
+            "SubPathString": ""
+          },
+          "LoadingTextID": {
+            "TableId": "/Game/IND/UI/DataTable/Story/StoryType/StoryType_01/Str_WD_Load_Story_01_Prologue.Str_WD_Load_Story_01_Prologue",
+            "Key": "1_2_2",
+            "SourceString": "Mt. Akina is buzzing over the mysterious\r\nyoung man who defeated the Akagi Red Suns.\r\nIt seems Iketani wants to recruit him to the team.",
+            "LocalizedString": "Mt. Akina is buzzing over the mysterious\r\nyoung man who defeated the Akagi Red Suns.\r\nIt seems Iketani wants to recruit him to the team."
+          },
+          "NarrationVoice": {
+            "ObjectName": "SoundAtomCue'prolouge_01_02_02_01'",
+            "ObjectPath": "GameProject/Content/IND/Sound/VOICE/prolouge_01_02_02_01.0"
+          },
+          "NarrationVoiceDelay": 2.5,
+          "ViewTimeAfter": 2.0
+        },
+        "NextEpisode": {
+          "AnimType": 0,
+          "AutoSetting": true,
+          "ChapterID": -1,
+          "EpisodeID": -1,
+          "MainImage": {
+            "AssetPathName": "/Game/IND/UI/Load/Texture/StoryLoadBG/T_Load_StoryBG_akina_d_f_01.T_Load_StoryBG_akina_d_f_01",
+            "SubPathString": ""
+          },
+          "NarrationTextID": {
+            "TableId": "/Game/IND/UI/DataTable/Story/StoryType/StoryType_01/Str_WD_Race_Story_01_NextPreview.Str_WD_Race_Story_01_NextPreview",
+            "Key": "1_2_2",
+            "SourceString": "The hype won't die down.\r\nWho on earth is the AE86 from Akina?",
+            "LocalizedString": "The hype won't die down.\r\nWho on earth is the AE86 from Akina?"
+          },
+          "NarrationVoice": {
+            "ObjectName": "SoundAtomCue'yokoku_01_02_02_01'",
+            "ObjectPath": "GameProject/Content/IND/Sound/VOICE/yokoku_01_02_02_01.0"
+          },
+          "NarrationVoiceDelay": 1.0,
+          "ViewTimeAfter": 2.0,
+          "ViewTimeAll": 12.0,
+          "PlaybackSpeed": 1.0
+        }
+      },
+      "s01_c02_e03": {
+        "Rival": {
+          "UseEpisodeData": true,
+          "CharacterID": []
+        },
+        "Load": {
+          "LoadingImageID": {
+            "AssetPathName": "/Game/IND/UI/Load/Texture/StoryLoadBG/T_Load_StoryBG_akina_d_f_01.T_Load_StoryBG_akina_d_f_01",
+            "SubPathString": ""
+          },
+          "LoadingTextID": {
+            "TableId": "/Game/IND/UI/DataTable/Story/StoryType/StoryType_01/Str_WD_Load_Story_01_Prologue.Str_WD_Load_Story_01_Prologue",
+            "Key": "1_2_3",
+            "SourceString": "A white & black AE86 appeared on sunny\r\nMt. Akina. He seems to be headed somewhere.",
+            "LocalizedString": "A white & black AE86 appeared on sunny\r\nMt. Akina. He seems to be headed somewhere."
+          },
+          "NarrationVoice": {
+            "ObjectName": "SoundAtomCue'prolouge_01_02_03_01'",
+            "ObjectPath": "GameProject/Content/IND/Sound/VOICE/prolouge_01_02_03_01.0"
+          },
+          "NarrationVoiceDelay": 2.5,
+          "ViewTimeAfter": 2.0
+        },
+        "NextEpisode": {
+          "AnimType": 0,
+          "AutoSetting": true,
+          "ChapterID": -1,
+          "EpisodeID": -1,
+          "MainImage": {
+            "AssetPathName": "/Game/IND/UI/Load/Texture/StoryLoadBG/T_Load_StoryBG_myogi_n_f_01.T_Load_StoryBG_myogi_n_f_01",
+            "SubPathString": ""
+          },
+          "NarrationTextID": {
+            "TableId": "/Game/IND/UI/DataTable/Story/StoryType/StoryType_01/Str_WD_Race_Story_01_NextPreview.Str_WD_Race_Story_01_NextPreview",
+            "Key": "1_2_3",
+            "SourceString": "A challenge hits the table.\r\nName on it: Myogi NightKids' Takeshi Nakazato.",
+            "LocalizedString": "A challenge hits the table.\r\nName on it: Myogi NightKids' Takeshi Nakazato."
+          },
+          "NarrationVoice": {
+            "ObjectName": "SoundAtomCue'yokoku_01_02_03_01'",
+            "ObjectPath": "GameProject/Content/IND/Sound/VOICE/yokoku_01_02_03_01.0"
+          },
+          "NarrationVoiceDelay": 1.0,
+          "ViewTimeAfter": 2.0,
+          "ViewTimeAll": 12.0,
+          "PlaybackSpeed": 1.0
+        }
+      },
+      "s01_c02_e04": {
+        "Rival": {
+          "UseEpisodeData": true,
+          "CharacterID": []
+        },
+        "Load": {
+          "LoadingImageID": {
+            "AssetPathName": "/Game/IND/UI/Load/Texture/StoryLoadBG/T_Load_StoryBG_myogi_n_f_01.T_Load_StoryBG_myogi_n_f_01",
+            "SubPathString": ""
+          },
+          "LoadingTextID": {
+            "TableId": "/Game/IND/UI/DataTable/Story/StoryType/StoryType_01/Str_WD_Load_Story_01_Prologue.Str_WD_Load_Story_01_Prologue",
+            "Key": "1_2_4",
+            "SourceString": "A challenge letter showed up out of nowhere.\r\nIt was from a street racer on Mt. Myogi.",
+            "LocalizedString": "A challenge letter showed up out of nowhere.\r\nIt was from a street racer on Mt. Myogi."
+          },
+          "NarrationVoice": {
+            "ObjectName": "SoundAtomCue'prolouge_01_02_04_01'",
+            "ObjectPath": "GameProject/Content/IND/Sound/VOICE/prolouge_01_02_04_01.0"
+          },
+          "NarrationVoiceDelay": 2.5,
+          "ViewTimeAfter": 2.0
+        },
+        "NextEpisode": {
+          "AnimType": 0,
+          "AutoSetting": true,
+          "ChapterID": -1,
+          "EpisodeID": -1,
+          "MainImage": {
+            "AssetPathName": "/Game/IND/UI/Load/Texture/StoryLoadBG/T_Load_StoryBG_myogi_n_f_01.T_Load_StoryBG_myogi_n_f_01",
+            "SubPathString": ""
+          },
+          "NarrationTextID": {
+            "TableId": "/Game/IND/UI/DataTable/Story/StoryType/StoryType_01/Str_WD_Race_Story_01_NextPreview.Str_WD_Race_Story_01_NextPreview",
+            "Key": "1_2_4",
+            "SourceString": "A message arrives from the Myogi NightKids.\r\nIt's an invitation to a dangerous night.",
+            "LocalizedString": "A message arrives from the Myogi NightKids.\r\nIt's an invitation to a dangerous night."
+          },
+          "NarrationVoice": {
+            "ObjectName": "SoundAtomCue'yokoku_01_02_04_01'",
+            "ObjectPath": "GameProject/Content/IND/Sound/VOICE/yokoku_01_02_04_01.0"
+          },
+          "NarrationVoiceDelay": 1.0,
+          "ViewTimeAfter": 2.0,
+          "ViewTimeAll": 12.0,
+          "PlaybackSpeed": 1.0
+        }
+      },
+      "s01_c02_e05": {
+        "Rival": {
+          "UseEpisodeData": true,
+          "CharacterID": []
+        },
+        "Load": {
+          "LoadingImageID": {
+            "AssetPathName": "/Game/IND/UI/Load/Texture/StoryLoadBG/T_Load_StoryBG_myogi_n_f_01.T_Load_StoryBG_myogi_n_f_01",
+            "SubPathString": ""
+          },
+          "LoadingTextID": {
+            "TableId": "/Game/IND/UI/DataTable/Story/StoryType/StoryType_01/Str_WD_Load_Story_01_Prologue.Str_WD_Load_Story_01_Prologue",
+            "Key": "1_2_5",
+            "SourceString": "Shingo Shoji of the NightKids sent word about the battle.\r\nNight on Mt. Myogi reeks of danger.",
+            "LocalizedString": "Shingo Shoji of the NightKids sent word about the battle.\r\nNight on Mt. Myogi reeks of danger."
+          },
+          "NarrationVoice": {
+            "ObjectName": "SoundAtomCue'prolouge_01_02_05_01'",
+            "ObjectPath": "GameProject/Content/IND/Sound/VOICE/prolouge_01_02_05_01.0"
+          },
+          "NarrationVoiceDelay": 2.5,
+          "ViewTimeAfter": 2.0
+        },
+        "NextEpisode": {
+          "AnimType": 0,
+          "AutoSetting": true,
+          "ChapterID": -1,
+          "EpisodeID": -1,
+          "MainImage": {
+            "AssetPathName": "/Game/IND/UI/Load/Texture/StoryLoadBG/T_Load_StoryBG_usui_n_f_01.T_Load_StoryBG_usui_n_f_01",
+            "SubPathString": ""
+          },
+          "NarrationTextID": {
+            "TableId": "/Game/IND/UI/DataTable/Story/StoryType/StoryType_01/Str_WD_Race_Story_01_NextPreview.Str_WD_Race_Story_01_NextPreview",
+            "Key": "1_2_5",
+            "SourceString": "Quick cooldown at Usui.\r\nThe hometown fastest duo is already posted.",
+            "LocalizedString": "Quick cooldown at Usui.\r\nThe hometown fastest duo is already posted."
+          },
+          "NarrationVoice": {
+            "ObjectName": "SoundAtomCue'yokoku_01_02_05_01'",
+            "ObjectPath": "GameProject/Content/IND/Sound/VOICE/yokoku_01_02_05_01.0"
+          },
+          "NarrationVoiceDelay": 1.0,
+          "ViewTimeAfter": 2.0,
+          "ViewTimeAll": 12.0,
+          "PlaybackSpeed": 1.0
+        }
+      },
+      "s01_c03_e01": {
+        "Rival": {
+          "UseEpisodeData": true,
+          "CharacterID": []
+        },
+        "Load": {
+          "LoadingImageID": {
+            "AssetPathName": "/Game/IND/UI/Load/Texture/StoryLoadBG/T_Load_StoryBG_usui_n_f_01.T_Load_StoryBG_usui_n_f_01",
+            "SubPathString": ""
+          },
+          "LoadingTextID": {
+            "TableId": "/Game/IND/UI/DataTable/Story/StoryType/StoryType_01/Str_WD_Load_Story_01_Prologue.Str_WD_Load_Story_01_Prologue",
+            "Key": "1_3_1",
+            "SourceString": "Visibility is poor on the Usui pass road.\r\nAppearing there are racers who call this place home.",
+            "LocalizedString": "Visibility is poor on the Usui pass road.\r\nAppearing there are racers who call this place home."
+          },
+          "NarrationVoice": {
+            "ObjectName": "SoundAtomCue'prolouge_01_03_01_01'",
+            "ObjectPath": "GameProject/Content/IND/Sound/VOICE/prolouge_01_03_01_01.0"
+          },
+          "NarrationVoiceDelay": 2.5,
+          "ViewTimeAfter": 2.0
+        },
+        "NextEpisode": {
+          "AnimType": 0,
+          "AutoSetting": true,
+          "ChapterID": -1,
+          "EpisodeID": -1,
+          "MainImage": {
+            "AssetPathName": "/Game/IND/UI/Load/Texture/StoryLoadBG/T_Load_StoryBG_usui_n_f_02.T_Load_StoryBG_usui_n_f_02",
+            "SubPathString": ""
+          },
+          "NarrationTextID": {
+            "TableId": "/Game/IND/UI/DataTable/Story/StoryType/StoryType_01/Str_WD_Race_Story_01_NextPreview.Str_WD_Race_Story_01_NextPreview",
+            "Key": "1_3_1",
+            "SourceString": "In the dark of night,\r\nthe two fastest of Usui, Impact Blue, stand in the way…",
+            "LocalizedString": "In the dark of night,\r\nthe two fastest of Usui, Impact Blue, stand in the way…"
+          },
+          "NarrationVoice": {
+            "ObjectName": "SoundAtomCue'yokoku_01_03_01_01'",
+            "ObjectPath": "GameProject/Content/IND/Sound/VOICE/yokoku_01_03_01_01.0"
+          },
+          "NarrationVoiceDelay": 1.0,
+          "ViewTimeAfter": 2.0,
+          "ViewTimeAll": 12.0,
+          "PlaybackSpeed": 1.0
+        }
+      },
+      "s01_c03_e02": {
+        "Rival": {
+          "UseEpisodeData": true,
+          "CharacterID": []
+        },
+        "Load": {
+          "LoadingImageID": {
+            "AssetPathName": "/Game/IND/UI/Load/Texture/StoryLoadBG/T_Load_StoryBG_usui_n_f_02.T_Load_StoryBG_usui_n_f_02",
+            "SubPathString": ""
+          },
+          "LoadingTextID": {
+            "TableId": "/Game/IND/UI/DataTable/Story/StoryType/StoryType_01/Str_WD_Load_Story_01_Prologue.Str_WD_Load_Story_01_Prologue",
+            "Key": "1_3_2",
+            "SourceString": "A duo climbs out of a blue SilEighty.\r\nClaiming to be Usui's fastest, the girls challenge again.",
+            "LocalizedString": "A duo climbs out of a blue SilEighty.\r\nClaiming to be Usui's fastest, the girls challenge again."
+          },
+          "NarrationVoice": {
+            "ObjectName": "SoundAtomCue'prolouge_01_03_02_01'",
+            "ObjectPath": "GameProject/Content/IND/Sound/VOICE/prolouge_01_03_02_01.0"
+          },
+          "NarrationVoiceDelay": 2.5,
+          "ViewTimeAfter": 2.0
+        },
+        "NextEpisode": {
+          "AnimType": 0,
+          "AutoSetting": true,
+          "ChapterID": -1,
+          "EpisodeID": -1,
+          "MainImage": {
+            "AssetPathName": "/Game/IND/UI/Load/Texture/StoryLoadBG/T_Load_StoryBG_akagi_n_f_01.T_Load_StoryBG_akagi_n_f_01",
+            "SubPathString": ""
+          },
+          "NarrationTextID": {
+            "TableId": "/Game/IND/UI/DataTable/Story/StoryType/StoryType_01/Str_WD_Race_Story_01_NextPreview.Str_WD_Race_Story_01_NextPreview",
+            "Key": "1_3_2",
+            "SourceString": "Chasing the White Comet to Akagi.\r\nWho's the man waiting at the summit?",
+            "LocalizedString": "Chasing the White Comet to Akagi.\r\nWho's the man waiting at the summit?"
+          },
+          "NarrationVoice": {
+            "ObjectName": "SoundAtomCue'yokoku_01_03_02_01'",
+            "ObjectPath": "GameProject/Content/IND/Sound/VOICE/yokoku_01_03_02_01.0"
+          },
+          "NarrationVoiceDelay": 1.0,
+          "ViewTimeAfter": 2.0,
+          "ViewTimeAll": 12.0,
+          "PlaybackSpeed": 1.0
+        }
+      },
+      "s01_c03_e03": {
+        "Rival": {
+          "UseEpisodeData": false,
+          "CharacterID": [
+            "KENTA"
+          ]
+        },
+        "Load": {
+          "LoadingImageID": {
+            "AssetPathName": "/Game/IND/UI/Load/Texture/StoryLoadBG/T_Load_StoryBG_akagi_n_f_01.T_Load_StoryBG_akagi_n_f_01",
+            "SubPathString": ""
+          },
+          "LoadingTextID": {
+            "TableId": "/Game/IND/UI/DataTable/Story/StoryType/StoryType_01/Str_WD_Load_Story_01_Prologue.Str_WD_Load_Story_01_Prologue",
+            "Key": "1_3_3",
+            "SourceString": "Hunting the White Comet of Akagi,\r\nthey run into Kenta Nakamura—the Red Suns scout who checked Akina.",
+            "LocalizedString": "Hunting the White Comet of Akagi,\r\nthey run into Kenta Nakamura—the Red Suns scout who checked Akina."
+          },
+          "NarrationVoice": {
+            "ObjectName": "SoundAtomCue'prolouge_01_03_03_01'",
+            "ObjectPath": "GameProject/Content/IND/Sound/VOICE/prolouge_01_03_03_01.0"
+          },
+          "NarrationVoiceDelay": 2.5,
+          "ViewTimeAfter": 2.0
+        },
+        "NextEpisode": {
+          "AnimType": 0,
+          "AutoSetting": true,
+          "ChapterID": -1,
+          "EpisodeID": -1,
+          "MainImage": {
+            "AssetPathName": "/Game/IND/UI/Load/Texture/StoryLoadBG/T_Load_StoryBG_akagi_n_f_02.T_Load_StoryBG_akagi_n_f_02",
+            "SubPathString": ""
+          },
+          "NarrationTextID": {
+            "TableId": "/Game/IND/UI/DataTable/Story/StoryType/StoryType_01/Str_WD_Race_Story_01_NextPreview.Str_WD_Race_Story_01_NextPreview",
+            "Key": "1_3_3",
+            "SourceString": "After Kenta's battle,\r\nsuddenly a yellow FD appeared, slicing through the dark.",
+            "LocalizedString": "After Kenta's battle,\r\nsuddenly a yellow FD appeared, slicing through the dark."
+          },
+          "NarrationVoice": {
+            "ObjectName": "SoundAtomCue'yokoku_01_03_03_01'",
+            "ObjectPath": "GameProject/Content/IND/Sound/VOICE/yokoku_01_03_03_01.0"
+          },
+          "NarrationVoiceDelay": 1.0,
+          "ViewTimeAfter": 2.0,
+          "ViewTimeAll": 12.0,
+          "PlaybackSpeed": 1.0
+        }
+      },
+      "s01_c03_e04": {
+        "Rival": {
+          "UseEpisodeData": true,
+          "CharacterID": []
+        },
+        "Load": {
+          "LoadingImageID": {
+            "AssetPathName": "/Game/IND/UI/Load/Texture/StoryLoadBG/T_Load_StoryBG_akagi_n_f_02.T_Load_StoryBG_akagi_n_f_02",
+            "SubPathString": ""
+          },
+          "LoadingTextID": {
+            "TableId": "/Game/IND/UI/DataTable/Story/StoryType/StoryType_01/Str_WD_Load_Story_01_Prologue.Str_WD_Load_Story_01_Prologue",
+            "Key": "1_3_4",
+            "SourceString": "A yellow FD appears on Akagi.\r\nIts driver, Keisuke Takahashi, seems a bit irritated.",
+            "LocalizedString": "A yellow FD appears on Akagi.\r\nIts driver, Keisuke Takahashi, seems a bit irritated."
+          },
+          "NarrationVoice": {
+            "ObjectName": "SoundAtomCue'prolouge_01_03_04_01'",
+            "ObjectPath": "GameProject/Content/IND/Sound/VOICE/prolouge_01_03_04_01.0"
+          },
+          "NarrationVoiceDelay": 2.5,
+          "ViewTimeAfter": 2.0
+        },
+        "NextEpisode": {
+          "AnimType": 0,
+          "AutoSetting": true,
+          "ChapterID": -1,
+          "EpisodeID": -1,
+          "MainImage": {
+            "AssetPathName": "/Game/IND/UI/Load/Texture/StoryLoadBG/T_Load_StoryBG_akagi_n_f_01.T_Load_StoryBG_akagi_n_f_01",
+            "SubPathString": ""
+          },
+          "NarrationTextID": {
+            "TableId": "/Game/IND/UI/DataTable/Story/StoryType/StoryType_01/Str_WD_Race_Story_01_NextPreview.Str_WD_Race_Story_01_NextPreview",
+            "Key": "1_3_4",
+            "SourceString": "Keisuke Takahashi drives off.\r\nComing the other way is a familiar face.",
+            "LocalizedString": "Keisuke Takahashi drives off.\r\nComing the other way is a familiar face."
+          },
+          "NarrationVoice": {
+            "ObjectName": "SoundAtomCue'yokoku_01_03_04_01'",
+            "ObjectPath": "GameProject/Content/IND/Sound/VOICE/yokoku_01_03_04_01.0"
+          },
+          "NarrationVoiceDelay": 1.0,
+          "ViewTimeAfter": 2.0,
+          "ViewTimeAll": 12.0,
+          "PlaybackSpeed": 1.0
+        }
+      },
+      "s01_c03_e05": {
+        "Rival": {
+          "UseEpisodeData": true,
+          "CharacterID": []
+        },
+        "Load": {
+          "LoadingImageID": {
+            "AssetPathName": "/Game/IND/UI/Load/Texture/StoryLoadBG/T_Load_StoryBG_akagi_n_f_01.T_Load_StoryBG_akagi_n_f_01",
+            "SubPathString": ""
+          },
+          "LoadingTextID": {
+            "TableId": "/Game/IND/UI/DataTable/Story/StoryType/StoryType_01/Str_WD_Load_Story_01_Prologue.Str_WD_Load_Story_01_Prologue",
+            "Key": "1_3_5",
+            "SourceString": "Akagi grows quiet after the Red Suns leave.\r\nThen a familiar turbo howl rings out.",
+            "LocalizedString": "Akagi grows quiet after the Red Suns leave.\r\nThen a familiar turbo howl rings out."
+          },
+          "NarrationVoice": {
+            "ObjectName": "SoundAtomCue'prolouge_01_03_05_01'",
+            "ObjectPath": "GameProject/Content/IND/Sound/VOICE/prolouge_01_03_05_01.0"
+          },
+          "NarrationVoiceDelay": 2.5,
+          "ViewTimeAfter": 2.0
+        },
+        "NextEpisode": {
+          "AnimType": 0,
+          "AutoSetting": true,
+          "ChapterID": -1,
+          "EpisodeID": -1,
+          "MainImage": {
+            "AssetPathName": "/Game/IND/UI/Load/Texture/StoryLoadBG/T_Load_StoryBG_akagi_n_b_01.T_Load_StoryBG_akagi_n_b_01",
+            "SubPathString": ""
+          },
+          "NarrationTextID": {
+            "TableId": "/Game/IND/UI/DataTable/Story/StoryType/StoryType_01/Str_WD_Race_Story_01_NextPreview.Str_WD_Race_Story_01_NextPreview",
+            "Key": "1_3_5",
+            "SourceString": "Wataru demands a second battle.\r\nFrom behind him, an ominous sound echoes.",
+            "LocalizedString": "Wataru demands a second battle.\r\nFrom behind him, an ominous sound echoes."
+          },
+          "NarrationVoice": {
+            "ObjectName": "SoundAtomCue'yokoku_01_03_05_01'",
+            "ObjectPath": "GameProject/Content/IND/Sound/VOICE/yokoku_01_03_05_01.0"
+          },
+          "NarrationVoiceDelay": 1.0,
+          "ViewTimeAfter": 2.0,
+          "ViewTimeAll": 12.0,
+          "PlaybackSpeed": 1.0
+        }
+      },
+      "s01_c04_e01": {
+        "Rival": {
+          "UseEpisodeData": false,
+          "CharacterID": [
+            "WATARU"
+          ]
+        },
+        "Load": {
+          "LoadingImageID": {
+            "AssetPathName": "/Game/IND/UI/Load/Texture/StoryLoadBG/T_Load_StoryBG_akagi_n_b_01.T_Load_StoryBG_akagi_n_b_01",
+            "SubPathString": ""
+          },
+          "LoadingTextID": {
+            "TableId": "/Game/IND/UI/DataTable/Story/StoryType/StoryType_01/Str_WD_Load_Story_01_Prologue.Str_WD_Load_Story_01_Prologue",
+            "Key": "1_4_1",
+            "SourceString": "The second battle with Wataru begins.\r\nClosing in from behind is another exhaust note.",
+            "LocalizedString": "The second battle with Wataru begins.\r\nClosing in from behind is another exhaust note."
+          },
+          "NarrationVoice": {
+            "ObjectName": "SoundAtomCue'prolouge_01_04_01_01'",
+            "ObjectPath": "GameProject/Content/IND/Sound/VOICE/prolouge_01_04_01_01.0"
+          },
+          "NarrationVoiceDelay": 2.5,
+          "ViewTimeAfter": 2.0
+        },
+        "NextEpisode": {
+          "AnimType": 0,
+          "AutoSetting": true,
+          "ChapterID": -1,
+          "EpisodeID": -1,
+          "MainImage": {
+            "AssetPathName": "/Game/IND/UI/Load/Texture/StoryLoadBG/T_Load_StoryBG_akagi_n_f_01.T_Load_StoryBG_akagi_n_f_01",
+            "SubPathString": ""
+          },
+          "NarrationTextID": {
+            "TableId": "/Game/IND/UI/DataTable/Story/StoryType/StoryType_01/Str_WD_Race_Story_01_NextPreview.Str_WD_Race_Story_01_NextPreview",
+            "Key": "1_4_1",
+            "SourceString": "Seiji Iwaki steps out of nowhere.\r\nAnother hunter looking for the Takahashis",
+            "LocalizedString": "Seiji Iwaki steps out of nowhere.\r\nAnother hunter looking for the Takahashis"
+          },
+          "NarrationVoice": {
+            "ObjectName": "SoundAtomCue'yokoku_01_04_01_01'",
+            "ObjectPath": "GameProject/Content/IND/Sound/VOICE/yokoku_01_04_01_01.0"
+          },
+          "NarrationVoiceDelay": 1.0,
+          "ViewTimeAfter": 2.0,
+          "ViewTimeAll": 12.0,
+          "PlaybackSpeed": 1.0
+        }
+      },
+      "s01_c04_e02": {
+        "Rival": {
+          "UseEpisodeData": false,
+          "CharacterID": [
+            "IWAKI"
+          ]
+        },
+        "Load": {
+          "LoadingImageID": {
+            "AssetPathName": "/Game/IND/UI/Load/Texture/StoryLoadBG/T_Load_StoryBG_akagi_n_f_01.T_Load_StoryBG_akagi_n_f_01",
+            "SubPathString": ""
+          },
+          "LoadingTextID": {
+            "TableId": "/Game/IND/UI/DataTable/Story/StoryType/StoryType_01/Str_WD_Load_Story_01_Prologue.Str_WD_Load_Story_01_Prologue",
+            "Key": "1_4_2",
+            "SourceString": "Seiji Iwaki says he came to Akagi looking for the Takahashi brothers.\r\nFailing his aim, he challenges a battle.",
+            "LocalizedString": "Seiji Iwaki says he came to Akagi looking for the Takahashi brothers.\r\nFailing his aim, he challenges a battle."
+          },
+          "NarrationVoice": {
+            "ObjectName": "SoundAtomCue'prolouge_01_04_02_01'",
+            "ObjectPath": "GameProject/Content/IND/Sound/VOICE/prolouge_01_04_02_01.0"
+          },
+          "NarrationVoiceDelay": 2.5,
+          "ViewTimeAfter": 2.0
+        },
+        "NextEpisode": {
+          "AnimType": 0,
+          "AutoSetting": true,
+          "ChapterID": -1,
+          "EpisodeID": -1,
+          "MainImage": {
+            "AssetPathName": "/Game/IND/UI/Load/Texture/StoryLoadBG/T_Load_StoryBG_akina_n_f_01.T_Load_StoryBG_akina_n_f_01",
+            "SubPathString": ""
+          },
+          "NarrationTextID": {
+            "TableId": "/Game/IND/UI/DataTable/Story/StoryType/StoryType_01/Str_WD_Race_Story_01_NextPreview.Str_WD_Race_Story_01_NextPreview",
+            "Key": "1_4_2",
+            "SourceString": "Chased by Iketani and the crew after a long reunion,\r\nwhat suddenly appeared was a mysterious car.",
+            "LocalizedString": "Chased by Iketani and the crew after a long reunion,\r\nwhat suddenly appeared was a mysterious car."
+          },
+          "NarrationVoice": {
+            "ObjectName": "SoundAtomCue'yokoku_01_04_02_01'",
+            "ObjectPath": "GameProject/Content/IND/Sound/VOICE/yokoku_01_04_02_01.0"
+          },
+          "NarrationVoiceDelay": 1.0,
+          "ViewTimeAfter": 2.0,
+          "ViewTimeAll": 12.0,
+          "PlaybackSpeed": 1.0
+        }
+      },
+      "s01_c04_e03": {
+        "Rival": {
+          "UseEpisodeData": false,
+          "CharacterID": [
+            "ITSUKI",
+            "IKETANI"
+          ]
+        },
+        "Load": {
+          "LoadingImageID": {
+            "AssetPathName": "/Game/IND/UI/Load/Texture/StoryLoadBG/T_Load_StoryBG_akina_n_f_01.T_Load_StoryBG_akina_n_f_01",
+            "SubPathString": ""
+          },
+          "LoadingTextID": {
+            "TableId": "/Game/IND/UI/DataTable/Story/StoryType/StoryType_01/Str_WD_Load_Story_01_Prologue.Str_WD_Load_Story_01_Prologue",
+            "Key": "1_4_3",
+            "SourceString": "Iketani and the others are running Akina.\r\nThe AE86's hot streak has them a little hyped.",
+            "LocalizedString": "Iketani and the others are running Akina.\r\nThe AE86's hot streak has them a little hyped."
+          },
+          "NarrationVoice": {
+            "ObjectName": "SoundAtomCue'prolouge_01_04_03_01'",
+            "ObjectPath": "GameProject/Content/IND/Sound/VOICE/prolouge_01_04_03_01.0"
+          },
+          "NarrationVoiceDelay": 2.5,
+          "ViewTimeAfter": 2.0
+        },
+        "NextEpisode": {
+          "AnimType": 0,
+          "AutoSetting": true,
+          "ChapterID": -1,
+          "EpisodeID": -1,
+          "MainImage": {
+            "AssetPathName": "/Game/IND/UI/Load/Texture/StoryLoadBG/T_Load_StoryBG_akina_n_f_02.T_Load_StoryBG_akina_n_f_02",
+            "SubPathString": ""
+          },
+          "NarrationTextID": {
+            "TableId": "/Game/IND/UI/DataTable/Story/StoryType/StoryType_01/Str_WD_Race_Story_01_NextPreview.Str_WD_Race_Story_01_NextPreview",
+            "Key": "1_4_3",
+            "SourceString": "Two NightKids they met by chance.\r\nApparently they're going to battle the Red Suns led by the White Comet.",
+            "LocalizedString": "Two NightKids they met by chance.\r\nApparently they're going to battle the Red Suns led by the White Comet."
+          },
+          "NarrationVoice": {
+            "ObjectName": "SoundAtomCue'yokoku_01_04_03_01'",
+            "ObjectPath": "GameProject/Content/IND/Sound/VOICE/yokoku_01_04_03_01.0"
+          },
+          "NarrationVoiceDelay": 1.0,
+          "ViewTimeAfter": 2.0,
+          "ViewTimeAll": 12.0,
+          "PlaybackSpeed": 1.0
+        }
+      },
+      "s01_c04_e04": {
+        "Rival": {
+          "UseEpisodeData": true,
+          "CharacterID": []
+        },
+        "Load": {
+          "LoadingImageID": {
+            "AssetPathName": "/Game/IND/UI/Load/Texture/StoryLoadBG/T_Load_StoryBG_akina_n_f_02.T_Load_StoryBG_akina_n_f_02",
+            "SubPathString": ""
+          },
+          "LoadingTextID": {
+            "TableId": "/Game/IND/UI/DataTable/Story/StoryType/StoryType_01/Str_WD_Load_Story_01_Prologue.Str_WD_Load_Story_01_Prologue",
+            "Key": "1_4_4",
+            "SourceString": "With a battle against the Red Suns ahead, Shoji and Nakazato speak.\r\nThey say something happened that rewrote the street power map.",
+            "LocalizedString": "With a battle against the Red Suns ahead, Shoji and Nakazato speak.\r\nThey say something happened that rewrote the street power map."
+          },
+          "NarrationVoice": {
+            "ObjectName": "SoundAtomCue'prolouge_01_04_04_01'",
+            "ObjectPath": "GameProject/Content/IND/Sound/VOICE/prolouge_01_04_04_01.0"
+          },
+          "NarrationVoiceDelay": 2.5,
+          "ViewTimeAfter": 2.0
+        },
+        "NextEpisode": {
+          "AnimType": 0,
+          "AutoSetting": true,
+          "ChapterID": -1,
+          "EpisodeID": -1,
+          "MainImage": {
+            "AssetPathName": "/Game/IND/UI/Load/Texture/StoryLoadBG/T_Load_StoryBG_akagi_n_f_01.T_Load_StoryBG_akagi_n_f_01",
+            "SubPathString": ""
+          },
+          "NarrationTextID": {
+            "TableId": "/Game/IND/UI/DataTable/Story/StoryType/StoryType_01/Str_WD_Race_Story_01_NextPreview.Str_WD_Race_Story_01_NextPreview",
+            "Key": "1_4_4",
+            "SourceString": "Back to Mt. Akagi again.\r\nThere stood the man they'd been searching for.",
+            "LocalizedString": "Back to Mt. Akagi again.\r\nThere stood the man they'd been searching for."
+          },
+          "NarrationVoice": {
+            "ObjectName": "SoundAtomCue'yokoku_01_04_04_01'",
+            "ObjectPath": "GameProject/Content/IND/Sound/VOICE/yokoku_01_04_04_01.0"
+          },
+          "NarrationVoiceDelay": 1.0,
+          "ViewTimeAfter": 2.0,
+          "ViewTimeAll": 12.0,
+          "PlaybackSpeed": 1.0
+        }
+      },
+      "s01_c04_e05": {
+        "Rival": {
+          "UseEpisodeData": true,
+          "CharacterID": []
+        },
+        "Load": {
+          "LoadingImageID": {
+            "AssetPathName": "/Game/IND/UI/Load/Texture/StoryLoadBG/T_Load_StoryBG_akagi_n_f_01.T_Load_StoryBG_akagi_n_f_01",
+            "SubPathString": ""
+          },
+          "LoadingTextID": {
+            "TableId": "/Game/IND/UI/DataTable/Story/StoryType/StoryType_01/Str_WD_Load_Story_01_Prologue.Str_WD_Load_Story_01_Prologue",
+            "Key": "1_4_5",
+            "SourceString": "The Red Suns defeat the NightKids.\r\nWhen they visit their stronghold on Akagi, a certain man is standing there.",
+            "LocalizedString": "The Red Suns defeat the NightKids.\r\nWhen they visit their stronghold on Akagi, a certain man is standing there."
+          },
+          "NarrationVoice": {
+            "ObjectName": "SoundAtomCue'prolouge_01_04_05_01'",
+            "ObjectPath": "GameProject/Content/IND/Sound/VOICE/prolouge_01_04_05_01.0"
+          },
+          "NarrationVoiceDelay": 2.5,
+          "ViewTimeAfter": 2.0
+        },
+        "NextEpisode": {
+          "AnimType": 0,
+          "AutoSetting": true,
+          "ChapterID": -1,
+          "EpisodeID": -1,
+          "MainImage": {
+            "AssetPathName": "/Game/IND/UI/Load/Texture/StoryLoadBG/T_Load_StoryBG_iroha_n_f_01.T_Load_StoryBG_iroha_n_f_01",
+            "SubPathString": ""
+          },
+          "NarrationTextID": {
+            "TableId": "/Game/IND/UI/DataTable/Story/StoryType/StoryType_01/Str_WD_Race_Story_01_NextPreview.Str_WD_Race_Story_01_NextPreview",
+            "Key": "1_4_5",
+            "SourceString": "On Ryosuke's recommendation, they visit Irohazaka.\r\nWaiting there was a tough street-racing army.",
+            "LocalizedString": "On Ryosuke's recommendation, they visit Irohazaka.\r\nWaiting there was a tough street-racing army."
+          },
+          "NarrationVoice": {
+            "ObjectName": "SoundAtomCue'yokoku_01_04_05_01'",
+            "ObjectPath": "GameProject/Content/IND/Sound/VOICE/yokoku_01_04_05_01.0"
+          },
+          "NarrationVoiceDelay": 1.0,
+          "ViewTimeAfter": 2.0,
+          "ViewTimeAll": 12.0,
+          "PlaybackSpeed": 1.0
+        }
+      },
+      "s01_c05_e01": {
+        "Rival": {
+          "UseEpisodeData": true,
+          "CharacterID": []
+        },
+        "Load": {
+          "LoadingImageID": {
+            "AssetPathName": "/Game/IND/UI/Load/Texture/StoryLoadBG/T_Load_StoryBG_iroha_n_f_01.T_Load_StoryBG_iroha_n_f_01",
+            "SubPathString": ""
+          },
+          "LoadingTextID": {
+            "TableId": "/Game/IND/UI/DataTable/Story/StoryType/StoryType_01/Str_WD_Load_Story_01_Prologue.Str_WD_Load_Story_01_Prologue",
+            "Key": "1_5_1",
+            "SourceString": "Emperor, the street-racing team from Irohazaka—\r\namong them stands the man who once fought at Akagi.",
+            "LocalizedString": "Emperor, the street-racing team from Irohazaka—\r\namong them stands the man who once fought at Akagi."
+          },
+          "NarrationVoice": {
+            "ObjectName": "SoundAtomCue'prolouge_01_05_01_01'",
+            "ObjectPath": "GameProject/Content/IND/Sound/VOICE/prolouge_01_05_01_01.0"
+          },
+          "NarrationVoiceDelay": 2.5,
+          "ViewTimeAfter": 2.0
+        },
+        "NextEpisode": {
+          "AnimType": 0,
+          "AutoSetting": true,
+          "ChapterID": -1,
+          "EpisodeID": -1,
+          "MainImage": {
+            "AssetPathName": "/Game/IND/UI/Load/Texture/StoryLoadBG/T_Load_StoryBG_iroha_n_f_02.T_Load_StoryBG_iroha_n_f_02",
+            "SubPathString": ""
+          },
+          "NarrationTextID": {
+            "TableId": "/Game/IND/UI/DataTable/Story/StoryType/StoryType_01/Str_WD_Race_Story_01_NextPreview.Str_WD_Race_Story_01_NextPreview",
+            "Key": "1_5_1",
+            "SourceString": "Emperor's member loses, and Seiji Iwaki is dragged out.\r\nA 1v1 battle raises its curtain.",
+            "LocalizedString": "Emperor's member loses, and Seiji Iwaki is dragged out.\r\nA 1v1 battle raises its curtain."
+          },
+          "NarrationVoice": {
+            "ObjectName": "SoundAtomCue'yokoku_01_05_01_01'",
+            "ObjectPath": "GameProject/Content/IND/Sound/VOICE/yokoku_01_05_01_01.0"
+          },
+          "NarrationVoiceDelay": 1.0,
+          "ViewTimeAfter": 2.0,
+          "ViewTimeAll": 12.0,
+          "PlaybackSpeed": 1.0
+        }
+      },
+      "s01_c05_e02": {
+        "Rival": {
+          "UseEpisodeData": false,
+          "CharacterID": [
+            "IWAKI"
+          ]
+        },
+        "Load": {
+          "LoadingImageID": {
+            "AssetPathName": "/Game/IND/UI/Load/Texture/StoryLoadBG/T_Load_StoryBG_iroha_n_f_02.T_Load_StoryBG_iroha_n_f_02",
+            "SubPathString": ""
+          },
+          "LoadingTextID": {
+            "TableId": "/Game/IND/UI/DataTable/Story/StoryType/StoryType_01/Str_WD_Load_Story_01_Prologue.Str_WD_Load_Story_01_Prologue",
+            "Key": "1_5_2",
+            "SourceString": "On the eve of a one-on-one battle, Seiji Iwaki grins fearlessly.\r\nHe seems absolutely confident.",
+            "LocalizedString": "On the eve of a one-on-one battle, Seiji Iwaki grins fearlessly.\r\nHe seems absolutely confident."
+          },
+          "NarrationVoice": {
+            "ObjectName": "SoundAtomCue'prolouge_01_05_02_01'",
+            "ObjectPath": "GameProject/Content/IND/Sound/VOICE/prolouge_01_05_02_01.0"
+          },
+          "NarrationVoiceDelay": 2.5,
+          "ViewTimeAfter": 2.0
+        },
+        "NextEpisode": {
+          "AnimType": 0,
+          "AutoSetting": true,
+          "ChapterID": -1,
+          "EpisodeID": -1,
+          "MainImage": {
+            "AssetPathName": "/Game/IND/UI/Load/Texture/StoryLoadBG/T_Load_StoryBG_akina_n_f_01.T_Load_StoryBG_akina_n_f_01",
+            "SubPathString": ""
+          },
+          "NarrationTextID": {
+            "TableId": "/Game/IND/UI/DataTable/Story/StoryType/StoryType_01/Str_WD_Race_Story_01_NextPreview.Str_WD_Race_Story_01_NextPreview",
+            "Key": "1_5_2",
+            "SourceString": "An unfamiliar car appears on Akina.\r\nThey say he came looking for the Akina AE86. Who is he?",
+            "LocalizedString": "An unfamiliar car appears on Akina.\r\nThey say he came looking for the Akina AE86. Who is he?"
+          },
+          "NarrationVoice": {
+            "ObjectName": "SoundAtomCue'yokoku_01_05_02_01'",
+            "ObjectPath": "GameProject/Content/IND/Sound/VOICE/yokoku_01_05_02_01.0"
+          },
+          "NarrationVoiceDelay": 1.0,
+          "ViewTimeAfter": 2.0,
+          "ViewTimeAll": 12.0,
+          "PlaybackSpeed": 1.0
+        }
+      },
+      "s01_c05_e03": {
+        "Rival": {
+          "UseEpisodeData": true,
+          "CharacterID": []
+        },
+        "Load": {
+          "LoadingImageID": {
+            "AssetPathName": "/Game/IND/UI/Load/Texture/StoryLoadBG/T_Load_StoryBG_akina_n_f_01.T_Load_StoryBG_akina_n_f_01",
+            "SubPathString": ""
+          },
+          "LoadingTextID": {
+            "TableId": "/Game/IND/UI/DataTable/Story/StoryType/StoryType_01/Str_WD_Load_Story_01_Prologue.Str_WD_Load_Story_01_Prologue",
+            "Key": "1_5_3",
+            "SourceString": "An unfamiliar car appears on Akina.\r\nHe too seems to be searching for the Akina AE86.",
+            "LocalizedString": "An unfamiliar car appears on Akina.\r\nHe too seems to be searching for the Akina AE86."
+          },
+          "NarrationVoice": {
+            "ObjectName": "SoundAtomCue'prolouge_01_05_03_01'",
+            "ObjectPath": "GameProject/Content/IND/Sound/VOICE/prolouge_01_05_03_01.0"
+          },
+          "NarrationVoiceDelay": 2.5,
+          "ViewTimeAfter": 2.0
+        },
+        "NextEpisode": {
+          "AnimType": 0,
+          "AutoSetting": true,
+          "ChapterID": -1,
+          "EpisodeID": -1,
+          "MainImage": {
+            "AssetPathName": "/Game/IND/UI/Load/Texture/StoryLoadBG/T_Load_StoryBG_iroha_n_f_01.T_Load_StoryBG_iroha_n_f_01",
+            "SubPathString": ""
+          },
+          "NarrationTextID": {
+            "TableId": "/Game/IND/UI/DataTable/Story/StoryType/StoryType_01/Str_WD_Race_Story_01_NextPreview.Str_WD_Race_Story_01_NextPreview",
+            "Key": "1_5_3",
+            "SourceString": "The mysterious man, Kai Kogashiwa.\r\nHe was a beast raised on driving from childhood.",
+            "LocalizedString": "The mysterious man, Kai Kogashiwa.\r\nHe was a beast raised on driving from childhood."
+          },
+          "NarrationVoice": {
+            "ObjectName": "SoundAtomCue'yokoku_01_05_03_01'",
+            "ObjectPath": "GameProject/Content/IND/Sound/VOICE/yokoku_01_05_03_01.0"
+          },
+          "NarrationVoiceDelay": 1.0,
+          "ViewTimeAfter": 2.0,
+          "ViewTimeAll": 12.0,
+          "PlaybackSpeed": 1.0
+        }
+      },
+      "s01_c05_e04": {
+        "Rival": {
+          "UseEpisodeData": true,
+          "CharacterID": []
+        },
+        "Load": {
+          "LoadingImageID": {
+            "AssetPathName": "/Game/IND/UI/Load/Texture/StoryLoadBG/T_Load_StoryBG_iroha_n_f_01.T_Load_StoryBG_iroha_n_f_01",
+            "SubPathString": ""
+          },
+          "LoadingTextID": {
+            "TableId": "/Game/IND/UI/DataTable/Story/StoryType/StoryType_01/Str_WD_Load_Story_01_Prologue.Str_WD_Load_Story_01_Prologue",
+            "Key": "1_5_4",
+            "SourceString": "Kai Kogashiwa challenged the Akina AE86 and lost.\r\nHe seems fired up for revenge.",
+            "LocalizedString": "Kai Kogashiwa challenged the Akina AE86 and lost.\r\nHe seems fired up for revenge."
+          },
+          "NarrationVoice": {
+            "ObjectName": "SoundAtomCue'prolouge_01_05_04_01'",
+            "ObjectPath": "GameProject/Content/IND/Sound/VOICE/prolouge_01_05_04_01.0"
+          },
+          "NarrationVoiceDelay": 2.5,
+          "ViewTimeAfter": 2.0
+        },
+        "NextEpisode": {
+          "AnimType": 0,
+          "AutoSetting": true,
+          "ChapterID": -1,
+          "EpisodeID": -1,
+          "MainImage": {
+            "AssetPathName": "/Game/IND/UI/Load/Texture/StoryLoadBG/T_Load_StoryBG_iroha_n_f_02.T_Load_StoryBG_iroha_n_f_02",
+            "SubPathString": ""
+          },
+          "NarrationTextID": {
+            "TableId": "/Game/IND/UI/DataTable/Story/StoryType/StoryType_01/Str_WD_Race_Story_01_NextPreview.Str_WD_Race_Story_01_NextPreview",
+            "Key": "1_5_4",
+            "SourceString": "Irohazaka still echoes with the afterglow of a fierce fight.\r\nThere appears Emperor's leader, Kyoichi Sudo.",
+            "LocalizedString": "Irohazaka still echoes with the afterglow of a fierce fight.\r\nThere appears Emperor's leader, Kyoichi Sudo."
+          },
+          "NarrationVoice": {
+            "ObjectName": "SoundAtomCue'yokoku_01_05_04_01'",
+            "ObjectPath": "GameProject/Content/IND/Sound/VOICE/yokoku_01_05_04_01.0"
+          },
+          "NarrationVoiceDelay": 1.0,
+          "ViewTimeAfter": 2.0,
+          "ViewTimeAll": 12.0,
+          "PlaybackSpeed": 1.0
+        }
+      },
+      "s01_c05_e05": {
+        "Rival": {
+          "UseEpisodeData": true,
+          "CharacterID": []
+        },
+        "Load": {
+          "LoadingImageID": {
+            "AssetPathName": "/Game/IND/UI/Load/Texture/StoryLoadBG/T_Load_StoryBG_iroha_n_f_02.T_Load_StoryBG_iroha_n_f_02",
+            "SubPathString": ""
+          },
+          "LoadingTextID": {
+            "TableId": "/Game/IND/UI/DataTable/Story/StoryType/StoryType_01/Str_WD_Load_Story_01_Prologue.Str_WD_Load_Story_01_Prologue",
+            "Key": "1_5_5",
+            "SourceString": "Emperor's leader, Kyoichi Sudo, appears suddenly.\r\nHe too seems captivated by the Akina AE86's speed.",
+            "LocalizedString": "Emperor's leader, Kyoichi Sudo, appears suddenly.\r\nHe too seems captivated by the Akina AE86's speed."
+          },
+          "NarrationVoice": {
+            "ObjectName": "SoundAtomCue'prolouge_01_05_05_01'",
+            "ObjectPath": "GameProject/Content/IND/Sound/VOICE/prolouge_01_05_05_01.0"
+          },
+          "NarrationVoiceDelay": 2.5,
+          "ViewTimeAfter": 2.0
+        },
+        "NextEpisode": {
+          "AnimType": 0,
+          "AutoSetting": true,
+          "ChapterID": -1,
+          "EpisodeID": -1,
+          "MainImage": {
+            "AssetPathName": "/Game/IND/UI/Load/Texture/StoryLoadBG/T_Load_StoryBG_akinasnow_d_f_01.T_Load_StoryBG_akinasnow_d_f_01",
+            "SubPathString": ""
+          },
+          "NarrationTextID": {
+            "TableId": "/Game/IND/UI/DataTable/Story/StoryType/StoryType_01/Str_WD_Race_Story_01_NextPreview.Str_WD_Race_Story_01_NextPreview",
+            "Key": "1_5_5",
+            "SourceString": "On the way to Akagi after being summoned by Ryosuke,\r\na rough guy picks a fight on snowy Akina.",
+            "LocalizedString": "On the way to Akagi after being summoned by Ryosuke,\r\na rough guy picks a fight on snowy Akina."
+          },
+          "NarrationVoice": {
+            "ObjectName": "SoundAtomCue'yokoku_01_05_05_01'",
+            "ObjectPath": "GameProject/Content/IND/Sound/VOICE/yokoku_01_05_05_01.0"
+          },
+          "NarrationVoiceDelay": 1.0,
+          "ViewTimeAfter": 2.0,
+          "ViewTimeAll": 12.0,
+          "PlaybackSpeed": 1.0
+        }
+      },
+      "s01_c06_e01": {
+        "Rival": {
+          "UseEpisodeData": true,
+          "CharacterID": []
+        },
+        "Load": {
+          "LoadingImageID": {
+            "AssetPathName": "/Game/IND/UI/Load/Texture/StoryLoadBG/T_Load_StoryBG_akinasnow_d_f_01.T_Load_StoryBG_akinasnow_d_f_01",
+            "SubPathString": ""
+          },
+          "LoadingTextID": {
+            "TableId": "/Game/IND/UI/DataTable/Story/StoryType/StoryType_01/Str_WD_Load_Story_01_Prologue.Str_WD_Load_Story_01_Prologue",
+            "Key": "1_6_1",
+            "SourceString": "Passing through Akina on the way to Ryosuke.\r\nThe one who tangles with them on the snowy touge is a rough character.",
+            "LocalizedString": "Passing through Akina on the way to Ryosuke.\r\nThe one who tangles with them on the snowy touge is a rough character."
+          },
+          "NarrationVoice": {
+            "ObjectName": "SoundAtomCue'prolouge_01_06_01_01'",
+            "ObjectPath": "GameProject/Content/IND/Sound/VOICE/prolouge_01_06_01_01.0"
+          },
+          "NarrationVoiceDelay": 2.5,
+          "ViewTimeAfter": 2.0
+        },
+        "NextEpisode": {
+          "AnimType": 0,
+          "AutoSetting": true,
+          "ChapterID": -1,
+          "EpisodeID": -1,
+          "MainImage": {
+            "AssetPathName": "/Game/IND/UI/Load/Texture/StoryLoadBG/T_Load_StoryBG_akagi_n_f_01.T_Load_StoryBG_akagi_n_f_01",
+            "SubPathString": ""
+          },
+          "NarrationTextID": {
+            "TableId": "/Game/IND/UI/DataTable/Story/StoryType/StoryType_01/Str_WD_Race_Story_01_NextPreview.Str_WD_Race_Story_01_NextPreview",
+            "Key": "1_6_1",
+            "SourceString": "When they reached Akagi, Ryosuke wasn't there.\r\nInstead, there was a shocking duo.",
+            "LocalizedString": "When they reached Akagi, Ryosuke wasn't there.\r\nInstead, there was a shocking duo."
+          },
+          "NarrationVoice": {
+            "ObjectName": "SoundAtomCue'yokoku_01_06_01_01'",
+            "ObjectPath": "GameProject/Content/IND/Sound/VOICE/yokoku_01_06_01_01.0"
+          },
+          "NarrationVoiceDelay": 1.0,
+          "ViewTimeAfter": 2.0,
+          "ViewTimeAll": 12.0,
+          "PlaybackSpeed": 1.0
+        }
+      },
+      "s01_c06_e02": {
+        "Rival": {
+          "UseEpisodeData": false,
+          "CharacterID": [
+            "WATARU",
+            "KENTA"
+          ]
+        },
+        "Load": {
+          "LoadingImageID": {
+            "AssetPathName": "/Game/IND/UI/Load/Texture/StoryLoadBG/T_Load_StoryBG_akagi_n_f_01.T_Load_StoryBG_akagi_n_f_01",
+            "SubPathString": ""
+          },
+          "LoadingTextID": {
+            "TableId": "/Game/IND/UI/DataTable/Story/StoryType/StoryType_01/Str_WD_Load_Story_01_Prologue.Str_WD_Load_Story_01_Prologue",
+            "Key": "1_6_2",
+            "SourceString": "On Akagi without Ryosuke were Wataru Akiyama and Kenta Nakamura.\r\nBy Wataru's idea, they battle to kill time until Ryosuke arrives.",
+            "LocalizedString": "On Akagi without Ryosuke were Wataru Akiyama and Kenta Nakamura.\r\nBy Wataru's idea, they battle to kill time until Ryosuke arrives."
+          },
+          "NarrationVoice": {
+            "ObjectName": "SoundAtomCue'prolouge_01_06_02_01'",
+            "ObjectPath": "GameProject/Content/IND/Sound/VOICE/prolouge_01_06_02_01.0"
+          },
+          "NarrationVoiceDelay": 2.5,
+          "ViewTimeAfter": 2.0
+        },
+        "NextEpisode": {
+          "AnimType": 0,
+          "AutoSetting": true,
+          "ChapterID": -1,
+          "EpisodeID": -1,
+          "MainImage": {
+            "AssetPathName": "/Game/IND/UI/Load/Texture/StoryLoadBG/T_Load_StoryBG_akagi_n_f_02.T_Load_StoryBG_akagi_n_f_02",
+            "SubPathString": ""
+          },
+          "NarrationTextID": {
+            "TableId": "/Game/IND/UI/DataTable/Story/StoryType/StoryType_01/Str_WD_Race_Story_01_NextPreview.Str_WD_Race_Story_01_NextPreview",
+            "Key": "1_6_2",
+            "SourceString": "Ryosuke appears after the battles with Kenta and Wataru.\r\nWhat will the White Comet of Akagi say?",
+            "LocalizedString": "Ryosuke appears after the battles with Kenta and Wataru.\r\nWhat will the White Comet of Akagi say?"
+          },
+          "NarrationVoice": {
+            "ObjectName": "SoundAtomCue'yokoku_01_06_02_01'",
+            "ObjectPath": "GameProject/Content/IND/Sound/VOICE/yokoku_01_06_02_01.0"
+          },
+          "NarrationVoiceDelay": 1.0,
+          "ViewTimeAfter": 2.0,
+          "ViewTimeAll": 12.0,
+          "PlaybackSpeed": 1.0
+        }
+      },
+      "s01_c06_e03": {
+        "Rival": {
+          "UseEpisodeData": true,
+          "CharacterID": []
+        },
+        "Load": {
+          "LoadingImageID": {
+            "AssetPathName": "/Game/IND/UI/Load/Texture/StoryLoadBG/T_Load_StoryBG_akagi_n_f_02.T_Load_StoryBG_akagi_n_f_02",
+            "SubPathString": ""
+          },
+          "LoadingTextID": {
+            "TableId": "/Game/IND/UI/DataTable/Story/StoryType/StoryType_01/Str_WD_Load_Story_01_Prologue.Str_WD_Load_Story_01_Prologue",
+            "Key": "1_6_3",
+            "SourceString": "Ryosuke Takahashi appears on Akagi.\r\nIt seems he has something to say.",
+            "LocalizedString": "Ryosuke Takahashi appears on Akagi.\r\nIt seems he has something to say."
+          },
+          "NarrationVoice": {
+            "ObjectName": "SoundAtomCue'prolouge_01_06_03_01'",
+            "ObjectPath": "GameProject/Content/IND/Sound/VOICE/prolouge_01_06_03_01.0"
+          },
+          "NarrationVoiceDelay": 2.5,
+          "ViewTimeAfter": 2.0
+        },
+        "NextEpisode": {
+          "AnimType": 0,
+          "AutoSetting": true,
+          "ChapterID": -1,
+          "EpisodeID": -1,
+          "MainImage": {
+            "AssetPathName": "/Game/IND/UI/Load/Texture/StoryLoadBG/T_Load_StoryBG_akagi_n_f_01.T_Load_StoryBG_akagi_n_f_01",
+            "SubPathString": ""
+          },
+          "NarrationTextID": {
+            "TableId": "/Game/IND/UI/DataTable/Story/StoryType/StoryType_01/Str_WD_Race_Story_01_NextPreview.Str_WD_Race_Story_01_NextPreview",
+            "Key": "1_6_3",
+            "SourceString": "A request from Ryosuke Takahashi.\r\nIt was to fight two street racers.",
+            "LocalizedString": "A request from Ryosuke Takahashi.\r\nIt was to fight two street racers."
+          },
+          "NarrationVoice": {
+            "ObjectName": "SoundAtomCue'yokoku_01_06_03_01'",
+            "ObjectPath": "GameProject/Content/IND/Sound/VOICE/yokoku_01_06_03_01.0"
+          },
+          "NarrationVoiceDelay": 1.0,
+          "ViewTimeAfter": 2.0,
+          "ViewTimeAll": 12.0,
+          "PlaybackSpeed": 1.0
+        }
+      },
+      "s01_c06_e04": {
+        "Rival": {
+          "UseEpisodeData": true,
+          "CharacterID": []
+        },
+        "Load": {
+          "LoadingImageID": {
+            "AssetPathName": "/Game/IND/UI/Load/Texture/StoryLoadBG/T_Load_StoryBG_akagi_n_f_01.T_Load_StoryBG_akagi_n_f_01",
+            "SubPathString": ""
+          },
+          "LoadingTextID": {
+            "TableId": "/Game/IND/UI/DataTable/Story/StoryType/StoryType_01/Str_WD_Load_Story_01_Prologue.Str_WD_Load_Story_01_Prologue",
+            "Key": "1_6_4",
+            "SourceString": "First matchup on Ryosuke's card:\r\nThe Red Suns' number 2, Keisuke Takahashi.",
+            "LocalizedString": "First matchup on Ryosuke's card:\r\nThe Red Suns' number 2, Keisuke Takahashi."
+          },
+          "NarrationVoice": {
+            "ObjectName": "SoundAtomCue'prolouge_01_06_04_01'",
+            "ObjectPath": "GameProject/Content/IND/Sound/VOICE/prolouge_01_06_04_01.0"
+          },
+          "NarrationVoiceDelay": 2.5,
+          "ViewTimeAfter": 2.0
+        },
+        "NextEpisode": {
+          "AnimType": 0,
+          "AutoSetting": true,
+          "ChapterID": -1,
+          "EpisodeID": -1,
+          "MainImage": {
+            "AssetPathName": "/Game/IND/UI/Load/Texture/StoryLoadBG/T_Load_StoryBG_akina_n_f_02.T_Load_StoryBG_akina_n_f_02",
+            "SubPathString": ""
+          },
+          "NarrationTextID": {
+            "TableId": "/Game/IND/UI/DataTable/Story/StoryType/StoryType_01/Str_WD_Race_Story_01_NextPreview.Str_WD_Race_Story_01_NextPreview",
+            "Key": "1_6_4",
+            "SourceString": "At last they meet the rumored street racer.\r\nThe driver, Takumi Fujiwara, held a firm resolve in his eyes.",
+            "LocalizedString": "At last they meet the rumored street racer.\r\nThe driver, Takumi Fujiwara, held a firm resolve in his eyes."
+          },
+          "NarrationVoice": {
+            "ObjectName": "SoundAtomCue'yokoku_01_06_04_01'",
+            "ObjectPath": "GameProject/Content/IND/Sound/VOICE/yokoku_01_06_04_01.0"
+          },
+          "NarrationVoiceDelay": 1.0,
+          "ViewTimeAfter": 2.0,
+          "ViewTimeAll": 12.0,
+          "PlaybackSpeed": 1.0
+        }
+      },
+      "s01_c06_e05": {
+        "Rival": {
+          "UseEpisodeData": true,
+          "CharacterID": []
+        },
+        "Load": {
+          "LoadingImageID": {
+            "AssetPathName": "/Game/IND/UI/Load/Texture/StoryLoadBG/T_Load_StoryBG_akina_n_f_02.T_Load_StoryBG_akina_n_f_02",
+            "SubPathString": ""
+          },
+          "LoadingTextID": {
+            "TableId": "/Game/IND/UI/DataTable/Story/StoryType/StoryType_01/Str_WD_Load_Story_01_Prologue.Str_WD_Load_Story_01_Prologue",
+            "Key": "1_6_5",
+            "SourceString": "At last, the Akina AE86 appears.\r\nIts driver, Takumi Fujiwara, seems to have made up his mind.",
+            "LocalizedString": "At last, the Akina AE86 appears.\r\nIts driver, Takumi Fujiwara, seems to have made up his mind."
+          },
+          "NarrationVoice": {
+            "ObjectName": "SoundAtomCue'prolouge_01_06_05_01'",
+            "ObjectPath": "GameProject/Content/IND/Sound/VOICE/prolouge_01_06_05_01.0"
+          },
+          "NarrationVoiceDelay": 2.5,
+          "ViewTimeAfter": 2.0
+        },
+        "NextEpisode": {
+          "AnimType": 1,
+          "AutoSetting": true,
+          "ChapterID": -1,
+          "EpisodeID": -1,
+          "MainImage": {
+            "AssetPathName": "/Game/IND/UI/Load/Texture/StoryLoadBG/T_Load_StoryBG.T_Load_StoryBG",
+            "SubPathString": ""
+          },
+          "NarrationTextID": {
+            "TableId": "/Game/IND/UI/DataTable/Story/StoryType/StoryType_01/Str_WD_Race_Story_01_NextPreview.Str_WD_Race_Story_01_NextPreview",
+            "Key": "1_6_5",
+            "SourceString": "The legend that started won't stop.\r\nWhat is the new team Ryosuke Takahashi formed!?",
+            "LocalizedString": "The legend that started won't stop.\r\nWhat is the new team Ryosuke Takahashi formed!?"
+          },
+          "NarrationVoice": {
+            "ObjectName": "SoundAtomCue'yokoku_01_06_05_01'",
+            "ObjectPath": "GameProject/Content/IND/Sound/VOICE/yokoku_01_06_05_01.0"
+          },
+          "NarrationVoiceDelay": 1.0,
+          "ViewTimeAfter": 2.0,
+          "ViewTimeAll": 12.0,
+          "PlaybackSpeed": 1.0
+        }
+      },
+      "s01_c07_e01": {
+        "Rival": {
+          "UseEpisodeData": false,
+          "CharacterID": [
+            "KENTA",
+            "AKAGI_MOB_A"
+          ]
+        },
+        "Load": {
+          "LoadingImageID": {
+            "AssetPathName": "/Game/IND/UI/Load/Texture/StoryLoadBG/T_Load_StoryBG_akagi_n_f_01.T_Load_StoryBG_akagi_n_f_01",
+            "SubPathString": ""
+          },
+          "LoadingTextID": {
+            "TableId": "/Game/IND/UI/DataTable/Story/StoryType/StoryType_01/Str_WD_Load_Story_01_Prologue.Str_WD_Load_Story_01_Prologue",
+            "Key": "1_7_1",
+            "SourceString": "Project D, the expedition team Ryosuke Takahashi launched.\r\nTheir blazing run had many street racers fired up.",
+            "LocalizedString": "Project D, the expedition team Ryosuke Takahashi launched.\r\nTheir blazing run had many street racers fired up."
+          },
+          "NarrationVoice": {
+            "ObjectName": "SoundAtomCue'prologue_01_07_01_01'",
+            "ObjectPath": "GameProject/Content/IND/Sound/VOICE/prologue_01_07_01_01.0"
+          },
+          "NarrationVoiceDelay": 2.5,
+          "ViewTimeAfter": 2.0
+        },
+        "NextEpisode": {
+          "AnimType": 0,
+          "AutoSetting": true,
+          "ChapterID": -1,
+          "EpisodeID": -1,
+          "MainImage": {
+            "AssetPathName": "/Game/IND/UI/Load/Texture/StoryLoadBG/T_Load_StoryBG_akagi_n_b_01.T_Load_StoryBG_akagi_n_b_01",
+            "SubPathString": ""
+          },
+          "NarrationTextID": {
+            "TableId": "/Game/IND/UI/DataTable/Story/StoryType/StoryType_01/Str_WD_Race_Story_01_NextPreview.Str_WD_Race_Story_01_NextPreview",
+            "Key": "1_7_1",
+            "SourceString": "Kyoichi, met again at the foot of Mt. Akagi.\r\nWith few words, he demands a battle.",
+            "LocalizedString": "Kyoichi, met again at the foot of Mt. Akagi.\r\nWith few words, he demands a battle."
+          },
+          "NarrationVoice": {
+            "ObjectName": "SoundAtomCue'yokoku_01_07_01_01'",
+            "ObjectPath": "GameProject/Content/IND/Sound/VOICE/yokoku_01_07_01_01.0"
+          },
+          "NarrationVoiceDelay": 1.0,
+          "ViewTimeAfter": 2.0,
+          "ViewTimeAll": 12.0,
+          "PlaybackSpeed": 1.0
+        }
+      },
+      "s01_c07_e02": {
+        "Rival": {
+          "UseEpisodeData": true,
+          "CharacterID": []
+        },
+        "Load": {
+          "LoadingImageID": {
+            "AssetPathName": "/Game/IND/UI/Load/Texture/StoryLoadBG/T_Load_StoryBG_akagi_n_b_01.T_Load_StoryBG_akagi_n_b_01",
+            "SubPathString": ""
+          },
+          "LoadingTextID": {
+            "TableId": "/Game/IND/UI/DataTable/Story/StoryType/StoryType_01/Str_WD_Load_Story_01_Prologue.Str_WD_Load_Story_01_Prologue",
+            "Key": "1_7_2",
+            "SourceString": "Emperor's leader, Kyoichi Sudo, appears on Akagi.\r\nIt seems there's something he wants to check.",
+            "LocalizedString": "Emperor's leader, Kyoichi Sudo, appears on Akagi.\r\nIt seems there's something he wants to check."
+          },
+          "NarrationVoice": {
+            "ObjectName": "SoundAtomCue'prologue_01_07_02_01'",
+            "ObjectPath": "GameProject/Content/IND/Sound/VOICE/prologue_01_07_02_01.0"
+          },
+          "NarrationVoiceDelay": 2.5,
+          "ViewTimeAfter": 2.0
+        },
+        "NextEpisode": {
+          "AnimType": 0,
+          "AutoSetting": true,
+          "ChapterID": -1,
+          "EpisodeID": -1,
+          "MainImage": {
+            "AssetPathName": "/Game/IND/UI/Load/Texture/StoryLoadBG/T_Load_StoryBG_momiji_n_f_01.T_Load_StoryBG_momiji_n_f_01",
+            "SubPathString": ""
+          },
+          "NarrationTextID": {
+            "TableId": "/Game/IND/UI/DataTable/Story/StoryType/StoryType_01/Str_WD_Race_Story_01_NextPreview.Str_WD_Race_Story_01_NextPreview",
+            "Key": "1_7_2",
+            "SourceString": "Chasing Project D to Momiji Line.\r\nLocal heat turns the pass into an oven.",
+            "LocalizedString": "Chasing Project D to Momiji Line.\r\nLocal heat turns the pass into an oven."
+          },
+          "NarrationVoice": {
+            "ObjectName": "SoundAtomCue'yokoku_01_07_02_01'",
+            "ObjectPath": "GameProject/Content/IND/Sound/VOICE/yokoku_01_07_02_01.0"
+          },
+          "NarrationVoiceDelay": 1.0,
+          "ViewTimeAfter": 2.0,
+          "ViewTimeAll": 12.0,
+          "PlaybackSpeed": 1.0
+        }
+      },
+      "s01_c07_e03": {
+        "Rival": {
+          "UseEpisodeData": true,
+          "CharacterID": []
+        },
+        "Load": {
+          "LoadingImageID": {
+            "AssetPathName": "/Game/IND/UI/Load/Texture/StoryLoadBG/T_Load_StoryBG_momiji_n_f_01.T_Load_StoryBG_momiji_n_f_01",
+            "SubPathString": ""
+          },
+          "LoadingTextID": {
+            "TableId": "/Game/IND/UI/DataTable/Story/StoryType/StoryType_01/Str_WD_Load_Story_01_Prologue.Str_WD_Load_Story_01_Prologue",
+            "Key": "1_7_3",
+            "SourceString": "Seven Star Leaf, the Momiji Line street-racing team.\r\nThey say they battled Project D the other day.",
+            "LocalizedString": "Seven Star Leaf, the Momiji Line street-racing team.\r\nThey say they battled Project D the other day."
+          },
+          "NarrationVoice": {
+            "ObjectName": "SoundAtomCue'prologue_01_07_03_01'",
+            "ObjectPath": "GameProject/Content/IND/Sound/VOICE/prologue_01_07_03_01.0"
+          },
+          "NarrationVoiceDelay": 2.5,
+          "ViewTimeAfter": 2.0
+        },
+        "NextEpisode": {
+          "AnimType": 0,
+          "AutoSetting": true,
+          "ChapterID": -1,
+          "EpisodeID": -1,
+          "MainImage": {
+            "AssetPathName": "/Game/IND/UI/Load/Texture/StoryLoadBG/T_Load_StoryBG_momiji_n_b_01.T_Load_StoryBG_momiji_n_b_01",
+            "SubPathString": ""
+          },
+          "NarrationTextID": {
+            "TableId": "/Game/IND/UI/DataTable/Story/StoryType/StoryType_01/Str_WD_Race_Story_01_NextPreview.Str_WD_Race_Story_01_NextPreview",
+            "Key": "1_7_3",
+            "SourceString": "Seven Star Leaf's hillclimb ace, Juro Kawai.\r\nHis 400-horse machine charges up Momiji Line.",
+            "LocalizedString": "Seven Star Leaf's hillclimb ace, Juro Kawai.\r\nHis 400-horse machine charges up Momiji Line."
+          },
+          "NarrationVoice": {
+            "ObjectName": "SoundAtomCue'yokoku_01_07_03_01'",
+            "ObjectPath": "GameProject/Content/IND/Sound/VOICE/yokoku_01_07_03_01.0"
+          },
+          "NarrationVoiceDelay": 1.0,
+          "ViewTimeAfter": 2.0,
+          "ViewTimeAll": 12.0,
+          "PlaybackSpeed": 0.85
+        }
+      },
+      "s01_c07_e04": {
+        "Rival": {
+          "UseEpisodeData": false,
+          "CharacterID": [
+            "KAWAI"
+          ]
+        },
+        "Load": {
+          "LoadingImageID": {
+            "AssetPathName": "/Game/IND/UI/Load/Texture/StoryLoadBG/T_Load_StoryBG_momiji_n_b_01.T_Load_StoryBG_momiji_n_b_01",
+            "SubPathString": ""
+          },
+          "LoadingTextID": {
+            "TableId": "/Game/IND/UI/DataTable/Story/StoryType/StoryType_01/Str_WD_Load_Story_01_Prologue.Str_WD_Load_Story_01_Prologue",
+            "Key": "1_7_4",
+            "SourceString": "Juro Kawai, Seven Star Leaf's hillclimb ace.\r\nAfter losing to Project D, he's reexamining his driving.",
+            "LocalizedString": "Juro Kawai, Seven Star Leaf's hillclimb ace.\r\nAfter losing to Project D, he's reexamining his driving."
+          },
+          "NarrationVoice": {
+            "ObjectName": "SoundAtomCue'prologue_01_07_04_01'",
+            "ObjectPath": "GameProject/Content/IND/Sound/VOICE/prologue_01_07_04_01.0"
+          },
+          "NarrationVoiceDelay": 2.5,
+          "ViewTimeAfter": 2.0
+        },
+        "NextEpisode": {
+          "AnimType": 0,
+          "AutoSetting": true,
+          "ChapterID": -1,
+          "EpisodeID": -1,
+          "MainImage": {
+            "AssetPathName": "/Game/IND/UI/Load/Texture/StoryLoadBG/T_Load_StoryBG_momiji_n_f_02.T_Load_StoryBG_momiji_n_f_02",
+            "SubPathString": ""
+          },
+          "NarrationTextID": {
+            "TableId": "/Game/IND/UI/DataTable/Story/StoryType/StoryType_01/Str_WD_Race_Story_01_NextPreview.Str_WD_Race_Story_01_NextPreview",
+            "Key": "1_7_4",
+            "SourceString": "Toru Suetsugu bowed out after Takumi beat him.\r\nThe fighting spirit sleeping inside him re-ignites.",
+            "LocalizedString": "Toru Suetsugu bowed out after Takumi beat him.\r\nThe fighting spirit sleeping inside him re-ignites."
+          },
+          "NarrationVoice": {
+            "ObjectName": "SoundAtomCue'yokoku_01_07_04_01'",
+            "ObjectPath": "GameProject/Content/IND/Sound/VOICE/yokoku_01_07_04_01.0"
+          },
+          "NarrationVoiceDelay": 1.0,
+          "ViewTimeAfter": 2.0,
+          "ViewTimeAll": 12.0,
+          "PlaybackSpeed": 0.85
+        }
+      },
+      "s01_c07_e05": {
+        "Rival": {
+          "UseEpisodeData": true,
+          "CharacterID": []
+        },
+        "Load": {
+          "LoadingImageID": {
+            "AssetPathName": "/Game/IND/UI/Load/Texture/StoryLoadBG/T_Load_StoryBG_momiji_n_f_02.T_Load_StoryBG_momiji_n_f_02",
+            "SubPathString": ""
+          },
+          "LoadingTextID": {
+            "TableId": "/Game/IND/UI/DataTable/Story/StoryType/StoryType_01/Str_WD_Load_Story_01_Prologue.Str_WD_Load_Story_01_Prologue",
+            "Key": "1_7_5",
+            "SourceString": "Toru Suetsugu once retired from battling.\r\nFrom his trembling hands, nerves and excitement can be felt.",
+            "LocalizedString": "Toru Suetsugu once retired from battling.\r\nFrom his trembling hands, nerves and excitement can be felt."
+          },
+          "NarrationVoice": {
+            "ObjectName": "SoundAtomCue'prologue_01_07_05_01'",
+            "ObjectPath": "GameProject/Content/IND/Sound/VOICE/prologue_01_07_05_01.0"
+          },
+          "NarrationVoiceDelay": 2.5,
+          "ViewTimeAfter": 2.0
+        },
+        "NextEpisode": {
+          "AnimType": 0,
+          "AutoSetting": true,
+          "ChapterID": -1,
+          "EpisodeID": -1,
+          "MainImage": {
+            "AssetPathName": "/Game/IND/UI/Load/Texture/StoryLoadBG/T_Load_StoryBG_happo_n_f_01.T_Load_StoryBG_happo_n_f_01",
+            "SubPathString": ""
+          },
+          "NarrationTextID": {
+            "TableId": "/Game/IND/UI/DataTable/Story/StoryType/StoryType_01/Str_WD_Race_Story_01_NextPreview.Str_WD_Race_Story_01_NextPreview",
+            "Key": "1_7_5",
+            "SourceString": "They visit Happogahara chasing Project D's shadow.\r\nThis pass is a magnet for speed freaks.",
+            "LocalizedString": "They visit Happogahara chasing Project D's shadow.\r\nThis pass is a magnet for speed freaks."
+          },
+          "NarrationVoice": {
+            "ObjectName": "SoundAtomCue'yokoku_01_07_05_01'",
+            "ObjectPath": "GameProject/Content/IND/Sound/VOICE/yokoku_01_07_05_01.0"
+          },
+          "NarrationVoiceDelay": 1.0,
+          "ViewTimeAfter": 2.0,
+          "ViewTimeAll": 12.0,
+          "PlaybackSpeed": 0.85
+        }
+      },
+      "s01_c08_e01": {
+        "Rival": {
+          "UseEpisodeData": true,
+          "CharacterID": []
+        },
+        "Load": {
+          "LoadingImageID": {
+            "AssetPathName": "/Game/IND/UI/Load/Texture/StoryLoadBG/T_Load_StoryBG_happo_n_f_01.T_Load_StoryBG_happo_n_f_01",
+            "SubPathString": ""
+          },
+          "LoadingTextID": {
+            "TableId": "/Game/IND/UI/DataTable/Story/StoryType/StoryType_01/Str_WD_Load_Story_01_Prologue.Str_WD_Load_Story_01_Prologue",
+            "Key": "1_8_1",
+            "SourceString": "They visit Happogahara seeking the next opponent.\r\nThere stands Emperor's leader, Kyoichi Sudo.",
+            "LocalizedString": "They visit Happogahara seeking the next opponent.\r\nThere stands Emperor's leader, Kyoichi Sudo."
+          },
+          "NarrationVoice": {
+            "ObjectName": "SoundAtomCue'prologue_01_08_01_01'",
+            "ObjectPath": "GameProject/Content/IND/Sound/VOICE/prologue_01_08_01_01.0"
+          },
+          "NarrationVoiceDelay": 2.5,
+          "ViewTimeAfter": 2.0
+        },
+        "NextEpisode": {
+          "AnimType": 0,
+          "AutoSetting": true,
+          "ChapterID": -1,
+          "EpisodeID": -1,
+          "MainImage": {
+            "AssetPathName": "/Game/IND/UI/Load/Texture/StoryLoadBG/T_Load_StoryBG_happo_n_b_01.T_Load_StoryBG_happo_n_b_01",
+            "SubPathString": ""
+          },
+          "NarrationTextID": {
+            "TableId": "/Game/IND/UI/DataTable/Story/StoryType/StoryType_01/Str_WD_Race_Story_01_NextPreview.Str_WD_Race_Story_01_NextPreview",
+            "Key": "1_8_1",
+            "SourceString": "Kyoichi breaks down the Happogahara playbook.\r\nWhat ties him so hard to Todo School?",
+            "LocalizedString": "Kyoichi breaks down the Happogahara playbook.\r\nWhat ties him so hard to Todo School?"
+          },
+          "NarrationVoice": {
+            "ObjectName": "SoundAtomCue'yokoku_01_08_01_01'",
+            "ObjectPath": "GameProject/Content/IND/Sound/VOICE/yokoku_01_08_01_01.0"
+          },
+          "NarrationVoiceDelay": 1.0,
+          "ViewTimeAfter": 2.0,
+          "ViewTimeAll": 12.0,
+          "PlaybackSpeed": 1.0
+        }
+      },
+      "s01_c08_e02": {
+        "Rival": {
+          "UseEpisodeData": false,
+          "CharacterID": [
+            "KYOICHI"
+          ]
+        },
+        "Load": {
+          "LoadingImageID": {
+            "AssetPathName": "/Game/IND/UI/Load/Texture/StoryLoadBG/T_Load_StoryBG_happo_n_b_01.T_Load_StoryBG_happo_n_b_01",
+            "SubPathString": ""
+          },
+          "LoadingTextID": {
+            "TableId": "/Game/IND/UI/DataTable/Story/StoryType/StoryType_01/Str_WD_Load_Story_01_Prologue.Str_WD_Load_Story_01_Prologue",
+            "Key": "1_8_2",
+            "SourceString": "Kyoichi Sudo talks about how to conquer Happogahara.\r\nHe was once a student of the Todo School.",
+            "LocalizedString": "Kyoichi Sudo talks about how to conquer Happogahara.\r\nHe was once a student of the Todo School."
+          },
+          "NarrationVoice": {
+            "ObjectName": "SoundAtomCue'prologue_01_08_02_01'",
+            "ObjectPath": "GameProject/Content/IND/Sound/VOICE/prologue_01_08_02_01.0"
+          },
+          "NarrationVoiceDelay": 2.5,
+          "ViewTimeAfter": 2.0
+        },
+        "NextEpisode": {
+          "AnimType": 0,
+          "AutoSetting": true,
+          "ChapterID": -1,
+          "EpisodeID": -1,
+          "MainImage": {
+            "AssetPathName": "/Game/IND/UI/Load/Texture/StoryLoadBG/T_Load_StoryBG_happo_n_f_02.T_Load_StoryBG_happo_n_f_02",
+            "SubPathString": ""
+          },
+          "NarrationTextID": {
+            "TableId": "/Game/IND/UI/DataTable/Story/StoryType/StoryType_01/Str_WD_Race_Story_01_NextPreview.Str_WD_Race_Story_01_NextPreview",
+            "Key": "1_8_2",
+            "SourceString": "Tomoyuki Tate, a Todo School alum and active pro racer.\r\nOn his suggestion, they join Todo's practice.",
+            "LocalizedString": "Tomoyuki Tate, a Todo School alum and active pro racer.\r\nOn his suggestion, they join Todo's practice."
+          },
+          "NarrationVoice": {
+            "ObjectName": "SoundAtomCue'yokoku_01_08_02_01'",
+            "ObjectPath": "GameProject/Content/IND/Sound/VOICE/yokoku_01_08_02_01.0"
+          },
+          "NarrationVoiceDelay": 1.0,
+          "ViewTimeAfter": 2.0,
+          "ViewTimeAll": 12.0,
+          "PlaybackSpeed": 0.85
+        }
+      },
+      "s01_c08_e03": {
+        "Rival": {
+          "UseEpisodeData": true,
+          "CharacterID": []
+        },
+        "Load": {
+          "LoadingImageID": {
+            "AssetPathName": "/Game/IND/UI/Load/Texture/StoryLoadBG/T_Load_StoryBG_happo_n_f_02.T_Load_StoryBG_happo_n_f_02",
+            "SubPathString": ""
+          },
+          "LoadingTextID": {
+            "TableId": "/Game/IND/UI/DataTable/Story/StoryType/StoryType_01/Str_WD_Load_Story_01_Prologue.Str_WD_Load_Story_01_Prologue",
+            "Key": "1_8_3",
+            "SourceString": "Tomoyuki Tate, a Todo School alum and active pro racer.\r\nOn his advice, they join a student practice session.",
+            "LocalizedString": "Tomoyuki Tate, a Todo School alum and active pro racer.\r\nOn his advice, they join a student practice session."
+          },
+          "NarrationVoice": {
+            "ObjectName": "SoundAtomCue'prologue_01_08_03_01'",
+            "ObjectPath": "GameProject/Content/IND/Sound/VOICE/prologue_01_08_03_01.0"
+          },
+          "NarrationVoiceDelay": 2.5,
+          "ViewTimeAfter": 2.0
+        },
+        "NextEpisode": {
+          "AnimType": 0,
+          "AutoSetting": true,
+          "ChapterID": -1,
+          "EpisodeID": -1,
+          "MainImage": {
+            "AssetPathName": "/Game/IND/UI/Load/Texture/StoryLoadBG/T_Load_StoryBG_happo_n_b_02.T_Load_StoryBG_happo_n_b_02",
+            "SubPathString": ""
+          },
+          "NarrationTextID": {
+            "TableId": "/Game/IND/UI/DataTable/Story/StoryType/StoryType_01/Str_WD_Race_Story_01_NextPreview.Str_WD_Race_Story_01_NextPreview",
+            "Key": "1_8_3",
+            "SourceString": "Sakai, one half of Todo's current top two.\r\nThat creepy grin finally shows teeth.",
+            "LocalizedString": "Sakai, one half of Todo's current top two.\r\nThat creepy grin finally shows teeth."
+          },
+          "NarrationVoice": {
+            "ObjectName": "SoundAtomCue'yokoku_01_08_03_01'",
+            "ObjectPath": "GameProject/Content/IND/Sound/VOICE/yokoku_01_08_03_01.0"
+          },
+          "NarrationVoiceDelay": 1.0,
+          "ViewTimeAfter": 2.0,
+          "ViewTimeAll": 12.0,
+          "PlaybackSpeed": 1.0
+        }
+      },
+      "s01_c08_e04": {
+        "Rival": {
+          "UseEpisodeData": true,
+          "CharacterID": []
+        },
+        "Load": {
+          "LoadingImageID": {
+            "AssetPathName": "/Game/IND/UI/Load/Texture/StoryLoadBG/T_Load_StoryBG_happo_n_b_02.T_Load_StoryBG_happo_n_b_02",
+            "SubPathString": ""
+          },
+          "LoadingTextID": {
+            "TableId": "/Game/IND/UI/DataTable/Story/StoryType/StoryType_01/Str_WD_Load_Story_01_Prologue.Str_WD_Load_Story_01_Prologue",
+            "Key": "1_8_4",
+            "SourceString": "Sakai, boasting top-tier skill even among Todo's powerhouses.\r\nWearing a sinister smile, he throws down a challenge.",
+            "LocalizedString": "Sakai, boasting top-tier skill even among Todo's powerhouses.\r\nWearing a sinister smile, he throws down a challenge."
+          },
+          "NarrationVoice": {
+            "ObjectName": "SoundAtomCue'prologue_01_08_04_01'",
+            "ObjectPath": "GameProject/Content/IND/Sound/VOICE/prologue_01_08_04_01.0"
+          },
+          "NarrationVoiceDelay": 2.5,
+          "ViewTimeAfter": 2.0
+        },
+        "NextEpisode": {
+          "AnimType": 0,
+          "AutoSetting": true,
+          "ChapterID": -1,
+          "EpisodeID": -1,
+          "MainImage": {
+            "AssetPathName": "/Game/IND/UI/Load/Texture/StoryLoadBG/T_Load_StoryBG_happo_n_f_03.T_Load_StoryBG_happo_n_f_03",
+            "SubPathString": ""
+          },
+          "NarrationTextID": {
+            "TableId": "/Game/IND/UI/DataTable/Story/StoryType/StoryType_01/Str_WD_Race_Story_01_NextPreview.Str_WD_Race_Story_01_NextPreview",
+            "Key": "1_8_4",
+            "SourceString": "Daiki Ninomiya, widely called Todo's ace.\r\nWhat is the strength of his natural braking sense?",
+            "LocalizedString": "Daiki Ninomiya, widely called Todo's ace.\r\nWhat is the strength of his natural braking sense?"
+          },
+          "NarrationVoice": {
+            "ObjectName": "SoundAtomCue'yokoku_01_08_04_01'",
+            "ObjectPath": "GameProject/Content/IND/Sound/VOICE/yokoku_01_08_04_01.0"
+          },
+          "NarrationVoiceDelay": 1.0,
+          "ViewTimeAfter": 2.0,
+          "ViewTimeAll": 12.0,
+          "PlaybackSpeed": 0.85
+        }
+      },
+      "s01_c08_e05": {
+        "Rival": {
+          "UseEpisodeData": true,
+          "CharacterID": []
+        },
+        "Load": {
+          "LoadingImageID": {
+            "AssetPathName": "/Game/IND/UI/Load/Texture/StoryLoadBG/T_Load_StoryBG_happo_n_f_03.T_Load_StoryBG_happo_n_f_03",
+            "SubPathString": ""
+          },
+          "LoadingTextID": {
+            "TableId": "/Game/IND/UI/DataTable/Story/StoryType/StoryType_01/Str_WD_Load_Story_01_Prologue.Str_WD_Load_Story_01_Prologue",
+            "Key": "1_8_5",
+            "SourceString": "Daiki Ninomiya, rated top three among Todo's alumni.\r\nThe aura around him speaks to his ability.",
+            "LocalizedString": "Daiki Ninomiya, rated top three among Todo's alumni.\r\nThe aura around him speaks to his ability."
+          },
+          "NarrationVoice": {
+            "ObjectName": "SoundAtomCue'prologue_01_08_05_01'",
+            "ObjectPath": "GameProject/Content/IND/Sound/VOICE/prologue_01_08_05_01.0"
+          },
+          "NarrationVoiceDelay": 2.5,
+          "ViewTimeAfter": 2.0
+        },
+        "NextEpisode": {
+          "AnimType": 0,
+          "AutoSetting": true,
+          "ChapterID": -1,
+          "EpisodeID": -1,
+          "MainImage": {
+            "AssetPathName": "/Game/IND/UI/Load/Texture/StoryLoadBG/T_Load_StoryBG_akina_n_f_02.T_Load_StoryBG_akina_n_f_02",
+            "SubPathString": ""
+          },
+          "NarrationTextID": {
+            "TableId": "/Game/IND/UI/DataTable/Story/StoryType/StoryType_01/Str_WD_Race_Story_01_NextPreview.Str_WD_Race_Story_01_NextPreview",
+            "Key": "1_8_5",
+            "SourceString": "Mt. Akina, visited for the first time in a while.\r\nWhat appeared there was someone insanely fast...",
+            "LocalizedString": "Mt. Akina, visited for the first time in a while.\r\nWhat appeared there was someone insanely fast..."
+          },
+          "NarrationVoice": {
+            "ObjectName": "SoundAtomCue'yokoku_01_08_05_01'",
+            "ObjectPath": "GameProject/Content/IND/Sound/VOICE/yokoku_01_08_05_01.0"
+          },
+          "NarrationVoiceDelay": 1.0,
+          "ViewTimeAfter": 2.0,
+          "ViewTimeAll": 12.0,
+          "PlaybackSpeed": 1.0
+        }
+      },
+      "s01_c09_e01": {
+        "Rival": {
+          "UseEpisodeData": false,
+          "CharacterID": [
+            "IKETANI",
+            "ITSUKI"
+          ]
+        },
+        "Load": {
+          "LoadingImageID": {
+            "AssetPathName": "/Game/IND/UI/Load/Texture/StoryLoadBG/T_Load_StoryBG_akina_n_f_01.T_Load_StoryBG_akina_n_f_01",
+            "SubPathString": ""
+          },
+          "LoadingTextID": {
+            "TableId": "/Game/IND/UI/DataTable/Story/StoryType/StoryType_01/Str_WD_Load_Story_01_Prologue.Str_WD_Load_Story_01_Prologue",
+            "Key": "1_9_1",
+            "SourceString": "Akina, visited after a long time, is wrapped in excitement.\r\nThe Akina SpeedStars seem proud of Project D's success.",
+            "LocalizedString": "Akina, visited after a long time, is wrapped in excitement.\r\nThe Akina SpeedStars seem proud of Project D's success."
+          },
+          "NarrationVoice": {
+            "ObjectName": "SoundAtomCue'prologue_01_09_01_01'",
+            "ObjectPath": "GameProject/Content/IND/Sound/VOICE/prologue_01_09_01_01.0"
+          },
+          "NarrationVoiceDelay": 2.5,
+          "ViewTimeAfter": 2.0
+        },
+        "NextEpisode": {
+          "AnimType": 0,
+          "AutoSetting": true,
+          "ChapterID": -1,
+          "EpisodeID": -1,
+          "MainImage": {
+            "AssetPathName": "/Game/IND/UI/Load/Texture/StoryLoadBG/T_Load_StoryBG_sadamine_n_f_01.T_Load_StoryBG_sadamine_n_f_01",
+            "SubPathString": ""
+          },
+          "NarrationTextID": {
+            "TableId": "/Game/IND/UI/DataTable/Story/StoryType/StoryType_01/Str_WD_Race_Story_01_NextPreview.Str_WD_Race_Story_01_NextPreview",
+            "Key": "1_9_1",
+            "SourceString": "Without learning the truth of the mystery Impreza,\r\nnext up is a rule-breaking alliance team.",
+            "LocalizedString": "Without learning the truth of the mystery Impreza,\r\nnext up is a rule-breaking alliance team."
+          },
+          "NarrationVoice": {
+            "ObjectName": "SoundAtomCue'yokoku_01_09_01_01'",
+            "ObjectPath": "GameProject/Content/IND/Sound/VOICE/yokoku_01_09_01_01.0"
+          },
+          "NarrationVoiceDelay": 1.0,
+          "ViewTimeAfter": 2.0,
+          "ViewTimeAll": 12.0,
+          "PlaybackSpeed": 1.0
+        }
+      },
+      "s01_c09_e02": {
+        "Rival": {
+          "UseEpisodeData": false,
+          "CharacterID": [
+            "NOBU",
+            "WATARU2"
+          ]
+        },
+        "Load": {
+          "LoadingImageID": {
+            "AssetPathName": "/Game/IND/UI/Load/Texture/StoryLoadBG/T_Load_StoryBG_sadamine_n_f_01.T_Load_StoryBG_sadamine_n_f_01",
+            "SubPathString": ""
+          },
+          "LoadingTextID": {
+            "TableId": "/Game/IND/UI/DataTable/Story/StoryType/StoryType_01/Str_WD_Load_Story_01_Prologue.Str_WD_Load_Story_01_Prologue",
+            "Key": "1_9_2",
+            "SourceString": "The Northwest Saitama Alliance waits at Sadamine Pass.\r\nBehind their leader Nobuhiko Akiyama stands his cousin.",
+            "LocalizedString": "The Northwest Saitama Alliance waits at Sadamine Pass.\r\nBehind their leader Nobuhiko Akiyama stands his cousin."
+          },
+          "NarrationVoice": {
+            "ObjectName": "SoundAtomCue'prologue_01_09_02_01'",
+            "ObjectPath": "GameProject/Content/IND/Sound/VOICE/prologue_01_09_02_01.0"
+          },
+          "NarrationVoiceDelay": 2.5,
+          "ViewTimeAfter": 2.0
+        },
+        "NextEpisode": {
+          "AnimType": 0,
+          "AutoSetting": true,
+          "ChapterID": -1,
+          "EpisodeID": -1,
+          "MainImage": {
+            "AssetPathName": "/Game/IND/UI/Load/Texture/StoryLoadBG/T_Load_StoryBG_sadamine_n_b_01.T_Load_StoryBG_sadamine_n_b_01",
+            "SubPathString": ""
+          },
+          "NarrationTextID": {
+            "TableId": "/Game/IND/UI/DataTable/Story/StoryType/StoryType_01/Str_WD_Race_Story_01_NextPreview.Str_WD_Race_Story_01_NextPreview",
+            "Key": "1_9_2",
+            "SourceString": "Before the three, a black FD appears.\r\nA powerfulful rotary note echoes through the pass.",
+            "LocalizedString": "Before the three, a black FD appears.\r\nA powerfulful rotary note echoes through the pass."
+          },
+          "NarrationVoice": {
+            "ObjectName": "SoundAtomCue'yokoku_01_09_02_01'",
+            "ObjectPath": "GameProject/Content/IND/Sound/VOICE/yokoku_01_09_02_01.0"
+          },
+          "NarrationVoiceDelay": 1.0,
+          "ViewTimeAfter": 2.0,
+          "ViewTimeAll": 12.0,
+          "PlaybackSpeed": 0.8
+        }
+      },
+      "s01_c09_e03": {
+        "Rival": {
+          "UseEpisodeData": false,
+          "CharacterID": [
+            "KYOKO"
+          ]
+        },
+        "Load": {
+          "LoadingImageID": {
+            "AssetPathName": "/Game/IND/UI/Load/Texture/StoryLoadBG/T_Load_StoryBG_sadamine_n_b_01.T_Load_StoryBG_sadamine_n_b_01",
+            "SubPathString": ""
+          },
+          "LoadingTextID": {
+            "TableId": "/Game/IND/UI/DataTable/Story/StoryType/StoryType_01/Str_WD_Load_Story_01_Prologue.Str_WD_Load_Story_01_Prologue",
+            "Key": "1_9_3",
+            "SourceString": "At Nobuhiko Akiyama's request, they battle a black FD.\r\nIts driver, Kyoko Iwase, has eyes that look far away.",
+            "LocalizedString": "At Nobuhiko Akiyama's request, they battle a black FD.\r\nIts driver, Kyoko Iwase, has eyes that look far away."
+          },
+          "NarrationVoice": {
+            "ObjectName": "SoundAtomCue'prologue_01_09_03_01'",
+            "ObjectPath": "GameProject/Content/IND/Sound/VOICE/prologue_01_09_03_01.0"
+          },
+          "NarrationVoiceDelay": 2.5,
+          "ViewTimeAfter": 2.0
+        },
+        "NextEpisode": {
+          "AnimType": 0,
+          "AutoSetting": true,
+          "ChapterID": -1,
+          "EpisodeID": -1,
+          "MainImage": {
+            "AssetPathName": "/Game/IND/UI/Load/Texture/StoryLoadBG/T_Load_StoryBG_sadamine_n_f_01.T_Load_StoryBG_sadamine_n_f_01",
+            "SubPathString": ""
+          },
+          "NarrationTextID": {
+            "TableId": "/Game/IND/UI/DataTable/Story/StoryType/StoryType_01/Str_WD_Race_Story_01_NextPreview.Str_WD_Race_Story_01_NextPreview",
+            "Key": "1_9_3",
+            "SourceString": "Finally, Sakamoto the rally guy shows.\r\nAnd the car? Didn't see that pick coming.",
+            "LocalizedString": "Finally, Sakamoto the rally guy shows.\r\nAnd the car? Didn't see that pick coming."
+          },
+          "NarrationVoice": {
+            "ObjectName": "SoundAtomCue'yokoku_01_09_03_01'",
+            "ObjectPath": "GameProject/Content/IND/Sound/VOICE/yokoku_01_09_03_01.0"
+          },
+          "NarrationVoiceDelay": 1.0,
+          "ViewTimeAfter": 2.0,
+          "ViewTimeAll": 12.0,
+          "PlaybackSpeed": 1.0
+        }
+      },
+      "s01_c09_e04": {
+        "Rival": {
+          "UseEpisodeData": false,
+          "CharacterID": [
+            "SAKAMOTO"
+          ]
+        },
+        "Load": {
+          "LoadingImageID": {
+            "AssetPathName": "/Game/IND/UI/Load/Texture/StoryLoadBG/T_Load_StoryBG_sadamine_n_f_01.T_Load_StoryBG_sadamine_n_f_01",
+            "SubPathString": ""
+          },
+          "LoadingTextID": {
+            "TableId": "/Game/IND/UI/DataTable/Story/StoryType/StoryType_01/Str_WD_Load_Story_01_Prologue.Str_WD_Load_Story_01_Prologue",
+            "Key": "1_9_4",
+            "SourceString": "Sakamoto, the Alliance's hidden card and a rallyist.\r\nHis Cappuccino is a monster machine whose weapon is lightness.",
+            "LocalizedString": "Sakamoto, the Alliance's hidden card and a rallyist.\r\nHis Cappuccino is a monster machine whose weapon is lightness."
+          },
+          "NarrationVoice": {
+            "ObjectName": "SoundAtomCue'prologue_01_09_04_01'",
+            "ObjectPath": "GameProject/Content/IND/Sound/VOICE/prologue_01_09_04_01.0"
+          },
+          "NarrationVoiceDelay": 2.5,
+          "ViewTimeAfter": 2.0
+        },
+        "NextEpisode": {
+          "AnimType": 0,
+          "AutoSetting": true,
+          "ChapterID": -1,
+          "EpisodeID": -1,
+          "MainImage": {
+            "AssetPathName": "/Game/IND/UI/Load/Texture/StoryLoadBG/T_Load_StoryBG_sadamine_n_b_01.T_Load_StoryBG_sadamine_n_b_01",
+            "SubPathString": ""
+          },
+          "NarrationTextID": {
+            "TableId": "/Game/IND/UI/DataTable/Story/StoryType/StoryType_01/Str_WD_Race_Story_01_NextPreview.Str_WD_Race_Story_01_NextPreview",
+            "Key": "1_9_4",
+            "SourceString": "Fired up by the fierce fight with Sakamoto — of course, that man!!\r\nHis evolved Levin tears up the pass.",
+            "LocalizedString": "Fired up by the fierce fight with Sakamoto — of course, that man!!\r\nHis evolved Levin tears up the pass."
+          },
+          "NarrationVoice": {
+            "ObjectName": "SoundAtomCue'yokoku_01_09_04_01'",
+            "ObjectPath": "GameProject/Content/IND/Sound/VOICE/yokoku_01_09_04_01.0"
+          },
+          "NarrationVoiceDelay": 1.0,
+          "ViewTimeAfter": 2.0,
+          "ViewTimeAll": 12.0,
+          "PlaybackSpeed": 0.8
+        }
+      },
+      "s01_c09_e05": {
+        "Rival": {
+          "UseEpisodeData": true,
+          "CharacterID": []
+        },
+        "Load": {
+          "LoadingImageID": {
+            "AssetPathName": "/Game/IND/UI/Load/Texture/StoryLoadBG/T_Load_StoryBG_sadamine_n_b_01.T_Load_StoryBG_sadamine_n_b_01",
+            "SubPathString": ""
+          },
+          "LoadingTextID": {
+            "TableId": "/Game/IND/UI/DataTable/Story/StoryType/StoryType_01/Str_WD_Load_Story_01_Prologue.Str_WD_Load_Story_01_Prologue",
+            "Key": "1_9_5",
+            "SourceString": "While the afterglow of the Sakamoto battle lingers,\r\nWataru rolls up with a fresh motor and a fight to pick.",
+            "LocalizedString": "While the afterglow of the Sakamoto battle lingers,\r\nWataru rolls up with a fresh motor and a fight to pick."
+          },
+          "NarrationVoice": {
+            "ObjectName": "SoundAtomCue'prologue_01_09_05_01'",
+            "ObjectPath": "GameProject/Content/IND/Sound/VOICE/prologue_01_09_05_01.0"
+          },
+          "NarrationVoiceDelay": 2.5,
+          "ViewTimeAfter": 2.0
+        },
+        "NextEpisode": {
+          "AnimType": 0,
+          "AutoSetting": true,
+          "ChapterID": -1,
+          "EpisodeID": -1,
+          "MainImage": {
+            "AssetPathName": "/Game/IND/UI/Load/Texture/StoryLoadBG/T_Load_StoryBG_usui_n_f_01.T_Load_StoryBG_usui_n_f_01",
+            "SubPathString": ""
+          },
+          "NarrationTextID": {
+            "TableId": "/Game/IND/UI/DataTable/Story/StoryType/StoryType_01/Str_WD_Race_Story_01_NextPreview.Str_WD_Race_Story_01_NextPreview",
+            "Key": "1_9_5",
+            "SourceString": "As Project D's Saitama expedition hits the final phase,\r\nweird types show at Usui, Impact Blue's home turf.",
+            "LocalizedString": "As Project D's Saitama expedition hits the final phase,\r\nweird types show at Usui, Impact Blue's home turf."
+          },
+          "NarrationVoice": {
+            "ObjectName": "SoundAtomCue'yokoku_01_09_05_01'",
+            "ObjectPath": "GameProject/Content/IND/Sound/VOICE/yokoku_01_09_05_01.0"
+          },
+          "NarrationVoiceDelay": 1.0,
+          "ViewTimeAfter": 2.0,
+          "ViewTimeAll": 12.0,
+          "PlaybackSpeed": 0.75
+        }
+      },
+      "s01_c10_e01": {
+        "Rival": {
+          "UseEpisodeData": false,
+          "CharacterID": [
+            "TOKYO2"
+          ]
+        },
+        "Load": {
+          "LoadingImageID": {
+            "AssetPathName": "/Game/IND/UI/Load/Texture/StoryLoadBG/T_Load_StoryBG_usui_n_f_02.T_Load_StoryBG_usui_n_f_02",
+            "SubPathString": ""
+          },
+          "LoadingTextID": {
+            "TableId": "/Game/IND/UI/DataTable/Story/StoryType/StoryType_01/Str_WD_Load_Story_01_Prologue.Str_WD_Load_Story_01_Prologue",
+            "Key": "1_10_1",
+            "SourceString": "Called by Impact Blue, they visit Usui.\r\nThere, a suspicious duo is present.",
+            "LocalizedString": "Called by Impact Blue, they visit Usui.\r\nThere, a suspicious duo is present."
+          },
+          "NarrationVoice": {
+            "ObjectName": "SoundAtomCue'prologue_01_10_01_01'",
+            "ObjectPath": "GameProject/Content/IND/Sound/VOICE/prologue_01_10_01_01.0"
+          },
+          "NarrationVoiceDelay": 2.5,
+          "ViewTimeAfter": 2.0
+        },
+        "NextEpisode": {
+          "AnimType": 0,
+          "AutoSetting": true,
+          "ChapterID": -1,
+          "EpisodeID": -1,
+          "MainImage": {
+            "AssetPathName": "/Game/IND/UI/Load/Texture/StoryLoadBG/T_Load_StoryBG_usui_n_f_01.T_Load_StoryBG_usui_n_f_01",
+            "SubPathString": ""
+          },
+          "NarrationTextID": {
+            "TableId": "/Game/IND/UI/DataTable/Story/StoryType/StoryType_01/Str_WD_Race_Story_01_NextPreview.Str_WD_Race_Story_01_NextPreview",
+            "Key": "1_10_1",
+            "SourceString": "The two men from Tokyo sneak off.\r\nPassing them are the angels of Usui Pass.",
+            "LocalizedString": "The two men from Tokyo sneak off.\r\nPassing them are the angels of Usui Pass."
+          },
+          "NarrationVoice": {
+            "ObjectName": "SoundAtomCue'yokoku_01_10_01_01'",
+            "ObjectPath": "GameProject/Content/IND/Sound/VOICE/yokoku_01_10_01_01.0"
+          },
+          "NarrationVoiceDelay": 1.0,
+          "ViewTimeAfter": 2.0,
+          "ViewTimeAll": 12.0,
+          "PlaybackSpeed": 0.8
+        }
+      },
+      "s01_c10_e02": {
+        "Rival": {
+          "UseEpisodeData": true,
+          "CharacterID": []
+        },
+        "Load": {
+          "LoadingImageID": {
+            "AssetPathName": "/Game/IND/UI/Load/Texture/StoryLoadBG/T_Load_StoryBG_usui_n_f_01.T_Load_StoryBG_usui_n_f_01",
+            "SubPathString": ""
+          },
+          "LoadingTextID": {
+            "TableId": "/Game/IND/UI/DataTable/Story/StoryType/StoryType_01/Str_WD_Load_Story_01_Prologue.Str_WD_Load_Story_01_Prologue",
+            "Key": "1_10_2",
+            "SourceString": "Facing Impact Blue again after a long time.\r\nThere's a hint of sadness in their expressions.",
+            "LocalizedString": "Facing Impact Blue again after a long time.\r\nThere's a hint of sadness in their expressions."
+          },
+          "NarrationVoice": {
+            "ObjectName": "SoundAtomCue'prologue_01_10_02_01'",
+            "ObjectPath": "GameProject/Content/IND/Sound/VOICE/prologue_01_10_02_01.0"
+          },
+          "NarrationVoiceDelay": 2.5,
+          "ViewTimeAfter": 2.0
+        },
+        "NextEpisode": {
+          "AnimType": 0,
+          "AutoSetting": true,
+          "ChapterID": -1,
+          "EpisodeID": -1,
+          "MainImage": {
+            "AssetPathName": "/Game/IND/UI/Load/Texture/StoryLoadBG/T_Load_StoryBG_tsuchisaka_n_f_01.T_Load_StoryBG_tsuchisaka_n_f_01",
+            "SubPathString": ""
+          },
+          "NarrationTextID": {
+            "TableId": "/Game/IND/UI/DataTable/Story/StoryType/StoryType_01/Str_WD_Race_Story_01_NextPreview.Str_WD_Race_Story_01_NextPreview",
+            "Key": "1_10_2",
+            "SourceString": "After the final battle with Impact Blue, they head straight for Dozaka Pass.\r\nA bad feeling crosses the chest.",
+            "LocalizedString": "After the final battle with Impact Blue, they head straight for Dozaka Pass.\r\nA bad feeling crosses the chest."
+          },
+          "NarrationVoice": {
+            "ObjectName": "SoundAtomCue'yokoku_01_10_02_01'",
+            "ObjectPath": "GameProject/Content/IND/Sound/VOICE/yokoku_01_10_02_01.0"
+          },
+          "NarrationVoiceDelay": 1.0,
+          "ViewTimeAfter": 2.0,
+          "ViewTimeAll": 12.0,
+          "PlaybackSpeed": 0.8
+        }
+      },
+      "s01_c10_e03": {
+        "Rival": {
+          "UseEpisodeData": true,
+          "CharacterID": []
+        },
+        "Load": {
+          "LoadingImageID": {
+            "AssetPathName": "/Game/IND/UI/Load/Texture/StoryLoadBG/T_Load_StoryBG_tsuchisaka_n_f_01.T_Load_StoryBG_tsuchisaka_n_f_01",
+            "SubPathString": ""
+          },
+          "LoadingTextID": {
+            "TableId": "/Game/IND/UI/DataTable/Story/StoryType/StoryType_01/Str_WD_Load_Story_01_Prologue.Str_WD_Load_Story_01_Prologue",
+            "Key": "1_10_3",
+            "SourceString": "unning Dozaka Pass, an exhaust roar rings from behind.\r\nIt seems someone is giving chase.",
+            "LocalizedString": "unning Dozaka Pass, an exhaust roar rings from behind.\r\nIt seems someone is giving chase."
+          },
+          "NarrationVoice": {
+            "ObjectName": "SoundAtomCue'prologue_01_10_03_01'",
+            "ObjectPath": "GameProject/Content/IND/Sound/VOICE/prologue_01_10_03_01.0"
+          },
+          "NarrationVoiceDelay": 2.5,
+          "ViewTimeAfter": 2.0
+        },
+        "NextEpisode": {
+          "AnimType": 0,
+          "AutoSetting": true,
+          "ChapterID": -1,
+          "EpisodeID": -1,
+          "MainImage": {
+            "AssetPathName": "/Game/IND/UI/Load/Texture/StoryLoadBG/T_Load_StoryBG_tsuchisaka_n_f_01.T_Load_StoryBG_tsuchisaka_n_f_01",
+            "SubPathString": ""
+          },
+          "NarrationTextID": {
+            "TableId": "/Game/IND/UI/DataTable/Story/StoryType/StoryType_01/Str_WD_Race_Story_01_NextPreview.Str_WD_Race_Story_01_NextPreview",
+            "Key": "1_10_3",
+            "SourceString": "Evo guys flag them down out of nowhere.\r\nSeems they've had a rough time lately.",
+            "LocalizedString": "Evo guys flag them down out of nowhere.\r\nSeems they've had a rough time lately."
+          },
+          "NarrationVoice": {
+            "ObjectName": "SoundAtomCue'yokoku_01_10_03_01'",
+            "ObjectPath": "GameProject/Content/IND/Sound/VOICE/yokoku_01_10_03_01.0"
+          },
+          "NarrationVoiceDelay": 1.0,
+          "ViewTimeAfter": 2.0,
+          "ViewTimeAll": 12.0,
+          "PlaybackSpeed": 1.0
+        }
+      },
+      "s01_c10_e04": {
+        "Rival": {
+          "UseEpisodeData": true,
+          "CharacterID": []
+        },
+        "Load": {
+          "LoadingImageID": {
+            "AssetPathName": "/Game/IND/UI/Load/Texture/StoryLoadBG/T_Load_StoryBG_tsuchisaka_n_f_01.T_Load_StoryBG_tsuchisaka_n_f_01",
+            "SubPathString": ""
+          },
+          "LoadingTextID": {
+            "TableId": "/Game/IND/UI/DataTable/Story/StoryType/StoryType_01/Str_WD_Load_Story_01_Prologue.Str_WD_Load_Story_01_Prologue",
+            "Key": "1_10_4",
+            "SourceString": "Men who say they've had a rough time lately.\r\nRiding Lancer Evos, they want a battle to blow it off.",
+            "LocalizedString": "Men who say they've had a rough time lately.\r\nRiding Lancer Evos, they want a battle to blow it off."
+          },
+          "NarrationVoice": {
+            "ObjectName": "SoundAtomCue'prologue_01_10_04_01'",
+            "ObjectPath": "GameProject/Content/IND/Sound/VOICE/prologue_01_10_04_01.0"
+          },
+          "NarrationVoiceDelay": 2.5,
+          "ViewTimeAfter": 2.0
+        },
+        "NextEpisode": {
+          "AnimType": 0,
+          "AutoSetting": true,
+          "ChapterID": -1,
+          "EpisodeID": -1,
+          "MainImage": {
+            "AssetPathName": "/Game/IND/UI/Load/Texture/StoryLoadBG/T_Load_StoryBG_tsuchisaka_n_f_01.T_Load_StoryBG_tsuchisaka_n_f_01",
+            "SubPathString": ""
+          },
+          "NarrationTextID": {
+            "TableId": "/Game/IND/UI/DataTable/Story/StoryType/StoryType_01/Str_WD_Race_Story_01_NextPreview.Str_WD_Race_Story_01_NextPreview",
+            "Key": "1_10_4",
+            "SourceString": "The Evo crew clears out, and a rotary is heard.\r\nKyoko Iwase steps in — eyes still red.",
+            "LocalizedString": "The Evo crew clears out, and a rotary is heard.\r\nKyoko Iwase steps in — eyes still red."
+          },
+          "NarrationVoice": {
+            "ObjectName": "SoundAtomCue'yokoku_01_10_04_01'",
+            "ObjectPath": "GameProject/Content/IND/Sound/VOICE/yokoku_01_10_04_01.0"
+          },
+          "NarrationVoiceDelay": 1.0,
+          "ViewTimeAfter": 2.0,
+          "ViewTimeAll": 12.0,
+          "PlaybackSpeed": 0.7
+        }
+      },
+      "s01_c10_e05": {
+        "Rival": {
+          "UseEpisodeData": true,
+          "CharacterID": []
+        },
+        "Load": {
+          "LoadingImageID": {
+            "AssetPathName": "/Game/IND/UI/Load/Texture/StoryLoadBG/T_Load_StoryBG_tsuchisaka_n_f_01.T_Load_StoryBG_tsuchisaka_n_f_01",
+            "SubPathString": ""
+          },
+          "LoadingTextID": {
+            "TableId": "/Game/IND/UI/DataTable/Story/StoryType/StoryType_01/Str_WD_Load_Story_01_Prologue.Str_WD_Load_Story_01_Prologue",
+            "Key": "1_10_5",
+            "SourceString": "Kyoko, whose love for Project D's Keisuke  failed.\r\nShe seems to have come to the place tied to their memories.",
+            "LocalizedString": "Kyoko, whose love for Project D's Keisuke  failed.\r\nShe seems to have come to the place tied to their memories."
+          },
+          "NarrationVoice": {
+            "ObjectName": "SoundAtomCue'prologue_01_10_05_01'",
+            "ObjectPath": "GameProject/Content/IND/Sound/VOICE/prologue_01_10_05_01.0"
+          },
+          "NarrationVoiceDelay": 2.5,
+          "ViewTimeAfter": 2.0
+        },
+        "NextEpisode": {
+          "AnimType": 0,
+          "AutoSetting": true,
+          "ChapterID": -1,
+          "EpisodeID": -1,
+          "MainImage": {
+            "AssetPathName": "/Game/IND/UI/Load/Texture/StoryLoadBG/T_Load_StoryBG_sadamine_n_f_01.T_Load_StoryBG_sadamine_n_f_01",
+            "SubPathString": ""
+          },
+          "NarrationTextID": {
+            "TableId": "/Game/IND/UI/DataTable/Story/StoryType/StoryType_01/Str_WD_Race_Story_01_NextPreview.Str_WD_Race_Story_01_NextPreview",
+            "Key": "1_10_5",
+            "SourceString": "Hearing the rumors about Project D, they came to Sadamine Pass.\r\nWaiting there were men they never expected to see.",
+            "LocalizedString": "Hearing the rumors about Project D, they came to Sadamine Pass.\r\nWaiting there were men they never expected to see."
+          },
+          "NarrationVoice": {
+            "ObjectName": "SoundAtomCue'yokoku_01_10_05_01'",
+            "ObjectPath": "GameProject/Content/IND/Sound/VOICE/yokoku_01_10_05_01.0"
+          },
+          "NarrationVoiceDelay": 1.0,
+          "ViewTimeAfter": 2.0,
+          "ViewTimeAll": 12.0,
+          "PlaybackSpeed": 1.0
+        }
+      },
+      "s01_c11_e01": {
+        "Rival": {
+          "UseEpisodeData": false,
+          "CharacterID": [
+            "NISE_TAKUMI_SHADOW",
+            "NISE_KEISUKE_SHADOW"
+          ]
+        },
+        "Load": {
+          "LoadingImageID": {
+            "AssetPathName": "/Game/IND/UI/Load/Texture/StoryLoadBG/T_Load_StoryBG_sadamine_n_f_01.T_Load_StoryBG_sadamine_n_f_01",
+            "SubPathString": ""
+          },
+          "LoadingTextID": {
+            "TableId": "/Game/IND/UI/DataTable/Story/StoryType/StoryType_01/Str_WD_Load_Story_01_Prologue.Str_WD_Load_Story_01_Prologue",
+            "Key": "1_11_1",
+            "SourceString": "The Emperor-based street racers at Irohazaka.\r\nAmong them was the man who once fought on Akagi.",
+            "LocalizedString": "The Emperor-based street racers at Irohazaka.\r\nAmong them was the man who once fought on Akagi."
+          },
+          "NarrationVoice": {
+            "ObjectName": "SoundAtomCue'prologue_01_11_01_01'",
+            "ObjectPath": "GameProject/Content/IND/Sound/VOICE/prologue_01_11_01_01.0"
+          },
+          "NarrationVoiceDelay": 2.5,
+          "ViewTimeAfter": 2.0
+        },
+        "NextEpisode": {
+          "AnimType": 0,
+          "AutoSetting": true,
+          "ChapterID": -1,
+          "EpisodeID": -1,
+          "MainImage": {
+            "AssetPathName": "/Game/IND/UI/Load/Texture/StoryLoadBG/T_Load_StoryBG_tsukuba_n_f_01.T_Load_StoryBG_tsukuba_n_f_01",
+            "SubPathString": ""
+          },
+          "NarrationTextID": {
+            "TableId": "/Game/IND/UI/DataTable/Story/StoryType/StoryType_01/Str_WD_Race_Story_01_NextPreview.Str_WD_Race_Story_01_NextPreview",
+            "Key": "1_11_1",
+            "SourceString": "Having driven off the impostor, they finally reached the spot.\r\nIt was the home course of the touge gods.",
+            "LocalizedString": "Having driven off the impostor, they finally reached the spot.\r\nIt was the home course of the touge gods."
+          },
+          "NarrationVoice": {
+            "ObjectName": "SoundAtomCue'yokoku_01_11_01_01'",
+            "ObjectPath": "GameProject/Content/IND/Sound/VOICE/yokoku_01_11_01_01.0"
+          },
+          "NarrationVoiceDelay": 1.0,
+          "ViewTimeAfter": 2.0,
+          "ViewTimeAll": 12.0,
+          "PlaybackSpeed": 0.8
+        }
+      },
+      "s01_c11_e02": {
+        "Rival": {
+          "UseEpisodeData": true,
+          "CharacterID": []
+        },
+        "Load": {
+          "LoadingImageID": {
+            "AssetPathName": "/Game/IND/UI/Load/Texture/StoryLoadBG/T_Load_StoryBG_tsukuba_n_f_01.T_Load_StoryBG_tsukuba_n_f_01",
+            "SubPathString": ""
+          },
+          "LoadingTextID": {
+            "TableId": "/Game/IND/UI/DataTable/Story/StoryType/StoryType_01/Str_WD_Load_Story_01_Prologue.Str_WD_Load_Story_01_Prologue",
+            "Key": "1_11_2",
+            "SourceString": "Arriving at Mt. Tsukuba, a familiar exhaust note hit their ears.\r\nKenta Nakamura of the Red Suns was sneaking in some training runs.",
+            "LocalizedString": "Arriving at Mt. Tsukuba, a familiar exhaust note hit their ears.\r\nKenta Nakamura of the Red Suns was sneaking in some training runs."
+          },
+          "NarrationVoice": {
+            "ObjectName": "SoundAtomCue'prologue_01_11_02_01'",
+            "ObjectPath": "GameProject/Content/IND/Sound/VOICE/prologue_01_11_02_01.0"
+          },
+          "NarrationVoiceDelay": 2.5,
+          "ViewTimeAfter": 2.0
+        },
+        "NextEpisode": {
+          "AnimType": 0,
+          "AutoSetting": true,
+          "ChapterID": -1,
+          "EpisodeID": -1,
+          "MainImage": {
+            "AssetPathName": "/Game/IND/UI/Load/Texture/StoryLoadBG/T_Load_StoryBG_tsukuba_n_f_01.T_Load_StoryBG_tsukuba_n_f_01",
+            "SubPathString": ""
+          },
+          "NarrationTextID": {
+            "TableId": "/Game/IND/UI/DataTable/Story/StoryType/StoryType_01/Str_WD_Race_Story_01_NextPreview.Str_WD_Race_Story_01_NextPreview",
+            "Key": "1_11_2",
+            "SourceString": "While waiting for Purple Shadow to show up,\r\nthe duo we once went head-to-head with appeared!",
+            "LocalizedString": "While waiting for Purple Shadow to show up,\r\nthe duo we once went head-to-head with appeared!"
+          },
+          "NarrationVoice": {
+            "ObjectName": "SoundAtomCue'yokoku_01_11_02_01'",
+            "ObjectPath": "GameProject/Content/IND/Sound/VOICE/yokoku_01_11_02_01.0"
+          },
+          "NarrationVoiceDelay": 1.0,
+          "ViewTimeAfter": 2.0,
+          "ViewTimeAll": 12.0,
+          "PlaybackSpeed": 1.0
+        }
+      },
+      "s01_c11_e03": {
+        "Rival": {
+          "UseEpisodeData": true,
+          "CharacterID": []
+        },
+        "Load": {
+          "LoadingImageID": {
+            "AssetPathName": "/Game/IND/UI/Load/Texture/StoryLoadBG/T_Load_StoryBG_tsukuba_n_f_01.T_Load_StoryBG_tsukuba_n_f_01",
+            "SubPathString": ""
+          },
+          "LoadingTextID": {
+            "TableId": "/Game/IND/UI/DataTable/Story/StoryType/StoryType_01/Str_WD_Load_Story_01_Prologue.Str_WD_Load_Story_01_Prologue",
+            "Key": "1_11_3",
+            "SourceString": "Fresh off the Kenta run, two more roll up—Todo School`s Daiki and Sakai.\r\nWord is they're here to call out the \"God of the Touge.\"",
+            "LocalizedString": "Fresh off the Kenta run, two more roll up—Todo School`s Daiki and Sakai.\r\nWord is they're here to call out the \"God of the Touge.\""
+          },
+          "NarrationVoice": {
+            "ObjectName": "SoundAtomCue'prologue_01_11_03_01'",
+            "ObjectPath": "GameProject/Content/IND/Sound/VOICE/prologue_01_11_03_01.0"
+          },
+          "NarrationVoiceDelay": 2.5,
+          "ViewTimeAfter": 2.0
+        },
+        "NextEpisode": {
+          "AnimType": 0,
+          "AutoSetting": true,
+          "ChapterID": -1,
+          "EpisodeID": -1,
+          "MainImage": {
+            "AssetPathName": "/Game/IND/UI/Load/Texture/StoryLoadBG/T_Load_StoryBG_tsukuba_n_f_01.T_Load_StoryBG_tsukuba_n_f_01",
+            "SubPathString": ""
+          },
+          "NarrationTextID": {
+            "TableId": "/Game/IND/UI/DataTable/Story/StoryType/StoryType_01/Str_WD_Race_Story_01_NextPreview.Str_WD_Race_Story_01_NextPreview",
+            "Key": "1_11_3",
+            "SourceString": "The touge gods finally appear.\r\nOne of them, Toshiya Joshima, stands in the way.",
+            "LocalizedString": "The touge gods finally appear.\r\nOne of them, Toshiya Joshima, stands in the way."
+          },
+          "NarrationVoice": {
+            "ObjectName": "SoundAtomCue'yokoku_01_11_03_01'",
+            "ObjectPath": "GameProject/Content/IND/Sound/VOICE/yokoku_01_11_03_01.0"
+          },
+          "NarrationVoiceDelay": 1.0,
+          "ViewTimeAfter": 2.0,
+          "ViewTimeAll": 12.0,
+          "PlaybackSpeed": 1.0
+        }
+      },
+      "s01_c11_e04": {
+        "Rival": {
+          "UseEpisodeData": true,
+          "CharacterID": []
+        },
+        "Load": {
+          "LoadingImageID": {
+            "AssetPathName": "/Game/IND/UI/Load/Texture/StoryLoadBG/T_Load_StoryBG_tsukuba_n_f_01.T_Load_StoryBG_tsukuba_n_f_01",
+            "SubPathString": ""
+          },
+          "LoadingTextID": {
+            "TableId": "/Game/IND/UI/DataTable/Story/StoryType/StoryType_01/Str_WD_Load_Story_01_Prologue.Str_WD_Load_Story_01_Prologue",
+            "Key": "1_11_4",
+            "SourceString": "Joshima, a leader of Purple Shadow, famed as “God Arm.”\r\nThe god who attacks the touge with one-hand steering now stands in our way.",
+            "LocalizedString": "Joshima, a leader of Purple Shadow, famed as “God Arm.”\r\nThe god who attacks the touge with one-hand steering now stands in our way."
+          },
+          "NarrationVoice": {
+            "ObjectName": "SoundAtomCue'prologue_01_11_04_01'",
+            "ObjectPath": "GameProject/Content/IND/Sound/VOICE/prologue_01_11_04_01.0"
+          },
+          "NarrationVoiceDelay": 2.5,
+          "ViewTimeAfter": 2.0
+        },
+        "NextEpisode": {
+          "AnimType": 0,
+          "AutoSetting": true,
+          "ChapterID": -1,
+          "EpisodeID": -1,
+          "MainImage": {
+            "AssetPathName": "/Game/IND/UI/Load/Texture/StoryLoadBG/T_Load_StoryBG_tsukuba_n_f_01.T_Load_StoryBG_tsukuba_n_f_01",
+            "SubPathString": ""
+          },
+          "NarrationTextID": {
+            "TableId": "/Game/IND/UI/DataTable/Story/StoryType/StoryType_01/Str_WD_Race_Story_01_NextPreview.Str_WD_Race_Story_01_NextPreview",
+            "Key": "1_11_4",
+            "SourceString": "After Joshima, the man with the foot of a god, Hoshino, appears.\r\nThe other god bares his fangs.",
+            "LocalizedString": "After Joshima, the man with the foot of a god, Hoshino, appears.\r\nThe other god bares his fangs."
+          },
+          "NarrationVoice": {
+            "ObjectName": "SoundAtomCue'yokoku_01_11_04_01'",
+            "ObjectPath": "GameProject/Content/IND/Sound/VOICE/yokoku_01_11_04_01.0"
+          },
+          "NarrationVoiceDelay": 1.0,
+          "ViewTimeAfter": 2.0,
+          "ViewTimeAll": 12.0,
+          "PlaybackSpeed": 0.8
+        }
+      },
+      "s01_c11_e05": {
+        "Rival": {
+          "UseEpisodeData": true,
+          "CharacterID": []
+        },
+        "Load": {
+          "LoadingImageID": {
+            "AssetPathName": "/Game/IND/UI/Load/Texture/StoryLoadBG/T_Load_StoryBG_tsukuba_n_f_01.T_Load_StoryBG_tsukuba_n_f_01",
+            "SubPathString": ""
+          },
+          "LoadingTextID": {
+            "TableId": "/Game/IND/UI/DataTable/Story/StoryType/StoryType_01/Str_WD_Load_Story_01_Prologue.Str_WD_Load_Story_01_Prologue",
+            "Key": "1_11_5",
+            "SourceString": "A senior member of Purple Shadow with the feet of a god,\r\nHoshino. The other god, known as God Foot,\r\nbares his fangs.",
+            "LocalizedString": "A senior member of Purple Shadow with the feet of a god,\r\nHoshino. The other god, known as God Foot,\r\nbares his fangs."
+          },
+          "NarrationVoice": {
+            "ObjectName": "SoundAtomCue'prologue_01_11_05_01'",
+            "ObjectPath": "GameProject/Content/IND/Sound/VOICE/prologue_01_11_05_01.0"
+          },
+          "NarrationVoiceDelay": 2.5,
+          "ViewTimeAfter": 2.0
+        },
+        "NextEpisode": {
+          "AnimType": 0,
+          "AutoSetting": true,
+          "ChapterID": -1,
+          "EpisodeID": -1,
+          "MainImage": {
+            "AssetPathName": "/Game/IND/UI/Load/Texture/StoryLoadBG/T_Load_StoryBG_coute101_n_f_01.T_Load_StoryBG_coute101_n_f_01",
+            "SubPathString": ""
+          },
+          "NarrationTextID": {
+            "TableId": "/Game/IND/UI/DataTable/Story/StoryType/StoryType_01/Str_WD_Race_Story_01_NextPreview.Str_WD_Race_Story_01_NextPreview",
+            "Key": "1_11_5",
+            "SourceString": "No sooner had they toppled a touge god than—\r\nA call from Project D`s Ryosuke Takahashi comes in.",
+            "LocalizedString": "No sooner had they toppled a touge god than—\r\nA call from Project D`s Ryosuke Takahashi comes in."
+          },
+          "NarrationVoice": {
+            "ObjectName": "SoundAtomCue'yokoku_01_11_05_01'",
+            "ObjectPath": "GameProject/Content/IND/Sound/VOICE/yokoku_01_11_05_01.0"
+          },
+          "NarrationVoiceDelay": 1.0,
+          "ViewTimeAfter": 2.0,
+          "ViewTimeAll": 12.0,
+          "PlaybackSpeed": 1.0
+        }
+      },
+      "s01_c12_e01": {
+        "Rival": {
+          "UseEpisodeData": false,
+          "CharacterID": [
+            "KENTA"
+          ]
+        },
+        "Load": {
+          "LoadingImageID": {
+            "AssetPathName": "/Game/IND/UI/Load/Texture/StoryLoadBG/T_Load_StoryBG_coute101_n_f_01.T_Load_StoryBG_coute101_n_f_01",
+            "SubPathString": ""
+          },
+          "LoadingTextID": {
+            "TableId": "/Game/IND/UI/DataTable/Story/StoryType/StoryType_01/Str_WD_Load_Story_01_Prologue.Str_WD_Load_Story_01_Prologue",
+            "Key": "1_12_1",
+            "SourceString": "Ryousuke had me scope Yabitsu.\r\nKenta says this is Project D`s endgame.",
+            "LocalizedString": "Ryousuke had me scope Yabitsu.\r\nKenta says this is Project D`s endgame."
+          },
+          "NarrationVoice": {
+            "ObjectName": "SoundAtomCue'prologue_01_12_01_01'",
+            "ObjectPath": "GameProject/Content/IND/Sound/VOICE/prologue_01_12_01_01.0"
+          },
+          "NarrationVoiceDelay": 2.5,
+          "ViewTimeAfter": 2.0
+        },
+        "NextEpisode": {
+          "AnimType": 0,
+          "AutoSetting": true,
+          "ChapterID": -1,
+          "EpisodeID": -1,
+          "MainImage": {
+            "AssetPathName": "/Game/IND/UI/Load/Texture/StoryLoadBG/T_Load_StoryBG_coute101_n_f_01.T_Load_StoryBG_coute101_n_f_01",
+            "SubPathString": ""
+          },
+          "NarrationTextID": {
+            "TableId": "/Game/IND/UI/DataTable/Story/StoryType/StoryType_01/Str_WD_Race_Story_01_NextPreview.Str_WD_Race_Story_01_NextPreview",
+            "Key": "1_12_1",
+            "SourceString": "Team 246, Kanagawa`s elite—racing legends are\r\nhere to challenge.",
+            "LocalizedString": "Team 246, Kanagawa`s elite—racing legends are\r\nhere to challenge."
+          },
+          "NarrationVoice": {
+            "ObjectName": "SoundAtomCue'yokoku_01_12_01_01'",
+            "ObjectPath": "GameProject/Content/IND/Sound/VOICE/yokoku_01_12_01_01.0"
+          },
+          "NarrationVoiceDelay": 1.0,
+          "ViewTimeAfter": 2.0,
+          "ViewTimeAll": 12.0,
+          "PlaybackSpeed": 1.0
+        }
+      },
+      "s01_c12_e02": {
+        "Rival": {
+          "UseEpisodeData": true,
+          "CharacterID": []
+        },
+        "Load": {
+          "LoadingImageID": {
+            "AssetPathName": "/Game/IND/UI/Load/Texture/StoryLoadBG/T_Load_StoryBG_coute101_n_f_01.T_Load_StoryBG_coute101_n_f_01",
+            "SubPathString": ""
+          },
+          "LoadingTextID": {
+            "TableId": "/Game/IND/UI/DataTable/Story/StoryType/StoryType_01/Str_WD_Load_Story_01_Prologue.Str_WD_Load_Story_01_Prologue",
+            "Key": "1_12_2",
+            "SourceString": "Team 246, one of Kanagawa's Big Three.\r\nTheir hill climb ace, Kobayakawa, is challenging us.",
+            "LocalizedString": "Team 246, one of Kanagawa's Big Three.\r\nTheir hill climb ace, Kobayakawa, is challenging us."
+          },
+          "NarrationVoice": {
+            "ObjectName": "SoundAtomCue'prologue_01_12_02_01'",
+            "ObjectPath": "GameProject/Content/IND/Sound/VOICE/prologue_01_12_02_01.0"
+          },
+          "NarrationVoiceDelay": 2.5,
+          "ViewTimeAfter": 2.0
+        },
+        "NextEpisode": {
+          "AnimType": 0,
+          "AutoSetting": true,
+          "ChapterID": -1,
+          "EpisodeID": -1,
+          "MainImage": {
+            "AssetPathName": "/Game/IND/UI/Load/Texture/StoryLoadBG/T_Load_StoryBG_coute101_n_f_01.T_Load_StoryBG_coute101_n_f_01",
+            "SubPathString": ""
+          },
+          "NarrationTextID": {
+            "TableId": "/Game/IND/UI/DataTable/Story/StoryType/StoryType_01/Str_WD_Race_Story_01_NextPreview.Str_WD_Race_Story_01_NextPreview",
+            "Key": "1_12_2",
+            "SourceString": "With the defeat of Kobayakawa, Team 246`s hill climber,\r\ntheir leader Tomofumi Omiya rises to the challenge.",
+            "LocalizedString": "With the defeat of Kobayakawa, Team 246`s hill climber,\r\ntheir leader Tomofumi Omiya rises to the challenge."
+          },
+          "NarrationVoice": {
+            "ObjectName": "SoundAtomCue'yokoku_01_12_02_01'",
+            "ObjectPath": "GameProject/Content/IND/Sound/VOICE/yokoku_01_12_02_01.0"
+          },
+          "NarrationVoiceDelay": 1.0,
+          "ViewTimeAfter": 2.0,
+          "ViewTimeAll": 12.0,
+          "PlaybackSpeed": 1.0
+        }
+      },
+      "s01_c12_e03": {
+        "Rival": {
+          "UseEpisodeData": true,
+          "CharacterID": []
+        },
+        "Load": {
+          "LoadingImageID": {
+            "AssetPathName": "/Game/IND/UI/Load/Texture/StoryLoadBG/T_Load_StoryBG_coute101_n_f_01.T_Load_StoryBG_coute101_n_f_01",
+            "SubPathString": ""
+          },
+          "LoadingTextID": {
+            "TableId": "/Game/IND/UI/DataTable/Story/StoryType/StoryType_01/Str_WD_Load_Story_01_Prologue.Str_WD_Load_Story_01_Prologue",
+            "Key": "1_12_3",
+            "SourceString": "Tomofumi Omiya, Team 246's leader—\r\nbearing hometown pride, takes the line...",
+            "LocalizedString": "Tomofumi Omiya, Team 246's leader—\r\nbearing hometown pride, takes the line..."
+          },
+          "NarrationVoice": {
+            "ObjectName": "SoundAtomCue'prologue_01_12_03_01'",
+            "ObjectPath": "GameProject/Content/IND/Sound/VOICE/prologue_01_12_03_01.0"
+          },
+          "NarrationVoiceDelay": 2.5,
+          "ViewTimeAfter": 2.0
+        },
+        "NextEpisode": {
+          "AnimType": 0,
+          "AutoSetting": true,
+          "ChapterID": -1,
+          "EpisodeID": -1,
+          "MainImage": {
+            "AssetPathName": "/Game/IND/UI/Load/Texture/StoryLoadBG/T_Load_StoryBG_akina_n_f_01.T_Load_StoryBG_akina_n_f_01",
+            "SubPathString": ""
+          },
+          "NarrationTextID": {
+            "TableId": "/Game/IND/UI/DataTable/Story/StoryType/StoryType_01/Str_WD_Race_Story_01_NextPreview.Str_WD_Race_Story_01_NextPreview",
+            "Key": "1_12_3",
+            "SourceString": "After scouting, we returned to Mt. Akina after\r\na long time. There, an unexpected pair waited.",
+            "LocalizedString": "After scouting, we returned to Mt. Akina after\r\na long time. There, an unexpected pair waited."
+          },
+          "NarrationVoice": {
+            "ObjectName": "SoundAtomCue'yokoku_01_12_03_01'",
+            "ObjectPath": "GameProject/Content/IND/Sound/VOICE/yokoku_01_12_03_01.0"
+          },
+          "NarrationVoiceDelay": 1.0,
+          "ViewTimeAfter": 2.0,
+          "ViewTimeAll": 12.0,
+          "PlaybackSpeed": 1.0
+        }
+      },
+      "s01_c12_e04": {
+        "Rival": {
+          "UseEpisodeData": true,
+          "CharacterID": []
+        },
+        "Load": {
+          "LoadingImageID": {
+            "AssetPathName": "/Game/IND/UI/Load/Texture/StoryLoadBG/T_Load_StoryBG_akina_n_f_01.T_Load_StoryBG_akina_n_f_01",
+            "SubPathString": ""
+          },
+          "LoadingTextID": {
+            "TableId": "/Game/IND/UI/DataTable/Story/StoryType/StoryType_01/Str_WD_Load_Story_01_Prologue.Str_WD_Load_Story_01_Prologue",
+            "Key": "1_12_4",
+            "SourceString": "Returning to Mt. Akina after a long time.\r\nThere, two Levin drivers appeared.",
+            "LocalizedString": "Returning to Mt. Akina after a long time.\r\nThere, two Levin drivers appeared."
+          },
+          "NarrationVoice": {
+            "ObjectName": "SoundAtomCue'prologue_01_12_04_01'",
+            "ObjectPath": "GameProject/Content/IND/Sound/VOICE/prologue_01_12_04_01.0"
+          },
+          "NarrationVoiceDelay": 2.5,
+          "ViewTimeAfter": 2.0
+        },
+        "NextEpisode": {
+          "AnimType": 0,
+          "AutoSetting": true,
+          "ChapterID": -1,
+          "EpisodeID": -1,
+          "MainImage": {
+            "AssetPathName": "/Game/IND/UI/Load/Texture/StoryLoadBG/T_Load_StoryBG_akina_n_f_01.T_Load_StoryBG_akina_n_f_01",
+            "SubPathString": ""
+          },
+          "NarrationTextID": {
+            "TableId": "/Game/IND/UI/DataTable/Story/StoryType/StoryType_01/Str_WD_Race_Story_01_NextPreview.Str_WD_Race_Story_01_NextPreview",
+            "Key": "1_12_4",
+            "SourceString": "Second run—\r\nWataru`s fired-up training. Behind a complaining Itsuki,\r\na car looms closer.",
+            "LocalizedString": "Second run—\r\nWataru`s fired-up training. Behind a complaining Itsuki,\r\na car looms closer."
+          },
+          "NarrationVoice": {
+            "ObjectName": "SoundAtomCue'yokoku_01_12_04_01'",
+            "ObjectPath": "GameProject/Content/IND/Sound/VOICE/yokoku_01_12_04_01.0"
+          },
+          "NarrationVoiceDelay": 1.0,
+          "ViewTimeAfter": 2.0,
+          "ViewTimeAll": 12.0,
+          "PlaybackSpeed": 1.0
+        }
+      },
+      "s01_c12_e05": {
+        "Rival": {
+          "UseEpisodeData": false,
+          "CharacterID": [
+            "WATARU",
+            "ITSUKI"
+          ]
+        },
+        "Load": {
+          "LoadingImageID": {
+            "AssetPathName": "/Game/IND/UI/Load/Texture/StoryLoadBG/T_Load_StoryBG_akina_n_f_01.T_Load_StoryBG_akina_n_f_01",
+            "SubPathString": ""
+          },
+          "LoadingTextID": {
+            "TableId": "/Game/IND/UI/DataTable/Story/StoryType/StoryType_01/Str_WD_Load_Story_01_Prologue.Str_WD_Load_Story_01_Prologue",
+            "Key": "1_12_5",
+            "SourceString": "Wataru's hot-blooded coaching enters the second run.\r\nFrom behind Itsuki, who`s desperately driving,\r\na car is closing in.",
+            "LocalizedString": "Wataru's hot-blooded coaching enters the second run.\r\nFrom behind Itsuki, who`s desperately driving,\r\na car is closing in."
+          },
+          "NarrationVoice": {
+            "ObjectName": "SoundAtomCue'prologue_01_12_05_01'",
+            "ObjectPath": "GameProject/Content/IND/Sound/VOICE/prologue_01_12_05_01.0"
+          },
+          "NarrationVoiceDelay": 2.5,
+          "ViewTimeAfter": 2.0
+        },
+        "NextEpisode": {
+          "AnimType": -1,
+          "AutoSetting": true,
+          "ChapterID": -1,
+          "EpisodeID": -1,
+          "MainImage": {
+            "AssetPathName": "/Game/IND/UI/Load/Texture/StoryLoadBG/T_Load_StoryBG_akina_n_f_01.T_Load_StoryBG_akina_n_f_01",
+            "SubPathString": ""
+          },
+          "NarrationTextID": {
+            "TableId": "/Game/IND/UI/DataTable/Story/StoryType/StoryType_01/Str_WD_Race_Story_01_NextPreview.Str_WD_Race_Story_01_NextPreview",
+            "Key": "1_12_5",
+            "SourceString": "Kanagawa, mecca of racing where the strong converge.\r\nThe next pass, we`ll attack with him.",
+            "LocalizedString": "Kanagawa, mecca of racing where the strong converge.\r\nThe next pass, we`ll attack with him."
+          },
+          "NarrationVoice": {
+            "ObjectName": "SoundAtomCue'yokoku_01_12_05_01'",
+            "ObjectPath": "GameProject/Content/IND/Sound/VOICE/yokoku_01_12_05_01.0"
+          },
+          "NarrationVoiceDelay": 1.0,
+          "ViewTimeAfter": 2.0,
+          "ViewTimeAll": 12.0,
+          "PlaybackSpeed": 1.0
+        }
+      }
+    }
+  }
+]

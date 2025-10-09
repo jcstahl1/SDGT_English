@@ -1,0 +1,52 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_SelectPanel_NotLockMessage",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "UserDefinedStruct'ST_SelectPanel_NotLockMessage'",
+        "ObjectPath": "GameProject/Content/IND/UI/DataTable/Select/Common/NotLockMessage/ST_SelectPanel_NotLockMessage.0"
+      }
+    },
+    "Rows": {
+      "Message_0": {
+        "Type_7_9485059A4C80368572EF04BF93017861": "Enum_SelectPanel_NotLockMessage::NewEnumerator0",
+        "Text_5_88C42B7F443C0756CDEB6CB076743653": {
+          "TableId": "/Game/IND/StringTable/BP/ST_GameMessage.ST_GameMessage",
+          "Key": "DT_SelectPanel_NoDataWasSaved",
+          "SourceString": "オフライン状態のためデータは保存されません",
+          "LocalizedString": "No data was saved because\nthe network is offline."
+        }
+      },
+      "Message_1": {
+        "Type_7_9485059A4C80368572EF04BF93017861": "Enum_SelectPanel_NotLockMessage::NewEnumerator2",
+        "Text_5_88C42B7F443C0756CDEB6CB076743653": {
+          "TableId": "/Game/IND/StringTable/BP/ST_GameMessage.ST_GameMessage",
+          "Key": "DT_SelectPanel_YouCanSave",
+          "SourceString": "Aimeを使用するとデータを保存できます！",
+          "LocalizedString": "You can save your data\nwith Aime!"
+        }
+      },
+      "Message_2": {
+        "Type_7_9485059A4C80368572EF04BF93017861": "Enum_SelectPanel_NotLockMessage::NewEnumerator3",
+        "Text_5_88C42B7F443C0756CDEB6CB076743653": {
+          "TableId": "/Game/IND/StringTable/BP/ST_GameMessage.ST_GameMessage",
+          "Key": "DT_SelectPanel_PrivateMatch",
+          "SourceString": "プライベートマッチ中参戦はできません",
+          "LocalizedString": "You cannot participate\nduring a private match."
+        }
+      },
+      "Message_3": {
+        "Type_7_9485059A4C80368572EF04BF93017861": "Enum_SelectPanel_NotLockMessage::NewEnumerator4",
+        "Text_5_88C42B7F443C0756CDEB6CB076743653": {
+          "TableId": "/Game/IND/StringTable/BP/ST_GameMessage.ST_GameMessage",
+          "Key": "DT_SelectPanel_HasFreePlayTicket",
+          "SourceString": "次回来店時初回プレイ無料\n有効期間：{ValidatedPeriod}",
+          "LocalizedString": "Next visit first play free!\nPeriod of visit:{ValidatedPeriod}"
+        }
+      }
+    }
+  }
+]

@@ -1,0 +1,1231 @@
+[
+  {
+    "Type": "StructProperty",
+    "Name": "UberGraphFrame",
+    "Outer": "WBP_Loading_C",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "Transient | DuplicateTransient",
+    "Struct": {
+      "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "WBP_Loading_C",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WBP_Loading_C:WidgetTree'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Loading.29"
+      },
+      "bAllowTemplate": true,
+      "bValidTemplate": true,
+      "Animations": [
+        {
+          "ObjectName": "WidgetAnimation'WBP_Loading_C:Loading_INST'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Loading.27"
+        }
+      ],
+      "TemplateAsset": {
+        "AssetPathName": "/Game/IND/UI/Common/WBP_Loading.WidgetArchetype",
+        "SubPathString": ""
+      },
+      "DynamicBindingObjects": [
+        {
+          "ObjectName": "WidgetAnimationDelegateBinding'WBP_Loading_C:WidgetAnimationDelegateBinding_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Loading.28"
+        }
+      ],
+      "UberGraphFramePointerProperty": {
+        "ObjectName": "StructProperty'WBP_Loading_C:UberGraphFrame'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Loading.0"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'WBP_Loading_C:ExecuteUbergraph_WBP_Loading'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Loading.5"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'UserWidget'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'WBP_Loading_C:UberGraphFrame'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Loading.0"
+      },
+      {
+        "ObjectName": "Function'WBP_Loading_C:OnStopLoadingAnimation'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Loading.14"
+      },
+      {
+        "ObjectName": "Function'WBP_Loading_C:OnPlayLoadingAnimation'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Loading.13"
+      },
+      {
+        "ObjectName": "Function'WBP_Loading_C:WidgetAnimationEvt_Loading_K2Node_WidgetAnimationEvent_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Loading.15"
+      },
+      {
+        "ObjectName": "Function'WBP_Loading_C:ExecuteUbergraph_WBP_Loading'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Loading.5"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Loading_C:Loading'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Loading.3"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Loading_C:IsPlaying'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Loading.8"
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_WBP_Loading": {
+        "ObjectName": "Function'WBP_Loading_C:ExecuteUbergraph_WBP_Loading'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Loading.5"
+      },
+      "WidgetAnimationEvt_Loading_K2Node_WidgetAnimationEvent_0": {
+        "ObjectName": "Function'WBP_Loading_C:WidgetAnimationEvt_Loading_K2Node_WidgetAnimationEvent_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Loading.15"
+      },
+      "OnPlayLoadingAnimation": {
+        "ObjectName": "Function'WBP_Loading_C:OnPlayLoadingAnimation'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Loading.13"
+      },
+      "OnStopLoadingAnimation": {
+        "ObjectName": "Function'WBP_Loading_C:OnStopLoadingAnimation'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Loading.14"
+      }
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "WBP_Loading_C'Default__WBP_Loading_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Loading.2"
+    }
+  },
+  {
+    "Type": "WBP_Loading_C",
+    "Name": "Default__WBP_Loading_C",
+    "Class": "WidgetBlueprintGeneratedClass'GameProject/Content/IND/UI/Common/WBP_Loading.WBP_Loading_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "UberGraphFrame": {},
+      "bHasScriptImplementedTick": false,
+      "bHasScriptImplementedPaint": false
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Loading",
+    "Outer": "WBP_Loading_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Transient | RepSkip",
+    "PropertyClass": {
+      "ObjectName": "Class'WidgetAnimation'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "EntryPoint",
+    "Outer": "ExecuteUbergraph_WBP_Loading",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_WBP_Loading",
+    "Outer": "WBP_Loading_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "IntProperty'WBP_Loading_C:ExecuteUbergraph_WBP_Loading.EntryPoint'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Loading.4"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Loading_C:ExecuteUbergraph_WBP_Loading.Temp_bool_Has_Been_Initd_Variable'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Loading.6"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Loading_C:ExecuteUbergraph_WBP_Loading.CallFunc_GetPlayerCameraManager_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Loading.21"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Loading_C:ExecuteUbergraph_WBP_Loading.CallFunc_PlayAnimation_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Loading.23"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Loading_C:ExecuteUbergraph_WBP_Loading.CallFunc_GetPlayerCameraManager_ReturnValue_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Loading.22"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Loading_C:ExecuteUbergraph_WBP_Loading.Temp_bool_IsClosed_Variable'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Loading.7"
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "Temp_bool_Has_Been_Initd_Variable",
+    "Outer": "ExecuteUbergraph_WBP_Loading",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "Temp_bool_IsClosed_Variable",
+    "Outer": "ExecuteUbergraph_WBP_Loading",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "IsPlaying",
+    "Outer": "WBP_Loading_C",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_0",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Loading_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_2'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Loading.11"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_0",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_2'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Loading.12"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_2",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 32.0,
+          "Top": 44.0,
+          "Right": 327.15845,
+          "Bottom": 111.1823
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Loading_C:WidgetTree.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Loading.9"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WBP_Loading_C:WidgetTree.TextBlock_48'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Loading.24"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_2",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 32.0,
+          "Top": 44.0,
+          "Right": 327.15845,
+          "Bottom": 111.1823
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Loading.10"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.TextBlock_48'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Loading.25"
+      }
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "OnPlayLoadingAnimation",
+    "Outer": "WBP_Loading_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnStopLoadingAnimation",
+    "Outer": "WBP_Loading_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "WidgetAnimationEvt_Loading_K2Node_WidgetAnimationEvent_0",
+    "Outer": "WBP_Loading_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "FunctionFlags": "FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "MovieScene",
+    "Name": "Loading",
+    "Outer": "Loading_INST",
+    "Class": "UScriptClass'MovieScene'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Possessables": [
+        {
+          "Tags": [],
+          "Guid": "F371EBAA-4467F2F1-7F3628B5-55BB4F2D",
+          "Name": "TextBlock_48",
+          "PossessedObjectClass": {
+            "ObjectName": "Class'TextBlock'",
+            "ObjectPath": "/Script/UMG"
+          },
+          "ParentGuid": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "ObjectBindings": [
+        {
+          "ObjectGuid": "F371EBAA-4467F2F1-7F3628B5-55BB4F2D",
+          "BindingName": "TextBlock_48",
+          "Tracks": [
+            {
+              "ObjectName": "MovieSceneColorTrack'WBP_Loading_C:Loading_INST.Loading.MovieSceneColorTrack_0'",
+              "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Loading.20"
+            }
+          ]
+        }
+      ],
+      "PlaybackRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 60001
+            }
+          }
+        }
+      },
+      "DisplayRate": {
+        "Numerator": 20
+      },
+      "Signature": "24A4C928-447C95FB-A164C6A8-0838630B"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Outer": "MovieSceneColorSection_0",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Outer": "MovieSceneColorSection_0",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "MovieSceneColorSection",
+    "Name": "MovieSceneColorSection_0",
+    "Outer": "MovieSceneColorTrack_0",
+    "Class": "UScriptClass'MovieSceneColorSection'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "AlphaCurve": {
+        "PreInfinityExtrap": "RCCE_None",
+        "PostInfinityExtrap": "RCCE_None",
+        "Times": [],
+        "Values": [],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 0,
+          "Denominator": 0
+        },
+        "bShowCurve": false,
+        "StructFallback": {
+          "Times": [
+            {
+              "Value": 0
+            },
+            {
+              "Value": 30000
+            },
+            {
+              "Value": 60000
+            }
+          ],
+          "Values": [
+            {
+              "Value": 0.0,
+              "Tangent": {
+                "ArriveTangent": 0.0,
+                "LeaveTangent": 0.0,
+                "ArriveTangentWeight": 0.0,
+                "LeaveTangentWeight": 0.0,
+                "TangentWeightMode": 0
+              },
+              "InterpMode": 2,
+              "TangentMode": 0
+            },
+            {
+              "Value": 1.0,
+              "Tangent": {
+                "ArriveTangent": 0.0,
+                "LeaveTangent": 0.0,
+                "ArriveTangentWeight": 0.0,
+                "LeaveTangentWeight": 0.0,
+                "TangentWeightMode": 0
+              },
+              "InterpMode": 2,
+              "TangentMode": 0
+            },
+            {
+              "Value": 0.0,
+              "Tangent": {
+                "ArriveTangent": 0.0,
+                "LeaveTangent": 0.0,
+                "ArriveTangentWeight": 0.0,
+                "LeaveTangentWeight": 0.0,
+                "TangentWeightMode": 0
+              },
+              "InterpMode": 2,
+              "TangentMode": 0
+            }
+          ]
+        }
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'WBP_Loading_C:Loading_INST.Loading.MovieSceneColorTrack_0.MovieSceneColorSection_0.EaseInFunction'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Loading.17"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'WBP_Loading_C:Loading_INST.Loading.MovieSceneColorTrack_0.MovieSceneColorSection_0.EaseOutFunction'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Loading.18"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 60000
+            }
+          }
+        }
+      },
+      "Signature": "6AAC51E8-4CF3577B-1C2D8DAD-DA61290A"
+    }
+  },
+  {
+    "Type": "MovieSceneColorTrack",
+    "Name": "MovieSceneColorTrack_0",
+    "Outer": "Loading",
+    "Class": "UScriptClass'MovieSceneColorTrack'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "PropertyName": "ColorAndOpacity",
+      "PropertyPath": "ColorAndOpacity",
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneColorSection'WBP_Loading_C:Loading_INST.Loading.MovieSceneColorTrack_0.MovieSceneColorSection_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Loading.19"
+        }
+      ],
+      "Signature": "B21219B8-4D4B861A-1733D698-0529863C"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetPlayerCameraManager_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_Loading",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyClass": {
+      "ObjectName": "Class'PlayerCameraManager'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetPlayerCameraManager_ReturnValue_1",
+    "Outer": "ExecuteUbergraph_WBP_Loading",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyClass": {
+      "ObjectName": "Class'PlayerCameraManager'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_PlayAnimation_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_Loading",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyClass": {
+      "ObjectName": "Class'UMGSequencePlayer'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "TextBlock_48",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "64F7B8BF410F0452D72287A1CC5153CA",
+        "SourceString": "Loading",
+        "LocalizedString": "Loading"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 1.0,
+          "G": 1.0,
+          "B": 1.0,
+          "A": 0.0,
+          "Hex": "FFFFFF"
+        }
+      },
+      "Font": {
+        "Size": 53
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Loading_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Loading.11"
+      }
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "TextBlock_48",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "64F7B8BF410F0452D72287A1CC5153CA",
+        "SourceString": "Loading",
+        "LocalizedString": "Loading"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 1.0,
+          "G": 1.0,
+          "B": 1.0,
+          "A": 0.0,
+          "Hex": "FFFFFF"
+        }
+      },
+      "Font": {
+        "Size": 53
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Loading.12"
+      }
+    }
+  },
+  {
+    "Type": "WBP_Loading_C",
+    "Name": "WidgetArchetype",
+    "Class": "WidgetBlueprintGeneratedClass'GameProject/Content/IND/UI/Common/WBP_Loading.WBP_Loading_C'",
+    "Template": {
+      "ObjectName": "WBP_Loading_C'Default__WBP_Loading_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Loading.2"
+    },
+    "Flags": "RF_Public | RF_Standalone | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Loading.30"
+      },
+      "bCookedWidgetTree": true
+    }
+  },
+  {
+    "Type": "WidgetAnimation",
+    "Name": "Loading_INST",
+    "Outer": "WBP_Loading_C",
+    "Class": "UScriptClass'WidgetAnimation'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "MovieScene": {
+        "ObjectName": "MovieScene'WBP_Loading_C:Loading_INST.Loading'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Loading.16"
+      },
+      "AnimationBindings": [
+        {
+          "WidgetName": "TextBlock_48",
+          "SlotWidgetName": "None",
+          "AnimationGuid": "F371EBAA-4467F2F1-7F3628B5-55BB4F2D",
+          "bIsRootWidget": false
+        }
+      ],
+      "PrecompiledEvaluationTemplate": {
+        "Tracks": [
+          {
+            "Key": {
+              "Value": 0
+            },
+            "Value": {
+              "ObjectBindingID": "F371EBAA-4467F2F1-7F3628B5-55BB4F2D",
+              "EvaluationPriority": 1000,
+              "EvaluationMethod": "EEvaluationMethod::Static",
+              "Segments": {
+                "SegmentIdentifierToIndex": [
+                  0
+                ],
+                "SortedSegments": [
+                  {
+                    "Range": {
+                      "LowerBound": {
+                        "Type": 1,
+                        "Value": {
+                          "Value": 0
+                        }
+                      },
+                      "UpperBound": {
+                        "Type": 0,
+                        "Value": {
+                          "Value": 60001
+                        }
+                      }
+                    },
+                    "ID": {
+                      "IdentifierIndex": 0
+                    },
+                    "bAllowEmpty": false,
+                    "Impls": [
+                      {
+                        "ImplIndex": 0,
+                        "ForcedTime": {
+                          "Value": -2147483648
+                        },
+                        "Flags": "ESectionEvaluationFlags::None"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "SourceTrack": {
+                "ObjectName": "MovieSceneColorTrack'WBP_Loading_C:Loading_INST.Loading.MovieSceneColorTrack_0'",
+                "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Loading.20"
+              },
+              "EvaluationTree": {
+                "Tree": {
+                  "Data": {
+                    "Entries": [
+                      {
+                        "StartIndex": 0,
+                        "Size": 1,
+                        "Capacity": 1
+                      }
+                    ],
+                    "Items": [
+                      {
+                        "ImplIndex": 0,
+                        "ForcedTime": {
+                          "Value": -2147483648
+                        },
+                        "Flags": 0
+                      }
+                    ]
+                  },
+                  "RootNode": {
+                    "Range": {
+                      "LowerBound": {
+                        "Type": 2,
+                        "Value": {
+                          "Value": 0
+                        }
+                      },
+                      "UpperBound": {
+                        "Type": 2,
+                        "Value": {
+                          "Value": 0
+                        }
+                      }
+                    },
+                    "Parent": {
+                      "ChildrenHandle": {
+                        "EntryIndex": -1
+                      },
+                      "Index": -1
+                    },
+                    "ChildrenID": {
+                      "EntryIndex": 0
+                    },
+                    "DataID": {
+                      "EntryIndex": -1
+                    }
+                  },
+                  "ChildNodes": {
+                    "Entries": [
+                      {
+                        "StartIndex": 0,
+                        "Size": 1,
+                        "Capacity": 1
+                      }
+                    ],
+                    "Items": [
+                      {
+                        "Range": {
+                          "LowerBound": {
+                            "Type": 1,
+                            "Value": {
+                              "Value": 0
+                            }
+                          },
+                          "UpperBound": {
+                            "Type": 0,
+                            "Value": {
+                              "Value": 60001
+                            }
+                          }
+                        },
+                        "Parent": {
+                          "ChildrenHandle": {
+                            "EntryIndex": -1
+                          },
+                          "Index": 0
+                        },
+                        "ChildrenID": {
+                          "EntryIndex": -1
+                        },
+                        "DataID": {
+                          "EntryIndex": 0
+                        }
+                      }
+                    ]
+                  }
+                }
+              },
+              "ChildTemplates": [
+                {
+                  "TypeName": "/Script/MovieSceneTracks.MovieSceneColorSectionTemplate",
+                  "Data": {
+                    "Curves": {
+                      "PreInfinityExtrap": "RCCE_None",
+                      "PostInfinityExtrap": "RCCE_None",
+                      "Times": [],
+                      "Values": [],
+                      "DefaultValue": 0.0,
+                      "bHasDefaultValue": false,
+                      "TickResolution": {
+                        "Numerator": 0,
+                        "Denominator": 0
+                      },
+                      "bShowCurve": false,
+                      "StructFallback": {
+                        "PreInfinityExtrap": "RCCE_Constant",
+                        "PostInfinityExtrap": "RCCE_Constant",
+                        "Times": [],
+                        "Values": [],
+                        "DefaultValue": 0.0,
+                        "bHasDefaultValue": false,
+                        "TickResolution": {
+                          "Numerator": 60000,
+                          "Denominator": 1
+                        }
+                      }
+                    },
+                    "Curves[1]": {
+                      "PreInfinityExtrap": "RCCE_None",
+                      "PostInfinityExtrap": "RCCE_None",
+                      "Times": [],
+                      "Values": [],
+                      "DefaultValue": 0.0,
+                      "bHasDefaultValue": false,
+                      "TickResolution": {
+                        "Numerator": 0,
+                        "Denominator": 0
+                      },
+                      "bShowCurve": false,
+                      "StructFallback": {
+                        "PreInfinityExtrap": "RCCE_Constant",
+                        "PostInfinityExtrap": "RCCE_Constant",
+                        "Times": [],
+                        "Values": [],
+                        "DefaultValue": 0.0,
+                        "bHasDefaultValue": false,
+                        "TickResolution": {
+                          "Numerator": 60000,
+                          "Denominator": 1
+                        }
+                      }
+                    },
+                    "Curves[2]": {
+                      "PreInfinityExtrap": "RCCE_None",
+                      "PostInfinityExtrap": "RCCE_None",
+                      "Times": [],
+                      "Values": [],
+                      "DefaultValue": 0.0,
+                      "bHasDefaultValue": false,
+                      "TickResolution": {
+                        "Numerator": 0,
+                        "Denominator": 0
+                      },
+                      "bShowCurve": false,
+                      "StructFallback": {
+                        "PreInfinityExtrap": "RCCE_Constant",
+                        "PostInfinityExtrap": "RCCE_Constant",
+                        "Times": [],
+                        "Values": [],
+                        "DefaultValue": 0.0,
+                        "bHasDefaultValue": false,
+                        "TickResolution": {
+                          "Numerator": 60000,
+                          "Denominator": 1
+                        }
+                      }
+                    },
+                    "Curves[3]": {
+                      "PreInfinityExtrap": "RCCE_None",
+                      "PostInfinityExtrap": "RCCE_None",
+                      "Times": [],
+                      "Values": [],
+                      "DefaultValue": 0.0,
+                      "bHasDefaultValue": false,
+                      "TickResolution": {
+                        "Numerator": 0,
+                        "Denominator": 0
+                      },
+                      "bShowCurve": false,
+                      "StructFallback": {
+                        "PreInfinityExtrap": "RCCE_Constant",
+                        "PostInfinityExtrap": "RCCE_Constant",
+                        "Times": [
+                          {
+                            "Value": 0
+                          },
+                          {
+                            "Value": 30000
+                          },
+                          {
+                            "Value": 60000
+                          }
+                        ],
+                        "Values": [
+                          {
+                            "Value": 0.0,
+                            "Tangent": {
+                              "ArriveTangent": 0.0,
+                              "LeaveTangent": 0.0,
+                              "ArriveTangentWeight": 0.0,
+                              "LeaveTangentWeight": 0.0,
+                              "TangentWeightMode": 0
+                            },
+                            "InterpMode": 2,
+                            "TangentMode": 0
+                          },
+                          {
+                            "Value": 1.0,
+                            "Tangent": {
+                              "ArriveTangent": 0.0,
+                              "LeaveTangent": 0.0,
+                              "ArriveTangentWeight": 0.0,
+                              "LeaveTangentWeight": 0.0,
+                              "TangentWeightMode": 0
+                            },
+                            "InterpMode": 2,
+                            "TangentMode": 0
+                          },
+                          {
+                            "Value": 0.0,
+                            "Tangent": {
+                              "ArriveTangent": 0.0,
+                              "LeaveTangent": 0.0,
+                              "ArriveTangentWeight": 0.0,
+                              "LeaveTangentWeight": 0.0,
+                              "TangentWeightMode": 0
+                            },
+                            "InterpMode": 2,
+                            "TangentMode": 0
+                          }
+                        ],
+                        "DefaultValue": 0.0,
+                        "bHasDefaultValue": false,
+                        "TickResolution": {
+                          "Numerator": 60000,
+                          "Denominator": 1
+                        }
+                      }
+                    },
+                    "BlendType": "EMovieSceneBlendType::Absolute",
+                    "PropertyData": {
+                      "PropertyName": "ColorAndOpacity",
+                      "PropertyPath": "ColorAndOpacity",
+                      "FunctionName": "None",
+                      "NotifyFunctionName": "None"
+                    },
+                    "CompletionMode": "EMovieSceneCompletionMode::KeepState",
+                    "SourceSectionPtr": {
+                      "ObjectName": "MovieSceneColorSection'WBP_Loading_C:Loading_INST.Loading.MovieSceneColorTrack_0.MovieSceneColorSection_0'",
+                      "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Loading.19"
+                    }
+                  }
+                }
+              ],
+              "TrackTemplate": {
+                "TypeName": "",
+                "Data": null
+              },
+              "EvaluationGroup": "None",
+              "bEvaluateInPreroll": false,
+              "bEvaluateInPostroll": false,
+              "bTearDownPriority": false
+            }
+          }
+        ],
+        "EvaluationField": {
+          "Ranges": [
+            {
+              "Value": {
+                "LowerBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                },
+                "UpperBound": {
+                  "Type": 0,
+                  "Value": {
+                    "Value": 0
+                  }
+                }
+              }
+            },
+            {
+              "Value": {
+                "LowerBound": {
+                  "Type": 1,
+                  "Value": {
+                    "Value": 0
+                  }
+                },
+                "UpperBound": {
+                  "Type": 0,
+                  "Value": {
+                    "Value": 60001
+                  }
+                }
+              }
+            },
+            {
+              "Value": {
+                "LowerBound": {
+                  "Type": 1,
+                  "Value": {
+                    "Value": 60001
+                  }
+                },
+                "UpperBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                }
+              }
+            }
+          ],
+          "Groups": [
+            {
+              "LUTIndices": [],
+              "SegmentPtrLUT": []
+            },
+            {
+              "LUTIndices": [
+                {
+                  "LUTOffset": 0,
+                  "NumInitPtrs": 0,
+                  "NumEvalPtrs": 1
+                }
+              ],
+              "SegmentPtrLUT": [
+                {
+                  "SegmentID": {
+                    "IdentifierIndex": 0
+                  },
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 0
+                  }
+                }
+              ]
+            },
+            {
+              "LUTIndices": [],
+              "SegmentPtrLUT": []
+            }
+          ],
+          "MetaData": [
+            {
+              "ActiveSequences": [
+                {
+                  "Value": 0
+                }
+              ],
+              "ActiveEntities": [],
+              "SubTemplateSerialNumbers": []
+            },
+            {
+              "ActiveSequences": [
+                {
+                  "Value": 0
+                }
+              ],
+              "ActiveEntities": [
+                {
+                  "Key": {
+                    "SequenceID": {
+                      "Value": 0
+                    },
+                    "TrackIdentifier": {
+                      "Value": 0
+                    },
+                    "SectionIndex": 0
+                  },
+                  "SetupIndex": 1,
+                  "TearDownIndex": 65534
+                },
+                {
+                  "Key": {
+                    "SequenceID": {
+                      "Value": 0
+                    },
+                    "TrackIdentifier": {
+                      "Value": 0
+                    },
+                    "SectionIndex": 4294967295
+                  },
+                  "SetupIndex": 0,
+                  "TearDownIndex": 65535
+                }
+              ],
+              "SubTemplateSerialNumbers": []
+            },
+            {
+              "ActiveSequences": [
+                {
+                  "Value": 0
+                }
+              ],
+              "ActiveEntities": [],
+              "SubTemplateSerialNumbers": []
+            }
+          ]
+        },
+        "SequenceSignature": "CD631051-42F32B62-507BF9A3-CF77A49C",
+        "TemplateSerialNumber": {
+          "Value": 1
+        },
+        "TemplateLedger": {
+          "LastTrackIdentifier": {
+            "Value": 0
+          },
+          "TrackSignatureToTrackIdentifier": [
+            {
+              "Key": "B21219B8-4D4B861A-1733D698-0529863C",
+              "Value": {
+                "Value": 0
+              }
+            }
+          ]
+        },
+        "TrackFieldData": {
+          "Field": {
+            "Data": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 1,
+                  "Capacity": 1
+                }
+              ],
+              "Items": [
+                0
+              ]
+            },
+            "RootNode": {
+              "Range": {
+                "LowerBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                },
+                "UpperBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                }
+              },
+              "Parent": {
+                "ChildrenHandle": {
+                  "EntryIndex": -1
+                },
+                "Index": -1
+              },
+              "ChildrenID": {
+                "EntryIndex": 0
+              },
+              "DataID": {
+                "EntryIndex": -1
+              }
+            },
+            "ChildNodes": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 1,
+                  "Capacity": 1
+                }
+              ],
+              "Items": [
+                {
+                  "Range": {
+                    "LowerBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": 0
+                      }
+                    },
+                    "UpperBound": {
+                      "Type": 0,
+                      "Value": {
+                        "Value": 60001
+                      }
+                    }
+                  },
+                  "Parent": {
+                    "ChildrenHandle": {
+                      "EntryIndex": -1
+                    },
+                    "Index": 0
+                  },
+                  "ChildrenID": {
+                    "EntryIndex": -1
+                  },
+                  "DataID": {
+                    "EntryIndex": 0
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "Signature": "CD631051-42F32B62-507BF9A3-CF77A49C"
+    }
+  },
+  {
+    "Type": "WidgetAnimationDelegateBinding",
+    "Name": "WidgetAnimationDelegateBinding_0",
+    "Outer": "WBP_Loading_C",
+    "Class": "UScriptClass'WidgetAnimationDelegateBinding'",
+    "Flags": "RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "WidgetAnimationDelegateBindings": [
+        {
+          "Action": "EWidgetAnimationEvent::Finished",
+          "AnimationToBind": "Loading",
+          "FunctionNameToBind": "WidgetAnimationEvt_Loading_K2Node_WidgetAnimationEvent_0",
+          "UserTag": "None"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Outer": "WBP_Loading_C",
+    "Class": "UScriptClass'WidgetTree'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CanvasPanel'WBP_Loading_C:WidgetTree.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Loading.9"
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree_0",
+    "Outer": "WidgetArchetype",
+    "Class": "UScriptClass'WidgetTree'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Loading.10"
+      }
+    }
+  }
+]

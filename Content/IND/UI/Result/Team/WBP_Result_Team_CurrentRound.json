@@ -1,0 +1,1384 @@
+[
+  {
+    "Type": "StructProperty",
+    "Name": "UberGraphFrame",
+    "Outer": "WBP_Result_Team_CurrentRound_C",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "Transient | DuplicateTransient",
+    "Struct": {
+      "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "WBP_Result_Team_CurrentRound_C",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WBP_Result_Team_CurrentRound_C:WidgetTree'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_Team_CurrentRound.56"
+      },
+      "bAllowTemplate": true,
+      "bValidTemplate": true,
+      "TemplateAsset": {
+        "AssetPathName": "/Game/IND/UI/Result/Team/WBP_Result_Team_CurrentRound.WidgetArchetype",
+        "SubPathString": ""
+      },
+      "UberGraphFramePointerProperty": {
+        "ObjectName": "StructProperty'WBP_Result_Team_CurrentRound_C:UberGraphFrame'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_Team_CurrentRound.0"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'WBP_Result_Team_CurrentRound_C:ExecuteUbergraph_WBP_Result_Team_CurrentRound'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_Team_CurrentRound.5"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'UserWidget'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'WBP_Result_Team_CurrentRound_C:UberGraphFrame'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_Team_CurrentRound.0"
+      },
+      {
+        "ObjectName": "Function'WBP_Result_Team_CurrentRound_C:SetRoundInfo'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_Team_CurrentRound.8"
+      },
+      {
+        "ObjectName": "Function'WBP_Result_Team_CurrentRound_C:Construct'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_Team_CurrentRound.6"
+      },
+      {
+        "ObjectName": "Function'WBP_Result_Team_CurrentRound_C:ExecuteUbergraph_WBP_Result_Team_CurrentRound'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_Team_CurrentRound.5"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Result_Team_CurrentRound_C:CanvasPanel_EndSoon'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_Team_CurrentRound.3"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Result_Team_CurrentRound_C:Image_50'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_Team_CurrentRound.33"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Result_Team_CurrentRound_C:Image_90'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_Team_CurrentRound.34"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Result_Team_CurrentRound_C:TextBlock_DateName'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_Team_CurrentRound.35"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Result_Team_CurrentRound_C:TextBlock_RoundtTitleName'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_Team_CurrentRound.36"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Result_Team_CurrentRound_C:EndSoonBorderDay'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_Team_CurrentRound.32"
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_WBP_Result_Team_CurrentRound": {
+        "ObjectName": "Function'WBP_Result_Team_CurrentRound_C:ExecuteUbergraph_WBP_Result_Team_CurrentRound'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_Team_CurrentRound.5"
+      },
+      "Construct": {
+        "ObjectName": "Function'WBP_Result_Team_CurrentRound_C:Construct'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_Team_CurrentRound.6"
+      },
+      "SetRoundInfo": {
+        "ObjectName": "Function'WBP_Result_Team_CurrentRound_C:SetRoundInfo'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_Team_CurrentRound.8"
+      }
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "WBP_Result_Team_CurrentRound_C'Default__WBP_Result_Team_CurrentRound_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_Team_CurrentRound.2"
+    }
+  },
+  {
+    "Type": "WBP_Result_Team_CurrentRound_C",
+    "Name": "Default__WBP_Result_Team_CurrentRound_C",
+    "Class": "WidgetBlueprintGeneratedClass'GameProject/Content/IND/UI/Result/Team/WBP_Result_Team_CurrentRound.WBP_Result_Team_CurrentRound_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "UberGraphFrame": {},
+      "EndSoonBorderDay": 14,
+      "bHasScriptImplementedTick": false,
+      "bHasScriptImplementedPaint": false
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CanvasPanel_EndSoon",
+    "Outer": "WBP_Result_Team_CurrentRound_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'CanvasPanel'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "EntryPoint",
+    "Outer": "ExecuteUbergraph_WBP_Result_Team_CurrentRound",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_WBP_Result_Team_CurrentRound",
+    "Outer": "WBP_Result_Team_CurrentRound_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "IntProperty'WBP_Result_Team_CurrentRound_C:ExecuteUbergraph_WBP_Result_Team_CurrentRound.EntryPoint'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_Team_CurrentRound.4"
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "Construct",
+    "Outer": "WBP_Result_Team_CurrentRound_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Function'UserWidget:Construct'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "FunctionFlags": "FUNC_BlueprintCosmetic | FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "RoundName",
+    "Outer": "SetRoundInfo",
+    "Class": "UScriptClass'TextProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "SetRoundInfo",
+    "Outer": "WBP_Result_Team_CurrentRound_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "TextProperty'WBP_Result_Team_CurrentRound_C:SetRoundInfo.RoundName'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_Team_CurrentRound.7"
+      },
+      {
+        "ObjectName": "StructProperty'WBP_Result_Team_CurrentRound_C:SetRoundInfo.StartDateTime'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_Team_CurrentRound.45"
+      },
+      {
+        "ObjectName": "StructProperty'WBP_Result_Team_CurrentRound_C:SetRoundInfo.EndDateTime'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_Team_CurrentRound.39"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Result_Team_CurrentRound_C:SetRoundInfo.DeadlineApproaching'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_Team_CurrentRound.11"
+      },
+      {
+        "ObjectName": "StructProperty'WBP_Result_Team_CurrentRound_C:SetRoundInfo.LocalStartTime'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_Team_CurrentRound.44"
+      },
+      {
+        "ObjectName": "StructProperty'WBP_Result_Team_CurrentRound_C:SetRoundInfo.LocalCurrentTime'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_Team_CurrentRound.42"
+      },
+      {
+        "ObjectName": "StructProperty'WBP_Result_Team_CurrentRound_C:SetRoundInfo.LocalEndTime'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_Team_CurrentRound.43"
+      },
+      {
+        "ObjectName": "StructProperty'WBP_Result_Team_CurrentRound_C:SetRoundInfo.CallFunc_GetBusinessDayNoArgument_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_Team_CurrentRound.37"
+      },
+      {
+        "ObjectName": "StructProperty'WBP_Result_Team_CurrentRound_C:SetRoundInfo.CallFunc_GetBusinessDayNoArgument_ReturnValue_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_Team_CurrentRound.38"
+      },
+      {
+        "ObjectName": "TextProperty'WBP_Result_Team_CurrentRound_C:SetRoundInfo.CallFunc_AsDate_DateTime_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_Team_CurrentRound.52"
+      },
+      {
+        "ObjectName": "TextProperty'WBP_Result_Team_CurrentRound_C:SetRoundInfo.CallFunc_AsDate_DateTime_ReturnValue_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_Team_CurrentRound.53"
+      },
+      {
+        "ObjectName": "StructProperty'WBP_Result_Team_CurrentRound_C:SetRoundInfo.K2Node_MakeStruct_FormatArgumentData'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_Team_CurrentRound.40"
+      },
+      {
+        "ObjectName": "StructProperty'WBP_Result_Team_CurrentRound_C:SetRoundInfo.K2Node_MakeStruct_FormatArgumentData_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_Team_CurrentRound.41"
+      },
+      {
+        "ObjectName": "ArrayProperty'WBP_Result_Team_CurrentRound_C:SetRoundInfo.K2Node_MakeArray_Array'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_Team_CurrentRound.10"
+      },
+      {
+        "ObjectName": "TextProperty'WBP_Result_Team_CurrentRound_C:SetRoundInfo.CallFunc_Format_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_Team_CurrentRound.54"
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "K2Node_MakeArray_Array",
+    "Outer": "K2Node_MakeArray_Array",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Struct": {
+      "ObjectName": "ScriptStruct'FormatArgumentData'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ArrayProperty",
+    "Name": "K2Node_MakeArray_Array",
+    "Outer": "SetRoundInfo",
+    "Class": "UScriptClass'ArrayProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "ReferenceParm",
+    "Inner": {
+      "ObjectName": "StructProperty'WBP_Result_Team_CurrentRound_C:SetRoundInfo.K2Node_MakeArray_Array.K2Node_MakeArray_Array'",
+      "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_Team_CurrentRound.9"
+    }
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "DeadlineApproaching",
+    "Outer": "SetRoundInfo",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_0",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Result_Team_CurrentRound_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_Team_CurrentRound.16"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Result_Team_CurrentRound_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_Team_CurrentRound.17"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Result_Team_CurrentRound_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_2'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_Team_CurrentRound.18"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Result_Team_CurrentRound_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_3'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_Team_CurrentRound.19"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_EndSoon",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Result_Team_CurrentRound_C:WidgetTree.CanvasPanel_EndSoon.CanvasPanelSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_Team_CurrentRound.21"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Result_Team_CurrentRound_C:WidgetTree.CanvasPanel_EndSoon.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_Team_CurrentRound.20"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Result_Team_CurrentRound_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_Team_CurrentRound.19"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_0",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_Team_CurrentRound.22"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_Team_CurrentRound.23"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_2'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_Team_CurrentRound.24"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_3'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_Team_CurrentRound.25"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_EndSoon",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_EndSoon.CanvasPanelSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_Team_CurrentRound.27"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_EndSoon.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_Team_CurrentRound.26"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_Team_CurrentRound.25"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Result_Team_CurrentRound_C:WidgetTree.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_Team_CurrentRound.12"
+      },
+      "Content": {
+        "ObjectName": "Image'WBP_Result_Team_CurrentRound_C:WidgetTree.Image_50'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_Team_CurrentRound.28"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": -14.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Result_Team_CurrentRound_C:WidgetTree.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_Team_CurrentRound.12"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WBP_Result_Team_CurrentRound_C:WidgetTree.TextBlock_RoundtTitleName'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_Team_CurrentRound.48"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_2",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": 20.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Result_Team_CurrentRound_C:WidgetTree.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_Team_CurrentRound.12"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WBP_Result_Team_CurrentRound_C:WidgetTree.TextBlock_DateName'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_Team_CurrentRound.47"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_3",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 372.6059
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Result_Team_CurrentRound_C:WidgetTree.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_Team_CurrentRound.12"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WBP_Result_Team_CurrentRound_C:WidgetTree.CanvasPanel_EndSoon'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_Team_CurrentRound.13"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "CanvasPanel_EndSoon",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -66.0,
+          "Top": -22.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Result_Team_CurrentRound_C:WidgetTree.CanvasPanel_EndSoon'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_Team_CurrentRound.13"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WBP_Result_Team_CurrentRound_C:WidgetTree.TextBlock_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_Team_CurrentRound.46"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "CanvasPanel_EndSoon",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -42.0,
+          "Right": 216.0,
+          "Bottom": 38.0
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Result_Team_CurrentRound_C:WidgetTree.CanvasPanel_EndSoon'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_Team_CurrentRound.13"
+      },
+      "Content": {
+        "ObjectName": "Image'WBP_Result_Team_CurrentRound_C:WidgetTree.Image_90'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_Team_CurrentRound.29"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_Team_CurrentRound.14"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.Image_50'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_Team_CurrentRound.30"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": -14.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_Team_CurrentRound.14"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.TextBlock_RoundtTitleName'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_Team_CurrentRound.51"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_2",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": 20.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_Team_CurrentRound.14"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.TextBlock_DateName'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_Team_CurrentRound.50"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_3",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 372.6059
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_Team_CurrentRound.14"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_EndSoon'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_Team_CurrentRound.15"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "CanvasPanel_EndSoon",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -66.0,
+          "Top": -22.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_EndSoon'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_Team_CurrentRound.15"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.TextBlock_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_Team_CurrentRound.49"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "CanvasPanel_EndSoon",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -42.0,
+          "Right": 216.0,
+          "Bottom": 38.0
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_EndSoon'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_Team_CurrentRound.15"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.Image_90'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_Team_CurrentRound.31"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Image_50",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 1128.0,
+          "Y": 82.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Result_TeamRoundBase_Season3'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/Texture/Team/T_Result_TeamRoundBase_Season3.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Result_Team_CurrentRound_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_Team_CurrentRound.16"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Image_90",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 200.0,
+          "Y": 24.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Com_GradationBaseWhite'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/ComParts/Texture/T_Com_GradationBaseWhite.0"
+        }
+      },
+      "ColorAndOpacity": {
+        "R": 1.0,
+        "G": 0.211164,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FF7F00"
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Result_Team_CurrentRound_C:WidgetTree.CanvasPanel_EndSoon.CanvasPanelSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_Team_CurrentRound.21"
+      },
+      "RenderTransform": {
+        "Scale": {
+          "X": 1.3,
+          "Y": 1.3
+        },
+        "Angle": -15.0
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Image_50",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 1128.0,
+          "Y": 82.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Result_TeamRoundBase_Season3'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/Texture/Team/T_Result_TeamRoundBase_Season3.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_Team_CurrentRound.22"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Image_90",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 200.0,
+          "Y": 24.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Com_GradationBaseWhite'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/ComParts/Texture/T_Com_GradationBaseWhite.0"
+        }
+      },
+      "ColorAndOpacity": {
+        "R": 1.0,
+        "G": 0.211164,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FF7F00"
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_EndSoon.CanvasPanelSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_Team_CurrentRound.27"
+      },
+      "RenderTransform": {
+        "Scale": {
+          "X": 1.3,
+          "Y": 1.3
+        },
+        "Angle": -15.0
+      }
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "EndSoonBorderDay",
+    "Outer": "WBP_Result_Team_CurrentRound_C",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "Edit | BlueprintVisible | BlueprintReadOnly | DisableEditOnInstance"
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Image_50",
+    "Outer": "WBP_Result_Team_CurrentRound_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'Image'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Image_90",
+    "Outer": "WBP_Result_Team_CurrentRound_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'Image'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "TextBlock_DateName",
+    "Outer": "WBP_Result_Team_CurrentRound_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'TextBlock'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "TextBlock_RoundtTitleName",
+    "Outer": "WBP_Result_Team_CurrentRound_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'TextBlock'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_GetBusinessDayNoArgument_ReturnValue",
+    "Outer": "SetRoundInfo",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Struct": {
+      "ObjectName": "ScriptStruct'DateTime'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_GetBusinessDayNoArgument_ReturnValue_1",
+    "Outer": "SetRoundInfo",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Struct": {
+      "ObjectName": "ScriptStruct'DateTime'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "EndDateTime",
+    "Outer": "SetRoundInfo",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "ConstParm | BlueprintVisible | BlueprintReadOnly | Parm",
+    "Struct": {
+      "ObjectName": "ScriptStruct'DateTime'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "K2Node_MakeStruct_FormatArgumentData",
+    "Outer": "SetRoundInfo",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Struct": {
+      "ObjectName": "ScriptStruct'FormatArgumentData'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "K2Node_MakeStruct_FormatArgumentData_1",
+    "Outer": "SetRoundInfo",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Struct": {
+      "ObjectName": "ScriptStruct'FormatArgumentData'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "LocalCurrentTime",
+    "Outer": "SetRoundInfo",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "Edit | BlueprintVisible",
+    "Struct": {
+      "ObjectName": "ScriptStruct'DateTime'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "LocalEndTime",
+    "Outer": "SetRoundInfo",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "Edit | BlueprintVisible",
+    "Struct": {
+      "ObjectName": "ScriptStruct'DateTime'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "LocalStartTime",
+    "Outer": "SetRoundInfo",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "Edit | BlueprintVisible",
+    "Struct": {
+      "ObjectName": "ScriptStruct'DateTime'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "StartDateTime",
+    "Outer": "SetRoundInfo",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "Struct": {
+      "ObjectName": "ScriptStruct'DateTime'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "TextBlock_1",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "337788C54E36D09DD3EA8BBAB105D106",
+        "SourceString": "終了迫る！",
+        "LocalizedString": "終了迫る！"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "TypefaceFontName": "RodinN_EB",
+        "Size": 30
+      },
+      "ShadowOffset": {
+        "X": 3.0,
+        "Y": 3.0
+      },
+      "ShadowColorAndOpacity": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "000000"
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Result_Team_CurrentRound_C:WidgetTree.CanvasPanel_EndSoon.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_Team_CurrentRound.20"
+      },
+      "RenderTransform": {
+        "Shear": {
+          "X": -10.0,
+          "Y": 0.0
+        }
+      }
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "TextBlock_DateName",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "A96C29C941C964E5CCDF47A5580E2C6C",
+        "SourceString": "2022 12/22～2022 12/22",
+        "LocalizedString": "2022 12/22～2022 12/22"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "TypefaceFontName": "RodinN_EB",
+        "Size": 16
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Result_Team_CurrentRound_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_Team_CurrentRound.18"
+      },
+      "RenderTransform": {
+        "Shear": {
+          "X": -10.0,
+          "Y": 0.0
+        }
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "TextBlock_RoundtTitleName",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "6ED921A1419E6B288914EF9C72CE827D",
+        "SourceString": "シーズン３　２ndラウンド",
+        "LocalizedString": "シーズン３　２ndラウンド"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 4
+        },
+        "TypefaceFontName": "RodinN_EB"
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Result_Team_CurrentRound_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_Team_CurrentRound.17"
+      },
+      "RenderTransform": {
+        "Shear": {
+          "X": -10.0,
+          "Y": 0.0
+        }
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "TextBlock_1",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "337788C54E36D09DD3EA8BBAB105D106",
+        "SourceString": "終了迫る！",
+        "LocalizedString": "終了迫る！"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "TypefaceFontName": "RodinN_EB",
+        "Size": 30
+      },
+      "ShadowOffset": {
+        "X": 3.0,
+        "Y": 3.0
+      },
+      "ShadowColorAndOpacity": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "000000"
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_EndSoon.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_Team_CurrentRound.26"
+      },
+      "RenderTransform": {
+        "Shear": {
+          "X": -10.0,
+          "Y": 0.0
+        }
+      }
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "TextBlock_DateName",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "A96C29C941C964E5CCDF47A5580E2C6C",
+        "SourceString": "2022 12/22～2022 12/22",
+        "LocalizedString": "2022 12/22～2022 12/22"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "TypefaceFontName": "RodinN_EB",
+        "Size": 16
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_Team_CurrentRound.24"
+      },
+      "RenderTransform": {
+        "Shear": {
+          "X": -10.0,
+          "Y": 0.0
+        }
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "TextBlock_RoundtTitleName",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "6ED921A1419E6B288914EF9C72CE827D",
+        "SourceString": "シーズン３　２ndラウンド",
+        "LocalizedString": "シーズン３　２ndラウンド"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 4
+        },
+        "TypefaceFontName": "RodinN_EB"
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_Team_CurrentRound.23"
+      },
+      "RenderTransform": {
+        "Shear": {
+          "X": -10.0,
+          "Y": 0.0
+        }
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "CallFunc_AsDate_DateTime_ReturnValue",
+    "Outer": "SetRoundInfo",
+    "Class": "UScriptClass'TextProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "CallFunc_AsDate_DateTime_ReturnValue_1",
+    "Outer": "SetRoundInfo",
+    "Class": "UScriptClass'TextProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "CallFunc_Format_ReturnValue",
+    "Outer": "SetRoundInfo",
+    "Class": "UScriptClass'TextProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "WBP_Result_Team_CurrentRound_C",
+    "Name": "WidgetArchetype",
+    "Class": "WidgetBlueprintGeneratedClass'GameProject/Content/IND/UI/Result/Team/WBP_Result_Team_CurrentRound.WBP_Result_Team_CurrentRound_C'",
+    "Template": {
+      "ObjectName": "WBP_Result_Team_CurrentRound_C'Default__WBP_Result_Team_CurrentRound_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_Team_CurrentRound.2"
+    },
+    "Flags": "RF_Public | RF_Standalone | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CanvasPanel_EndSoon": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_EndSoon'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_Team_CurrentRound.15"
+      },
+      "Image_50": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.Image_50'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_Team_CurrentRound.30"
+      },
+      "Image_90": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.Image_90'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_Team_CurrentRound.31"
+      },
+      "TextBlock_DateName": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.TextBlock_DateName'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_Team_CurrentRound.50"
+      },
+      "TextBlock_RoundtTitleName": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.TextBlock_RoundtTitleName'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_Team_CurrentRound.51"
+      },
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_Team_CurrentRound.57"
+      },
+      "bCookedWidgetTree": true
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Outer": "WBP_Result_Team_CurrentRound_C",
+    "Class": "UScriptClass'WidgetTree'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CanvasPanel'WBP_Result_Team_CurrentRound_C:WidgetTree.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_Team_CurrentRound.12"
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree_0",
+    "Outer": "WidgetArchetype",
+    "Class": "UScriptClass'WidgetTree'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_Team_CurrentRound.14"
+      }
+    }
+  }
+]

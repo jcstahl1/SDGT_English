@@ -1,0 +1,1002 @@
+[
+  {
+    "Type": "StructProperty",
+    "Name": "UberGraphFrame",
+    "Outer": "WBP_Syogou_C",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "Transient | DuplicateTransient",
+    "Struct": {
+      "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "WBP_Syogou_C",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WBP_Syogou_C:WidgetTree'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/PlayerInfo/WBP_Syogou.50"
+      },
+      "bAllowTemplate": true,
+      "bValidTemplate": true,
+      "TemplateAsset": {
+        "AssetPathName": "/Game/IND/UI/StartMenu/PlayerInfo/WBP_Syogou.WidgetArchetype",
+        "SubPathString": ""
+      },
+      "UberGraphFramePointerProperty": {
+        "ObjectName": "StructProperty'WBP_Syogou_C:UberGraphFrame'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/PlayerInfo/WBP_Syogou.0"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'WBP_Syogou_C:ExecuteUbergraph_WBP_Syogou'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/PlayerInfo/WBP_Syogou.5"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'UserWidget'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'WBP_Syogou_C:UberGraphFrame'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/PlayerInfo/WBP_Syogou.0"
+      },
+      {
+        "ObjectName": "Function'WBP_Syogou_C:SetEnable'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/PlayerInfo/WBP_Syogou.12"
+      },
+      {
+        "ObjectName": "Function'WBP_Syogou_C:ChangeSyougou_Id'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/PlayerInfo/WBP_Syogou.11"
+      },
+      {
+        "ObjectName": "Function'WBP_Syogou_C:ChangeSyougou_TextureAndName'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/PlayerInfo/WBP_Syogou.9"
+      },
+      {
+        "ObjectName": "Function'WBP_Syogou_C:ExecuteUbergraph_WBP_Syogou'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/PlayerInfo/WBP_Syogou.5"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Syogou_C:base'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/PlayerInfo/WBP_Syogou.3"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Syogou_C:P_SyogouText'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/PlayerInfo/WBP_Syogou.43"
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_WBP_Syogou": {
+        "ObjectName": "Function'WBP_Syogou_C:ExecuteUbergraph_WBP_Syogou'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/PlayerInfo/WBP_Syogou.5"
+      },
+      "ChangeSyougou_TextureAndName": {
+        "ObjectName": "Function'WBP_Syogou_C:ChangeSyougou_TextureAndName'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/PlayerInfo/WBP_Syogou.9"
+      },
+      "ChangeSyougou_Id": {
+        "ObjectName": "Function'WBP_Syogou_C:ChangeSyougou_Id'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/PlayerInfo/WBP_Syogou.11"
+      },
+      "SetEnable": {
+        "ObjectName": "Function'WBP_Syogou_C:SetEnable'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/PlayerInfo/WBP_Syogou.12"
+      }
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "WBP_Syogou_C'Default__WBP_Syogou_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/StartMenu/PlayerInfo/WBP_Syogou.2"
+    }
+  },
+  {
+    "Type": "WBP_Syogou_C",
+    "Name": "Default__WBP_Syogou_C",
+    "Class": "WidgetBlueprintGeneratedClass'GameProject/Content/IND/UI/StartMenu/PlayerInfo/WBP_Syogou.WBP_Syogou_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "UberGraphFrame": {},
+      "bHasScriptImplementedTick": false,
+      "bHasScriptImplementedPaint": false
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "base",
+    "Outer": "WBP_Syogou_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'Image'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "EntryPoint",
+    "Outer": "ExecuteUbergraph_WBP_Syogou",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_WBP_Syogou",
+    "Outer": "WBP_Syogou_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "IntProperty'WBP_Syogou_C:ExecuteUbergraph_WBP_Syogou.EntryPoint'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/PlayerInfo/WBP_Syogou.4"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Syogou_C:ExecuteUbergraph_WBP_Syogou.CallFunc_GenerateTitleObject_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/PlayerInfo/WBP_Syogou.41"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Syogou_C:ExecuteUbergraph_WBP_Syogou.K2Node_CustomEvent_Texture'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/PlayerInfo/WBP_Syogou.42"
+      },
+      {
+        "ObjectName": "TextProperty'WBP_Syogou_C:ExecuteUbergraph_WBP_Syogou.K2Node_CustomEvent_Name'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/PlayerInfo/WBP_Syogou.48"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Syogou_C:ExecuteUbergraph_WBP_Syogou.K2Node_CustomEvent_TitleID'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/PlayerInfo/WBP_Syogou.40"
+      },
+      {
+        "ObjectName": "StructProperty'WBP_Syogou_C:ExecuteUbergraph_WBP_Syogou.CallFunc_FindTitleData_TitleData'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/PlayerInfo/WBP_Syogou.44"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Syogou_C:ExecuteUbergraph_WBP_Syogou.CallFunc_FindTitleData_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/PlayerInfo/WBP_Syogou.6"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Syogou_C:ExecuteUbergraph_WBP_Syogou.CallFunc_IsValidSoftObjectReference_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/PlayerInfo/WBP_Syogou.7"
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction | FUNC_HasDefaults"
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_FindTitleData_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_Syogou",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_IsValidSoftObjectReference_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_Syogou",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Texture",
+    "Outer": "ChangeSyougou_TextureAndName",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "PropertyClass": {
+      "ObjectName": "Class'Texture2D'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "ChangeSyougou_TextureAndName",
+    "Outer": "WBP_Syogou_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "ObjectProperty'WBP_Syogou_C:ChangeSyougou_TextureAndName.Texture'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/PlayerInfo/WBP_Syogou.8"
+      },
+      {
+        "ObjectName": "TextProperty'WBP_Syogou_C:ChangeSyougou_TextureAndName.Name'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/PlayerInfo/WBP_Syogou.47"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "TitleID",
+    "Outer": "ChangeSyougou_Id",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "ChangeSyougou_Id",
+    "Outer": "WBP_Syogou_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "IntProperty'WBP_Syogou_C:ChangeSyougou_Id.TitleID'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/PlayerInfo/WBP_Syogou.10"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "SetEnable",
+    "Outer": "WBP_Syogou_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "BoolProperty'WBP_Syogou_C:SetEnable.Enable'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/PlayerInfo/WBP_Syogou.13"
+      },
+      {
+        "ObjectName": "EnumProperty'WBP_Syogou_C:SetEnable.Temp_byte_Variable'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/PlayerInfo/WBP_Syogou.34"
+      },
+      {
+        "ObjectName": "EnumProperty'WBP_Syogou_C:SetEnable.Temp_byte_Variable_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/PlayerInfo/WBP_Syogou.35"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Syogou_C:SetEnable.Temp_bool_Variable'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/PlayerInfo/WBP_Syogou.14"
+      },
+      {
+        "ObjectName": "EnumProperty'WBP_Syogou_C:SetEnable.Temp_byte_Variable_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/PlayerInfo/WBP_Syogou.36"
+      },
+      {
+        "ObjectName": "EnumProperty'WBP_Syogou_C:SetEnable.Temp_byte_Variable_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/PlayerInfo/WBP_Syogou.37"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Syogou_C:SetEnable.Temp_bool_Variable_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/PlayerInfo/WBP_Syogou.15"
+      },
+      {
+        "ObjectName": "EnumProperty'WBP_Syogou_C:SetEnable.K2Node_Select_Default'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/PlayerInfo/WBP_Syogou.32"
+      },
+      {
+        "ObjectName": "EnumProperty'WBP_Syogou_C:SetEnable.K2Node_Select_Default_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/PlayerInfo/WBP_Syogou.33"
+      }
+    ],
+    "FunctionFlags": "FUNC_Private | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "Enable",
+    "Outer": "SetEnable",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "Temp_bool_Variable",
+    "Outer": "SetEnable",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "Temp_bool_Variable_1",
+    "Outer": "SetEnable",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Outer": "K2Node_Select_Default",
+    "Class": "UScriptClass'ByteProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": null
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Outer": "K2Node_Select_Default_1",
+    "Class": "UScriptClass'ByteProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": null
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Outer": "Temp_byte_Variable",
+    "Class": "UScriptClass'ByteProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": null
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Outer": "Temp_byte_Variable_1",
+    "Class": "UScriptClass'ByteProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": null
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Outer": "Temp_byte_Variable_2",
+    "Class": "UScriptClass'ByteProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": null
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Outer": "Temp_byte_Variable_3",
+    "Class": "UScriptClass'ByteProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": null
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_0",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Syogou_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_2'",
+          "ObjectPath": "GameProject/Content/IND/UI/StartMenu/PlayerInfo/WBP_Syogou.26"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Syogou_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_3'",
+          "ObjectPath": "GameProject/Content/IND/UI/StartMenu/PlayerInfo/WBP_Syogou.27"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_1",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Syogou_C:WidgetTree.CanvasPanel_1.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/StartMenu/PlayerInfo/WBP_Syogou.28"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Syogou_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/PlayerInfo/WBP_Syogou.27"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_0",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_2'",
+          "ObjectPath": "GameProject/Content/IND/UI/StartMenu/PlayerInfo/WBP_Syogou.29"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_3'",
+          "ObjectPath": "GameProject/Content/IND/UI/StartMenu/PlayerInfo/WBP_Syogou.30"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_1",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_1.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/StartMenu/PlayerInfo/WBP_Syogou.31"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/PlayerInfo/WBP_Syogou.30"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_2",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Syogou_C:WidgetTree.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/PlayerInfo/WBP_Syogou.22"
+      },
+      "Content": {
+        "ObjectName": "Image'WBP_Syogou_C:WidgetTree.base'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/PlayerInfo/WBP_Syogou.38"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_3",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 450.0,
+          "Bottom": 40.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Syogou_C:WidgetTree.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/PlayerInfo/WBP_Syogou.22"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WBP_Syogou_C:WidgetTree.CanvasPanel_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/PlayerInfo/WBP_Syogou.23"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "CanvasPanel_1",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Syogou_C:WidgetTree.CanvasPanel_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/PlayerInfo/WBP_Syogou.23"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WBP_Syogou_C:WidgetTree.P_SyogouText'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/PlayerInfo/WBP_Syogou.45"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_2",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/PlayerInfo/WBP_Syogou.24"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.base'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/PlayerInfo/WBP_Syogou.39"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_3",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 450.0,
+          "Bottom": 40.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/PlayerInfo/WBP_Syogou.24"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/PlayerInfo/WBP_Syogou.25"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "CanvasPanel_1",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/PlayerInfo/WBP_Syogou.25"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.P_SyogouText'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/PlayerInfo/WBP_Syogou.46"
+      }
+    }
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "K2Node_Select_Default",
+    "Outer": "SetEnable",
+    "Class": "UScriptClass'EnumProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": {
+      "ObjectName": "Enum'ESlateVisibility'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'WBP_Syogou_C:SetEnable.K2Node_Select_Default.UnderlyingType'",
+      "ObjectPath": "GameProject/Content/IND/UI/StartMenu/PlayerInfo/WBP_Syogou.16"
+    }
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "K2Node_Select_Default_1",
+    "Outer": "SetEnable",
+    "Class": "UScriptClass'EnumProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": {
+      "ObjectName": "Enum'ESlateVisibility'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'WBP_Syogou_C:SetEnable.K2Node_Select_Default_1.UnderlyingType'",
+      "ObjectPath": "GameProject/Content/IND/UI/StartMenu/PlayerInfo/WBP_Syogou.17"
+    }
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "Temp_byte_Variable",
+    "Outer": "SetEnable",
+    "Class": "UScriptClass'EnumProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": {
+      "ObjectName": "Enum'ESlateVisibility'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'WBP_Syogou_C:SetEnable.Temp_byte_Variable.UnderlyingType'",
+      "ObjectPath": "GameProject/Content/IND/UI/StartMenu/PlayerInfo/WBP_Syogou.18"
+    }
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "Temp_byte_Variable_1",
+    "Outer": "SetEnable",
+    "Class": "UScriptClass'EnumProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": {
+      "ObjectName": "Enum'ESlateVisibility'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'WBP_Syogou_C:SetEnable.Temp_byte_Variable_1.UnderlyingType'",
+      "ObjectPath": "GameProject/Content/IND/UI/StartMenu/PlayerInfo/WBP_Syogou.19"
+    }
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "Temp_byte_Variable_2",
+    "Outer": "SetEnable",
+    "Class": "UScriptClass'EnumProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": {
+      "ObjectName": "Enum'ESlateVisibility'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'WBP_Syogou_C:SetEnable.Temp_byte_Variable_2.UnderlyingType'",
+      "ObjectPath": "GameProject/Content/IND/UI/StartMenu/PlayerInfo/WBP_Syogou.20"
+    }
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "Temp_byte_Variable_3",
+    "Outer": "SetEnable",
+    "Class": "UScriptClass'EnumProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": {
+      "ObjectName": "Enum'ESlateVisibility'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'WBP_Syogou_C:SetEnable.Temp_byte_Variable_3.UnderlyingType'",
+      "ObjectPath": "GameProject/Content/IND/UI/StartMenu/PlayerInfo/WBP_Syogou.21"
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "base",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 540.0,
+          "Y": 92.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Com_SyogoPlate_011'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/Syogo/Texture/T_Com_SyogoPlate_011.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Syogou_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/PlayerInfo/WBP_Syogou.26"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "base",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 540.0,
+          "Y": 92.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Com_SyogoPlate_011'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/Syogo/Texture/T_Com_SyogoPlate_011.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/PlayerInfo/WBP_Syogou.29"
+      }
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "K2Node_CustomEvent_TitleID",
+    "Outer": "ExecuteUbergraph_WBP_Syogou",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GenerateTitleObject_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_Syogou",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyClass": {
+      "ObjectName": "Class'TitleDBObject'",
+      "ObjectPath": "/Script/GameProject"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "K2Node_CustomEvent_Texture",
+    "Outer": "ExecuteUbergraph_WBP_Syogou",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyClass": {
+      "ObjectName": "Class'Texture2D'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "P_SyogouText",
+    "Outer": "WBP_Syogou_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'TextBlock'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_FindTitleData_TitleData",
+    "Outer": "ExecuteUbergraph_WBP_Syogou",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Struct": {
+      "ObjectName": "ScriptStruct'TitleDataAsset'",
+      "ObjectPath": "/Script/GameProject"
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "P_SyogouText",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "C3A963ED406875A3962FFAA65B484484",
+        "SourceString": "Ignition Participant",
+        "LocalizedString": "Ignition Participant"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 0.0,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "000000"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 2,
+          "OutlineColor": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "FFFFFF"
+          }
+        },
+        "TypefaceFontName": "RodinN_B",
+        "Size": 23
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Syogou_C:WidgetTree.CanvasPanel_1.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/PlayerInfo/WBP_Syogou.28"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "P_SyogouText",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "C3A963ED406875A3962FFAA65B484484",
+        "SourceString": "Ignition Participant",
+        "LocalizedString": "Ignition Participant"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 0.0,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "000000"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 2,
+          "OutlineColor": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "FFFFFF"
+          }
+        },
+        "TypefaceFontName": "RodinN_B",
+        "Size": 23
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_1.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/PlayerInfo/WBP_Syogou.31"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "Name",
+    "Outer": "ChangeSyougou_TextureAndName",
+    "Class": "UScriptClass'TextProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "K2Node_CustomEvent_Name",
+    "Outer": "ExecuteUbergraph_WBP_Syogou",
+    "Class": "UScriptClass'TextProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "WBP_Syogou_C",
+    "Name": "WidgetArchetype",
+    "Class": "WidgetBlueprintGeneratedClass'GameProject/Content/IND/UI/StartMenu/PlayerInfo/WBP_Syogou.WBP_Syogou_C'",
+    "Template": {
+      "ObjectName": "WBP_Syogou_C'Default__WBP_Syogou_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/StartMenu/PlayerInfo/WBP_Syogou.2"
+    },
+    "Flags": "RF_Public | RF_Standalone | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "base": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.base'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/PlayerInfo/WBP_Syogou.39"
+      },
+      "P_SyogouText": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.P_SyogouText'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/PlayerInfo/WBP_Syogou.46"
+      },
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/PlayerInfo/WBP_Syogou.51"
+      },
+      "bCookedWidgetTree": true
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Outer": "WBP_Syogou_C",
+    "Class": "UScriptClass'WidgetTree'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CanvasPanel'WBP_Syogou_C:WidgetTree.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/PlayerInfo/WBP_Syogou.22"
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree_0",
+    "Outer": "WidgetArchetype",
+    "Class": "UScriptClass'WidgetTree'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/PlayerInfo/WBP_Syogou.24"
+      }
+    }
+  }
+]

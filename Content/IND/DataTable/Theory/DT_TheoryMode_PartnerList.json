@@ -1,0 +1,589 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_TheoryMode_PartnerList",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'TheoryMode_PartnerList'",
+        "ObjectPath": "/Script/GameProject"
+      }
+    },
+    "Rows": {
+      "0": {
+        "PartnerCharacterId": "ETheoryMode_PartnerCharacterId::EPartnerCharacterId_Dummy",
+        "PartnerName": {
+          "Namespace": "",
+          "Key": "BE2A6CD1445C0BC44A2930A6C2F38871",
+          "SourceString": "Dummy",
+          "LocalizedString": "Dummy"
+        },
+        "TeamName": {
+          "Namespace": "",
+          "Key": "558A5F7C42F37556202784B4BE4BCA9A",
+          "SourceString": "DummyFighters",
+          "LocalizedString": "DummyFighters"
+        },
+        "AreaId": "ETheoryMode_PartnerArea::EPartnerArea_Gunma",
+        "AreaName": {
+          "Namespace": "",
+          "Key": "5D41B68949E9C0E3F9B47EBBB562E7B1",
+          "SourceString": "DummyUrban",
+          "LocalizedString": "DummyUrban"
+        },
+        "DrawIndex": -1,
+        "OpenRequirement": []
+      },
+      "1": {
+        "PartnerCharacterId": "ETheoryMode_PartnerCharacterId::EPartnerCharacterId_Takumi",
+        "PartnerName": {
+          "Namespace": "",
+          "Key": "035729D34190FF1AD14895A2E4AC0050",
+          "SourceString": "Takumi Fujiwara",
+          "LocalizedString": "Takumi Fujiwara"
+        },
+        "TeamName": {
+          "CultureInvariantString": null
+        },
+        "AreaId": "ETheoryMode_PartnerArea::EPartnerArea_Gunma",
+        "AreaName": {
+          "Namespace": "",
+          "Key": "370830694E8DA7A36464289CFFD00509",
+          "SourceString": "Gunma Area",
+          "LocalizedString": "Gunma Area"
+        },
+        "DrawIndex": 0,
+        "OpenRequirement": []
+      },
+      "2": {
+        "PartnerCharacterId": "ETheoryMode_PartnerCharacterId::EPartnerCharacterId_Bunta",
+        "PartnerName": {
+          "Namespace": "",
+          "Key": "EAE9B7644D8C5E7330316FA45A7017A4",
+          "SourceString": "Bunta Fujiwara",
+          "LocalizedString": "Bunta Fujiwara"
+        },
+        "TeamName": {
+          "CultureInvariantString": null
+        },
+        "AreaId": "ETheoryMode_PartnerArea::EPartnerArea_Gunma",
+        "AreaName": {
+          "Namespace": "",
+          "Key": "958D01A248CA0D772E939FB7D3C6C512",
+          "SourceString": "Gunma Area",
+          "LocalizedString": "Gunma Area"
+        },
+        "DrawIndex": 8,
+        "OpenRequirement": [
+          {
+            "Requirement": "ETheoryMode_PartnerRequirement::EPartnerRequirement_CourseClear",
+            "Id": 16,
+            "Num": 5
+          }
+        ]
+      },
+      "3": {
+        "PartnerCharacterId": "ETheoryMode_PartnerCharacterId::EPartnerCharacterId_Itsuki",
+        "PartnerName": {
+          "Namespace": "",
+          "Key": "AA98DB394BA66CFE6EEF9288A121BD14",
+          "SourceString": "Itsuki Takeuchi",
+          "LocalizedString": "Itsuki Takeuchi"
+        },
+        "TeamName": {
+          "Namespace": "",
+          "Key": "1C68FFA942D824B9D37A44A838DEBF91",
+          "SourceString": "Akina SpeedStars",
+          "LocalizedString": "Akina SpeedStars"
+        },
+        "AreaId": "ETheoryMode_PartnerArea::EPartnerArea_Gunma",
+        "AreaName": {
+          "Namespace": "",
+          "Key": "57F7880D43CE2B52F8F455B1E90067DF",
+          "SourceString": "Gunma Area",
+          "LocalizedString": "Gunma Area"
+        },
+        "DrawIndex": -1,
+        "OpenRequirement": []
+      },
+      "4": {
+        "PartnerCharacterId": "ETheoryMode_PartnerCharacterId::EPartnerCharacterId_Iketani",
+        "PartnerName": {
+          "Namespace": "",
+          "Key": "214E8F554A0645FA27DA669AF9ACFC96",
+          "SourceString": "Koichiro Iketani",
+          "LocalizedString": "Koichiro Iketani"
+        },
+        "TeamName": {
+          "Namespace": "",
+          "Key": "DA93226B4803CE34E71888889563722B",
+          "SourceString": "Akina SpeedStars",
+          "LocalizedString": "Akina SpeedStars"
+        },
+        "AreaId": "ETheoryMode_PartnerArea::EPartnerArea_Gunma",
+        "AreaName": {
+          "Namespace": "",
+          "Key": "8F67D7274F9EFA292619BBAF785A1740",
+          "SourceString": "Gunma Area",
+          "LocalizedString": "Gunma Area"
+        },
+        "DrawIndex": 1,
+        "OpenRequirement": []
+      },
+      "5": {
+        "PartnerCharacterId": "ETheoryMode_PartnerCharacterId::EPartnerCharacterId_Ryosuke",
+        "PartnerName": {
+          "Namespace": "",
+          "Key": "EA98E2414AFE9AD05A9B6FB49A410BCE",
+          "SourceString": "Ryosuke Takahashi",
+          "LocalizedString": "Ryosuke Takahashi"
+        },
+        "TeamName": {
+          "Namespace": "",
+          "Key": "EA8AE19F4AF50927FC142D8FC04BEAD1",
+          "SourceString": "Akagi RedSuns",
+          "LocalizedString": "Akagi RedSuns"
+        },
+        "AreaId": "ETheoryMode_PartnerArea::EPartnerArea_Gunma",
+        "AreaName": {
+          "Namespace": "",
+          "Key": "5297AA1E4F4EB1E9E4D0EEA7343350FA",
+          "SourceString": "Gunma Area",
+          "LocalizedString": "Gunma Area"
+        },
+        "DrawIndex": 3,
+        "OpenRequirement": [
+          {
+            "Requirement": "ETheoryMode_PartnerRequirement::EPartnerRequirement_TheoryRank",
+            "Id": 16,
+            "Num": 0
+          }
+        ]
+      },
+      "6": {
+        "PartnerCharacterId": "ETheoryMode_PartnerCharacterId::EPartnerCharacterId_Keisuke",
+        "PartnerName": {
+          "Namespace": "",
+          "Key": "5B19D22D486478DB20C1B9AFE6E2EBBC",
+          "SourceString": "Keisuke Takahashi",
+          "LocalizedString": "Keisuke Takahashi"
+        },
+        "TeamName": {
+          "Namespace": "",
+          "Key": "FB8677EA4D038CFEEB898BB430F41497",
+          "SourceString": "Akagi RedSuns",
+          "LocalizedString": "Akagi RedSuns"
+        },
+        "AreaId": "ETheoryMode_PartnerArea::EPartnerArea_Gunma",
+        "AreaName": {
+          "Namespace": "",
+          "Key": "1E8763894C23C6AAB8FDC2B79E39FB00",
+          "SourceString": "Gunma Area",
+          "LocalizedString": "Gunma Area"
+        },
+        "DrawIndex": 2,
+        "OpenRequirement": []
+      },
+      "7": {
+        "PartnerCharacterId": "ETheoryMode_PartnerCharacterId::EPartnerCharacterId_Nakazato",
+        "PartnerName": {
+          "Namespace": "",
+          "Key": "84611CA645E77887B689DC9DEEF6F149",
+          "SourceString": "Takeshi Nakazato",
+          "LocalizedString": "Takeshi Nakazato"
+        },
+        "TeamName": {
+          "Namespace": "",
+          "Key": "7552D32B4A54BC4D0CAFBCAED5B4BD7C",
+          "SourceString": "Myogi NightKids",
+          "LocalizedString": "Myogi NightKids"
+        },
+        "AreaId": "ETheoryMode_PartnerArea::EPartnerArea_Gunma",
+        "AreaName": {
+          "Namespace": "",
+          "Key": "C1E820024F47B1B1C64343928A8F0AED",
+          "SourceString": "Gunma Area",
+          "LocalizedString": "Gunma Area"
+        },
+        "DrawIndex": 6,
+        "OpenRequirement": [
+          {
+            "Requirement": "ETheoryMode_PartnerRequirement::EPartnerRequirement_None",
+            "Id": 0,
+            "Num": 0
+          }
+        ]
+      },
+      "8": {
+        "PartnerCharacterId": "ETheoryMode_PartnerCharacterId::EPartnerCharacterId_Shoji",
+        "PartnerName": {
+          "Namespace": "",
+          "Key": "D148BED34C86F9B35BCF48A8BC45F38B",
+          "SourceString": "Shingo Shoji",
+          "LocalizedString": "Shingo Shoji"
+        },
+        "TeamName": {
+          "Namespace": "",
+          "Key": "26DD96ED42D84B8CB290C4AFB93F8919",
+          "SourceString": "Myogi NightKids",
+          "LocalizedString": "Myogi NightKids"
+        },
+        "AreaId": "ETheoryMode_PartnerArea::EPartnerArea_Gunma",
+        "AreaName": {
+          "Namespace": "",
+          "Key": "BA34CE35417DE11D9770428062A6484B",
+          "SourceString": "Gunma Area",
+          "LocalizedString": "Gunma Area"
+        },
+        "DrawIndex": 7,
+        "OpenRequirement": [
+          {
+            "Requirement": "ETheoryMode_PartnerRequirement::EPartnerRequirement_None",
+            "Id": 0,
+            "Num": 0
+          }
+        ]
+      },
+      "9": {
+        "PartnerCharacterId": "ETheoryMode_PartnerCharacterId::EPartnerCharacterId_Mako",
+        "PartnerName": {
+          "Namespace": "",
+          "Key": "CCCFBD3842E6198F00E4C49004533B7B",
+          "SourceString": "Mako Sato",
+          "LocalizedString": "Mako Sato"
+        },
+        "TeamName": {
+          "Namespace": "",
+          "Key": "8196C3384CDC40B2A81111B37AC25BB5",
+          "SourceString": "Impact Blue",
+          "LocalizedString": "Impact Blue"
+        },
+        "AreaId": "ETheoryMode_PartnerArea::EPartnerArea_Gunma",
+        "AreaName": {
+          "Namespace": "",
+          "Key": "CD5AFCCA4577740F88B9F6A68115DA6D",
+          "SourceString": "Gunma Area",
+          "LocalizedString": "Gunma Area"
+        },
+        "DrawIndex": 4,
+        "OpenRequirement": [
+          {
+            "Requirement": "ETheoryMode_PartnerRequirement::EPartnerRequirement_None",
+            "Id": 0,
+            "Num": 0
+          }
+        ]
+      },
+      "10": {
+        "PartnerCharacterId": "ETheoryMode_PartnerCharacterId::EPartnerCharacterId_Sayuki",
+        "PartnerName": {
+          "Namespace": "",
+          "Key": "AC3576EA40732D5F8C9A148A7D6C28AC",
+          "SourceString": "Sayuki",
+          "LocalizedString": "Sayuki"
+        },
+        "TeamName": {
+          "Namespace": "",
+          "Key": "1CDB90754A2BAE9BE0725EA71A018F9F",
+          "SourceString": "Impact Blue",
+          "LocalizedString": "Impact Blue"
+        },
+        "AreaId": "ETheoryMode_PartnerArea::EPartnerArea_Gunma",
+        "AreaName": {
+          "Namespace": "",
+          "Key": "5308536C49BAE46EEAA3118E19BB17D0",
+          "SourceString": "Gunma Area",
+          "LocalizedString": "Gunma Area"
+        },
+        "DrawIndex": 5,
+        "OpenRequirement": []
+      },
+      "11": {
+        "PartnerCharacterId": "ETheoryMode_PartnerCharacterId::EPartnerCharacterId_Kyoichi",
+        "PartnerName": {
+          "Namespace": "",
+          "Key": "CB459EAE4B6F47480002BAB2CA9900C5",
+          "SourceString": "Kyoichi Sudo",
+          "LocalizedString": "Kyoichi Sudo"
+        },
+        "TeamName": {
+          "Namespace": "",
+          "Key": "1A132CEC49E9678B9A46CB8CAA822ED0",
+          "SourceString": "Emperor",
+          "LocalizedString": "Emperor"
+        },
+        "AreaId": "ETheoryMode_PartnerArea::EPartnerArea_TochigiIbaraki",
+        "AreaName": {
+          "Namespace": "",
+          "Key": "B808FDD643B8A61A191C77A950D25F35",
+          "SourceString": "Tochigi & Ibaraki Area",
+          "LocalizedString": "Tochigi & Ibaraki Area"
+        },
+        "DrawIndex": 0,
+        "OpenRequirement": [
+          {
+            "Requirement": "ETheoryMode_PartnerRequirement::EPartnerRequirement_SpecificTypeCarOwn",
+            "Id": 0,
+            "Num": 3
+          }
+        ]
+      },
+      "12": {
+        "PartnerCharacterId": "ETheoryMode_PartnerCharacterId::EPartnerCharacterId_Kai",
+        "PartnerName": {
+          "Namespace": "",
+          "Key": "19D4ACD84DE34494CC3E68857FF7D559",
+          "SourceString": "Kai Kogashiwa",
+          "LocalizedString": "Kai Kogashiwa"
+        },
+        "TeamName": {
+          "CultureInvariantString": null
+        },
+        "AreaId": "ETheoryMode_PartnerArea::EPartnerArea_TochigiIbaraki",
+        "AreaName": {
+          "Namespace": "",
+          "Key": "0DB3A533421CA0D15F0830B072CC64B2",
+          "SourceString": "Tochigi & Ibaraki Area",
+          "LocalizedString": "Tochigi & Ibaraki Area"
+        },
+        "DrawIndex": 2,
+        "OpenRequirement": [
+          {
+            "Requirement": "ETheoryMode_PartnerRequirement::EPartnerRequirement_None",
+            "Id": 0,
+            "Num": 0
+          }
+        ]
+      },
+      "13": {
+        "PartnerCharacterId": "ETheoryMode_PartnerCharacterId::EPartnerCharacterId_Tomo",
+        "PartnerName": {
+          "Namespace": "",
+          "Key": "0E1E46FB4121744555A0279C2C5BF684",
+          "SourceString": "Tomoyuki Tachi",
+          "LocalizedString": "Tomoyuki Tachi"
+        },
+        "TeamName": {
+          "Namespace": "",
+          "Key": "55CE73E443A710169182A18DA80E3B72",
+          "SourceString": "Todo School",
+          "LocalizedString": "Todo School"
+        },
+        "AreaId": "ETheoryMode_PartnerArea::EPartnerArea_TochigiIbaraki",
+        "AreaName": {
+          "Namespace": "",
+          "Key": "840F8A764EDE585BE45EC6B8BF9F44C2",
+          "SourceString": "Tochigi & Ibaraki Area",
+          "LocalizedString": "Tochigi & Ibaraki Area"
+        },
+        "DrawIndex": -1,
+        "OpenRequirement": [
+          {
+            "Requirement": "ETheoryMode_PartnerRequirement::EPartnerRequirement_SpecificPartnerLv",
+            "Id": 17,
+            "Num": 10
+          }
+        ]
+      },
+      "14": {
+        "PartnerCharacterId": "ETheoryMode_PartnerCharacterId::EPartnerCharacterId_Wataru",
+        "PartnerName": {
+          "Namespace": "",
+          "Key": "D1BFDB854987B6C20D486B9F038CE6A9",
+          "SourceString": "Wataru Akiyama",
+          "LocalizedString": "Wataru Akiyama"
+        },
+        "TeamName": {
+          "CultureInvariantString": null
+        },
+        "AreaId": "ETheoryMode_PartnerArea::EPartnerArea_SaitamaTokyo",
+        "AreaName": {
+          "Namespace": "",
+          "Key": "D76D62B4421020853C5B69808363B278",
+          "SourceString": "Saitama & Tokyo Area",
+          "LocalizedString": "Saitama & Tokyo Area"
+        },
+        "DrawIndex": 0,
+        "OpenRequirement": []
+      },
+      "15": {
+        "PartnerCharacterId": "ETheoryMode_PartnerCharacterId::EPartnerCharacterId_Iwaki",
+        "PartnerName": {
+          "Namespace": "",
+          "Key": "3D9F58BF449E178C31F7EA95EB88BC84",
+          "SourceString": "Seiji Iwaki",
+          "LocalizedString": "Seiji Iwaki"
+        },
+        "TeamName": {
+          "Namespace": "",
+          "Key": "E4B2DDFD4ED4FA12559092BBE28431CC",
+          "SourceString": "Emperor",
+          "LocalizedString": "Emperor"
+        },
+        "AreaId": "ETheoryMode_PartnerArea::EPartnerArea_TochigiIbaraki",
+        "AreaName": {
+          "Namespace": "",
+          "Key": "F8114036492A56BDD814EE8A299C3EFB",
+          "SourceString": "Tochigi & Ibaraki Area",
+          "LocalizedString": "Tochigi & Ibaraki Area"
+        },
+        "DrawIndex": 1,
+        "OpenRequirement": [
+          {
+            "Requirement": "ETheoryMode_PartnerRequirement::EPartnerRequirement_None",
+            "Id": 0,
+            "Num": 0
+          }
+        ]
+      },
+      "16": {
+        "PartnerCharacterId": "ETheoryMode_PartnerCharacterId::EPartnerCharacterId_Kenji",
+        "PartnerName": {
+          "Namespace": "",
+          "Key": "FDA08FC6443778ADD3A994A1D96F71BF",
+          "SourceString": "Kenji",
+          "LocalizedString": "Kenji"
+        },
+        "TeamName": {
+          "Namespace": "",
+          "Key": "FA5987F14C8993509E86CE80A8A7EA8E",
+          "SourceString": "Akina SpeedStars",
+          "LocalizedString": "Akina SpeedStars"
+        },
+        "AreaId": "ETheoryMode_PartnerArea::EPartnerArea_Gunma",
+        "AreaName": {
+          "Namespace": "",
+          "Key": "7550E06A483041BDD8800295D273979A",
+          "SourceString": "Gunma Area",
+          "LocalizedString": "Gunma Area"
+        },
+        "DrawIndex": -1,
+        "OpenRequirement": [
+          {
+            "Requirement": "ETheoryMode_PartnerRequirement::EPartnerRequirement_None",
+            "Id": 0,
+            "Num": 0
+          }
+        ]
+      },
+      "17": {
+        "PartnerCharacterId": "ETheoryMode_PartnerCharacterId::EPartnerCharacterId_Ninomiya",
+        "PartnerName": {
+          "Namespace": "",
+          "Key": "786D29DC4C8B78BF613722A71464DA59",
+          "SourceString": "Daiki Ninomiya",
+          "LocalizedString": "Daiki Ninomiya"
+        },
+        "TeamName": {
+          "Namespace": "",
+          "Key": "AC4B8464422D56804514D28A9C0DA6F9",
+          "SourceString": "Todo School",
+          "LocalizedString": "Todo School"
+        },
+        "AreaId": "ETheoryMode_PartnerArea::EPartnerArea_TochigiIbaraki",
+        "AreaName": {
+          "Namespace": "",
+          "Key": "AAD3A97440126C813DA91797864710BE",
+          "SourceString": "Tochigi & Ibaraki Area",
+          "LocalizedString": "Tochigi & Ibaraki Area"
+        },
+        "DrawIndex": 3,
+        "OpenRequirement": [
+          {
+            "Requirement": "ETheoryMode_PartnerRequirement::EPartnerRequirement_None",
+            "Id": 0,
+            "Num": 0
+          }
+        ]
+      },
+      "18": {
+        "PartnerCharacterId": "ETheoryMode_PartnerCharacterId::EPartnerCharacterId_Sakai",
+        "PartnerName": {
+          "Namespace": "",
+          "Key": "7A74CCE348C926371ADB34B4EDAB704E",
+          "SourceString": "Smiley Sakai",
+          "LocalizedString": "Smiley Sakai"
+        },
+        "TeamName": {
+          "Namespace": "",
+          "Key": "673AAFB94B94118F7C339381C143A7A0",
+          "SourceString": "Todo School",
+          "LocalizedString": "Todo School"
+        },
+        "AreaId": "ETheoryMode_PartnerArea::EPartnerArea_TochigiIbaraki",
+        "AreaName": {
+          "Namespace": "",
+          "Key": "5F2B351447DCE5FE45BADBB31533381B",
+          "SourceString": "Tochigi & Ibaraki Area",
+          "LocalizedString": "Tochigi & Ibaraki Area"
+        },
+        "DrawIndex": 4,
+        "OpenRequirement": [
+          {
+            "Requirement": "ETheoryMode_PartnerRequirement::EPartnerRequirement_None",
+            "Id": 0,
+            "Num": 0
+          }
+        ]
+      },
+      "20": {
+        "PartnerCharacterId": "ETheoryMode_PartnerCharacterId::EPartnerCharacterId_Nobuhiko",
+        "PartnerName": {
+          "CultureInvariantString": null
+        },
+        "TeamName": {
+          "CultureInvariantString": null
+        },
+        "AreaId": "ETheoryMode_PartnerArea::EPartnerArea_SaitamaTokyo",
+        "AreaName": {
+          "CultureInvariantString": null
+        },
+        "DrawIndex": -1,
+        "OpenRequirement": []
+      },
+      "21": {
+        "PartnerCharacterId": "ETheoryMode_PartnerCharacterId::EPartnerCharacterId_Tokyo",
+        "PartnerName": {
+          "CultureInvariantString": null
+        },
+        "TeamName": {
+          "CultureInvariantString": null
+        },
+        "AreaId": "ETheoryMode_PartnerArea::EPartnerArea_SaitamaTokyo",
+        "AreaName": {
+          "CultureInvariantString": null
+        },
+        "DrawIndex": -1,
+        "OpenRequirement": []
+      },
+      "22": {
+        "PartnerCharacterId": "ETheoryMode_PartnerCharacterId::EPartnerCharacterId_Natsuki",
+        "PartnerName": {
+          "Namespace": "",
+          "Key": "64E7CB7C4BC431CB95C09E9FAB7687D0",
+          "SourceString": "Natsuki Mogi",
+          "LocalizedString": "Natsuki Mogi"
+        },
+        "TeamName": {
+          "CultureInvariantString": null
+        },
+        "AreaId": "ETheoryMode_PartnerArea::EPartnerArea_Gunma",
+        "AreaName": {
+          "Namespace": "",
+          "Key": "A374AB1A493EEE00D59C899A447CE24D",
+          "SourceString": "Gunma Area",
+          "LocalizedString": "Gunma Area"
+        },
+        "DrawIndex": 9,
+        "OpenRequirement": [
+          {
+            "Requirement": "ETheoryMode_PartnerRequirement::EPartnerRequirement_TheoryRank",
+            "Id": 3,
+            "Num": 3
+          }
+        ]
+      }
+    }
+  }
+]

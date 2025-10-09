@@ -1,0 +1,1578 @@
+[
+  {
+    "Type": "StructProperty",
+    "Name": "UberGraphFrame",
+    "Outer": "WBP_ActingTextLine_C",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "Transient | DuplicateTransient",
+    "Struct": {
+      "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "WBP_ActingTextLine_C",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WBP_ActingTextLine_C:WidgetTree'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_ActingTextLine.108"
+      },
+      "bAllowTemplate": true,
+      "bValidTemplate": true,
+      "TemplateAsset": {
+        "AssetPathName": "/Game/IND/StoryDrama/common/WBP_ActingTextLine.WidgetArchetype",
+        "SubPathString": ""
+      },
+      "UberGraphFramePointerProperty": {
+        "ObjectName": "StructProperty'WBP_ActingTextLine_C:UberGraphFrame'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_ActingTextLine.0"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'WBP_ActingTextLine_C:ExecuteUbergraph_WBP_ActingTextLine'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_ActingTextLine.5"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'UserWidget'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'WBP_ActingTextLine_C:UberGraphFrame'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_ActingTextLine.0"
+      },
+      {
+        "ObjectName": "Function'WBP_ActingTextLine_C:GetTransform'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_ActingTextLine.26"
+      },
+      {
+        "ObjectName": "Function'WBP_ActingTextLine_C:UpdateTextColor'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_ActingTextLine.24"
+      },
+      {
+        "ObjectName": "Function'WBP_ActingTextLine_C:UpdateTyping'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_ActingTextLine.22"
+      },
+      {
+        "ObjectName": "Function'WBP_ActingTextLine_C:SetTypingDisplayNum'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_ActingTextLine.20"
+      },
+      {
+        "ObjectName": "Function'WBP_ActingTextLine_C:GetCharacterNum'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_ActingTextLine.18"
+      },
+      {
+        "ObjectName": "Function'WBP_ActingTextLine_C:SetupText'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_ActingTextLine.9"
+      },
+      {
+        "ObjectName": "Function'WBP_ActingTextLine_C:PreConstruct'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_ActingTextLine.7"
+      },
+      {
+        "ObjectName": "Function'WBP_ActingTextLine_C:ExecuteUbergraph_WBP_ActingTextLine'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_ActingTextLine.5"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_ActingTextLine_C:CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_ActingTextLine.3"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_ActingTextLine_C:TextBlock_48'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_ActingTextLine.82"
+      },
+      {
+        "ObjectName": "ArrayProperty'WBP_ActingTextLine_C:TextBlocks'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_ActingTextLine.15"
+      },
+      {
+        "ObjectName": "StrProperty'WBP_ActingTextLine_C:String'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_ActingTextLine.89"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_ActingTextLine_C:Vertical'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_ActingTextLine.36"
+      },
+      {
+        "ObjectName": "StructProperty'WBP_ActingTextLine_C:Font'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_ActingTextLine.92"
+      },
+      {
+        "ObjectName": "StructProperty'WBP_ActingTextLine_C:BaseTextSize'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_ActingTextLine.90"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_ActingTextLine_C:UseTyping'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_ActingTextLine.35"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_ActingTextLine_C:TypingDisplayNum'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_ActingTextLine.68"
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_WBP_ActingTextLine": {
+        "ObjectName": "Function'WBP_ActingTextLine_C:ExecuteUbergraph_WBP_ActingTextLine'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_ActingTextLine.5"
+      },
+      "PreConstruct": {
+        "ObjectName": "Function'WBP_ActingTextLine_C:PreConstruct'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_ActingTextLine.7"
+      },
+      "SetupText": {
+        "ObjectName": "Function'WBP_ActingTextLine_C:SetupText'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_ActingTextLine.9"
+      },
+      "GetCharacterNum": {
+        "ObjectName": "Function'WBP_ActingTextLine_C:GetCharacterNum'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_ActingTextLine.18"
+      },
+      "SetTypingDisplayNum": {
+        "ObjectName": "Function'WBP_ActingTextLine_C:SetTypingDisplayNum'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_ActingTextLine.20"
+      },
+      "UpdateTyping": {
+        "ObjectName": "Function'WBP_ActingTextLine_C:UpdateTyping'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_ActingTextLine.22"
+      },
+      "UpdateTextColor": {
+        "ObjectName": "Function'WBP_ActingTextLine_C:UpdateTextColor'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_ActingTextLine.24"
+      },
+      "GetTransform": {
+        "ObjectName": "Function'WBP_ActingTextLine_C:GetTransform'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_ActingTextLine.26"
+      }
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "WBP_ActingTextLine_C'Default__WBP_ActingTextLine_C'",
+      "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_ActingTextLine.2"
+    }
+  },
+  {
+    "Type": "WBP_ActingTextLine_C",
+    "Name": "Default__WBP_ActingTextLine_C",
+    "Class": "WidgetBlueprintGeneratedClass'GameProject/Content/IND/StoryDrama/common/WBP_ActingTextLine.WBP_ActingTextLine_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "UberGraphFrame": {},
+      "Font": {
+        "FontObject": null,
+        "FontMaterial": null,
+        "OutlineSettings": {
+          "OutlineSize": 0,
+          "bSeparateFillAlpha": false,
+          "bApplyOutlineToDropShadows": false,
+          "OutlineMaterial": null,
+          "OutlineColor": {
+            "R": 0.0,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "000000"
+          }
+        },
+        "TypefaceFontName": "None",
+        "Size": 24
+      },
+      "BaseTextSize": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "bHasScriptImplementedTick": false,
+      "bHasScriptImplementedPaint": false
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CanvasPanel_0",
+    "Outer": "WBP_ActingTextLine_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'CanvasPanel'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "EntryPoint",
+    "Outer": "ExecuteUbergraph_WBP_ActingTextLine",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_WBP_ActingTextLine",
+    "Outer": "WBP_ActingTextLine_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "IntProperty'WBP_ActingTextLine_C:ExecuteUbergraph_WBP_ActingTextLine.EntryPoint'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_ActingTextLine.4"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_ActingTextLine_C:ExecuteUbergraph_WBP_ActingTextLine.K2Node_Event_IsDesignTime'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_ActingTextLine.16"
+      },
+      {
+        "ObjectName": "StructProperty'WBP_ActingTextLine_C:ExecuteUbergraph_WBP_ActingTextLine.CallFunc_GetDesiredSize_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_ActingTextLine.91"
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "IsDesignTime",
+    "Outer": "PreConstruct",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "Function",
+    "Name": "PreConstruct",
+    "Outer": "WBP_ActingTextLine_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Function'UserWidget:PreConstruct'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "Children": [
+      {
+        "ObjectName": "BoolProperty'WBP_ActingTextLine_C:PreConstruct.IsDesignTime'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_ActingTextLine.6"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCosmetic | FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "StrProperty",
+    "Name": "Text",
+    "Outer": "SetupText",
+    "Class": "UScriptClass'StrProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "SetupText",
+    "Outer": "WBP_ActingTextLine_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "StrProperty'WBP_ActingTextLine_C:SetupText.Text'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_ActingTextLine.8"
+      },
+      {
+        "ObjectName": "ArrayProperty'WBP_ActingTextLine_C:SetupText.LocalVar_Char'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_ActingTextLine.13"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_ActingTextLine_C:SetupText.LocalVar_TransY'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_ActingTextLine.57"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_ActingTextLine_C:SetupText.LocalVar_TransX'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_ActingTextLine.56"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_ActingTextLine_C:SetupText.Temp_int_Array_Index_Variable'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_ActingTextLine.64"
+      },
+      {
+        "ObjectName": "ArrayProperty'WBP_ActingTextLine_C:SetupText.CallFunc_GetCharacterArrayFromString_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_ActingTextLine.11"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_ActingTextLine_C:SetupText.Temp_int_Loop_Counter_Variable'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_ActingTextLine.66"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_ActingTextLine_C:SetupText.CallFunc_Add_IntInt_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_ActingTextLine.59"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_ActingTextLine_C:SetupText.Temp_int_Array_Index_Variable_1'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_ActingTextLine.65"
+      },
+      {
+        "ObjectName": "StrProperty'WBP_ActingTextLine_C:SetupText.CallFunc_Array_Get_Item'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_ActingTextLine.87"
+      },
+      {
+        "ObjectName": "StructProperty'WBP_ActingTextLine_C:SetupText.CallFunc_GetTransform_Transform'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_ActingTextLine.102"
+      },
+      {
+        "ObjectName": "StrProperty'WBP_ActingTextLine_C:SetupText.CallFunc_Array_Get_Item_1'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_ActingTextLine.88"
+      },
+      {
+        "ObjectName": "TextProperty'WBP_ActingTextLine_C:SetupText.CallFunc_Conv_StringToText_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_ActingTextLine.106"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_ActingTextLine_C:SetupText.CallFunc_Array_Length_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_ActingTextLine.62"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_ActingTextLine_C:SetupText.Temp_int_Loop_Counter_Variable_1'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_ActingTextLine.67"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_ActingTextLine_C:SetupText.CallFunc_Less_IntInt_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_ActingTextLine.28"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_ActingTextLine_C:SetupText.CallFunc_Add_IntInt_ReturnValue_1'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_ActingTextLine.60"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_ActingTextLine_C:SetupText.CallFunc_Array_Get_Item_2'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_ActingTextLine.80"
+      },
+      {
+        "ObjectName": "StructProperty'WBP_ActingTextLine_C:SetupText.CallFunc_GetDesiredSize_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_ActingTextLine.101"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_ActingTextLine_C:SetupText.CallFunc_BreakVector2D_X'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_ActingTextLine.54"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_ActingTextLine_C:SetupText.CallFunc_BreakVector2D_Y'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_ActingTextLine.55"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_ActingTextLine_C:SetupText.CallFunc_Array_Length_ReturnValue_1'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_ActingTextLine.63"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_ActingTextLine_C:SetupText.CallFunc_Add_FloatFloat_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_ActingTextLine.52"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_ActingTextLine_C:SetupText.CallFunc_Less_IntInt_ReturnValue_1'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_ActingTextLine.29"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_ActingTextLine_C:SetupText.CallFunc_Add_FloatFloat_ReturnValue_1'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_ActingTextLine.53"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_ActingTextLine_C:SetupText.CallFunc_SpawnObject_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_ActingTextLine.81"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_ActingTextLine_C:SetupText.CallFunc_Array_Add_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_ActingTextLine.61"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_ActingTextLine_C:SetupText.CallFunc_AddChildToCanvas_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_ActingTextLine.79"
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "StrProperty",
+    "Name": "CallFunc_GetCharacterArrayFromString_ReturnValue",
+    "Outer": "CallFunc_GetCharacterArrayFromString_ReturnValue",
+    "Class": "UScriptClass'StrProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "ArrayProperty",
+    "Name": "CallFunc_GetCharacterArrayFromString_ReturnValue",
+    "Outer": "SetupText",
+    "Class": "UScriptClass'ArrayProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "ReferenceParm",
+    "Inner": {
+      "ObjectName": "StrProperty'WBP_ActingTextLine_C:SetupText.CallFunc_GetCharacterArrayFromString_ReturnValue.CallFunc_GetCharacterArrayFromString_ReturnValue'",
+      "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_ActingTextLine.10"
+    }
+  },
+  {
+    "Type": "StrProperty",
+    "Name": "LocalVar_Char",
+    "Outer": "LocalVar_Char",
+    "Class": "UScriptClass'StrProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "ArrayProperty",
+    "Name": "LocalVar_Char",
+    "Outer": "SetupText",
+    "Class": "UScriptClass'ArrayProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "Edit | BlueprintVisible",
+    "Inner": {
+      "ObjectName": "StrProperty'WBP_ActingTextLine_C:SetupText.LocalVar_Char.LocalVar_Char'",
+      "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_ActingTextLine.12"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "TextBlocks",
+    "Outer": "TextBlocks",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "InstancedReference",
+    "PropertyClass": {
+      "ObjectName": "Class'TextBlock'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ArrayProperty",
+    "Name": "TextBlocks",
+    "Outer": "WBP_ActingTextLine_C",
+    "Class": "UScriptClass'ArrayProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance | ContainsInstancedReference",
+    "Inner": {
+      "ObjectName": "ObjectProperty'WBP_ActingTextLine_C:TextBlocks.TextBlocks'",
+      "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_ActingTextLine.14"
+    }
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_Event_IsDesignTime",
+    "Outer": "ExecuteUbergraph_WBP_ActingTextLine",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "ReturnValue",
+    "Outer": "GetCharacterNum",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "Parm | OutParm | ReturnParm"
+  },
+  {
+    "Type": "Function",
+    "Name": "GetCharacterNum",
+    "Outer": "WBP_ActingTextLine_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "IntProperty'WBP_ActingTextLine_C:GetCharacterNum.ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_ActingTextLine.17"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_ActingTextLine_C:GetCharacterNum.CallFunc_Array_Length_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_ActingTextLine.58"
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasOutParms | FUNC_BlueprintCallable | FUNC_BlueprintEvent | FUNC_BlueprintPure"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "DisplayNum",
+    "Outer": "SetTypingDisplayNum",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "SetTypingDisplayNum",
+    "Outer": "WBP_ActingTextLine_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "IntProperty'WBP_ActingTextLine_C:SetTypingDisplayNum.DisplayNum'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_ActingTextLine.19"
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "Temp_int_Variable",
+    "Outer": "UpdateTyping",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "Function",
+    "Name": "UpdateTyping",
+    "Outer": "WBP_ActingTextLine_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "IntProperty'WBP_ActingTextLine_C:UpdateTyping.Temp_int_Variable'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_ActingTextLine.21"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_ActingTextLine_C:UpdateTyping.Temp_bool_Variable'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_ActingTextLine.34"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_ActingTextLine_C:UpdateTyping.CallFunc_Add_IntInt_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_ActingTextLine.73"
+      },
+      {
+        "ObjectName": "EnumProperty'WBP_ActingTextLine_C:UpdateTyping.Temp_byte_Variable'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_ActingTextLine.45"
+      },
+      {
+        "ObjectName": "EnumProperty'WBP_ActingTextLine_C:UpdateTyping.Temp_byte_Variable_1'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_ActingTextLine.46"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_ActingTextLine_C:UpdateTyping.Temp_int_Array_Index_Variable'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_ActingTextLine.77"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_ActingTextLine_C:UpdateTyping.Temp_int_Loop_Counter_Variable'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_ActingTextLine.78"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_ActingTextLine_C:UpdateTyping.CallFunc_Add_IntInt_ReturnValue_1'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_ActingTextLine.74"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_ActingTextLine_C:UpdateTyping.CallFunc_Array_Get_Item'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_ActingTextLine.84"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_ActingTextLine_C:UpdateTyping.CallFunc_Less_IntInt_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_ActingTextLine.31"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_ActingTextLine_C:UpdateTyping.CallFunc_Array_Length_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_ActingTextLine.75"
+      },
+      {
+        "ObjectName": "EnumProperty'WBP_ActingTextLine_C:UpdateTyping.K2Node_Select_Default'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_ActingTextLine.44"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_ActingTextLine_C:UpdateTyping.CallFunc_Less_IntInt_ReturnValue_1'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_ActingTextLine.32"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_ActingTextLine_C:UpdateTyping.CallFunc_Array_Get_Item_1'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_ActingTextLine.85"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_ActingTextLine_C:UpdateTyping.CallFunc_Array_Length_ReturnValue_1'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_ActingTextLine.76"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_ActingTextLine_C:UpdateTyping.CallFunc_Less_IntInt_ReturnValue_2'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_ActingTextLine.33"
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "InColorAndOpacity",
+    "Outer": "UpdateTextColor",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "Struct": {
+      "ObjectName": "ScriptStruct'SlateColor'",
+      "ObjectPath": "/Script/SlateCore"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "UpdateTextColor",
+    "Outer": "WBP_ActingTextLine_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "StructProperty'WBP_ActingTextLine_C:UpdateTextColor.InColorAndOpacity'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_ActingTextLine.23"
+      },
+      {
+        "ObjectName": "StructProperty'WBP_ActingTextLine_C:UpdateTextColor.InShadowColorAndOpacity'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_ActingTextLine.103"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_ActingTextLine_C:UpdateTextColor.Temp_int_Array_Index_Variable'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_ActingTextLine.71"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_ActingTextLine_C:UpdateTextColor.Temp_int_Loop_Counter_Variable'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_ActingTextLine.72"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_ActingTextLine_C:UpdateTextColor.CallFunc_Add_IntInt_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_ActingTextLine.69"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_ActingTextLine_C:UpdateTextColor.CallFunc_Array_Length_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_ActingTextLine.70"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_ActingTextLine_C:UpdateTextColor.CallFunc_Array_Get_Item'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_ActingTextLine.83"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_ActingTextLine_C:UpdateTextColor.CallFunc_Less_IntInt_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_ActingTextLine.30"
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "X",
+    "Outer": "GetTransform",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "GetTransform",
+    "Outer": "WBP_ActingTextLine_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "FloatProperty'WBP_ActingTextLine_C:GetTransform.X'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_ActingTextLine.25"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_ActingTextLine_C:GetTransform.Y'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_ActingTextLine.51"
+      },
+      {
+        "ObjectName": "StrProperty'WBP_ActingTextLine_C:GetTransform.String'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_ActingTextLine.86"
+      },
+      {
+        "ObjectName": "StructProperty'WBP_ActingTextLine_C:GetTransform.Transform'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_ActingTextLine.100"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_ActingTextLine_C:GetTransform.K2Node_SwitchString_CmpSuccess'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_ActingTextLine.27"
+      },
+      {
+        "ObjectName": "StructProperty'WBP_ActingTextLine_C:GetTransform.CallFunc_MakeVector2D_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_ActingTextLine.93"
+      },
+      {
+        "ObjectName": "StructProperty'WBP_ActingTextLine_C:GetTransform.K2Node_MakeStruct_WidgetTransform'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_ActingTextLine.97"
+      },
+      {
+        "ObjectName": "StructProperty'WBP_ActingTextLine_C:GetTransform.CallFunc_MakeVector2D_ReturnValue_1'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_ActingTextLine.94"
+      },
+      {
+        "ObjectName": "StructProperty'WBP_ActingTextLine_C:GetTransform.K2Node_MakeStruct_WidgetTransform_1'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_ActingTextLine.98"
+      },
+      {
+        "ObjectName": "StructProperty'WBP_ActingTextLine_C:GetTransform.CallFunc_Multiply_Vector2DFloat_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_ActingTextLine.96"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_ActingTextLine_C:GetTransform.CallFunc_BreakVector2D_X'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_ActingTextLine.48"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_ActingTextLine_C:GetTransform.CallFunc_BreakVector2D_Y'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_ActingTextLine.49"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_ActingTextLine_C:GetTransform.CallFunc_Add_FloatFloat_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_ActingTextLine.47"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_ActingTextLine_C:GetTransform.CallFunc_Subtract_FloatFloat_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_ActingTextLine.50"
+      },
+      {
+        "ObjectName": "StructProperty'WBP_ActingTextLine_C:GetTransform.CallFunc_MakeVector2D_ReturnValue_2'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_ActingTextLine.95"
+      },
+      {
+        "ObjectName": "StructProperty'WBP_ActingTextLine_C:GetTransform.K2Node_MakeStruct_WidgetTransform_2'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_ActingTextLine.99"
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasOutParms | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent | FUNC_BlueprintPure"
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_SwitchString_CmpSuccess",
+    "Outer": "GetTransform",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_Less_IntInt_ReturnValue",
+    "Outer": "SetupText",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_Less_IntInt_ReturnValue_1",
+    "Outer": "SetupText",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_Less_IntInt_ReturnValue",
+    "Outer": "UpdateTextColor",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_Less_IntInt_ReturnValue",
+    "Outer": "UpdateTyping",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_Less_IntInt_ReturnValue_1",
+    "Outer": "UpdateTyping",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_Less_IntInt_ReturnValue_2",
+    "Outer": "UpdateTyping",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "Temp_bool_Variable",
+    "Outer": "UpdateTyping",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "UseTyping",
+    "Outer": "WBP_ActingTextLine_C",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "Edit | BlueprintVisible | ExposeOnSpawn",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "Vertical",
+    "Outer": "WBP_ActingTextLine_C",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "Edit | BlueprintVisible | ExposeOnSpawn",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Outer": "K2Node_Select_Default",
+    "Class": "UScriptClass'ByteProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": null
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Outer": "Temp_byte_Variable",
+    "Class": "UScriptClass'ByteProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": null
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Outer": "Temp_byte_Variable_1",
+    "Class": "UScriptClass'ByteProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": null
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_0",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_ActingTextLine_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_ActingTextLine.42"
+        }
+      ],
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_0",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_ActingTextLine.43"
+        }
+      ],
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_ActingTextLine_C:WidgetTree.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_ActingTextLine.40"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WBP_ActingTextLine_C:WidgetTree.TextBlock_48'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_ActingTextLine.104"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_ActingTextLine.41"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.TextBlock_48'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_ActingTextLine.105"
+      }
+    }
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "K2Node_Select_Default",
+    "Outer": "UpdateTyping",
+    "Class": "UScriptClass'EnumProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": {
+      "ObjectName": "Enum'ESlateVisibility'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'WBP_ActingTextLine_C:UpdateTyping.K2Node_Select_Default.UnderlyingType'",
+      "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_ActingTextLine.37"
+    }
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "Temp_byte_Variable",
+    "Outer": "UpdateTyping",
+    "Class": "UScriptClass'EnumProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": {
+      "ObjectName": "Enum'ESlateVisibility'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'WBP_ActingTextLine_C:UpdateTyping.Temp_byte_Variable.UnderlyingType'",
+      "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_ActingTextLine.38"
+    }
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "Temp_byte_Variable_1",
+    "Outer": "UpdateTyping",
+    "Class": "UScriptClass'EnumProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": {
+      "ObjectName": "Enum'ESlateVisibility'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'WBP_ActingTextLine_C:UpdateTyping.Temp_byte_Variable_1.UnderlyingType'",
+      "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_ActingTextLine.39"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_Add_FloatFloat_ReturnValue",
+    "Outer": "GetTransform",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_BreakVector2D_X",
+    "Outer": "GetTransform",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_BreakVector2D_Y",
+    "Outer": "GetTransform",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_Subtract_FloatFloat_ReturnValue",
+    "Outer": "GetTransform",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "Y",
+    "Outer": "GetTransform",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_Add_FloatFloat_ReturnValue",
+    "Outer": "SetupText",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_Add_FloatFloat_ReturnValue_1",
+    "Outer": "SetupText",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_BreakVector2D_X",
+    "Outer": "SetupText",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_BreakVector2D_Y",
+    "Outer": "SetupText",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "LocalVar_TransX",
+    "Outer": "SetupText",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "Edit | BlueprintVisible"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "LocalVar_TransY",
+    "Outer": "SetupText",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "Edit | BlueprintVisible"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_Array_Length_ReturnValue",
+    "Outer": "GetCharacterNum",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_Add_IntInt_ReturnValue",
+    "Outer": "SetupText",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_Add_IntInt_ReturnValue_1",
+    "Outer": "SetupText",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_Array_Add_ReturnValue",
+    "Outer": "SetupText",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_Array_Length_ReturnValue",
+    "Outer": "SetupText",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_Array_Length_ReturnValue_1",
+    "Outer": "SetupText",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "Temp_int_Array_Index_Variable",
+    "Outer": "SetupText",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "Temp_int_Array_Index_Variable_1",
+    "Outer": "SetupText",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "Temp_int_Loop_Counter_Variable",
+    "Outer": "SetupText",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "Temp_int_Loop_Counter_Variable_1",
+    "Outer": "SetupText",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "TypingDisplayNum",
+    "Outer": "WBP_ActingTextLine_C",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_Add_IntInt_ReturnValue",
+    "Outer": "UpdateTextColor",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_Array_Length_ReturnValue",
+    "Outer": "UpdateTextColor",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "Temp_int_Array_Index_Variable",
+    "Outer": "UpdateTextColor",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "Temp_int_Loop_Counter_Variable",
+    "Outer": "UpdateTextColor",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_Add_IntInt_ReturnValue",
+    "Outer": "UpdateTyping",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_Add_IntInt_ReturnValue_1",
+    "Outer": "UpdateTyping",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_Array_Length_ReturnValue",
+    "Outer": "UpdateTyping",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_Array_Length_ReturnValue_1",
+    "Outer": "UpdateTyping",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "Temp_int_Array_Index_Variable",
+    "Outer": "UpdateTyping",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "Temp_int_Loop_Counter_Variable",
+    "Outer": "UpdateTyping",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_AddChildToCanvas_ReturnValue",
+    "Outer": "SetupText",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "InstancedReference",
+    "PropertyClass": {
+      "ObjectName": "Class'CanvasPanelSlot'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_Array_Get_Item_2",
+    "Outer": "SetupText",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "InstancedReference",
+    "PropertyClass": {
+      "ObjectName": "Class'TextBlock'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_SpawnObject_ReturnValue",
+    "Outer": "SetupText",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "InstancedReference",
+    "PropertyClass": {
+      "ObjectName": "Class'TextBlock'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "TextBlock_48",
+    "Outer": "WBP_ActingTextLine_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'TextBlock'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_Array_Get_Item",
+    "Outer": "UpdateTextColor",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "InstancedReference",
+    "PropertyClass": {
+      "ObjectName": "Class'TextBlock'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_Array_Get_Item",
+    "Outer": "UpdateTyping",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "InstancedReference",
+    "PropertyClass": {
+      "ObjectName": "Class'TextBlock'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_Array_Get_Item_1",
+    "Outer": "UpdateTyping",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "InstancedReference",
+    "PropertyClass": {
+      "ObjectName": "Class'TextBlock'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "StrProperty",
+    "Name": "String",
+    "Outer": "GetTransform",
+    "Class": "UScriptClass'StrProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "StrProperty",
+    "Name": "CallFunc_Array_Get_Item",
+    "Outer": "SetupText",
+    "Class": "UScriptClass'StrProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "StrProperty",
+    "Name": "CallFunc_Array_Get_Item_1",
+    "Outer": "SetupText",
+    "Class": "UScriptClass'StrProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "StrProperty",
+    "Name": "String",
+    "Outer": "WBP_ActingTextLine_C",
+    "Class": "UScriptClass'StrProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "Edit | BlueprintVisible | ExposeOnSpawn"
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "BaseTextSize",
+    "Outer": "WBP_ActingTextLine_C",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector2D'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_GetDesiredSize_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_ActingTextLine",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector2D'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "Font",
+    "Outer": "WBP_ActingTextLine_C",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "Edit | BlueprintVisible | ExposeOnSpawn",
+    "Struct": {
+      "ObjectName": "ScriptStruct'SlateFontInfo'",
+      "ObjectPath": "/Script/SlateCore"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_MakeVector2D_ReturnValue",
+    "Outer": "GetTransform",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector2D'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_MakeVector2D_ReturnValue_1",
+    "Outer": "GetTransform",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector2D'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_MakeVector2D_ReturnValue_2",
+    "Outer": "GetTransform",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector2D'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_Multiply_Vector2DFloat_ReturnValue",
+    "Outer": "GetTransform",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector2D'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "K2Node_MakeStruct_WidgetTransform",
+    "Outer": "GetTransform",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Struct": {
+      "ObjectName": "ScriptStruct'WidgetTransform'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "K2Node_MakeStruct_WidgetTransform_1",
+    "Outer": "GetTransform",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Struct": {
+      "ObjectName": "ScriptStruct'WidgetTransform'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "K2Node_MakeStruct_WidgetTransform_2",
+    "Outer": "GetTransform",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Struct": {
+      "ObjectName": "ScriptStruct'WidgetTransform'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "Transform",
+    "Outer": "GetTransform",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "Parm | OutParm",
+    "Struct": {
+      "ObjectName": "ScriptStruct'WidgetTransform'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_GetDesiredSize_ReturnValue",
+    "Outer": "SetupText",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector2D'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_GetTransform_Transform",
+    "Outer": "SetupText",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Struct": {
+      "ObjectName": "ScriptStruct'WidgetTransform'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "InShadowColorAndOpacity",
+    "Outer": "UpdateTextColor",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "Struct": {
+      "ObjectName": "ScriptStruct'LinearColor'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "TextBlock_48",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "1D349968470544CD82535EAA3A39BAA7",
+        "SourceString": "A",
+        "LocalizedString": "A"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 1.0,
+          "G": 1.0,
+          "B": 1.0,
+          "A": 0.0,
+          "Hex": "FFFFFF"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_ActingTextLine_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_ActingTextLine.42"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "TextBlock_48",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "1D349968470544CD82535EAA3A39BAA7",
+        "SourceString": "A",
+        "LocalizedString": "A"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 1.0,
+          "G": 1.0,
+          "B": 1.0,
+          "A": 0.0,
+          "Hex": "FFFFFF"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_ActingTextLine.43"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "CallFunc_Conv_StringToText_ReturnValue",
+    "Outer": "SetupText",
+    "Class": "UScriptClass'TextProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "WBP_ActingTextLine_C",
+    "Name": "WidgetArchetype",
+    "Class": "WidgetBlueprintGeneratedClass'GameProject/Content/IND/StoryDrama/common/WBP_ActingTextLine.WBP_ActingTextLine_C'",
+    "Template": {
+      "ObjectName": "WBP_ActingTextLine_C'Default__WBP_ActingTextLine_C'",
+      "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_ActingTextLine.2"
+    },
+    "Flags": "RF_Public | RF_Standalone | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CanvasPanel_0": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_ActingTextLine.41"
+      },
+      "TextBlock_48": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.TextBlock_48'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_ActingTextLine.105"
+      },
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_ActingTextLine.109"
+      },
+      "bCookedWidgetTree": true
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Outer": "WBP_ActingTextLine_C",
+    "Class": "UScriptClass'WidgetTree'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CanvasPanel'WBP_ActingTextLine_C:WidgetTree.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_ActingTextLine.40"
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree_0",
+    "Outer": "WidgetArchetype",
+    "Class": "UScriptClass'WidgetTree'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/StoryDrama/common/WBP_ActingTextLine.41"
+      }
+    }
+  }
+]

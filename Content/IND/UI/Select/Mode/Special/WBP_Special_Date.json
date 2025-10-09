@@ -1,0 +1,1764 @@
+[
+  {
+    "Type": "StructProperty",
+    "Name": "UberGraphFrame",
+    "Outer": "WBP_Special_Date_C",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "Transient | DuplicateTransient",
+    "Struct": {
+      "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "WBP_Special_Date_C",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WBP_Special_Date_C:WidgetTree'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.87"
+      },
+      "bAllowTemplate": true,
+      "bValidTemplate": true,
+      "TemplateAsset": {
+        "AssetPathName": "/Game/IND/UI/Select/Mode/Special/WBP_Special_Date.WidgetArchetype",
+        "SubPathString": ""
+      },
+      "UberGraphFramePointerProperty": {
+        "ObjectName": "StructProperty'WBP_Special_Date_C:UberGraphFrame'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.0"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'WBP_Special_Date_C:ExecuteUbergraph_WBP_Special_Date'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.5"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'UserWidget'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'WBP_Special_Date_C:UberGraphFrame'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.0"
+      },
+      {
+        "ObjectName": "Function'WBP_Special_Date_C:PreConstruct'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.10"
+      },
+      {
+        "ObjectName": "Function'WBP_Special_Date_C:ExecuteUbergraph_WBP_Special_Date'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.5"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Special_Date_C:eff'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.3"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Special_Date_C:Image'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.54"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Special_Date_C:Image_115'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.55"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Special_Date_C:Image_base'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.56"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Special_Date_C:RichTextBlock_309'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.57"
+      },
+      {
+        "ObjectName": "StructProperty'WBP_Special_Date_C:FixedStartDate'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.80"
+      },
+      {
+        "ObjectName": "StructProperty'WBP_Special_Date_C:FixedEndDate'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.79"
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_WBP_Special_Date": {
+        "ObjectName": "Function'WBP_Special_Date_C:ExecuteUbergraph_WBP_Special_Date'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.5"
+      },
+      "PreConstruct": {
+        "ObjectName": "Function'WBP_Special_Date_C:PreConstruct'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.10"
+      }
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "WBP_Special_Date_C'Default__WBP_Special_Date_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.2"
+    }
+  },
+  {
+    "Type": "WBP_Special_Date_C",
+    "Name": "Default__WBP_Special_Date_C",
+    "Class": "WidgetBlueprintGeneratedClass'GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.WBP_Special_Date_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "UberGraphFrame": {},
+      "FixedStartDate": {
+        "Ticks": 0
+      },
+      "FixedEndDate": {
+        "Ticks": 0
+      },
+      "bHasScriptImplementedTick": false,
+      "bHasScriptImplementedPaint": false
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "eff",
+    "Outer": "WBP_Special_Date_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'Image'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "EntryPoint",
+    "Outer": "ExecuteUbergraph_WBP_Special_Date",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_WBP_Special_Date",
+    "Outer": "WBP_Special_Date_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "IntProperty'WBP_Special_Date_C:ExecuteUbergraph_WBP_Special_Date.EntryPoint'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.4"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Special_Date_C:ExecuteUbergraph_WBP_Special_Date.CallFunc_GenerateGamePlayModeObject_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.53"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Special_Date_C:ExecuteUbergraph_WBP_Special_Date.CallFunc_GetStoryTypeOpenFlag_StoryType'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.52"
+      },
+      {
+        "ObjectName": "StructProperty'WBP_Special_Date_C:ExecuteUbergraph_WBP_Special_Date.CallFunc_GetStoryTypeOpenFlag_Start'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.67"
+      },
+      {
+        "ObjectName": "StructProperty'WBP_Special_Date_C:ExecuteUbergraph_WBP_Special_Date.CallFunc_GetStoryTypeOpenFlag_End'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.66"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Special_Date_C:ExecuteUbergraph_WBP_Special_Date.CallFunc_GetStoryTypeOpenFlag_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.8"
+      },
+      {
+        "ObjectName": "StructProperty'WBP_Special_Date_C:ExecuteUbergraph_WBP_Special_Date.CallFunc_Now_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.69"
+      },
+      {
+        "ObjectName": "StructProperty'WBP_Special_Date_C:ExecuteUbergraph_WBP_Special_Date.CallFunc_UtcNow_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.72"
+      },
+      {
+        "ObjectName": "StructProperty'WBP_Special_Date_C:ExecuteUbergraph_WBP_Special_Date.CallFunc_MakeTimespan_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.68"
+      },
+      {
+        "ObjectName": "StructProperty'WBP_Special_Date_C:ExecuteUbergraph_WBP_Special_Date.CallFunc_Subtract_DateTimeDateTime_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.70"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Special_Date_C:ExecuteUbergraph_WBP_Special_Date.K2Node_Event_IsDesignTime'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.9"
+      },
+      {
+        "ObjectName": "StructProperty'WBP_Special_Date_C:ExecuteUbergraph_WBP_Special_Date.CallFunc_Add_DateTimeTimespan_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.64"
+      },
+      {
+        "ObjectName": "StructProperty'WBP_Special_Date_C:ExecuteUbergraph_WBP_Special_Date.CallFunc_Add_DateTimeTimespan_ReturnValue_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.65"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Special_Date_C:ExecuteUbergraph_WBP_Special_Date.CallFunc_BreakDateTime_Year'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.50"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Special_Date_C:ExecuteUbergraph_WBP_Special_Date.CallFunc_BreakDateTime_Month'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.46"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Special_Date_C:ExecuteUbergraph_WBP_Special_Date.CallFunc_BreakDateTime_Day'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.38"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Special_Date_C:ExecuteUbergraph_WBP_Special_Date.CallFunc_BreakDateTime_Hour'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.40"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Special_Date_C:ExecuteUbergraph_WBP_Special_Date.CallFunc_BreakDateTime_Minute'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.44"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Special_Date_C:ExecuteUbergraph_WBP_Special_Date.CallFunc_BreakDateTime_Second'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.48"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Special_Date_C:ExecuteUbergraph_WBP_Special_Date.CallFunc_BreakDateTime_Millisecond'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.42"
+      },
+      {
+        "ObjectName": "StructProperty'WBP_Special_Date_C:ExecuteUbergraph_WBP_Special_Date.CallFunc_Subtract_DateTimeTimespan_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.71"
+      },
+      {
+        "ObjectName": "StructProperty'WBP_Special_Date_C:ExecuteUbergraph_WBP_Special_Date.K2Node_MakeStruct_FormatArgumentData'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.73"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Special_Date_C:ExecuteUbergraph_WBP_Special_Date.CallFunc_BreakDateTime_Year_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.51"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Special_Date_C:ExecuteUbergraph_WBP_Special_Date.CallFunc_BreakDateTime_Month_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.47"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Special_Date_C:ExecuteUbergraph_WBP_Special_Date.CallFunc_BreakDateTime_Day_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.39"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Special_Date_C:ExecuteUbergraph_WBP_Special_Date.CallFunc_BreakDateTime_Hour_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.41"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Special_Date_C:ExecuteUbergraph_WBP_Special_Date.CallFunc_BreakDateTime_Minute_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.45"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Special_Date_C:ExecuteUbergraph_WBP_Special_Date.CallFunc_BreakDateTime_Second_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.49"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Special_Date_C:ExecuteUbergraph_WBP_Special_Date.CallFunc_BreakDateTime_Millisecond_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.43"
+      },
+      {
+        "ObjectName": "StructProperty'WBP_Special_Date_C:ExecuteUbergraph_WBP_Special_Date.K2Node_MakeStruct_FormatArgumentData_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.74"
+      },
+      {
+        "ObjectName": "StructProperty'WBP_Special_Date_C:ExecuteUbergraph_WBP_Special_Date.K2Node_MakeStruct_FormatArgumentData_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.75"
+      },
+      {
+        "ObjectName": "StructProperty'WBP_Special_Date_C:ExecuteUbergraph_WBP_Special_Date.K2Node_MakeStruct_FormatArgumentData_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.76"
+      },
+      {
+        "ObjectName": "TextProperty'WBP_Special_Date_C:ExecuteUbergraph_WBP_Special_Date.CallFunc_Conv_IntToText_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.83"
+      },
+      {
+        "ObjectName": "TextProperty'WBP_Special_Date_C:ExecuteUbergraph_WBP_Special_Date.CallFunc_Conv_IntToText_ReturnValue_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.84"
+      },
+      {
+        "ObjectName": "StructProperty'WBP_Special_Date_C:ExecuteUbergraph_WBP_Special_Date.K2Node_MakeStruct_FormatArgumentData_4'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.77"
+      },
+      {
+        "ObjectName": "StructProperty'WBP_Special_Date_C:ExecuteUbergraph_WBP_Special_Date.K2Node_MakeStruct_FormatArgumentData_5'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.78"
+      },
+      {
+        "ObjectName": "ArrayProperty'WBP_Special_Date_C:ExecuteUbergraph_WBP_Special_Date.K2Node_MakeArray_Array'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.7"
+      },
+      {
+        "ObjectName": "TextProperty'WBP_Special_Date_C:ExecuteUbergraph_WBP_Special_Date.CallFunc_Format_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.85"
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction | FUNC_HasDefaults"
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "K2Node_MakeArray_Array",
+    "Outer": "K2Node_MakeArray_Array",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Struct": {
+      "ObjectName": "ScriptStruct'FormatArgumentData'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ArrayProperty",
+    "Name": "K2Node_MakeArray_Array",
+    "Outer": "ExecuteUbergraph_WBP_Special_Date",
+    "Class": "UScriptClass'ArrayProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "ReferenceParm",
+    "Inner": {
+      "ObjectName": "StructProperty'WBP_Special_Date_C:ExecuteUbergraph_WBP_Special_Date.K2Node_MakeArray_Array.K2Node_MakeArray_Array'",
+      "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.6"
+    }
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_GetStoryTypeOpenFlag_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_Special_Date",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_Event_IsDesignTime",
+    "Outer": "ExecuteUbergraph_WBP_Special_Date",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "Function",
+    "Name": "PreConstruct",
+    "Outer": "WBP_Special_Date_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Function'UserWidget:PreConstruct'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "Children": [
+      {
+        "ObjectName": "BoolProperty'WBP_Special_Date_C:PreConstruct.IsDesignTime'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.11"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCosmetic | FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "IsDesignTime",
+    "Outer": "PreConstruct",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_0",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Special_Date_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.16"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_95",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Special_Date_C:WidgetTree.CanvasPanel_95.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.17"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Special_Date_C:WidgetTree.CanvasPanel_95.CanvasPanelSlot_2'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.22"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Special_Date_C:WidgetTree.CanvasPanel_95.CanvasPanelSlot_12'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.20"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Special_Date_C:WidgetTree.CanvasPanel_95.CanvasPanelSlot_14'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.21"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Special_Date_C:WidgetTree.CanvasPanel_95.CanvasPanelSlot_11'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.19"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Special_Date_C:WidgetTree.CanvasPanel_95.CanvasPanelSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.18"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Special_Date_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.16"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_0",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.23"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_95",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_95.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.24"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_95.CanvasPanelSlot_2'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.29"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_95.CanvasPanelSlot_12'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.27"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_95.CanvasPanelSlot_14'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.28"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_95.CanvasPanelSlot_11'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.26"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_95.CanvasPanelSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.25"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.23"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 676.0,
+          "Bottom": 152.0
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Special_Date_C:WidgetTree.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.12"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WBP_Special_Date_C:WidgetTree.CanvasPanel_95'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.13"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "CanvasPanel_95",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 676.0,
+          "Bottom": 152.0
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Special_Date_C:WidgetTree.CanvasPanel_95'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.13"
+      },
+      "Content": {
+        "ObjectName": "Image'WBP_Special_Date_C:WidgetTree.Image_base'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.33"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "CanvasPanel_95",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": 26.0,
+          "Right": 526.0,
+          "Bottom": 50.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Special_Date_C:WidgetTree.CanvasPanel_95'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.13"
+      },
+      "Content": {
+        "ObjectName": "ScaleBox'WBP_Special_Date_C:WidgetTree.ScaleBox_143'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.60"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_11",
+    "Outer": "CanvasPanel_95",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": 40.0,
+          "Right": 800.0,
+          "Bottom": 36.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Special_Date_C:WidgetTree.CanvasPanel_95'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.13"
+      },
+      "Content": {
+        "ObjectName": "Image'WBP_Special_Date_C:WidgetTree.eff'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.30"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_12",
+    "Outer": "CanvasPanel_95",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": 27.0,
+          "Right": 264.0,
+          "Bottom": 44.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.0
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.0
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Special_Date_C:WidgetTree.CanvasPanel_95'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.13"
+      },
+      "Content": {
+        "ObjectName": "Image'WBP_Special_Date_C:WidgetTree.Image_115'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.32"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_14",
+    "Outer": "CanvasPanel_95",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": 27.0,
+          "Right": 264.0,
+          "Bottom": 44.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.0
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.0
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Special_Date_C:WidgetTree.CanvasPanel_95'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.13"
+      },
+      "Content": {
+        "ObjectName": "Image'WBP_Special_Date_C:WidgetTree.Image'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.31"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_2",
+    "Outer": "CanvasPanel_95",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": 26.0,
+          "Right": 200.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.0
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.0
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Special_Date_C:WidgetTree.CanvasPanel_95'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.13"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WBP_Special_Date_C:WidgetTree.TextBlock_246'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.81"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 676.0,
+          "Bottom": 152.0
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.14"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_95'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.15"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "CanvasPanel_95",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 676.0,
+          "Bottom": 152.0
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_95'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.15"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.Image_base'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.37"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "CanvasPanel_95",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": 26.0,
+          "Right": 526.0,
+          "Bottom": 50.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_95'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.15"
+      },
+      "Content": {
+        "ObjectName": "ScaleBox'WidgetArchetype:WidgetTree_0.ScaleBox_143'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.61"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_11",
+    "Outer": "CanvasPanel_95",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": 40.0,
+          "Right": 800.0,
+          "Bottom": 36.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_95'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.15"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.eff'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.34"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_12",
+    "Outer": "CanvasPanel_95",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": 27.0,
+          "Right": 264.0,
+          "Bottom": 44.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.0
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.0
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_95'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.15"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.Image_115'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.36"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_14",
+    "Outer": "CanvasPanel_95",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": 27.0,
+          "Right": 264.0,
+          "Bottom": 44.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.0
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.0
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_95'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.15"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.Image'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.35"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_2",
+    "Outer": "CanvasPanel_95",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": 26.0,
+          "Right": 200.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.0
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.0
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_95'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.15"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.TextBlock_246'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.82"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "eff",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ResourceObject": {
+          "ObjectName": "MaterialInstanceConstant'MI_GradeEff1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/Material/MI_GradeEff1.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Special_Date_C:WidgetTree.CanvasPanel_95.CanvasPanelSlot_11'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.19"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Image",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ResourceObject": {
+          "ObjectName": "MaterialInstanceConstant'icon_ef_04'",
+          "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Select/Material/icon_ef_04.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Special_Date_C:WidgetTree.CanvasPanel_95.CanvasPanelSlot_14'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.21"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Image_115",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ResourceObject": {
+          "ObjectName": "MaterialInstanceConstant'icon_ef_04'",
+          "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Select/Material/icon_ef_04.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Special_Date_C:WidgetTree.CanvasPanel_95.CanvasPanelSlot_12'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.20"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Image_base",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 676.0,
+          "Y": 128.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_special_mode_date_base'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/Textures/T_special_mode_date_base.0"
+        }
+      },
+      "ColorAndOpacity": {
+        "R": 0.395833,
+        "G": 0.395833,
+        "B": 0.395833,
+        "A": 1.0,
+        "Hex": "A9A9A9"
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Special_Date_C:WidgetTree.CanvasPanel_95.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.17"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "eff",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ResourceObject": {
+          "ObjectName": "MaterialInstanceConstant'MI_GradeEff1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/Material/MI_GradeEff1.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_95.CanvasPanelSlot_11'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.26"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Image",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ResourceObject": {
+          "ObjectName": "MaterialInstanceConstant'icon_ef_04'",
+          "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Select/Material/icon_ef_04.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_95.CanvasPanelSlot_14'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.28"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Image_115",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ResourceObject": {
+          "ObjectName": "MaterialInstanceConstant'icon_ef_04'",
+          "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Select/Material/icon_ef_04.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_95.CanvasPanelSlot_12'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.27"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Image_base",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 676.0,
+          "Y": 128.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_special_mode_date_base'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/Textures/T_special_mode_date_base.0"
+        }
+      },
+      "ColorAndOpacity": {
+        "R": 0.395833,
+        "G": 0.395833,
+        "B": 0.395833,
+        "A": 1.0,
+        "Hex": "A9A9A9"
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_95.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.24"
+      }
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_BreakDateTime_Day",
+    "Outer": "ExecuteUbergraph_WBP_Special_Date",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_BreakDateTime_Day_1",
+    "Outer": "ExecuteUbergraph_WBP_Special_Date",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_BreakDateTime_Hour",
+    "Outer": "ExecuteUbergraph_WBP_Special_Date",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_BreakDateTime_Hour_1",
+    "Outer": "ExecuteUbergraph_WBP_Special_Date",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_BreakDateTime_Millisecond",
+    "Outer": "ExecuteUbergraph_WBP_Special_Date",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_BreakDateTime_Millisecond_1",
+    "Outer": "ExecuteUbergraph_WBP_Special_Date",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_BreakDateTime_Minute",
+    "Outer": "ExecuteUbergraph_WBP_Special_Date",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_BreakDateTime_Minute_1",
+    "Outer": "ExecuteUbergraph_WBP_Special_Date",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_BreakDateTime_Month",
+    "Outer": "ExecuteUbergraph_WBP_Special_Date",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_BreakDateTime_Month_1",
+    "Outer": "ExecuteUbergraph_WBP_Special_Date",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_BreakDateTime_Second",
+    "Outer": "ExecuteUbergraph_WBP_Special_Date",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_BreakDateTime_Second_1",
+    "Outer": "ExecuteUbergraph_WBP_Special_Date",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_BreakDateTime_Year",
+    "Outer": "ExecuteUbergraph_WBP_Special_Date",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_BreakDateTime_Year_1",
+    "Outer": "ExecuteUbergraph_WBP_Special_Date",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_GetStoryTypeOpenFlag_StoryType",
+    "Outer": "ExecuteUbergraph_WBP_Special_Date",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GenerateGamePlayModeObject_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_Special_Date",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyClass": {
+      "ObjectName": "Class'GamePlayModeObject'",
+      "ObjectPath": "/Script/GameProject"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Image",
+    "Outer": "WBP_Special_Date_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'Image'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Image_115",
+    "Outer": "WBP_Special_Date_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'Image'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Image_base",
+    "Outer": "WBP_Special_Date_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'Image'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "RichTextBlock_309",
+    "Outer": "WBP_Special_Date_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'RichTextBlock'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "RichTextBlock",
+    "Name": "RichTextBlock_309",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'RichTextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "D65609304C86D9A6A64C5896926D93F3",
+        "SourceString": "<Middle>2022</><Middle_En>12.25</><Middle>～ 2022</> <Middle_En>1.2</> ",
+        "LocalizedString": "<Middle>2022</><Middle_En>12.25</><Middle>～ 2022</> <Middle_En>1.2</> "
+      },
+      "TextStyleSet": {
+        "ObjectName": "DataTable'RichTextStyleSet_TheorySelectRace'",
+        "ObjectPath": "GameProject/Content/IND/UI/RichTextStyle/RichTextStyleSet_TheorySelectRace.0"
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "ScaleBoxSlot'WBP_Special_Date_C:WidgetTree.ScaleBox_143.ScaleBoxSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.62"
+      },
+      "RenderTransform": {
+        "Shear": {
+          "X": -20.0,
+          "Y": 0.0
+        }
+      }
+    }
+  },
+  {
+    "Type": "RichTextBlock",
+    "Name": "RichTextBlock_309",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'RichTextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "D65609304C86D9A6A64C5896926D93F3",
+        "SourceString": "<Middle>2022</><Middle_En>12.25</><Middle>～ 2022</> <Middle_En>1.2</> ",
+        "LocalizedString": "<Middle>2022</><Middle_En>12.25</><Middle>～ 2022</> <Middle_En>1.2</> "
+      },
+      "TextStyleSet": {
+        "ObjectName": "DataTable'RichTextStyleSet_TheorySelectRace'",
+        "ObjectPath": "GameProject/Content/IND/UI/RichTextStyle/RichTextStyleSet_TheorySelectRace.0"
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "ScaleBoxSlot'WidgetArchetype:WidgetTree_0.ScaleBox_143.ScaleBoxSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.63"
+      },
+      "RenderTransform": {
+        "Shear": {
+          "X": -20.0,
+          "Y": 0.0
+        }
+      }
+    }
+  },
+  {
+    "Type": "ScaleBox",
+    "Name": "ScaleBox_143",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'ScaleBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "ScaleBoxSlot'WBP_Special_Date_C:WidgetTree.ScaleBox_143.ScaleBoxSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.62"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Special_Date_C:WidgetTree.CanvasPanel_95.CanvasPanelSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.18"
+      }
+    }
+  },
+  {
+    "Type": "ScaleBox",
+    "Name": "ScaleBox_143",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'ScaleBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "ScaleBoxSlot'WidgetArchetype:WidgetTree_0.ScaleBox_143.ScaleBoxSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.63"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_95.CanvasPanelSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.25"
+      }
+    }
+  },
+  {
+    "Type": "ScaleBoxSlot",
+    "Name": "ScaleBoxSlot_0",
+    "Outer": "ScaleBox_143",
+    "Class": "UScriptClass'ScaleBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "ScaleBox'WBP_Special_Date_C:WidgetTree.ScaleBox_143'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.60"
+      },
+      "Content": {
+        "ObjectName": "RichTextBlock'WBP_Special_Date_C:WidgetTree.RichTextBlock_309'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.58"
+      }
+    }
+  },
+  {
+    "Type": "ScaleBoxSlot",
+    "Name": "ScaleBoxSlot_0",
+    "Outer": "ScaleBox_143",
+    "Class": "UScriptClass'ScaleBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "ScaleBox'WidgetArchetype:WidgetTree_0.ScaleBox_143'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.61"
+      },
+      "Content": {
+        "ObjectName": "RichTextBlock'WidgetArchetype:WidgetTree_0.RichTextBlock_309'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.59"
+      }
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_Add_DateTimeTimespan_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_Special_Date",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Struct": {
+      "ObjectName": "ScriptStruct'DateTime'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_Add_DateTimeTimespan_ReturnValue_1",
+    "Outer": "ExecuteUbergraph_WBP_Special_Date",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Struct": {
+      "ObjectName": "ScriptStruct'DateTime'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_GetStoryTypeOpenFlag_End",
+    "Outer": "ExecuteUbergraph_WBP_Special_Date",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Struct": {
+      "ObjectName": "ScriptStruct'DateTime'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_GetStoryTypeOpenFlag_Start",
+    "Outer": "ExecuteUbergraph_WBP_Special_Date",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Struct": {
+      "ObjectName": "ScriptStruct'DateTime'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_MakeTimespan_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_Special_Date",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Struct": {
+      "ObjectName": "ScriptStruct'Timespan'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_Now_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_Special_Date",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Struct": {
+      "ObjectName": "ScriptStruct'DateTime'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_Subtract_DateTimeDateTime_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_Special_Date",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Struct": {
+      "ObjectName": "ScriptStruct'Timespan'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_Subtract_DateTimeTimespan_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_Special_Date",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Struct": {
+      "ObjectName": "ScriptStruct'DateTime'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_UtcNow_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_Special_Date",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Struct": {
+      "ObjectName": "ScriptStruct'DateTime'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "K2Node_MakeStruct_FormatArgumentData",
+    "Outer": "ExecuteUbergraph_WBP_Special_Date",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Struct": {
+      "ObjectName": "ScriptStruct'FormatArgumentData'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "K2Node_MakeStruct_FormatArgumentData_1",
+    "Outer": "ExecuteUbergraph_WBP_Special_Date",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Struct": {
+      "ObjectName": "ScriptStruct'FormatArgumentData'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "K2Node_MakeStruct_FormatArgumentData_2",
+    "Outer": "ExecuteUbergraph_WBP_Special_Date",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Struct": {
+      "ObjectName": "ScriptStruct'FormatArgumentData'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "K2Node_MakeStruct_FormatArgumentData_3",
+    "Outer": "ExecuteUbergraph_WBP_Special_Date",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Struct": {
+      "ObjectName": "ScriptStruct'FormatArgumentData'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "K2Node_MakeStruct_FormatArgumentData_4",
+    "Outer": "ExecuteUbergraph_WBP_Special_Date",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Struct": {
+      "ObjectName": "ScriptStruct'FormatArgumentData'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "K2Node_MakeStruct_FormatArgumentData_5",
+    "Outer": "ExecuteUbergraph_WBP_Special_Date",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Struct": {
+      "ObjectName": "ScriptStruct'FormatArgumentData'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "FixedEndDate",
+    "Outer": "WBP_Special_Date_C",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+    "Struct": {
+      "ObjectName": "ScriptStruct'DateTime'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "FixedStartDate",
+    "Outer": "WBP_Special_Date_C",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+    "Struct": {
+      "ObjectName": "ScriptStruct'DateTime'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "TextBlock_246",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "TableId": "/Game/IND/StringTable/BP/ST_GameMessage.ST_GameMessage",
+        "Key": "SpecialMode_Eventperiod",
+        "SourceString": "開催期間",
+        "LocalizedString": "Event period"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "TypefaceFontName": "RodinN_B",
+        "Size": 22
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Special_Date_C:WidgetTree.CanvasPanel_95.CanvasPanelSlot_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.22"
+      },
+      "RenderTransform": {
+        "Shear": {
+          "X": -20.0,
+          "Y": 0.0
+        }
+      }
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "TextBlock_246",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "TableId": "/Game/IND/StringTable/BP/ST_GameMessage.ST_GameMessage",
+        "Key": "SpecialMode_Eventperiod",
+        "SourceString": "開催期間",
+        "LocalizedString": "Event period"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "TypefaceFontName": "RodinN_B",
+        "Size": 22
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_95.CanvasPanelSlot_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.29"
+      },
+      "RenderTransform": {
+        "Shear": {
+          "X": -20.0,
+          "Y": 0.0
+        }
+      }
+    }
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "CallFunc_Conv_IntToText_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_Special_Date",
+    "Class": "UScriptClass'TextProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "CallFunc_Conv_IntToText_ReturnValue_1",
+    "Outer": "ExecuteUbergraph_WBP_Special_Date",
+    "Class": "UScriptClass'TextProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "CallFunc_Format_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_Special_Date",
+    "Class": "UScriptClass'TextProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "WBP_Special_Date_C",
+    "Name": "WidgetArchetype",
+    "Class": "WidgetBlueprintGeneratedClass'GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.WBP_Special_Date_C'",
+    "Template": {
+      "ObjectName": "WBP_Special_Date_C'Default__WBP_Special_Date_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.2"
+    },
+    "Flags": "RF_Public | RF_Standalone | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "eff": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.eff'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.34"
+      },
+      "Image": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.Image'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.35"
+      },
+      "Image_115": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.Image_115'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.36"
+      },
+      "Image_base": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.Image_base'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.37"
+      },
+      "RichTextBlock_309": {
+        "ObjectName": "RichTextBlock'WidgetArchetype:WidgetTree_0.RichTextBlock_309'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.59"
+      },
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.88"
+      },
+      "bCookedWidgetTree": true
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Outer": "WBP_Special_Date_C",
+    "Class": "UScriptClass'WidgetTree'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CanvasPanel'WBP_Special_Date_C:WidgetTree.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.12"
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree_0",
+    "Outer": "WidgetArchetype",
+    "Class": "UScriptClass'WidgetTree'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Mode/Special/WBP_Special_Date.14"
+      }
+    }
+  }
+]

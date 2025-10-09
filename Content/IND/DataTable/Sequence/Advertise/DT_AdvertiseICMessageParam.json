@@ -1,0 +1,124 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_AdvertiseICMessageParam",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "UserDefinedStruct'ST_AdvertiseICMessageParam'",
+        "ObjectPath": "GameProject/Content/IND/DataTable/Sequence/Advertise/ST_AdvertiseICMessageParam.1"
+      }
+    },
+    "Rows": {
+      "NewRow": {
+        "Type_2_9AFEE60F433DAE6E60867D9D02DBA60F": "EAdvertiseICMessageType::Closing",
+        "Message_5_153B6CBB4B95E26B9E517B869195F145": {
+          "TableId": "/Game/IND/StringTable/BP/ST_GameMessage.ST_GameMessage",
+          "Key": "CloseSettingInfo_StoreClosed",
+          "SourceString": "本日は閉店しました。\nAimeの利用はできません。",
+          "LocalizedString": "This store is closed.\nAime is not available."
+        }
+      },
+      "NewRow_0": {
+        "Type_2_9AFEE60F433DAE6E60867D9D02DBA60F": "EAdvertiseICMessageType::ClosingSoon",
+        "Message_5_153B6CBB4B95E26B9E517B869195F145": {
+          "TableId": "/Game/IND/StringTable/BP/ST_GameMessage.ST_GameMessage",
+          "Key": "CloseSettingInfo_StoreCloseSoon",
+          "SourceString": "ただいまの時間はAimeの利用ができません。",
+          "LocalizedString": "This store is going to close soon.\nAime is not available."
+        }
+      },
+      "NewRow_1": {
+        "Type_2_9AFEE60F433DAE6E60867D9D02DBA60F": "EAdvertiseICMessageType::ClosingSoon2",
+        "Message_5_153B6CBB4B95E26B9E517B869195F145": {
+          "TableId": "/Game/IND/StringTable/BP/ST_GameMessage.ST_GameMessage",
+          "Key": "CloseSettingInfo_ClosedMinutes",
+          "SourceString": "あと{RemainClose}分で閉店時刻です。\nあと{RemainAime}分でAimeの利用ができなくなります。",
+          "LocalizedString": "Closed in {RemainClose} minutes.\nAime will be unavailable in {RemainAime} minutes."
+        }
+      },
+      "NewRow_2": {
+        "Type_2_9AFEE60F433DAE6E60867D9D02DBA60F": "EAdvertiseICMessageType::Tournament",
+        "Message_5_153B6CBB4B95E26B9E517B869195F145": {
+          "TableId": "/Game/IND/StringTable/BP/ST_GameMessage.ST_GameMessage",
+          "Key": "DT_Advertise_InstoreTournament",
+          "SourceString": "「店内バトル」大会開催中！\nこのシートは【{SeatNumber}】です",
+          "LocalizedString": "\"In-store Battle\" tournament in session!\nThis is seat [{SeatNumber}]."
+        }
+      },
+      "NewRow_3": {
+        "Type_2_9AFEE60F433DAE6E60867D9D02DBA60F": "EAdvertiseICMessageType::TournamentError",
+        "Message_5_153B6CBB4B95E26B9E517B869195F145": {
+          "TableId": "/Game/IND/StringTable/BP/ST_GameMessage.ST_GameMessage",
+          "Key": "DT_Advertise_TournamentError",
+          "SourceString": "通信エラー発生中\n現在、大会モードはプレイできません",
+          "LocalizedString": "Network error has occured.\nTournament cannot be played now."
+        }
+      },
+      "NewRow_4": {
+        "Type_2_9AFEE60F433DAE6E60867D9D02DBA60F": "EAdvertiseICMessageType::SingleSeat",
+        "Message_5_153B6CBB4B95E26B9E517B869195F145": {
+          "TableId": "/Game/IND/StringTable/BP/ST_GameMessage.ST_GameMessage",
+          "Key": "AdvertiseMessage_Single Seat",
+          "SourceString": "このシートはSINGLEです",
+          "LocalizedString": "This seat is SINGLE."
+        }
+      },
+      "NewRow_5": {
+        "Type_2_9AFEE60F433DAE6E60867D9D02DBA60F": "EAdvertiseICMessageType::ReadyReboot",
+        "Message_5_153B6CBB4B95E26B9E517B869195F145": {
+          "TableId": "/Game/IND/StringTable/BP/ST_GameMessage.ST_GameMessage",
+          "Key": "AdvertiseMessage_Reboot",
+          "SourceString": "再起動準備が整いました。再起動を行います。",
+          "LocalizedString": "Ready to reboot.Reboot the system."
+        }
+      },
+      "NewRow_6": {
+        "Type_2_9AFEE60F433DAE6E60867D9D02DBA60F": "EAdvertiseICMessageType::PrepareRebooting",
+        "Message_5_153B6CBB4B95E26B9E517B869195F145": {
+          "TableId": "/Game/IND/StringTable/BP/ST_GameMessage.ST_GameMessage",
+          "Key": "AdvertiseMessage_Rebooting",
+          "SourceString": "再起動準備中です。プレイできません。",
+          "LocalizedString": "Preparing to reboot.Unable to play the game."
+        }
+      },
+      "NewRow_7": {
+        "Type_2_9AFEE60F433DAE6E60867D9D02DBA60F": "EAdvertiseICMessageType::RebootingSoon",
+        "Message_5_153B6CBB4B95E26B9E517B869195F145": {
+          "TableId": "/Game/IND/StringTable/BP/ST_GameMessage.ST_GameMessage",
+          "Key": "AdvertiseMessage_Rebooting Soon",
+          "SourceString": "もうすぐ再起動がかかります。コンティニュープレイはできません。",
+          "LocalizedString": "There will be a reboot soon.Unable to continue play."
+        }
+      },
+      "NewRow_8": {
+        "Type_2_9AFEE60F433DAE6E60867D9D02DBA60F": "EAdvertiseICMessageType::Reporting",
+        "Message_5_153B6CBB4B95E26B9E517B869195F145": {
+          "TableId": "/Game/IND/StringTable/BP/ST_GameMessage.ST_GameMessage",
+          "Key": "AdvertiseMessage_Reporting",
+          "SourceString": "ただいま、締め処理中です。\nしばらくお待ちください。",
+          "LocalizedString": "It's being processed now.\nPlease wait a while."
+        }
+      },
+      "TournamentA": {
+        "Type_2_9AFEE60F433DAE6E60867D9D02DBA60F": "EAdvertiseICMessageType::TournamentA",
+        "Message_5_153B6CBB4B95E26B9E517B869195F145": {
+          "TableId": "/Game/IND/StringTable/BP/ST_GameMessage.ST_GameMessage",
+          "Key": "DT_Advertise_InstoreTournament_A",
+          "SourceString": "「店内バトル」大会開催中！\n現在、【SPECIAL A (IN-SHOP VS2)】設定です",
+          "LocalizedString": "In-store tournament open now!\nSetting is SPECIAL A (IN-SHOP VS2)."
+        }
+      },
+      "TournamentB": {
+        "Type_2_9AFEE60F433DAE6E60867D9D02DBA60F": "EAdvertiseICMessageType::TournamentB",
+        "Message_5_153B6CBB4B95E26B9E517B869195F145": {
+          "TableId": "/Game/IND/StringTable/BP/ST_GameMessage.ST_GameMessage",
+          "Key": "DT_Advertise_InstoreTournament_B",
+          "SourceString": "「店内バトル」大会開催中！\n現在、【SPECIAL B (IN-SHOP VS4)】設定です",
+          "LocalizedString": "In-store tournament open now!\nSetting is SPECIAL B (IN-SHOP VS4)."
+        }
+      }
+    }
+  }
+]

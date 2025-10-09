@@ -1,0 +1,331 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_SelectPanel_LockReasonMessage",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "UserDefinedStruct'ST_SelectPanel_LockReasonMessage'",
+        "ObjectPath": "GameProject/Content/IND/UI/DataTable/Select/Common/LockReasonMessage/ST_SelectPanel_LockReasonMessage.0"
+      }
+    },
+    "Rows": {
+      "Reason_0": {
+        "Reason_2_5B2433954994CBE80689BD88DC79495A": "Enum_SelectPanel_LockReasonMessage::NewEnumerator8",
+        "Text_6_981E000B41CA2E4ABF0BC397DCDA4D79": {
+          "TableId": "/Game/IND/StringTable/BP/ST_GameMessage.ST_GameMessage",
+          "Key": "StartMenu_FirstPlay",
+          "SourceString": "次回プレイで解放されます",
+          "LocalizedString": "Release in next game"
+        }
+      },
+      "Reason_1": {
+        "Reason_2_5B2433954994CBE80689BD88DC79495A": "Enum_SelectPanel_LockReasonMessage::NewEnumerator0",
+        "Text_6_981E000B41CA2E4ABF0BC397DCDA4D79": {
+          "Namespace": "",
+          "Key": "58669B634DF61B09BFCA0EAB70D5AA77",
+          "SourceString": "Unlocks at tuning level {level}",
+          "LocalizedString": "Unlocks at tuning level {level}"
+        }
+      },
+      "Reason_2": {
+        "Reason_2_5B2433954994CBE80689BD88DC79495A": "Enum_SelectPanel_LockReasonMessage::NewEnumerator2",
+        "Text_6_981E000B41CA2E4ABF0BC397DCDA4D79": {
+          "TableId": "/Game/IND/StringTable/BP/ST_GameMessage.ST_GameMessage",
+          "Key": "Shop_Lock_TimeRelease",
+          "SourceString": "バージョンアップで解放されます",
+          "LocalizedString": "Release in next version"
+        }
+      },
+      "Reason_3": {
+        "Reason_2_5B2433954994CBE80689BD88DC79495A": "Enum_SelectPanel_LockReasonMessage::NewEnumerator3",
+        "Text_6_981E000B41CA2E4ABF0BC397DCDA4D79": {
+          "TableId": "/Game/IND/StringTable/BP/ST_GameMessage.ST_GameMessage",
+          "Key": "Shop_Lock_CarFullTune",
+          "SourceString": "1車種フルチューン達成で解放！",
+          "LocalizedString": "Full tune your car to unlock Online Battle."
+        }
+      },
+      "Reason_4": {
+        "Reason_2_5B2433954994CBE80689BD88DC79495A": "Enum_SelectPanel_LockReasonMessage::NewEnumerator4",
+        "Text_6_981E000B41CA2E4ABF0BC397DCDA4D79": {
+          "TableId": "/Game/IND/StringTable/BP/ST_GameMessage.ST_GameMessage",
+          "Key": "Shop_Shortage_CarCash",
+          "SourceString": "購入に必要なキャッシュが不足しています",
+          "LocalizedString": "You don’t have enough cash"
+        }
+      },
+      "Reason_5": {
+        "Reason_2_5B2433954994CBE80689BD88DC79495A": "Enum_SelectPanel_LockReasonMessage::NewEnumerator1",
+        "Text_6_981E000B41CA2E4ABF0BC397DCDA4D79": {
+          "Namespace": "",
+          "Key": "C8F2A9EA47A92E57B83501BAF9014B9D",
+          "SourceString": "SOLD OUT",
+          "LocalizedString": "SOLD OUT"
+        }
+      },
+      "Reason_6": {
+        "Reason_2_5B2433954994CBE80689BD88DC79495A": "Enum_SelectPanel_LockReasonMessage::NewEnumerator5",
+        "Text_6_981E000B41CA2E4ABF0BC397DCDA4D79": {
+          "TableId": "/Game/IND/StringTable/BP/ST_GameMessage.ST_GameMessage",
+          "Key": "Shop_Shortage_DressupToken",
+          "SourceString": "購入に必要なドレスアップトークンが不足しています",
+          "LocalizedString": "You don’t have enough dress up token(s)"
+        }
+      },
+      "Reason_7": {
+        "Reason_2_5B2433954994CBE80689BD88DC79495A": "Enum_SelectPanel_LockReasonMessage::NewEnumerator9",
+        "Text_6_981E000B41CA2E4ABF0BC397DCDA4D79": {
+          "Namespace": "",
+          "Key": "70C1B6704BB803F8A41DBE89A880D75A",
+          "SourceString": "SOLD OUT",
+          "LocalizedString": "SOLD OUT"
+        }
+      },
+      "Reason_8": {
+        "Reason_2_5B2433954994CBE80689BD88DC79495A": "Enum_SelectPanel_LockReasonMessage::NewEnumerator6",
+        "Text_6_981E000B41CA2E4ABF0BC397DCDA4D79": {
+          "TableId": "/Game/IND/StringTable/BP/ST_GameMessage.ST_GameMessage",
+          "Key": "Shop_Shortage_AvatarToken",
+          "SourceString": "購入に必要なアバタートークンが不足しています",
+          "LocalizedString": "You don’t have enough avatar token(s)"
+        }
+      },
+      "Reason_9": {
+        "Reason_2_5B2433954994CBE80689BD88DC79495A": "Enum_SelectPanel_LockReasonMessage::NewEnumerator7",
+        "Text_6_981E000B41CA2E4ABF0BC397DCDA4D79": {
+          "Namespace": "",
+          "Key": "5AEA5F5649277ABD6FB9B8904D364DAE",
+          "SourceString": "SOLD OUT",
+          "LocalizedString": "SOLD OUT"
+        }
+      },
+      "Reason_10": {
+        "Reason_2_5B2433954994CBE80689BD88DC79495A": "Enum_SelectPanel_LockReasonMessage::NewEnumerator11",
+        "Text_6_981E000B41CA2E4ABF0BC397DCDA4D79": {
+          "TableId": "/Game/IND/StringTable/BP/ST_GameMessage.ST_GameMessage",
+          "Key": "Shop_Lock_TimeRelease",
+          "SourceString": "バージョンアップで解放されます",
+          "LocalizedString": "Release in next version"
+        }
+      },
+      "Reason_11": {
+        "Reason_2_5B2433954994CBE80689BD88DC79495A": "Enum_SelectPanel_LockReasonMessage::NewEnumerator10",
+        "Text_6_981E000B41CA2E4ABF0BC397DCDA4D79": {
+          "TableId": "/Game/IND/StringTable/BP/ST_GameMessage.ST_GameMessage",
+          "Key": "Customize_Lock_KeyHolder",
+          "SourceString": "車内キーホルダーを獲得すると選択できるようになります",
+          "LocalizedString": "Can select after owning a car accessory"
+        }
+      },
+      "Reason_12": {
+        "Reason_2_5B2433954994CBE80689BD88DC79495A": "Enum_SelectPanel_LockReasonMessage::NewEnumerator12",
+        "Text_6_981E000B41CA2E4ABF0BC397DCDA4D79": {
+          "TableId": "/Game/IND/StringTable/BP/ST_GameMessage.ST_GameMessage",
+          "Key": "Customize_Lock_Meter",
+          "SourceString": "メーターを獲得すると選択できるようになります",
+          "LocalizedString": "Can select after owning a meter"
+        }
+      },
+      "Reason_13": {
+        "Reason_2_5B2433954994CBE80689BD88DC79495A": "Enum_SelectPanel_LockReasonMessage::NewEnumerator13",
+        "Text_6_981E000B41CA2E4ABF0BC397DCDA4D79": {
+          "TableId": "/Game/IND/StringTable/BP/ST_GameMessage.ST_GameMessage",
+          "Key": "Customize_Lock_Aura",
+          "SourceString": "オーラカラーを獲得すると選択できるようになります",
+          "LocalizedString": "Can select after owning a aura color"
+        }
+      },
+      "Reason_14": {
+        "Reason_2_5B2433954994CBE80689BD88DC79495A": "Enum_SelectPanel_LockReasonMessage::NewEnumerator14",
+        "Text_6_981E000B41CA2E4ABF0BC397DCDA4D79": {
+          "TableId": "/Game/IND/StringTable/BP/ST_GameMessage.ST_GameMessage",
+          "Key": "Customize_Lock_Title",
+          "SourceString": "称号を獲得すると選択できるようになります",
+          "LocalizedString": "Can select after owning a title"
+        }
+      },
+      "Reason_15": {
+        "Reason_2_5B2433954994CBE80689BD88DC79495A": "Enum_SelectPanel_LockReasonMessage::NewEnumerator15",
+        "Text_6_981E000B41CA2E4ABF0BC397DCDA4D79": {
+          "TableId": "/Game/IND/StringTable/BP/ST_GameMessage.ST_GameMessage",
+          "Key": "Customize_Lock_Manu",
+          "SourceString": "メニュー背景を獲得すると選択できるようになります",
+          "LocalizedString": "Can select after owning a menu background"
+        }
+      },
+      "Reason_16": {
+        "Reason_2_5B2433954994CBE80689BD88DC79495A": "Enum_SelectPanel_LockReasonMessage::NewEnumerator16",
+        "Text_6_981E000B41CA2E4ABF0BC397DCDA4D79": {
+          "TableId": "/Game/IND/StringTable/BP/ST_GameMessage.ST_GameMessage",
+          "Key": "Customize_Lock_CannotSelect",
+          "SourceString": "現在選択できません",
+          "LocalizedString": "Unable to select"
+        }
+      },
+      "Reason_17": {
+        "Reason_2_5B2433954994CBE80689BD88DC79495A": "Enum_SelectPanel_LockReasonMessage::NewEnumerator17",
+        "Text_6_981E000B41CA2E4ABF0BC397DCDA4D79": {
+          "TableId": "/Game/IND/StringTable/BP/ST_GameMessage.ST_GameMessage",
+          "Key": "Shop_Lock_CarFullTune",
+          "SourceString": "1車種フルチューン達成で解放！",
+          "LocalizedString": "Full tune your car to unlock Online Battle."
+        }
+      },
+      "Reason_18": {
+        "Reason_2_5B2433954994CBE80689BD88DC79495A": "Enum_SelectPanel_LockReasonMessage::NewEnumerator18",
+        "Text_6_981E000B41CA2E4ABF0BC397DCDA4D79": {
+          "TableId": "/Game/IND/StringTable/BP/ST_GameMessage.ST_GameMessage",
+          "Key": "ErrorCode_CannotSelectOffline",
+          "SourceString": "オフライン状態のため、選択できません",
+          "LocalizedString": "Cannot select this mode due to the offline."
+        }
+      },
+      "Reason_19": {
+        "Reason_2_5B2433954994CBE80689BD88DC79495A": "Enum_SelectPanel_LockReasonMessage::NewEnumerator19",
+        "Text_6_981E000B41CA2E4ABF0BC397DCDA4D79": {
+          "TableId": "/Game/IND/StringTable/BP/ST_GameMessage.ST_GameMessage",
+          "Key": "StartMenu_Lock_DoNotParticipate",
+          "SourceString": "「参戦しない」を選択したため、今回のプレイでは選択できません",
+          "LocalizedString": "As you chose \"Do Not Participate\",\nyou cannot select this mode in this play."
+        }
+      },
+      "Reason_20": {
+        "Reason_2_5B2433954994CBE80689BD88DC79495A": "Enum_SelectPanel_LockReasonMessage::NewEnumerator20",
+        "Text_6_981E000B41CA2E4ABF0BC397DCDA4D79": {
+          "TableId": "/Game/IND/StringTable/BP/ST_GameMessage.ST_GameMessage",
+          "Key": "ErrorCode_InstoreNoMachine",
+          "SourceString": "店内通信可能な筐体がないため、選択できません",
+          "LocalizedString": "There is no machine that\ncan connect in this store."
+        }
+      },
+      "Reason_21": {
+        "Reason_2_5B2433954994CBE80689BD88DC79495A": "Enum_SelectPanel_LockReasonMessage::NewEnumerator21",
+        "Text_6_981E000B41CA2E4ABF0BC397DCDA4D79": {
+          "TableId": "/Game/IND/StringTable/BP/ST_GameMessage.ST_GameMessage",
+          "Key": "Continue_Lock_CannotSelect_CloseTime",
+          "SourceString": "閉店時間のため選択できません",
+          "LocalizedString": "Unable to select. The store will close shortly."
+        }
+      },
+      "Reason_22": {
+        "Reason_2_5B2433954994CBE80689BD88DC79495A": "Enum_SelectPanel_LockReasonMessage::NewEnumerator22",
+        "Text_6_981E000B41CA2E4ABF0BC397DCDA4D79": {
+          "TableId": "/Game/IND/StringTable/BP/ST_GameMessage.ST_GameMessage",
+          "Key": "Continue_Lock_CannotSelect_Offline",
+          "SourceString": "オフラインのため選択できません",
+          "LocalizedString": "Unable to select due to offline"
+        }
+      },
+      "Reason_23": {
+        "Reason_2_5B2433954994CBE80689BD88DC79495A": "Enum_SelectPanel_LockReasonMessage::NewEnumerator23",
+        "Text_6_981E000B41CA2E4ABF0BC397DCDA4D79": {
+          "TableId": "/Game/IND/StringTable/BP/ST_GameMessage.ST_GameMessage",
+          "Key": "Customize_Lock_CannotSelect",
+          "SourceString": "現在選択できません",
+          "LocalizedString": "Unable to select"
+        }
+      },
+      "Reason_24": {
+        "Reason_2_5B2433954994CBE80689BD88DC79495A": "Enum_SelectPanel_LockReasonMessage::NewEnumerator24",
+        "Text_6_981E000B41CA2E4ABF0BC397DCDA4D79": {
+          "TableId": "/Game/IND/StringTable/BP/ST_GameMessage.ST_GameMessage",
+          "Key": "Customize_Lock_CannotSelect",
+          "SourceString": "現在選択できません",
+          "LocalizedString": "Unable to select"
+        }
+      },
+      "Reason_25": {
+        "Reason_2_5B2433954994CBE80689BD88DC79495A": "Enum_SelectPanel_LockReasonMessage::NewEnumerator26",
+        "Text_6_981E000B41CA2E4ABF0BC397DCDA4D79": {
+          "TableId": "/Game/IND/StringTable/BP/ST_GameMessage.ST_GameMessage",
+          "Key": "StartMenu_Lock_AimeCardOnly",
+          "SourceString": "ゲストプレイのため選択できません",
+          "LocalizedString": "Aime Card players only"
+        }
+      },
+      "Reason_26": {
+        "Reason_2_5B2433954994CBE80689BD88DC79495A": "Enum_SelectPanel_LockReasonMessage::NewEnumerator27",
+        "Text_6_981E000B41CA2E4ABF0BC397DCDA4D79": {
+          "TableId": "/Game/IND/StringTable/BP/ST_GameMessage.ST_GameMessage",
+          "Key": "StartMenuInstore_NotSelectByGuest",
+          "SourceString": "ゲストプレイヤーがいるため選択できません",
+          "LocalizedString": "This course cannot be\nselected by a guest player."
+        }
+      },
+      "Reason_27": {
+        "Reason_2_5B2433954994CBE80689BD88DC79495A": "Enum_SelectPanel_LockReasonMessage::NewEnumerator29",
+        "Text_6_981E000B41CA2E4ABF0BC397DCDA4D79": {
+          "TableId": "/Game/IND/StringTable/BP/ST_GameMessage.ST_GameMessage",
+          "Key": "TheoryMode_NoPowerhouseRivals",
+          "SourceString": "強豪に該当するライバルが存在しないため\n選択できません",
+          "LocalizedString": "Cannot select. Couldn't find 強豪 rival."
+        }
+      },
+      "Reason_28": {
+        "Reason_2_5B2433954994CBE80689BD88DC79495A": "Enum_SelectPanel_LockReasonMessage::NewEnumerator30",
+        "Text_6_981E000B41CA2E4ABF0BC397DCDA4D79": {
+          "TableId": "/Game/IND/StringTable/BP/ST_GameMessage.ST_GameMessage",
+          "Key": "Shop_Lock_FullTune",
+          "SourceString": "所持車種が全てFullTuneのため選択できません",
+          "LocalizedString": "Unable to select because\nall of the owned cars are FullTune."
+        }
+      },
+      "Reason_29": {
+        "Reason_2_5B2433954994CBE80689BD88DC79495A": "Enum_SelectPanel_LockReasonMessage::NewEnumerator31",
+        "Text_6_981E000B41CA2E4ABF0BC397DCDA4D79": {
+          "TableId": "/Game/IND/StringTable/BP/ST_GameMessage.ST_GameMessage",
+          "Key": "Shop_Lock_DoNotHaveTicket",
+          "SourceString": "FullTune車種購入チケットを所持していないので選択できません",
+          "LocalizedString": "Unable to select because\nyou do not have a Full Tune Ticket."
+        }
+      },
+      "Reason_30": {
+        "Reason_2_5B2433954994CBE80689BD88DC79495A": "Enum_SelectPanel_LockReasonMessage::NewEnumerator32",
+        "Text_6_981E000B41CA2E4ABF0BC397DCDA4D79": {
+          "TableId": "/Game/IND/StringTable/BP/ST_GameMessage.ST_GameMessage",
+          "Key": "TheoryMode_Lock_4WD",
+          "SourceString": "駆動方式「４ＷＤ」の任意車種１台を購入する",
+          "LocalizedString": "Purchase a car with a 4WD drive system."
+        }
+      },
+      "Reason_31": {
+        "Reason_2_5B2433954994CBE80689BD88DC79495A": "Enum_SelectPanel_LockReasonMessage::NewEnumerator33",
+        "Text_6_981E000B41CA2E4ABF0BC397DCDA4D79": {
+          "TableId": "/Game/IND/StringTable/BP/ST_GameMessage.ST_GameMessage",
+          "Key": "ModeSelectBubble_NotLatestVersion",
+          "SourceString": "最新バージョンではないため、このモードを選択できません",
+          "LocalizedString": "Unable to select because it is not the latest version."
+        }
+      },
+      "Reason_32": {
+        "Reason_2_5B2433954994CBE80689BD88DC79495A": "Enum_SelectPanel_LockReasonMessage::NewEnumerator34",
+        "Text_6_981E000B41CA2E4ABF0BC397DCDA4D79": {
+          "Namespace": "",
+          "Key": "977F3A3B41585A820C8B35BB839382F3",
+          "SourceString": "Unlock at {Partner} Bond Lv.{Level}",
+          "LocalizedString": "Unlock at {Partner} Bond Lv.{Level}"
+        }
+      },
+      "Reason_33": {
+        "Reason_2_5B2433954994CBE80689BD88DC79495A": "Enum_SelectPanel_LockReasonMessage::NewEnumerator35",
+        "Text_6_981E000B41CA2E4ABF0BC397DCDA4D79": {
+          "TableId": "/Game/IND/StringTable/BP/ST_GameMessage.ST_GameMessage",
+          "Key": "TheoryMode_Lock_Rank",
+          "SourceString": "公道最速理論ランク\n{RankName}達成",
+          "LocalizedString": "Theory Rank\n{RankName} achieved"
+        }
+      },
+      "NewRow": {
+        "Reason_2_5B2433954994CBE80689BD88DC79495A": "Enum_SelectPanel_LockReasonMessage::NewEnumerator36",
+        "Text_6_981E000B41CA2E4ABF0BC397DCDA4D79": {
+          "Namespace": "",
+          "Key": "FDCEF53746EDE904B5ADA18B16AF2A87",
+          "SourceString": "Bunta Challenge",
+          "LocalizedString": "Bunta Challenge"
+        }
+      }
+    }
+  }
+]

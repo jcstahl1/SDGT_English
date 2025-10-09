@@ -1,0 +1,4483 @@
+[
+  {
+    "Type": "StructProperty",
+    "Name": "UberGraphFrame",
+    "Outer": "WBP_Playdata_Car_C",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "Transient | DuplicateTransient",
+    "Struct": {
+      "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "WBP_Playdata_Car_C",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WBP_Playdata_Car_C:WidgetTree'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.163"
+      },
+      "bAllowTemplate": true,
+      "bValidTemplate": true,
+      "Animations": [
+        {
+          "ObjectName": "WidgetAnimation'WBP_Playdata_Car_C:FadeIn_INST'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.161"
+        },
+        {
+          "ObjectName": "WidgetAnimation'WBP_Playdata_Car_C:FadeOut_INST'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.162"
+        }
+      ],
+      "TemplateAsset": {
+        "AssetPathName": "/Game/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.WidgetArchetype",
+        "SubPathString": ""
+      },
+      "UberGraphFramePointerProperty": {
+        "ObjectName": "StructProperty'WBP_Playdata_Car_C:UberGraphFrame'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.0"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'WBP_Playdata_Car_C:ExecuteUbergraph_WBP_Playdata_Car'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.7"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'UserWidget'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'WBP_Playdata_Car_C:UberGraphFrame'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.0"
+      },
+      {
+        "ObjectName": "Function'WBP_Playdata_Car_C:Set NumberOfUses'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.13"
+      },
+      {
+        "ObjectName": "Function'WBP_Playdata_Car_C:PreConstruct'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.10"
+      },
+      {
+        "ObjectName": "Function'WBP_Playdata_Car_C:Construct'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.8"
+      },
+      {
+        "ObjectName": "Function'WBP_Playdata_Car_C:ExecuteUbergraph_WBP_Playdata_Car'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.7"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Playdata_Car_C:FadeOut'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.5"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Playdata_Car_C:FadeIn'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.107"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Playdata_Car_C:Bar_01'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.101"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Playdata_Car_C:Bar_02'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.102"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Playdata_Car_C:Bar_03'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.103"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Playdata_Car_C:Bar_04'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.104"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Playdata_Car_C:Bar_05'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.105"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Playdata_Car_C:Bar_06'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.106"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Playdata_Car_C:Number_01'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.108"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Playdata_Car_C:Number_02'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.109"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Playdata_Car_C:Number_03'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.110"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Playdata_Car_C:Number_04'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.111"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Playdata_Car_C:Number_05'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.112"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Playdata_Car_C:Number_06'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.113"
+      },
+      {
+        "ObjectName": "ArrayProperty'WBP_Playdata_Car_C:NumberOfuses'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.4"
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_WBP_Playdata_Car": {
+        "ObjectName": "Function'WBP_Playdata_Car_C:ExecuteUbergraph_WBP_Playdata_Car'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.7"
+      },
+      "Construct": {
+        "ObjectName": "Function'WBP_Playdata_Car_C:Construct'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.8"
+      },
+      "PreConstruct": {
+        "ObjectName": "Function'WBP_Playdata_Car_C:PreConstruct'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.10"
+      },
+      "Set NumberOfUses": {
+        "ObjectName": "Function'WBP_Playdata_Car_C:Set NumberOfUses'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.13"
+      }
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "WBP_Playdata_Car_C'Default__WBP_Playdata_Car_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.2"
+    }
+  },
+  {
+    "Type": "WBP_Playdata_Car_C",
+    "Name": "Default__WBP_Playdata_Car_C",
+    "Class": "WidgetBlueprintGeneratedClass'GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.WBP_Playdata_Car_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "UberGraphFrame": {},
+      "NumberOfuses": [
+        0,
+        111111,
+        222222,
+        333333,
+        444444,
+        555555
+      ],
+      "bHasScriptImplementedTick": false,
+      "bHasScriptImplementedPaint": false
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "NumberOfuses",
+    "Outer": "NumberOfuses",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "ArrayProperty",
+    "Name": "NumberOfuses",
+    "Outer": "WBP_Playdata_Car_C",
+    "Class": "UScriptClass'ArrayProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "Edit | BlueprintVisible",
+    "Inner": {
+      "ObjectName": "IntProperty'WBP_Playdata_Car_C:NumberOfuses.NumberOfuses'",
+      "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.3"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "FadeOut",
+    "Outer": "WBP_Playdata_Car_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Transient | RepSkip",
+    "PropertyClass": {
+      "ObjectName": "Class'WidgetAnimation'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "EntryPoint",
+    "Outer": "ExecuteUbergraph_WBP_Playdata_Car",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_WBP_Playdata_Car",
+    "Outer": "WBP_Playdata_Car_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "IntProperty'WBP_Playdata_Car_C:ExecuteUbergraph_WBP_Playdata_Car.EntryPoint'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.6"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Playdata_Car_C:ExecuteUbergraph_WBP_Playdata_Car.K2Node_Event_IsDesignTime'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.16"
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "Construct",
+    "Outer": "WBP_Playdata_Car_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Function'UserWidget:Construct'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "FunctionFlags": "FUNC_BlueprintCosmetic | FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "IsDesignTime",
+    "Outer": "PreConstruct",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "Function",
+    "Name": "PreConstruct",
+    "Outer": "WBP_Playdata_Car_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Function'UserWidget:PreConstruct'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "Children": [
+      {
+        "ObjectName": "BoolProperty'WBP_Playdata_Car_C:PreConstruct.IsDesignTime'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.9"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCosmetic | FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "NumberOfuses",
+    "Outer": "NumberOfuses",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "ArrayProperty",
+    "Name": "NumberOfuses",
+    "Outer": "Set NumberOfUses",
+    "Class": "UScriptClass'ArrayProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | OutParm | ReferenceParm",
+    "Inner": {
+      "ObjectName": "IntProperty'WBP_Playdata_Car_C:Set NumberOfUses.NumberOfuses.NumberOfuses'",
+      "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.11"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "Set NumberOfUses",
+    "Outer": "WBP_Playdata_Car_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "ArrayProperty'WBP_Playdata_Car_C:Set NumberOfUses.NumberOfuses'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.12"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Playdata_Car_C:Set NumberOfUses.Temp_int_Array_Index_Variable'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.96"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Playdata_Car_C:Set NumberOfUses.Temp_wildcard_Variable'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.98"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Playdata_Car_C:Set NumberOfUses.CallFunc_Array_Get_Item'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.94"
+      },
+      {
+        "ObjectName": "TextProperty'WBP_Playdata_Car_C:Set NumberOfUses.CallFunc_Conv_IntToText_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.143"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Playdata_Car_C:Set NumberOfUses.CallFunc_Array_IsValidIndex_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.17"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Playdata_Car_C:Set NumberOfUses.Temp_int_Loop_Counter_Variable'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.97"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Playdata_Car_C:Set NumberOfUses.CallFunc_Add_IntInt_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.93"
+      },
+      {
+        "ObjectName": "ArrayProperty'WBP_Playdata_Car_C:Set NumberOfUses.K2Node_MakeArray_Array'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.15"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Playdata_Car_C:Set NumberOfUses.CallFunc_Array_Length_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.95"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Playdata_Car_C:Set NumberOfUses.CallFunc_Array_Get_Item_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.114"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Playdata_Car_C:Set NumberOfUses.CallFunc_Less_IntInt_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.18"
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasOutParms | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "K2Node_MakeArray_Array",
+    "Outer": "K2Node_MakeArray_Array",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "InstancedReference",
+    "PropertyClass": {
+      "ObjectName": "Class'TextBlock'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ArrayProperty",
+    "Name": "K2Node_MakeArray_Array",
+    "Outer": "Set NumberOfUses",
+    "Class": "UScriptClass'ArrayProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "ReferenceParm | ContainsInstancedReference",
+    "Inner": {
+      "ObjectName": "ObjectProperty'WBP_Playdata_Car_C:Set NumberOfUses.K2Node_MakeArray_Array.K2Node_MakeArray_Array'",
+      "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.14"
+    }
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_Event_IsDesignTime",
+    "Outer": "ExecuteUbergraph_WBP_Playdata_Car",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_Array_IsValidIndex_ReturnValue",
+    "Outer": "Set NumberOfUses",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_Less_IntInt_ReturnValue",
+    "Outer": "Set NumberOfUses",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "Bar_01",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Playdata_Car_C:WidgetTree.Bar_01.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.35"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Playdata_Car_C:WidgetTree.Bar_01.CanvasPanelSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.36"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Playdata_Car_C:WidgetTree.Bar_01.CanvasPanelSlot_4'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.37"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'WBP_Playdata_Car_C:WidgetTree.VerticalBox_37.VerticalBoxSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.146"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "Bar_02",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Playdata_Car_C:WidgetTree.Bar_02.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.38"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Playdata_Car_C:WidgetTree.Bar_02.CanvasPanelSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.39"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Playdata_Car_C:WidgetTree.Bar_02.CanvasPanelSlot_2'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.40"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'WBP_Playdata_Car_C:WidgetTree.VerticalBox_37.VerticalBoxSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.147"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "Bar_03",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Playdata_Car_C:WidgetTree.Bar_03.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.41"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Playdata_Car_C:WidgetTree.Bar_03.CanvasPanelSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.42"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Playdata_Car_C:WidgetTree.Bar_03.CanvasPanelSlot_2'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.43"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'WBP_Playdata_Car_C:WidgetTree.VerticalBox_37.VerticalBoxSlot_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.148"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "Bar_04",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Playdata_Car_C:WidgetTree.Bar_04.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.44"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Playdata_Car_C:WidgetTree.Bar_04.CanvasPanelSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.45"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Playdata_Car_C:WidgetTree.Bar_04.CanvasPanelSlot_2'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.46"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'WBP_Playdata_Car_C:WidgetTree.VerticalBox_37.VerticalBoxSlot_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.149"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "Bar_05",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Playdata_Car_C:WidgetTree.Bar_05.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.47"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Playdata_Car_C:WidgetTree.Bar_05.CanvasPanelSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.48"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Playdata_Car_C:WidgetTree.Bar_05.CanvasPanelSlot_2'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.49"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'WBP_Playdata_Car_C:WidgetTree.VerticalBox_37.VerticalBoxSlot_4'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.150"
+      },
+      "bIsVariable": true,
+      "Visibility": "ESlateVisibility::Collapsed"
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "Bar_06",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Playdata_Car_C:WidgetTree.Bar_06.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.50"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Playdata_Car_C:WidgetTree.Bar_06.CanvasPanelSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.51"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Playdata_Car_C:WidgetTree.Bar_06.CanvasPanelSlot_2'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.52"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'WBP_Playdata_Car_C:WidgetTree.VerticalBox_37.VerticalBoxSlot_5'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.151"
+      },
+      "bIsVariable": true,
+      "Visibility": "ESlateVisibility::Collapsed"
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_0",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Playdata_Car_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.53"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Playdata_Car_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_5'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.54"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "Window",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Playdata_Car_C:WidgetTree.Window.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.55"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Playdata_Car_C:WidgetTree.Window.CanvasPanelSlot_2'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.56"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Playdata_Car_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.53"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "Bar_01",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.Bar_01.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.57"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.Bar_01.CanvasPanelSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.58"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.Bar_01.CanvasPanelSlot_4'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.59"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'WidgetArchetype:WidgetTree_0.VerticalBox_37.VerticalBoxSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.153"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "Bar_02",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.Bar_02.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.60"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.Bar_02.CanvasPanelSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.61"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.Bar_02.CanvasPanelSlot_2'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.62"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'WidgetArchetype:WidgetTree_0.VerticalBox_37.VerticalBoxSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.154"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "Bar_03",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.Bar_03.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.63"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.Bar_03.CanvasPanelSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.64"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.Bar_03.CanvasPanelSlot_2'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.65"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'WidgetArchetype:WidgetTree_0.VerticalBox_37.VerticalBoxSlot_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.155"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "Bar_04",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.Bar_04.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.66"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.Bar_04.CanvasPanelSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.67"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.Bar_04.CanvasPanelSlot_2'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.68"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'WidgetArchetype:WidgetTree_0.VerticalBox_37.VerticalBoxSlot_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.156"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "Bar_05",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.Bar_05.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.69"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.Bar_05.CanvasPanelSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.70"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.Bar_05.CanvasPanelSlot_2'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.71"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'WidgetArchetype:WidgetTree_0.VerticalBox_37.VerticalBoxSlot_4'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.157"
+      },
+      "bIsVariable": true,
+      "Visibility": "ESlateVisibility::Collapsed"
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "Bar_06",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.Bar_06.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.72"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.Bar_06.CanvasPanelSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.73"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.Bar_06.CanvasPanelSlot_2'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.74"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'WidgetArchetype:WidgetTree_0.VerticalBox_37.VerticalBoxSlot_5'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.158"
+      },
+      "bIsVariable": true,
+      "Visibility": "ESlateVisibility::Collapsed"
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_0",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.75"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_5'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.76"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "Window",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.Window.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.77"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.Window.CanvasPanelSlot_2'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.78"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.75"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "Bar_01",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Playdata_Car_C:WidgetTree.Bar_01'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.19"
+      },
+      "Content": {
+        "ObjectName": "Image'WBP_Playdata_Car_C:WidgetTree.Image_Bar_Base_01'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.79"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "Bar_01",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 16.0,
+          "Top": 1.0,
+          "Right": 288.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.0,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.0,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.0,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Playdata_Car_C:WidgetTree.Bar_01'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.19"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WBP_Playdata_Car_C:WidgetTree.ModeName_01'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.117"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_4",
+    "Outer": "Bar_01",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 396.0,
+          "Top": 1.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.0,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.0,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Playdata_Car_C:WidgetTree.Bar_01'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.19"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WBP_Playdata_Car_C:WidgetTree.Number_01'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.123"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "Bar_02",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Playdata_Car_C:WidgetTree.Bar_02'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.20"
+      },
+      "Content": {
+        "ObjectName": "Image'WBP_Playdata_Car_C:WidgetTree.Image_Bar_Base_02'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.80"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "Bar_02",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 16.0,
+          "Top": 1.0,
+          "Right": 288.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.0,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.0,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.0,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Playdata_Car_C:WidgetTree.Bar_02'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.20"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WBP_Playdata_Car_C:WidgetTree.ModeName_02'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.118"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_2",
+    "Outer": "Bar_02",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 396.0,
+          "Top": 1.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.0,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.0,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Playdata_Car_C:WidgetTree.Bar_02'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.20"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WBP_Playdata_Car_C:WidgetTree.Number_02'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.124"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "Bar_03",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Playdata_Car_C:WidgetTree.Bar_03'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.21"
+      },
+      "Content": {
+        "ObjectName": "Image'WBP_Playdata_Car_C:WidgetTree.Image_Bar_Base_03'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.81"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "Bar_03",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 16.0,
+          "Top": 1.0,
+          "Right": 288.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.0,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.0,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.0,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Playdata_Car_C:WidgetTree.Bar_03'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.21"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WBP_Playdata_Car_C:WidgetTree.ModeName_03'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.119"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_2",
+    "Outer": "Bar_03",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 396.0,
+          "Top": 1.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.0,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.0,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Playdata_Car_C:WidgetTree.Bar_03'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.21"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WBP_Playdata_Car_C:WidgetTree.Number_03'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.125"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "Bar_04",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Playdata_Car_C:WidgetTree.Bar_04'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.22"
+      },
+      "Content": {
+        "ObjectName": "Image'WBP_Playdata_Car_C:WidgetTree.Image_Bar_Base_04'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.82"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "Bar_04",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 16.0,
+          "Top": 1.0,
+          "Right": 288.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.0,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.0,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.0,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Playdata_Car_C:WidgetTree.Bar_04'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.22"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WBP_Playdata_Car_C:WidgetTree.ModeName_04'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.120"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_2",
+    "Outer": "Bar_04",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 396.0,
+          "Top": 1.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.0,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.0,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Playdata_Car_C:WidgetTree.Bar_04'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.22"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WBP_Playdata_Car_C:WidgetTree.Number_04'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.126"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "Bar_05",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Playdata_Car_C:WidgetTree.Bar_05'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.23"
+      },
+      "Content": {
+        "ObjectName": "Image'WBP_Playdata_Car_C:WidgetTree.Image_Bar_Base_05'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.83"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "Bar_05",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 16.0,
+          "Top": 1.0,
+          "Right": 288.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.0,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.0,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.0,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Playdata_Car_C:WidgetTree.Bar_05'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.23"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WBP_Playdata_Car_C:WidgetTree.ModeName_05'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.121"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_2",
+    "Outer": "Bar_05",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 396.0,
+          "Top": 1.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.0,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.0,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Playdata_Car_C:WidgetTree.Bar_05'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.23"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WBP_Playdata_Car_C:WidgetTree.Number_05'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.127"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "Bar_06",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Playdata_Car_C:WidgetTree.Bar_06'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.24"
+      },
+      "Content": {
+        "ObjectName": "Image'WBP_Playdata_Car_C:WidgetTree.Image_Bar_Base_06'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.84"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "Bar_06",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 16.0,
+          "Top": 1.0,
+          "Right": 288.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.0,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.0,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.0,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Playdata_Car_C:WidgetTree.Bar_06'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.24"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WBP_Playdata_Car_C:WidgetTree.ModeName_06'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.122"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_2",
+    "Outer": "Bar_06",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 396.0,
+          "Top": 1.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.0,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.0,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Playdata_Car_C:WidgetTree.Bar_06'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.24"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WBP_Playdata_Car_C:WidgetTree.Number_06'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.128"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 534.0,
+          "Bottom": 288.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.0
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.0
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.0
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Playdata_Car_C:WidgetTree.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.25"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WBP_Playdata_Car_C:WidgetTree.Window'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.26"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_5",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": -118.0,
+          "Right": 288.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Playdata_Car_C:WidgetTree.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.25"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WBP_Playdata_Car_C:WidgetTree.WindowTitle'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.129"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "Window",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 534.0,
+          "Bottom": 0.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.0
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 1.0
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.0
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Playdata_Car_C:WidgetTree.Window'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.26"
+      },
+      "Content": {
+        "ObjectName": "Image'WBP_Playdata_Car_C:WidgetTree.Image_Window_Base'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.85"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_2",
+    "Outer": "Window",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": 50.0,
+          "Right": 508.0,
+          "Bottom": 144.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.0
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.0
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.0
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Playdata_Car_C:WidgetTree.Window'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.26"
+      },
+      "Content": {
+        "ObjectName": "VerticalBox'WBP_Playdata_Car_C:WidgetTree.VerticalBox_37'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.144"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "Bar_01",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.Bar_01'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.27"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.Image_Bar_Base_01'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.86"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "Bar_01",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 16.0,
+          "Top": 1.0,
+          "Right": 288.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.0,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.0,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.0,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.Bar_01'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.27"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.ModeName_01'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.130"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_4",
+    "Outer": "Bar_01",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 396.0,
+          "Top": 1.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.0,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.0,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.Bar_01'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.27"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.Number_01'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.136"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "Bar_02",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.Bar_02'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.28"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.Image_Bar_Base_02'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.87"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "Bar_02",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 16.0,
+          "Top": 1.0,
+          "Right": 288.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.0,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.0,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.0,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.Bar_02'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.28"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.ModeName_02'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.131"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_2",
+    "Outer": "Bar_02",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 396.0,
+          "Top": 1.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.0,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.0,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.Bar_02'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.28"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.Number_02'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.137"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "Bar_03",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.Bar_03'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.29"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.Image_Bar_Base_03'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.88"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "Bar_03",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 16.0,
+          "Top": 1.0,
+          "Right": 288.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.0,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.0,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.0,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.Bar_03'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.29"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.ModeName_03'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.132"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_2",
+    "Outer": "Bar_03",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 396.0,
+          "Top": 1.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.0,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.0,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.Bar_03'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.29"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.Number_03'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.138"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "Bar_04",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.Bar_04'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.30"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.Image_Bar_Base_04'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.89"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "Bar_04",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 16.0,
+          "Top": 1.0,
+          "Right": 288.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.0,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.0,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.0,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.Bar_04'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.30"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.ModeName_04'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.133"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_2",
+    "Outer": "Bar_04",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 396.0,
+          "Top": 1.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.0,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.0,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.Bar_04'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.30"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.Number_04'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.139"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "Bar_05",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.Bar_05'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.31"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.Image_Bar_Base_05'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.90"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "Bar_05",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 16.0,
+          "Top": 1.0,
+          "Right": 288.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.0,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.0,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.0,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.Bar_05'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.31"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.ModeName_05'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.134"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_2",
+    "Outer": "Bar_05",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 396.0,
+          "Top": 1.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.0,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.0,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.Bar_05'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.31"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.Number_05'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.140"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "Bar_06",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.Bar_06'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.32"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.Image_Bar_Base_06'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.91"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "Bar_06",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 16.0,
+          "Top": 1.0,
+          "Right": 288.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.0,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.0,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.0,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.Bar_06'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.32"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.ModeName_06'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.135"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_2",
+    "Outer": "Bar_06",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 396.0,
+          "Top": 1.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.0,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.0,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.Bar_06'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.32"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.Number_06'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.141"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 534.0,
+          "Bottom": 288.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.0
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.0
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.0
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.33"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.Window'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.34"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_5",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": -118.0,
+          "Right": 288.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.33"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.WindowTitle'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.142"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "Window",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 534.0,
+          "Bottom": 0.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.0
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 1.0
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.0
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.Window'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.34"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.Image_Window_Base'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.92"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_2",
+    "Outer": "Window",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": 50.0,
+          "Right": 508.0,
+          "Bottom": 144.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.0
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.0
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.0
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.Window'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.34"
+      },
+      "Content": {
+        "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.VerticalBox_37'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.145"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Image_Bar_Base_01",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 508.0,
+          "Y": 32.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Playdata_CarUse_Bar_Base'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/Texture/T_Playdata_CarUse_Bar_Base.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Playdata_Car_C:WidgetTree.Bar_01.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.35"
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Image_Bar_Base_02",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 508.0,
+          "Y": 32.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Playdata_CarUse_Bar_Base'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/Texture/T_Playdata_CarUse_Bar_Base.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Playdata_Car_C:WidgetTree.Bar_02.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.38"
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Image_Bar_Base_03",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 508.0,
+          "Y": 32.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Playdata_CarUse_Bar_Base'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/Texture/T_Playdata_CarUse_Bar_Base.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Playdata_Car_C:WidgetTree.Bar_03.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.41"
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Image_Bar_Base_04",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 508.0,
+          "Y": 32.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Playdata_CarUse_Bar_Base'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/Texture/T_Playdata_CarUse_Bar_Base.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Playdata_Car_C:WidgetTree.Bar_04.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.44"
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Image_Bar_Base_05",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 508.0,
+          "Y": 32.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Playdata_CarUse_Bar_Base'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/Texture/T_Playdata_CarUse_Bar_Base.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Playdata_Car_C:WidgetTree.Bar_05.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.47"
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Image_Bar_Base_06",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 508.0,
+          "Y": 32.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Playdata_CarUse_Bar_Base'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/Texture/T_Playdata_CarUse_Bar_Base.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Playdata_Car_C:WidgetTree.Bar_06.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.50"
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Image_Window_Base",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 80.0,
+          "Y": 80.0
+        },
+        "Margin": {
+          "Left": 0.5,
+          "Top": 0.5,
+          "Right": 0.5,
+          "Bottom": 0.5
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Playdata_CarUse_Window_Base'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/Texture/T_Playdata_CarUse_Window_Base.0"
+        },
+        "DrawAs": "ESlateBrushDrawType::Box"
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Playdata_Car_C:WidgetTree.Window.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.55"
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Image_Bar_Base_01",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 508.0,
+          "Y": 32.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Playdata_CarUse_Bar_Base'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/Texture/T_Playdata_CarUse_Bar_Base.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.Bar_01.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.57"
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Image_Bar_Base_02",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 508.0,
+          "Y": 32.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Playdata_CarUse_Bar_Base'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/Texture/T_Playdata_CarUse_Bar_Base.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.Bar_02.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.60"
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Image_Bar_Base_03",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 508.0,
+          "Y": 32.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Playdata_CarUse_Bar_Base'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/Texture/T_Playdata_CarUse_Bar_Base.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.Bar_03.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.63"
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Image_Bar_Base_04",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 508.0,
+          "Y": 32.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Playdata_CarUse_Bar_Base'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/Texture/T_Playdata_CarUse_Bar_Base.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.Bar_04.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.66"
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Image_Bar_Base_05",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 508.0,
+          "Y": 32.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Playdata_CarUse_Bar_Base'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/Texture/T_Playdata_CarUse_Bar_Base.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.Bar_05.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.69"
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Image_Bar_Base_06",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 508.0,
+          "Y": 32.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Playdata_CarUse_Bar_Base'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/Texture/T_Playdata_CarUse_Bar_Base.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.Bar_06.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.72"
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Image_Window_Base",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 80.0,
+          "Y": 80.0
+        },
+        "Margin": {
+          "Left": 0.5,
+          "Top": 0.5,
+          "Right": 0.5,
+          "Bottom": 0.5
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Playdata_CarUse_Window_Base'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/Texture/T_Playdata_CarUse_Window_Base.0"
+        },
+        "DrawAs": "ESlateBrushDrawType::Box"
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.Window.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.77"
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_Add_IntInt_ReturnValue",
+    "Outer": "Set NumberOfUses",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_Array_Get_Item",
+    "Outer": "Set NumberOfUses",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_Array_Length_ReturnValue",
+    "Outer": "Set NumberOfUses",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "Temp_int_Array_Index_Variable",
+    "Outer": "Set NumberOfUses",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "Temp_int_Loop_Counter_Variable",
+    "Outer": "Set NumberOfUses",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "Temp_wildcard_Variable",
+    "Outer": "Set NumberOfUses",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "MovieScene",
+    "Name": "FadeIn",
+    "Outer": "FadeIn_INST",
+    "Class": "UScriptClass'MovieScene'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "PlaybackRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 300001
+            }
+          }
+        }
+      },
+      "DisplayRate": {
+        "Numerator": 20
+      },
+      "Signature": "91C2F0DA-42F7EDEF-D0A1FA82-A6946E80"
+    }
+  },
+  {
+    "Type": "MovieScene",
+    "Name": "FadeOut",
+    "Outer": "FadeOut_INST",
+    "Class": "UScriptClass'MovieScene'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "PlaybackRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 300001
+            }
+          }
+        }
+      },
+      "DisplayRate": {
+        "Numerator": 20
+      },
+      "Signature": "7BAA38A8-4E5A5264-C5F4E985-C19AA841"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Bar_01",
+    "Outer": "WBP_Playdata_Car_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'CanvasPanel'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Bar_02",
+    "Outer": "WBP_Playdata_Car_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'CanvasPanel'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Bar_03",
+    "Outer": "WBP_Playdata_Car_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'CanvasPanel'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Bar_04",
+    "Outer": "WBP_Playdata_Car_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'CanvasPanel'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Bar_05",
+    "Outer": "WBP_Playdata_Car_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'CanvasPanel'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Bar_06",
+    "Outer": "WBP_Playdata_Car_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'CanvasPanel'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "FadeIn",
+    "Outer": "WBP_Playdata_Car_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Transient | RepSkip",
+    "PropertyClass": {
+      "ObjectName": "Class'WidgetAnimation'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Number_01",
+    "Outer": "WBP_Playdata_Car_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'TextBlock'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Number_02",
+    "Outer": "WBP_Playdata_Car_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'TextBlock'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Number_03",
+    "Outer": "WBP_Playdata_Car_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'TextBlock'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Number_04",
+    "Outer": "WBP_Playdata_Car_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'TextBlock'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Number_05",
+    "Outer": "WBP_Playdata_Car_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'TextBlock'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Number_06",
+    "Outer": "WBP_Playdata_Car_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'TextBlock'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_Array_Get_Item_1",
+    "Outer": "Set NumberOfUses",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "InstancedReference",
+    "PropertyClass": {
+      "ObjectName": "Class'TextBlock'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "Spacer",
+    "Name": "Spacer_69",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'Spacer'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Size": {
+        "X": 1.0,
+        "Y": 22.0
+      },
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'WBP_Playdata_Car_C:WidgetTree.VerticalBox_37.VerticalBoxSlot_7'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.152"
+      }
+    }
+  },
+  {
+    "Type": "Spacer",
+    "Name": "Spacer_69",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Spacer'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Size": {
+        "X": 1.0,
+        "Y": 22.0
+      },
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'WidgetArchetype:WidgetTree_0.VerticalBox_37.VerticalBoxSlot_7'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.159"
+      }
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "ModeName_01",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "TableId": "/Game/IND/StringTable/BP/ST_GameMessage.ST_GameMessage",
+        "Key": "PlaydataCar_Story",
+        "SourceString": "ストーリー",
+        "LocalizedString": "Story"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 2
+        },
+        "TypefaceFontName": "RodinN_EB",
+        "Size": 16
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Playdata_Car_C:WidgetTree.Bar_01.CanvasPanelSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.36"
+      },
+      "RenderTransformPivot": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "ModeName_02",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "TableId": "/Game/IND/StringTable/BP/ST_GameMessage.ST_GameMessage",
+        "Key": "PlaydataCar_TimeTrial",
+        "SourceString": "タイムトライアル",
+        "LocalizedString": "Time Trial"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 2
+        },
+        "TypefaceFontName": "RodinN_EB",
+        "Size": 16
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Playdata_Car_C:WidgetTree.Bar_02.CanvasPanelSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.39"
+      },
+      "RenderTransformPivot": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "ModeName_03",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "TableId": "/Game/IND/StringTable/BP/ST_GameMessage.ST_GameMessage",
+        "Key": "PlaydataCar_InstoreBattle",
+        "SourceString": "店内バトル",
+        "LocalizedString": "In-store Battle"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 2
+        },
+        "TypefaceFontName": "RodinN_EB",
+        "Size": 16
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Playdata_Car_C:WidgetTree.Bar_03.CanvasPanelSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.42"
+      },
+      "RenderTransformPivot": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "ModeName_04",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "TableId": "/Game/IND/StringTable/BP/ST_GameMessage.ST_GameMessage",
+        "Key": "PlaydataCar_OnlineBattle",
+        "SourceString": "オンラインバトル",
+        "LocalizedString": "Online Battle"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 2
+        },
+        "TypefaceFontName": "RodinN_EB",
+        "Size": 16
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Playdata_Car_C:WidgetTree.Bar_04.CanvasPanelSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.45"
+      },
+      "RenderTransformPivot": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "ModeName_05",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "TableId": "/Game/IND/StringTable/BP/ST_GameMessage.ST_GameMessage",
+        "Key": "PlaydataCar_Theory",
+        "SourceString": "公道最速理論",
+        "LocalizedString": "Theory of Street"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 2
+        },
+        "TypefaceFontName": "RodinN_EB",
+        "Size": 16
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Playdata_Car_C:WidgetTree.Bar_05.CanvasPanelSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.48"
+      },
+      "RenderTransformPivot": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "ModeName_06",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "43A1F79D473A5E111642BD8CB8CB6BD3",
+        "SourceString": "文字文字文字文字文字",
+        "LocalizedString": "文字文字文字文字文字"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 2
+        },
+        "TypefaceFontName": "RodinN_EB",
+        "Size": 16
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Playdata_Car_C:WidgetTree.Bar_06.CanvasPanelSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.51"
+      },
+      "RenderTransformPivot": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "Number_01",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "56EB5DA14E49376D7DCF84BA71AA9E15",
+        "SourceString": "8",
+        "LocalizedString": "8"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 0.0,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "000000"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "TypefaceFontName": "RodinN_B",
+        "Size": 20
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Playdata_Car_C:WidgetTree.Bar_01.CanvasPanelSlot_4'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.37"
+      },
+      "RenderTransformPivot": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "Number_02",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "5870AEE3456AAFD80661B4AB59294FA8",
+        "SourceString": "888888",
+        "LocalizedString": "888888"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 0.0,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "000000"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "TypefaceFontName": "RodinN_B",
+        "Size": 20
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Playdata_Car_C:WidgetTree.Bar_02.CanvasPanelSlot_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.40"
+      },
+      "RenderTransformPivot": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "Number_03",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "333600F148A4B3912F7736B498A17B37",
+        "SourceString": "888888",
+        "LocalizedString": "888888"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 0.0,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "000000"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "TypefaceFontName": "RodinN_B",
+        "Size": 20
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Playdata_Car_C:WidgetTree.Bar_03.CanvasPanelSlot_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.43"
+      },
+      "RenderTransformPivot": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "Number_04",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "910432FE47A2C1BFACA537B2EF176627",
+        "SourceString": "888888",
+        "LocalizedString": "888888"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 0.0,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "000000"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "TypefaceFontName": "RodinN_B",
+        "Size": 20
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Playdata_Car_C:WidgetTree.Bar_04.CanvasPanelSlot_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.46"
+      },
+      "RenderTransformPivot": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "Number_05",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "14E690224BC6FEA3A4FF758BEB88F3B0",
+        "SourceString": "888888",
+        "LocalizedString": "888888"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 0.0,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "000000"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "TypefaceFontName": "RodinN_B",
+        "Size": 20
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Playdata_Car_C:WidgetTree.Bar_05.CanvasPanelSlot_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.49"
+      },
+      "RenderTransformPivot": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "Number_06",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "CD814C4846EA958F6934EC8CB8C8B7B9",
+        "SourceString": "888888",
+        "LocalizedString": "888888"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 0.0,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "000000"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "TypefaceFontName": "RodinN_B",
+        "Size": 20
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Playdata_Car_C:WidgetTree.Bar_06.CanvasPanelSlot_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.52"
+      },
+      "RenderTransformPivot": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "WindowTitle",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "TableId": "/Game/IND/StringTable/BP/ST_GameMessage.ST_GameMessage",
+        "Key": "PlaydataCar_NumUsed",
+        "SourceString": "使用回数",
+        "LocalizedString": "Number of Times Used"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 2
+        },
+        "TypefaceFontName": "RodinN_EB",
+        "Size": 20
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Playdata_Car_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_5'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.54"
+      },
+      "RenderTransformPivot": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "ModeName_01",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "TableId": "/Game/IND/StringTable/BP/ST_GameMessage.ST_GameMessage",
+        "Key": "PlaydataCar_Story",
+        "SourceString": "ストーリー",
+        "LocalizedString": "Story"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 2
+        },
+        "TypefaceFontName": "RodinN_EB",
+        "Size": 16
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.Bar_01.CanvasPanelSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.58"
+      },
+      "RenderTransformPivot": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "ModeName_02",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "TableId": "/Game/IND/StringTable/BP/ST_GameMessage.ST_GameMessage",
+        "Key": "PlaydataCar_TimeTrial",
+        "SourceString": "タイムトライアル",
+        "LocalizedString": "Time Trial"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 2
+        },
+        "TypefaceFontName": "RodinN_EB",
+        "Size": 16
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.Bar_02.CanvasPanelSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.61"
+      },
+      "RenderTransformPivot": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "ModeName_03",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "TableId": "/Game/IND/StringTable/BP/ST_GameMessage.ST_GameMessage",
+        "Key": "PlaydataCar_InstoreBattle",
+        "SourceString": "店内バトル",
+        "LocalizedString": "In-store Battle"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 2
+        },
+        "TypefaceFontName": "RodinN_EB",
+        "Size": 16
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.Bar_03.CanvasPanelSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.64"
+      },
+      "RenderTransformPivot": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "ModeName_04",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "TableId": "/Game/IND/StringTable/BP/ST_GameMessage.ST_GameMessage",
+        "Key": "PlaydataCar_OnlineBattle",
+        "SourceString": "オンラインバトル",
+        "LocalizedString": "Online Battle"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 2
+        },
+        "TypefaceFontName": "RodinN_EB",
+        "Size": 16
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.Bar_04.CanvasPanelSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.67"
+      },
+      "RenderTransformPivot": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "ModeName_05",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "TableId": "/Game/IND/StringTable/BP/ST_GameMessage.ST_GameMessage",
+        "Key": "PlaydataCar_Theory",
+        "SourceString": "公道最速理論",
+        "LocalizedString": "Theory of Street"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 2
+        },
+        "TypefaceFontName": "RodinN_EB",
+        "Size": 16
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.Bar_05.CanvasPanelSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.70"
+      },
+      "RenderTransformPivot": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "ModeName_06",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "43A1F79D473A5E111642BD8CB8CB6BD3",
+        "SourceString": "文字文字文字文字文字",
+        "LocalizedString": "文字文字文字文字文字"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 2
+        },
+        "TypefaceFontName": "RodinN_EB",
+        "Size": 16
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.Bar_06.CanvasPanelSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.73"
+      },
+      "RenderTransformPivot": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "Number_01",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "56EB5DA14E49376D7DCF84BA71AA9E15",
+        "SourceString": "8",
+        "LocalizedString": "8"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 0.0,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "000000"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "TypefaceFontName": "RodinN_B",
+        "Size": 20
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.Bar_01.CanvasPanelSlot_4'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.59"
+      },
+      "RenderTransformPivot": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "Number_02",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "5870AEE3456AAFD80661B4AB59294FA8",
+        "SourceString": "888888",
+        "LocalizedString": "888888"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 0.0,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "000000"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "TypefaceFontName": "RodinN_B",
+        "Size": 20
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.Bar_02.CanvasPanelSlot_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.62"
+      },
+      "RenderTransformPivot": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "Number_03",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "333600F148A4B3912F7736B498A17B37",
+        "SourceString": "888888",
+        "LocalizedString": "888888"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 0.0,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "000000"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "TypefaceFontName": "RodinN_B",
+        "Size": 20
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.Bar_03.CanvasPanelSlot_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.65"
+      },
+      "RenderTransformPivot": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "Number_04",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "910432FE47A2C1BFACA537B2EF176627",
+        "SourceString": "888888",
+        "LocalizedString": "888888"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 0.0,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "000000"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "TypefaceFontName": "RodinN_B",
+        "Size": 20
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.Bar_04.CanvasPanelSlot_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.68"
+      },
+      "RenderTransformPivot": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "Number_05",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "14E690224BC6FEA3A4FF758BEB88F3B0",
+        "SourceString": "888888",
+        "LocalizedString": "888888"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 0.0,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "000000"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "TypefaceFontName": "RodinN_B",
+        "Size": 20
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.Bar_05.CanvasPanelSlot_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.71"
+      },
+      "RenderTransformPivot": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "Number_06",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "CD814C4846EA958F6934EC8CB8C8B7B9",
+        "SourceString": "888888",
+        "LocalizedString": "888888"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 0.0,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "000000"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "TypefaceFontName": "RodinN_B",
+        "Size": 20
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.Bar_06.CanvasPanelSlot_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.74"
+      },
+      "RenderTransformPivot": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "WindowTitle",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "TableId": "/Game/IND/StringTable/BP/ST_GameMessage.ST_GameMessage",
+        "Key": "PlaydataCar_NumUsed",
+        "SourceString": "使用回数",
+        "LocalizedString": "Number of Times Used"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 2
+        },
+        "TypefaceFontName": "RodinN_EB",
+        "Size": 20
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_5'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.76"
+      },
+      "RenderTransformPivot": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    }
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "CallFunc_Conv_IntToText_ReturnValue",
+    "Outer": "Set NumberOfUses",
+    "Class": "UScriptClass'TextProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "VerticalBox",
+    "Name": "VerticalBox_37",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'VerticalBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "VerticalBoxSlot'WBP_Playdata_Car_C:WidgetTree.VerticalBox_37.VerticalBoxSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.146"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'WBP_Playdata_Car_C:WidgetTree.VerticalBox_37.VerticalBoxSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.147"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'WBP_Playdata_Car_C:WidgetTree.VerticalBox_37.VerticalBoxSlot_2'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.148"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'WBP_Playdata_Car_C:WidgetTree.VerticalBox_37.VerticalBoxSlot_3'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.149"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'WBP_Playdata_Car_C:WidgetTree.VerticalBox_37.VerticalBoxSlot_4'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.150"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'WBP_Playdata_Car_C:WidgetTree.VerticalBox_37.VerticalBoxSlot_5'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.151"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'WBP_Playdata_Car_C:WidgetTree.VerticalBox_37.VerticalBoxSlot_7'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.152"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Playdata_Car_C:WidgetTree.Window.CanvasPanelSlot_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.56"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBox",
+    "Name": "VerticalBox_37",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'VerticalBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "VerticalBoxSlot'WidgetArchetype:WidgetTree_0.VerticalBox_37.VerticalBoxSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.153"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'WidgetArchetype:WidgetTree_0.VerticalBox_37.VerticalBoxSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.154"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'WidgetArchetype:WidgetTree_0.VerticalBox_37.VerticalBoxSlot_2'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.155"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'WidgetArchetype:WidgetTree_0.VerticalBox_37.VerticalBoxSlot_3'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.156"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'WidgetArchetype:WidgetTree_0.VerticalBox_37.VerticalBoxSlot_4'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.157"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'WidgetArchetype:WidgetTree_0.VerticalBox_37.VerticalBoxSlot_5'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.158"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'WidgetArchetype:WidgetTree_0.VerticalBox_37.VerticalBoxSlot_7'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.159"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.Window.CanvasPanelSlot_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.78"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_0",
+    "Outer": "VerticalBox_37",
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Padding": {
+        "Bottom": 4.0
+      },
+      "HorizontalAlignment": "HAlign_Center",
+      "Parent": {
+        "ObjectName": "VerticalBox'WBP_Playdata_Car_C:WidgetTree.VerticalBox_37'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.144"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WBP_Playdata_Car_C:WidgetTree.Bar_01'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.19"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_1",
+    "Outer": "VerticalBox_37",
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Padding": {
+        "Bottom": 4.0
+      },
+      "HorizontalAlignment": "HAlign_Center",
+      "Parent": {
+        "ObjectName": "VerticalBox'WBP_Playdata_Car_C:WidgetTree.VerticalBox_37'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.144"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WBP_Playdata_Car_C:WidgetTree.Bar_02'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.20"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_2",
+    "Outer": "VerticalBox_37",
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Padding": {
+        "Bottom": 4.0
+      },
+      "HorizontalAlignment": "HAlign_Center",
+      "Parent": {
+        "ObjectName": "VerticalBox'WBP_Playdata_Car_C:WidgetTree.VerticalBox_37'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.144"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WBP_Playdata_Car_C:WidgetTree.Bar_03'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.21"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_3",
+    "Outer": "VerticalBox_37",
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Padding": {
+        "Bottom": 4.0
+      },
+      "HorizontalAlignment": "HAlign_Center",
+      "Parent": {
+        "ObjectName": "VerticalBox'WBP_Playdata_Car_C:WidgetTree.VerticalBox_37'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.144"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WBP_Playdata_Car_C:WidgetTree.Bar_04'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.22"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_4",
+    "Outer": "VerticalBox_37",
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Padding": {
+        "Bottom": 4.0
+      },
+      "HorizontalAlignment": "HAlign_Center",
+      "Parent": {
+        "ObjectName": "VerticalBox'WBP_Playdata_Car_C:WidgetTree.VerticalBox_37'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.144"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WBP_Playdata_Car_C:WidgetTree.Bar_05'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.23"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_5",
+    "Outer": "VerticalBox_37",
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Padding": {
+        "Bottom": 4.0
+      },
+      "HorizontalAlignment": "HAlign_Center",
+      "Parent": {
+        "ObjectName": "VerticalBox'WBP_Playdata_Car_C:WidgetTree.VerticalBox_37'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.144"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WBP_Playdata_Car_C:WidgetTree.Bar_06'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.24"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_7",
+    "Outer": "VerticalBox_37",
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "VerticalBox'WBP_Playdata_Car_C:WidgetTree.VerticalBox_37'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.144"
+      },
+      "Content": {
+        "ObjectName": "Spacer'WBP_Playdata_Car_C:WidgetTree.Spacer_69'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.115"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_0",
+    "Outer": "VerticalBox_37",
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Padding": {
+        "Bottom": 4.0
+      },
+      "HorizontalAlignment": "HAlign_Center",
+      "Parent": {
+        "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.VerticalBox_37'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.145"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.Bar_01'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.27"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_1",
+    "Outer": "VerticalBox_37",
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Padding": {
+        "Bottom": 4.0
+      },
+      "HorizontalAlignment": "HAlign_Center",
+      "Parent": {
+        "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.VerticalBox_37'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.145"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.Bar_02'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.28"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_2",
+    "Outer": "VerticalBox_37",
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Padding": {
+        "Bottom": 4.0
+      },
+      "HorizontalAlignment": "HAlign_Center",
+      "Parent": {
+        "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.VerticalBox_37'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.145"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.Bar_03'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.29"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_3",
+    "Outer": "VerticalBox_37",
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Padding": {
+        "Bottom": 4.0
+      },
+      "HorizontalAlignment": "HAlign_Center",
+      "Parent": {
+        "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.VerticalBox_37'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.145"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.Bar_04'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.30"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_4",
+    "Outer": "VerticalBox_37",
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Padding": {
+        "Bottom": 4.0
+      },
+      "HorizontalAlignment": "HAlign_Center",
+      "Parent": {
+        "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.VerticalBox_37'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.145"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.Bar_05'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.31"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_5",
+    "Outer": "VerticalBox_37",
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Padding": {
+        "Bottom": 4.0
+      },
+      "HorizontalAlignment": "HAlign_Center",
+      "Parent": {
+        "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.VerticalBox_37'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.145"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.Bar_06'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.32"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_7",
+    "Outer": "VerticalBox_37",
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.VerticalBox_37'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.145"
+      },
+      "Content": {
+        "ObjectName": "Spacer'WidgetArchetype:WidgetTree_0.Spacer_69'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.116"
+      }
+    }
+  },
+  {
+    "Type": "WBP_Playdata_Car_C",
+    "Name": "WidgetArchetype",
+    "Class": "WidgetBlueprintGeneratedClass'GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.WBP_Playdata_Car_C'",
+    "Template": {
+      "ObjectName": "WBP_Playdata_Car_C'Default__WBP_Playdata_Car_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.2"
+    },
+    "Flags": "RF_Public | RF_Standalone | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Bar_01": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.Bar_01'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.27"
+      },
+      "Bar_02": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.Bar_02'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.28"
+      },
+      "Bar_03": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.Bar_03'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.29"
+      },
+      "Bar_04": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.Bar_04'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.30"
+      },
+      "Bar_05": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.Bar_05'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.31"
+      },
+      "Bar_06": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.Bar_06'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.32"
+      },
+      "Number_01": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.Number_01'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.136"
+      },
+      "Number_02": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.Number_02'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.137"
+      },
+      "Number_03": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.Number_03'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.138"
+      },
+      "Number_04": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.Number_04'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.139"
+      },
+      "Number_05": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.Number_05'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.140"
+      },
+      "Number_06": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.Number_06'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.141"
+      },
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.164"
+      },
+      "bCookedWidgetTree": true
+    }
+  },
+  {
+    "Type": "WidgetAnimation",
+    "Name": "FadeIn_INST",
+    "Outer": "WBP_Playdata_Car_C",
+    "Class": "UScriptClass'WidgetAnimation'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "MovieScene": {
+        "ObjectName": "MovieScene'WBP_Playdata_Car_C:FadeIn_INST.FadeIn'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.99"
+      },
+      "DisplayLabel": "FadeIn",
+      "PrecompiledEvaluationTemplate": {
+        "EvaluationField": {
+          "Ranges": [
+            {
+              "Value": {
+                "LowerBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                },
+                "UpperBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                }
+              }
+            }
+          ],
+          "Groups": [
+            {
+              "LUTIndices": [],
+              "SegmentPtrLUT": []
+            }
+          ],
+          "MetaData": [
+            {
+              "ActiveSequences": [
+                {
+                  "Value": 0
+                }
+              ],
+              "ActiveEntities": [],
+              "SubTemplateSerialNumbers": []
+            }
+          ]
+        },
+        "SequenceSignature": "670FF974-445074D6-94EFBD8A-8C97111E",
+        "TemplateSerialNumber": {
+          "Value": 1
+        }
+      },
+      "Signature": "670FF974-445074D6-94EFBD8A-8C97111E"
+    }
+  },
+  {
+    "Type": "WidgetAnimation",
+    "Name": "FadeOut_INST",
+    "Outer": "WBP_Playdata_Car_C",
+    "Class": "UScriptClass'WidgetAnimation'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "MovieScene": {
+        "ObjectName": "MovieScene'WBP_Playdata_Car_C:FadeOut_INST.FadeOut'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.100"
+      },
+      "DisplayLabel": "FadeOut",
+      "PrecompiledEvaluationTemplate": {
+        "EvaluationField": {
+          "Ranges": [
+            {
+              "Value": {
+                "LowerBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                },
+                "UpperBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                }
+              }
+            }
+          ],
+          "Groups": [
+            {
+              "LUTIndices": [],
+              "SegmentPtrLUT": []
+            }
+          ],
+          "MetaData": [
+            {
+              "ActiveSequences": [
+                {
+                  "Value": 0
+                }
+              ],
+              "ActiveEntities": [],
+              "SubTemplateSerialNumbers": []
+            }
+          ]
+        },
+        "SequenceSignature": "06A4D906-435A4CFC-E3D495B7-92B3924B",
+        "TemplateSerialNumber": {
+          "Value": 1
+        }
+      },
+      "Signature": "06A4D906-435A4CFC-E3D495B7-92B3924B"
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Outer": "WBP_Playdata_Car_C",
+    "Class": "UScriptClass'WidgetTree'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CanvasPanel'WBP_Playdata_Car_C:WidgetTree.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.25"
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree_0",
+    "Outer": "WidgetArchetype",
+    "Class": "UScriptClass'WidgetTree'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_Car.33"
+      }
+    }
+  }
+]

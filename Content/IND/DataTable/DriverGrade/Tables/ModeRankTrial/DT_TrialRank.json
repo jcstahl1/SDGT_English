@@ -1,0 +1,1802 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_TrialRank",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'TrialRankTableData'",
+        "ObjectPath": "/Script/GameProject"
+      }
+    },
+    "Rows": {
+      "0": {
+        "Rank": 0,
+        "RankName": "ゲスト用",
+        "ExperienceRequired": 0,
+        "GradeExperience": 0,
+        "RewardReason": {
+          "CultureInvariantString": null
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "1": {
+        "Rank": 1,
+        "RankName": "無地",
+        "ExperienceRequired": 0,
+        "GradeExperience": 0,
+        "RewardReason": {
+          "CultureInvariantString": null
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "2": {
+        "Rank": 2,
+        "RankName": "グリーン★",
+        "ExperienceRequired": 5,
+        "GradeExperience": 10,
+        "RewardReason": {
+          "Namespace": "DT_TrialRank",
+          "Key": "2_RewardReason",
+          "SourceString": "Time Trial Rank upgrade",
+          "LocalizedString": "Time Trial Rank upgrade"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "3": {
+        "Rank": 3,
+        "RankName": "グリーン★★",
+        "ExperienceRequired": 25,
+        "GradeExperience": 10,
+        "RewardReason": {
+          "Namespace": "DT_TrialRank",
+          "Key": "3_RewardReason",
+          "SourceString": "Time Trial Rank upgrade",
+          "LocalizedString": "Time Trial Rank upgrade"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "4": {
+        "Rank": 4,
+        "RankName": "グリーン★★★",
+        "ExperienceRequired": 50,
+        "GradeExperience": 10,
+        "RewardReason": {
+          "Namespace": "DT_TrialRank",
+          "Key": "4_RewardReason",
+          "SourceString": "Time Trial Rank upgrade",
+          "LocalizedString": "Time Trial Rank upgrade"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "5": {
+        "Rank": 5,
+        "RankName": "ブルー★",
+        "ExperienceRequired": 75,
+        "GradeExperience": 20,
+        "RewardReason": {
+          "Namespace": "DT_TrialRank",
+          "Key": "5_RewardReason",
+          "SourceString": "Time Trial Rank upgrade to Blue★",
+          "LocalizedString": "Time Trial Rank upgrade to Blue★"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Title",
+          "RewardID": 102
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "6": {
+        "Rank": 6,
+        "RankName": "ブルー★★",
+        "ExperienceRequired": 100,
+        "GradeExperience": 20,
+        "RewardReason": {
+          "Namespace": "DT_TrialRank",
+          "Key": "6_RewardReason",
+          "SourceString": "Time Trial Rank upgrade",
+          "LocalizedString": "Time Trial Rank upgrade"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "7": {
+        "Rank": 7,
+        "RankName": "ブルー★★★",
+        "ExperienceRequired": 125,
+        "GradeExperience": 20,
+        "RewardReason": {
+          "Namespace": "DT_TrialRank",
+          "Key": "7_RewardReason",
+          "SourceString": "Time Trial Rank upgrade",
+          "LocalizedString": "Time Trial Rank upgrade"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "8": {
+        "Rank": 8,
+        "RankName": "レッド★",
+        "ExperienceRequired": 150,
+        "GradeExperience": 30,
+        "RewardReason": {
+          "Namespace": "DT_TrialRank",
+          "Key": "8_RewardReason",
+          "SourceString": "Time Trial Rank upgrade to Red★",
+          "LocalizedString": "Time Trial Rank upgrade to Red★"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Title",
+          "RewardID": 103
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "9": {
+        "Rank": 9,
+        "RankName": "レッド★★",
+        "ExperienceRequired": 250,
+        "GradeExperience": 30,
+        "RewardReason": {
+          "Namespace": "DT_TrialRank",
+          "Key": "9_RewardReason",
+          "SourceString": "Time Trial Rank upgrade",
+          "LocalizedString": "Time Trial Rank upgrade"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "10": {
+        "Rank": 10,
+        "RankName": "レッド★★★",
+        "ExperienceRequired": 350,
+        "GradeExperience": 30,
+        "RewardReason": {
+          "Namespace": "DT_TrialRank",
+          "Key": "10_RewardReason",
+          "SourceString": "Time Trial Rank upgrade",
+          "LocalizedString": "Time Trial Rank upgrade"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "11": {
+        "Rank": 11,
+        "RankName": "クリアグリーン★",
+        "ExperienceRequired": 450,
+        "GradeExperience": 45,
+        "RewardReason": {
+          "Namespace": "DT_TrialRank",
+          "Key": "11_RewardReason",
+          "SourceString": "Time Trial Rank upgrade to Clear Green★",
+          "LocalizedString": "Time Trial Rank upgrade to Clear Green★"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Title",
+          "RewardID": 104
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "12": {
+        "Rank": 12,
+        "RankName": "クリアグリーン★★",
+        "ExperienceRequired": 600,
+        "GradeExperience": 45,
+        "RewardReason": {
+          "Namespace": "DT_TrialRank",
+          "Key": "12_RewardReason",
+          "SourceString": "Time Trial Rank upgrade",
+          "LocalizedString": "Time Trial Rank upgrade"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "13": {
+        "Rank": 13,
+        "RankName": "クリアグリーン★★★",
+        "ExperienceRequired": 750,
+        "GradeExperience": 45,
+        "RewardReason": {
+          "Namespace": "DT_TrialRank",
+          "Key": "13_RewardReason",
+          "SourceString": "Time Trial Rank upgrade",
+          "LocalizedString": "Time Trial Rank upgrade"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "14": {
+        "Rank": 14,
+        "RankName": "クリアグリーン★★★★",
+        "ExperienceRequired": 900,
+        "GradeExperience": 45,
+        "RewardReason": {
+          "Namespace": "DT_TrialRank",
+          "Key": "14_RewardReason",
+          "SourceString": "Time Trial Rank upgrade",
+          "LocalizedString": "Time Trial Rank upgrade"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "15": {
+        "Rank": 15,
+        "RankName": "クリアグリーン★★★★★",
+        "ExperienceRequired": 1100,
+        "GradeExperience": 45,
+        "RewardReason": {
+          "Namespace": "DT_TrialRank",
+          "Key": "15_RewardReason",
+          "SourceString": "Time Trial Rank upgrade",
+          "LocalizedString": "Time Trial Rank upgrade"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "16": {
+        "Rank": 16,
+        "RankName": "クリアブルー★",
+        "ExperienceRequired": 1300,
+        "GradeExperience": 70,
+        "RewardReason": {
+          "Namespace": "DT_TrialRank",
+          "Key": "16_RewardReason",
+          "SourceString": "Time Trial Rank upgrade to Clear Blue★",
+          "LocalizedString": "Time Trial Rank upgrade to Clear Blue★"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Title",
+          "RewardID": 105
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "17": {
+        "Rank": 17,
+        "RankName": "クリアブルー★★",
+        "ExperienceRequired": 1500,
+        "GradeExperience": 70,
+        "RewardReason": {
+          "Namespace": "DT_TrialRank",
+          "Key": "17_RewardReason",
+          "SourceString": "Time Trial Rank upgrade",
+          "LocalizedString": "Time Trial Rank upgrade"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "18": {
+        "Rank": 18,
+        "RankName": "クリアブルー★★★",
+        "ExperienceRequired": 1850,
+        "GradeExperience": 70,
+        "RewardReason": {
+          "Namespace": "DT_TrialRank",
+          "Key": "18_RewardReason",
+          "SourceString": "Time Trial Rank upgrade",
+          "LocalizedString": "Time Trial Rank upgrade"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "19": {
+        "Rank": 19,
+        "RankName": "クリアブルー★★★★",
+        "ExperienceRequired": 2200,
+        "GradeExperience": 70,
+        "RewardReason": {
+          "Namespace": "DT_TrialRank",
+          "Key": "19_RewardReason",
+          "SourceString": "Time Trial Rank upgrade",
+          "LocalizedString": "Time Trial Rank upgrade"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "20": {
+        "Rank": 20,
+        "RankName": "クリアブルー★★★★★",
+        "ExperienceRequired": 2550,
+        "GradeExperience": 70,
+        "RewardReason": {
+          "Namespace": "DT_TrialRank",
+          "Key": "20_RewardReason",
+          "SourceString": "Time Trial Rank upgrade",
+          "LocalizedString": "Time Trial Rank upgrade"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "21": {
+        "Rank": 21,
+        "RankName": "クリアレッド★",
+        "ExperienceRequired": 3050,
+        "GradeExperience": 105,
+        "RewardReason": {
+          "Namespace": "DT_TrialRank",
+          "Key": "21_RewardReason",
+          "SourceString": "Time Trial Rank upgrade to Clear Red★",
+          "LocalizedString": "Time Trial Rank upgrade to Clear Red★"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Title",
+          "RewardID": 106
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "22": {
+        "Rank": 22,
+        "RankName": "クリアレッド★★",
+        "ExperienceRequired": 3550,
+        "GradeExperience": 105,
+        "RewardReason": {
+          "Namespace": "DT_TrialRank",
+          "Key": "22_RewardReason",
+          "SourceString": "Time Trial Rank upgrade",
+          "LocalizedString": "Time Trial Rank upgrade"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "23": {
+        "Rank": 23,
+        "RankName": "クリアレッド★★★",
+        "ExperienceRequired": 4050,
+        "GradeExperience": 105,
+        "RewardReason": {
+          "Namespace": "DT_TrialRank",
+          "Key": "23_RewardReason",
+          "SourceString": "Time Trial Rank upgrade",
+          "LocalizedString": "Time Trial Rank upgrade"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "24": {
+        "Rank": 24,
+        "RankName": "クリアレッド★★★★",
+        "ExperienceRequired": 4750,
+        "GradeExperience": 105,
+        "RewardReason": {
+          "Namespace": "DT_TrialRank",
+          "Key": "24_RewardReason",
+          "SourceString": "Time Trial Rank upgrade",
+          "LocalizedString": "Time Trial Rank upgrade"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "25": {
+        "Rank": 25,
+        "RankName": "クリアレッド★★★★★",
+        "ExperienceRequired": 5450,
+        "GradeExperience": 105,
+        "RewardReason": {
+          "Namespace": "DT_TrialRank",
+          "Key": "25_RewardReason",
+          "SourceString": "Time Trial Rank upgrade",
+          "LocalizedString": "Time Trial Rank upgrade"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "26": {
+        "Rank": 26,
+        "RankName": "エメラルド★",
+        "ExperienceRequired": 6595,
+        "GradeExperience": 160,
+        "RewardReason": {
+          "Namespace": "DT_TrialRank",
+          "Key": "26_RewardReason",
+          "SourceString": "Time Trial Rank upgrade to Emerald★",
+          "LocalizedString": "Time Trial Rank upgrade to Emerald★"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Title",
+          "RewardID": 107
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "27": {
+        "Rank": 27,
+        "RankName": "エメラルド★★",
+        "ExperienceRequired": 7740,
+        "GradeExperience": 160,
+        "RewardReason": {
+          "Namespace": "DT_TrialRank",
+          "Key": "27_RewardReason",
+          "SourceString": "Time Trial Rank upgrade",
+          "LocalizedString": "Time Trial Rank upgrade"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "28": {
+        "Rank": 28,
+        "RankName": "エメラルド★★★",
+        "ExperienceRequired": 8885,
+        "GradeExperience": 160,
+        "RewardReason": {
+          "Namespace": "DT_TrialRank",
+          "Key": "28_RewardReason",
+          "SourceString": "Time Trial Rank upgrade",
+          "LocalizedString": "Time Trial Rank upgrade"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "29": {
+        "Rank": 29,
+        "RankName": "エメラルド★★★★",
+        "ExperienceRequired": 10030,
+        "GradeExperience": 160,
+        "RewardReason": {
+          "Namespace": "DT_TrialRank",
+          "Key": "29_RewardReason",
+          "SourceString": "Time Trial Rank upgrade",
+          "LocalizedString": "Time Trial Rank upgrade"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "30": {
+        "Rank": 30,
+        "RankName": "エメラルド★★★★★",
+        "ExperienceRequired": 11175,
+        "GradeExperience": 160,
+        "RewardReason": {
+          "Namespace": "DT_TrialRank",
+          "Key": "30_RewardReason",
+          "SourceString": "Time Trial Rank upgrade",
+          "LocalizedString": "Time Trial Rank upgrade"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "31": {
+        "Rank": 31,
+        "RankName": "エメラルド★★★★★★",
+        "ExperienceRequired": 12320,
+        "GradeExperience": 160,
+        "RewardReason": {
+          "Namespace": "DT_TrialRank",
+          "Key": "31_RewardReason",
+          "SourceString": "Time Trial Rank upgrade",
+          "LocalizedString": "Time Trial Rank upgrade"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "32": {
+        "Rank": 32,
+        "RankName": "サファイア★",
+        "ExperienceRequired": 12800,
+        "GradeExperience": 240,
+        "RewardReason": {
+          "Namespace": "DT_TrialRank",
+          "Key": "32_RewardReason",
+          "SourceString": "Time Trial Rank upgrade to Sapphire★",
+          "LocalizedString": "Time Trial Rank upgrade to Sapphire★"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Title",
+          "RewardID": 108
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "33": {
+        "Rank": 33,
+        "RankName": "サファイア★★",
+        "ExperienceRequired": 13280,
+        "GradeExperience": 240,
+        "RewardReason": {
+          "Namespace": "DT_TrialRank",
+          "Key": "33_RewardReason",
+          "SourceString": "Time Trial Rank upgrade",
+          "LocalizedString": "Time Trial Rank upgrade"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "34": {
+        "Rank": 34,
+        "RankName": "サファイア★★★",
+        "ExperienceRequired": 13760,
+        "GradeExperience": 240,
+        "RewardReason": {
+          "Namespace": "DT_TrialRank",
+          "Key": "34_RewardReason",
+          "SourceString": "Time Trial Rank upgrade",
+          "LocalizedString": "Time Trial Rank upgrade"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "35": {
+        "Rank": 35,
+        "RankName": "サファイア★★★★",
+        "ExperienceRequired": 14240,
+        "GradeExperience": 240,
+        "RewardReason": {
+          "Namespace": "DT_TrialRank",
+          "Key": "35_RewardReason",
+          "SourceString": "Time Trial Rank upgrade",
+          "LocalizedString": "Time Trial Rank upgrade"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "36": {
+        "Rank": 36,
+        "RankName": "サファイア★★★★★",
+        "ExperienceRequired": 14720,
+        "GradeExperience": 240,
+        "RewardReason": {
+          "Namespace": "DT_TrialRank",
+          "Key": "36_RewardReason",
+          "SourceString": "Time Trial Rank upgrade",
+          "LocalizedString": "Time Trial Rank upgrade"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "37": {
+        "Rank": 37,
+        "RankName": "サファイア★★★★★★",
+        "ExperienceRequired": 15200,
+        "GradeExperience": 240,
+        "RewardReason": {
+          "Namespace": "DT_TrialRank",
+          "Key": "37_RewardReason",
+          "SourceString": "Time Trial Rank upgrade",
+          "LocalizedString": "Time Trial Rank upgrade"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "38": {
+        "Rank": 38,
+        "RankName": "サファイア★★★★★★★",
+        "ExperienceRequired": 15680,
+        "GradeExperience": 240,
+        "RewardReason": {
+          "Namespace": "DT_TrialRank",
+          "Key": "38_RewardReason",
+          "SourceString": "Time Trial Rank upgrade",
+          "LocalizedString": "Time Trial Rank upgrade"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "39": {
+        "Rank": 39,
+        "RankName": "ルビー★",
+        "ExperienceRequired": 16100,
+        "GradeExperience": 360,
+        "RewardReason": {
+          "Namespace": "DT_TrialRank",
+          "Key": "39_RewardReason",
+          "SourceString": "Time Trial Rank upgrade to Ruby★",
+          "LocalizedString": "Time Trial Rank upgrade to Ruby★"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Title",
+          "RewardID": 109
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "40": {
+        "Rank": 40,
+        "RankName": "ルビー★★",
+        "ExperienceRequired": 16520,
+        "GradeExperience": 360,
+        "RewardReason": {
+          "Namespace": "DT_TrialRank",
+          "Key": "40_RewardReason",
+          "SourceString": "Time Trial Rank upgrade",
+          "LocalizedString": "Time Trial Rank upgrade"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "41": {
+        "Rank": 41,
+        "RankName": "ルビー★★★",
+        "ExperienceRequired": 16940,
+        "GradeExperience": 360,
+        "RewardReason": {
+          "Namespace": "DT_TrialRank",
+          "Key": "41_RewardReason",
+          "SourceString": "Time Trial Rank upgrade",
+          "LocalizedString": "Time Trial Rank upgrade"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "42": {
+        "Rank": 42,
+        "RankName": "ルビー★★★★",
+        "ExperienceRequired": 17360,
+        "GradeExperience": 360,
+        "RewardReason": {
+          "Namespace": "DT_TrialRank",
+          "Key": "42_RewardReason",
+          "SourceString": "Time Trial Rank upgrade",
+          "LocalizedString": "Time Trial Rank upgrade"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "43": {
+        "Rank": 43,
+        "RankName": "ルビー★★★★★",
+        "ExperienceRequired": 17780,
+        "GradeExperience": 360,
+        "RewardReason": {
+          "Namespace": "DT_TrialRank",
+          "Key": "43_RewardReason",
+          "SourceString": "Time Trial Rank upgrade",
+          "LocalizedString": "Time Trial Rank upgrade"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "44": {
+        "Rank": 44,
+        "RankName": "ルビー★★★★★★",
+        "ExperienceRequired": 18200,
+        "GradeExperience": 360,
+        "RewardReason": {
+          "Namespace": "DT_TrialRank",
+          "Key": "44_RewardReason",
+          "SourceString": "Time Trial Rank upgrade",
+          "LocalizedString": "Time Trial Rank upgrade"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "45": {
+        "Rank": 45,
+        "RankName": "ルビー★★★★★★★",
+        "ExperienceRequired": 18620,
+        "GradeExperience": 360,
+        "RewardReason": {
+          "Namespace": "DT_TrialRank",
+          "Key": "45_RewardReason",
+          "SourceString": "Time Trial Rank upgrade",
+          "LocalizedString": "Time Trial Rank upgrade"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "46": {
+        "Rank": 46,
+        "RankName": "ルビー★★★★★★★★",
+        "ExperienceRequired": 19040,
+        "GradeExperience": 360,
+        "RewardReason": {
+          "Namespace": "DT_TrialRank",
+          "Key": "46_RewardReason",
+          "SourceString": "Time Trial Rank upgrade",
+          "LocalizedString": "Time Trial Rank upgrade"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "47": {
+        "Rank": 47,
+        "RankName": "ブラックダイヤモンド★",
+        "ExperienceRequired": 19413,
+        "GradeExperience": 540,
+        "RewardReason": {
+          "Namespace": "DT_TrialRank",
+          "Key": "47_RewardReason",
+          "SourceString": "Time Trial Rank upgrade to Black Diamond★",
+          "LocalizedString": "Time Trial Rank upgrade to Black Diamond★"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Title",
+          "RewardID": 110
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "48": {
+        "Rank": 48,
+        "RankName": "ブラックダイヤモンド★★",
+        "ExperienceRequired": 19786,
+        "GradeExperience": 540,
+        "RewardReason": {
+          "Namespace": "DT_TrialRank",
+          "Key": "48_RewardReason",
+          "SourceString": "Time Trial Rank upgrade",
+          "LocalizedString": "Time Trial Rank upgrade"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "49": {
+        "Rank": 49,
+        "RankName": "ブラックダイヤモンド★★★",
+        "ExperienceRequired": 20159,
+        "GradeExperience": 540,
+        "RewardReason": {
+          "Namespace": "DT_TrialRank",
+          "Key": "49_RewardReason",
+          "SourceString": "Time Trial Rank upgrade",
+          "LocalizedString": "Time Trial Rank upgrade"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "50": {
+        "Rank": 50,
+        "RankName": "ブラックダイヤモンド★★★★",
+        "ExperienceRequired": 20532,
+        "GradeExperience": 540,
+        "RewardReason": {
+          "Namespace": "DT_TrialRank",
+          "Key": "50_RewardReason",
+          "SourceString": "Time Trial Rank upgrade",
+          "LocalizedString": "Time Trial Rank upgrade"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "51": {
+        "Rank": 51,
+        "RankName": "ブラックダイヤモンド★★★★★",
+        "ExperienceRequired": 20905,
+        "GradeExperience": 540,
+        "RewardReason": {
+          "Namespace": "DT_TrialRank",
+          "Key": "51_RewardReason",
+          "SourceString": "Time Trial Rank upgrade",
+          "LocalizedString": "Time Trial Rank upgrade"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "52": {
+        "Rank": 52,
+        "RankName": "ブラックダイヤモンド★★★★★★",
+        "ExperienceRequired": 21278,
+        "GradeExperience": 540,
+        "RewardReason": {
+          "Namespace": "DT_TrialRank",
+          "Key": "52_RewardReason",
+          "SourceString": "Time Trial Rank upgrade",
+          "LocalizedString": "Time Trial Rank upgrade"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "53": {
+        "Rank": 53,
+        "RankName": "ブラックダイヤモンド★★★★★★★",
+        "ExperienceRequired": 21651,
+        "GradeExperience": 540,
+        "RewardReason": {
+          "Namespace": "DT_TrialRank",
+          "Key": "53_RewardReason",
+          "SourceString": "Time Trial Rank upgrade",
+          "LocalizedString": "Time Trial Rank upgrade"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "54": {
+        "Rank": 54,
+        "RankName": "ブラックダイヤモンド★★★★★★★★",
+        "ExperienceRequired": 22024,
+        "GradeExperience": 540,
+        "RewardReason": {
+          "Namespace": "DT_TrialRank",
+          "Key": "54_RewardReason",
+          "SourceString": "Time Trial Rank upgrade",
+          "LocalizedString": "Time Trial Rank upgrade"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "55": {
+        "Rank": 55,
+        "RankName": "ブラックダイヤモンド★★★★★★★★★",
+        "ExperienceRequired": 22400,
+        "GradeExperience": 540,
+        "RewardReason": {
+          "Namespace": "DT_TrialRank",
+          "Key": "55_RewardReason",
+          "SourceString": "Time Trial Rank upgrade to Black Diamond★★★★★★★★★",
+          "LocalizedString": "Time Trial Rank upgrade to Black Diamond★★★★★★★★★"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Title",
+          "RewardID": 111
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "56": {
+        "Rank": 56,
+        "RankName": "ダミー",
+        "ExperienceRequired": 999999,
+        "GradeExperience": 100,
+        "RewardReason": {
+          "Namespace": "DT_TrialRank",
+          "Key": "56_RewardReason",
+          "SourceString": "Time Trial Rank upgrade",
+          "LocalizedString": "Time Trial Rank upgrade"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "57": {
+        "Rank": 57,
+        "RankName": "ダミー",
+        "ExperienceRequired": 999999,
+        "GradeExperience": 100,
+        "RewardReason": {
+          "Namespace": "DT_TrialRank",
+          "Key": "57_RewardReason",
+          "SourceString": "Time Trial Rank upgrade",
+          "LocalizedString": "Time Trial Rank upgrade"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "58": {
+        "Rank": 58,
+        "RankName": "ダミー",
+        "ExperienceRequired": 999999,
+        "GradeExperience": 100,
+        "RewardReason": {
+          "Namespace": "DT_TrialRank",
+          "Key": "58_RewardReason",
+          "SourceString": "Time Trial Rank upgrade",
+          "LocalizedString": "Time Trial Rank upgrade"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "59": {
+        "Rank": 59,
+        "RankName": "ダミー",
+        "ExperienceRequired": 999999,
+        "GradeExperience": 100,
+        "RewardReason": {
+          "Namespace": "DT_TrialRank",
+          "Key": "59_RewardReason",
+          "SourceString": "Time Trial Rank upgrade",
+          "LocalizedString": "Time Trial Rank upgrade"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "60": {
+        "Rank": 60,
+        "RankName": "ダミー",
+        "ExperienceRequired": 999999,
+        "GradeExperience": 100,
+        "RewardReason": {
+          "Namespace": "DT_TrialRank",
+          "Key": "60_RewardReason",
+          "SourceString": "Time Trial Rank upgrade",
+          "LocalizedString": "Time Trial Rank upgrade"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "61": {
+        "Rank": 61,
+        "RankName": "ダミー",
+        "ExperienceRequired": 999999,
+        "GradeExperience": 100,
+        "RewardReason": {
+          "Namespace": "DT_TrialRank",
+          "Key": "61_RewardReason",
+          "SourceString": "Time Trial Rank upgrade",
+          "LocalizedString": "Time Trial Rank upgrade"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "62": {
+        "Rank": 62,
+        "RankName": "ダミー",
+        "ExperienceRequired": 999999,
+        "GradeExperience": 100,
+        "RewardReason": {
+          "Namespace": "DT_TrialRank",
+          "Key": "62_RewardReason",
+          "SourceString": "Time Trial Rank upgrade",
+          "LocalizedString": "Time Trial Rank upgrade"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "63": {
+        "Rank": 63,
+        "RankName": "ダミー",
+        "ExperienceRequired": 999999,
+        "GradeExperience": 100,
+        "RewardReason": {
+          "Namespace": "DT_TrialRank",
+          "Key": "63_RewardReason",
+          "SourceString": "Time Trial Rank upgrade",
+          "LocalizedString": "Time Trial Rank upgrade"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      }
+    }
+  }
+]

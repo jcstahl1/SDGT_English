@@ -1,0 +1,4821 @@
+[
+  {
+    "Type": "StructProperty",
+    "Name": "UberGraphFrame",
+    "Outer": "WBP_Com_PickupImage_C",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "Transient | DuplicateTransient",
+    "Struct": {
+      "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "WBP_Com_PickupImage_C",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WBP_Com_PickupImage_C:WidgetTree'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.206"
+      },
+      "bAllowTemplate": true,
+      "bValidTemplate": true,
+      "TemplateAsset": {
+        "AssetPathName": "/Game/IND/UI/Common/WBP_Com_PickupImage.WidgetArchetype",
+        "SubPathString": ""
+      },
+      "UberGraphFramePointerProperty": {
+        "ObjectName": "StructProperty'WBP_Com_PickupImage_C:UberGraphFrame'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.0"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'WBP_Com_PickupImage_C:ExecuteUbergraph_WBP_Com_PickupImage'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.5"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'UserWidget'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'WBP_Com_PickupImage_C:UberGraphFrame'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.0"
+      },
+      {
+        "ObjectName": "Function'WBP_Com_PickupImage_C:OnLoaded_A9017571451EEBDD121F038B2F9D1CEB'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.109"
+      },
+      {
+        "ObjectName": "Function'WBP_Com_PickupImage_C:OnLoaded_851080B942D70FBE61264D918C810F67'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.106"
+      },
+      {
+        "ObjectName": "Function'WBP_Com_PickupImage_C:Set_PickupRewardImage'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.116"
+      },
+      {
+        "ObjectName": "Function'WBP_Com_PickupImage_C:Set_AllImageCollapse'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.110"
+      },
+      {
+        "ObjectName": "Function'WBP_Com_PickupImage_C:Set_BeforehandLoadAvatarMat'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.113"
+      },
+      {
+        "ObjectName": "Function'WBP_Com_PickupImage_C:PreConstruct'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.21"
+      },
+      {
+        "ObjectName": "Function'WBP_Com_PickupImage_C:Construct'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.20"
+      },
+      {
+        "ObjectName": "Function'WBP_Com_PickupImage_C:ExecuteUbergraph_WBP_Com_PickupImage'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.5"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Com_PickupImage_C:Aura'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.3"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Com_PickupImage_C:Aura_Image'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.144"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Com_PickupImage_C:Avatar'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.145"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Com_PickupImage_C:Avatar_Image'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.146"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Com_PickupImage_C:ChatStamp'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.147"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Com_PickupImage_C:ChatStamp_Image'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.148"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Com_PickupImage_C:Cup'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.149"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Com_PickupImage_C:Cup_Image'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.150"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Com_PickupImage_C:Icon'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.172"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Com_PickupImage_C:Icon_Image'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.173"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Com_PickupImage_C:Image_ItemBase'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.174"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Com_PickupImage_C:Image_ItemFlame'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.175"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Com_PickupImage_C:Keychain'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.176"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Com_PickupImage_C:Keychain_Image'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.177"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Com_PickupImage_C:MenuImage'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.178"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Com_PickupImage_C:MenuImage_Image'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.179"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Com_PickupImage_C:Meter'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.180"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Com_PickupImage_C:Meter_Image'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.181"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Com_PickupImage_C:Syogou'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.183"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Com_PickupImage_C:TextBlock_145'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.184"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Com_PickupImage_C:WBP_Syogou'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.185"
+      },
+      {
+        "ObjectName": "SoftObjectProperty'WBP_Com_PickupImage_C:SoftImage'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.187"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Com_PickupImage_C:StoreData'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.182"
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_WBP_Com_PickupImage": {
+        "ObjectName": "Function'WBP_Com_PickupImage_C:ExecuteUbergraph_WBP_Com_PickupImage'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.5"
+      },
+      "Construct": {
+        "ObjectName": "Function'WBP_Com_PickupImage_C:Construct'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.20"
+      },
+      "PreConstruct": {
+        "ObjectName": "Function'WBP_Com_PickupImage_C:PreConstruct'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.21"
+      },
+      "Set_BeforehandLoadAvatarMat": {
+        "ObjectName": "Function'WBP_Com_PickupImage_C:Set_BeforehandLoadAvatarMat'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.113"
+      },
+      "Set_AllImageCollapse": {
+        "ObjectName": "Function'WBP_Com_PickupImage_C:Set_AllImageCollapse'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.110"
+      },
+      "Set_PickupRewardImage": {
+        "ObjectName": "Function'WBP_Com_PickupImage_C:Set_PickupRewardImage'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.116"
+      },
+      "OnLoaded_851080B942D70FBE61264D918C810F67": {
+        "ObjectName": "Function'WBP_Com_PickupImage_C:OnLoaded_851080B942D70FBE61264D918C810F67'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.106"
+      },
+      "OnLoaded_A9017571451EEBDD121F038B2F9D1CEB": {
+        "ObjectName": "Function'WBP_Com_PickupImage_C:OnLoaded_A9017571451EEBDD121F038B2F9D1CEB'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.109"
+      }
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "WBP_Com_PickupImage_C'Default__WBP_Com_PickupImage_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.2"
+    }
+  },
+  {
+    "Type": "WBP_Com_PickupImage_C",
+    "Name": "Default__WBP_Com_PickupImage_C",
+    "Class": "WidgetBlueprintGeneratedClass'GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.WBP_Com_PickupImage_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "UberGraphFrame": {},
+      "bHasScriptImplementedTick": false,
+      "bHasScriptImplementedPaint": false
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Aura",
+    "Outer": "WBP_Com_PickupImage_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'CanvasPanel'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "EntryPoint",
+    "Outer": "ExecuteUbergraph_WBP_Com_PickupImage",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_WBP_Com_PickupImage",
+    "Outer": "WBP_Com_PickupImage_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "IntProperty'WBP_Com_PickupImage_C:ExecuteUbergraph_WBP_Com_PickupImage.EntryPoint'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.4"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Com_PickupImage_C:ExecuteUbergraph_WBP_Com_PickupImage.Temp_object_Variable'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.158"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Com_PickupImage_C:ExecuteUbergraph_WBP_Com_PickupImage.Temp_object_Variable_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.159"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Com_PickupImage_C:ExecuteUbergraph_WBP_Com_PickupImage.Temp_int_Array_Index_Variable'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.142"
+      },
+      {
+        "ObjectName": "StructProperty'WBP_Com_PickupImage_C:ExecuteUbergraph_WBP_Com_PickupImage.K2Node_CustomEvent_InputPin'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.114"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Com_PickupImage_C:ExecuteUbergraph_WBP_Com_PickupImage.Temp_object_Variable_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.164"
+      },
+      {
+        "ObjectName": "TextProperty'WBP_Com_PickupImage_C:ExecuteUbergraph_WBP_Com_PickupImage.CallFunc_GetPartsNameTeamLogo_TeamLogoName'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.200"
+      },
+      {
+        "ObjectName": "TextProperty'WBP_Com_PickupImage_C:ExecuteUbergraph_WBP_Com_PickupImage.CallFunc_GetPartsNameBGM_BGMName'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.199"
+      },
+      {
+        "ObjectName": "TextProperty'WBP_Com_PickupImage_C:ExecuteUbergraph_WBP_Com_PickupImage.CallFunc_GetImageChatStamp_ChatStampName'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.198"
+      },
+      {
+        "ObjectName": "SoftObjectProperty'WBP_Com_PickupImage_C:ExecuteUbergraph_WBP_Com_PickupImage.CallFunc_GetImageChatStamp_ChatStampImage'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.186"
+      },
+      {
+        "ObjectName": "StructProperty'WBP_Com_PickupImage_C:ExecuteUbergraph_WBP_Com_PickupImage.CallFunc_GetImageKeyChain_Value'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.189"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Com_PickupImage_C:ExecuteUbergraph_WBP_Com_PickupImage.CallFunc_GetImageKeyChain_Isvalid'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.9"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Com_PickupImage_C:ExecuteUbergraph_WBP_Com_PickupImage.CallFunc_Conv_SoftObjectReferenceToObject_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.152"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Com_PickupImage_C:ExecuteUbergraph_WBP_Com_PickupImage.K2Node_DynamicCast_AsTexture_2D'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.154"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Com_PickupImage_C:ExecuteUbergraph_WBP_Com_PickupImage.K2Node_DynamicCast_bSuccess'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.16"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Com_PickupImage_C:ExecuteUbergraph_WBP_Com_PickupImage.CallFunc_Conv_SoftObjectReferenceToObject_ReturnValue_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.153"
+      },
+      {
+        "ObjectName": "StructProperty'WBP_Com_PickupImage_C:ExecuteUbergraph_WBP_Com_PickupImage.CallFunc_GetImageMeter_Value'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.191"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Com_PickupImage_C:ExecuteUbergraph_WBP_Com_PickupImage.CallFunc_GetImageMeter_Isvalid'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.11"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Com_PickupImage_C:ExecuteUbergraph_WBP_Com_PickupImage.K2Node_DynamicCast_AsTexture_2D_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.155"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Com_PickupImage_C:ExecuteUbergraph_WBP_Com_PickupImage.K2Node_DynamicCast_bSuccess_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.17"
+      },
+      {
+        "ObjectName": "StructProperty'WBP_Com_PickupImage_C:ExecuteUbergraph_WBP_Com_PickupImage.CallFunc_GetImageAura_Value'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.188"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Com_PickupImage_C:ExecuteUbergraph_WBP_Com_PickupImage.CallFunc_GetImageAura_Isvalid'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.8"
+      },
+      {
+        "ObjectName": "StructProperty'WBP_Com_PickupImage_C:ExecuteUbergraph_WBP_Com_PickupImage.CallFunc_GetImageMenuBG_Value'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.190"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Com_PickupImage_C:ExecuteUbergraph_WBP_Com_PickupImage.CallFunc_GetImageMenuBG_Isvalid'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.10"
+      },
+      {
+        "ObjectName": "StructProperty'WBP_Com_PickupImage_C:ExecuteUbergraph_WBP_Com_PickupImage.CallFunc_GetImagePaperCup_Value'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.192"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Com_PickupImage_C:ExecuteUbergraph_WBP_Com_PickupImage.CallFunc_GetImagePaperCup_Isvalid'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.12"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Com_PickupImage_C:ExecuteUbergraph_WBP_Com_PickupImage.K2Node_SwitchEnum_CmpSuccess'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.19"
+      },
+      {
+        "ObjectName": "StructProperty'WBP_Com_PickupImage_C:ExecuteUbergraph_WBP_Com_PickupImage.CallFunc_GetReceiveRewardData_ReceiveRewardData'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.193"
+      },
+      {
+        "ObjectName": "TextProperty'WBP_Com_PickupImage_C:ExecuteUbergraph_WBP_Com_PickupImage.CallFunc_GetReceiveRewardData_PartsName'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.201"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Com_PickupImage_C:ExecuteUbergraph_WBP_Com_PickupImage.CallFunc_GetReceiveRewardData_IsValid'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.13"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Com_PickupImage_C:ExecuteUbergraph_WBP_Com_PickupImage.Temp_object_Variable_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.165"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Com_PickupImage_C:ExecuteUbergraph_WBP_Com_PickupImage.Temp_object_Variable_4'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.166"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Com_PickupImage_C:ExecuteUbergraph_WBP_Com_PickupImage.Temp_object_Variable_5'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.167"
+      },
+      {
+        "ObjectName": "ByteProperty'WBP_Com_PickupImage_C:ExecuteUbergraph_WBP_Com_PickupImage.Temp_byte_Variable'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.23"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Com_PickupImage_C:ExecuteUbergraph_WBP_Com_PickupImage.Temp_object_Variable_6'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.168"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Com_PickupImage_C:ExecuteUbergraph_WBP_Com_PickupImage.K2Node_Select_Default'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.156"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Com_PickupImage_C:ExecuteUbergraph_WBP_Com_PickupImage.Temp_object_Variable_7'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.169"
+      },
+      {
+        "ObjectName": "DelegateProperty'WBP_Com_PickupImage_C:ExecuteUbergraph_WBP_Com_PickupImage.K2Node_CreateDelegate_OutputDelegate'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.102"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Com_PickupImage_C:ExecuteUbergraph_WBP_Com_PickupImage.Temp_object_Variable_8'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.170"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Com_PickupImage_C:ExecuteUbergraph_WBP_Com_PickupImage.Temp_object_Variable_9'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.171"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Com_PickupImage_C:ExecuteUbergraph_WBP_Com_PickupImage.Temp_object_Variable_10'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.160"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Com_PickupImage_C:ExecuteUbergraph_WBP_Com_PickupImage.Temp_object_Variable_11'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.161"
+      },
+      {
+        "ObjectName": "ByteProperty'WBP_Com_PickupImage_C:ExecuteUbergraph_WBP_Com_PickupImage.Temp_byte_Variable_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.24"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Com_PickupImage_C:ExecuteUbergraph_WBP_Com_PickupImage.K2Node_Select_Default_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.157"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Com_PickupImage_C:ExecuteUbergraph_WBP_Com_PickupImage.Temp_object_Variable_12'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.162"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Com_PickupImage_C:ExecuteUbergraph_WBP_Com_PickupImage.K2Node_CustomEvent_Loaded'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.104"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Com_PickupImage_C:ExecuteUbergraph_WBP_Com_PickupImage.Temp_object_Variable_13'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.163"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Com_PickupImage_C:ExecuteUbergraph_WBP_Com_PickupImage.Temp_int_Loop_Counter_Variable'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.143"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Com_PickupImage_C:ExecuteUbergraph_WBP_Com_PickupImage.CallFunc_Add_IntInt_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.140"
+      },
+      {
+        "ObjectName": "ArrayProperty'WBP_Com_PickupImage_C:ExecuteUbergraph_WBP_Com_PickupImage.K2Node_MakeArray_Array'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.7"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Com_PickupImage_C:ExecuteUbergraph_WBP_Com_PickupImage.CallFunc_Array_Get_Item'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.151"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Com_PickupImage_C:ExecuteUbergraph_WBP_Com_PickupImage.CallFunc_Array_Length_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.141"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Com_PickupImage_C:ExecuteUbergraph_WBP_Com_PickupImage.CallFunc_Less_IntInt_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.15"
+      },
+      {
+        "ObjectName": "StructProperty'WBP_Com_PickupImage_C:ExecuteUbergraph_WBP_Com_PickupImage.K2Node_CustomEvent_RewardData'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.111"
+      },
+      {
+        "ObjectName": "StructProperty'WBP_Com_PickupImage_C:ExecuteUbergraph_WBP_Com_PickupImage.CallFunc_GetReceiveRewardData_ReceiveRewardData_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.194"
+      },
+      {
+        "ObjectName": "TextProperty'WBP_Com_PickupImage_C:ExecuteUbergraph_WBP_Com_PickupImage.CallFunc_GetReceiveRewardData_PartsName_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.202"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Com_PickupImage_C:ExecuteUbergraph_WBP_Com_PickupImage.CallFunc_GetReceiveRewardData_IsValid_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.14"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Com_PickupImage_C:ExecuteUbergraph_WBP_Com_PickupImage.K2Node_CustomEvent_Loaded_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.107"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Com_PickupImage_C:ExecuteUbergraph_WBP_Com_PickupImage.K2Node_Event_IsDesignTime'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.18"
+      },
+      {
+        "ObjectName": "DelegateProperty'WBP_Com_PickupImage_C:ExecuteUbergraph_WBP_Com_PickupImage.K2Node_CreateDelegate_OutputDelegate_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.103"
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction | FUNC_HasDefaults"
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "K2Node_MakeArray_Array",
+    "Outer": "K2Node_MakeArray_Array",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "InstancedReference",
+    "PropertyClass": {
+      "ObjectName": "Class'Widget'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ArrayProperty",
+    "Name": "K2Node_MakeArray_Array",
+    "Outer": "ExecuteUbergraph_WBP_Com_PickupImage",
+    "Class": "UScriptClass'ArrayProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "ReferenceParm | ContainsInstancedReference",
+    "Inner": {
+      "ObjectName": "ObjectProperty'WBP_Com_PickupImage_C:ExecuteUbergraph_WBP_Com_PickupImage.K2Node_MakeArray_Array.K2Node_MakeArray_Array'",
+      "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.6"
+    }
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_GetImageAura_Isvalid",
+    "Outer": "ExecuteUbergraph_WBP_Com_PickupImage",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_GetImageKeyChain_Isvalid",
+    "Outer": "ExecuteUbergraph_WBP_Com_PickupImage",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_GetImageMenuBG_Isvalid",
+    "Outer": "ExecuteUbergraph_WBP_Com_PickupImage",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_GetImageMeter_Isvalid",
+    "Outer": "ExecuteUbergraph_WBP_Com_PickupImage",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_GetImagePaperCup_Isvalid",
+    "Outer": "ExecuteUbergraph_WBP_Com_PickupImage",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_GetReceiveRewardData_IsValid",
+    "Outer": "ExecuteUbergraph_WBP_Com_PickupImage",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_GetReceiveRewardData_IsValid_1",
+    "Outer": "ExecuteUbergraph_WBP_Com_PickupImage",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_Less_IntInt_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_Com_PickupImage",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_DynamicCast_bSuccess",
+    "Outer": "ExecuteUbergraph_WBP_Com_PickupImage",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_DynamicCast_bSuccess_1",
+    "Outer": "ExecuteUbergraph_WBP_Com_PickupImage",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_Event_IsDesignTime",
+    "Outer": "ExecuteUbergraph_WBP_Com_PickupImage",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_SwitchEnum_CmpSuccess",
+    "Outer": "ExecuteUbergraph_WBP_Com_PickupImage",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "Function",
+    "Name": "Construct",
+    "Outer": "WBP_Com_PickupImage_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Function'UserWidget:Construct'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "FunctionFlags": "FUNC_BlueprintCosmetic | FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "PreConstruct",
+    "Outer": "WBP_Com_PickupImage_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Function'UserWidget:PreConstruct'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "Children": [
+      {
+        "ObjectName": "BoolProperty'WBP_Com_PickupImage_C:PreConstruct.IsDesignTime'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.22"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCosmetic | FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "IsDesignTime",
+    "Outer": "PreConstruct",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "Temp_byte_Variable",
+    "Outer": "ExecuteUbergraph_WBP_Com_PickupImage",
+    "Class": "UScriptClass'ByteProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": {
+      "ObjectName": "UserDefinedEnum'ERewardIconFrameID'",
+      "ObjectPath": "GameProject/Content/IND/DataTable/RewardIcon/ERewardIconFrameID.0"
+    }
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "Temp_byte_Variable_1",
+    "Outer": "ExecuteUbergraph_WBP_Com_PickupImage",
+    "Class": "UScriptClass'ByteProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": {
+      "ObjectName": "UserDefinedEnum'ERewardIconFrameID'",
+      "ObjectPath": "GameProject/Content/IND/DataTable/RewardIcon/ERewardIconFrameID.0"
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "Aura",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Com_PickupImage_C:WidgetTree.Aura.CanvasPanelSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.51"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Com_PickupImage_C:WidgetTree.CanvasPanel_45.CanvasPanelSlot_6'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.62"
+      },
+      "bIsVariable": true,
+      "Visibility": "ESlateVisibility::Collapsed"
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "Avatar",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Com_PickupImage_C:WidgetTree.Avatar.CanvasPanelSlot_8'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.55"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Com_PickupImage_C:WidgetTree.Avatar.CanvasPanelSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.52"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Com_PickupImage_C:WidgetTree.Avatar.CanvasPanelSlot_3'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.53"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Com_PickupImage_C:WidgetTree.Avatar.CanvasPanelSlot_5'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.54"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Com_PickupImage_C:WidgetTree.CanvasPanel_45.CanvasPanelSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.58"
+      },
+      "bIsVariable": true,
+      "Visibility": "ESlateVisibility::Collapsed"
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_0",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Com_PickupImage_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.56"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_45",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Com_PickupImage_C:WidgetTree.CanvasPanel_45.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.57"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Com_PickupImage_C:WidgetTree.CanvasPanel_45.CanvasPanelSlot_5'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.61"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Com_PickupImage_C:WidgetTree.CanvasPanel_45.CanvasPanelSlot_6'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.62"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Com_PickupImage_C:WidgetTree.CanvasPanel_45.CanvasPanelSlot_7'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.63"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Com_PickupImage_C:WidgetTree.CanvasPanel_45.CanvasPanelSlot_8'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.64"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Com_PickupImage_C:WidgetTree.CanvasPanel_45.CanvasPanelSlot_9'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.65"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Com_PickupImage_C:WidgetTree.CanvasPanel_45.CanvasPanelSlot_11'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.59"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Com_PickupImage_C:WidgetTree.CanvasPanel_45.CanvasPanelSlot_12'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.60"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Com_PickupImage_C:WidgetTree.CanvasPanel_45.CanvasPanelSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.58"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Com_PickupImage_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.56"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_95",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Com_PickupImage_C:WidgetTree.CanvasPanel_95.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.66"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Com_PickupImage_C:WidgetTree.Icon.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.69"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "ChatStamp",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Com_PickupImage_C:WidgetTree.ChatStamp.CanvasPanelSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.67"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Com_PickupImage_C:WidgetTree.CanvasPanel_45.CanvasPanelSlot_12'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.60"
+      },
+      "bIsVariable": true,
+      "Visibility": "ESlateVisibility::Visible"
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "Cup",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Com_PickupImage_C:WidgetTree.Cup.CanvasPanelSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.68"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Com_PickupImage_C:WidgetTree.CanvasPanel_45.CanvasPanelSlot_9'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.65"
+      },
+      "bIsVariable": true,
+      "Visibility": "ESlateVisibility::Visible"
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "Icon",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Com_PickupImage_C:WidgetTree.Icon.CanvasPanelSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.70"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Com_PickupImage_C:WidgetTree.Icon.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.69"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Com_PickupImage_C:WidgetTree.CanvasPanel_45.CanvasPanelSlot_11'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.59"
+      },
+      "bIsVariable": true,
+      "Visibility": "ESlateVisibility::Visible"
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "Keychain",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Com_PickupImage_C:WidgetTree.Keychain.CanvasPanelSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.71"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Com_PickupImage_C:WidgetTree.CanvasPanel_45.CanvasPanelSlot_7'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.63"
+      },
+      "bIsVariable": true,
+      "Visibility": "ESlateVisibility::Collapsed"
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "MenuImage",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Com_PickupImage_C:WidgetTree.MenuImage.CanvasPanelSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.72"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Com_PickupImage_C:WidgetTree.CanvasPanel_45.CanvasPanelSlot_5'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.61"
+      },
+      "bIsVariable": true,
+      "Visibility": "ESlateVisibility::Collapsed"
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "Meter",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Com_PickupImage_C:WidgetTree.Meter.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.73"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Com_PickupImage_C:WidgetTree.CanvasPanel_45.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.57"
+      },
+      "bIsVariable": true,
+      "Visibility": "ESlateVisibility::Collapsed"
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "Syogou",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Com_PickupImage_C:WidgetTree.Syogou.CanvasPanelSlot_2'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.74"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Com_PickupImage_C:WidgetTree.CanvasPanel_45.CanvasPanelSlot_8'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.64"
+      },
+      "RenderTransform": {
+        "Scale": {
+          "X": 1.8,
+          "Y": 1.9
+        }
+      },
+      "bIsVariable": true,
+      "Visibility": "ESlateVisibility::Visible"
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "Aura",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.Aura.CanvasPanelSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.75"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_45.CanvasPanelSlot_6'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.86"
+      },
+      "bIsVariable": true,
+      "Visibility": "ESlateVisibility::Collapsed"
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "Avatar",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.Avatar.CanvasPanelSlot_8'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.79"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.Avatar.CanvasPanelSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.76"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.Avatar.CanvasPanelSlot_3'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.77"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.Avatar.CanvasPanelSlot_5'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.78"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_45.CanvasPanelSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.82"
+      },
+      "bIsVariable": true,
+      "Visibility": "ESlateVisibility::Collapsed"
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_0",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.80"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_45",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_45.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.81"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_45.CanvasPanelSlot_5'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.85"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_45.CanvasPanelSlot_6'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.86"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_45.CanvasPanelSlot_7'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.87"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_45.CanvasPanelSlot_8'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.88"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_45.CanvasPanelSlot_9'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.89"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_45.CanvasPanelSlot_11'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.83"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_45.CanvasPanelSlot_12'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.84"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_45.CanvasPanelSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.82"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.80"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_95",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_95.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.90"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.Icon.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.93"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "ChatStamp",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.ChatStamp.CanvasPanelSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.91"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_45.CanvasPanelSlot_12'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.84"
+      },
+      "bIsVariable": true,
+      "Visibility": "ESlateVisibility::Visible"
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "Cup",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.Cup.CanvasPanelSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.92"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_45.CanvasPanelSlot_9'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.89"
+      },
+      "bIsVariable": true,
+      "Visibility": "ESlateVisibility::Visible"
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "Icon",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.Icon.CanvasPanelSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.94"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.Icon.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.93"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_45.CanvasPanelSlot_11'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.83"
+      },
+      "bIsVariable": true,
+      "Visibility": "ESlateVisibility::Visible"
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "Keychain",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.Keychain.CanvasPanelSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.95"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_45.CanvasPanelSlot_7'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.87"
+      },
+      "bIsVariable": true,
+      "Visibility": "ESlateVisibility::Collapsed"
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "MenuImage",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.MenuImage.CanvasPanelSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.96"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_45.CanvasPanelSlot_5'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.85"
+      },
+      "bIsVariable": true,
+      "Visibility": "ESlateVisibility::Collapsed"
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "Meter",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.Meter.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.97"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_45.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.81"
+      },
+      "bIsVariable": true,
+      "Visibility": "ESlateVisibility::Collapsed"
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "Syogou",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.Syogou.CanvasPanelSlot_2'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.98"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_45.CanvasPanelSlot_8'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.88"
+      },
+      "RenderTransform": {
+        "Scale": {
+          "X": 1.8,
+          "Y": 1.9
+        }
+      },
+      "bIsVariable": true,
+      "Visibility": "ESlateVisibility::Visible"
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_0",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_Syogou.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_2'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.99"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_Syogou.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_3'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.100"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_1",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_Syogou.WidgetTree_0.CanvasPanel_1.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.101"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_Syogou.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.100"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "Aura",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 237.0,
+          "Bottom": 114.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Com_PickupImage_C:WidgetTree.Aura'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.25"
+      },
+      "Content": {
+        "ObjectName": "Image'WBP_Com_PickupImage_C:WidgetTree.Aura_Image'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.117"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "Avatar",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 114.0,
+          "Bottom": 114.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Com_PickupImage_C:WidgetTree.Avatar'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.26"
+      },
+      "Content": {
+        "ObjectName": "Image'WBP_Com_PickupImage_C:WidgetTree.Avatar_Image'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.118"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_3",
+    "Outer": "Avatar",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 114.0,
+          "Bottom": 114.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Com_PickupImage_C:WidgetTree.Avatar'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.26"
+      },
+      "Content": {
+        "ObjectName": "Image'WBP_Com_PickupImage_C:WidgetTree.Image_ItemFlame'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.124"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_5",
+    "Outer": "Avatar",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -47.5,
+          "Top": -47.5,
+          "Right": 43.0,
+          "Bottom": 43.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Com_PickupImage_C:WidgetTree.Avatar'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.26"
+      },
+      "Content": {
+        "ObjectName": "Image'WBP_Com_PickupImage_C:WidgetTree.CustomIcon_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.121"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_8",
+    "Outer": "Avatar",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 114.0,
+          "Bottom": 114.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Com_PickupImage_C:WidgetTree.Avatar'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.26"
+      },
+      "Content": {
+        "ObjectName": "Image'WBP_Com_PickupImage_C:WidgetTree.Image_ItemBase'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.123"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 326.0,
+          "Bottom": 116.0
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Com_PickupImage_C:WidgetTree.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.27"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WBP_Com_PickupImage_C:WidgetTree.CanvasPanel_45'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.28"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "CanvasPanel_45",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 160.0,
+          "Bottom": 160.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Com_PickupImage_C:WidgetTree.CanvasPanel_45'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.28"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WBP_Com_PickupImage_C:WidgetTree.Meter'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.35"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "CanvasPanel_45",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 160.0,
+          "Bottom": 160.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Com_PickupImage_C:WidgetTree.CanvasPanel_45'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.28"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WBP_Com_PickupImage_C:WidgetTree.Avatar'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.26"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_11",
+    "Outer": "CanvasPanel_45",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 160.0,
+          "Bottom": 160.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Com_PickupImage_C:WidgetTree.CanvasPanel_45'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.28"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WBP_Com_PickupImage_C:WidgetTree.Icon'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.32"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_12",
+    "Outer": "CanvasPanel_45",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 160.0,
+          "Bottom": 160.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Com_PickupImage_C:WidgetTree.CanvasPanel_45'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.28"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WBP_Com_PickupImage_C:WidgetTree.ChatStamp'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.30"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_5",
+    "Outer": "CanvasPanel_45",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 2.0,
+          "Right": 160.0,
+          "Bottom": 160.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Com_PickupImage_C:WidgetTree.CanvasPanel_45'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.28"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WBP_Com_PickupImage_C:WidgetTree.MenuImage'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.34"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_6",
+    "Outer": "CanvasPanel_45",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 160.0,
+          "Bottom": 160.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Com_PickupImage_C:WidgetTree.CanvasPanel_45'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.28"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WBP_Com_PickupImage_C:WidgetTree.Aura'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.25"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_7",
+    "Outer": "CanvasPanel_45",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 160.0,
+          "Bottom": 160.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Com_PickupImage_C:WidgetTree.CanvasPanel_45'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.28"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WBP_Com_PickupImage_C:WidgetTree.Keychain'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.33"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_8",
+    "Outer": "CanvasPanel_45",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 160.0,
+          "Bottom": 160.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Com_PickupImage_C:WidgetTree.CanvasPanel_45'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.28"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WBP_Com_PickupImage_C:WidgetTree.Syogou'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.36"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_9",
+    "Outer": "CanvasPanel_45",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 160.0,
+          "Bottom": 160.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Com_PickupImage_C:WidgetTree.CanvasPanel_45'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.28"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WBP_Com_PickupImage_C:WidgetTree.Cup'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.31"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "CanvasPanel_95",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Com_PickupImage_C:WidgetTree.CanvasPanel_95'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.29"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WBP_Com_PickupImage_C:WidgetTree.TextBlock_145'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.195"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "ChatStamp",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 130.0,
+          "Bottom": 130.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Com_PickupImage_C:WidgetTree.ChatStamp'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.30"
+      },
+      "Content": {
+        "ObjectName": "Image'WBP_Com_PickupImage_C:WidgetTree.ChatStamp_Image'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.119"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "Cup",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": -6.0,
+          "Right": 102.0,
+          "Bottom": 136.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Com_PickupImage_C:WidgetTree.Cup'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.31"
+      },
+      "Content": {
+        "ObjectName": "Image'WBP_Com_PickupImage_C:WidgetTree.Cup_Image'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.120"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "Icon",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": 36.0,
+          "Right": 230.0,
+          "Bottom": 22.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Com_PickupImage_C:WidgetTree.Icon'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.32"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WBP_Com_PickupImage_C:WidgetTree.CanvasPanel_95'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.29"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "Icon",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 114.0,
+          "Bottom": 114.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Com_PickupImage_C:WidgetTree.Icon'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.32"
+      },
+      "Content": {
+        "ObjectName": "Image'WBP_Com_PickupImage_C:WidgetTree.Icon_Image'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.122"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "Keychain",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 10.0,
+          "Top": 7.0,
+          "Right": 142.0,
+          "Bottom": 142.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Com_PickupImage_C:WidgetTree.Keychain'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.33"
+      },
+      "Content": {
+        "ObjectName": "Image'WBP_Com_PickupImage_C:WidgetTree.Keychain_Image'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.125"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "MenuImage",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 226.0,
+          "Bottom": 104.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Com_PickupImage_C:WidgetTree.MenuImage'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.34"
+      },
+      "Content": {
+        "ObjectName": "Image'WBP_Com_PickupImage_C:WidgetTree.MenuImage_Image'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.126"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "Meter",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 256.0,
+          "Bottom": 128.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Com_PickupImage_C:WidgetTree.Meter'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.35"
+      },
+      "Content": {
+        "ObjectName": "Image'WBP_Com_PickupImage_C:WidgetTree.Meter_Image'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.127"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_2",
+    "Outer": "Syogou",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Com_PickupImage_C:WidgetTree.Syogou'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.36"
+      },
+      "Content": {
+        "ObjectName": "WBP_Syogou_C'WBP_Com_PickupImage_C:WidgetTree.WBP_Syogou'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.204"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "Aura",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 237.0,
+          "Bottom": 114.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.Aura'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.37"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.Aura_Image'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.128"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "Avatar",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 114.0,
+          "Bottom": 114.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.Avatar'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.38"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.Avatar_Image'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.129"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_3",
+    "Outer": "Avatar",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 114.0,
+          "Bottom": 114.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.Avatar'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.38"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.Image_ItemFlame'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.135"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_5",
+    "Outer": "Avatar",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -47.5,
+          "Top": -47.5,
+          "Right": 43.0,
+          "Bottom": 43.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.Avatar'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.38"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.CustomIcon_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.132"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_8",
+    "Outer": "Avatar",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 114.0,
+          "Bottom": 114.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.Avatar'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.38"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.Image_ItemBase'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.134"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 326.0,
+          "Bottom": 116.0
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.39"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_45'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.40"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "CanvasPanel_45",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 160.0,
+          "Bottom": 160.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_45'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.40"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.Meter'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.47"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "CanvasPanel_45",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 160.0,
+          "Bottom": 160.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_45'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.40"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.Avatar'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.38"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_11",
+    "Outer": "CanvasPanel_45",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 160.0,
+          "Bottom": 160.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_45'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.40"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.Icon'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.44"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_12",
+    "Outer": "CanvasPanel_45",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 160.0,
+          "Bottom": 160.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_45'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.40"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.ChatStamp'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.42"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_5",
+    "Outer": "CanvasPanel_45",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 2.0,
+          "Right": 160.0,
+          "Bottom": 160.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_45'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.40"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.MenuImage'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.46"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_6",
+    "Outer": "CanvasPanel_45",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 160.0,
+          "Bottom": 160.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_45'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.40"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.Aura'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.37"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_7",
+    "Outer": "CanvasPanel_45",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 160.0,
+          "Bottom": 160.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_45'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.40"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.Keychain'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.45"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_8",
+    "Outer": "CanvasPanel_45",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 160.0,
+          "Bottom": 160.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_45'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.40"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.Syogou'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.48"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_9",
+    "Outer": "CanvasPanel_45",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 160.0,
+          "Bottom": 160.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_45'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.40"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.Cup'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.43"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "CanvasPanel_95",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_95'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.41"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.TextBlock_145'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.196"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "ChatStamp",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 130.0,
+          "Bottom": 130.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.ChatStamp'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.42"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.ChatStamp_Image'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.130"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "Cup",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": -6.0,
+          "Right": 102.0,
+          "Bottom": 136.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.Cup'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.43"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.Cup_Image'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.131"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "Icon",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": 36.0,
+          "Right": 230.0,
+          "Bottom": 22.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.Icon'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.44"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_95'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.41"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "Icon",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 114.0,
+          "Bottom": 114.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.Icon'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.44"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.Icon_Image'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.133"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "Keychain",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 10.0,
+          "Top": 7.0,
+          "Right": 142.0,
+          "Bottom": 142.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.Keychain'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.45"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.Keychain_Image'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.136"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "MenuImage",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 226.0,
+          "Bottom": 104.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.MenuImage'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.46"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.MenuImage_Image'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.137"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "Meter",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 256.0,
+          "Bottom": 128.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.Meter'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.47"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.Meter_Image'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.138"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_2",
+    "Outer": "Syogou",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.Syogou'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.48"
+      },
+      "Content": {
+        "ObjectName": "WBP_Syogou_C'WidgetArchetype:WidgetTree_0.WBP_Syogou'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.205"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_2",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_Syogou.WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.49"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_Syogou.WidgetTree_0.base'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.139"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_3",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 450.0,
+          "Bottom": 40.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_Syogou.WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.49"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_Syogou.WidgetTree_0.CanvasPanel_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.50"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "CanvasPanel_1",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_Syogou.WidgetTree_0.CanvasPanel_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.50"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.WBP_Syogou.WidgetTree_0.P_SyogouText'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.197"
+      }
+    }
+  },
+  {
+    "Type": "DelegateProperty",
+    "Name": "K2Node_CreateDelegate_OutputDelegate",
+    "Outer": "ExecuteUbergraph_WBP_Com_PickupImage",
+    "Class": "UScriptClass'DelegateProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "SignatureFunction": {
+      "ObjectName": "DelegateFunction'KismetSystemLibrary:OnAssetLoaded__DelegateSignature'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "DelegateProperty",
+    "Name": "K2Node_CreateDelegate_OutputDelegate_1",
+    "Outer": "ExecuteUbergraph_WBP_Com_PickupImage",
+    "Class": "UScriptClass'DelegateProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "SignatureFunction": {
+      "ObjectName": "DelegateFunction'KismetSystemLibrary:OnAssetLoaded__DelegateSignature'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "K2Node_CustomEvent_Loaded",
+    "Outer": "ExecuteUbergraph_WBP_Com_PickupImage",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyClass": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Loaded",
+    "Outer": "OnLoaded_851080B942D70FBE61264D918C810F67",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "PropertyClass": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "OnLoaded_851080B942D70FBE61264D918C810F67",
+    "Outer": "WBP_Com_PickupImage_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "ObjectProperty'WBP_Com_PickupImage_C:OnLoaded_851080B942D70FBE61264D918C810F67.Loaded'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.105"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "K2Node_CustomEvent_Loaded_1",
+    "Outer": "ExecuteUbergraph_WBP_Com_PickupImage",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyClass": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Loaded",
+    "Outer": "OnLoaded_A9017571451EEBDD121F038B2F9D1CEB",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "PropertyClass": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "OnLoaded_A9017571451EEBDD121F038B2F9D1CEB",
+    "Outer": "WBP_Com_PickupImage_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "ObjectProperty'WBP_Com_PickupImage_C:OnLoaded_A9017571451EEBDD121F038B2F9D1CEB.Loaded'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.108"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "Set_AllImageCollapse",
+    "Outer": "WBP_Com_PickupImage_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "K2Node_CustomEvent_RewardData",
+    "Outer": "ExecuteUbergraph_WBP_Com_PickupImage",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Struct": {
+      "ObjectName": "ScriptStruct'RewardData'",
+      "ObjectPath": "/Script/GameProject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "RewardData",
+    "Outer": "Set_BeforehandLoadAvatarMat",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "Struct": {
+      "ObjectName": "ScriptStruct'RewardData'",
+      "ObjectPath": "/Script/GameProject"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "Set_BeforehandLoadAvatarMat",
+    "Outer": "WBP_Com_PickupImage_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "StructProperty'WBP_Com_PickupImage_C:Set_BeforehandLoadAvatarMat.RewardData'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.112"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "K2Node_CustomEvent_InputPin",
+    "Outer": "ExecuteUbergraph_WBP_Com_PickupImage",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Struct": {
+      "ObjectName": "ScriptStruct'RewardData'",
+      "ObjectPath": "/Script/GameProject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "InputPin",
+    "Outer": "Set_PickupRewardImage",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "Struct": {
+      "ObjectName": "ScriptStruct'RewardData'",
+      "ObjectPath": "/Script/GameProject"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "Set_PickupRewardImage",
+    "Outer": "WBP_Com_PickupImage_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "StructProperty'WBP_Com_PickupImage_C:Set_PickupRewardImage.InputPin'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.115"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Image",
+    "Name": "Aura_Image",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 624.0,
+          "Y": 300.0
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Com_PickupImage_C:WidgetTree.Aura.CanvasPanelSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.51"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Avatar_Image",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 180.0,
+          "Y": 180.0
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Com_PickupImage_C:WidgetTree.Avatar.CanvasPanelSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.52"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "ChatStamp_Image",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 512.0,
+          "Y": 532.0
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Com_PickupImage_C:WidgetTree.ChatStamp.CanvasPanelSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.67"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Cup_Image",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 300.0,
+          "Y": 400.0
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Com_PickupImage_C:WidgetTree.Cup.CanvasPanelSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.68"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "CustomIcon_1",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 68.0,
+          "Y": 68.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Com_Customize_Icon_CustomIcon'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/ComParts/Texture/T_Com_Customize_Icon_CustomIcon.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Com_PickupImage_C:WidgetTree.Avatar.CanvasPanelSlot_5'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.54"
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Icon_Image",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 92.0,
+          "Y": 100.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Continue_Stamp_BGMicon'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Continue/PlayStamp/Texture/T_Continue_Stamp_BGMicon.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Com_PickupImage_C:WidgetTree.Icon.CanvasPanelSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.70"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Image_ItemBase",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 180.0,
+          "Y": 180.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_ItemIcon_Base_SR'",
+          "ObjectPath": "GameProject/Content/IND/UI/Avatar/Icon/Textures/T_ItemIcon_Base_SR.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Com_PickupImage_C:WidgetTree.Avatar.CanvasPanelSlot_8'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.55"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Image_ItemFlame",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 180.0,
+          "Y": 180.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_ItemIcon_Flame_SR'",
+          "ObjectPath": "GameProject/Content/IND/UI/Avatar/Icon/Textures/T_ItemIcon_Flame_SR.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Com_PickupImage_C:WidgetTree.Avatar.CanvasPanelSlot_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.53"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Keychain_Image",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 256.0,
+          "Y": 256.0
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Com_PickupImage_C:WidgetTree.Keychain.CanvasPanelSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.71"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "MenuImage_Image",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 400.0,
+          "Y": 184.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_MenuCustom_PanelItem_03'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/MenuBGCustomize/Texture/ItemParts/T_MenuCustom_PanelItem_03.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Com_PickupImage_C:WidgetTree.MenuImage.CanvasPanelSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.72"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Meter_Image",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 800.0,
+          "Y": 400.0
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Com_PickupImage_C:WidgetTree.Meter.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.73"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Aura_Image",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 624.0,
+          "Y": 300.0
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.Aura.CanvasPanelSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.75"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Avatar_Image",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 180.0,
+          "Y": 180.0
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.Avatar.CanvasPanelSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.76"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "ChatStamp_Image",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 512.0,
+          "Y": 532.0
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.ChatStamp.CanvasPanelSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.91"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Cup_Image",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 300.0,
+          "Y": 400.0
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.Cup.CanvasPanelSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.92"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "CustomIcon_1",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 68.0,
+          "Y": 68.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Com_Customize_Icon_CustomIcon'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/ComParts/Texture/T_Com_Customize_Icon_CustomIcon.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.Avatar.CanvasPanelSlot_5'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.78"
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Icon_Image",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 92.0,
+          "Y": 100.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Continue_Stamp_BGMicon'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Continue/PlayStamp/Texture/T_Continue_Stamp_BGMicon.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.Icon.CanvasPanelSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.94"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Image_ItemBase",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 180.0,
+          "Y": 180.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_ItemIcon_Base_SR'",
+          "ObjectPath": "GameProject/Content/IND/UI/Avatar/Icon/Textures/T_ItemIcon_Base_SR.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.Avatar.CanvasPanelSlot_8'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.79"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Image_ItemFlame",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 180.0,
+          "Y": 180.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_ItemIcon_Flame_SR'",
+          "ObjectPath": "GameProject/Content/IND/UI/Avatar/Icon/Textures/T_ItemIcon_Flame_SR.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.Avatar.CanvasPanelSlot_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.77"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Keychain_Image",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 256.0,
+          "Y": 256.0
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.Keychain.CanvasPanelSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.95"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "MenuImage_Image",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 400.0,
+          "Y": 184.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_MenuCustom_PanelItem_03'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/MenuBGCustomize/Texture/ItemParts/T_MenuCustom_PanelItem_03.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.MenuImage.CanvasPanelSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.96"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Meter_Image",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 800.0,
+          "Y": 400.0
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.Meter.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.97"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "base",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 540.0,
+          "Y": 92.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Com_SyogoPlate_011'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/Syogo/Texture/T_Com_SyogoPlate_011.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_Syogou.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.99"
+      }
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_Add_IntInt_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_Com_PickupImage",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_Array_Length_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_Com_PickupImage",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "Temp_int_Array_Index_Variable",
+    "Outer": "ExecuteUbergraph_WBP_Com_PickupImage",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "Temp_int_Loop_Counter_Variable",
+    "Outer": "ExecuteUbergraph_WBP_Com_PickupImage",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Aura_Image",
+    "Outer": "WBP_Com_PickupImage_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'Image'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Avatar",
+    "Outer": "WBP_Com_PickupImage_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'CanvasPanel'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Avatar_Image",
+    "Outer": "WBP_Com_PickupImage_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'Image'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "ChatStamp",
+    "Outer": "WBP_Com_PickupImage_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'CanvasPanel'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "ChatStamp_Image",
+    "Outer": "WBP_Com_PickupImage_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'Image'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Cup",
+    "Outer": "WBP_Com_PickupImage_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'CanvasPanel'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Cup_Image",
+    "Outer": "WBP_Com_PickupImage_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'Image'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_Array_Get_Item",
+    "Outer": "ExecuteUbergraph_WBP_Com_PickupImage",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "InstancedReference",
+    "PropertyClass": {
+      "ObjectName": "Class'Widget'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_Conv_SoftObjectReferenceToObject_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_Com_PickupImage",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyClass": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_Conv_SoftObjectReferenceToObject_ReturnValue_1",
+    "Outer": "ExecuteUbergraph_WBP_Com_PickupImage",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyClass": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "K2Node_DynamicCast_AsTexture_2D",
+    "Outer": "ExecuteUbergraph_WBP_Com_PickupImage",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyClass": {
+      "ObjectName": "Class'Texture2D'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "K2Node_DynamicCast_AsTexture_2D_1",
+    "Outer": "ExecuteUbergraph_WBP_Com_PickupImage",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyClass": {
+      "ObjectName": "Class'Texture2D'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "K2Node_Select_Default",
+    "Outer": "ExecuteUbergraph_WBP_Com_PickupImage",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyClass": {
+      "ObjectName": "Class'Texture2D'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "K2Node_Select_Default_1",
+    "Outer": "ExecuteUbergraph_WBP_Com_PickupImage",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyClass": {
+      "ObjectName": "Class'Texture2D'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Temp_object_Variable",
+    "Outer": "ExecuteUbergraph_WBP_Com_PickupImage",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyClass": {
+      "ObjectName": "Class'Texture2D'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Temp_object_Variable_1",
+    "Outer": "ExecuteUbergraph_WBP_Com_PickupImage",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyClass": {
+      "ObjectName": "Class'Texture2D'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Temp_object_Variable_10",
+    "Outer": "ExecuteUbergraph_WBP_Com_PickupImage",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyClass": {
+      "ObjectName": "Class'Texture2D'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Temp_object_Variable_11",
+    "Outer": "ExecuteUbergraph_WBP_Com_PickupImage",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyClass": {
+      "ObjectName": "Class'Texture2D'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Temp_object_Variable_12",
+    "Outer": "ExecuteUbergraph_WBP_Com_PickupImage",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyClass": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Temp_object_Variable_13",
+    "Outer": "ExecuteUbergraph_WBP_Com_PickupImage",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyClass": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Temp_object_Variable_2",
+    "Outer": "ExecuteUbergraph_WBP_Com_PickupImage",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyClass": {
+      "ObjectName": "Class'Texture2D'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Temp_object_Variable_3",
+    "Outer": "ExecuteUbergraph_WBP_Com_PickupImage",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyClass": {
+      "ObjectName": "Class'Texture2D'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Temp_object_Variable_4",
+    "Outer": "ExecuteUbergraph_WBP_Com_PickupImage",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyClass": {
+      "ObjectName": "Class'Texture2D'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Temp_object_Variable_5",
+    "Outer": "ExecuteUbergraph_WBP_Com_PickupImage",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyClass": {
+      "ObjectName": "Class'Texture2D'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Temp_object_Variable_6",
+    "Outer": "ExecuteUbergraph_WBP_Com_PickupImage",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyClass": {
+      "ObjectName": "Class'Texture2D'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Temp_object_Variable_7",
+    "Outer": "ExecuteUbergraph_WBP_Com_PickupImage",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyClass": {
+      "ObjectName": "Class'Texture2D'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Temp_object_Variable_8",
+    "Outer": "ExecuteUbergraph_WBP_Com_PickupImage",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyClass": {
+      "ObjectName": "Class'Texture2D'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Temp_object_Variable_9",
+    "Outer": "ExecuteUbergraph_WBP_Com_PickupImage",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyClass": {
+      "ObjectName": "Class'Texture2D'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Icon",
+    "Outer": "WBP_Com_PickupImage_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'CanvasPanel'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Icon_Image",
+    "Outer": "WBP_Com_PickupImage_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'Image'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Image_ItemBase",
+    "Outer": "WBP_Com_PickupImage_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'Image'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Image_ItemFlame",
+    "Outer": "WBP_Com_PickupImage_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'Image'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Keychain",
+    "Outer": "WBP_Com_PickupImage_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'CanvasPanel'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Keychain_Image",
+    "Outer": "WBP_Com_PickupImage_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'Image'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "MenuImage",
+    "Outer": "WBP_Com_PickupImage_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'CanvasPanel'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "MenuImage_Image",
+    "Outer": "WBP_Com_PickupImage_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'Image'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Meter",
+    "Outer": "WBP_Com_PickupImage_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'CanvasPanel'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Meter_Image",
+    "Outer": "WBP_Com_PickupImage_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'Image'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "StoreData",
+    "Outer": "WBP_Com_PickupImage_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Syogou",
+    "Outer": "WBP_Com_PickupImage_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'CanvasPanel'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "TextBlock_145",
+    "Outer": "WBP_Com_PickupImage_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'TextBlock'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "WBP_Syogou",
+    "Outer": "WBP_Com_PickupImage_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'WBP_Syogou_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/StartMenu/PlayerInfo/WBP_Syogou.1"
+    }
+  },
+  {
+    "Type": "SoftObjectProperty",
+    "Name": "CallFunc_GetImageChatStamp_ChatStampImage",
+    "Outer": "ExecuteUbergraph_WBP_Com_PickupImage",
+    "Class": "UScriptClass'SoftObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyClass": {
+      "ObjectName": "Class'Texture2D'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "SoftObjectProperty",
+    "Name": "SoftImage",
+    "Outer": "WBP_Com_PickupImage_C",
+    "Class": "UScriptClass'SoftObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'Texture2D'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_GetImageAura_Value",
+    "Outer": "ExecuteUbergraph_WBP_Com_PickupImage",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Struct": {
+      "ObjectName": "UserDefinedStruct'ST_WidgetSetting_SelectCommon_Panel'",
+      "ObjectPath": "GameProject/Content/IND/UI/DataTable/Select/Common/ST_WidgetSetting_SelectCommon_Panel.1"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_GetImageKeyChain_Value",
+    "Outer": "ExecuteUbergraph_WBP_Com_PickupImage",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Struct": {
+      "ObjectName": "UserDefinedStruct'ST_MirrorAccessory'",
+      "ObjectPath": "GameProject/Content/IND/DataTable/MirrorAccessory/ST_MirrorAccessory.1"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_GetImageMenuBG_Value",
+    "Outer": "ExecuteUbergraph_WBP_Com_PickupImage",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Struct": {
+      "ObjectName": "UserDefinedStruct'ST_WidgetSetting_Factory_CustomizeMenu'",
+      "ObjectPath": "GameProject/Content/IND/UI/DataTable/Factory/Customize/MenuCustom/ST_WidgetSetting_Factory_CustomizeMenu.0"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_GetImageMeter_Value",
+    "Outer": "ExecuteUbergraph_WBP_Com_PickupImage",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Struct": {
+      "ObjectName": "UserDefinedStruct'ST_WidgetSetting_Factory_CustomizeMeter'",
+      "ObjectPath": "GameProject/Content/IND/UI/DataTable/Factory/Customize/MeterCustom/ST_WidgetSetting_Factory_CustomizeMeter.0"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_GetImagePaperCup_Value",
+    "Outer": "ExecuteUbergraph_WBP_Com_PickupImage",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Struct": {
+      "ObjectName": "UserDefinedStruct'ST_WidgetSetting_Factory_CustomizeCup'",
+      "ObjectPath": "GameProject/Content/IND/UI/DataTable/Factory/Customize/CupCustom/ST_WidgetSetting_Factory_CustomizeCup.0"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_GetReceiveRewardData_ReceiveRewardData",
+    "Outer": "ExecuteUbergraph_WBP_Com_PickupImage",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Struct": {
+      "ObjectName": "UserDefinedStruct'ST_ReceiveRewardData'",
+      "ObjectPath": "GameProject/Content/IND/DataTable/RewardIcon/ST_ReceiveRewardData.2"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_GetReceiveRewardData_ReceiveRewardData_1",
+    "Outer": "ExecuteUbergraph_WBP_Com_PickupImage",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Struct": {
+      "ObjectName": "UserDefinedStruct'ST_ReceiveRewardData'",
+      "ObjectPath": "GameProject/Content/IND/DataTable/RewardIcon/ST_ReceiveRewardData.2"
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "TextBlock_145",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "319532C34291DD52660154957A746457",
+        "SourceString": "PRESERVED VAMPIRE",
+        "LocalizedString": "PRESERVED VAMPIRE"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 1
+        },
+        "TypefaceFontName": "RodinN_EB",
+        "Size": 12
+      },
+      "ShadowColorAndOpacity": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "000000"
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Com_PickupImage_C:WidgetTree.CanvasPanel_95.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.66"
+      },
+      "RenderTransform": {
+        "Shear": {
+          "X": -10.0,
+          "Y": 0.0
+        }
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "TextBlock_145",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "319532C34291DD52660154957A746457",
+        "SourceString": "PRESERVED VAMPIRE",
+        "LocalizedString": "PRESERVED VAMPIRE"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 1
+        },
+        "TypefaceFontName": "RodinN_EB",
+        "Size": 12
+      },
+      "ShadowColorAndOpacity": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "000000"
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_95.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.90"
+      },
+      "RenderTransform": {
+        "Shear": {
+          "X": -10.0,
+          "Y": 0.0
+        }
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "P_SyogouText",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "C3A963ED406875A3962FFAA65B484484",
+        "SourceString": "Ignition Particpant",
+        "LocalizedString": "Ignition Particpant"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 0.0,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "000000"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 2,
+          "OutlineColor": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "FFFFFF"
+          }
+        },
+        "TypefaceFontName": "RodinN_B",
+        "Size": 23
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_Syogou.WidgetTree_0.CanvasPanel_1.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.101"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "CallFunc_GetImageChatStamp_ChatStampName",
+    "Outer": "ExecuteUbergraph_WBP_Com_PickupImage",
+    "Class": "UScriptClass'TextProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "CallFunc_GetPartsNameBGM_BGMName",
+    "Outer": "ExecuteUbergraph_WBP_Com_PickupImage",
+    "Class": "UScriptClass'TextProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "CallFunc_GetPartsNameTeamLogo_TeamLogoName",
+    "Outer": "ExecuteUbergraph_WBP_Com_PickupImage",
+    "Class": "UScriptClass'TextProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "CallFunc_GetReceiveRewardData_PartsName",
+    "Outer": "ExecuteUbergraph_WBP_Com_PickupImage",
+    "Class": "UScriptClass'TextProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "CallFunc_GetReceiveRewardData_PartsName_1",
+    "Outer": "ExecuteUbergraph_WBP_Com_PickupImage",
+    "Class": "UScriptClass'TextProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "WBP_Com_PickupImage_C",
+    "Name": "WidgetArchetype",
+    "Class": "WidgetBlueprintGeneratedClass'GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.WBP_Com_PickupImage_C'",
+    "Template": {
+      "ObjectName": "WBP_Com_PickupImage_C'Default__WBP_Com_PickupImage_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.2"
+    },
+    "Flags": "RF_Public | RF_Standalone | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Aura": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.Aura'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.37"
+      },
+      "Aura_Image": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.Aura_Image'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.128"
+      },
+      "Avatar": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.Avatar'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.38"
+      },
+      "Avatar_Image": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.Avatar_Image'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.129"
+      },
+      "ChatStamp": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.ChatStamp'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.42"
+      },
+      "ChatStamp_Image": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.ChatStamp_Image'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.130"
+      },
+      "Cup": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.Cup'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.43"
+      },
+      "Cup_Image": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.Cup_Image'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.131"
+      },
+      "Icon": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.Icon'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.44"
+      },
+      "Icon_Image": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.Icon_Image'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.133"
+      },
+      "Image_ItemBase": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.Image_ItemBase'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.134"
+      },
+      "Image_ItemFlame": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.Image_ItemFlame'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.135"
+      },
+      "Keychain": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.Keychain'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.45"
+      },
+      "Keychain_Image": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.Keychain_Image'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.136"
+      },
+      "MenuImage": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.MenuImage'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.46"
+      },
+      "MenuImage_Image": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.MenuImage_Image'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.137"
+      },
+      "Meter": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.Meter'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.47"
+      },
+      "Meter_Image": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.Meter_Image'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.138"
+      },
+      "Syogou": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.Syogou'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.48"
+      },
+      "TextBlock_145": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.TextBlock_145'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.196"
+      },
+      "WBP_Syogou": {
+        "ObjectName": "WBP_Syogou_C'WidgetArchetype:WidgetTree_0.WBP_Syogou'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.205"
+      },
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.207"
+      },
+      "bCookedWidgetTree": true
+    }
+  },
+  {
+    "Type": "WBP_Syogou_C",
+    "Name": "WBP_Syogou",
+    "Outer": "WidgetTree",
+    "Class": "WidgetBlueprintGeneratedClass'GameProject/Content/IND/UI/StartMenu/PlayerInfo/WBP_Syogou.WBP_Syogou_C'",
+    "Template": {
+      "ObjectName": "WBP_Syogou_C'Default__WBP_Syogou_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/StartMenu/PlayerInfo/WBP_Syogou.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Com_PickupImage_C:WidgetTree.Syogou.CanvasPanelSlot_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.74"
+      },
+      "RenderTransform": {
+        "Scale": {
+          "X": 0.3,
+          "Y": 0.3
+        }
+      }
+    }
+  },
+  {
+    "Type": "WBP_Syogou_C",
+    "Name": "WBP_Syogou",
+    "Outer": "WidgetTree_0",
+    "Class": "WidgetBlueprintGeneratedClass'GameProject/Content/IND/UI/StartMenu/PlayerInfo/WBP_Syogou.WBP_Syogou_C'",
+    "Template": {
+      "ObjectName": "WBP_Syogou_C'Default__WBP_Syogou_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/StartMenu/PlayerInfo/WBP_Syogou.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "base": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_Syogou.WidgetTree_0.base'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.139"
+      },
+      "P_SyogouText": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.WBP_Syogou.WidgetTree_0.P_SyogouText'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.197"
+      },
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.WBP_Syogou.WidgetTree_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.208"
+      },
+      "bCookedWidgetTree": true,
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.Syogou.CanvasPanelSlot_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.98"
+      },
+      "RenderTransform": {
+        "Scale": {
+          "X": 0.3,
+          "Y": 0.3
+        }
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Outer": "WBP_Com_PickupImage_C",
+    "Class": "UScriptClass'WidgetTree'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CanvasPanel'WBP_Com_PickupImage_C:WidgetTree.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.27"
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree_0",
+    "Outer": "WidgetArchetype",
+    "Class": "UScriptClass'WidgetTree'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.39"
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree_0",
+    "Outer": "WBP_Syogou",
+    "Class": "UScriptClass'WidgetTree'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_Syogou.WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PickupImage.49"
+      }
+    }
+  }
+]

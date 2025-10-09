@@ -1,0 +1,1596 @@
+[
+  {
+    "Type": "StructProperty",
+    "Name": "UberGraphFrame",
+    "Outer": "WBP_Match_Info_Pts_C",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "Transient | DuplicateTransient",
+    "Struct": {
+      "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "WBP_Match_Info_Pts_C",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WBP_Match_Info_Pts_C:WidgetTree'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Pts.63"
+      },
+      "bAllowTemplate": true,
+      "bValidTemplate": true,
+      "TemplateAsset": {
+        "AssetPathName": "/Game/IND/UI/Matching/WBP_Match_Info_Pts.WidgetArchetype",
+        "SubPathString": ""
+      },
+      "UberGraphFramePointerProperty": {
+        "ObjectName": "StructProperty'WBP_Match_Info_Pts_C:UberGraphFrame'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Pts.0"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'WBP_Match_Info_Pts_C:ExecuteUbergraph_WBP_Match_Info_Pts'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Pts.38"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'UserWidget'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'WBP_Match_Info_Pts_C:UberGraphFrame'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Pts.0"
+      },
+      {
+        "ObjectName": "Function'WBP_Match_Info_Pts_C:SetRank'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Pts.42"
+      },
+      {
+        "ObjectName": "Function'WBP_Match_Info_Pts_C:SetPoint'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Pts.40"
+      },
+      {
+        "ObjectName": "Function'WBP_Match_Info_Pts_C:ExecuteUbergraph_WBP_Match_Info_Pts'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Pts.38"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Match_Info_Pts_C:P_Point_Num'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Pts.19"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Match_Info_Pts_C:P_Point_Unit'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Pts.53"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Match_Info_Pts_C:P_Rank_Num'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Pts.21"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Match_Info_Pts_C:P_Rank_Unit'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Pts.20"
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_WBP_Match_Info_Pts": {
+        "ObjectName": "Function'WBP_Match_Info_Pts_C:ExecuteUbergraph_WBP_Match_Info_Pts'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Pts.38"
+      },
+      "SetPoint": {
+        "ObjectName": "Function'WBP_Match_Info_Pts_C:SetPoint'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Pts.40"
+      },
+      "SetRank": {
+        "ObjectName": "Function'WBP_Match_Info_Pts_C:SetRank'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Pts.42"
+      }
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "WBP_Match_Info_Pts_C'Default__WBP_Match_Info_Pts_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Pts.2"
+    }
+  },
+  {
+    "Type": "WBP_Match_Info_Pts_C",
+    "Name": "Default__WBP_Match_Info_Pts_C",
+    "Class": "WidgetBlueprintGeneratedClass'GameProject/Content/IND/UI/Matching/WBP_Match_Info_Pts.WBP_Match_Info_Pts_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "UberGraphFrame": {},
+      "bHasScriptImplementedTick": false,
+      "bHasScriptImplementedPaint": false
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_0",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Match_Info_Pts_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Pts.7"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Match_Info_Pts_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_2'",
+          "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Pts.8"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Match_Info_Pts_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_3'",
+          "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Pts.9"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Match_Info_Pts_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_4'",
+          "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Pts.10"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "Point",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Match_Info_Pts_C:WidgetTree.Point.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Pts.11"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Match_Info_Pts_C:WidgetTree.Point.CanvasPanelSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Pts.12"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Match_Info_Pts_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Pts.8"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_0",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Pts.13"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_2'",
+          "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Pts.14"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_3'",
+          "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Pts.15"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_4'",
+          "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Pts.16"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "Point",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.Point.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Pts.17"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.Point.CanvasPanelSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Pts.18"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Pts.14"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Match_Info_Pts_C:WidgetTree.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Pts.3"
+      },
+      "Content": {
+        "ObjectName": "Image'WBP_Match_Info_Pts_C:WidgetTree.Base'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Pts.49"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_2",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 28.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Match_Info_Pts_C:WidgetTree.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Pts.3"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WBP_Match_Info_Pts_C:WidgetTree.Point'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Pts.4"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_3",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 100.40486
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Match_Info_Pts_C:WidgetTree.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Pts.3"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WBP_Match_Info_Pts_C:WidgetTree.P_Point_Unit'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Pts.55"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_4",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -104.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Match_Info_Pts_C:WidgetTree.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Pts.3"
+      },
+      "Content": {
+        "ObjectName": "HorizontalBox'WBP_Match_Info_Pts_C:WidgetTree.Rank'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Pts.43"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "Point",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -8.0,
+          "Top": -2.0,
+          "Right": -8.0,
+          "Bottom": -2.0
+        },
+        "Anchors": {
+          "Maximum": {
+            "X": 1.0,
+            "Y": 1.0
+          }
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Match_Info_Pts_C:WidgetTree.Point'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Pts.4"
+      },
+      "Content": {
+        "ObjectName": "Image'WBP_Match_Info_Pts_C:WidgetTree.Point_Eff'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Pts.50"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "Point",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Match_Info_Pts_C:WidgetTree.Point'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Pts.4"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WBP_Match_Info_Pts_C:WidgetTree.P_Point_Num'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Pts.54"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Pts.5"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.Base'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Pts.51"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_2",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 28.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Pts.5"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.Point'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Pts.6"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_3",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 100.40486
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Pts.5"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.P_Point_Unit'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Pts.59"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_4",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -104.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Pts.5"
+      },
+      "Content": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.Rank'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Pts.44"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "Point",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -8.0,
+          "Top": -2.0,
+          "Right": -8.0,
+          "Bottom": -2.0
+        },
+        "Anchors": {
+          "Maximum": {
+            "X": 1.0,
+            "Y": 1.0
+          }
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.Point'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Pts.6"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.Point_Eff'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Pts.52"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "Point",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.Point'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Pts.6"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.P_Point_Num'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Pts.58"
+      }
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "P_Point_Num",
+    "Outer": "WBP_Match_Info_Pts_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'TextBlock'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "P_Rank_Unit",
+    "Outer": "WBP_Match_Info_Pts_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'TextBlock'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "P_Rank_Num",
+    "Outer": "WBP_Match_Info_Pts_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'TextBlock'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "CallFunc_Conv_IntToText_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_Match_Info_Pts",
+    "Class": "UScriptClass'TextProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "K2Node_CustomEvent_Point",
+    "Outer": "ExecuteUbergraph_WBP_Match_Info_Pts",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "K2Node_Select_Default_1",
+    "Outer": "ExecuteUbergraph_WBP_Match_Info_Pts",
+    "Class": "UScriptClass'TextProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "K2Node_Select_Default",
+    "Outer": "ExecuteUbergraph_WBP_Match_Info_Pts",
+    "Class": "UScriptClass'TextProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "K2Node_CustomEvent_Rank",
+    "Outer": "ExecuteUbergraph_WBP_Match_Info_Pts",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "Temp_text_Variable_7",
+    "Outer": "ExecuteUbergraph_WBP_Match_Info_Pts",
+    "Class": "UScriptClass'TextProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "Temp_text_Variable_6",
+    "Outer": "ExecuteUbergraph_WBP_Match_Info_Pts",
+    "Class": "UScriptClass'TextProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "Temp_text_Variable_5",
+    "Outer": "ExecuteUbergraph_WBP_Match_Info_Pts",
+    "Class": "UScriptClass'TextProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "Temp_text_Variable_4",
+    "Outer": "ExecuteUbergraph_WBP_Match_Info_Pts",
+    "Class": "UScriptClass'TextProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "Temp_int_Variable_1",
+    "Outer": "ExecuteUbergraph_WBP_Match_Info_Pts",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "Temp_text_Variable_3",
+    "Outer": "ExecuteUbergraph_WBP_Match_Info_Pts",
+    "Class": "UScriptClass'TextProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "Temp_text_Variable_2",
+    "Outer": "ExecuteUbergraph_WBP_Match_Info_Pts",
+    "Class": "UScriptClass'TextProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "Temp_text_Variable_1",
+    "Outer": "ExecuteUbergraph_WBP_Match_Info_Pts",
+    "Class": "UScriptClass'TextProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "Temp_text_Variable",
+    "Outer": "ExecuteUbergraph_WBP_Match_Info_Pts",
+    "Class": "UScriptClass'TextProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "Temp_int_Variable",
+    "Outer": "ExecuteUbergraph_WBP_Match_Info_Pts",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "EntryPoint",
+    "Outer": "ExecuteUbergraph_WBP_Match_Info_Pts",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_WBP_Match_Info_Pts",
+    "Outer": "WBP_Match_Info_Pts_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "IntProperty'WBP_Match_Info_Pts_C:ExecuteUbergraph_WBP_Match_Info_Pts.EntryPoint'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Pts.37"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Match_Info_Pts_C:ExecuteUbergraph_WBP_Match_Info_Pts.Temp_int_Variable'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Pts.36"
+      },
+      {
+        "ObjectName": "TextProperty'WBP_Match_Info_Pts_C:ExecuteUbergraph_WBP_Match_Info_Pts.Temp_text_Variable'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Pts.35"
+      },
+      {
+        "ObjectName": "TextProperty'WBP_Match_Info_Pts_C:ExecuteUbergraph_WBP_Match_Info_Pts.Temp_text_Variable_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Pts.34"
+      },
+      {
+        "ObjectName": "TextProperty'WBP_Match_Info_Pts_C:ExecuteUbergraph_WBP_Match_Info_Pts.Temp_text_Variable_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Pts.33"
+      },
+      {
+        "ObjectName": "TextProperty'WBP_Match_Info_Pts_C:ExecuteUbergraph_WBP_Match_Info_Pts.Temp_text_Variable_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Pts.32"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Match_Info_Pts_C:ExecuteUbergraph_WBP_Match_Info_Pts.Temp_int_Variable_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Pts.31"
+      },
+      {
+        "ObjectName": "TextProperty'WBP_Match_Info_Pts_C:ExecuteUbergraph_WBP_Match_Info_Pts.Temp_text_Variable_4'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Pts.30"
+      },
+      {
+        "ObjectName": "TextProperty'WBP_Match_Info_Pts_C:ExecuteUbergraph_WBP_Match_Info_Pts.Temp_text_Variable_5'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Pts.29"
+      },
+      {
+        "ObjectName": "TextProperty'WBP_Match_Info_Pts_C:ExecuteUbergraph_WBP_Match_Info_Pts.Temp_text_Variable_6'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Pts.28"
+      },
+      {
+        "ObjectName": "TextProperty'WBP_Match_Info_Pts_C:ExecuteUbergraph_WBP_Match_Info_Pts.Temp_text_Variable_7'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Pts.27"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Match_Info_Pts_C:ExecuteUbergraph_WBP_Match_Info_Pts.K2Node_CustomEvent_Rank'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Pts.26"
+      },
+      {
+        "ObjectName": "TextProperty'WBP_Match_Info_Pts_C:ExecuteUbergraph_WBP_Match_Info_Pts.K2Node_Select_Default'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Pts.25"
+      },
+      {
+        "ObjectName": "TextProperty'WBP_Match_Info_Pts_C:ExecuteUbergraph_WBP_Match_Info_Pts.K2Node_Select_Default_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Pts.24"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Match_Info_Pts_C:ExecuteUbergraph_WBP_Match_Info_Pts.K2Node_CustomEvent_Point'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Pts.23"
+      },
+      {
+        "ObjectName": "TextProperty'WBP_Match_Info_Pts_C:ExecuteUbergraph_WBP_Match_Info_Pts.CallFunc_Conv_IntToText_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Pts.22"
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction | FUNC_HasDefaults"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "Point",
+    "Outer": "SetPoint",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "SetPoint",
+    "Outer": "WBP_Match_Info_Pts_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "IntProperty'WBP_Match_Info_Pts_C:SetPoint.Point'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Pts.39"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "Rank",
+    "Outer": "SetRank",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "SetRank",
+    "Outer": "WBP_Match_Info_Pts_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "IntProperty'WBP_Match_Info_Pts_C:SetRank.Rank'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Pts.41"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "HorizontalBox",
+    "Name": "Rank",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'HorizontalBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "HorizontalBoxSlot'WBP_Match_Info_Pts_C:WidgetTree.Rank.HorizontalBoxSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Pts.45"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot'WBP_Match_Info_Pts_C:WidgetTree.Rank.HorizontalBoxSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Pts.46"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Match_Info_Pts_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_4'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Pts.10"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBox",
+    "Name": "Rank",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'HorizontalBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.Rank.HorizontalBoxSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Pts.47"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.Rank.HorizontalBoxSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Pts.48"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_4'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Pts.16"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_0",
+    "Outer": "Rank",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "VerticalAlignment": "VAlign_Bottom",
+      "Parent": {
+        "ObjectName": "HorizontalBox'WBP_Match_Info_Pts_C:WidgetTree.Rank'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Pts.43"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WBP_Match_Info_Pts_C:WidgetTree.P_Rank_Num'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Pts.56"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_1",
+    "Outer": "Rank",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox'WBP_Match_Info_Pts_C:WidgetTree.Rank'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Pts.43"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WBP_Match_Info_Pts_C:WidgetTree.P_Rank_Unit'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Pts.57"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_0",
+    "Outer": "Rank",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "VerticalAlignment": "VAlign_Bottom",
+      "Parent": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.Rank'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Pts.44"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.P_Rank_Num'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Pts.60"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_1",
+    "Outer": "Rank",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.Rank'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Pts.44"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.P_Rank_Unit'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Pts.61"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Base",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 175.0,
+          "Y": 41.0
+        },
+        "Margin": {
+          "Left": 0.5,
+          "Top": 0.5,
+          "Right": 0.5,
+          "Bottom": 0.5
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_match_Info_Base_02'",
+          "ObjectPath": "GameProject/Content/IND/UI/Matching/Texture/T_match_Info_Base_02.0"
+        },
+        "DrawAs": "ESlateBrushDrawType::Box"
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Match_Info_Pts_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Pts.7"
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Point_Eff",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "Margin": {
+          "Left": 0.5,
+          "Top": 0.5,
+          "Right": 0.5,
+          "Bottom": 0.5
+        },
+        "ResourceObject": {
+          "ObjectName": "MaterialInstanceConstant'M_match_Search_Ef_01_Inst'",
+          "ObjectPath": "GameProject/Content/IND/UI/Matching/Material/M_match_Search_Ef_01_Inst.0"
+        },
+        "DrawAs": "ESlateBrushDrawType::Box"
+      },
+      "ColorAndOpacity": {
+        "R": 0.0,
+        "G": 0.66,
+        "B": 0.004371,
+        "A": 1.0,
+        "Hex": "00D50E"
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Match_Info_Pts_C:WidgetTree.Point.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Pts.11"
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Base",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 175.0,
+          "Y": 41.0
+        },
+        "Margin": {
+          "Left": 0.5,
+          "Top": 0.5,
+          "Right": 0.5,
+          "Bottom": 0.5
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_match_Info_Base_02'",
+          "ObjectPath": "GameProject/Content/IND/UI/Matching/Texture/T_match_Info_Base_02.0"
+        },
+        "DrawAs": "ESlateBrushDrawType::Box"
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Pts.13"
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Point_Eff",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "Margin": {
+          "Left": 0.5,
+          "Top": 0.5,
+          "Right": 0.5,
+          "Bottom": 0.5
+        },
+        "ResourceObject": {
+          "ObjectName": "MaterialInstanceConstant'M_match_Search_Ef_01_Inst'",
+          "ObjectPath": "GameProject/Content/IND/UI/Matching/Material/M_match_Search_Ef_01_Inst.0"
+        },
+        "DrawAs": "ESlateBrushDrawType::Box"
+      },
+      "ColorAndOpacity": {
+        "R": 0.0,
+        "G": 0.66,
+        "B": 0.004371,
+        "A": 1.0,
+        "Hex": "00D50E"
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.Point.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Pts.17"
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "P_Point_Unit",
+    "Outer": "WBP_Match_Info_Pts_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'TextBlock'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "P_Point_Num",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "59A15F984993C4B92760E28207D5C6FB",
+        "SourceString": "10000",
+        "LocalizedString": "10000"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "TypefaceFontName": "RodinN_B",
+        "Size": 18
+      },
+      "ShadowOffset": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "Justification": "ETextJustify::Right",
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Match_Info_Pts_C:WidgetTree.Point.CanvasPanelSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Pts.12"
+      },
+      "RenderTransform": {
+        "Shear": {
+          "X": -10.0,
+          "Y": 0.0
+        }
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "P_Point_Unit",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "B4CC4AD042C8CCD3EB3EB68D44074F33",
+        "SourceString": "pts",
+        "LocalizedString": "pts"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 0.783538,
+          "G": 0.783538,
+          "B": 0.783538,
+          "A": 1.0,
+          "Hex": "E5E5E5"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "TypefaceFontName": "RodinN_B",
+        "Size": 12
+      },
+      "ShadowOffset": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Match_Info_Pts_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Pts.9"
+      },
+      "RenderTransform": {
+        "Translation": {
+          "X": 0.0,
+          "Y": 3.0
+        },
+        "Shear": {
+          "X": -10.0,
+          "Y": 0.0
+        }
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "P_Rank_Num",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "B3BBB9624A79A535ADD5DDA4F7D50196",
+        "SourceString": "1",
+        "LocalizedString": "1"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 0.783538,
+          "G": 0.783538,
+          "B": 0.783538,
+          "A": 1.0,
+          "Hex": "E5E5E5"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "TypefaceFontName": "RodinN_B",
+        "Size": 18
+      },
+      "ShadowOffset": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WBP_Match_Info_Pts_C:WidgetTree.Rank.HorizontalBoxSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Pts.45"
+      },
+      "RenderTransform": {
+        "Shear": {
+          "X": -10.0,
+          "Y": 0.0
+        }
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "P_Rank_Unit",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "982292EB40108D8C49D7D5A5CE7CF84C",
+        "SourceString": "位",
+        "LocalizedString": "位"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 0.783538,
+          "G": 0.783538,
+          "B": 0.783538,
+          "A": 1.0,
+          "Hex": "E5E5E5"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "TypefaceFontName": "RodinN_B",
+        "Size": 12
+      },
+      "ShadowOffset": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WBP_Match_Info_Pts_C:WidgetTree.Rank.HorizontalBoxSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Pts.46"
+      },
+      "RenderTransform": {
+        "Translation": {
+          "X": 0.0,
+          "Y": 3.0
+        },
+        "Shear": {
+          "X": -10.0,
+          "Y": 0.0
+        }
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "P_Point_Num",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "59A15F984993C4B92760E28207D5C6FB",
+        "SourceString": "10000",
+        "LocalizedString": "10000"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "TypefaceFontName": "RodinN_B",
+        "Size": 18
+      },
+      "ShadowOffset": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "Justification": "ETextJustify::Right",
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.Point.CanvasPanelSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Pts.18"
+      },
+      "RenderTransform": {
+        "Shear": {
+          "X": -10.0,
+          "Y": 0.0
+        }
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "P_Point_Unit",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "B4CC4AD042C8CCD3EB3EB68D44074F33",
+        "SourceString": "pts",
+        "LocalizedString": "pts"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 0.783538,
+          "G": 0.783538,
+          "B": 0.783538,
+          "A": 1.0,
+          "Hex": "E5E5E5"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "TypefaceFontName": "RodinN_B",
+        "Size": 12
+      },
+      "ShadowOffset": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Pts.15"
+      },
+      "RenderTransform": {
+        "Translation": {
+          "X": 0.0,
+          "Y": 3.0
+        },
+        "Shear": {
+          "X": -10.0,
+          "Y": 0.0
+        }
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "P_Rank_Num",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "B3BBB9624A79A535ADD5DDA4F7D50196",
+        "SourceString": "1",
+        "LocalizedString": "1"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 0.783538,
+          "G": 0.783538,
+          "B": 0.783538,
+          "A": 1.0,
+          "Hex": "E5E5E5"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "TypefaceFontName": "RodinN_B",
+        "Size": 18
+      },
+      "ShadowOffset": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.Rank.HorizontalBoxSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Pts.47"
+      },
+      "RenderTransform": {
+        "Shear": {
+          "X": -10.0,
+          "Y": 0.0
+        }
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "P_Rank_Unit",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "982292EB40108D8C49D7D5A5CE7CF84C",
+        "SourceString": "位",
+        "LocalizedString": "位"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 0.783538,
+          "G": 0.783538,
+          "B": 0.783538,
+          "A": 1.0,
+          "Hex": "E5E5E5"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "TypefaceFontName": "RodinN_B",
+        "Size": 12
+      },
+      "ShadowOffset": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.Rank.HorizontalBoxSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Pts.48"
+      },
+      "RenderTransform": {
+        "Translation": {
+          "X": 0.0,
+          "Y": 3.0
+        },
+        "Shear": {
+          "X": -10.0,
+          "Y": 0.0
+        }
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "WBP_Match_Info_Pts_C",
+    "Name": "WidgetArchetype",
+    "Class": "WidgetBlueprintGeneratedClass'GameProject/Content/IND/UI/Matching/WBP_Match_Info_Pts.WBP_Match_Info_Pts_C'",
+    "Template": {
+      "ObjectName": "WBP_Match_Info_Pts_C'Default__WBP_Match_Info_Pts_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Pts.2"
+    },
+    "Flags": "RF_Public | RF_Standalone | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "P_Point_Num": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.P_Point_Num'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Pts.58"
+      },
+      "P_Point_Unit": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.P_Point_Unit'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Pts.59"
+      },
+      "P_Rank_Num": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.P_Rank_Num'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Pts.60"
+      },
+      "P_Rank_Unit": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.P_Rank_Unit'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Pts.61"
+      },
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Pts.64"
+      },
+      "bCookedWidgetTree": true
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Outer": "WBP_Match_Info_Pts_C",
+    "Class": "UScriptClass'WidgetTree'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CanvasPanel'WBP_Match_Info_Pts_C:WidgetTree.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Pts.3"
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree_0",
+    "Outer": "WidgetArchetype",
+    "Class": "UScriptClass'WidgetTree'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Pts.5"
+      }
+    }
+  }
+]

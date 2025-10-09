@@ -1,0 +1,810 @@
+[
+  {
+    "Type": "ObjectProperty",
+    "Name": "P_Text",
+    "Outer": "WBP_Aime_Dialog_SpeechBalloon_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'TextBlock'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "WBP_Aime_Dialog_SpeechBalloon_C",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WBP_Aime_Dialog_SpeechBalloon_C:WidgetTree'",
+        "ObjectPath": "GameProject/Content/IND/UI/Aime/Dialog/WBP_Aime_Dialog_SpeechBalloon.26"
+      },
+      "bAllowTemplate": true,
+      "bValidTemplate": true,
+      "TemplateAsset": {
+        "AssetPathName": "/Game/IND/UI/Aime/Dialog/WBP_Aime_Dialog_SpeechBalloon.WidgetArchetype",
+        "SubPathString": ""
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'UserWidget'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "Children": [
+      {
+        "ObjectName": "ObjectProperty'WBP_Aime_Dialog_SpeechBalloon_C:P_Text'",
+        "ObjectPath": "GameProject/Content/IND/UI/Aime/Dialog/WBP_Aime_Dialog_SpeechBalloon.0"
+      }
+    ],
+    "ClassFlags": "CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "WBP_Aime_Dialog_SpeechBalloon_C'Default__WBP_Aime_Dialog_SpeechBalloon_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Aime/Dialog/WBP_Aime_Dialog_SpeechBalloon.2"
+    }
+  },
+  {
+    "Type": "WBP_Aime_Dialog_SpeechBalloon_C",
+    "Name": "Default__WBP_Aime_Dialog_SpeechBalloon_C",
+    "Class": "WidgetBlueprintGeneratedClass'GameProject/Content/IND/UI/Aime/Dialog/WBP_Aime_Dialog_SpeechBalloon.WBP_Aime_Dialog_SpeechBalloon_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "bHasScriptImplementedTick": false,
+      "bHasScriptImplementedPaint": false
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_0",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Aime_Dialog_SpeechBalloon_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Aime/Dialog/WBP_Aime_Dialog_SpeechBalloon.7"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_151",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Aime_Dialog_SpeechBalloon_C:WidgetTree.CanvasPanel_151.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Aime/Dialog/WBP_Aime_Dialog_SpeechBalloon.8"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Aime_Dialog_SpeechBalloon_C:WidgetTree.CanvasPanel_151.CanvasPanelSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Aime/Dialog/WBP_Aime_Dialog_SpeechBalloon.9"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Aime_Dialog_SpeechBalloon_C:WidgetTree.CanvasPanel_151.CanvasPanelSlot_2'",
+          "ObjectPath": "GameProject/Content/IND/UI/Aime/Dialog/WBP_Aime_Dialog_SpeechBalloon.10"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Aime_Dialog_SpeechBalloon_C:WidgetTree.CanvasPanel_151.CanvasPanelSlot_4'",
+          "ObjectPath": "GameProject/Content/IND/UI/Aime/Dialog/WBP_Aime_Dialog_SpeechBalloon.11"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Aime_Dialog_SpeechBalloon_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Aime/Dialog/WBP_Aime_Dialog_SpeechBalloon.7"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_0",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Aime/Dialog/WBP_Aime_Dialog_SpeechBalloon.12"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_151",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_151.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Aime/Dialog/WBP_Aime_Dialog_SpeechBalloon.13"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_151.CanvasPanelSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Aime/Dialog/WBP_Aime_Dialog_SpeechBalloon.14"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_151.CanvasPanelSlot_2'",
+          "ObjectPath": "GameProject/Content/IND/UI/Aime/Dialog/WBP_Aime_Dialog_SpeechBalloon.15"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_151.CanvasPanelSlot_4'",
+          "ObjectPath": "GameProject/Content/IND/UI/Aime/Dialog/WBP_Aime_Dialog_SpeechBalloon.16"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Aime/Dialog/WBP_Aime_Dialog_SpeechBalloon.12"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Aime_Dialog_SpeechBalloon_C:WidgetTree.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Aime/Dialog/WBP_Aime_Dialog_SpeechBalloon.3"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WBP_Aime_Dialog_SpeechBalloon_C:WidgetTree.CanvasPanel_151'",
+        "ObjectPath": "GameProject/Content/IND/UI/Aime/Dialog/WBP_Aime_Dialog_SpeechBalloon.4"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "CanvasPanel_151",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -48.0,
+          "Top": 8.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 1.0,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 1.0,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.0,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Aime_Dialog_SpeechBalloon_C:WidgetTree.CanvasPanel_151'",
+        "ObjectPath": "GameProject/Content/IND/UI/Aime/Dialog/WBP_Aime_Dialog_SpeechBalloon.4"
+      },
+      "Content": {
+        "ObjectName": "Image'WBP_Aime_Dialog_SpeechBalloon_C:WidgetTree.SpeechBalloon_R'",
+        "ObjectPath": "GameProject/Content/IND/UI/Aime/Dialog/WBP_Aime_Dialog_SpeechBalloon.19"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "CanvasPanel_151",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": 8.0,
+          "Right": 48.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.0,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 1.0,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.0,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Aime_Dialog_SpeechBalloon_C:WidgetTree.CanvasPanel_151'",
+        "ObjectPath": "GameProject/Content/IND/UI/Aime/Dialog/WBP_Aime_Dialog_SpeechBalloon.4"
+      },
+      "Content": {
+        "ObjectName": "Image'WBP_Aime_Dialog_SpeechBalloon_C:WidgetTree.SpeechBalloon_C'",
+        "ObjectPath": "GameProject/Content/IND/UI/Aime/Dialog/WBP_Aime_Dialog_SpeechBalloon.17"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_2",
+    "Outer": "CanvasPanel_151",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": 8.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.0,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.0,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 1.0,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Aime_Dialog_SpeechBalloon_C:WidgetTree.CanvasPanel_151'",
+        "ObjectPath": "GameProject/Content/IND/UI/Aime/Dialog/WBP_Aime_Dialog_SpeechBalloon.4"
+      },
+      "Content": {
+        "ObjectName": "Image'WBP_Aime_Dialog_SpeechBalloon_C:WidgetTree.SpeechBalloon_L'",
+        "ObjectPath": "GameProject/Content/IND/UI/Aime/Dialog/WBP_Aime_Dialog_SpeechBalloon.18"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_4",
+    "Outer": "CanvasPanel_151",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Aime_Dialog_SpeechBalloon_C:WidgetTree.CanvasPanel_151'",
+        "ObjectPath": "GameProject/Content/IND/UI/Aime/Dialog/WBP_Aime_Dialog_SpeechBalloon.4"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WBP_Aime_Dialog_SpeechBalloon_C:WidgetTree.P_Text'",
+        "ObjectPath": "GameProject/Content/IND/UI/Aime/Dialog/WBP_Aime_Dialog_SpeechBalloon.23"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Aime/Dialog/WBP_Aime_Dialog_SpeechBalloon.5"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_151'",
+        "ObjectPath": "GameProject/Content/IND/UI/Aime/Dialog/WBP_Aime_Dialog_SpeechBalloon.6"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "CanvasPanel_151",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -48.0,
+          "Top": 8.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 1.0,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 1.0,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.0,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_151'",
+        "ObjectPath": "GameProject/Content/IND/UI/Aime/Dialog/WBP_Aime_Dialog_SpeechBalloon.6"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.SpeechBalloon_R'",
+        "ObjectPath": "GameProject/Content/IND/UI/Aime/Dialog/WBP_Aime_Dialog_SpeechBalloon.22"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "CanvasPanel_151",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": 8.0,
+          "Right": 48.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.0,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 1.0,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.0,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_151'",
+        "ObjectPath": "GameProject/Content/IND/UI/Aime/Dialog/WBP_Aime_Dialog_SpeechBalloon.6"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.SpeechBalloon_C'",
+        "ObjectPath": "GameProject/Content/IND/UI/Aime/Dialog/WBP_Aime_Dialog_SpeechBalloon.20"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_2",
+    "Outer": "CanvasPanel_151",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": 8.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.0,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.0,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 1.0,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_151'",
+        "ObjectPath": "GameProject/Content/IND/UI/Aime/Dialog/WBP_Aime_Dialog_SpeechBalloon.6"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.SpeechBalloon_L'",
+        "ObjectPath": "GameProject/Content/IND/UI/Aime/Dialog/WBP_Aime_Dialog_SpeechBalloon.21"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_4",
+    "Outer": "CanvasPanel_151",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_151'",
+        "ObjectPath": "GameProject/Content/IND/UI/Aime/Dialog/WBP_Aime_Dialog_SpeechBalloon.6"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.P_Text'",
+        "ObjectPath": "GameProject/Content/IND/UI/Aime/Dialog/WBP_Aime_Dialog_SpeechBalloon.24"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "SpeechBalloon_C",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 12.0,
+          "Y": 84.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Aime_Dialog_Speechballoon_C'",
+          "ObjectPath": "GameProject/Content/IND/UI/Aime/Dialog/Texture/T_Aime_Dialog_Speechballoon_C.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Aime_Dialog_SpeechBalloon_C:WidgetTree.CanvasPanel_151.CanvasPanelSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Aime/Dialog/WBP_Aime_Dialog_SpeechBalloon.9"
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "SpeechBalloon_L",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 24.0,
+          "Y": 84.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Aime_Dialog_Speechballoon_L'",
+          "ObjectPath": "GameProject/Content/IND/UI/Aime/Dialog/Texture/T_Aime_Dialog_Speechballoon_L.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Aime_Dialog_SpeechBalloon_C:WidgetTree.CanvasPanel_151.CanvasPanelSlot_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Aime/Dialog/WBP_Aime_Dialog_SpeechBalloon.10"
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "SpeechBalloon_R",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 72.0,
+          "Y": 84.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Aime_Dialog_Speechballoon_R'",
+          "ObjectPath": "GameProject/Content/IND/UI/Aime/Dialog/Texture/T_Aime_Dialog_Speechballoon_R.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Aime_Dialog_SpeechBalloon_C:WidgetTree.CanvasPanel_151.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Aime/Dialog/WBP_Aime_Dialog_SpeechBalloon.8"
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "SpeechBalloon_C",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 12.0,
+          "Y": 84.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Aime_Dialog_Speechballoon_C'",
+          "ObjectPath": "GameProject/Content/IND/UI/Aime/Dialog/Texture/T_Aime_Dialog_Speechballoon_C.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_151.CanvasPanelSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Aime/Dialog/WBP_Aime_Dialog_SpeechBalloon.14"
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "SpeechBalloon_L",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 24.0,
+          "Y": 84.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Aime_Dialog_Speechballoon_L'",
+          "ObjectPath": "GameProject/Content/IND/UI/Aime/Dialog/Texture/T_Aime_Dialog_Speechballoon_L.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_151.CanvasPanelSlot_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Aime/Dialog/WBP_Aime_Dialog_SpeechBalloon.15"
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "SpeechBalloon_R",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 72.0,
+          "Y": 84.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Aime_Dialog_Speechballoon_R'",
+          "ObjectPath": "GameProject/Content/IND/UI/Aime/Dialog/Texture/T_Aime_Dialog_Speechballoon_R.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_151.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Aime/Dialog/WBP_Aime_Dialog_SpeechBalloon.13"
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "P_Text",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "F060A8D14BE8C4E5A9C4899994B6BE24",
+        "SourceString": "First play is free!",
+        "LocalizedString": "First play is free!"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 0.799103,
+          "G": 0.799103,
+          "B": 0.799103,
+          "A": 1.0,
+          "Hex": "E7E7E7"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 2,
+          "OutlineColor": {
+            "R": 0.109462,
+            "G": 0.099899,
+            "B": 0.109462,
+            "A": 1.0,
+            "Hex": "5D595D"
+          }
+        },
+        "TypefaceFontName": "RodinN_B",
+        "Size": 18
+      },
+      "ShadowOffset": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Aime_Dialog_SpeechBalloon_C:WidgetTree.CanvasPanel_151.CanvasPanelSlot_4'",
+        "ObjectPath": "GameProject/Content/IND/UI/Aime/Dialog/WBP_Aime_Dialog_SpeechBalloon.11"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "P_Text",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "F060A8D14BE8C4E5A9C4899994B6BE24",
+        "SourceString": "First play is free!",
+        "LocalizedString": "First play is free!"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 0.799103,
+          "G": 0.799103,
+          "B": 0.799103,
+          "A": 1.0,
+          "Hex": "E7E7E7"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 2,
+          "OutlineColor": {
+            "R": 0.109462,
+            "G": 0.099899,
+            "B": 0.109462,
+            "A": 1.0,
+            "Hex": "5D595D"
+          }
+        },
+        "TypefaceFontName": "RodinN_B",
+        "Size": 18
+      },
+      "ShadowOffset": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_151.CanvasPanelSlot_4'",
+        "ObjectPath": "GameProject/Content/IND/UI/Aime/Dialog/WBP_Aime_Dialog_SpeechBalloon.16"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "WBP_Aime_Dialog_SpeechBalloon_C",
+    "Name": "WidgetArchetype",
+    "Class": "WidgetBlueprintGeneratedClass'GameProject/Content/IND/UI/Aime/Dialog/WBP_Aime_Dialog_SpeechBalloon.WBP_Aime_Dialog_SpeechBalloon_C'",
+    "Template": {
+      "ObjectName": "WBP_Aime_Dialog_SpeechBalloon_C'Default__WBP_Aime_Dialog_SpeechBalloon_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Aime/Dialog/WBP_Aime_Dialog_SpeechBalloon.2"
+    },
+    "Flags": "RF_Public | RF_Standalone | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "P_Text": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.P_Text'",
+        "ObjectPath": "GameProject/Content/IND/UI/Aime/Dialog/WBP_Aime_Dialog_SpeechBalloon.24"
+      },
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Aime/Dialog/WBP_Aime_Dialog_SpeechBalloon.27"
+      },
+      "bCookedWidgetTree": true
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Outer": "WBP_Aime_Dialog_SpeechBalloon_C",
+    "Class": "UScriptClass'WidgetTree'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CanvasPanel'WBP_Aime_Dialog_SpeechBalloon_C:WidgetTree.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Aime/Dialog/WBP_Aime_Dialog_SpeechBalloon.3"
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree_0",
+    "Outer": "WidgetArchetype",
+    "Class": "UScriptClass'WidgetTree'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Aime/Dialog/WBP_Aime_Dialog_SpeechBalloon.5"
+      }
+    }
+  }
+]

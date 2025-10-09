@@ -1,0 +1,3627 @@
+[
+  {
+    "Type": "StructProperty",
+    "Name": "UberGraphFrame",
+    "Outer": "WBP_Theory_SelectPartner_Detail_Item_Set_C",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "Transient | DuplicateTransient",
+    "Struct": {
+      "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "WBP_Theory_SelectPartner_Detail_Item_Set_C",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WBP_Theory_SelectPartner_Detail_Item_Set_C:WidgetTree'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.151"
+      },
+      "bAllowTemplate": true,
+      "bValidTemplate": true,
+      "TemplateAsset": {
+        "AssetPathName": "/Game/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.WidgetArchetype",
+        "SubPathString": ""
+      },
+      "UberGraphFramePointerProperty": {
+        "ObjectName": "StructProperty'WBP_Theory_SelectPartner_Detail_Item_Set_C:UberGraphFrame'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.0"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'WBP_Theory_SelectPartner_Detail_Item_Set_C:ExecuteUbergraph_WBP_Theory_SelectPartner_Detail_Item_Set'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.5"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'UserWidget'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'WBP_Theory_SelectPartner_Detail_Item_Set_C:UberGraphFrame'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.0"
+      },
+      {
+        "ObjectName": "Function'WBP_Theory_SelectPartner_Detail_Item_Set_C:Setup'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.14"
+      },
+      {
+        "ObjectName": "Function'WBP_Theory_SelectPartner_Detail_Item_Set_C:ExecuteUbergraph_WBP_Theory_SelectPartner_Detail_Item_Set'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.5"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Theory_SelectPartner_Detail_Item_Set_C:WBP_Theory_SelectPartner_Detail_Item_01'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.3"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Theory_SelectPartner_Detail_Item_Set_C:WBP_Theory_SelectPartner_Detail_Item_02'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.56"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Theory_SelectPartner_Detail_Item_Set_C:WBP_Theory_SelectPartner_Detail_Item_03'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.57"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Theory_SelectPartner_Detail_Item_Set_C:WBP_Theory_SelectPartner_Detail_Item_04'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.58"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Theory_SelectPartner_Detail_Item_Set_C:Length'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.52"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Theory_SelectPartner_Detail_Item_Set_C:PossessionLength'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.53"
+      },
+      {
+        "ObjectName": "ArrayProperty'WBP_Theory_SelectPartner_Detail_Item_Set_C:PossessionFlag'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.11"
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_WBP_Theory_SelectPartner_Detail_Item_Set": {
+        "ObjectName": "Function'WBP_Theory_SelectPartner_Detail_Item_Set_C:ExecuteUbergraph_WBP_Theory_SelectPartner_Detail_Item_Set'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.5"
+      },
+      "Setup": {
+        "ObjectName": "Function'WBP_Theory_SelectPartner_Detail_Item_Set_C:Setup'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.14"
+      }
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "WBP_Theory_SelectPartner_Detail_Item_Set_C'Default__WBP_Theory_SelectPartner_Detail_Item_Set_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.2"
+    }
+  },
+  {
+    "Type": "WBP_Theory_SelectPartner_Detail_Item_Set_C",
+    "Name": "Default__WBP_Theory_SelectPartner_Detail_Item_Set_C",
+    "Class": "WidgetBlueprintGeneratedClass'GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.WBP_Theory_SelectPartner_Detail_Item_Set_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "UberGraphFrame": {},
+      "bHasScriptImplementedTick": false,
+      "bHasScriptImplementedPaint": false
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "WBP_Theory_SelectPartner_Detail_Item_01",
+    "Outer": "WBP_Theory_SelectPartner_Detail_Item_Set_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'WBP_Theory_SelectPartner_Detail_Item_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item.1"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "EntryPoint",
+    "Outer": "ExecuteUbergraph_WBP_Theory_SelectPartner_Detail_Item_Set",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_WBP_Theory_SelectPartner_Detail_Item_Set",
+    "Outer": "WBP_Theory_SelectPartner_Detail_Item_Set_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "IntProperty'WBP_Theory_SelectPartner_Detail_Item_Set_C:ExecuteUbergraph_WBP_Theory_SelectPartner_Detail_Item_Set.EntryPoint'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.4"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Theory_SelectPartner_Detail_Item_Set_C:ExecuteUbergraph_WBP_Theory_SelectPartner_Detail_Item_Set.Temp_int_Loop_Counter_Variable'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.51"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Theory_SelectPartner_Detail_Item_Set_C:ExecuteUbergraph_WBP_Theory_SelectPartner_Detail_Item_Set.Temp_int_Array_Index_Variable'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.50"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Theory_SelectPartner_Detail_Item_Set_C:ExecuteUbergraph_WBP_Theory_SelectPartner_Detail_Item_Set.CallFunc_Add_IntInt_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.46"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Theory_SelectPartner_Detail_Item_Set_C:ExecuteUbergraph_WBP_Theory_SelectPartner_Detail_Item_Set.Temp_wildcard_Variable'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.55"
+      },
+      {
+        "ObjectName": "EnumProperty'WBP_Theory_SelectPartner_Detail_Item_Set_C:ExecuteUbergraph_WBP_Theory_SelectPartner_Detail_Item_Set.K2Node_CustomEvent_FellowshipLv'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.33"
+      },
+      {
+        "ObjectName": "ArrayProperty'WBP_Theory_SelectPartner_Detail_Item_Set_C:ExecuteUbergraph_WBP_Theory_SelectPartner_Detail_Item_Set.K2Node_CustomEvent_Rewards'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.7"
+      },
+      {
+        "ObjectName": "StructProperty'WBP_Theory_SelectPartner_Detail_Item_Set_C:ExecuteUbergraph_WBP_Theory_SelectPartner_Detail_Item_Set.CallFunc_Array_Get_Item'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.103"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Theory_SelectPartner_Detail_Item_Set_C:ExecuteUbergraph_WBP_Theory_SelectPartner_Detail_Item_Set.CallFunc_Array_Length_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.47"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Theory_SelectPartner_Detail_Item_Set_C:ExecuteUbergraph_WBP_Theory_SelectPartner_Detail_Item_Set.CallFunc_Less_IntInt_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.18"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Theory_SelectPartner_Detail_Item_Set_C:ExecuteUbergraph_WBP_Theory_SelectPartner_Detail_Item_Set.CallFunc_Conv_ByteToInt_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.48"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Theory_SelectPartner_Detail_Item_Set_C:ExecuteUbergraph_WBP_Theory_SelectPartner_Detail_Item_Set.CallFunc_Conv_ByteToInt_ReturnValue_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.49"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Theory_SelectPartner_Detail_Item_Set_C:ExecuteUbergraph_WBP_Theory_SelectPartner_Detail_Item_Set.CallFunc_LessEqual_IntInt_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.19"
+      },
+      {
+        "ObjectName": "ArrayProperty'WBP_Theory_SelectPartner_Detail_Item_Set_C:ExecuteUbergraph_WBP_Theory_SelectPartner_Detail_Item_Set.K2Node_MakeArray_Array'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.9"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Theory_SelectPartner_Detail_Item_Set_C:ExecuteUbergraph_WBP_Theory_SelectPartner_Detail_Item_Set.CallFunc_Array_IsValidIndex_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.17"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Theory_SelectPartner_Detail_Item_Set_C:ExecuteUbergraph_WBP_Theory_SelectPartner_Detail_Item_Set.CallFunc_Array_Get_Item_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.54"
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction | FUNC_HasDefaults"
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "K2Node_CustomEvent_Rewards",
+    "Outer": "K2Node_CustomEvent_Rewards",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Struct": {
+      "ObjectName": "ScriptStruct'TheoryPartnerReward'",
+      "ObjectPath": "/Script/GameProject"
+    }
+  },
+  {
+    "Type": "ArrayProperty",
+    "Name": "K2Node_CustomEvent_Rewards",
+    "Outer": "ExecuteUbergraph_WBP_Theory_SelectPartner_Detail_Item_Set",
+    "Class": "UScriptClass'ArrayProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "ConstParm | ReferenceParm",
+    "Inner": {
+      "ObjectName": "StructProperty'WBP_Theory_SelectPartner_Detail_Item_Set_C:ExecuteUbergraph_WBP_Theory_SelectPartner_Detail_Item_Set.K2Node_CustomEvent_Rewards.K2Node_CustomEvent_Rewards'",
+      "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.6"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "K2Node_MakeArray_Array",
+    "Outer": "K2Node_MakeArray_Array",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "InstancedReference",
+    "PropertyClass": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'WBP_Theory_SelectPartner_Detail_Item_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item.1"
+    }
+  },
+  {
+    "Type": "ArrayProperty",
+    "Name": "K2Node_MakeArray_Array",
+    "Outer": "ExecuteUbergraph_WBP_Theory_SelectPartner_Detail_Item_Set",
+    "Class": "UScriptClass'ArrayProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "ReferenceParm | ContainsInstancedReference",
+    "Inner": {
+      "ObjectName": "ObjectProperty'WBP_Theory_SelectPartner_Detail_Item_Set_C:ExecuteUbergraph_WBP_Theory_SelectPartner_Detail_Item_Set.K2Node_MakeArray_Array.K2Node_MakeArray_Array'",
+      "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.8"
+    }
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "PossessionFlag",
+    "Outer": "PossessionFlag",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "ArrayProperty",
+    "Name": "PossessionFlag",
+    "Outer": "WBP_Theory_SelectPartner_Detail_Item_Set_C",
+    "Class": "UScriptClass'ArrayProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+    "Inner": {
+      "ObjectName": "BoolProperty'WBP_Theory_SelectPartner_Detail_Item_Set_C:PossessionFlag.PossessionFlag'",
+      "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.10"
+    }
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Outer": "FellowshipLv",
+    "Class": "UScriptClass'ByteProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": null
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "FellowshipLv",
+    "Outer": "Setup",
+    "Class": "UScriptClass'EnumProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "Enum": {
+      "ObjectName": "Enum'ETheoryMode_PartnerFellowshipLv'",
+      "ObjectPath": "/Script/GameProject"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'WBP_Theory_SelectPartner_Detail_Item_Set_C:Setup.FellowshipLv.UnderlyingType'",
+      "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.12"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "Setup",
+    "Outer": "WBP_Theory_SelectPartner_Detail_Item_Set_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "EnumProperty'WBP_Theory_SelectPartner_Detail_Item_Set_C:Setup.FellowshipLv'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.13"
+      },
+      {
+        "ObjectName": "ArrayProperty'WBP_Theory_SelectPartner_Detail_Item_Set_C:Setup.Rewards'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.16"
+      }
+    ],
+    "FunctionFlags": "FUNC_HasOutParms | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "Rewards",
+    "Outer": "Rewards",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Struct": {
+      "ObjectName": "ScriptStruct'TheoryPartnerReward'",
+      "ObjectPath": "/Script/GameProject"
+    }
+  },
+  {
+    "Type": "ArrayProperty",
+    "Name": "Rewards",
+    "Outer": "Setup",
+    "Class": "UScriptClass'ArrayProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "ConstParm | BlueprintVisible | BlueprintReadOnly | Parm | OutParm | ReferenceParm",
+    "Inner": {
+      "ObjectName": "StructProperty'WBP_Theory_SelectPartner_Detail_Item_Set_C:Setup.Rewards.Rewards'",
+      "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.15"
+    }
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_Array_IsValidIndex_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_Theory_SelectPartner_Detail_Item_Set",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_Less_IntInt_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_Theory_SelectPartner_Detail_Item_Set",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_LessEqual_IntInt_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_Theory_SelectPartner_Detail_Item_Set",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Outer": "K2Node_CustomEvent_FellowshipLv",
+    "Class": "UScriptClass'ByteProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": null
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_0",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Theory_SelectPartner_Detail_Item_Set_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.27"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_0",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.28"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_0",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_01.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.29"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_0",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_02.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.30"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_0",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_03.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.31"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_0",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_04.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.32"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Theory_SelectPartner_Detail_Item_Set_C:WidgetTree.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.21"
+      },
+      "Content": {
+        "ObjectName": "VerticalBox'WBP_Theory_SelectPartner_Detail_Item_Set_C:WidgetTree.VerticalBox_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.120"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.22"
+      },
+      "Content": {
+        "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.VerticalBox_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.121"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_01.WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.23"
+      },
+      "Content": {
+        "ObjectName": "WidgetSwitcher'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_01.WidgetTree_0.WidgetSwitcher_60'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.139"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_02.WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.24"
+      },
+      "Content": {
+        "ObjectName": "WidgetSwitcher'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_02.WidgetTree_0.WidgetSwitcher_60'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.140"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_03.WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.25"
+      },
+      "Content": {
+        "ObjectName": "WidgetSwitcher'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_03.WidgetTree_0.WidgetSwitcher_60'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.141"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_04.WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.26"
+      },
+      "Content": {
+        "ObjectName": "WidgetSwitcher'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_04.WidgetTree_0.WidgetSwitcher_60'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.142"
+      }
+    }
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "K2Node_CustomEvent_FellowshipLv",
+    "Outer": "ExecuteUbergraph_WBP_Theory_SelectPartner_Detail_Item_Set",
+    "Class": "UScriptClass'EnumProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": {
+      "ObjectName": "Enum'ETheoryMode_PartnerFellowshipLv'",
+      "ObjectPath": "/Script/GameProject"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'WBP_Theory_SelectPartner_Detail_Item_Set_C:ExecuteUbergraph_WBP_Theory_SelectPartner_Detail_Item_Set.K2Node_CustomEvent_FellowshipLv.UnderlyingType'",
+      "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.20"
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "ActiveBase",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 344.0,
+          "Y": 60.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Theory_SelectPartner_ItemBase_Active'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/Texture/T_Theory_SelectPartner_ItemBase_Active.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_01.WidgetTree_0.Active.OverlaySlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.71"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Image_288",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 124.0,
+          "Y": 36.0
+        },
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 0.682292,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "D80000"
+          }
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Theory_SelectPartner_ItemBase_Badge'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/Texture/T_Theory_SelectPartner_ItemBase_Badge.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_01.WidgetTree_0.Overlay_0.OverlaySlot_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.78"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "InActiveBase",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 344.0,
+          "Y": 60.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Theory_SelectPartner_ItemBase_InActive'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/Texture/T_Theory_SelectPartner_ItemBase_InActive.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_01.WidgetTree_0.InActive.OverlaySlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.74"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "ActiveBase",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 344.0,
+          "Y": 60.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Theory_SelectPartner_ItemBase_Active'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/Texture/T_Theory_SelectPartner_ItemBase_Active.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_02.WidgetTree_0.Active.OverlaySlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.79"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Image_288",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 124.0,
+          "Y": 36.0
+        },
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 0.682292,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "D80000"
+          }
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Theory_SelectPartner_ItemBase_Badge'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/Texture/T_Theory_SelectPartner_ItemBase_Badge.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_02.WidgetTree_0.Overlay_0.OverlaySlot_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.86"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "InActiveBase",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 344.0,
+          "Y": 60.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Theory_SelectPartner_ItemBase_InActive'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/Texture/T_Theory_SelectPartner_ItemBase_InActive.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_02.WidgetTree_0.InActive.OverlaySlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.82"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "ActiveBase",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 344.0,
+          "Y": 60.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Theory_SelectPartner_ItemBase_Active'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/Texture/T_Theory_SelectPartner_ItemBase_Active.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_03.WidgetTree_0.Active.OverlaySlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.87"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Image_288",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 124.0,
+          "Y": 36.0
+        },
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 0.682292,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "D80000"
+          }
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Theory_SelectPartner_ItemBase_Badge'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/Texture/T_Theory_SelectPartner_ItemBase_Badge.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_03.WidgetTree_0.Overlay_0.OverlaySlot_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.94"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "InActiveBase",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 344.0,
+          "Y": 60.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Theory_SelectPartner_ItemBase_InActive'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/Texture/T_Theory_SelectPartner_ItemBase_InActive.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_03.WidgetTree_0.InActive.OverlaySlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.90"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "ActiveBase",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 344.0,
+          "Y": 60.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Theory_SelectPartner_ItemBase_Active'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/Texture/T_Theory_SelectPartner_ItemBase_Active.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_04.WidgetTree_0.Active.OverlaySlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.95"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Image_288",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 124.0,
+          "Y": 36.0
+        },
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 0.682292,
+            "G": 0.0,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "D80000"
+          }
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Theory_SelectPartner_ItemBase_Badge'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/Texture/T_Theory_SelectPartner_ItemBase_Badge.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_04.WidgetTree_0.Overlay_0.OverlaySlot_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.102"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "InActiveBase",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 344.0,
+          "Y": 60.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Theory_SelectPartner_ItemBase_InActive'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/Texture/T_Theory_SelectPartner_ItemBase_InActive.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_04.WidgetTree_0.InActive.OverlaySlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.98"
+      }
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_Add_IntInt_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_Theory_SelectPartner_Detail_Item_Set",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_Array_Length_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_Theory_SelectPartner_Detail_Item_Set",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_Conv_ByteToInt_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_Theory_SelectPartner_Detail_Item_Set",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_Conv_ByteToInt_ReturnValue_1",
+    "Outer": "ExecuteUbergraph_WBP_Theory_SelectPartner_Detail_Item_Set",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "Temp_int_Array_Index_Variable",
+    "Outer": "ExecuteUbergraph_WBP_Theory_SelectPartner_Detail_Item_Set",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "Temp_int_Loop_Counter_Variable",
+    "Outer": "ExecuteUbergraph_WBP_Theory_SelectPartner_Detail_Item_Set",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "Length",
+    "Outer": "WBP_Theory_SelectPartner_Detail_Item_Set_C",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "PossessionLength",
+    "Outer": "WBP_Theory_SelectPartner_Detail_Item_Set_C",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_Array_Get_Item_1",
+    "Outer": "ExecuteUbergraph_WBP_Theory_SelectPartner_Detail_Item_Set",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "InstancedReference",
+    "PropertyClass": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'WBP_Theory_SelectPartner_Detail_Item_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item.1"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Temp_wildcard_Variable",
+    "Outer": "ExecuteUbergraph_WBP_Theory_SelectPartner_Detail_Item_Set",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "InstancedReference",
+    "PropertyClass": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'WBP_Theory_SelectPartner_Detail_Item_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item.1"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "WBP_Theory_SelectPartner_Detail_Item_02",
+    "Outer": "WBP_Theory_SelectPartner_Detail_Item_Set_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'WBP_Theory_SelectPartner_Detail_Item_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item.1"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "WBP_Theory_SelectPartner_Detail_Item_03",
+    "Outer": "WBP_Theory_SelectPartner_Detail_Item_Set_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'WBP_Theory_SelectPartner_Detail_Item_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item.1"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "WBP_Theory_SelectPartner_Detail_Item_04",
+    "Outer": "WBP_Theory_SelectPartner_Detail_Item_Set_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'WBP_Theory_SelectPartner_Detail_Item_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item.1"
+    }
+  },
+  {
+    "Type": "Overlay",
+    "Name": "Active",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Overlay'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_01.WidgetTree_0.Active.OverlaySlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.71"
+        },
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_01.WidgetTree_0.Active.OverlaySlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.72"
+        },
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_01.WidgetTree_0.Active.OverlaySlot_7'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.73"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "WidgetSwitcherSlot'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_01.WidgetTree_0.WidgetSwitcher_60.WidgetSwitcherSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.143"
+      }
+    }
+  },
+  {
+    "Type": "Overlay",
+    "Name": "InActive",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Overlay'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_01.WidgetTree_0.InActive.OverlaySlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.74"
+        },
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_01.WidgetTree_0.InActive.OverlaySlot_5'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.76"
+        },
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_01.WidgetTree_0.InActive.OverlaySlot_4'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.75"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "WidgetSwitcherSlot'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_01.WidgetTree_0.WidgetSwitcher_60.WidgetSwitcherSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.144"
+      }
+    }
+  },
+  {
+    "Type": "Overlay",
+    "Name": "Overlay_0",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Overlay'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_01.WidgetTree_0.Overlay_0.OverlaySlot_2'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.78"
+        },
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_01.WidgetTree_0.Overlay_0.OverlaySlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.77"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_01.WidgetTree_0.Active.OverlaySlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.72"
+      }
+    }
+  },
+  {
+    "Type": "Overlay",
+    "Name": "Active",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Overlay'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_02.WidgetTree_0.Active.OverlaySlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.79"
+        },
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_02.WidgetTree_0.Active.OverlaySlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.80"
+        },
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_02.WidgetTree_0.Active.OverlaySlot_7'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.81"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "WidgetSwitcherSlot'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_02.WidgetTree_0.WidgetSwitcher_60.WidgetSwitcherSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.145"
+      }
+    }
+  },
+  {
+    "Type": "Overlay",
+    "Name": "InActive",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Overlay'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_02.WidgetTree_0.InActive.OverlaySlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.82"
+        },
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_02.WidgetTree_0.InActive.OverlaySlot_5'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.84"
+        },
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_02.WidgetTree_0.InActive.OverlaySlot_4'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.83"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "WidgetSwitcherSlot'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_02.WidgetTree_0.WidgetSwitcher_60.WidgetSwitcherSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.146"
+      }
+    }
+  },
+  {
+    "Type": "Overlay",
+    "Name": "Overlay_0",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Overlay'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_02.WidgetTree_0.Overlay_0.OverlaySlot_2'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.86"
+        },
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_02.WidgetTree_0.Overlay_0.OverlaySlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.85"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_02.WidgetTree_0.Active.OverlaySlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.80"
+      }
+    }
+  },
+  {
+    "Type": "Overlay",
+    "Name": "Active",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Overlay'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_03.WidgetTree_0.Active.OverlaySlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.87"
+        },
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_03.WidgetTree_0.Active.OverlaySlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.88"
+        },
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_03.WidgetTree_0.Active.OverlaySlot_7'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.89"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "WidgetSwitcherSlot'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_03.WidgetTree_0.WidgetSwitcher_60.WidgetSwitcherSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.147"
+      }
+    }
+  },
+  {
+    "Type": "Overlay",
+    "Name": "InActive",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Overlay'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_03.WidgetTree_0.InActive.OverlaySlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.90"
+        },
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_03.WidgetTree_0.InActive.OverlaySlot_5'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.92"
+        },
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_03.WidgetTree_0.InActive.OverlaySlot_4'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.91"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "WidgetSwitcherSlot'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_03.WidgetTree_0.WidgetSwitcher_60.WidgetSwitcherSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.148"
+      }
+    }
+  },
+  {
+    "Type": "Overlay",
+    "Name": "Overlay_0",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Overlay'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_03.WidgetTree_0.Overlay_0.OverlaySlot_2'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.94"
+        },
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_03.WidgetTree_0.Overlay_0.OverlaySlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.93"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_03.WidgetTree_0.Active.OverlaySlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.88"
+      }
+    }
+  },
+  {
+    "Type": "Overlay",
+    "Name": "Active",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Overlay'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_04.WidgetTree_0.Active.OverlaySlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.95"
+        },
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_04.WidgetTree_0.Active.OverlaySlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.96"
+        },
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_04.WidgetTree_0.Active.OverlaySlot_7'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.97"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "WidgetSwitcherSlot'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_04.WidgetTree_0.WidgetSwitcher_60.WidgetSwitcherSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.149"
+      }
+    }
+  },
+  {
+    "Type": "Overlay",
+    "Name": "InActive",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Overlay'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_04.WidgetTree_0.InActive.OverlaySlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.98"
+        },
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_04.WidgetTree_0.InActive.OverlaySlot_5'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.100"
+        },
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_04.WidgetTree_0.InActive.OverlaySlot_4'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.99"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "WidgetSwitcherSlot'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_04.WidgetTree_0.WidgetSwitcher_60.WidgetSwitcherSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.150"
+      }
+    }
+  },
+  {
+    "Type": "Overlay",
+    "Name": "Overlay_0",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Overlay'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_04.WidgetTree_0.Overlay_0.OverlaySlot_2'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.102"
+        },
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_04.WidgetTree_0.Overlay_0.OverlaySlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.101"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_04.WidgetTree_0.Active.OverlaySlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.96"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_0",
+    "Outer": "Active",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_01.WidgetTree_0.Active'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.59"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_01.WidgetTree_0.ActiveBase'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.34"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_1",
+    "Outer": "Active",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Padding": {
+        "Left": 230.0,
+        "Bottom": 18.0
+      },
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_01.WidgetTree_0.Active'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.59"
+      },
+      "Content": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_01.WidgetTree_0.Overlay_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.61"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_7",
+    "Outer": "Active",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Padding": {
+        "Left": 28.0,
+        "Bottom": 3.0
+      },
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_01.WidgetTree_0.Active'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.59"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_01.WidgetTree_0.P_Text_ItemName_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.105"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_0",
+    "Outer": "InActive",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_01.WidgetTree_0.InActive'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.60"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_01.WidgetTree_0.InActiveBase'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.36"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_4",
+    "Outer": "InActive",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Padding": {
+        "Left": 240.0
+      },
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_01.WidgetTree_0.InActive'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.60"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_01.WidgetTree_0.TextBlock'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.106"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_5",
+    "Outer": "InActive",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Padding": {
+        "Left": 28.0,
+        "Top": 4.0,
+        "Bottom": 6.0
+      },
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_01.WidgetTree_0.InActive'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.60"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_01.WidgetTree_0.P_Text_ItemName'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.104"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_1",
+    "Outer": "Overlay_0",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Padding": {
+        "Left": 1.0,
+        "Bottom": 0.5
+      },
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_01.WidgetTree_0.Overlay_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.61"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_01.WidgetTree_0.TextBlock_108'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.107"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_2",
+    "Outer": "Overlay_0",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_01.WidgetTree_0.Overlay_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.61"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_01.WidgetTree_0.Image_288'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.35"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_0",
+    "Outer": "Active",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_02.WidgetTree_0.Active'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.62"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_02.WidgetTree_0.ActiveBase'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.37"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_1",
+    "Outer": "Active",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Padding": {
+        "Left": 230.0,
+        "Bottom": 18.0
+      },
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_02.WidgetTree_0.Active'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.62"
+      },
+      "Content": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_02.WidgetTree_0.Overlay_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.64"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_7",
+    "Outer": "Active",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Padding": {
+        "Left": 28.0,
+        "Bottom": 3.0
+      },
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_02.WidgetTree_0.Active'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.62"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_02.WidgetTree_0.P_Text_ItemName_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.109"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_0",
+    "Outer": "InActive",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_02.WidgetTree_0.InActive'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.63"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_02.WidgetTree_0.InActiveBase'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.39"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_4",
+    "Outer": "InActive",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Padding": {
+        "Left": 240.0
+      },
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_02.WidgetTree_0.InActive'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.63"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_02.WidgetTree_0.TextBlock'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.110"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_5",
+    "Outer": "InActive",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Padding": {
+        "Left": 28.0,
+        "Top": 4.0,
+        "Bottom": 6.0
+      },
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_02.WidgetTree_0.InActive'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.63"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_02.WidgetTree_0.P_Text_ItemName'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.108"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_1",
+    "Outer": "Overlay_0",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Padding": {
+        "Left": 1.0,
+        "Bottom": 0.5
+      },
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_02.WidgetTree_0.Overlay_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.64"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_02.WidgetTree_0.TextBlock_108'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.111"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_2",
+    "Outer": "Overlay_0",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_02.WidgetTree_0.Overlay_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.64"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_02.WidgetTree_0.Image_288'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.38"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_0",
+    "Outer": "Active",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_03.WidgetTree_0.Active'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.65"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_03.WidgetTree_0.ActiveBase'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.40"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_1",
+    "Outer": "Active",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Padding": {
+        "Left": 230.0,
+        "Bottom": 18.0
+      },
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_03.WidgetTree_0.Active'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.65"
+      },
+      "Content": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_03.WidgetTree_0.Overlay_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.67"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_7",
+    "Outer": "Active",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Padding": {
+        "Left": 28.0,
+        "Bottom": 3.0
+      },
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_03.WidgetTree_0.Active'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.65"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_03.WidgetTree_0.P_Text_ItemName_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.113"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_0",
+    "Outer": "InActive",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_03.WidgetTree_0.InActive'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.66"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_03.WidgetTree_0.InActiveBase'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.42"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_4",
+    "Outer": "InActive",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Padding": {
+        "Left": 240.0
+      },
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_03.WidgetTree_0.InActive'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.66"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_03.WidgetTree_0.TextBlock'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.114"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_5",
+    "Outer": "InActive",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Padding": {
+        "Left": 28.0,
+        "Top": 4.0,
+        "Bottom": 6.0
+      },
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_03.WidgetTree_0.InActive'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.66"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_03.WidgetTree_0.P_Text_ItemName'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.112"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_1",
+    "Outer": "Overlay_0",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Padding": {
+        "Left": 1.0,
+        "Bottom": 0.5
+      },
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_03.WidgetTree_0.Overlay_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.67"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_03.WidgetTree_0.TextBlock_108'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.115"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_2",
+    "Outer": "Overlay_0",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_03.WidgetTree_0.Overlay_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.67"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_03.WidgetTree_0.Image_288'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.41"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_0",
+    "Outer": "Active",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_04.WidgetTree_0.Active'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.68"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_04.WidgetTree_0.ActiveBase'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.43"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_1",
+    "Outer": "Active",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Padding": {
+        "Left": 230.0,
+        "Bottom": 18.0
+      },
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_04.WidgetTree_0.Active'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.68"
+      },
+      "Content": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_04.WidgetTree_0.Overlay_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.70"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_7",
+    "Outer": "Active",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Padding": {
+        "Left": 28.0,
+        "Bottom": 3.0
+      },
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_04.WidgetTree_0.Active'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.68"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_04.WidgetTree_0.P_Text_ItemName_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.117"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_0",
+    "Outer": "InActive",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_04.WidgetTree_0.InActive'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.69"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_04.WidgetTree_0.InActiveBase'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.45"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_4",
+    "Outer": "InActive",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Padding": {
+        "Left": 240.0
+      },
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_04.WidgetTree_0.InActive'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.69"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_04.WidgetTree_0.TextBlock'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.118"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_5",
+    "Outer": "InActive",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Padding": {
+        "Left": 28.0,
+        "Top": 4.0,
+        "Bottom": 6.0
+      },
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_04.WidgetTree_0.InActive'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.69"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_04.WidgetTree_0.P_Text_ItemName'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.116"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_1",
+    "Outer": "Overlay_0",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Padding": {
+        "Left": 1.0,
+        "Bottom": 0.5
+      },
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_04.WidgetTree_0.Overlay_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.70"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_04.WidgetTree_0.TextBlock_108'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.119"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_2",
+    "Outer": "Overlay_0",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_04.WidgetTree_0.Overlay_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.70"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_04.WidgetTree_0.Image_288'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.44"
+      }
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_Array_Get_Item",
+    "Outer": "ExecuteUbergraph_WBP_Theory_SelectPartner_Detail_Item_Set",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Struct": {
+      "ObjectName": "ScriptStruct'TheoryPartnerReward'",
+      "ObjectPath": "/Script/GameProject"
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "P_Text_ItemName",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "D2067AE4455FEB9B4343719E92A616B9",
+        "SourceString": "称号",
+        "LocalizedString": "称号"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 0.010417,
+          "G": 0.010417,
+          "B": 0.010417,
+          "A": 1.0,
+          "Hex": "1A1A1A"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 2,
+          "OutlineColor": {
+            "R": 0.1875,
+            "G": 0.1875,
+            "B": 0.1875,
+            "A": 1.0,
+            "Hex": "787878"
+          }
+        },
+        "TypefaceFontName": "RodinN_B",
+        "Size": 20
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_01.WidgetTree_0.InActive.OverlaySlot_5'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.76"
+      },
+      "RenderTransform": {
+        "Shear": {
+          "X": -17.0,
+          "Y": 0.0
+        }
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "P_Text_ItemName_1",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "D2067AE4455FEB9B4343719E92A616B9",
+        "SourceString": "称号",
+        "LocalizedString": "称号"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 0.010417,
+          "G": 0.010417,
+          "B": 0.010417,
+          "A": 1.0,
+          "Hex": "1A1A1A"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 2,
+          "OutlineColor": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "FFFFFF"
+          }
+        },
+        "TypefaceFontName": "RodinN_B",
+        "Size": 20
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_01.WidgetTree_0.Active.OverlaySlot_7'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.73"
+      },
+      "RenderTransform": {
+        "Shear": {
+          "X": -17.0,
+          "Y": 0.0
+        }
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "TextBlock",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "7FD2D32F40247E35B1B333A96CAD5B66",
+        "SourceString": "親睦Lv10達成",
+        "LocalizedString": "親睦Lv10達成"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 0.421875,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "AE0000"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 2,
+          "OutlineColor": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "FFFFFF"
+          }
+        },
+        "TypefaceFontName": "RodinN_B",
+        "Size": 14
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_01.WidgetTree_0.InActive.OverlaySlot_4'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.75"
+      },
+      "RenderTransform": {
+        "Shear": {
+          "X": -17.0,
+          "Y": 0.0
+        }
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "TextBlock_108",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "D2D46C924762C809CB5E9282D7FD5CBC",
+        "SourceString": "獲得済",
+        "LocalizedString": "獲得済"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "OutlineSettings": {
+          "OutlineColor": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "FFFFFF"
+          }
+        },
+        "TypefaceFontName": "RodinN_B",
+        "Size": 14
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_01.WidgetTree_0.Overlay_0.OverlaySlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.77"
+      },
+      "RenderTransform": {
+        "Shear": {
+          "X": -17.0,
+          "Y": 0.0
+        }
+      }
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "P_Text_ItemName",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "D2067AE4455FEB9B4343719E92A616B9",
+        "SourceString": "称号",
+        "LocalizedString": "称号"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 0.010417,
+          "G": 0.010417,
+          "B": 0.010417,
+          "A": 1.0,
+          "Hex": "1A1A1A"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 2,
+          "OutlineColor": {
+            "R": 0.1875,
+            "G": 0.1875,
+            "B": 0.1875,
+            "A": 1.0,
+            "Hex": "787878"
+          }
+        },
+        "TypefaceFontName": "RodinN_B",
+        "Size": 20
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_02.WidgetTree_0.InActive.OverlaySlot_5'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.84"
+      },
+      "RenderTransform": {
+        "Shear": {
+          "X": -17.0,
+          "Y": 0.0
+        }
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "P_Text_ItemName_1",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "D2067AE4455FEB9B4343719E92A616B9",
+        "SourceString": "称号",
+        "LocalizedString": "称号"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 0.010417,
+          "G": 0.010417,
+          "B": 0.010417,
+          "A": 1.0,
+          "Hex": "1A1A1A"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 2,
+          "OutlineColor": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "FFFFFF"
+          }
+        },
+        "TypefaceFontName": "RodinN_B",
+        "Size": 20
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_02.WidgetTree_0.Active.OverlaySlot_7'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.81"
+      },
+      "RenderTransform": {
+        "Shear": {
+          "X": -17.0,
+          "Y": 0.0
+        }
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "TextBlock",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "7FD2D32F40247E35B1B333A96CAD5B66",
+        "SourceString": "親睦Lv10達成",
+        "LocalizedString": "親睦Lv10達成"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 0.421875,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "AE0000"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 2,
+          "OutlineColor": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "FFFFFF"
+          }
+        },
+        "TypefaceFontName": "RodinN_B",
+        "Size": 14
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_02.WidgetTree_0.InActive.OverlaySlot_4'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.83"
+      },
+      "RenderTransform": {
+        "Shear": {
+          "X": -17.0,
+          "Y": 0.0
+        }
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "TextBlock_108",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "D2D46C924762C809CB5E9282D7FD5CBC",
+        "SourceString": "獲得済",
+        "LocalizedString": "獲得済"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "OutlineSettings": {
+          "OutlineColor": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "FFFFFF"
+          }
+        },
+        "TypefaceFontName": "RodinN_B",
+        "Size": 14
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_02.WidgetTree_0.Overlay_0.OverlaySlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.85"
+      },
+      "RenderTransform": {
+        "Shear": {
+          "X": -17.0,
+          "Y": 0.0
+        }
+      }
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "P_Text_ItemName",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "D2067AE4455FEB9B4343719E92A616B9",
+        "SourceString": "称号",
+        "LocalizedString": "称号"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 0.010417,
+          "G": 0.010417,
+          "B": 0.010417,
+          "A": 1.0,
+          "Hex": "1A1A1A"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 2,
+          "OutlineColor": {
+            "R": 0.1875,
+            "G": 0.1875,
+            "B": 0.1875,
+            "A": 1.0,
+            "Hex": "787878"
+          }
+        },
+        "TypefaceFontName": "RodinN_B",
+        "Size": 20
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_03.WidgetTree_0.InActive.OverlaySlot_5'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.92"
+      },
+      "RenderTransform": {
+        "Shear": {
+          "X": -17.0,
+          "Y": 0.0
+        }
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "P_Text_ItemName_1",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "D2067AE4455FEB9B4343719E92A616B9",
+        "SourceString": "称号",
+        "LocalizedString": "称号"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 0.010417,
+          "G": 0.010417,
+          "B": 0.010417,
+          "A": 1.0,
+          "Hex": "1A1A1A"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 2,
+          "OutlineColor": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "FFFFFF"
+          }
+        },
+        "TypefaceFontName": "RodinN_B",
+        "Size": 20
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_03.WidgetTree_0.Active.OverlaySlot_7'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.89"
+      },
+      "RenderTransform": {
+        "Shear": {
+          "X": -17.0,
+          "Y": 0.0
+        }
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "TextBlock",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "7FD2D32F40247E35B1B333A96CAD5B66",
+        "SourceString": "親睦Lv10達成",
+        "LocalizedString": "親睦Lv10達成"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 0.421875,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "AE0000"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 2,
+          "OutlineColor": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "FFFFFF"
+          }
+        },
+        "TypefaceFontName": "RodinN_B",
+        "Size": 14
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_03.WidgetTree_0.InActive.OverlaySlot_4'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.91"
+      },
+      "RenderTransform": {
+        "Shear": {
+          "X": -17.0,
+          "Y": 0.0
+        }
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "TextBlock_108",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "D2D46C924762C809CB5E9282D7FD5CBC",
+        "SourceString": "獲得済",
+        "LocalizedString": "獲得済"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "OutlineSettings": {
+          "OutlineColor": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "FFFFFF"
+          }
+        },
+        "TypefaceFontName": "RodinN_B",
+        "Size": 14
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_03.WidgetTree_0.Overlay_0.OverlaySlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.93"
+      },
+      "RenderTransform": {
+        "Shear": {
+          "X": -17.0,
+          "Y": 0.0
+        }
+      }
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "P_Text_ItemName",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "D2067AE4455FEB9B4343719E92A616B9",
+        "SourceString": "称号",
+        "LocalizedString": "称号"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 0.010417,
+          "G": 0.010417,
+          "B": 0.010417,
+          "A": 1.0,
+          "Hex": "1A1A1A"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 2,
+          "OutlineColor": {
+            "R": 0.1875,
+            "G": 0.1875,
+            "B": 0.1875,
+            "A": 1.0,
+            "Hex": "787878"
+          }
+        },
+        "TypefaceFontName": "RodinN_B",
+        "Size": 20
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_04.WidgetTree_0.InActive.OverlaySlot_5'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.100"
+      },
+      "RenderTransform": {
+        "Shear": {
+          "X": -17.0,
+          "Y": 0.0
+        }
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "P_Text_ItemName_1",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "D2067AE4455FEB9B4343719E92A616B9",
+        "SourceString": "称号",
+        "LocalizedString": "称号"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 0.010417,
+          "G": 0.010417,
+          "B": 0.010417,
+          "A": 1.0,
+          "Hex": "1A1A1A"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 2,
+          "OutlineColor": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "FFFFFF"
+          }
+        },
+        "TypefaceFontName": "RodinN_B",
+        "Size": 20
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_04.WidgetTree_0.Active.OverlaySlot_7'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.97"
+      },
+      "RenderTransform": {
+        "Shear": {
+          "X": -17.0,
+          "Y": 0.0
+        }
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "TextBlock",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "7FD2D32F40247E35B1B333A96CAD5B66",
+        "SourceString": "親睦Lv10達成",
+        "LocalizedString": "親睦Lv10達成"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 0.421875,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "AE0000"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 2,
+          "OutlineColor": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "FFFFFF"
+          }
+        },
+        "TypefaceFontName": "RodinN_B",
+        "Size": 14
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_04.WidgetTree_0.InActive.OverlaySlot_4'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.99"
+      },
+      "RenderTransform": {
+        "Shear": {
+          "X": -17.0,
+          "Y": 0.0
+        }
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "TextBlock_108",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "D2D46C924762C809CB5E9282D7FD5CBC",
+        "SourceString": "獲得済",
+        "LocalizedString": "獲得済"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "OutlineSettings": {
+          "OutlineColor": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "FFFFFF"
+          }
+        },
+        "TypefaceFontName": "RodinN_B",
+        "Size": 14
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_04.WidgetTree_0.Overlay_0.OverlaySlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.101"
+      },
+      "RenderTransform": {
+        "Shear": {
+          "X": -17.0,
+          "Y": 0.0
+        }
+      }
+    }
+  },
+  {
+    "Type": "VerticalBox",
+    "Name": "VerticalBox_0",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'VerticalBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "VerticalBoxSlot'WBP_Theory_SelectPartner_Detail_Item_Set_C:WidgetTree.VerticalBox_0.VerticalBoxSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.122"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'WBP_Theory_SelectPartner_Detail_Item_Set_C:WidgetTree.VerticalBox_0.VerticalBoxSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.123"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'WBP_Theory_SelectPartner_Detail_Item_Set_C:WidgetTree.VerticalBox_0.VerticalBoxSlot_2'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.124"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'WBP_Theory_SelectPartner_Detail_Item_Set_C:WidgetTree.VerticalBox_0.VerticalBoxSlot_3'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.125"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Theory_SelectPartner_Detail_Item_Set_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.27"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBox",
+    "Name": "VerticalBox_0",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'VerticalBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "VerticalBoxSlot'WidgetArchetype:WidgetTree_0.VerticalBox_0.VerticalBoxSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.126"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'WidgetArchetype:WidgetTree_0.VerticalBox_0.VerticalBoxSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.127"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'WidgetArchetype:WidgetTree_0.VerticalBox_0.VerticalBoxSlot_2'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.128"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'WidgetArchetype:WidgetTree_0.VerticalBox_0.VerticalBoxSlot_3'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.129"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.28"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_0",
+    "Outer": "VerticalBox_0",
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "VerticalBox'WBP_Theory_SelectPartner_Detail_Item_Set_C:WidgetTree.VerticalBox_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.120"
+      },
+      "Content": {
+        "ObjectName": "WBP_Theory_SelectPartner_Detail_Item_C'WBP_Theory_SelectPartner_Detail_Item_Set_C:WidgetTree.WBP_Theory_SelectPartner_Detail_Item_01'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.130"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_1",
+    "Outer": "VerticalBox_0",
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Padding": {
+        "Left": -20.0,
+        "Top": -4.0
+      },
+      "Parent": {
+        "ObjectName": "VerticalBox'WBP_Theory_SelectPartner_Detail_Item_Set_C:WidgetTree.VerticalBox_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.120"
+      },
+      "Content": {
+        "ObjectName": "WBP_Theory_SelectPartner_Detail_Item_C'WBP_Theory_SelectPartner_Detail_Item_Set_C:WidgetTree.WBP_Theory_SelectPartner_Detail_Item_02'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.131"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_2",
+    "Outer": "VerticalBox_0",
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Padding": {
+        "Left": -40.0,
+        "Top": -4.0
+      },
+      "Parent": {
+        "ObjectName": "VerticalBox'WBP_Theory_SelectPartner_Detail_Item_Set_C:WidgetTree.VerticalBox_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.120"
+      },
+      "Content": {
+        "ObjectName": "WBP_Theory_SelectPartner_Detail_Item_C'WBP_Theory_SelectPartner_Detail_Item_Set_C:WidgetTree.WBP_Theory_SelectPartner_Detail_Item_03'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.132"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_3",
+    "Outer": "VerticalBox_0",
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Padding": {
+        "Left": -60.0,
+        "Top": -4.0
+      },
+      "Parent": {
+        "ObjectName": "VerticalBox'WBP_Theory_SelectPartner_Detail_Item_Set_C:WidgetTree.VerticalBox_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.120"
+      },
+      "Content": {
+        "ObjectName": "WBP_Theory_SelectPartner_Detail_Item_C'WBP_Theory_SelectPartner_Detail_Item_Set_C:WidgetTree.WBP_Theory_SelectPartner_Detail_Item_04'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.133"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_0",
+    "Outer": "VerticalBox_0",
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.VerticalBox_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.121"
+      },
+      "Content": {
+        "ObjectName": "WBP_Theory_SelectPartner_Detail_Item_C'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_01'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.134"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_1",
+    "Outer": "VerticalBox_0",
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Padding": {
+        "Left": -20.0,
+        "Top": -4.0
+      },
+      "Parent": {
+        "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.VerticalBox_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.121"
+      },
+      "Content": {
+        "ObjectName": "WBP_Theory_SelectPartner_Detail_Item_C'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_02'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.135"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_2",
+    "Outer": "VerticalBox_0",
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Padding": {
+        "Left": -40.0,
+        "Top": -4.0
+      },
+      "Parent": {
+        "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.VerticalBox_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.121"
+      },
+      "Content": {
+        "ObjectName": "WBP_Theory_SelectPartner_Detail_Item_C'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_03'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.136"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_3",
+    "Outer": "VerticalBox_0",
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Padding": {
+        "Left": -60.0,
+        "Top": -4.0
+      },
+      "Parent": {
+        "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.VerticalBox_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.121"
+      },
+      "Content": {
+        "ObjectName": "WBP_Theory_SelectPartner_Detail_Item_C'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_04'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.137"
+      }
+    }
+  },
+  {
+    "Type": "WBP_Theory_SelectPartner_Detail_Item_C",
+    "Name": "WBP_Theory_SelectPartner_Detail_Item_01",
+    "Outer": "WidgetTree",
+    "Class": "WidgetBlueprintGeneratedClass'GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item.WBP_Theory_SelectPartner_Detail_Item_C'",
+    "Template": {
+      "ObjectName": "WBP_Theory_SelectPartner_Detail_Item_C'Default__WBP_Theory_SelectPartner_Detail_Item_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'WBP_Theory_SelectPartner_Detail_Item_Set_C:WidgetTree.VerticalBox_0.VerticalBoxSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.122"
+      }
+    }
+  },
+  {
+    "Type": "WBP_Theory_SelectPartner_Detail_Item_C",
+    "Name": "WBP_Theory_SelectPartner_Detail_Item_02",
+    "Outer": "WidgetTree",
+    "Class": "WidgetBlueprintGeneratedClass'GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item.WBP_Theory_SelectPartner_Detail_Item_C'",
+    "Template": {
+      "ObjectName": "WBP_Theory_SelectPartner_Detail_Item_C'Default__WBP_Theory_SelectPartner_Detail_Item_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'WBP_Theory_SelectPartner_Detail_Item_Set_C:WidgetTree.VerticalBox_0.VerticalBoxSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.123"
+      }
+    }
+  },
+  {
+    "Type": "WBP_Theory_SelectPartner_Detail_Item_C",
+    "Name": "WBP_Theory_SelectPartner_Detail_Item_03",
+    "Outer": "WidgetTree",
+    "Class": "WidgetBlueprintGeneratedClass'GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item.WBP_Theory_SelectPartner_Detail_Item_C'",
+    "Template": {
+      "ObjectName": "WBP_Theory_SelectPartner_Detail_Item_C'Default__WBP_Theory_SelectPartner_Detail_Item_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'WBP_Theory_SelectPartner_Detail_Item_Set_C:WidgetTree.VerticalBox_0.VerticalBoxSlot_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.124"
+      }
+    }
+  },
+  {
+    "Type": "WBP_Theory_SelectPartner_Detail_Item_C",
+    "Name": "WBP_Theory_SelectPartner_Detail_Item_04",
+    "Outer": "WidgetTree",
+    "Class": "WidgetBlueprintGeneratedClass'GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item.WBP_Theory_SelectPartner_Detail_Item_C'",
+    "Template": {
+      "ObjectName": "WBP_Theory_SelectPartner_Detail_Item_C'Default__WBP_Theory_SelectPartner_Detail_Item_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'WBP_Theory_SelectPartner_Detail_Item_Set_C:WidgetTree.VerticalBox_0.VerticalBoxSlot_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.125"
+      }
+    }
+  },
+  {
+    "Type": "WBP_Theory_SelectPartner_Detail_Item_C",
+    "Name": "WBP_Theory_SelectPartner_Detail_Item_01",
+    "Outer": "WidgetTree_0",
+    "Class": "WidgetBlueprintGeneratedClass'GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item.WBP_Theory_SelectPartner_Detail_Item_C'",
+    "Template": {
+      "ObjectName": "WBP_Theory_SelectPartner_Detail_Item_C'Default__WBP_Theory_SelectPartner_Detail_Item_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ActiveBase": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_01.WidgetTree_0.ActiveBase'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.34"
+      },
+      "Image_288": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_01.WidgetTree_0.Image_288'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.35"
+      },
+      "InActiveBase": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_01.WidgetTree_0.InActiveBase'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.36"
+      },
+      "P_Text_ItemName": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_01.WidgetTree_0.P_Text_ItemName'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.104"
+      },
+      "P_Text_ItemName_1": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_01.WidgetTree_0.P_Text_ItemName_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.105"
+      },
+      "TextBlock": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_01.WidgetTree_0.TextBlock'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.106"
+      },
+      "WidgetSwitcher_60": {
+        "ObjectName": "WidgetSwitcher'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_01.WidgetTree_0.WidgetSwitcher_60'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.139"
+      },
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_01.WidgetTree_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.153"
+      },
+      "bCookedWidgetTree": true,
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'WidgetArchetype:WidgetTree_0.VerticalBox_0.VerticalBoxSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.126"
+      }
+    }
+  },
+  {
+    "Type": "WBP_Theory_SelectPartner_Detail_Item_C",
+    "Name": "WBP_Theory_SelectPartner_Detail_Item_02",
+    "Outer": "WidgetTree_0",
+    "Class": "WidgetBlueprintGeneratedClass'GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item.WBP_Theory_SelectPartner_Detail_Item_C'",
+    "Template": {
+      "ObjectName": "WBP_Theory_SelectPartner_Detail_Item_C'Default__WBP_Theory_SelectPartner_Detail_Item_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ActiveBase": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_02.WidgetTree_0.ActiveBase'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.37"
+      },
+      "Image_288": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_02.WidgetTree_0.Image_288'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.38"
+      },
+      "InActiveBase": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_02.WidgetTree_0.InActiveBase'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.39"
+      },
+      "P_Text_ItemName": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_02.WidgetTree_0.P_Text_ItemName'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.108"
+      },
+      "P_Text_ItemName_1": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_02.WidgetTree_0.P_Text_ItemName_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.109"
+      },
+      "TextBlock": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_02.WidgetTree_0.TextBlock'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.110"
+      },
+      "WidgetSwitcher_60": {
+        "ObjectName": "WidgetSwitcher'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_02.WidgetTree_0.WidgetSwitcher_60'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.140"
+      },
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_02.WidgetTree_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.154"
+      },
+      "bCookedWidgetTree": true,
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'WidgetArchetype:WidgetTree_0.VerticalBox_0.VerticalBoxSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.127"
+      }
+    }
+  },
+  {
+    "Type": "WBP_Theory_SelectPartner_Detail_Item_C",
+    "Name": "WBP_Theory_SelectPartner_Detail_Item_03",
+    "Outer": "WidgetTree_0",
+    "Class": "WidgetBlueprintGeneratedClass'GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item.WBP_Theory_SelectPartner_Detail_Item_C'",
+    "Template": {
+      "ObjectName": "WBP_Theory_SelectPartner_Detail_Item_C'Default__WBP_Theory_SelectPartner_Detail_Item_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ActiveBase": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_03.WidgetTree_0.ActiveBase'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.40"
+      },
+      "Image_288": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_03.WidgetTree_0.Image_288'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.41"
+      },
+      "InActiveBase": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_03.WidgetTree_0.InActiveBase'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.42"
+      },
+      "P_Text_ItemName": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_03.WidgetTree_0.P_Text_ItemName'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.112"
+      },
+      "P_Text_ItemName_1": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_03.WidgetTree_0.P_Text_ItemName_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.113"
+      },
+      "TextBlock": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_03.WidgetTree_0.TextBlock'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.114"
+      },
+      "WidgetSwitcher_60": {
+        "ObjectName": "WidgetSwitcher'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_03.WidgetTree_0.WidgetSwitcher_60'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.141"
+      },
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_03.WidgetTree_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.155"
+      },
+      "bCookedWidgetTree": true,
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'WidgetArchetype:WidgetTree_0.VerticalBox_0.VerticalBoxSlot_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.128"
+      }
+    }
+  },
+  {
+    "Type": "WBP_Theory_SelectPartner_Detail_Item_C",
+    "Name": "WBP_Theory_SelectPartner_Detail_Item_04",
+    "Outer": "WidgetTree_0",
+    "Class": "WidgetBlueprintGeneratedClass'GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item.WBP_Theory_SelectPartner_Detail_Item_C'",
+    "Template": {
+      "ObjectName": "WBP_Theory_SelectPartner_Detail_Item_C'Default__WBP_Theory_SelectPartner_Detail_Item_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ActiveBase": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_04.WidgetTree_0.ActiveBase'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.43"
+      },
+      "Image_288": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_04.WidgetTree_0.Image_288'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.44"
+      },
+      "InActiveBase": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_04.WidgetTree_0.InActiveBase'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.45"
+      },
+      "P_Text_ItemName": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_04.WidgetTree_0.P_Text_ItemName'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.116"
+      },
+      "P_Text_ItemName_1": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_04.WidgetTree_0.P_Text_ItemName_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.117"
+      },
+      "TextBlock": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_04.WidgetTree_0.TextBlock'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.118"
+      },
+      "WidgetSwitcher_60": {
+        "ObjectName": "WidgetSwitcher'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_04.WidgetTree_0.WidgetSwitcher_60'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.142"
+      },
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_04.WidgetTree_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.156"
+      },
+      "bCookedWidgetTree": true,
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'WidgetArchetype:WidgetTree_0.VerticalBox_0.VerticalBoxSlot_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.129"
+      }
+    }
+  },
+  {
+    "Type": "WBP_Theory_SelectPartner_Detail_Item_Set_C",
+    "Name": "WidgetArchetype",
+    "Class": "WidgetBlueprintGeneratedClass'GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.WBP_Theory_SelectPartner_Detail_Item_Set_C'",
+    "Template": {
+      "ObjectName": "WBP_Theory_SelectPartner_Detail_Item_Set_C'Default__WBP_Theory_SelectPartner_Detail_Item_Set_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.2"
+    },
+    "Flags": "RF_Public | RF_Standalone | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "WBP_Theory_SelectPartner_Detail_Item_01": {
+        "ObjectName": "WBP_Theory_SelectPartner_Detail_Item_C'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_01'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.134"
+      },
+      "WBP_Theory_SelectPartner_Detail_Item_02": {
+        "ObjectName": "WBP_Theory_SelectPartner_Detail_Item_C'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_02'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.135"
+      },
+      "WBP_Theory_SelectPartner_Detail_Item_03": {
+        "ObjectName": "WBP_Theory_SelectPartner_Detail_Item_C'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_03'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.136"
+      },
+      "WBP_Theory_SelectPartner_Detail_Item_04": {
+        "ObjectName": "WBP_Theory_SelectPartner_Detail_Item_C'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_04'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.137"
+      },
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.152"
+      },
+      "bCookedWidgetTree": true
+    }
+  },
+  {
+    "Type": "WidgetSwitcher",
+    "Name": "WidgetSwitcher_60",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'WidgetSwitcher'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "WidgetSwitcherSlot'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_01.WidgetTree_0.WidgetSwitcher_60.WidgetSwitcherSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.143"
+        },
+        {
+          "ObjectName": "WidgetSwitcherSlot'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_01.WidgetTree_0.WidgetSwitcher_60.WidgetSwitcherSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.144"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_01.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.29"
+      }
+    }
+  },
+  {
+    "Type": "WidgetSwitcher",
+    "Name": "WidgetSwitcher_60",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'WidgetSwitcher'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "WidgetSwitcherSlot'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_02.WidgetTree_0.WidgetSwitcher_60.WidgetSwitcherSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.145"
+        },
+        {
+          "ObjectName": "WidgetSwitcherSlot'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_02.WidgetTree_0.WidgetSwitcher_60.WidgetSwitcherSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.146"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_02.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.30"
+      }
+    }
+  },
+  {
+    "Type": "WidgetSwitcher",
+    "Name": "WidgetSwitcher_60",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'WidgetSwitcher'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "WidgetSwitcherSlot'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_03.WidgetTree_0.WidgetSwitcher_60.WidgetSwitcherSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.147"
+        },
+        {
+          "ObjectName": "WidgetSwitcherSlot'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_03.WidgetTree_0.WidgetSwitcher_60.WidgetSwitcherSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.148"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_03.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.31"
+      }
+    }
+  },
+  {
+    "Type": "WidgetSwitcher",
+    "Name": "WidgetSwitcher_60",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'WidgetSwitcher'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "WidgetSwitcherSlot'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_04.WidgetTree_0.WidgetSwitcher_60.WidgetSwitcherSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.149"
+        },
+        {
+          "ObjectName": "WidgetSwitcherSlot'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_04.WidgetTree_0.WidgetSwitcher_60.WidgetSwitcherSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.150"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_04.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.32"
+      }
+    }
+  },
+  {
+    "Type": "WidgetSwitcherSlot",
+    "Name": "WidgetSwitcherSlot_0",
+    "Outer": "WidgetSwitcher_60",
+    "Class": "UScriptClass'WidgetSwitcherSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "WidgetSwitcher'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_01.WidgetTree_0.WidgetSwitcher_60'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.139"
+      },
+      "Content": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_01.WidgetTree_0.Active'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.59"
+      }
+    }
+  },
+  {
+    "Type": "WidgetSwitcherSlot",
+    "Name": "WidgetSwitcherSlot_1",
+    "Outer": "WidgetSwitcher_60",
+    "Class": "UScriptClass'WidgetSwitcherSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "WidgetSwitcher'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_01.WidgetTree_0.WidgetSwitcher_60'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.139"
+      },
+      "Content": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_01.WidgetTree_0.InActive'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.60"
+      }
+    }
+  },
+  {
+    "Type": "WidgetSwitcherSlot",
+    "Name": "WidgetSwitcherSlot_0",
+    "Outer": "WidgetSwitcher_60",
+    "Class": "UScriptClass'WidgetSwitcherSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "WidgetSwitcher'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_02.WidgetTree_0.WidgetSwitcher_60'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.140"
+      },
+      "Content": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_02.WidgetTree_0.Active'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.62"
+      }
+    }
+  },
+  {
+    "Type": "WidgetSwitcherSlot",
+    "Name": "WidgetSwitcherSlot_1",
+    "Outer": "WidgetSwitcher_60",
+    "Class": "UScriptClass'WidgetSwitcherSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "WidgetSwitcher'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_02.WidgetTree_0.WidgetSwitcher_60'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.140"
+      },
+      "Content": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_02.WidgetTree_0.InActive'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.63"
+      }
+    }
+  },
+  {
+    "Type": "WidgetSwitcherSlot",
+    "Name": "WidgetSwitcherSlot_0",
+    "Outer": "WidgetSwitcher_60",
+    "Class": "UScriptClass'WidgetSwitcherSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "WidgetSwitcher'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_03.WidgetTree_0.WidgetSwitcher_60'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.141"
+      },
+      "Content": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_03.WidgetTree_0.Active'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.65"
+      }
+    }
+  },
+  {
+    "Type": "WidgetSwitcherSlot",
+    "Name": "WidgetSwitcherSlot_1",
+    "Outer": "WidgetSwitcher_60",
+    "Class": "UScriptClass'WidgetSwitcherSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "WidgetSwitcher'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_03.WidgetTree_0.WidgetSwitcher_60'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.141"
+      },
+      "Content": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_03.WidgetTree_0.InActive'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.66"
+      }
+    }
+  },
+  {
+    "Type": "WidgetSwitcherSlot",
+    "Name": "WidgetSwitcherSlot_0",
+    "Outer": "WidgetSwitcher_60",
+    "Class": "UScriptClass'WidgetSwitcherSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "WidgetSwitcher'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_04.WidgetTree_0.WidgetSwitcher_60'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.142"
+      },
+      "Content": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_04.WidgetTree_0.Active'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.68"
+      }
+    }
+  },
+  {
+    "Type": "WidgetSwitcherSlot",
+    "Name": "WidgetSwitcherSlot_1",
+    "Outer": "WidgetSwitcher_60",
+    "Class": "UScriptClass'WidgetSwitcherSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "WidgetSwitcher'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_04.WidgetTree_0.WidgetSwitcher_60'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.142"
+      },
+      "Content": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_04.WidgetTree_0.InActive'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.69"
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Outer": "WBP_Theory_SelectPartner_Detail_Item_Set_C",
+    "Class": "UScriptClass'WidgetTree'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CanvasPanel'WBP_Theory_SelectPartner_Detail_Item_Set_C:WidgetTree.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.21"
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree_0",
+    "Outer": "WidgetArchetype",
+    "Class": "UScriptClass'WidgetTree'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.22"
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree_0",
+    "Outer": "WBP_Theory_SelectPartner_Detail_Item_01",
+    "Class": "UScriptClass'WidgetTree'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_01.WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.23"
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree_0",
+    "Outer": "WBP_Theory_SelectPartner_Detail_Item_02",
+    "Class": "UScriptClass'WidgetTree'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_02.WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.24"
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree_0",
+    "Outer": "WBP_Theory_SelectPartner_Detail_Item_03",
+    "Class": "UScriptClass'WidgetTree'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_03.WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.25"
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree_0",
+    "Outer": "WBP_Theory_SelectPartner_Detail_Item_04",
+    "Class": "UScriptClass'WidgetTree'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_Theory_SelectPartner_Detail_Item_04.WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Theory/SelectPartner/WBP_Theory_SelectPartner_Detail_Item_Set.26"
+      }
+    }
+  }
+]

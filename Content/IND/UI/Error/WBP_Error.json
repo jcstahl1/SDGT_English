@@ -1,0 +1,911 @@
+[
+  {
+    "Type": "StructProperty",
+    "Name": "UberGraphFrame",
+    "Outer": "WBP_Error_C",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "Transient | DuplicateTransient",
+    "Struct": {
+      "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "WBP_Error_C",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WBP_Error_C:WidgetTree'",
+        "ObjectPath": "GameProject/Content/IND/UI/Error/WBP_Error.46"
+      },
+      "bAllowTemplate": true,
+      "bValidTemplate": true,
+      "TemplateAsset": {
+        "AssetPathName": "/Game/IND/UI/Error/WBP_Error.WidgetArchetype",
+        "SubPathString": ""
+      },
+      "UberGraphFramePointerProperty": {
+        "ObjectName": "StructProperty'WBP_Error_C:UberGraphFrame'",
+        "ObjectPath": "GameProject/Content/IND/UI/Error/WBP_Error.0"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'WBP_Error_C:ExecuteUbergraph_WBP_Error'",
+        "ObjectPath": "GameProject/Content/IND/UI/Error/WBP_Error.5"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'UserWidget'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'WBP_Error_C:UberGraphFrame'",
+        "ObjectPath": "GameProject/Content/IND/UI/Error/WBP_Error.0"
+      },
+      {
+        "ObjectName": "Function'WBP_Error_C:Construct'",
+        "ObjectPath": "GameProject/Content/IND/UI/Error/WBP_Error.22"
+      },
+      {
+        "ObjectName": "Function'WBP_Error_C:Tick'",
+        "ObjectPath": "GameProject/Content/IND/UI/Error/WBP_Error.20"
+      },
+      {
+        "ObjectName": "Function'WBP_Error_C:ExecuteUbergraph_WBP_Error'",
+        "ObjectPath": "GameProject/Content/IND/UI/Error/WBP_Error.5"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Error_C:TextBlock_ErrorMessage'",
+        "ObjectPath": "GameProject/Content/IND/UI/Error/WBP_Error.3"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Error_C:TextBlock_ErrorNumber'",
+        "ObjectPath": "GameProject/Content/IND/UI/Error/WBP_Error.28"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Error_C:AMDaemonError'",
+        "ObjectPath": "GameProject/Content/IND/UI/Error/WBP_Error.26"
+      },
+      {
+        "ObjectName": "TextProperty'WBP_Error_C:ErrorMessage'",
+        "ObjectPath": "GameProject/Content/IND/UI/Error/WBP_Error.39"
+      },
+      {
+        "ObjectName": "TextProperty'WBP_Error_C:ErrorNumber'",
+        "ObjectPath": "GameProject/Content/IND/UI/Error/WBP_Error.40"
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_WBP_Error": {
+        "ObjectName": "Function'WBP_Error_C:ExecuteUbergraph_WBP_Error'",
+        "ObjectPath": "GameProject/Content/IND/UI/Error/WBP_Error.5"
+      },
+      "Tick": {
+        "ObjectName": "Function'WBP_Error_C:Tick'",
+        "ObjectPath": "GameProject/Content/IND/UI/Error/WBP_Error.20"
+      },
+      "Construct": {
+        "ObjectName": "Function'WBP_Error_C:Construct'",
+        "ObjectPath": "GameProject/Content/IND/UI/Error/WBP_Error.22"
+      }
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "WBP_Error_C'Default__WBP_Error_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Error/WBP_Error.2"
+    }
+  },
+  {
+    "Type": "WBP_Error_C",
+    "Name": "Default__WBP_Error_C",
+    "Class": "WidgetBlueprintGeneratedClass'GameProject/Content/IND/UI/Error/WBP_Error.WBP_Error_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "UberGraphFrame": {},
+      "ErrorMessage": {
+        "Namespace": "",
+        "Key": "CE16BCBC474F1092345AC1852046D86D",
+        "SourceString": "aaaaa",
+        "LocalizedString": "aaaaa"
+      },
+      "ErrorNumber": {
+        "Namespace": "",
+        "Key": "CE16BCBC474F1092345AC1852046D86D",
+        "SourceString": "aaaaa",
+        "LocalizedString": "aaaaa"
+      },
+      "bHasScriptImplementedPaint": false
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "TextBlock_ErrorMessage",
+    "Outer": "WBP_Error_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'TextBlock'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "EntryPoint",
+    "Outer": "ExecuteUbergraph_WBP_Error",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_WBP_Error",
+    "Outer": "WBP_Error_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "IntProperty'WBP_Error_C:ExecuteUbergraph_WBP_Error.EntryPoint'",
+        "ObjectPath": "GameProject/Content/IND/UI/Error/WBP_Error.4"
+      },
+      {
+        "ObjectName": "StrProperty'WBP_Error_C:ExecuteUbergraph_WBP_Error.CallFunc_GetMessage_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Error/WBP_Error.30"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Error_C:ExecuteUbergraph_WBP_Error.CallFunc_GetNumber_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Error/WBP_Error.25"
+      },
+      {
+        "ObjectName": "TextProperty'WBP_Error_C:ExecuteUbergraph_WBP_Error.CallFunc_Conv_StringToText_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Error/WBP_Error.42"
+      },
+      {
+        "ObjectName": "TextProperty'WBP_Error_C:ExecuteUbergraph_WBP_Error.CallFunc_Conv_IntToText_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Error/WBP_Error.41"
+      },
+      {
+        "ObjectName": "StructProperty'WBP_Error_C:ExecuteUbergraph_WBP_Error.K2Node_MakeStruct_FormatArgumentData'",
+        "ObjectPath": "GameProject/Content/IND/UI/Error/WBP_Error.32"
+      },
+      {
+        "ObjectName": "StructProperty'WBP_Error_C:ExecuteUbergraph_WBP_Error.K2Node_MakeStruct_FormatArgumentData_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Error/WBP_Error.33"
+      },
+      {
+        "ObjectName": "ArrayProperty'WBP_Error_C:ExecuteUbergraph_WBP_Error.K2Node_MakeArray_Array'",
+        "ObjectPath": "GameProject/Content/IND/UI/Error/WBP_Error.7"
+      },
+      {
+        "ObjectName": "StructProperty'WBP_Error_C:ExecuteUbergraph_WBP_Error.K2Node_Event_MyGeometry'",
+        "ObjectPath": "GameProject/Content/IND/UI/Error/WBP_Error.31"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_Error_C:ExecuteUbergraph_WBP_Error.K2Node_Event_InDeltaTime'",
+        "ObjectPath": "GameProject/Content/IND/UI/Error/WBP_Error.18"
+      },
+      {
+        "ObjectName": "TextProperty'WBP_Error_C:ExecuteUbergraph_WBP_Error.CallFunc_Format_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Error/WBP_Error.43"
+      },
+      {
+        "ObjectName": "StructProperty'WBP_Error_C:ExecuteUbergraph_WBP_Error.K2Node_MakeStruct_FormatArgumentData_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Error/WBP_Error.34"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Error_C:ExecuteUbergraph_WBP_Error.CallFunc_SpawnObject_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Error/WBP_Error.27"
+      },
+      {
+        "ObjectName": "ArrayProperty'WBP_Error_C:ExecuteUbergraph_WBP_Error.K2Node_MakeArray_Array_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Error/WBP_Error.9"
+      },
+      {
+        "ObjectName": "TextProperty'WBP_Error_C:ExecuteUbergraph_WBP_Error.CallFunc_Format_ReturnValue_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Error/WBP_Error.44"
+      },
+      {
+        "ObjectName": "StrProperty'WBP_Error_C:ExecuteUbergraph_WBP_Error.CallFunc_Conv_TextToString_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Error/WBP_Error.29"
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction | FUNC_HasDefaults"
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "K2Node_MakeArray_Array",
+    "Outer": "K2Node_MakeArray_Array",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Struct": {
+      "ObjectName": "ScriptStruct'FormatArgumentData'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ArrayProperty",
+    "Name": "K2Node_MakeArray_Array",
+    "Outer": "ExecuteUbergraph_WBP_Error",
+    "Class": "UScriptClass'ArrayProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "ReferenceParm",
+    "Inner": {
+      "ObjectName": "StructProperty'WBP_Error_C:ExecuteUbergraph_WBP_Error.K2Node_MakeArray_Array.K2Node_MakeArray_Array'",
+      "ObjectPath": "GameProject/Content/IND/UI/Error/WBP_Error.6"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "K2Node_MakeArray_Array_1",
+    "Outer": "K2Node_MakeArray_Array_1",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Struct": {
+      "ObjectName": "ScriptStruct'FormatArgumentData'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ArrayProperty",
+    "Name": "K2Node_MakeArray_Array_1",
+    "Outer": "ExecuteUbergraph_WBP_Error",
+    "Class": "UScriptClass'ArrayProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "ReferenceParm",
+    "Inner": {
+      "ObjectName": "StructProperty'WBP_Error_C:ExecuteUbergraph_WBP_Error.K2Node_MakeArray_Array_1.K2Node_MakeArray_Array_1'",
+      "ObjectPath": "GameProject/Content/IND/UI/Error/WBP_Error.8"
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_0",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Error_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_3'",
+          "ObjectPath": "GameProject/Content/IND/UI/Error/WBP_Error.13"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Error_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Error/WBP_Error.12"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Error_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_4'",
+          "ObjectPath": "GameProject/Content/IND/UI/Error/WBP_Error.14"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_0",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_3'",
+          "ObjectPath": "GameProject/Content/IND/UI/Error/WBP_Error.16"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Error/WBP_Error.15"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_4'",
+          "ObjectPath": "GameProject/Content/IND/UI/Error/WBP_Error.17"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": -30.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Error_C:WidgetTree.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Error/WBP_Error.10"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WBP_Error_C:WidgetTree.TextBlock_ErrorNumber'",
+        "ObjectPath": "GameProject/Content/IND/UI/Error/WBP_Error.36"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_3",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 0.0,
+          "Bottom": 0.0
+        },
+        "Anchors": {
+          "Maximum": {
+            "X": 1.0,
+            "Y": 1.0
+          }
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Error_C:WidgetTree.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Error/WBP_Error.10"
+      },
+      "Content": {
+        "ObjectName": "Image'WBP_Error_C:WidgetTree.Image_BG'",
+        "ObjectPath": "GameProject/Content/IND/UI/Error/WBP_Error.23"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_4",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": 30.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Error_C:WidgetTree.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Error/WBP_Error.10"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WBP_Error_C:WidgetTree.TextBlock_ErrorMessage'",
+        "ObjectPath": "GameProject/Content/IND/UI/Error/WBP_Error.35"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": -30.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Error/WBP_Error.11"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.TextBlock_ErrorNumber'",
+        "ObjectPath": "GameProject/Content/IND/UI/Error/WBP_Error.38"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_3",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 0.0,
+          "Bottom": 0.0
+        },
+        "Anchors": {
+          "Maximum": {
+            "X": 1.0,
+            "Y": 1.0
+          }
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Error/WBP_Error.11"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.Image_BG'",
+        "ObjectPath": "GameProject/Content/IND/UI/Error/WBP_Error.24"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_4",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": 30.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Error/WBP_Error.11"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.TextBlock_ErrorMessage'",
+        "ObjectPath": "GameProject/Content/IND/UI/Error/WBP_Error.37"
+      }
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "K2Node_Event_InDeltaTime",
+    "Outer": "ExecuteUbergraph_WBP_Error",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "MyGeometry",
+    "Outer": "Tick",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "Struct": {
+      "ObjectName": "ScriptStruct'Geometry'",
+      "ObjectPath": "/Script/SlateCore"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "Tick",
+    "Outer": "WBP_Error_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Function'UserWidget:Tick'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'WBP_Error_C:Tick.MyGeometry'",
+        "ObjectPath": "GameProject/Content/IND/UI/Error/WBP_Error.19"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_Error_C:Tick.InDeltaTime'",
+        "ObjectPath": "GameProject/Content/IND/UI/Error/WBP_Error.21"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCosmetic | FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "InDeltaTime",
+    "Outer": "Tick",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "Construct",
+    "Outer": "WBP_Error_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Function'UserWidget:Construct'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "FunctionFlags": "FUNC_BlueprintCosmetic | FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Image",
+    "Name": "Image_BG",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ColorAndOpacity": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "000000"
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Error_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Error/WBP_Error.13"
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Image_BG",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ColorAndOpacity": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "000000"
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Error/WBP_Error.16"
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_GetNumber_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_Error",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "AMDaemonError",
+    "Outer": "WBP_Error_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'AMDaemonError'",
+      "ObjectPath": "/Script/AMDaemon"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_SpawnObject_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_Error",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyClass": {
+      "ObjectName": "Class'AMDaemonError'",
+      "ObjectPath": "/Script/AMDaemon"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "TextBlock_ErrorNumber",
+    "Outer": "WBP_Error_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'TextBlock'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "StrProperty",
+    "Name": "CallFunc_Conv_TextToString_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_Error",
+    "Class": "UScriptClass'StrProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "StrProperty",
+    "Name": "CallFunc_GetMessage_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_Error",
+    "Class": "UScriptClass'StrProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "K2Node_Event_MyGeometry",
+    "Outer": "ExecuteUbergraph_WBP_Error",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Struct": {
+      "ObjectName": "ScriptStruct'Geometry'",
+      "ObjectPath": "/Script/SlateCore"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "K2Node_MakeStruct_FormatArgumentData",
+    "Outer": "ExecuteUbergraph_WBP_Error",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Struct": {
+      "ObjectName": "ScriptStruct'FormatArgumentData'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "K2Node_MakeStruct_FormatArgumentData_1",
+    "Outer": "ExecuteUbergraph_WBP_Error",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Struct": {
+      "ObjectName": "ScriptStruct'FormatArgumentData'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "K2Node_MakeStruct_FormatArgumentData_2",
+    "Outer": "ExecuteUbergraph_WBP_Error",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Struct": {
+      "ObjectName": "ScriptStruct'FormatArgumentData'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "TextBlock_ErrorMessage",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "224BFD994E0049D2AB78CFB7BB90675A",
+        "SourceString": "Error Message",
+        "LocalizedString": "Error Message"
+      },
+      "Font": {
+        "Size": 36
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Error_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_4'",
+        "ObjectPath": "GameProject/Content/IND/UI/Error/WBP_Error.14"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "TextBlock_ErrorNumber",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "2777F152458CEDF3FC1A04941641F432",
+        "SourceString": "Error 0000",
+        "LocalizedString": "Error 0000"
+      },
+      "Font": {
+        "Size": 36
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Error_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Error/WBP_Error.12"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "TextBlock_ErrorMessage",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "224BFD994E0049D2AB78CFB7BB90675A",
+        "SourceString": "Error Message",
+        "LocalizedString": "Error Message"
+      },
+      "Font": {
+        "Size": 36
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_4'",
+        "ObjectPath": "GameProject/Content/IND/UI/Error/WBP_Error.17"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "TextBlock_ErrorNumber",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "2777F152458CEDF3FC1A04941641F432",
+        "SourceString": "Error 0000",
+        "LocalizedString": "Error 0000"
+      },
+      "Font": {
+        "Size": 36
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Error/WBP_Error.15"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "ErrorMessage",
+    "Outer": "WBP_Error_C",
+    "Class": "UScriptClass'TextProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "ErrorNumber",
+    "Outer": "WBP_Error_C",
+    "Class": "UScriptClass'TextProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "CallFunc_Conv_IntToText_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_Error",
+    "Class": "UScriptClass'TextProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "CallFunc_Conv_StringToText_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_Error",
+    "Class": "UScriptClass'TextProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "CallFunc_Format_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_Error",
+    "Class": "UScriptClass'TextProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "CallFunc_Format_ReturnValue_1",
+    "Outer": "ExecuteUbergraph_WBP_Error",
+    "Class": "UScriptClass'TextProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "WBP_Error_C",
+    "Name": "WidgetArchetype",
+    "Class": "WidgetBlueprintGeneratedClass'GameProject/Content/IND/UI/Error/WBP_Error.WBP_Error_C'",
+    "Template": {
+      "ObjectName": "WBP_Error_C'Default__WBP_Error_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Error/WBP_Error.2"
+    },
+    "Flags": "RF_Public | RF_Standalone | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "TextBlock_ErrorMessage": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.TextBlock_ErrorMessage'",
+        "ObjectPath": "GameProject/Content/IND/UI/Error/WBP_Error.37"
+      },
+      "TextBlock_ErrorNumber": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.TextBlock_ErrorNumber'",
+        "ObjectPath": "GameProject/Content/IND/UI/Error/WBP_Error.38"
+      },
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Error/WBP_Error.47"
+      },
+      "bCookedWidgetTree": true
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Outer": "WBP_Error_C",
+    "Class": "UScriptClass'WidgetTree'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CanvasPanel'WBP_Error_C:WidgetTree.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Error/WBP_Error.10"
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree_0",
+    "Outer": "WidgetArchetype",
+    "Class": "UScriptClass'WidgetTree'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Error/WBP_Error.11"
+      }
+    }
+  }
+]

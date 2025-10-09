@@ -1,0 +1,966 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_Story_01_Chapter_06_Talk",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'StoryRaceTalkData_Message'",
+        "ObjectPath": "/Script/GameProject"
+      }
+    },
+    "Rows": {
+      "SRT_1_6_1-01": {
+        "EpisodeID": 26,
+        "CharacterID": "MIKI",
+        "FaceImageNo": 0,
+        "Message": {
+          "TableId": "/Game/IND/StringTable/Story/Racetext/Storytype1/story_RT_1_6.story_RT_1_6",
+          "Key": "1_6_1-01",
+          "SourceString": "I'm so pissed...",
+          "LocalizedString": "I'm so pissed..."
+        },
+        "DrawTime": -1.0,
+        "Condition": {
+          "Type": "EStoryRaceTalk_ConditionType::PlayerProgress",
+          "ProgressRate": 0.07,
+          "ProgressRateEnd": -1.0,
+          "Rival": 0,
+          "Advantage": 0.0
+        }
+      },
+      "SRT_1_6_1-02": {
+        "EpisodeID": 26,
+        "CharacterID": "MIKI",
+        "FaceImageNo": 0,
+        "Message": {
+          "TableId": "/Game/IND/StringTable/Story/Racetext/Storytype1/story_RT_1_6.story_RT_1_6",
+          "Key": "1_6_1-02",
+          "SourceString": "Natsuki's guy... \r\nWhy Fujiwara of all people?",
+          "LocalizedString": "Natsuki's guy... \r\nWhy Fujiwara of all people?"
+        },
+        "DrawTime": 3.0,
+        "Condition": {
+          "Type": "EStoryRaceTalk_ConditionType::PlayerProgress",
+          "ProgressRate": 0.09,
+          "ProgressRateEnd": -1.0,
+          "Rival": 0,
+          "Advantage": 0.0
+        }
+      },
+      "SRT_1_6_1-03": {
+        "EpisodeID": 26,
+        "CharacterID": "MIKI",
+        "FaceImageNo": 0,
+        "Message": {
+          "TableId": "/Game/IND/StringTable/Story/Racetext/Storytype1/story_RT_1_6.story_RT_1_6",
+          "Key": "1_6_1-03",
+          "SourceString": "Damn it! I'm gonna kick your ass!",
+          "LocalizedString": "Damn it! I'm gonna kick your ass!"
+        },
+        "DrawTime": -1.0,
+        "Condition": {
+          "Type": "EStoryRaceTalk_ConditionType::PlayerProgress",
+          "ProgressRate": 0.115,
+          "ProgressRateEnd": -1.0,
+          "Rival": 0,
+          "Advantage": 0.0
+        }
+      },
+      "SRT_1_6_1-04": {
+        "EpisodeID": 26,
+        "CharacterID": "MIKI",
+        "FaceImageNo": 0,
+        "Message": {
+          "TableId": "/Game/IND/StringTable/Story/Racetext/Storytype1/story_RT_1_6.story_RT_1_6",
+          "Key": "1_6_1-04",
+          "SourceString": "You can't run in front of me\r\n at that weather...!",
+          "LocalizedString": "You can't run in front of me\r\n at that weather...!"
+        },
+        "DrawTime": 3.0,
+        "Condition": {
+          "Type": "EStoryRaceTalk_ConditionType::PlayerProgress",
+          "ProgressRate": 0.135,
+          "ProgressRateEnd": -1.0,
+          "Rival": 0,
+          "Advantage": 0.0
+        }
+      },
+      "SRT_1_6_1-05": {
+        "EpisodeID": 26,
+        "CharacterID": "MIKI",
+        "FaceImageNo": 0,
+        "Message": {
+          "TableId": "/Game/IND/StringTable/Story/Racetext/Storytype1/story_RT_1_6.story_RT_1_6",
+          "Key": "1_6_1-05",
+          "SourceString": "Ha! How you like that?!",
+          "LocalizedString": "Ha! How you like that?!"
+        },
+        "DrawTime": 3.0,
+        "Condition": {
+          "Type": "EStoryRaceTalk_ConditionType::AdvantageLess",
+          "ProgressRate": 0.17,
+          "ProgressRateEnd": 0.28,
+          "Rival": 0,
+          "Advantage": -6.0
+        }
+      },
+      "SRT_1_6_1-06": {
+        "EpisodeID": 26,
+        "CharacterID": "MIKI",
+        "FaceImageNo": 0,
+        "Message": {
+          "TableId": "/Game/IND/StringTable/Story/Racetext/Storytype1/story_RT_1_6.story_RT_1_6",
+          "Key": "1_6_1-06",
+          "SourceString": "He can't be keeping up...!!",
+          "LocalizedString": "He can't be keeping up...!!"
+        },
+        "DrawTime": 3.0,
+        "Condition": {
+          "Type": "EStoryRaceTalk_ConditionType::PlayerProgress",
+          "ProgressRate": 0.6,
+          "ProgressRateEnd": -1.0,
+          "Rival": 0,
+          "Advantage": 0.0
+        }
+      },
+      "SRT_1_6_1-07": {
+        "EpisodeID": 26,
+        "CharacterID": "MIKI",
+        "FaceImageNo": 0,
+        "Message": {
+          "TableId": "/Game/IND/StringTable/Story/Racetext/Storytype1/story_RT_1_6.story_RT_1_6",
+          "Key": "1_6_1-07",
+          "SourceString": "You're making me sick!\r\n You and Fujiwara!",
+          "LocalizedString": "You're making me sick!\r\n You and Fujiwara!"
+        },
+        "DrawTime": 3.0,
+        "Condition": {
+          "Type": "EStoryRaceTalk_ConditionType::PlayerProgress",
+          "ProgressRate": 0.64,
+          "ProgressRateEnd": -1.0,
+          "Rival": 0,
+          "Advantage": 0.0
+        }
+      },
+      "SRT_1_6_1-08": {
+        "EpisodeID": 26,
+        "CharacterID": "MIKI",
+        "FaceImageNo": 1,
+        "Message": {
+          "TableId": "/Game/IND/StringTable/Story/Racetext/Storytype1/story_RT_1_6.story_RT_1_6",
+          "Key": "1_6_1-08",
+          "SourceString": "What the..?!I can't turn!",
+          "LocalizedString": "What the..?!I can't turn!"
+        },
+        "DrawTime": -1.0,
+        "Condition": {
+          "Type": "EStoryRaceTalk_ConditionType::PlayerProgress",
+          "ProgressRate": 0.683,
+          "ProgressRateEnd": -1.0,
+          "Rival": 0,
+          "Advantage": 0.0
+        }
+      },
+      "SRT_1_6_1-09": {
+        "EpisodeID": 26,
+        "CharacterID": "MIKI",
+        "FaceImageNo": 1,
+        "Message": {
+          "TableId": "/Game/IND/StringTable/Story/Racetext/Storytype1/story_RT_1_6.story_RT_1_6",
+          "Key": "1_6_1-09",
+          "SourceString": "Watch out...!",
+          "LocalizedString": "Watch out...!"
+        },
+        "DrawTime": -1.0,
+        "Condition": {
+          "Type": "EStoryRaceTalk_ConditionType::PlayerProgress",
+          "ProgressRate": 0.693,
+          "ProgressRateEnd": -1.0,
+          "Rival": 0,
+          "Advantage": 0.0
+        }
+      },
+      "SRT_1_6_1-10": {
+        "EpisodeID": 26,
+        "CharacterID": "MIKI",
+        "FaceImageNo": 1,
+        "Message": {
+          "TableId": "/Game/IND/StringTable/Story/Racetext/Storytype1/story_RT_1_6.story_RT_1_6",
+          "Key": "1_6_1-10",
+          "SourceString": "Damn...a crash...\r\nToday sucks...",
+          "LocalizedString": "Damn...a crash...\r\nToday sucks..."
+        },
+        "DrawTime": 3.0,
+        "Condition": {
+          "Type": "EStoryRaceTalk_ConditionType::PlayerProgress",
+          "ProgressRate": 0.961,
+          "ProgressRateEnd": -1.0,
+          "Rival": 0,
+          "Advantage": 0.0
+        }
+      },
+      "SRT_1_6_2-01": {
+        "EpisodeID": 27,
+        "CharacterID": "WATARU",
+        "FaceImageNo": 0,
+        "Message": {
+          "TableId": "/Game/IND/StringTable/Story/Racetext/Storytype1/story_RT_1_6.story_RT_1_6",
+          "Key": "1_6_2-01",
+          "SourceString": "Come on! Let's go!",
+          "LocalizedString": "Come on! Let's go!"
+        },
+        "DrawTime": 3.0,
+        "Condition": {
+          "Type": "EStoryRaceTalk_ConditionType::PlayerProgress",
+          "ProgressRate": 0.001,
+          "ProgressRateEnd": -1.0,
+          "Rival": 0,
+          "Advantage": 0.0
+        }
+      },
+      "SRT_1_6_2-02": {
+        "EpisodeID": 27,
+        "CharacterID": "KENTA",
+        "FaceImageNo": 0,
+        "Message": {
+          "TableId": "/Game/IND/StringTable/Story/Racetext/Storytype1/story_RT_1_6.story_RT_1_6",
+          "Key": "1_6_2-02",
+          "SourceString": "Yeah, he's fast, but...",
+          "LocalizedString": "Yeah, he's fast, but..."
+        },
+        "DrawTime": 3.0,
+        "Condition": {
+          "Type": "EStoryRaceTalk_ConditionType::PlayerProgress",
+          "ProgressRate": 0.28,
+          "ProgressRateEnd": -1.0,
+          "Rival": 0,
+          "Advantage": 0.0
+        }
+      },
+      "SRT_1_6_2-03": {
+        "EpisodeID": 27,
+        "CharacterID": "KENTA",
+        "FaceImageNo": 0,
+        "Message": {
+          "TableId": "/Game/IND/StringTable/Story/Racetext/Storytype1/story_RT_1_6.story_RT_1_6",
+          "Key": "1_6_2-03",
+          "SourceString": "He's no match for Fujiwara.",
+          "LocalizedString": "He's no match for Fujiwara."
+        },
+        "DrawTime": 3.0,
+        "Condition": {
+          "Type": "EStoryRaceTalk_ConditionType::PlayerProgress",
+          "ProgressRate": 0.3,
+          "ProgressRateEnd": -1.0,
+          "Rival": 0,
+          "Advantage": 0.0
+        }
+      },
+      "SRT_1_6_2-04": {
+        "EpisodeID": 27,
+        "CharacterID": "WATARU",
+        "FaceImageNo": 0,
+        "Message": {
+          "TableId": "/Game/IND/StringTable/Story/Racetext/Storytype1/story_RT_1_6.story_RT_1_6",
+          "Key": "1_6_2-04",
+          "SourceString": "You're doing good!",
+          "LocalizedString": "You're doing good!"
+        },
+        "DrawTime": -1.0,
+        "Condition": {
+          "Type": "EStoryRaceTalk_ConditionType::PlayerProgress",
+          "ProgressRate": 0.36,
+          "ProgressRateEnd": -1.0,
+          "Rival": 0,
+          "Advantage": 0.0
+        }
+      },
+      "SRT_1_6_2-05": {
+        "EpisodeID": 27,
+        "CharacterID": "KENTA",
+        "FaceImageNo": 0,
+        "Message": {
+          "TableId": "/Game/IND/StringTable/Story/Racetext/Storytype1/story_RT_1_6.story_RT_1_6",
+          "Key": "1_6_2-05",
+          "SourceString": "Don't underestimate RedSuns...!",
+          "LocalizedString": "Don't underestimate RedSuns...!"
+        },
+        "DrawTime": -1.0,
+        "Condition": {
+          "Type": "EStoryRaceTalk_ConditionType::PlayerProgress",
+          "ProgressRate": 0.38,
+          "ProgressRateEnd": -1.0,
+          "Rival": 0,
+          "Advantage": 0.0
+        }
+      },
+      "SRT_1_6_2-06": {
+        "EpisodeID": 27,
+        "CharacterID": "KENTA",
+        "FaceImageNo": 1,
+        "Message": {
+          "TableId": "/Game/IND/StringTable/Story/Racetext/Storytype1/story_RT_1_6.story_RT_1_6",
+          "Key": "1_6_2-06",
+          "SourceString": "Damn it!",
+          "LocalizedString": "Damn it!"
+        },
+        "DrawTime": 3.0,
+        "Condition": {
+          "Type": "EStoryRaceTalk_ConditionType::AdvantageOver",
+          "ProgressRate": 0.525,
+          "ProgressRateEnd": 0.56,
+          "Rival": 1,
+          "Advantage": 4.0
+        }
+      },
+      "SRT_1_6_2-07": {
+        "EpisodeID": 27,
+        "CharacterID": "WATARU",
+        "FaceImageNo": 0,
+        "Message": {
+          "TableId": "/Game/IND/StringTable/Story/Racetext/Storytype1/story_RT_1_6.story_RT_1_6",
+          "Key": "1_6_2-07",
+          "SourceString": "That was awesome! Now we're talking.",
+          "LocalizedString": "That was awesome! Now we're talking."
+        },
+        "DrawTime": 3.0,
+        "Condition": {
+          "Type": "EStoryRaceTalk_ConditionType::PlayerProgress",
+          "ProgressRate": 0.58,
+          "ProgressRateEnd": -1.0,
+          "Rival": 0,
+          "Advantage": 0.0
+        }
+      },
+      "SRT_1_6_2-08": {
+        "EpisodeID": 27,
+        "CharacterID": "KENTA",
+        "FaceImageNo": 0,
+        "Message": {
+          "TableId": "/Game/IND/StringTable/Story/Racetext/Storytype1/story_RT_1_6.story_RT_1_6",
+          "Key": "1_6_2-08",
+          "SourceString": "I can't lose at my home turf!!",
+          "LocalizedString": "I can't lose at my home turf!!"
+        },
+        "DrawTime": -1.0,
+        "Condition": {
+          "Type": "EStoryRaceTalk_ConditionType::PlayerProgress",
+          "ProgressRate": 0.815,
+          "ProgressRateEnd": -1.0,
+          "Rival": 0,
+          "Advantage": 0.0
+        }
+      },
+      "SRT_1_6_2-09": {
+        "EpisodeID": 27,
+        "CharacterID": "WATARU",
+        "FaceImageNo": 0,
+        "Message": {
+          "TableId": "/Game/IND/StringTable/Story/Racetext/Storytype1/story_RT_1_6.story_RT_1_6",
+          "Key": "1_6_2-09",
+          "SourceString": "We're not done yet!",
+          "LocalizedString": "We're not done yet!"
+        },
+        "DrawTime": -1.0,
+        "Condition": {
+          "Type": "EStoryRaceTalk_ConditionType::PlayerProgress",
+          "ProgressRate": 0.835,
+          "ProgressRateEnd": -1.0,
+          "Rival": 0,
+          "Advantage": 0.0
+        }
+      },
+      "SRT_1_6_2-10": {
+        "EpisodeID": 27,
+        "CharacterID": "WATARU_KENTA",
+        "FaceImageNo": 1,
+        "Message": {
+          "TableId": "/Game/IND/StringTable/Story/Racetext/Storytype1/story_RT_1_6.story_RT_1_6",
+          "Key": "1_6_2-10",
+          "SourceString": "What the...?",
+          "LocalizedString": "What the...?"
+        },
+        "DrawTime": -1.0,
+        "Condition": {
+          "Type": "EStoryRaceTalk_ConditionType::AdvantageOver",
+          "ProgressRate": 0.845,
+          "ProgressRateEnd": 0.97,
+          "Rival": 1,
+          "Advantage": 4.0
+        }
+      },
+      "SRT_1_6_3-01": {
+        "EpisodeID": 28,
+        "CharacterID": "RYOSUKE",
+        "FaceImageNo": 0,
+        "Message": {
+          "TableId": "/Game/IND/StringTable/Story/Racetext/Storytype1/story_RT_1_6.story_RT_1_6",
+          "Key": "1_6_3-01",
+          "SourceString": "Show me the best of your driving!",
+          "LocalizedString": "Show me the best of your driving!"
+        },
+        "DrawTime": 3.0,
+        "Condition": {
+          "Type": "EStoryRaceTalk_ConditionType::PlayerProgress",
+          "ProgressRate": 0.005,
+          "ProgressRateEnd": -1.0,
+          "Rival": 0,
+          "Advantage": 0.0
+        }
+      },
+      "SRT_1_6_3-02": {
+        "EpisodeID": 28,
+        "CharacterID": "RYOSUKE",
+        "FaceImageNo": 0,
+        "Message": {
+          "TableId": "/Game/IND/StringTable/Story/Racetext/Storytype1/story_RT_1_6.story_RT_1_6",
+          "Key": "1_6_3-02",
+          "SourceString": "Your pace is insane.",
+          "LocalizedString": "Your pace is insane."
+        },
+        "DrawTime": 3.0,
+        "Condition": {
+          "Type": "EStoryRaceTalk_ConditionType::PlayerProgress",
+          "ProgressRate": 0.26,
+          "ProgressRateEnd": -1.0,
+          "Rival": 0,
+          "Advantage": 0.0
+        }
+      },
+      "SRT_1_6_3-03": {
+        "EpisodeID": 28,
+        "CharacterID": "RYOSUKE",
+        "FaceImageNo": 0,
+        "Message": {
+          "TableId": "/Game/IND/StringTable/Story/Racetext/Storytype1/story_RT_1_6.story_RT_1_6",
+          "Key": "1_6_3-03",
+          "SourceString": "Well... I'd better widen the gap.",
+          "LocalizedString": "Well... I'd better widen the gap."
+        },
+        "DrawTime": 3.0,
+        "Condition": {
+          "Type": "EStoryRaceTalk_ConditionType::PlayerProgress",
+          "ProgressRate": 0.37,
+          "ProgressRateEnd": -1.0,
+          "Rival": 0,
+          "Advantage": 0.0
+        }
+      },
+      "SRT_1_6_3-04": {
+        "EpisodeID": 28,
+        "CharacterID": "RYOSUKE",
+        "FaceImageNo": 0,
+        "Message": {
+          "TableId": "/Game/IND/StringTable/Story/Racetext/Storytype1/story_RT_1_6.story_RT_1_6",
+          "Key": "1_6_3-04",
+          "SourceString": "If you can't keep up with me...",
+          "LocalizedString": "If you can't keep up with me..."
+        },
+        "DrawTime": 3.0,
+        "Condition": {
+          "Type": "EStoryRaceTalk_ConditionType::PlayerProgress",
+          "ProgressRate": 0.495,
+          "ProgressRateEnd": -1.0,
+          "Rival": 0,
+          "Advantage": 0.0
+        }
+      },
+      "SRT_1_6_3-05": {
+        "EpisodeID": 28,
+        "CharacterID": "RYOSUKE",
+        "FaceImageNo": 0,
+        "Message": {
+          "TableId": "/Game/IND/StringTable/Story/Racetext/Storytype1/story_RT_1_6.story_RT_1_6",
+          "Key": "1_6_3-05",
+          "SourceString": "I see no reason to talk with you!",
+          "LocalizedString": "I see no reason to talk with you!"
+        },
+        "DrawTime": 3.0,
+        "Condition": {
+          "Type": "EStoryRaceTalk_ConditionType::PlayerProgress",
+          "ProgressRate": 0.52,
+          "ProgressRateEnd": -1.0,
+          "Rival": 0,
+          "Advantage": 0.0
+        }
+      },
+      "SRT_1_6_3-06": {
+        "EpisodeID": 28,
+        "CharacterID": "RYOSUKE",
+        "FaceImageNo": 0,
+        "Message": {
+          "TableId": "/Game/IND/StringTable/Story/Racetext/Storytype1/story_RT_1_6.story_RT_1_6",
+          "Key": "1_6_3-06",
+          "SourceString": "Hmmm... I knew he'd bite...",
+          "LocalizedString": "Hmmm... I knew he'd bite..."
+        },
+        "DrawTime": 3.0,
+        "Condition": {
+          "Type": "EStoryRaceTalk_ConditionType::PlayerProgress",
+          "ProgressRate": 0.625,
+          "ProgressRateEnd": -1.0,
+          "Rival": 0,
+          "Advantage": 0.0
+        }
+      },
+      "SRT_1_6_3-07": {
+        "EpisodeID": 28,
+        "CharacterID": "RYOSUKE",
+        "FaceImageNo": 0,
+        "Message": {
+          "TableId": "/Game/IND/StringTable/Story/Racetext/Storytype1/story_RT_1_6.story_RT_1_6",
+          "Key": "1_6_3-07",
+          "SourceString": "All right...Impressive!",
+          "LocalizedString": "All right...Impressive!"
+        },
+        "DrawTime": 3.0,
+        "Condition": {
+          "Type": "EStoryRaceTalk_ConditionType::PlayerProgress",
+          "ProgressRate": 0.65,
+          "ProgressRateEnd": -1.0,
+          "Rival": 0,
+          "Advantage": 0.0
+        }
+      },
+      "SRT_1_6_3-08": {
+        "EpisodeID": 28,
+        "CharacterID": "RYOSUKE",
+        "FaceImageNo": 0,
+        "Message": {
+          "TableId": "/Game/IND/StringTable/Story/Racetext/Storytype1/story_RT_1_6.story_RT_1_6",
+          "Key": "1_6_3-08",
+          "SourceString": "Right now, I'm not \r\nRyosuke Takahashi of RedSuns.",
+          "LocalizedString": "Right now, I'm not \r\nRyosuke Takahashi of RedSuns."
+        },
+        "DrawTime": 3.0,
+        "Condition": {
+          "Type": "EStoryRaceTalk_ConditionType::PlayerProgress",
+          "ProgressRate": 0.675,
+          "ProgressRateEnd": -1.0,
+          "Rival": 0,
+          "Advantage": 0.0
+        }
+      },
+      "SRT_1_6_3-09": {
+        "EpisodeID": 28,
+        "CharacterID": "RYOSUKE",
+        "FaceImageNo": 0,
+        "Message": {
+          "TableId": "/Game/IND/StringTable/Story/Racetext/Storytype1/story_RT_1_6.story_RT_1_6",
+          "Key": "1_6_3-09",
+          "SourceString": "I'm the lone wolf known as...\r\nAkagi's White Comet.",
+          "LocalizedString": "I'm the lone wolf known as...\r\nAkagi's White Comet."
+        },
+        "DrawTime": 3.0,
+        "Condition": {
+          "Type": "EStoryRaceTalk_ConditionType::PlayerProgress",
+          "ProgressRate": 0.7,
+          "ProgressRateEnd": -1.0,
+          "Rival": 0,
+          "Advantage": 0.0
+        }
+      },
+      "SRT_1_6_3-11": {
+        "EpisodeID": 28,
+        "CharacterID": "RYOSUKE",
+        "FaceImageNo": 1,
+        "Message": {
+          "TableId": "/Game/IND/StringTable/Story/Racetext/Storytype1/story_RT_1_6.story_RT_1_6",
+          "Key": "1_6_3-11",
+          "SourceString": "Here comes the tune\r\n for the Eight-Six!",
+          "LocalizedString": "Here comes the tune\r\n for the Eight-Six!"
+        },
+        "DrawTime": 3.0,
+        "Condition": {
+          "Type": "EStoryRaceTalk_ConditionType::PlayerProgress",
+          "ProgressRate": 0.802,
+          "ProgressRateEnd": -1.0,
+          "Rival": 0,
+          "Advantage": 0.0
+        }
+      },
+      "SRT_1_6_4-01": {
+        "EpisodeID": 29,
+        "CharacterID": "KEISUKE",
+        "FaceImageNo": 0,
+        "Message": {
+          "TableId": "/Game/IND/StringTable/Story/Racetext/Storytype1/story_RT_1_6.story_RT_1_6",
+          "Key": "1_6_4-01",
+          "SourceString": "The battle with Fujiwara\r\n has been postponed...",
+          "LocalizedString": "The battle with Fujiwara\r\n has been postponed..."
+        },
+        "DrawTime": 3.0,
+        "Condition": {
+          "Type": "EStoryRaceTalk_ConditionType::PlayerProgress",
+          "ProgressRate": 0.005,
+          "ProgressRateEnd": -1.0,
+          "Rival": 0,
+          "Advantage": 0.0
+        }
+      },
+      "SRT_1_6_4-02": {
+        "EpisodeID": 29,
+        "CharacterID": "KEISUKE",
+        "FaceImageNo": 0,
+        "Message": {
+          "TableId": "/Game/IND/StringTable/Story/Racetext/Storytype1/story_RT_1_6.story_RT_1_6",
+          "Key": "1_6_4-02",
+          "SourceString": "But I'm going to settle\r\n this with you...!",
+          "LocalizedString": "But I'm going to settle\r\n this with you...!"
+        },
+        "DrawTime": 3.0,
+        "Condition": {
+          "Type": "EStoryRaceTalk_ConditionType::PlayerProgress",
+          "ProgressRate": 0.03,
+          "ProgressRateEnd": -1.0,
+          "Rival": 0,
+          "Advantage": 0.0
+        }
+      },
+      "SRT_1_6_4-03": {
+        "EpisodeID": 29,
+        "CharacterID": "KEISUKE",
+        "FaceImageNo": 0,
+        "Message": {
+          "TableId": "/Game/IND/StringTable/Story/Racetext/Storytype1/story_RT_1_6.story_RT_1_6",
+          "Key": "1_6_4-03",
+          "SourceString": "What's wrong?! \r\nThat's all you got?",
+          "LocalizedString": "What's wrong?! \r\nThat's all you got?"
+        },
+        "DrawTime": 3.0,
+        "Condition": {
+          "Type": "EStoryRaceTalk_ConditionType::PlayerProgress",
+          "ProgressRate": 0.4,
+          "ProgressRateEnd": -1.0,
+          "Rival": 0,
+          "Advantage": 0.0
+        }
+      },
+      "SRT_1_6_4-04": {
+        "EpisodeID": 29,
+        "CharacterID": "KEISUKE",
+        "FaceImageNo": 0,
+        "Message": {
+          "TableId": "/Game/IND/StringTable/Story/Racetext/Storytype1/story_RT_1_6.story_RT_1_6",
+          "Key": "1_6_4-04",
+          "SourceString": "I'm gonna rip you off!",
+          "LocalizedString": "I'm gonna rip you off!"
+        },
+        "DrawTime": 3.0,
+        "Condition": {
+          "Type": "EStoryRaceTalk_ConditionType::PlayerProgress",
+          "ProgressRate": 0.427,
+          "ProgressRateEnd": -1.0,
+          "Rival": 0,
+          "Advantage": 0.0
+        }
+      },
+      "SRT_1_6_4-05": {
+        "EpisodeID": 29,
+        "CharacterID": "KEISUKE",
+        "FaceImageNo": 1,
+        "Message": {
+          "TableId": "/Game/IND/StringTable/Story/Racetext/Storytype1/story_RT_1_6.story_RT_1_6",
+          "Key": "1_6_4-05",
+          "SourceString": "He closing the gap?!\r\nHow?! How did he...?!",
+          "LocalizedString": "He closing the gap?!\r\nHow?! How did he...?!"
+        },
+        "DrawTime": 3.0,
+        "Condition": {
+          "Type": "EStoryRaceTalk_ConditionType::PlayerProgress",
+          "ProgressRate": 0.626,
+          "ProgressRateEnd": -1.0,
+          "Rival": 0,
+          "Advantage": 0.0
+        }
+      },
+      "SRT_1_6_4-06": {
+        "EpisodeID": 29,
+        "CharacterID": "KEISUKE",
+        "FaceImageNo": 0,
+        "Message": {
+          "TableId": "/Game/IND/StringTable/Story/Racetext/Storytype1/story_RT_1_6.story_RT_1_6",
+          "Key": "1_6_4-06",
+          "SourceString": "That's what \r\nI'm talking about!",
+          "LocalizedString": "That's what \r\nI'm talking about!"
+        },
+        "DrawTime": 3.0,
+        "Condition": {
+          "Type": "EStoryRaceTalk_ConditionType::PlayerProgress",
+          "ProgressRate": 0.65,
+          "ProgressRateEnd": -1.0,
+          "Rival": 0,
+          "Advantage": 0.0
+        }
+      },
+      "SRT_1_6_4-07": {
+        "EpisodeID": 29,
+        "CharacterID": "KEISUKE",
+        "FaceImageNo": 1,
+        "Message": {
+          "TableId": "/Game/IND/StringTable/Story/Racetext/Storytype1/story_RT_1_6.story_RT_1_6",
+          "Key": "1_6_4-07",
+          "SourceString": "This guy... he's special!",
+          "LocalizedString": "This guy... he's special!"
+        },
+        "DrawTime": 3.0,
+        "Condition": {
+          "Type": "EStoryRaceTalk_ConditionType::PlayerProgress",
+          "ProgressRate": 0.754,
+          "ProgressRateEnd": -1.0,
+          "Rival": 0,
+          "Advantage": 0.0
+        }
+      },
+      "SRT_1_6_4-08": {
+        "EpisodeID": 29,
+        "CharacterID": "KEISUKE",
+        "FaceImageNo": 1,
+        "Message": {
+          "TableId": "/Game/IND/StringTable/Story/Racetext/Storytype1/story_RT_1_6.story_RT_1_6",
+          "Key": "1_6_4-08",
+          "SourceString": "Damn it! \r\nFront tires are worn out...",
+          "LocalizedString": "Damn it! \r\nFront tires are worn out..."
+        },
+        "DrawTime": 3.0,
+        "Condition": {
+          "Type": "EStoryRaceTalk_ConditionType::PlayerProgress",
+          "ProgressRate": 0.8,
+          "ProgressRateEnd": -1.0,
+          "Rival": 0,
+          "Advantage": 0.0
+        }
+      },
+      "SRT_1_6_4-09": {
+        "EpisodeID": 29,
+        "CharacterID": "KEISUKE",
+        "FaceImageNo": 0,
+        "Message": {
+          "TableId": "/Game/IND/StringTable/Story/Racetext/Storytype1/story_RT_1_6.story_RT_1_6",
+          "Key": "1_6_4-09",
+          "SourceString": "Hang in there! Until the end!！",
+          "LocalizedString": "Hang in there! Until the end!！"
+        },
+        "DrawTime": 3.0,
+        "Condition": {
+          "Type": "EStoryRaceTalk_ConditionType::PlayerProgress",
+          "ProgressRate": 0.826,
+          "ProgressRateEnd": -1.0,
+          "Rival": 0,
+          "Advantage": 0.0
+        }
+      },
+      "SRT_1_6_5-01": {
+        "EpisodeID": 30,
+        "CharacterID": "TAKUMI",
+        "FaceImageNo": 0,
+        "Message": {
+          "TableId": "/Game/IND/StringTable/Story/Racetext/Storytype1/story_RT_1_6.story_RT_1_6",
+          "Key": "1_6_5-01",
+          "SourceString": "I can tell just by\r\n the way he drives...",
+          "LocalizedString": "I can tell just by\r\n the way he drives..."
+        },
+        "DrawTime": -1.0,
+        "Condition": {
+          "Type": "EStoryRaceTalk_ConditionType::PlayerProgress",
+          "ProgressRate": 0.203,
+          "ProgressRateEnd": -1.0,
+          "Rival": 0,
+          "Advantage": 0.0
+        }
+      },
+      "SRT_1_6_5-02": {
+        "EpisodeID": 30,
+        "CharacterID": "TAKUMI",
+        "FaceImageNo": 0,
+        "Message": {
+          "TableId": "/Game/IND/StringTable/Story/Racetext/Storytype1/story_RT_1_6.story_RT_1_6",
+          "Key": "1_6_5-02",
+          "SourceString": "He's... good!",
+          "LocalizedString": "He's... good!"
+        },
+        "DrawTime": -1.0,
+        "Condition": {
+          "Type": "EStoryRaceTalk_ConditionType::PlayerProgress",
+          "ProgressRate": 0.219,
+          "ProgressRateEnd": -1.0,
+          "Rival": 0,
+          "Advantage": 0.0
+        }
+      },
+      "SRT_1_6_5-03": {
+        "EpisodeID": 30,
+        "CharacterID": "TAKUMI",
+        "FaceImageNo": 0,
+        "Message": {
+          "TableId": "/Game/IND/StringTable/Story/Racetext/Storytype1/story_RT_1_6.story_RT_1_6",
+          "Key": "1_6_5-03",
+          "SourceString": "But...so do I!",
+          "LocalizedString": "But...so do I!"
+        },
+        "DrawTime": 3.0,
+        "Condition": {
+          "Type": "EStoryRaceTalk_ConditionType::PlayerProgress",
+          "ProgressRate": 0.239,
+          "ProgressRateEnd": -1.0,
+          "Rival": 0,
+          "Advantage": 0.0
+        }
+      },
+      "SRT_1_6_5-04": {
+        "EpisodeID": 30,
+        "CharacterID": "TAKUMI",
+        "FaceImageNo": 1,
+        "Message": {
+          "TableId": "/Game/IND/StringTable/Story/Racetext/Storytype1/story_RT_1_6.story_RT_1_6",
+          "Key": "1_6_5-04",
+          "SourceString": "No way...!",
+          "LocalizedString": "No way...!"
+        },
+        "DrawTime": -1.0,
+        "Condition": {
+          "Type": "EStoryRaceTalk_ConditionType::AdvantageOver",
+          "ProgressRate": 0.46,
+          "ProgressRateEnd": 0.47,
+          "Rival": 0,
+          "Advantage": 4.0
+        }
+      },
+      "SRT_1_6_5-05": {
+        "EpisodeID": 30,
+        "CharacterID": "TAKUMI",
+        "FaceImageNo": 1,
+        "Message": {
+          "TableId": "/Game/IND/StringTable/Story/Racetext/Storytype1/story_RT_1_6.story_RT_1_6",
+          "Key": "1_6_5-05",
+          "SourceString": "I can't believe I got \r\novertaken on Akina's downhill!",
+          "LocalizedString": "I can't believe I got \r\novertaken on Akina's downhill!"
+        },
+        "DrawTime": 3.0,
+        "Condition": {
+          "Type": "EStoryRaceTalk_ConditionType::AdvantageOver",
+          "ProgressRate": 0.482,
+          "ProgressRateEnd": 0.483,
+          "Rival": 0,
+          "Advantage": 4.0
+        }
+      },
+      "SRT_1_6_5-06": {
+        "EpisodeID": 30,
+        "CharacterID": "TAKUMI",
+        "FaceImageNo": 0,
+        "Message": {
+          "TableId": "/Game/IND/StringTable/Story/Racetext/Storytype1/story_RT_1_6.story_RT_1_6",
+          "Key": "1_6_5-06",
+          "SourceString": "It's gotta be in the series \r\nof hairpin turns ahead!!",
+          "LocalizedString": "It's gotta be in the series \r\nof hairpin turns ahead!!"
+        },
+        "DrawTime": 3.0,
+        "Condition": {
+          "Type": "EStoryRaceTalk_ConditionType::PlayerProgress",
+          "ProgressRate": 0.636,
+          "ProgressRateEnd": -1.0,
+          "Rival": 0,
+          "Advantage": 0.0
+        }
+      },
+      "SRT_1_6_5-07": {
+        "EpisodeID": 30,
+        "CharacterID": "TAKUMI",
+        "FaceImageNo": 0,
+        "Message": {
+          "TableId": "/Game/IND/StringTable/Story/Racetext/Storytype1/story_RT_1_6.story_RT_1_6",
+          "Key": "1_6_5-07",
+          "SourceString": "How's this?",
+          "LocalizedString": "How's this?"
+        },
+        "DrawTime": 3.0,
+        "Condition": {
+          "Type": "EStoryRaceTalk_ConditionType::AdvantageLess",
+          "ProgressRate": 0.687,
+          "ProgressRateEnd": 0.735,
+          "Rival": 0,
+          "Advantage": -4.0
+        }
+      },
+      "SRT_1_6_5-08": {
+        "EpisodeID": 30,
+        "CharacterID": "TAKUMI",
+        "FaceImageNo": 1,
+        "Message": {
+          "TableId": "/Game/IND/StringTable/Story/Racetext/Storytype1/story_RT_1_6.story_RT_1_6",
+          "Key": "1_6_5-08",
+          "SourceString": "What? The gap is closing.",
+          "LocalizedString": "What? The gap is closing."
+        },
+        "DrawTime": 3.0,
+        "Condition": {
+          "Type": "EStoryRaceTalk_ConditionType::PlayerProgress",
+          "ProgressRate": 0.855,
+          "ProgressRateEnd": -1.0,
+          "Rival": 0,
+          "Advantage": 0.0
+        }
+      },
+      "SRT_1_6_5-09": {
+        "EpisodeID": 30,
+        "CharacterID": "TAKUMI",
+        "FaceImageNo": 1,
+        "Message": {
+          "TableId": "/Game/IND/StringTable/Story/Racetext/Storytype1/story_RT_1_6.story_RT_1_6",
+          "Key": "1_6_5-09",
+          "SourceString": "Damn it!",
+          "LocalizedString": "Damn it!"
+        },
+        "DrawTime": 3.0,
+        "Condition": {
+          "Type": "EStoryRaceTalk_ConditionType::PlayerProgress",
+          "ProgressRate": 0.885,
+          "ProgressRateEnd": -1.0,
+          "Rival": 0,
+          "Advantage": 0.0
+        }
+      },
+      "SRT_1_6_5-10": {
+        "EpisodeID": 30,
+        "CharacterID": "TAKUMI",
+        "FaceImageNo": 0,
+        "Message": {
+          "TableId": "/Game/IND/StringTable/Story/Racetext/Storytype1/story_RT_1_6.story_RT_1_6",
+          "Key": "1_6_5-10",
+          "SourceString": "Come on, Eight-Six! \r\nDon't let me down!",
+          "LocalizedString": "Come on, Eight-Six! \r\nDon't let me down!"
+        },
+        "DrawTime": 3.0,
+        "Condition": {
+          "Type": "EStoryRaceTalk_ConditionType::PlayerProgress",
+          "ProgressRate": 0.961,
+          "ProgressRateEnd": -1.0,
+          "Rival": 0,
+          "Advantage": 0.0
+        }
+      },
+      "SRT_1_6_3-10": {
+        "EpisodeID": 28,
+        "CharacterID": "RYOSUKE",
+        "FaceImageNo": 1,
+        "Message": {
+          "TableId": "/Game/IND/StringTable/Story/Racetext/Storytype1/story_RT_1_6.story_RT_1_6",
+          "Key": "1_6_3-10",
+          "SourceString": "Damn...i did a mistake...\r\n I failed on the straightaway...",
+          "LocalizedString": "Damn...i did a mistake...\r\n I failed on the straightaway..."
+        },
+        "DrawTime": 3.0,
+        "Condition": {
+          "Type": "EStoryRaceTalk_ConditionType::PlayerProgress",
+          "ProgressRate": 0.77,
+          "ProgressRateEnd": -1.0,
+          "Rival": 0,
+          "Advantage": 0.0
+        }
+      }
+    }
+  }
+]

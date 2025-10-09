@@ -1,0 +1,5026 @@
+[
+  {
+    "Type": "StructProperty",
+    "Name": "UberGraphFrame",
+    "Outer": "WBP_AvtCustom_ItemName_C",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "Transient | DuplicateTransient",
+    "Struct": {
+      "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "WBP_AvtCustom_ItemName_C",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WBP_AvtCustom_ItemName_C:WidgetTree'",
+        "ObjectPath": "GameProject/Content/IND/UI/AvtCustom/WBP_AvtCustom_ItemName.79"
+      },
+      "bAllowTemplate": true,
+      "bValidTemplate": true,
+      "Animations": [
+        {
+          "ObjectName": "WidgetAnimation'WBP_AvtCustom_ItemName_C:In_INST'",
+          "ObjectPath": "GameProject/Content/IND/UI/AvtCustom/WBP_AvtCustom_ItemName.76"
+        },
+        {
+          "ObjectName": "WidgetAnimation'WBP_AvtCustom_ItemName_C:Stay_INST'",
+          "ObjectPath": "GameProject/Content/IND/UI/AvtCustom/WBP_AvtCustom_ItemName.78"
+        },
+        {
+          "ObjectName": "WidgetAnimation'WBP_AvtCustom_ItemName_C:Out_INST'",
+          "ObjectPath": "GameProject/Content/IND/UI/AvtCustom/WBP_AvtCustom_ItemName.77"
+        }
+      ],
+      "TemplateAsset": {
+        "AssetPathName": "/Game/IND/UI/AvtCustom/WBP_AvtCustom_ItemName.WidgetArchetype",
+        "SubPathString": ""
+      },
+      "UberGraphFramePointerProperty": {
+        "ObjectName": "StructProperty'WBP_AvtCustom_ItemName_C:UberGraphFrame'",
+        "ObjectPath": "GameProject/Content/IND/UI/AvtCustom/WBP_AvtCustom_ItemName.0"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'WBP_AvtCustom_ItemName_C:ExecuteUbergraph_WBP_AvtCustom_ItemName'",
+        "ObjectPath": "GameProject/Content/IND/UI/AvtCustom/WBP_AvtCustom_ItemName.7"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'UserWidget'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'WBP_AvtCustom_ItemName_C:UberGraphFrame'",
+        "ObjectPath": "GameProject/Content/IND/UI/AvtCustom/WBP_AvtCustom_ItemName.0"
+      },
+      {
+        "ObjectName": "Function'WBP_AvtCustom_ItemName_C:SetText'",
+        "ObjectPath": "GameProject/Content/IND/UI/AvtCustom/WBP_AvtCustom_ItemName.25"
+      },
+      {
+        "ObjectName": "Function'WBP_AvtCustom_ItemName_C:Play_TextOut'",
+        "ObjectPath": "GameProject/Content/IND/UI/AvtCustom/WBP_AvtCustom_ItemName.22"
+      },
+      {
+        "ObjectName": "Function'WBP_AvtCustom_ItemName_C:EventOutFinished'",
+        "ObjectPath": "GameProject/Content/IND/UI/AvtCustom/WBP_AvtCustom_ItemName.20"
+      },
+      {
+        "ObjectName": "Function'WBP_AvtCustom_ItemName_C:Play_TextIn'",
+        "ObjectPath": "GameProject/Content/IND/UI/AvtCustom/WBP_AvtCustom_ItemName.21"
+      },
+      {
+        "ObjectName": "Function'WBP_AvtCustom_ItemName_C:EventInFinished'",
+        "ObjectPath": "GameProject/Content/IND/UI/AvtCustom/WBP_AvtCustom_ItemName.19"
+      },
+      {
+        "ObjectName": "Function'WBP_AvtCustom_ItemName_C:ExecuteUbergraph_WBP_AvtCustom_ItemName'",
+        "ObjectPath": "GameProject/Content/IND/UI/AvtCustom/WBP_AvtCustom_ItemName.7"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_AvtCustom_ItemName_C:Out'",
+        "ObjectPath": "GameProject/Content/IND/UI/AvtCustom/WBP_AvtCustom_ItemName.5"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_AvtCustom_ItemName_C:Stay'",
+        "ObjectPath": "GameProject/Content/IND/UI/AvtCustom/WBP_AvtCustom_ItemName.60"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_AvtCustom_ItemName_C:In'",
+        "ObjectPath": "GameProject/Content/IND/UI/AvtCustom/WBP_AvtCustom_ItemName.58"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_AvtCustom_ItemName_C:Bubble'",
+        "ObjectPath": "GameProject/Content/IND/UI/AvtCustom/WBP_AvtCustom_ItemName.56"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_AvtCustom_ItemName_C:P_ItemName'",
+        "ObjectPath": "GameProject/Content/IND/UI/AvtCustom/WBP_AvtCustom_ItemName.59"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_AvtCustom_ItemName_C:BpvWaitFinishIn'",
+        "ObjectPath": "GameProject/Content/IND/UI/AvtCustom/WBP_AvtCustom_ItemName.3"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_AvtCustom_ItemName_C:BpvWaitFinishOut'",
+        "ObjectPath": "GameProject/Content/IND/UI/AvtCustom/WBP_AvtCustom_ItemName.4"
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_WBP_AvtCustom_ItemName": {
+        "ObjectName": "Function'WBP_AvtCustom_ItemName_C:ExecuteUbergraph_WBP_AvtCustom_ItemName'",
+        "ObjectPath": "GameProject/Content/IND/UI/AvtCustom/WBP_AvtCustom_ItemName.7"
+      },
+      "EventInFinished": {
+        "ObjectName": "Function'WBP_AvtCustom_ItemName_C:EventInFinished'",
+        "ObjectPath": "GameProject/Content/IND/UI/AvtCustom/WBP_AvtCustom_ItemName.19"
+      },
+      "Play_TextIn": {
+        "ObjectName": "Function'WBP_AvtCustom_ItemName_C:Play_TextIn'",
+        "ObjectPath": "GameProject/Content/IND/UI/AvtCustom/WBP_AvtCustom_ItemName.21"
+      },
+      "EventOutFinished": {
+        "ObjectName": "Function'WBP_AvtCustom_ItemName_C:EventOutFinished'",
+        "ObjectPath": "GameProject/Content/IND/UI/AvtCustom/WBP_AvtCustom_ItemName.20"
+      },
+      "Play_TextOut": {
+        "ObjectName": "Function'WBP_AvtCustom_ItemName_C:Play_TextOut'",
+        "ObjectPath": "GameProject/Content/IND/UI/AvtCustom/WBP_AvtCustom_ItemName.22"
+      },
+      "SetText": {
+        "ObjectName": "Function'WBP_AvtCustom_ItemName_C:SetText'",
+        "ObjectPath": "GameProject/Content/IND/UI/AvtCustom/WBP_AvtCustom_ItemName.25"
+      }
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "WBP_AvtCustom_ItemName_C'Default__WBP_AvtCustom_ItemName_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/AvtCustom/WBP_AvtCustom_ItemName.2"
+    }
+  },
+  {
+    "Type": "WBP_AvtCustom_ItemName_C",
+    "Name": "Default__WBP_AvtCustom_ItemName_C",
+    "Class": "WidgetBlueprintGeneratedClass'GameProject/Content/IND/UI/AvtCustom/WBP_AvtCustom_ItemName.WBP_AvtCustom_ItemName_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "UberGraphFrame": {},
+      "bHasScriptImplementedTick": false,
+      "bHasScriptImplementedPaint": false
+    }
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "BpvWaitFinishIn",
+    "Outer": "WBP_AvtCustom_ItemName_C",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "BpvWaitFinishOut",
+    "Outer": "WBP_AvtCustom_ItemName_C",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Out",
+    "Outer": "WBP_AvtCustom_ItemName_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Transient | RepSkip",
+    "PropertyClass": {
+      "ObjectName": "Class'WidgetAnimation'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "EntryPoint",
+    "Outer": "ExecuteUbergraph_WBP_AvtCustom_ItemName",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_WBP_AvtCustom_ItemName",
+    "Outer": "WBP_AvtCustom_ItemName_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "IntProperty'WBP_AvtCustom_ItemName_C:ExecuteUbergraph_WBP_AvtCustom_ItemName.EntryPoint'",
+        "ObjectPath": "GameProject/Content/IND/UI/AvtCustom/WBP_AvtCustom_ItemName.6"
+      },
+      {
+        "ObjectName": "StrProperty'WBP_AvtCustom_ItemName_C:ExecuteUbergraph_WBP_AvtCustom_ItemName.K2Node_CustomEvent_Text'",
+        "ObjectPath": "GameProject/Content/IND/UI/AvtCustom/WBP_AvtCustom_ItemName.23"
+      },
+      {
+        "ObjectName": "TextProperty'WBP_AvtCustom_ItemName_C:ExecuteUbergraph_WBP_AvtCustom_ItemName.CallFunc_Conv_StringToText_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/AvtCustom/WBP_AvtCustom_ItemName.73"
+      },
+      {
+        "ObjectName": "StrProperty'WBP_AvtCustom_ItemName_C:ExecuteUbergraph_WBP_AvtCustom_ItemName.CallFunc_Left_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/AvtCustom/WBP_AvtCustom_ItemName.70"
+      },
+      {
+        "ObjectName": "StrProperty'WBP_AvtCustom_ItemName_C:ExecuteUbergraph_WBP_AvtCustom_ItemName.CallFunc_Concat_StrStr_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/AvtCustom/WBP_AvtCustom_ItemName.69"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_AvtCustom_ItemName_C:ExecuteUbergraph_WBP_AvtCustom_ItemName.CallFunc_Len_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/AvtCustom/WBP_AvtCustom_ItemName.28"
+      },
+      {
+        "ObjectName": "TextProperty'WBP_AvtCustom_ItemName_C:ExecuteUbergraph_WBP_AvtCustom_ItemName.CallFunc_Conv_StringToText_ReturnValue_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/AvtCustom/WBP_AvtCustom_ItemName.74"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_AvtCustom_ItemName_C:ExecuteUbergraph_WBP_AvtCustom_ItemName.CallFunc_Greater_IntInt_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/AvtCustom/WBP_AvtCustom_ItemName.8"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_AvtCustom_ItemName_C:ExecuteUbergraph_WBP_AvtCustom_ItemName.CallFunc_PlayAnimation_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/AvtCustom/WBP_AvtCustom_ItemName.57"
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction | FUNC_HasDefaults"
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_Greater_IntInt_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_AvtCustom_ItemName",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_0",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_AvtCustom_ItemName_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_2'",
+          "ObjectPath": "GameProject/Content/IND/UI/AvtCustom/WBP_AvtCustom_ItemName.13"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_1",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_AvtCustom_ItemName_C:WidgetTree.CanvasPanel_1.CanvasPanelSlot_2'",
+          "ObjectPath": "GameProject/Content/IND/UI/AvtCustom/WBP_AvtCustom_ItemName.15"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_AvtCustom_ItemName_C:WidgetTree.CanvasPanel_1.CanvasPanelSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/AvtCustom/WBP_AvtCustom_ItemName.14"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "ScaleBoxSlot'WBP_AvtCustom_ItemName_C:WidgetTree.ScaleBox_0.ScaleBoxSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/AvtCustom/WBP_AvtCustom_ItemName.63"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_0",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_2'",
+          "ObjectPath": "GameProject/Content/IND/UI/AvtCustom/WBP_AvtCustom_ItemName.16"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_1",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_1.CanvasPanelSlot_2'",
+          "ObjectPath": "GameProject/Content/IND/UI/AvtCustom/WBP_AvtCustom_ItemName.18"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_1.CanvasPanelSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/AvtCustom/WBP_AvtCustom_ItemName.17"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "ScaleBoxSlot'WidgetArchetype:WidgetTree_0.ScaleBox_0.ScaleBoxSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/AvtCustom/WBP_AvtCustom_ItemName.64"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_2",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 326.0,
+          "Bottom": 56.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_AvtCustom_ItemName_C:WidgetTree.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/AvtCustom/WBP_AvtCustom_ItemName.9"
+      },
+      "Content": {
+        "ObjectName": "SizeBox'WBP_AvtCustom_ItemName_C:WidgetTree.SizeBox_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/AvtCustom/WBP_AvtCustom_ItemName.65"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "CanvasPanel_1",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": -2.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_AvtCustom_ItemName_C:WidgetTree.CanvasPanel_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/AvtCustom/WBP_AvtCustom_ItemName.10"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WBP_AvtCustom_ItemName_C:WidgetTree.P_ItemName'",
+        "ObjectPath": "GameProject/Content/IND/UI/AvtCustom/WBP_AvtCustom_ItemName.71"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_2",
+    "Outer": "CanvasPanel_1",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_AvtCustom_ItemName_C:WidgetTree.CanvasPanel_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/AvtCustom/WBP_AvtCustom_ItemName.10"
+      },
+      "Content": {
+        "ObjectName": "Image'WBP_AvtCustom_ItemName_C:WidgetTree.Bubble'",
+        "ObjectPath": "GameProject/Content/IND/UI/AvtCustom/WBP_AvtCustom_ItemName.26"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_2",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 326.0,
+          "Bottom": 56.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/AvtCustom/WBP_AvtCustom_ItemName.11"
+      },
+      "Content": {
+        "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.SizeBox_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/AvtCustom/WBP_AvtCustom_ItemName.66"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "CanvasPanel_1",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": -2.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/AvtCustom/WBP_AvtCustom_ItemName.12"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.P_ItemName'",
+        "ObjectPath": "GameProject/Content/IND/UI/AvtCustom/WBP_AvtCustom_ItemName.72"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_2",
+    "Outer": "CanvasPanel_1",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/AvtCustom/WBP_AvtCustom_ItemName.12"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.Bubble'",
+        "ObjectPath": "GameProject/Content/IND/UI/AvtCustom/WBP_AvtCustom_ItemName.27"
+      }
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "EventInFinished",
+    "Outer": "WBP_AvtCustom_ItemName_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "EventOutFinished",
+    "Outer": "WBP_AvtCustom_ItemName_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "Play_TextIn",
+    "Outer": "WBP_AvtCustom_ItemName_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "Play_TextOut",
+    "Outer": "WBP_AvtCustom_ItemName_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "StrProperty",
+    "Name": "K2Node_CustomEvent_Text",
+    "Outer": "ExecuteUbergraph_WBP_AvtCustom_ItemName",
+    "Class": "UScriptClass'StrProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "StrProperty",
+    "Name": "Text",
+    "Outer": "SetText",
+    "Class": "UScriptClass'StrProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "SetText",
+    "Outer": "WBP_AvtCustom_ItemName_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "StrProperty'WBP_AvtCustom_ItemName_C:SetText.Text'",
+        "ObjectPath": "GameProject/Content/IND/UI/AvtCustom/WBP_AvtCustom_ItemName.24"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Image",
+    "Name": "Bubble",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 364.0,
+          "Y": 56.0
+        },
+        "Margin": {
+          "Left": 0.5,
+          "Right": 0.5
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_AvtCustom_ItemBubblle'",
+          "ObjectPath": "GameProject/Content/IND/UI/AvtCustom/Texture/T_AvtCustom_ItemBubblle.0"
+        },
+        "DrawAs": "ESlateBrushDrawType::Box"
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_AvtCustom_ItemName_C:WidgetTree.CanvasPanel_1.CanvasPanelSlot_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/AvtCustom/WBP_AvtCustom_ItemName.15"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Bubble",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 364.0,
+          "Y": 56.0
+        },
+        "Margin": {
+          "Left": 0.5,
+          "Right": 0.5
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_AvtCustom_ItemBubblle'",
+          "ObjectPath": "GameProject/Content/IND/UI/AvtCustom/Texture/T_AvtCustom_ItemBubblle.0"
+        },
+        "DrawAs": "ESlateBrushDrawType::Box"
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_1.CanvasPanelSlot_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/AvtCustom/WBP_AvtCustom_ItemName.18"
+      }
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_Len_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_AvtCustom_ItemName",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "MovieScene",
+    "Name": "In",
+    "Outer": "In_INST",
+    "Class": "UScriptClass'MovieScene'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Possessables": [
+        {
+          "Tags": [],
+          "Guid": "DFC3CE48-41700496-9FFBB39E-22A9E05D",
+          "Name": "CanvasPanel_1",
+          "PossessedObjectClass": {
+            "ObjectName": "Class'CanvasPanel'",
+            "ObjectPath": "/Script/UMG"
+          },
+          "ParentGuid": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "ObjectBindings": [
+        {
+          "ObjectGuid": "DFC3CE48-41700496-9FFBB39E-22A9E05D",
+          "BindingName": "CanvasPanel_1",
+          "Tracks": [
+            {
+              "ObjectName": "MovieScene2DTransformTrack'WBP_AvtCustom_ItemName_C:In_INST.In.MovieScene2DTransformTrack_1'",
+              "ObjectPath": "GameProject/Content/IND/UI/AvtCustom/WBP_AvtCustom_ItemName.35"
+            },
+            {
+              "ObjectName": "MovieSceneFloatTrack'WBP_AvtCustom_ItemName_C:In_INST.In.MovieSceneFloatTrack_1'",
+              "ObjectPath": "GameProject/Content/IND/UI/AvtCustom/WBP_AvtCustom_ItemName.53"
+            }
+          ]
+        }
+      ],
+      "PlaybackRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 10000
+            }
+          }
+        }
+      },
+      "DisplayRate": {
+        "Numerator": 60
+      },
+      "Signature": "8A39EC3A-41C74216-AE4CDB81-FF79D943"
+    }
+  },
+  {
+    "Type": "MovieScene",
+    "Name": "Out",
+    "Outer": "Out_INST",
+    "Class": "UScriptClass'MovieScene'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Possessables": [
+        {
+          "Tags": [],
+          "Guid": "2BEB7282-451CBF21-50227893-F59E58A0",
+          "Name": "CanvasPanel_0",
+          "PossessedObjectClass": {
+            "ObjectName": "Class'CanvasPanel'",
+            "ObjectPath": "/Script/UMG"
+          },
+          "ParentGuid": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "ObjectBindings": [
+        {
+          "ObjectGuid": "2BEB7282-451CBF21-50227893-F59E58A0",
+          "BindingName": "CanvasPanel_0",
+          "Tracks": [
+            {
+              "ObjectName": "MovieScene2DTransformTrack'WBP_AvtCustom_ItemName_C:Out_INST.Out.MovieScene2DTransformTrack_1'",
+              "ObjectPath": "GameProject/Content/IND/UI/AvtCustom/WBP_AvtCustom_ItemName.36"
+            },
+            {
+              "ObjectName": "MovieSceneFloatTrack'WBP_AvtCustom_ItemName_C:Out_INST.Out.MovieSceneFloatTrack_1'",
+              "ObjectPath": "GameProject/Content/IND/UI/AvtCustom/WBP_AvtCustom_ItemName.54"
+            }
+          ]
+        }
+      ],
+      "PlaybackRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 5000
+            }
+          }
+        }
+      },
+      "DisplayRate": {
+        "Numerator": 60
+      },
+      "Signature": "D79F68CA-4BE444BE-05B3769C-BB2294DD"
+    }
+  },
+  {
+    "Type": "MovieScene",
+    "Name": "Stay",
+    "Outer": "Stay_INST",
+    "Class": "UScriptClass'MovieScene'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Possessables": [
+        {
+          "Tags": [],
+          "Guid": "A72BE8FF-4D94080F-02AE52A3-31EC2523",
+          "Name": "CanvasPanel_1",
+          "PossessedObjectClass": {
+            "ObjectName": "Class'CanvasPanel'",
+            "ObjectPath": "/Script/UMG"
+          },
+          "ParentGuid": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "ObjectBindings": [
+        {
+          "ObjectGuid": "A72BE8FF-4D94080F-02AE52A3-31EC2523",
+          "BindingName": "CanvasPanel_1",
+          "Tracks": [
+            {
+              "ObjectName": "MovieSceneFloatTrack'WBP_AvtCustom_ItemName_C:Stay_INST.Stay.MovieSceneFloatTrack_1'",
+              "ObjectPath": "GameProject/Content/IND/UI/AvtCustom/WBP_AvtCustom_ItemName.55"
+            },
+            {
+              "ObjectName": "MovieScene2DTransformTrack'WBP_AvtCustom_ItemName_C:Stay_INST.Stay.MovieScene2DTransformTrack_1'",
+              "ObjectPath": "GameProject/Content/IND/UI/AvtCustom/WBP_AvtCustom_ItemName.37"
+            }
+          ]
+        }
+      ],
+      "PlaybackRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 5000
+            }
+          }
+        }
+      },
+      "DisplayRate": {
+        "Numerator": 60
+      },
+      "Signature": "B7764F01-4D497521-6FF87B99-089E3EBA"
+    }
+  },
+  {
+    "Type": "MovieScene2DTransformSection",
+    "Name": "MovieScene2DTransformSection_0",
+    "Outer": "MovieScene2DTransformTrack_1",
+    "Class": "UScriptClass'MovieScene2DTransformSection'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Scale": {
+        "PreInfinityExtrap": "RCCE_None",
+        "PostInfinityExtrap": "RCCE_None",
+        "Times": [],
+        "Values": [],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 0,
+          "Denominator": 0
+        },
+        "bShowCurve": false,
+        "StructFallback": {
+          "Times": [
+            {
+              "Value": 0
+            },
+            {
+              "Value": 9000
+            }
+          ],
+          "Values": [
+            {
+              "Value": 0.5,
+              "Tangent": {
+                "ArriveTangent": 0.0,
+                "LeaveTangent": 0.0,
+                "ArriveTangentWeight": 0.0,
+                "LeaveTangentWeight": 0.0,
+                "TangentWeightMode": 0
+              },
+              "InterpMode": 2,
+              "TangentMode": 0
+            },
+            {
+              "Value": 1.0,
+              "Tangent": {
+                "ArriveTangent": 0.0,
+                "LeaveTangent": 0.0,
+                "ArriveTangentWeight": 0.0,
+                "LeaveTangentWeight": 0.0,
+                "TangentWeightMode": 0
+              },
+              "InterpMode": 2,
+              "TangentMode": 0
+            }
+          ]
+        }
+      },
+      "Scale[1]": {
+        "PreInfinityExtrap": "RCCE_None",
+        "PostInfinityExtrap": "RCCE_None",
+        "Times": [],
+        "Values": [],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 0,
+          "Denominator": 0
+        },
+        "bShowCurve": false,
+        "StructFallback": {
+          "Times": [
+            {
+              "Value": 0
+            },
+            {
+              "Value": 9000
+            }
+          ],
+          "Values": [
+            {
+              "Value": 0.5,
+              "Tangent": {
+                "ArriveTangent": 0.0,
+                "LeaveTangent": 0.0,
+                "ArriveTangentWeight": 0.0,
+                "LeaveTangentWeight": 0.0,
+                "TangentWeightMode": 0
+              },
+              "InterpMode": 2,
+              "TangentMode": 0
+            },
+            {
+              "Value": 1.0,
+              "Tangent": {
+                "ArriveTangent": 0.0,
+                "LeaveTangent": 0.0,
+                "ArriveTangentWeight": 0.0,
+                "LeaveTangentWeight": 0.0,
+                "TangentWeightMode": 0
+              },
+              "InterpMode": 2,
+              "TangentMode": 0
+            }
+          ]
+        }
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'WBP_AvtCustom_ItemName_C:In_INST.In.MovieScene2DTransformTrack_1.MovieScene2DTransformSection_0.EaseInFunction'",
+          "ObjectPath": "GameProject/Content/IND/UI/AvtCustom/WBP_AvtCustom_ItemName.38"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'WBP_AvtCustom_ItemName_C:In_INST.In.MovieScene2DTransformTrack_1.MovieScene2DTransformSection_0.EaseOutFunction'",
+          "ObjectPath": "GameProject/Content/IND/UI/AvtCustom/WBP_AvtCustom_ItemName.39"
+        },
+        "bManualEaseOut": true
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 10000
+            }
+          }
+        }
+      },
+      "Signature": "7F2A82F6-443C1C13-FB16BE9F-384F0C5A"
+    }
+  },
+  {
+    "Type": "MovieScene2DTransformSection",
+    "Name": "MovieScene2DTransformSection_0",
+    "Outer": "MovieScene2DTransformTrack_1",
+    "Class": "UScriptClass'MovieScene2DTransformSection'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Scale": {
+        "PreInfinityExtrap": "RCCE_None",
+        "PostInfinityExtrap": "RCCE_None",
+        "Times": [],
+        "Values": [],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 0,
+          "Denominator": 0
+        },
+        "bShowCurve": false,
+        "StructFallback": {
+          "Times": [
+            {
+              "Value": 0
+            },
+            {
+              "Value": 4000
+            }
+          ],
+          "Values": [
+            {
+              "Value": 1.0,
+              "Tangent": {
+                "ArriveTangent": 0.0,
+                "LeaveTangent": 0.0,
+                "ArriveTangentWeight": 0.0,
+                "LeaveTangentWeight": 0.0,
+                "TangentWeightMode": 0
+              },
+              "InterpMode": 2,
+              "TangentMode": 0
+            },
+            {
+              "Value": 0.5,
+              "Tangent": {
+                "ArriveTangent": 0.0,
+                "LeaveTangent": 0.0,
+                "ArriveTangentWeight": 0.0,
+                "LeaveTangentWeight": 0.0,
+                "TangentWeightMode": 0
+              },
+              "InterpMode": 2,
+              "TangentMode": 0
+            }
+          ]
+        }
+      },
+      "Scale[1]": {
+        "PreInfinityExtrap": "RCCE_None",
+        "PostInfinityExtrap": "RCCE_None",
+        "Times": [],
+        "Values": [],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 0,
+          "Denominator": 0
+        },
+        "bShowCurve": false,
+        "StructFallback": {
+          "Times": [
+            {
+              "Value": 0
+            },
+            {
+              "Value": 4000
+            }
+          ],
+          "Values": [
+            {
+              "Value": 1.0,
+              "Tangent": {
+                "ArriveTangent": 0.0,
+                "LeaveTangent": 0.0,
+                "ArriveTangentWeight": 0.0,
+                "LeaveTangentWeight": 0.0,
+                "TangentWeightMode": 0
+              },
+              "InterpMode": 2,
+              "TangentMode": 0
+            },
+            {
+              "Value": 0.5,
+              "Tangent": {
+                "ArriveTangent": 0.0,
+                "LeaveTangent": 0.0,
+                "ArriveTangentWeight": 0.0,
+                "LeaveTangentWeight": 0.0,
+                "TangentWeightMode": 0
+              },
+              "InterpMode": 2,
+              "TangentMode": 0
+            }
+          ]
+        }
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'WBP_AvtCustom_ItemName_C:Out_INST.Out.MovieScene2DTransformTrack_1.MovieScene2DTransformSection_0.EaseInFunction'",
+          "ObjectPath": "GameProject/Content/IND/UI/AvtCustom/WBP_AvtCustom_ItemName.42"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'WBP_AvtCustom_ItemName_C:Out_INST.Out.MovieScene2DTransformTrack_1.MovieScene2DTransformSection_0.EaseOutFunction'",
+          "ObjectPath": "GameProject/Content/IND/UI/AvtCustom/WBP_AvtCustom_ItemName.43"
+        },
+        "bManualEaseOut": true
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 5000
+            }
+          }
+        }
+      },
+      "Signature": "8F903D46-42139590-8F37F8B8-4C5EAB31"
+    }
+  },
+  {
+    "Type": "MovieScene2DTransformSection",
+    "Name": "MovieScene2DTransformSection_0",
+    "Outer": "MovieScene2DTransformTrack_1",
+    "Class": "UScriptClass'MovieScene2DTransformSection'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Scale": {
+        "PreInfinityExtrap": "RCCE_None",
+        "PostInfinityExtrap": "RCCE_None",
+        "Times": [],
+        "Values": [],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 0,
+          "Denominator": 0
+        },
+        "bShowCurve": false,
+        "StructFallback": {
+          "Times": [
+            {
+              "Value": 0
+            }
+          ],
+          "Values": [
+            {
+              "Value": 1.0,
+              "Tangent": {
+                "ArriveTangent": 0.0,
+                "LeaveTangent": 0.0,
+                "ArriveTangentWeight": 0.0,
+                "LeaveTangentWeight": 0.0,
+                "TangentWeightMode": 0
+              },
+              "InterpMode": 2,
+              "TangentMode": 0
+            }
+          ]
+        }
+      },
+      "Scale[1]": {
+        "PreInfinityExtrap": "RCCE_None",
+        "PostInfinityExtrap": "RCCE_None",
+        "Times": [],
+        "Values": [],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 0,
+          "Denominator": 0
+        },
+        "bShowCurve": false,
+        "StructFallback": {
+          "Times": [
+            {
+              "Value": 0
+            }
+          ],
+          "Values": [
+            {
+              "Value": 1.0,
+              "Tangent": {
+                "ArriveTangent": 0.0,
+                "LeaveTangent": 0.0,
+                "ArriveTangentWeight": 0.0,
+                "LeaveTangentWeight": 0.0,
+                "TangentWeightMode": 0
+              },
+              "InterpMode": 2,
+              "TangentMode": 0
+            }
+          ]
+        }
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'WBP_AvtCustom_ItemName_C:Stay_INST.Stay.MovieScene2DTransformTrack_1.MovieScene2DTransformSection_0.EaseInFunction'",
+          "ObjectPath": "GameProject/Content/IND/UI/AvtCustom/WBP_AvtCustom_ItemName.46"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'WBP_AvtCustom_ItemName_C:Stay_INST.Stay.MovieScene2DTransformTrack_1.MovieScene2DTransformSection_0.EaseOutFunction'",
+          "ObjectPath": "GameProject/Content/IND/UI/AvtCustom/WBP_AvtCustom_ItemName.47"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 4999
+            }
+          }
+        }
+      },
+      "Signature": "EEE1B8DE-4461D24C-6DAA5AA4-50B8EFA4"
+    }
+  },
+  {
+    "Type": "MovieScene2DTransformTrack",
+    "Name": "MovieScene2DTransformTrack_1",
+    "Outer": "In",
+    "Class": "UScriptClass'MovieScene2DTransformTrack'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "PropertyName": "RenderTransform",
+      "PropertyPath": "RenderTransform",
+      "Sections": [
+        {
+          "ObjectName": "MovieScene2DTransformSection'WBP_AvtCustom_ItemName_C:In_INST.In.MovieScene2DTransformTrack_1.MovieScene2DTransformSection_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/AvtCustom/WBP_AvtCustom_ItemName.32"
+        }
+      ],
+      "Signature": "5BA956D8-4BC08145-E73895A0-BE2CFB1A"
+    }
+  },
+  {
+    "Type": "MovieScene2DTransformTrack",
+    "Name": "MovieScene2DTransformTrack_1",
+    "Outer": "Out",
+    "Class": "UScriptClass'MovieScene2DTransformTrack'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "PropertyName": "RenderTransform",
+      "PropertyPath": "RenderTransform",
+      "Sections": [
+        {
+          "ObjectName": "MovieScene2DTransformSection'WBP_AvtCustom_ItemName_C:Out_INST.Out.MovieScene2DTransformTrack_1.MovieScene2DTransformSection_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/AvtCustom/WBP_AvtCustom_ItemName.33"
+        }
+      ],
+      "Signature": "76E22095-4612CB86-ACCF5E8E-49979516"
+    }
+  },
+  {
+    "Type": "MovieScene2DTransformTrack",
+    "Name": "MovieScene2DTransformTrack_1",
+    "Outer": "Stay",
+    "Class": "UScriptClass'MovieScene2DTransformTrack'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "PropertyName": "RenderTransform",
+      "PropertyPath": "RenderTransform",
+      "Sections": [
+        {
+          "ObjectName": "MovieScene2DTransformSection'WBP_AvtCustom_ItemName_C:Stay_INST.Stay.MovieScene2DTransformTrack_1.MovieScene2DTransformSection_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/AvtCustom/WBP_AvtCustom_ItemName.34"
+        }
+      ],
+      "Signature": "C81B8D33-46886EF1-2762ED99-AD5330EE"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Outer": "MovieScene2DTransformSection_0",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Outer": "MovieScene2DTransformSection_0",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Outer": "MovieSceneFloatSection_0",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Outer": "MovieSceneFloatSection_0",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Outer": "MovieScene2DTransformSection_0",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Outer": "MovieScene2DTransformSection_0",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Outer": "MovieSceneFloatSection_0",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Outer": "MovieSceneFloatSection_0",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Outer": "MovieScene2DTransformSection_0",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Outer": "MovieScene2DTransformSection_0",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Outer": "MovieSceneFloatSection_0",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Outer": "MovieSceneFloatSection_0",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "MovieSceneFloatSection",
+    "Name": "MovieSceneFloatSection_0",
+    "Outer": "MovieSceneFloatTrack_1",
+    "Class": "UScriptClass'MovieSceneFloatSection'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "FloatCurve": {
+        "PreInfinityExtrap": "RCCE_None",
+        "PostInfinityExtrap": "RCCE_None",
+        "Times": [],
+        "Values": [],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 0,
+          "Denominator": 0
+        },
+        "bShowCurve": false,
+        "StructFallback": {
+          "Times": [
+            {
+              "Value": 0
+            },
+            {
+              "Value": 9000
+            }
+          ],
+          "Values": [
+            {
+              "Value": 0.0,
+              "Tangent": {
+                "ArriveTangent": 0.0,
+                "LeaveTangent": 0.0,
+                "ArriveTangentWeight": 0.0,
+                "LeaveTangentWeight": 0.0,
+                "TangentWeightMode": 0
+              },
+              "InterpMode": 2,
+              "TangentMode": 0
+            },
+            {
+              "Value": 1.0,
+              "Tangent": {
+                "ArriveTangent": 0.0,
+                "LeaveTangent": 0.0,
+                "ArriveTangentWeight": 0.0,
+                "LeaveTangentWeight": 0.0,
+                "TangentWeightMode": 0
+              },
+              "InterpMode": 2,
+              "TangentMode": 0
+            }
+          ]
+        }
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'WBP_AvtCustom_ItemName_C:In_INST.In.MovieSceneFloatTrack_1.MovieSceneFloatSection_0.EaseInFunction'",
+          "ObjectPath": "GameProject/Content/IND/UI/AvtCustom/WBP_AvtCustom_ItemName.40"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'WBP_AvtCustom_ItemName_C:In_INST.In.MovieSceneFloatTrack_1.MovieSceneFloatSection_0.EaseOutFunction'",
+          "ObjectPath": "GameProject/Content/IND/UI/AvtCustom/WBP_AvtCustom_ItemName.41"
+        },
+        "bManualEaseOut": true
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 9999
+            }
+          }
+        }
+      },
+      "Signature": "E1825E03-45954294-D7F6D799-6D228785"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatSection",
+    "Name": "MovieSceneFloatSection_0",
+    "Outer": "MovieSceneFloatTrack_1",
+    "Class": "UScriptClass'MovieSceneFloatSection'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "FloatCurve": {
+        "PreInfinityExtrap": "RCCE_None",
+        "PostInfinityExtrap": "RCCE_None",
+        "Times": [],
+        "Values": [],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 0,
+          "Denominator": 0
+        },
+        "bShowCurve": false,
+        "StructFallback": {
+          "Times": [
+            {
+              "Value": 0
+            },
+            {
+              "Value": 4000
+            }
+          ],
+          "Values": [
+            {
+              "Value": 1.0,
+              "Tangent": {
+                "ArriveTangent": 0.0,
+                "LeaveTangent": 0.0,
+                "ArriveTangentWeight": 0.0,
+                "LeaveTangentWeight": 0.0,
+                "TangentWeightMode": 0
+              },
+              "InterpMode": 2,
+              "TangentMode": 0
+            },
+            {
+              "Value": 0.0,
+              "Tangent": {
+                "ArriveTangent": 0.0,
+                "LeaveTangent": 0.0,
+                "ArriveTangentWeight": 0.0,
+                "LeaveTangentWeight": 0.0,
+                "TangentWeightMode": 0
+              },
+              "InterpMode": 2,
+              "TangentMode": 0
+            }
+          ]
+        }
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'WBP_AvtCustom_ItemName_C:Out_INST.Out.MovieSceneFloatTrack_1.MovieSceneFloatSection_0.EaseInFunction'",
+          "ObjectPath": "GameProject/Content/IND/UI/AvtCustom/WBP_AvtCustom_ItemName.44"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'WBP_AvtCustom_ItemName_C:Out_INST.Out.MovieSceneFloatTrack_1.MovieSceneFloatSection_0.EaseOutFunction'",
+          "ObjectPath": "GameProject/Content/IND/UI/AvtCustom/WBP_AvtCustom_ItemName.45"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 5000
+            }
+          }
+        }
+      },
+      "Signature": "E7665925-409D6833-582FFF88-3F2686E4"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatSection",
+    "Name": "MovieSceneFloatSection_0",
+    "Outer": "MovieSceneFloatTrack_1",
+    "Class": "UScriptClass'MovieSceneFloatSection'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "FloatCurve": {
+        "PreInfinityExtrap": "RCCE_None",
+        "PostInfinityExtrap": "RCCE_None",
+        "Times": [],
+        "Values": [],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 0,
+          "Denominator": 0
+        },
+        "bShowCurve": false,
+        "StructFallback": {
+          "Times": [
+            {
+              "Value": 0
+            }
+          ],
+          "Values": [
+            {
+              "Value": 1.0,
+              "Tangent": {
+                "ArriveTangent": 0.0,
+                "LeaveTangent": 0.0,
+                "ArriveTangentWeight": 0.0,
+                "LeaveTangentWeight": 0.0,
+                "TangentWeightMode": 0
+              },
+              "InterpMode": 2,
+              "TangentMode": 0
+            }
+          ]
+        }
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'WBP_AvtCustom_ItemName_C:Stay_INST.Stay.MovieSceneFloatTrack_1.MovieSceneFloatSection_0.EaseInFunction'",
+          "ObjectPath": "GameProject/Content/IND/UI/AvtCustom/WBP_AvtCustom_ItemName.48"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'WBP_AvtCustom_ItemName_C:Stay_INST.Stay.MovieSceneFloatTrack_1.MovieSceneFloatSection_0.EaseOutFunction'",
+          "ObjectPath": "GameProject/Content/IND/UI/AvtCustom/WBP_AvtCustom_ItemName.49"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 5000
+            }
+          }
+        }
+      },
+      "Signature": "D8B0E70A-4024DDA1-3866438D-46E3D6FC"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatTrack",
+    "Name": "MovieSceneFloatTrack_1",
+    "Outer": "In",
+    "Class": "UScriptClass'MovieSceneFloatTrack'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "PropertyName": "RenderOpacity",
+      "PropertyPath": "RenderOpacity",
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneFloatSection'WBP_AvtCustom_ItemName_C:In_INST.In.MovieSceneFloatTrack_1.MovieSceneFloatSection_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/AvtCustom/WBP_AvtCustom_ItemName.50"
+        }
+      ],
+      "Signature": "6AD723EA-4454C98B-7D2BD592-7DAB0CCE"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatTrack",
+    "Name": "MovieSceneFloatTrack_1",
+    "Outer": "Out",
+    "Class": "UScriptClass'MovieSceneFloatTrack'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "PropertyName": "RenderOpacity",
+      "PropertyPath": "RenderOpacity",
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneFloatSection'WBP_AvtCustom_ItemName_C:Out_INST.Out.MovieSceneFloatTrack_1.MovieSceneFloatSection_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/AvtCustom/WBP_AvtCustom_ItemName.51"
+        }
+      ],
+      "Signature": "6A21E067-43C873E3-8579DAB6-52A96A88"
+    }
+  },
+  {
+    "Type": "MovieSceneFloatTrack",
+    "Name": "MovieSceneFloatTrack_1",
+    "Outer": "Stay",
+    "Class": "UScriptClass'MovieSceneFloatTrack'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "PropertyName": "RenderOpacity",
+      "PropertyPath": "RenderOpacity",
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneFloatSection'WBP_AvtCustom_ItemName_C:Stay_INST.Stay.MovieSceneFloatTrack_1.MovieSceneFloatSection_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/AvtCustom/WBP_AvtCustom_ItemName.52"
+        }
+      ],
+      "Signature": "A65A6171-4FBE68B6-178290A5-D3E1C95F"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Bubble",
+    "Outer": "WBP_AvtCustom_ItemName_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'Image'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_PlayAnimation_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_AvtCustom_ItemName",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyClass": {
+      "ObjectName": "Class'UMGSequencePlayer'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "In",
+    "Outer": "WBP_AvtCustom_ItemName_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Transient | RepSkip",
+    "PropertyClass": {
+      "ObjectName": "Class'WidgetAnimation'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "P_ItemName",
+    "Outer": "WBP_AvtCustom_ItemName_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'TextBlock'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Stay",
+    "Outer": "WBP_AvtCustom_ItemName_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Transient | RepSkip",
+    "PropertyClass": {
+      "ObjectName": "Class'WidgetAnimation'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ScaleBox",
+    "Name": "ScaleBox_0",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'ScaleBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "ScaleBoxSlot'WBP_AvtCustom_ItemName_C:WidgetTree.ScaleBox_0.ScaleBoxSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/AvtCustom/WBP_AvtCustom_ItemName.63"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "SizeBoxSlot'WBP_AvtCustom_ItemName_C:WidgetTree.SizeBox_1.SizeBoxSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/AvtCustom/WBP_AvtCustom_ItemName.67"
+      }
+    }
+  },
+  {
+    "Type": "ScaleBox",
+    "Name": "ScaleBox_0",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'ScaleBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "ScaleBoxSlot'WidgetArchetype:WidgetTree_0.ScaleBox_0.ScaleBoxSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/AvtCustom/WBP_AvtCustom_ItemName.64"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "SizeBoxSlot'WidgetArchetype:WidgetTree_0.SizeBox_1.SizeBoxSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/AvtCustom/WBP_AvtCustom_ItemName.68"
+      }
+    }
+  },
+  {
+    "Type": "ScaleBoxSlot",
+    "Name": "ScaleBoxSlot_0",
+    "Outer": "ScaleBox_0",
+    "Class": "UScriptClass'ScaleBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "ScaleBox'WBP_AvtCustom_ItemName_C:WidgetTree.ScaleBox_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/AvtCustom/WBP_AvtCustom_ItemName.61"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WBP_AvtCustom_ItemName_C:WidgetTree.CanvasPanel_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/AvtCustom/WBP_AvtCustom_ItemName.10"
+      }
+    }
+  },
+  {
+    "Type": "ScaleBoxSlot",
+    "Name": "ScaleBoxSlot_0",
+    "Outer": "ScaleBox_0",
+    "Class": "UScriptClass'ScaleBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "ScaleBox'WidgetArchetype:WidgetTree_0.ScaleBox_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/AvtCustom/WBP_AvtCustom_ItemName.62"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/AvtCustom/WBP_AvtCustom_ItemName.12"
+      }
+    }
+  },
+  {
+    "Type": "SizeBox",
+    "Name": "SizeBox_1",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'SizeBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "WidthOverride": 326.0,
+      "MinAspectRatio": 0.0,
+      "MaxAspectRatio": 0.0,
+      "Slots": [
+        {
+          "ObjectName": "SizeBoxSlot'WBP_AvtCustom_ItemName_C:WidgetTree.SizeBox_1.SizeBoxSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/AvtCustom/WBP_AvtCustom_ItemName.67"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_AvtCustom_ItemName_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/AvtCustom/WBP_AvtCustom_ItemName.13"
+      }
+    }
+  },
+  {
+    "Type": "SizeBox",
+    "Name": "SizeBox_1",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'SizeBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "WidthOverride": 326.0,
+      "MinAspectRatio": 0.0,
+      "MaxAspectRatio": 0.0,
+      "Slots": [
+        {
+          "ObjectName": "SizeBoxSlot'WidgetArchetype:WidgetTree_0.SizeBox_1.SizeBoxSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/AvtCustom/WBP_AvtCustom_ItemName.68"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/AvtCustom/WBP_AvtCustom_ItemName.16"
+      }
+    }
+  },
+  {
+    "Type": "SizeBoxSlot",
+    "Name": "SizeBoxSlot_0",
+    "Outer": "SizeBox_1",
+    "Class": "UScriptClass'SizeBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "SizeBox'WBP_AvtCustom_ItemName_C:WidgetTree.SizeBox_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/AvtCustom/WBP_AvtCustom_ItemName.65"
+      },
+      "Content": {
+        "ObjectName": "ScaleBox'WBP_AvtCustom_ItemName_C:WidgetTree.ScaleBox_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/AvtCustom/WBP_AvtCustom_ItemName.61"
+      }
+    }
+  },
+  {
+    "Type": "SizeBoxSlot",
+    "Name": "SizeBoxSlot_0",
+    "Outer": "SizeBox_1",
+    "Class": "UScriptClass'SizeBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.SizeBox_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/AvtCustom/WBP_AvtCustom_ItemName.66"
+      },
+      "Content": {
+        "ObjectName": "ScaleBox'WidgetArchetype:WidgetTree_0.ScaleBox_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/AvtCustom/WBP_AvtCustom_ItemName.62"
+      }
+    }
+  },
+  {
+    "Type": "StrProperty",
+    "Name": "CallFunc_Concat_StrStr_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_AvtCustom_ItemName",
+    "Class": "UScriptClass'StrProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "StrProperty",
+    "Name": "CallFunc_Left_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_AvtCustom_ItemName",
+    "Class": "UScriptClass'StrProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "P_ItemName",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "1F79A20C40AF2122A62BEEBD12BF3BDD",
+        "SourceString": "テキストブロックテキス15文字",
+        "LocalizedString": "テキストブロックテキス15文字"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "TypefaceFontName": "RodinN_DB",
+        "Size": 16
+      },
+      "ShadowOffset": {
+        "X": 1.5,
+        "Y": 1.5
+      },
+      "ShadowColorAndOpacity": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "000000"
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_AvtCustom_ItemName_C:WidgetTree.CanvasPanel_1.CanvasPanelSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/AvtCustom/WBP_AvtCustom_ItemName.14"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "P_ItemName",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "1F79A20C40AF2122A62BEEBD12BF3BDD",
+        "SourceString": "テキストブロックテキス15文字",
+        "LocalizedString": "テキストブロックテキス15文字"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "TypefaceFontName": "RodinN_DB",
+        "Size": 16
+      },
+      "ShadowOffset": {
+        "X": 1.5,
+        "Y": 1.5
+      },
+      "ShadowColorAndOpacity": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "000000"
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_1.CanvasPanelSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/AvtCustom/WBP_AvtCustom_ItemName.17"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "CallFunc_Conv_StringToText_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_AvtCustom_ItemName",
+    "Class": "UScriptClass'TextProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "CallFunc_Conv_StringToText_ReturnValue_1",
+    "Outer": "ExecuteUbergraph_WBP_AvtCustom_ItemName",
+    "Class": "UScriptClass'TextProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "WBP_AvtCustom_ItemName_C",
+    "Name": "WidgetArchetype",
+    "Class": "WidgetBlueprintGeneratedClass'GameProject/Content/IND/UI/AvtCustom/WBP_AvtCustom_ItemName.WBP_AvtCustom_ItemName_C'",
+    "Template": {
+      "ObjectName": "WBP_AvtCustom_ItemName_C'Default__WBP_AvtCustom_ItemName_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/AvtCustom/WBP_AvtCustom_ItemName.2"
+    },
+    "Flags": "RF_Public | RF_Standalone | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Bubble": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.Bubble'",
+        "ObjectPath": "GameProject/Content/IND/UI/AvtCustom/WBP_AvtCustom_ItemName.27"
+      },
+      "P_ItemName": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.P_ItemName'",
+        "ObjectPath": "GameProject/Content/IND/UI/AvtCustom/WBP_AvtCustom_ItemName.72"
+      },
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/AvtCustom/WBP_AvtCustom_ItemName.80"
+      },
+      "bCookedWidgetTree": true
+    }
+  },
+  {
+    "Type": "WidgetAnimation",
+    "Name": "In_INST",
+    "Outer": "WBP_AvtCustom_ItemName_C",
+    "Class": "UScriptClass'WidgetAnimation'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "MovieScene": {
+        "ObjectName": "MovieScene'WBP_AvtCustom_ItemName_C:In_INST.In'",
+        "ObjectPath": "GameProject/Content/IND/UI/AvtCustom/WBP_AvtCustom_ItemName.29"
+      },
+      "AnimationBindings": [
+        {
+          "WidgetName": "CanvasPanel_1",
+          "SlotWidgetName": "None",
+          "AnimationGuid": "DFC3CE48-41700496-9FFBB39E-22A9E05D",
+          "bIsRootWidget": false
+        }
+      ],
+      "DisplayLabel": "In",
+      "PrecompiledEvaluationTemplate": {
+        "Tracks": [
+          {
+            "Key": {
+              "Value": 0
+            },
+            "Value": {
+              "ObjectBindingID": "DFC3CE48-41700496-9FFBB39E-22A9E05D",
+              "EvaluationPriority": 1000,
+              "EvaluationMethod": "EEvaluationMethod::Static",
+              "Segments": {
+                "SegmentIdentifierToIndex": [
+                  0
+                ],
+                "SortedSegments": [
+                  {
+                    "Range": {
+                      "LowerBound": {
+                        "Type": 1,
+                        "Value": {
+                          "Value": 0
+                        }
+                      },
+                      "UpperBound": {
+                        "Type": 0,
+                        "Value": {
+                          "Value": 10000
+                        }
+                      }
+                    },
+                    "ID": {
+                      "IdentifierIndex": 0
+                    },
+                    "bAllowEmpty": false,
+                    "Impls": [
+                      {
+                        "ImplIndex": 0,
+                        "ForcedTime": {
+                          "Value": -2147483648
+                        },
+                        "Flags": "ESectionEvaluationFlags::None"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "SourceTrack": {
+                "ObjectName": "MovieScene2DTransformTrack'WBP_AvtCustom_ItemName_C:In_INST.In.MovieScene2DTransformTrack_1'",
+                "ObjectPath": "GameProject/Content/IND/UI/AvtCustom/WBP_AvtCustom_ItemName.35"
+              },
+              "EvaluationTree": {
+                "Tree": {
+                  "Data": {
+                    "Entries": [
+                      {
+                        "StartIndex": 0,
+                        "Size": 1,
+                        "Capacity": 1
+                      }
+                    ],
+                    "Items": [
+                      {
+                        "ImplIndex": 0,
+                        "ForcedTime": {
+                          "Value": -2147483648
+                        },
+                        "Flags": 0
+                      }
+                    ]
+                  },
+                  "RootNode": {
+                    "Range": {
+                      "LowerBound": {
+                        "Type": 2,
+                        "Value": {
+                          "Value": 0
+                        }
+                      },
+                      "UpperBound": {
+                        "Type": 2,
+                        "Value": {
+                          "Value": 0
+                        }
+                      }
+                    },
+                    "Parent": {
+                      "ChildrenHandle": {
+                        "EntryIndex": -1
+                      },
+                      "Index": -1
+                    },
+                    "ChildrenID": {
+                      "EntryIndex": 0
+                    },
+                    "DataID": {
+                      "EntryIndex": -1
+                    }
+                  },
+                  "ChildNodes": {
+                    "Entries": [
+                      {
+                        "StartIndex": 0,
+                        "Size": 1,
+                        "Capacity": 1
+                      }
+                    ],
+                    "Items": [
+                      {
+                        "Range": {
+                          "LowerBound": {
+                            "Type": 1,
+                            "Value": {
+                              "Value": 0
+                            }
+                          },
+                          "UpperBound": {
+                            "Type": 0,
+                            "Value": {
+                              "Value": 10000
+                            }
+                          }
+                        },
+                        "Parent": {
+                          "ChildrenHandle": {
+                            "EntryIndex": -1
+                          },
+                          "Index": 0
+                        },
+                        "ChildrenID": {
+                          "EntryIndex": -1
+                        },
+                        "DataID": {
+                          "EntryIndex": 0
+                        }
+                      }
+                    ]
+                  }
+                }
+              },
+              "ChildTemplates": [
+                {
+                  "TypeName": "/Script/UMG.MovieScene2DTransformSectionTemplate",
+                  "Data": {
+                    "Translation": {
+                      "PreInfinityExtrap": "RCCE_None",
+                      "PostInfinityExtrap": "RCCE_None",
+                      "Times": [],
+                      "Values": [],
+                      "DefaultValue": 0.0,
+                      "bHasDefaultValue": false,
+                      "TickResolution": {
+                        "Numerator": 0,
+                        "Denominator": 0
+                      },
+                      "bShowCurve": false,
+                      "StructFallback": {
+                        "PreInfinityExtrap": "RCCE_Constant",
+                        "PostInfinityExtrap": "RCCE_Constant",
+                        "Times": [],
+                        "Values": [],
+                        "DefaultValue": 0.0,
+                        "bHasDefaultValue": false,
+                        "TickResolution": {
+                          "Numerator": 60000,
+                          "Denominator": 1
+                        }
+                      }
+                    },
+                    "Translation[1]": {
+                      "PreInfinityExtrap": "RCCE_None",
+                      "PostInfinityExtrap": "RCCE_None",
+                      "Times": [],
+                      "Values": [],
+                      "DefaultValue": 0.0,
+                      "bHasDefaultValue": false,
+                      "TickResolution": {
+                        "Numerator": 0,
+                        "Denominator": 0
+                      },
+                      "bShowCurve": false,
+                      "StructFallback": {
+                        "PreInfinityExtrap": "RCCE_Constant",
+                        "PostInfinityExtrap": "RCCE_Constant",
+                        "Times": [],
+                        "Values": [],
+                        "DefaultValue": 0.0,
+                        "bHasDefaultValue": false,
+                        "TickResolution": {
+                          "Numerator": 60000,
+                          "Denominator": 1
+                        }
+                      }
+                    },
+                    "Rotation": {
+                      "PreInfinityExtrap": "RCCE_None",
+                      "PostInfinityExtrap": "RCCE_None",
+                      "Times": [],
+                      "Values": [],
+                      "DefaultValue": 0.0,
+                      "bHasDefaultValue": false,
+                      "TickResolution": {
+                        "Numerator": 0,
+                        "Denominator": 0
+                      },
+                      "bShowCurve": false,
+                      "StructFallback": {
+                        "PreInfinityExtrap": "RCCE_Constant",
+                        "PostInfinityExtrap": "RCCE_Constant",
+                        "Times": [],
+                        "Values": [],
+                        "DefaultValue": 0.0,
+                        "bHasDefaultValue": false,
+                        "TickResolution": {
+                          "Numerator": 60000,
+                          "Denominator": 1
+                        }
+                      }
+                    },
+                    "Scale": {
+                      "PreInfinityExtrap": "RCCE_None",
+                      "PostInfinityExtrap": "RCCE_None",
+                      "Times": [],
+                      "Values": [],
+                      "DefaultValue": 0.0,
+                      "bHasDefaultValue": false,
+                      "TickResolution": {
+                        "Numerator": 0,
+                        "Denominator": 0
+                      },
+                      "bShowCurve": false,
+                      "StructFallback": {
+                        "PreInfinityExtrap": "RCCE_Constant",
+                        "PostInfinityExtrap": "RCCE_Constant",
+                        "Times": [
+                          {
+                            "Value": 0
+                          },
+                          {
+                            "Value": 9000
+                          }
+                        ],
+                        "Values": [
+                          {
+                            "Value": 0.5,
+                            "Tangent": {
+                              "ArriveTangent": 0.0,
+                              "LeaveTangent": 0.0,
+                              "ArriveTangentWeight": 0.0,
+                              "LeaveTangentWeight": 0.0,
+                              "TangentWeightMode": 0
+                            },
+                            "InterpMode": 2,
+                            "TangentMode": 0
+                          },
+                          {
+                            "Value": 1.0,
+                            "Tangent": {
+                              "ArriveTangent": 0.0,
+                              "LeaveTangent": 0.0,
+                              "ArriveTangentWeight": 0.0,
+                              "LeaveTangentWeight": 0.0,
+                              "TangentWeightMode": 0
+                            },
+                            "InterpMode": 2,
+                            "TangentMode": 0
+                          }
+                        ],
+                        "DefaultValue": 0.0,
+                        "bHasDefaultValue": false,
+                        "TickResolution": {
+                          "Numerator": 60000,
+                          "Denominator": 1
+                        }
+                      }
+                    },
+                    "Scale[1]": {
+                      "PreInfinityExtrap": "RCCE_None",
+                      "PostInfinityExtrap": "RCCE_None",
+                      "Times": [],
+                      "Values": [],
+                      "DefaultValue": 0.0,
+                      "bHasDefaultValue": false,
+                      "TickResolution": {
+                        "Numerator": 0,
+                        "Denominator": 0
+                      },
+                      "bShowCurve": false,
+                      "StructFallback": {
+                        "PreInfinityExtrap": "RCCE_Constant",
+                        "PostInfinityExtrap": "RCCE_Constant",
+                        "Times": [
+                          {
+                            "Value": 0
+                          },
+                          {
+                            "Value": 9000
+                          }
+                        ],
+                        "Values": [
+                          {
+                            "Value": 0.5,
+                            "Tangent": {
+                              "ArriveTangent": 0.0,
+                              "LeaveTangent": 0.0,
+                              "ArriveTangentWeight": 0.0,
+                              "LeaveTangentWeight": 0.0,
+                              "TangentWeightMode": 0
+                            },
+                            "InterpMode": 2,
+                            "TangentMode": 0
+                          },
+                          {
+                            "Value": 1.0,
+                            "Tangent": {
+                              "ArriveTangent": 0.0,
+                              "LeaveTangent": 0.0,
+                              "ArriveTangentWeight": 0.0,
+                              "LeaveTangentWeight": 0.0,
+                              "TangentWeightMode": 0
+                            },
+                            "InterpMode": 2,
+                            "TangentMode": 0
+                          }
+                        ],
+                        "DefaultValue": 0.0,
+                        "bHasDefaultValue": false,
+                        "TickResolution": {
+                          "Numerator": 60000,
+                          "Denominator": 1
+                        }
+                      }
+                    },
+                    "Shear": {
+                      "PreInfinityExtrap": "RCCE_None",
+                      "PostInfinityExtrap": "RCCE_None",
+                      "Times": [],
+                      "Values": [],
+                      "DefaultValue": 0.0,
+                      "bHasDefaultValue": false,
+                      "TickResolution": {
+                        "Numerator": 0,
+                        "Denominator": 0
+                      },
+                      "bShowCurve": false,
+                      "StructFallback": {
+                        "PreInfinityExtrap": "RCCE_Constant",
+                        "PostInfinityExtrap": "RCCE_Constant",
+                        "Times": [],
+                        "Values": [],
+                        "DefaultValue": 0.0,
+                        "bHasDefaultValue": false,
+                        "TickResolution": {
+                          "Numerator": 60000,
+                          "Denominator": 1
+                        }
+                      }
+                    },
+                    "Shear[1]": {
+                      "PreInfinityExtrap": "RCCE_None",
+                      "PostInfinityExtrap": "RCCE_None",
+                      "Times": [],
+                      "Values": [],
+                      "DefaultValue": 0.0,
+                      "bHasDefaultValue": false,
+                      "TickResolution": {
+                        "Numerator": 0,
+                        "Denominator": 0
+                      },
+                      "bShowCurve": false,
+                      "StructFallback": {
+                        "PreInfinityExtrap": "RCCE_Constant",
+                        "PostInfinityExtrap": "RCCE_Constant",
+                        "Times": [],
+                        "Values": [],
+                        "DefaultValue": 0.0,
+                        "bHasDefaultValue": false,
+                        "TickResolution": {
+                          "Numerator": 60000,
+                          "Denominator": 1
+                        }
+                      }
+                    },
+                    "BlendType": "EMovieSceneBlendType::Absolute",
+                    "Mask": {
+                      "Mask": 127
+                    },
+                    "PropertyData": {
+                      "PropertyName": "RenderTransform",
+                      "PropertyPath": "RenderTransform",
+                      "FunctionName": "None",
+                      "NotifyFunctionName": "None"
+                    },
+                    "CompletionMode": "EMovieSceneCompletionMode::KeepState",
+                    "SourceSectionPtr": {
+                      "ObjectName": "MovieScene2DTransformSection'WBP_AvtCustom_ItemName_C:In_INST.In.MovieScene2DTransformTrack_1.MovieScene2DTransformSection_0'",
+                      "ObjectPath": "GameProject/Content/IND/UI/AvtCustom/WBP_AvtCustom_ItemName.32"
+                    }
+                  }
+                }
+              ],
+              "TrackTemplate": {
+                "TypeName": "",
+                "Data": null
+              },
+              "EvaluationGroup": "None",
+              "bEvaluateInPreroll": false,
+              "bEvaluateInPostroll": false,
+              "bTearDownPriority": false
+            }
+          },
+          {
+            "Key": {
+              "Value": 1
+            },
+            "Value": {
+              "ObjectBindingID": "DFC3CE48-41700496-9FFBB39E-22A9E05D",
+              "EvaluationPriority": 1000,
+              "EvaluationMethod": "EEvaluationMethod::Static",
+              "Segments": {
+                "SegmentIdentifierToIndex": [
+                  0
+                ],
+                "SortedSegments": [
+                  {
+                    "Range": {
+                      "LowerBound": {
+                        "Type": 1,
+                        "Value": {
+                          "Value": 0
+                        }
+                      },
+                      "UpperBound": {
+                        "Type": 0,
+                        "Value": {
+                          "Value": 9999
+                        }
+                      }
+                    },
+                    "ID": {
+                      "IdentifierIndex": 0
+                    },
+                    "bAllowEmpty": false,
+                    "Impls": [
+                      {
+                        "ImplIndex": 0,
+                        "ForcedTime": {
+                          "Value": -2147483648
+                        },
+                        "Flags": "ESectionEvaluationFlags::None"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "SourceTrack": {
+                "ObjectName": "MovieSceneFloatTrack'WBP_AvtCustom_ItemName_C:In_INST.In.MovieSceneFloatTrack_1'",
+                "ObjectPath": "GameProject/Content/IND/UI/AvtCustom/WBP_AvtCustom_ItemName.53"
+              },
+              "EvaluationTree": {
+                "Tree": {
+                  "Data": {
+                    "Entries": [
+                      {
+                        "StartIndex": 0,
+                        "Size": 1,
+                        "Capacity": 1
+                      }
+                    ],
+                    "Items": [
+                      {
+                        "ImplIndex": 0,
+                        "ForcedTime": {
+                          "Value": -2147483648
+                        },
+                        "Flags": 0
+                      }
+                    ]
+                  },
+                  "RootNode": {
+                    "Range": {
+                      "LowerBound": {
+                        "Type": 2,
+                        "Value": {
+                          "Value": 0
+                        }
+                      },
+                      "UpperBound": {
+                        "Type": 2,
+                        "Value": {
+                          "Value": 0
+                        }
+                      }
+                    },
+                    "Parent": {
+                      "ChildrenHandle": {
+                        "EntryIndex": -1
+                      },
+                      "Index": -1
+                    },
+                    "ChildrenID": {
+                      "EntryIndex": 0
+                    },
+                    "DataID": {
+                      "EntryIndex": -1
+                    }
+                  },
+                  "ChildNodes": {
+                    "Entries": [
+                      {
+                        "StartIndex": 0,
+                        "Size": 1,
+                        "Capacity": 1
+                      }
+                    ],
+                    "Items": [
+                      {
+                        "Range": {
+                          "LowerBound": {
+                            "Type": 1,
+                            "Value": {
+                              "Value": 0
+                            }
+                          },
+                          "UpperBound": {
+                            "Type": 0,
+                            "Value": {
+                              "Value": 9999
+                            }
+                          }
+                        },
+                        "Parent": {
+                          "ChildrenHandle": {
+                            "EntryIndex": -1
+                          },
+                          "Index": 0
+                        },
+                        "ChildrenID": {
+                          "EntryIndex": -1
+                        },
+                        "DataID": {
+                          "EntryIndex": 0
+                        }
+                      }
+                    ]
+                  }
+                }
+              },
+              "ChildTemplates": [
+                {
+                  "TypeName": "/Script/MovieSceneTracks.MovieSceneFloatPropertySectionTemplate",
+                  "Data": {
+                    "FloatFunction": {
+                      "PreInfinityExtrap": "RCCE_None",
+                      "PostInfinityExtrap": "RCCE_None",
+                      "Times": [],
+                      "Values": [],
+                      "DefaultValue": 0.0,
+                      "bHasDefaultValue": false,
+                      "TickResolution": {
+                        "Numerator": 0,
+                        "Denominator": 0
+                      },
+                      "bShowCurve": false,
+                      "StructFallback": {
+                        "PreInfinityExtrap": "RCCE_Constant",
+                        "PostInfinityExtrap": "RCCE_Constant",
+                        "Times": [
+                          {
+                            "Value": 0
+                          },
+                          {
+                            "Value": 9000
+                          }
+                        ],
+                        "Values": [
+                          {
+                            "Value": 0.0,
+                            "Tangent": {
+                              "ArriveTangent": 0.0,
+                              "LeaveTangent": 0.0,
+                              "ArriveTangentWeight": 0.0,
+                              "LeaveTangentWeight": 0.0,
+                              "TangentWeightMode": 0
+                            },
+                            "InterpMode": 2,
+                            "TangentMode": 0
+                          },
+                          {
+                            "Value": 1.0,
+                            "Tangent": {
+                              "ArriveTangent": 0.0,
+                              "LeaveTangent": 0.0,
+                              "ArriveTangentWeight": 0.0,
+                              "LeaveTangentWeight": 0.0,
+                              "TangentWeightMode": 0
+                            },
+                            "InterpMode": 2,
+                            "TangentMode": 0
+                          }
+                        ],
+                        "DefaultValue": 0.0,
+                        "bHasDefaultValue": false,
+                        "TickResolution": {
+                          "Numerator": 60000,
+                          "Denominator": 1
+                        }
+                      }
+                    },
+                    "BlendType": "EMovieSceneBlendType::Absolute",
+                    "PropertyData": {
+                      "PropertyName": "RenderOpacity",
+                      "PropertyPath": "RenderOpacity",
+                      "FunctionName": "None",
+                      "NotifyFunctionName": "None"
+                    },
+                    "CompletionMode": "EMovieSceneCompletionMode::KeepState",
+                    "SourceSectionPtr": {
+                      "ObjectName": "MovieSceneFloatSection'WBP_AvtCustom_ItemName_C:In_INST.In.MovieSceneFloatTrack_1.MovieSceneFloatSection_0'",
+                      "ObjectPath": "GameProject/Content/IND/UI/AvtCustom/WBP_AvtCustom_ItemName.50"
+                    }
+                  }
+                }
+              ],
+              "TrackTemplate": {
+                "TypeName": "",
+                "Data": null
+              },
+              "EvaluationGroup": "None",
+              "bEvaluateInPreroll": false,
+              "bEvaluateInPostroll": false,
+              "bTearDownPriority": false
+            }
+          }
+        ],
+        "EvaluationField": {
+          "Ranges": [
+            {
+              "Value": {
+                "LowerBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                },
+                "UpperBound": {
+                  "Type": 0,
+                  "Value": {
+                    "Value": 0
+                  }
+                }
+              }
+            },
+            {
+              "Value": {
+                "LowerBound": {
+                  "Type": 1,
+                  "Value": {
+                    "Value": 0
+                  }
+                },
+                "UpperBound": {
+                  "Type": 0,
+                  "Value": {
+                    "Value": 9999
+                  }
+                }
+              }
+            },
+            {
+              "Value": {
+                "LowerBound": {
+                  "Type": 1,
+                  "Value": {
+                    "Value": 9999
+                  }
+                },
+                "UpperBound": {
+                  "Type": 0,
+                  "Value": {
+                    "Value": 10000
+                  }
+                }
+              }
+            },
+            {
+              "Value": {
+                "LowerBound": {
+                  "Type": 1,
+                  "Value": {
+                    "Value": 10000
+                  }
+                },
+                "UpperBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                }
+              }
+            }
+          ],
+          "Groups": [
+            {
+              "LUTIndices": [],
+              "SegmentPtrLUT": []
+            },
+            {
+              "LUTIndices": [
+                {
+                  "LUTOffset": 0,
+                  "NumInitPtrs": 0,
+                  "NumEvalPtrs": 2
+                }
+              ],
+              "SegmentPtrLUT": [
+                {
+                  "SegmentID": {
+                    "IdentifierIndex": 0
+                  },
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 0
+                  }
+                },
+                {
+                  "SegmentID": {
+                    "IdentifierIndex": 0
+                  },
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 1
+                  }
+                }
+              ]
+            },
+            {
+              "LUTIndices": [
+                {
+                  "LUTOffset": 0,
+                  "NumInitPtrs": 0,
+                  "NumEvalPtrs": 1
+                }
+              ],
+              "SegmentPtrLUT": [
+                {
+                  "SegmentID": {
+                    "IdentifierIndex": 0
+                  },
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 0
+                  }
+                }
+              ]
+            },
+            {
+              "LUTIndices": [],
+              "SegmentPtrLUT": []
+            }
+          ],
+          "MetaData": [
+            {
+              "ActiveSequences": [
+                {
+                  "Value": 0
+                }
+              ],
+              "ActiveEntities": [],
+              "SubTemplateSerialNumbers": []
+            },
+            {
+              "ActiveSequences": [
+                {
+                  "Value": 0
+                }
+              ],
+              "ActiveEntities": [
+                {
+                  "Key": {
+                    "SequenceID": {
+                      "Value": 0
+                    },
+                    "TrackIdentifier": {
+                      "Value": 0
+                    },
+                    "SectionIndex": 0
+                  },
+                  "SetupIndex": 1,
+                  "TearDownIndex": 65534
+                },
+                {
+                  "Key": {
+                    "SequenceID": {
+                      "Value": 0
+                    },
+                    "TrackIdentifier": {
+                      "Value": 0
+                    },
+                    "SectionIndex": 4294967295
+                  },
+                  "SetupIndex": 0,
+                  "TearDownIndex": 65535
+                },
+                {
+                  "Key": {
+                    "SequenceID": {
+                      "Value": 0
+                    },
+                    "TrackIdentifier": {
+                      "Value": 1
+                    },
+                    "SectionIndex": 0
+                  },
+                  "SetupIndex": 3,
+                  "TearDownIndex": 65532
+                },
+                {
+                  "Key": {
+                    "SequenceID": {
+                      "Value": 0
+                    },
+                    "TrackIdentifier": {
+                      "Value": 1
+                    },
+                    "SectionIndex": 4294967295
+                  },
+                  "SetupIndex": 2,
+                  "TearDownIndex": 65533
+                }
+              ],
+              "SubTemplateSerialNumbers": []
+            },
+            {
+              "ActiveSequences": [
+                {
+                  "Value": 0
+                }
+              ],
+              "ActiveEntities": [
+                {
+                  "Key": {
+                    "SequenceID": {
+                      "Value": 0
+                    },
+                    "TrackIdentifier": {
+                      "Value": 0
+                    },
+                    "SectionIndex": 0
+                  },
+                  "SetupIndex": 1,
+                  "TearDownIndex": 65534
+                },
+                {
+                  "Key": {
+                    "SequenceID": {
+                      "Value": 0
+                    },
+                    "TrackIdentifier": {
+                      "Value": 0
+                    },
+                    "SectionIndex": 4294967295
+                  },
+                  "SetupIndex": 0,
+                  "TearDownIndex": 65535
+                }
+              ],
+              "SubTemplateSerialNumbers": []
+            },
+            {
+              "ActiveSequences": [
+                {
+                  "Value": 0
+                }
+              ],
+              "ActiveEntities": [],
+              "SubTemplateSerialNumbers": []
+            }
+          ]
+        },
+        "SequenceSignature": "5066F1A0-4B99BD39-BB589BA5-266DAC9D",
+        "TemplateSerialNumber": {
+          "Value": 1
+        },
+        "TemplateLedger": {
+          "LastTrackIdentifier": {
+            "Value": 1
+          },
+          "TrackSignatureToTrackIdentifier": [
+            {
+              "Key": "5BA956D8-4BC08145-E73895A0-BE2CFB1A",
+              "Value": {
+                "Value": 0
+              }
+            },
+            {
+              "Key": "6AD723EA-4454C98B-7D2BD592-7DAB0CCE",
+              "Value": {
+                "Value": 1
+              }
+            }
+          ]
+        },
+        "TrackFieldData": {
+          "Field": {
+            "Data": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 1,
+                  "Capacity": 1
+                },
+                {
+                  "StartIndex": 1,
+                  "Size": 1,
+                  "Capacity": 1
+                }
+              ],
+              "Items": [
+                0,
+                1
+              ]
+            },
+            "RootNode": {
+              "Range": {
+                "LowerBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                },
+                "UpperBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                }
+              },
+              "Parent": {
+                "ChildrenHandle": {
+                  "EntryIndex": -1
+                },
+                "Index": -1
+              },
+              "ChildrenID": {
+                "EntryIndex": 0
+              },
+              "DataID": {
+                "EntryIndex": -1
+              }
+            },
+            "ChildNodes": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 1,
+                  "Capacity": 1
+                },
+                {
+                  "StartIndex": 1,
+                  "Size": 1,
+                  "Capacity": 1
+                }
+              ],
+              "Items": [
+                {
+                  "Range": {
+                    "LowerBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": 0
+                      }
+                    },
+                    "UpperBound": {
+                      "Type": 0,
+                      "Value": {
+                        "Value": 10000
+                      }
+                    }
+                  },
+                  "Parent": {
+                    "ChildrenHandle": {
+                      "EntryIndex": -1
+                    },
+                    "Index": 0
+                  },
+                  "ChildrenID": {
+                    "EntryIndex": 1
+                  },
+                  "DataID": {
+                    "EntryIndex": 0
+                  }
+                },
+                {
+                  "Range": {
+                    "LowerBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": 0
+                      }
+                    },
+                    "UpperBound": {
+                      "Type": 0,
+                      "Value": {
+                        "Value": 9999
+                      }
+                    }
+                  },
+                  "Parent": {
+                    "ChildrenHandle": {
+                      "EntryIndex": 0
+                    },
+                    "Index": 0
+                  },
+                  "ChildrenID": {
+                    "EntryIndex": -1
+                  },
+                  "DataID": {
+                    "EntryIndex": 1
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "Signature": "5066F1A0-4B99BD39-BB589BA5-266DAC9D"
+    }
+  },
+  {
+    "Type": "WidgetAnimation",
+    "Name": "Out_INST",
+    "Outer": "WBP_AvtCustom_ItemName_C",
+    "Class": "UScriptClass'WidgetAnimation'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "MovieScene": {
+        "ObjectName": "MovieScene'WBP_AvtCustom_ItemName_C:Out_INST.Out'",
+        "ObjectPath": "GameProject/Content/IND/UI/AvtCustom/WBP_AvtCustom_ItemName.30"
+      },
+      "AnimationBindings": [
+        {
+          "WidgetName": "CanvasPanel_0",
+          "SlotWidgetName": "None",
+          "AnimationGuid": "2BEB7282-451CBF21-50227893-F59E58A0",
+          "bIsRootWidget": false
+        }
+      ],
+      "DisplayLabel": "Out",
+      "PrecompiledEvaluationTemplate": {
+        "Tracks": [
+          {
+            "Key": {
+              "Value": 0
+            },
+            "Value": {
+              "ObjectBindingID": "2BEB7282-451CBF21-50227893-F59E58A0",
+              "EvaluationPriority": 1000,
+              "EvaluationMethod": "EEvaluationMethod::Static",
+              "Segments": {
+                "SegmentIdentifierToIndex": [
+                  0
+                ],
+                "SortedSegments": [
+                  {
+                    "Range": {
+                      "LowerBound": {
+                        "Type": 1,
+                        "Value": {
+                          "Value": 0
+                        }
+                      },
+                      "UpperBound": {
+                        "Type": 0,
+                        "Value": {
+                          "Value": 5000
+                        }
+                      }
+                    },
+                    "ID": {
+                      "IdentifierIndex": 0
+                    },
+                    "bAllowEmpty": false,
+                    "Impls": [
+                      {
+                        "ImplIndex": 0,
+                        "ForcedTime": {
+                          "Value": -2147483648
+                        },
+                        "Flags": "ESectionEvaluationFlags::None"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "SourceTrack": {
+                "ObjectName": "MovieScene2DTransformTrack'WBP_AvtCustom_ItemName_C:Out_INST.Out.MovieScene2DTransformTrack_1'",
+                "ObjectPath": "GameProject/Content/IND/UI/AvtCustom/WBP_AvtCustom_ItemName.36"
+              },
+              "EvaluationTree": {
+                "Tree": {
+                  "Data": {
+                    "Entries": [
+                      {
+                        "StartIndex": 0,
+                        "Size": 1,
+                        "Capacity": 1
+                      }
+                    ],
+                    "Items": [
+                      {
+                        "ImplIndex": 0,
+                        "ForcedTime": {
+                          "Value": -2147483648
+                        },
+                        "Flags": 0
+                      }
+                    ]
+                  },
+                  "RootNode": {
+                    "Range": {
+                      "LowerBound": {
+                        "Type": 2,
+                        "Value": {
+                          "Value": 0
+                        }
+                      },
+                      "UpperBound": {
+                        "Type": 2,
+                        "Value": {
+                          "Value": 0
+                        }
+                      }
+                    },
+                    "Parent": {
+                      "ChildrenHandle": {
+                        "EntryIndex": -1
+                      },
+                      "Index": -1
+                    },
+                    "ChildrenID": {
+                      "EntryIndex": 0
+                    },
+                    "DataID": {
+                      "EntryIndex": -1
+                    }
+                  },
+                  "ChildNodes": {
+                    "Entries": [
+                      {
+                        "StartIndex": 0,
+                        "Size": 1,
+                        "Capacity": 1
+                      }
+                    ],
+                    "Items": [
+                      {
+                        "Range": {
+                          "LowerBound": {
+                            "Type": 1,
+                            "Value": {
+                              "Value": 0
+                            }
+                          },
+                          "UpperBound": {
+                            "Type": 0,
+                            "Value": {
+                              "Value": 5000
+                            }
+                          }
+                        },
+                        "Parent": {
+                          "ChildrenHandle": {
+                            "EntryIndex": -1
+                          },
+                          "Index": 0
+                        },
+                        "ChildrenID": {
+                          "EntryIndex": -1
+                        },
+                        "DataID": {
+                          "EntryIndex": 0
+                        }
+                      }
+                    ]
+                  }
+                }
+              },
+              "ChildTemplates": [
+                {
+                  "TypeName": "/Script/UMG.MovieScene2DTransformSectionTemplate",
+                  "Data": {
+                    "Translation": {
+                      "PreInfinityExtrap": "RCCE_None",
+                      "PostInfinityExtrap": "RCCE_None",
+                      "Times": [],
+                      "Values": [],
+                      "DefaultValue": 0.0,
+                      "bHasDefaultValue": false,
+                      "TickResolution": {
+                        "Numerator": 0,
+                        "Denominator": 0
+                      },
+                      "bShowCurve": false,
+                      "StructFallback": {
+                        "PreInfinityExtrap": "RCCE_Constant",
+                        "PostInfinityExtrap": "RCCE_Constant",
+                        "Times": [],
+                        "Values": [],
+                        "DefaultValue": 0.0,
+                        "bHasDefaultValue": false,
+                        "TickResolution": {
+                          "Numerator": 60000,
+                          "Denominator": 1
+                        }
+                      }
+                    },
+                    "Translation[1]": {
+                      "PreInfinityExtrap": "RCCE_None",
+                      "PostInfinityExtrap": "RCCE_None",
+                      "Times": [],
+                      "Values": [],
+                      "DefaultValue": 0.0,
+                      "bHasDefaultValue": false,
+                      "TickResolution": {
+                        "Numerator": 0,
+                        "Denominator": 0
+                      },
+                      "bShowCurve": false,
+                      "StructFallback": {
+                        "PreInfinityExtrap": "RCCE_Constant",
+                        "PostInfinityExtrap": "RCCE_Constant",
+                        "Times": [],
+                        "Values": [],
+                        "DefaultValue": 0.0,
+                        "bHasDefaultValue": false,
+                        "TickResolution": {
+                          "Numerator": 60000,
+                          "Denominator": 1
+                        }
+                      }
+                    },
+                    "Rotation": {
+                      "PreInfinityExtrap": "RCCE_None",
+                      "PostInfinityExtrap": "RCCE_None",
+                      "Times": [],
+                      "Values": [],
+                      "DefaultValue": 0.0,
+                      "bHasDefaultValue": false,
+                      "TickResolution": {
+                        "Numerator": 0,
+                        "Denominator": 0
+                      },
+                      "bShowCurve": false,
+                      "StructFallback": {
+                        "PreInfinityExtrap": "RCCE_Constant",
+                        "PostInfinityExtrap": "RCCE_Constant",
+                        "Times": [],
+                        "Values": [],
+                        "DefaultValue": 0.0,
+                        "bHasDefaultValue": false,
+                        "TickResolution": {
+                          "Numerator": 60000,
+                          "Denominator": 1
+                        }
+                      }
+                    },
+                    "Scale": {
+                      "PreInfinityExtrap": "RCCE_None",
+                      "PostInfinityExtrap": "RCCE_None",
+                      "Times": [],
+                      "Values": [],
+                      "DefaultValue": 0.0,
+                      "bHasDefaultValue": false,
+                      "TickResolution": {
+                        "Numerator": 0,
+                        "Denominator": 0
+                      },
+                      "bShowCurve": false,
+                      "StructFallback": {
+                        "PreInfinityExtrap": "RCCE_Constant",
+                        "PostInfinityExtrap": "RCCE_Constant",
+                        "Times": [
+                          {
+                            "Value": 0
+                          },
+                          {
+                            "Value": 4000
+                          }
+                        ],
+                        "Values": [
+                          {
+                            "Value": 1.0,
+                            "Tangent": {
+                              "ArriveTangent": 0.0,
+                              "LeaveTangent": 0.0,
+                              "ArriveTangentWeight": 0.0,
+                              "LeaveTangentWeight": 0.0,
+                              "TangentWeightMode": 0
+                            },
+                            "InterpMode": 2,
+                            "TangentMode": 0
+                          },
+                          {
+                            "Value": 0.5,
+                            "Tangent": {
+                              "ArriveTangent": 0.0,
+                              "LeaveTangent": 0.0,
+                              "ArriveTangentWeight": 0.0,
+                              "LeaveTangentWeight": 0.0,
+                              "TangentWeightMode": 0
+                            },
+                            "InterpMode": 2,
+                            "TangentMode": 0
+                          }
+                        ],
+                        "DefaultValue": 0.0,
+                        "bHasDefaultValue": false,
+                        "TickResolution": {
+                          "Numerator": 60000,
+                          "Denominator": 1
+                        }
+                      }
+                    },
+                    "Scale[1]": {
+                      "PreInfinityExtrap": "RCCE_None",
+                      "PostInfinityExtrap": "RCCE_None",
+                      "Times": [],
+                      "Values": [],
+                      "DefaultValue": 0.0,
+                      "bHasDefaultValue": false,
+                      "TickResolution": {
+                        "Numerator": 0,
+                        "Denominator": 0
+                      },
+                      "bShowCurve": false,
+                      "StructFallback": {
+                        "PreInfinityExtrap": "RCCE_Constant",
+                        "PostInfinityExtrap": "RCCE_Constant",
+                        "Times": [
+                          {
+                            "Value": 0
+                          },
+                          {
+                            "Value": 4000
+                          }
+                        ],
+                        "Values": [
+                          {
+                            "Value": 1.0,
+                            "Tangent": {
+                              "ArriveTangent": 0.0,
+                              "LeaveTangent": 0.0,
+                              "ArriveTangentWeight": 0.0,
+                              "LeaveTangentWeight": 0.0,
+                              "TangentWeightMode": 0
+                            },
+                            "InterpMode": 2,
+                            "TangentMode": 0
+                          },
+                          {
+                            "Value": 0.5,
+                            "Tangent": {
+                              "ArriveTangent": 0.0,
+                              "LeaveTangent": 0.0,
+                              "ArriveTangentWeight": 0.0,
+                              "LeaveTangentWeight": 0.0,
+                              "TangentWeightMode": 0
+                            },
+                            "InterpMode": 2,
+                            "TangentMode": 0
+                          }
+                        ],
+                        "DefaultValue": 0.0,
+                        "bHasDefaultValue": false,
+                        "TickResolution": {
+                          "Numerator": 60000,
+                          "Denominator": 1
+                        }
+                      }
+                    },
+                    "Shear": {
+                      "PreInfinityExtrap": "RCCE_None",
+                      "PostInfinityExtrap": "RCCE_None",
+                      "Times": [],
+                      "Values": [],
+                      "DefaultValue": 0.0,
+                      "bHasDefaultValue": false,
+                      "TickResolution": {
+                        "Numerator": 0,
+                        "Denominator": 0
+                      },
+                      "bShowCurve": false,
+                      "StructFallback": {
+                        "PreInfinityExtrap": "RCCE_Constant",
+                        "PostInfinityExtrap": "RCCE_Constant",
+                        "Times": [],
+                        "Values": [],
+                        "DefaultValue": 0.0,
+                        "bHasDefaultValue": false,
+                        "TickResolution": {
+                          "Numerator": 60000,
+                          "Denominator": 1
+                        }
+                      }
+                    },
+                    "Shear[1]": {
+                      "PreInfinityExtrap": "RCCE_None",
+                      "PostInfinityExtrap": "RCCE_None",
+                      "Times": [],
+                      "Values": [],
+                      "DefaultValue": 0.0,
+                      "bHasDefaultValue": false,
+                      "TickResolution": {
+                        "Numerator": 0,
+                        "Denominator": 0
+                      },
+                      "bShowCurve": false,
+                      "StructFallback": {
+                        "PreInfinityExtrap": "RCCE_Constant",
+                        "PostInfinityExtrap": "RCCE_Constant",
+                        "Times": [],
+                        "Values": [],
+                        "DefaultValue": 0.0,
+                        "bHasDefaultValue": false,
+                        "TickResolution": {
+                          "Numerator": 60000,
+                          "Denominator": 1
+                        }
+                      }
+                    },
+                    "BlendType": "EMovieSceneBlendType::Absolute",
+                    "Mask": {
+                      "Mask": 127
+                    },
+                    "PropertyData": {
+                      "PropertyName": "RenderTransform",
+                      "PropertyPath": "RenderTransform",
+                      "FunctionName": "None",
+                      "NotifyFunctionName": "None"
+                    },
+                    "CompletionMode": "EMovieSceneCompletionMode::KeepState",
+                    "SourceSectionPtr": {
+                      "ObjectName": "MovieScene2DTransformSection'WBP_AvtCustom_ItemName_C:Out_INST.Out.MovieScene2DTransformTrack_1.MovieScene2DTransformSection_0'",
+                      "ObjectPath": "GameProject/Content/IND/UI/AvtCustom/WBP_AvtCustom_ItemName.33"
+                    }
+                  }
+                }
+              ],
+              "TrackTemplate": {
+                "TypeName": "",
+                "Data": null
+              },
+              "EvaluationGroup": "None",
+              "bEvaluateInPreroll": false,
+              "bEvaluateInPostroll": false,
+              "bTearDownPriority": false
+            }
+          },
+          {
+            "Key": {
+              "Value": 1
+            },
+            "Value": {
+              "ObjectBindingID": "2BEB7282-451CBF21-50227893-F59E58A0",
+              "EvaluationPriority": 1000,
+              "EvaluationMethod": "EEvaluationMethod::Static",
+              "Segments": {
+                "SegmentIdentifierToIndex": [
+                  0
+                ],
+                "SortedSegments": [
+                  {
+                    "Range": {
+                      "LowerBound": {
+                        "Type": 1,
+                        "Value": {
+                          "Value": 0
+                        }
+                      },
+                      "UpperBound": {
+                        "Type": 0,
+                        "Value": {
+                          "Value": 5000
+                        }
+                      }
+                    },
+                    "ID": {
+                      "IdentifierIndex": 0
+                    },
+                    "bAllowEmpty": false,
+                    "Impls": [
+                      {
+                        "ImplIndex": 0,
+                        "ForcedTime": {
+                          "Value": -2147483648
+                        },
+                        "Flags": "ESectionEvaluationFlags::None"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "SourceTrack": {
+                "ObjectName": "MovieSceneFloatTrack'WBP_AvtCustom_ItemName_C:Out_INST.Out.MovieSceneFloatTrack_1'",
+                "ObjectPath": "GameProject/Content/IND/UI/AvtCustom/WBP_AvtCustom_ItemName.54"
+              },
+              "EvaluationTree": {
+                "Tree": {
+                  "Data": {
+                    "Entries": [
+                      {
+                        "StartIndex": 0,
+                        "Size": 1,
+                        "Capacity": 1
+                      }
+                    ],
+                    "Items": [
+                      {
+                        "ImplIndex": 0,
+                        "ForcedTime": {
+                          "Value": -2147483648
+                        },
+                        "Flags": 0
+                      }
+                    ]
+                  },
+                  "RootNode": {
+                    "Range": {
+                      "LowerBound": {
+                        "Type": 2,
+                        "Value": {
+                          "Value": 0
+                        }
+                      },
+                      "UpperBound": {
+                        "Type": 2,
+                        "Value": {
+                          "Value": 0
+                        }
+                      }
+                    },
+                    "Parent": {
+                      "ChildrenHandle": {
+                        "EntryIndex": -1
+                      },
+                      "Index": -1
+                    },
+                    "ChildrenID": {
+                      "EntryIndex": 0
+                    },
+                    "DataID": {
+                      "EntryIndex": -1
+                    }
+                  },
+                  "ChildNodes": {
+                    "Entries": [
+                      {
+                        "StartIndex": 0,
+                        "Size": 1,
+                        "Capacity": 1
+                      }
+                    ],
+                    "Items": [
+                      {
+                        "Range": {
+                          "LowerBound": {
+                            "Type": 1,
+                            "Value": {
+                              "Value": 0
+                            }
+                          },
+                          "UpperBound": {
+                            "Type": 0,
+                            "Value": {
+                              "Value": 5000
+                            }
+                          }
+                        },
+                        "Parent": {
+                          "ChildrenHandle": {
+                            "EntryIndex": -1
+                          },
+                          "Index": 0
+                        },
+                        "ChildrenID": {
+                          "EntryIndex": -1
+                        },
+                        "DataID": {
+                          "EntryIndex": 0
+                        }
+                      }
+                    ]
+                  }
+                }
+              },
+              "ChildTemplates": [
+                {
+                  "TypeName": "/Script/MovieSceneTracks.MovieSceneFloatPropertySectionTemplate",
+                  "Data": {
+                    "FloatFunction": {
+                      "PreInfinityExtrap": "RCCE_None",
+                      "PostInfinityExtrap": "RCCE_None",
+                      "Times": [],
+                      "Values": [],
+                      "DefaultValue": 0.0,
+                      "bHasDefaultValue": false,
+                      "TickResolution": {
+                        "Numerator": 0,
+                        "Denominator": 0
+                      },
+                      "bShowCurve": false,
+                      "StructFallback": {
+                        "PreInfinityExtrap": "RCCE_Constant",
+                        "PostInfinityExtrap": "RCCE_Constant",
+                        "Times": [
+                          {
+                            "Value": 0
+                          },
+                          {
+                            "Value": 4000
+                          }
+                        ],
+                        "Values": [
+                          {
+                            "Value": 1.0,
+                            "Tangent": {
+                              "ArriveTangent": 0.0,
+                              "LeaveTangent": 0.0,
+                              "ArriveTangentWeight": 0.0,
+                              "LeaveTangentWeight": 0.0,
+                              "TangentWeightMode": 0
+                            },
+                            "InterpMode": 2,
+                            "TangentMode": 0
+                          },
+                          {
+                            "Value": 0.0,
+                            "Tangent": {
+                              "ArriveTangent": 0.0,
+                              "LeaveTangent": 0.0,
+                              "ArriveTangentWeight": 0.0,
+                              "LeaveTangentWeight": 0.0,
+                              "TangentWeightMode": 0
+                            },
+                            "InterpMode": 2,
+                            "TangentMode": 0
+                          }
+                        ],
+                        "DefaultValue": 0.0,
+                        "bHasDefaultValue": false,
+                        "TickResolution": {
+                          "Numerator": 60000,
+                          "Denominator": 1
+                        }
+                      }
+                    },
+                    "BlendType": "EMovieSceneBlendType::Absolute",
+                    "PropertyData": {
+                      "PropertyName": "RenderOpacity",
+                      "PropertyPath": "RenderOpacity",
+                      "FunctionName": "None",
+                      "NotifyFunctionName": "None"
+                    },
+                    "CompletionMode": "EMovieSceneCompletionMode::KeepState",
+                    "SourceSectionPtr": {
+                      "ObjectName": "MovieSceneFloatSection'WBP_AvtCustom_ItemName_C:Out_INST.Out.MovieSceneFloatTrack_1.MovieSceneFloatSection_0'",
+                      "ObjectPath": "GameProject/Content/IND/UI/AvtCustom/WBP_AvtCustom_ItemName.51"
+                    }
+                  }
+                }
+              ],
+              "TrackTemplate": {
+                "TypeName": "",
+                "Data": null
+              },
+              "EvaluationGroup": "None",
+              "bEvaluateInPreroll": false,
+              "bEvaluateInPostroll": false,
+              "bTearDownPriority": false
+            }
+          }
+        ],
+        "EvaluationField": {
+          "Ranges": [
+            {
+              "Value": {
+                "LowerBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                },
+                "UpperBound": {
+                  "Type": 0,
+                  "Value": {
+                    "Value": 0
+                  }
+                }
+              }
+            },
+            {
+              "Value": {
+                "LowerBound": {
+                  "Type": 1,
+                  "Value": {
+                    "Value": 0
+                  }
+                },
+                "UpperBound": {
+                  "Type": 0,
+                  "Value": {
+                    "Value": 5000
+                  }
+                }
+              }
+            },
+            {
+              "Value": {
+                "LowerBound": {
+                  "Type": 1,
+                  "Value": {
+                    "Value": 5000
+                  }
+                },
+                "UpperBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                }
+              }
+            }
+          ],
+          "Groups": [
+            {
+              "LUTIndices": [],
+              "SegmentPtrLUT": []
+            },
+            {
+              "LUTIndices": [
+                {
+                  "LUTOffset": 0,
+                  "NumInitPtrs": 0,
+                  "NumEvalPtrs": 2
+                }
+              ],
+              "SegmentPtrLUT": [
+                {
+                  "SegmentID": {
+                    "IdentifierIndex": 0
+                  },
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 1
+                  }
+                },
+                {
+                  "SegmentID": {
+                    "IdentifierIndex": 0
+                  },
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 0
+                  }
+                }
+              ]
+            },
+            {
+              "LUTIndices": [],
+              "SegmentPtrLUT": []
+            }
+          ],
+          "MetaData": [
+            {
+              "ActiveSequences": [
+                {
+                  "Value": 0
+                }
+              ],
+              "ActiveEntities": [],
+              "SubTemplateSerialNumbers": []
+            },
+            {
+              "ActiveSequences": [
+                {
+                  "Value": 0
+                }
+              ],
+              "ActiveEntities": [
+                {
+                  "Key": {
+                    "SequenceID": {
+                      "Value": 0
+                    },
+                    "TrackIdentifier": {
+                      "Value": 0
+                    },
+                    "SectionIndex": 0
+                  },
+                  "SetupIndex": 3,
+                  "TearDownIndex": 65532
+                },
+                {
+                  "Key": {
+                    "SequenceID": {
+                      "Value": 0
+                    },
+                    "TrackIdentifier": {
+                      "Value": 0
+                    },
+                    "SectionIndex": 4294967295
+                  },
+                  "SetupIndex": 2,
+                  "TearDownIndex": 65533
+                },
+                {
+                  "Key": {
+                    "SequenceID": {
+                      "Value": 0
+                    },
+                    "TrackIdentifier": {
+                      "Value": 1
+                    },
+                    "SectionIndex": 0
+                  },
+                  "SetupIndex": 1,
+                  "TearDownIndex": 65534
+                },
+                {
+                  "Key": {
+                    "SequenceID": {
+                      "Value": 0
+                    },
+                    "TrackIdentifier": {
+                      "Value": 1
+                    },
+                    "SectionIndex": 4294967295
+                  },
+                  "SetupIndex": 0,
+                  "TearDownIndex": 65535
+                }
+              ],
+              "SubTemplateSerialNumbers": []
+            },
+            {
+              "ActiveSequences": [
+                {
+                  "Value": 0
+                }
+              ],
+              "ActiveEntities": [],
+              "SubTemplateSerialNumbers": []
+            }
+          ]
+        },
+        "SequenceSignature": "38517128-4A7EE0A6-FE7A92A1-BD0A6D28",
+        "TemplateSerialNumber": {
+          "Value": 1
+        },
+        "TemplateLedger": {
+          "LastTrackIdentifier": {
+            "Value": 1
+          },
+          "TrackSignatureToTrackIdentifier": [
+            {
+              "Key": "76E22095-4612CB86-ACCF5E8E-49979516",
+              "Value": {
+                "Value": 0
+              }
+            },
+            {
+              "Key": "6A21E067-43C873E3-8579DAB6-52A96A88",
+              "Value": {
+                "Value": 1
+              }
+            }
+          ]
+        },
+        "TrackFieldData": {
+          "Field": {
+            "Data": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 2,
+                  "Capacity": 2
+                }
+              ],
+              "Items": [
+                0,
+                1
+              ]
+            },
+            "RootNode": {
+              "Range": {
+                "LowerBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                },
+                "UpperBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                }
+              },
+              "Parent": {
+                "ChildrenHandle": {
+                  "EntryIndex": -1
+                },
+                "Index": -1
+              },
+              "ChildrenID": {
+                "EntryIndex": 0
+              },
+              "DataID": {
+                "EntryIndex": -1
+              }
+            },
+            "ChildNodes": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 1,
+                  "Capacity": 1
+                }
+              ],
+              "Items": [
+                {
+                  "Range": {
+                    "LowerBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": 0
+                      }
+                    },
+                    "UpperBound": {
+                      "Type": 0,
+                      "Value": {
+                        "Value": 5000
+                      }
+                    }
+                  },
+                  "Parent": {
+                    "ChildrenHandle": {
+                      "EntryIndex": -1
+                    },
+                    "Index": 0
+                  },
+                  "ChildrenID": {
+                    "EntryIndex": -1
+                  },
+                  "DataID": {
+                    "EntryIndex": 0
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "Signature": "38517128-4A7EE0A6-FE7A92A1-BD0A6D28"
+    }
+  },
+  {
+    "Type": "WidgetAnimation",
+    "Name": "Stay_INST",
+    "Outer": "WBP_AvtCustom_ItemName_C",
+    "Class": "UScriptClass'WidgetAnimation'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "MovieScene": {
+        "ObjectName": "MovieScene'WBP_AvtCustom_ItemName_C:Stay_INST.Stay'",
+        "ObjectPath": "GameProject/Content/IND/UI/AvtCustom/WBP_AvtCustom_ItemName.31"
+      },
+      "AnimationBindings": [
+        {
+          "WidgetName": "CanvasPanel_1",
+          "SlotWidgetName": "None",
+          "AnimationGuid": "A72BE8FF-4D94080F-02AE52A3-31EC2523",
+          "bIsRootWidget": false
+        }
+      ],
+      "DisplayLabel": "Stay",
+      "PrecompiledEvaluationTemplate": {
+        "Tracks": [
+          {
+            "Key": {
+              "Value": 0
+            },
+            "Value": {
+              "ObjectBindingID": "A72BE8FF-4D94080F-02AE52A3-31EC2523",
+              "EvaluationPriority": 1000,
+              "EvaluationMethod": "EEvaluationMethod::Static",
+              "Segments": {
+                "SegmentIdentifierToIndex": [
+                  0
+                ],
+                "SortedSegments": [
+                  {
+                    "Range": {
+                      "LowerBound": {
+                        "Type": 1,
+                        "Value": {
+                          "Value": 0
+                        }
+                      },
+                      "UpperBound": {
+                        "Type": 0,
+                        "Value": {
+                          "Value": 5000
+                        }
+                      }
+                    },
+                    "ID": {
+                      "IdentifierIndex": 0
+                    },
+                    "bAllowEmpty": false,
+                    "Impls": [
+                      {
+                        "ImplIndex": 0,
+                        "ForcedTime": {
+                          "Value": -2147483648
+                        },
+                        "Flags": "ESectionEvaluationFlags::None"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "SourceTrack": {
+                "ObjectName": "MovieSceneFloatTrack'WBP_AvtCustom_ItemName_C:Stay_INST.Stay.MovieSceneFloatTrack_1'",
+                "ObjectPath": "GameProject/Content/IND/UI/AvtCustom/WBP_AvtCustom_ItemName.55"
+              },
+              "EvaluationTree": {
+                "Tree": {
+                  "Data": {
+                    "Entries": [
+                      {
+                        "StartIndex": 0,
+                        "Size": 1,
+                        "Capacity": 1
+                      }
+                    ],
+                    "Items": [
+                      {
+                        "ImplIndex": 0,
+                        "ForcedTime": {
+                          "Value": -2147483648
+                        },
+                        "Flags": 0
+                      }
+                    ]
+                  },
+                  "RootNode": {
+                    "Range": {
+                      "LowerBound": {
+                        "Type": 2,
+                        "Value": {
+                          "Value": 0
+                        }
+                      },
+                      "UpperBound": {
+                        "Type": 2,
+                        "Value": {
+                          "Value": 0
+                        }
+                      }
+                    },
+                    "Parent": {
+                      "ChildrenHandle": {
+                        "EntryIndex": -1
+                      },
+                      "Index": -1
+                    },
+                    "ChildrenID": {
+                      "EntryIndex": 0
+                    },
+                    "DataID": {
+                      "EntryIndex": -1
+                    }
+                  },
+                  "ChildNodes": {
+                    "Entries": [
+                      {
+                        "StartIndex": 0,
+                        "Size": 1,
+                        "Capacity": 1
+                      }
+                    ],
+                    "Items": [
+                      {
+                        "Range": {
+                          "LowerBound": {
+                            "Type": 1,
+                            "Value": {
+                              "Value": 0
+                            }
+                          },
+                          "UpperBound": {
+                            "Type": 0,
+                            "Value": {
+                              "Value": 5000
+                            }
+                          }
+                        },
+                        "Parent": {
+                          "ChildrenHandle": {
+                            "EntryIndex": -1
+                          },
+                          "Index": 0
+                        },
+                        "ChildrenID": {
+                          "EntryIndex": -1
+                        },
+                        "DataID": {
+                          "EntryIndex": 0
+                        }
+                      }
+                    ]
+                  }
+                }
+              },
+              "ChildTemplates": [
+                {
+                  "TypeName": "/Script/MovieSceneTracks.MovieSceneFloatPropertySectionTemplate",
+                  "Data": {
+                    "FloatFunction": {
+                      "PreInfinityExtrap": "RCCE_None",
+                      "PostInfinityExtrap": "RCCE_None",
+                      "Times": [],
+                      "Values": [],
+                      "DefaultValue": 0.0,
+                      "bHasDefaultValue": false,
+                      "TickResolution": {
+                        "Numerator": 0,
+                        "Denominator": 0
+                      },
+                      "bShowCurve": false,
+                      "StructFallback": {
+                        "PreInfinityExtrap": "RCCE_Constant",
+                        "PostInfinityExtrap": "RCCE_Constant",
+                        "Times": [
+                          {
+                            "Value": 0
+                          }
+                        ],
+                        "Values": [
+                          {
+                            "Value": 1.0,
+                            "Tangent": {
+                              "ArriveTangent": 0.0,
+                              "LeaveTangent": 0.0,
+                              "ArriveTangentWeight": 0.0,
+                              "LeaveTangentWeight": 0.0,
+                              "TangentWeightMode": 0
+                            },
+                            "InterpMode": 2,
+                            "TangentMode": 0
+                          }
+                        ],
+                        "DefaultValue": 0.0,
+                        "bHasDefaultValue": false,
+                        "TickResolution": {
+                          "Numerator": 60000,
+                          "Denominator": 1
+                        }
+                      }
+                    },
+                    "BlendType": "EMovieSceneBlendType::Absolute",
+                    "PropertyData": {
+                      "PropertyName": "RenderOpacity",
+                      "PropertyPath": "RenderOpacity",
+                      "FunctionName": "None",
+                      "NotifyFunctionName": "None"
+                    },
+                    "CompletionMode": "EMovieSceneCompletionMode::KeepState",
+                    "SourceSectionPtr": {
+                      "ObjectName": "MovieSceneFloatSection'WBP_AvtCustom_ItemName_C:Stay_INST.Stay.MovieSceneFloatTrack_1.MovieSceneFloatSection_0'",
+                      "ObjectPath": "GameProject/Content/IND/UI/AvtCustom/WBP_AvtCustom_ItemName.52"
+                    }
+                  }
+                }
+              ],
+              "TrackTemplate": {
+                "TypeName": "",
+                "Data": null
+              },
+              "EvaluationGroup": "None",
+              "bEvaluateInPreroll": false,
+              "bEvaluateInPostroll": false,
+              "bTearDownPriority": false
+            }
+          },
+          {
+            "Key": {
+              "Value": 1
+            },
+            "Value": {
+              "ObjectBindingID": "A72BE8FF-4D94080F-02AE52A3-31EC2523",
+              "EvaluationPriority": 1000,
+              "EvaluationMethod": "EEvaluationMethod::Static",
+              "Segments": {
+                "SegmentIdentifierToIndex": [
+                  0
+                ],
+                "SortedSegments": [
+                  {
+                    "Range": {
+                      "LowerBound": {
+                        "Type": 1,
+                        "Value": {
+                          "Value": 0
+                        }
+                      },
+                      "UpperBound": {
+                        "Type": 0,
+                        "Value": {
+                          "Value": 4999
+                        }
+                      }
+                    },
+                    "ID": {
+                      "IdentifierIndex": 0
+                    },
+                    "bAllowEmpty": false,
+                    "Impls": [
+                      {
+                        "ImplIndex": 0,
+                        "ForcedTime": {
+                          "Value": -2147483648
+                        },
+                        "Flags": "ESectionEvaluationFlags::None"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "SourceTrack": {
+                "ObjectName": "MovieScene2DTransformTrack'WBP_AvtCustom_ItemName_C:Stay_INST.Stay.MovieScene2DTransformTrack_1'",
+                "ObjectPath": "GameProject/Content/IND/UI/AvtCustom/WBP_AvtCustom_ItemName.37"
+              },
+              "EvaluationTree": {
+                "Tree": {
+                  "Data": {
+                    "Entries": [
+                      {
+                        "StartIndex": 0,
+                        "Size": 1,
+                        "Capacity": 1
+                      }
+                    ],
+                    "Items": [
+                      {
+                        "ImplIndex": 0,
+                        "ForcedTime": {
+                          "Value": -2147483648
+                        },
+                        "Flags": 0
+                      }
+                    ]
+                  },
+                  "RootNode": {
+                    "Range": {
+                      "LowerBound": {
+                        "Type": 2,
+                        "Value": {
+                          "Value": 0
+                        }
+                      },
+                      "UpperBound": {
+                        "Type": 2,
+                        "Value": {
+                          "Value": 0
+                        }
+                      }
+                    },
+                    "Parent": {
+                      "ChildrenHandle": {
+                        "EntryIndex": -1
+                      },
+                      "Index": -1
+                    },
+                    "ChildrenID": {
+                      "EntryIndex": 0
+                    },
+                    "DataID": {
+                      "EntryIndex": -1
+                    }
+                  },
+                  "ChildNodes": {
+                    "Entries": [
+                      {
+                        "StartIndex": 0,
+                        "Size": 1,
+                        "Capacity": 1
+                      }
+                    ],
+                    "Items": [
+                      {
+                        "Range": {
+                          "LowerBound": {
+                            "Type": 1,
+                            "Value": {
+                              "Value": 0
+                            }
+                          },
+                          "UpperBound": {
+                            "Type": 0,
+                            "Value": {
+                              "Value": 4999
+                            }
+                          }
+                        },
+                        "Parent": {
+                          "ChildrenHandle": {
+                            "EntryIndex": -1
+                          },
+                          "Index": 0
+                        },
+                        "ChildrenID": {
+                          "EntryIndex": -1
+                        },
+                        "DataID": {
+                          "EntryIndex": 0
+                        }
+                      }
+                    ]
+                  }
+                }
+              },
+              "ChildTemplates": [
+                {
+                  "TypeName": "/Script/UMG.MovieScene2DTransformSectionTemplate",
+                  "Data": {
+                    "Translation": {
+                      "PreInfinityExtrap": "RCCE_None",
+                      "PostInfinityExtrap": "RCCE_None",
+                      "Times": [],
+                      "Values": [],
+                      "DefaultValue": 0.0,
+                      "bHasDefaultValue": false,
+                      "TickResolution": {
+                        "Numerator": 0,
+                        "Denominator": 0
+                      },
+                      "bShowCurve": false,
+                      "StructFallback": {
+                        "PreInfinityExtrap": "RCCE_Constant",
+                        "PostInfinityExtrap": "RCCE_Constant",
+                        "Times": [],
+                        "Values": [],
+                        "DefaultValue": 0.0,
+                        "bHasDefaultValue": false,
+                        "TickResolution": {
+                          "Numerator": 60000,
+                          "Denominator": 1
+                        }
+                      }
+                    },
+                    "Translation[1]": {
+                      "PreInfinityExtrap": "RCCE_None",
+                      "PostInfinityExtrap": "RCCE_None",
+                      "Times": [],
+                      "Values": [],
+                      "DefaultValue": 0.0,
+                      "bHasDefaultValue": false,
+                      "TickResolution": {
+                        "Numerator": 0,
+                        "Denominator": 0
+                      },
+                      "bShowCurve": false,
+                      "StructFallback": {
+                        "PreInfinityExtrap": "RCCE_Constant",
+                        "PostInfinityExtrap": "RCCE_Constant",
+                        "Times": [],
+                        "Values": [],
+                        "DefaultValue": 0.0,
+                        "bHasDefaultValue": false,
+                        "TickResolution": {
+                          "Numerator": 60000,
+                          "Denominator": 1
+                        }
+                      }
+                    },
+                    "Rotation": {
+                      "PreInfinityExtrap": "RCCE_None",
+                      "PostInfinityExtrap": "RCCE_None",
+                      "Times": [],
+                      "Values": [],
+                      "DefaultValue": 0.0,
+                      "bHasDefaultValue": false,
+                      "TickResolution": {
+                        "Numerator": 0,
+                        "Denominator": 0
+                      },
+                      "bShowCurve": false,
+                      "StructFallback": {
+                        "PreInfinityExtrap": "RCCE_Constant",
+                        "PostInfinityExtrap": "RCCE_Constant",
+                        "Times": [],
+                        "Values": [],
+                        "DefaultValue": 0.0,
+                        "bHasDefaultValue": false,
+                        "TickResolution": {
+                          "Numerator": 60000,
+                          "Denominator": 1
+                        }
+                      }
+                    },
+                    "Scale": {
+                      "PreInfinityExtrap": "RCCE_None",
+                      "PostInfinityExtrap": "RCCE_None",
+                      "Times": [],
+                      "Values": [],
+                      "DefaultValue": 0.0,
+                      "bHasDefaultValue": false,
+                      "TickResolution": {
+                        "Numerator": 0,
+                        "Denominator": 0
+                      },
+                      "bShowCurve": false,
+                      "StructFallback": {
+                        "PreInfinityExtrap": "RCCE_Constant",
+                        "PostInfinityExtrap": "RCCE_Constant",
+                        "Times": [
+                          {
+                            "Value": 0
+                          }
+                        ],
+                        "Values": [
+                          {
+                            "Value": 1.0,
+                            "Tangent": {
+                              "ArriveTangent": 0.0,
+                              "LeaveTangent": 0.0,
+                              "ArriveTangentWeight": 0.0,
+                              "LeaveTangentWeight": 0.0,
+                              "TangentWeightMode": 0
+                            },
+                            "InterpMode": 2,
+                            "TangentMode": 0
+                          }
+                        ],
+                        "DefaultValue": 0.0,
+                        "bHasDefaultValue": false,
+                        "TickResolution": {
+                          "Numerator": 60000,
+                          "Denominator": 1
+                        }
+                      }
+                    },
+                    "Scale[1]": {
+                      "PreInfinityExtrap": "RCCE_None",
+                      "PostInfinityExtrap": "RCCE_None",
+                      "Times": [],
+                      "Values": [],
+                      "DefaultValue": 0.0,
+                      "bHasDefaultValue": false,
+                      "TickResolution": {
+                        "Numerator": 0,
+                        "Denominator": 0
+                      },
+                      "bShowCurve": false,
+                      "StructFallback": {
+                        "PreInfinityExtrap": "RCCE_Constant",
+                        "PostInfinityExtrap": "RCCE_Constant",
+                        "Times": [
+                          {
+                            "Value": 0
+                          }
+                        ],
+                        "Values": [
+                          {
+                            "Value": 1.0,
+                            "Tangent": {
+                              "ArriveTangent": 0.0,
+                              "LeaveTangent": 0.0,
+                              "ArriveTangentWeight": 0.0,
+                              "LeaveTangentWeight": 0.0,
+                              "TangentWeightMode": 0
+                            },
+                            "InterpMode": 2,
+                            "TangentMode": 0
+                          }
+                        ],
+                        "DefaultValue": 0.0,
+                        "bHasDefaultValue": false,
+                        "TickResolution": {
+                          "Numerator": 60000,
+                          "Denominator": 1
+                        }
+                      }
+                    },
+                    "Shear": {
+                      "PreInfinityExtrap": "RCCE_None",
+                      "PostInfinityExtrap": "RCCE_None",
+                      "Times": [],
+                      "Values": [],
+                      "DefaultValue": 0.0,
+                      "bHasDefaultValue": false,
+                      "TickResolution": {
+                        "Numerator": 0,
+                        "Denominator": 0
+                      },
+                      "bShowCurve": false,
+                      "StructFallback": {
+                        "PreInfinityExtrap": "RCCE_Constant",
+                        "PostInfinityExtrap": "RCCE_Constant",
+                        "Times": [],
+                        "Values": [],
+                        "DefaultValue": 0.0,
+                        "bHasDefaultValue": false,
+                        "TickResolution": {
+                          "Numerator": 60000,
+                          "Denominator": 1
+                        }
+                      }
+                    },
+                    "Shear[1]": {
+                      "PreInfinityExtrap": "RCCE_None",
+                      "PostInfinityExtrap": "RCCE_None",
+                      "Times": [],
+                      "Values": [],
+                      "DefaultValue": 0.0,
+                      "bHasDefaultValue": false,
+                      "TickResolution": {
+                        "Numerator": 0,
+                        "Denominator": 0
+                      },
+                      "bShowCurve": false,
+                      "StructFallback": {
+                        "PreInfinityExtrap": "RCCE_Constant",
+                        "PostInfinityExtrap": "RCCE_Constant",
+                        "Times": [],
+                        "Values": [],
+                        "DefaultValue": 0.0,
+                        "bHasDefaultValue": false,
+                        "TickResolution": {
+                          "Numerator": 60000,
+                          "Denominator": 1
+                        }
+                      }
+                    },
+                    "BlendType": "EMovieSceneBlendType::Absolute",
+                    "Mask": {
+                      "Mask": 127
+                    },
+                    "PropertyData": {
+                      "PropertyName": "RenderTransform",
+                      "PropertyPath": "RenderTransform",
+                      "FunctionName": "None",
+                      "NotifyFunctionName": "None"
+                    },
+                    "CompletionMode": "EMovieSceneCompletionMode::KeepState",
+                    "SourceSectionPtr": {
+                      "ObjectName": "MovieScene2DTransformSection'WBP_AvtCustom_ItemName_C:Stay_INST.Stay.MovieScene2DTransformTrack_1.MovieScene2DTransformSection_0'",
+                      "ObjectPath": "GameProject/Content/IND/UI/AvtCustom/WBP_AvtCustom_ItemName.34"
+                    }
+                  }
+                }
+              ],
+              "TrackTemplate": {
+                "TypeName": "",
+                "Data": null
+              },
+              "EvaluationGroup": "None",
+              "bEvaluateInPreroll": false,
+              "bEvaluateInPostroll": false,
+              "bTearDownPriority": false
+            }
+          }
+        ],
+        "EvaluationField": {
+          "Ranges": [
+            {
+              "Value": {
+                "LowerBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                },
+                "UpperBound": {
+                  "Type": 0,
+                  "Value": {
+                    "Value": 0
+                  }
+                }
+              }
+            },
+            {
+              "Value": {
+                "LowerBound": {
+                  "Type": 1,
+                  "Value": {
+                    "Value": 0
+                  }
+                },
+                "UpperBound": {
+                  "Type": 0,
+                  "Value": {
+                    "Value": 4999
+                  }
+                }
+              }
+            },
+            {
+              "Value": {
+                "LowerBound": {
+                  "Type": 1,
+                  "Value": {
+                    "Value": 4999
+                  }
+                },
+                "UpperBound": {
+                  "Type": 0,
+                  "Value": {
+                    "Value": 5000
+                  }
+                }
+              }
+            },
+            {
+              "Value": {
+                "LowerBound": {
+                  "Type": 1,
+                  "Value": {
+                    "Value": 5000
+                  }
+                },
+                "UpperBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                }
+              }
+            }
+          ],
+          "Groups": [
+            {
+              "LUTIndices": [],
+              "SegmentPtrLUT": []
+            },
+            {
+              "LUTIndices": [
+                {
+                  "LUTOffset": 0,
+                  "NumInitPtrs": 0,
+                  "NumEvalPtrs": 2
+                }
+              ],
+              "SegmentPtrLUT": [
+                {
+                  "SegmentID": {
+                    "IdentifierIndex": 0
+                  },
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 0
+                  }
+                },
+                {
+                  "SegmentID": {
+                    "IdentifierIndex": 0
+                  },
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 1
+                  }
+                }
+              ]
+            },
+            {
+              "LUTIndices": [
+                {
+                  "LUTOffset": 0,
+                  "NumInitPtrs": 0,
+                  "NumEvalPtrs": 1
+                }
+              ],
+              "SegmentPtrLUT": [
+                {
+                  "SegmentID": {
+                    "IdentifierIndex": 0
+                  },
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 0
+                  }
+                }
+              ]
+            },
+            {
+              "LUTIndices": [],
+              "SegmentPtrLUT": []
+            }
+          ],
+          "MetaData": [
+            {
+              "ActiveSequences": [
+                {
+                  "Value": 0
+                }
+              ],
+              "ActiveEntities": [],
+              "SubTemplateSerialNumbers": []
+            },
+            {
+              "ActiveSequences": [
+                {
+                  "Value": 0
+                }
+              ],
+              "ActiveEntities": [
+                {
+                  "Key": {
+                    "SequenceID": {
+                      "Value": 0
+                    },
+                    "TrackIdentifier": {
+                      "Value": 0
+                    },
+                    "SectionIndex": 0
+                  },
+                  "SetupIndex": 1,
+                  "TearDownIndex": 65534
+                },
+                {
+                  "Key": {
+                    "SequenceID": {
+                      "Value": 0
+                    },
+                    "TrackIdentifier": {
+                      "Value": 0
+                    },
+                    "SectionIndex": 4294967295
+                  },
+                  "SetupIndex": 0,
+                  "TearDownIndex": 65535
+                },
+                {
+                  "Key": {
+                    "SequenceID": {
+                      "Value": 0
+                    },
+                    "TrackIdentifier": {
+                      "Value": 1
+                    },
+                    "SectionIndex": 0
+                  },
+                  "SetupIndex": 3,
+                  "TearDownIndex": 65532
+                },
+                {
+                  "Key": {
+                    "SequenceID": {
+                      "Value": 0
+                    },
+                    "TrackIdentifier": {
+                      "Value": 1
+                    },
+                    "SectionIndex": 4294967295
+                  },
+                  "SetupIndex": 2,
+                  "TearDownIndex": 65533
+                }
+              ],
+              "SubTemplateSerialNumbers": []
+            },
+            {
+              "ActiveSequences": [
+                {
+                  "Value": 0
+                }
+              ],
+              "ActiveEntities": [
+                {
+                  "Key": {
+                    "SequenceID": {
+                      "Value": 0
+                    },
+                    "TrackIdentifier": {
+                      "Value": 0
+                    },
+                    "SectionIndex": 0
+                  },
+                  "SetupIndex": 1,
+                  "TearDownIndex": 65534
+                },
+                {
+                  "Key": {
+                    "SequenceID": {
+                      "Value": 0
+                    },
+                    "TrackIdentifier": {
+                      "Value": 0
+                    },
+                    "SectionIndex": 4294967295
+                  },
+                  "SetupIndex": 0,
+                  "TearDownIndex": 65535
+                }
+              ],
+              "SubTemplateSerialNumbers": []
+            },
+            {
+              "ActiveSequences": [
+                {
+                  "Value": 0
+                }
+              ],
+              "ActiveEntities": [],
+              "SubTemplateSerialNumbers": []
+            }
+          ]
+        },
+        "SequenceSignature": "FA4E077F-49C1373B-563CFBB6-1CDBC2B4",
+        "TemplateSerialNumber": {
+          "Value": 1
+        },
+        "TemplateLedger": {
+          "LastTrackIdentifier": {
+            "Value": 1
+          },
+          "TrackSignatureToTrackIdentifier": [
+            {
+              "Key": "A65A6171-4FBE68B6-178290A5-D3E1C95F",
+              "Value": {
+                "Value": 0
+              }
+            },
+            {
+              "Key": "C81B8D33-46886EF1-2762ED99-AD5330EE",
+              "Value": {
+                "Value": 1
+              }
+            }
+          ]
+        },
+        "TrackFieldData": {
+          "Field": {
+            "Data": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 1,
+                  "Capacity": 1
+                },
+                {
+                  "StartIndex": 1,
+                  "Size": 1,
+                  "Capacity": 1
+                }
+              ],
+              "Items": [
+                0,
+                1
+              ]
+            },
+            "RootNode": {
+              "Range": {
+                "LowerBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                },
+                "UpperBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                }
+              },
+              "Parent": {
+                "ChildrenHandle": {
+                  "EntryIndex": -1
+                },
+                "Index": -1
+              },
+              "ChildrenID": {
+                "EntryIndex": 0
+              },
+              "DataID": {
+                "EntryIndex": -1
+              }
+            },
+            "ChildNodes": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 1,
+                  "Capacity": 1
+                },
+                {
+                  "StartIndex": 1,
+                  "Size": 1,
+                  "Capacity": 1
+                }
+              ],
+              "Items": [
+                {
+                  "Range": {
+                    "LowerBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": 0
+                      }
+                    },
+                    "UpperBound": {
+                      "Type": 0,
+                      "Value": {
+                        "Value": 5000
+                      }
+                    }
+                  },
+                  "Parent": {
+                    "ChildrenHandle": {
+                      "EntryIndex": -1
+                    },
+                    "Index": 0
+                  },
+                  "ChildrenID": {
+                    "EntryIndex": 1
+                  },
+                  "DataID": {
+                    "EntryIndex": 0
+                  }
+                },
+                {
+                  "Range": {
+                    "LowerBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": 0
+                      }
+                    },
+                    "UpperBound": {
+                      "Type": 0,
+                      "Value": {
+                        "Value": 4999
+                      }
+                    }
+                  },
+                  "Parent": {
+                    "ChildrenHandle": {
+                      "EntryIndex": 0
+                    },
+                    "Index": 0
+                  },
+                  "ChildrenID": {
+                    "EntryIndex": -1
+                  },
+                  "DataID": {
+                    "EntryIndex": 1
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "Signature": "FA4E077F-49C1373B-563CFBB6-1CDBC2B4"
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Outer": "WBP_AvtCustom_ItemName_C",
+    "Class": "UScriptClass'WidgetTree'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CanvasPanel'WBP_AvtCustom_ItemName_C:WidgetTree.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/AvtCustom/WBP_AvtCustom_ItemName.9"
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree_0",
+    "Outer": "WidgetArchetype",
+    "Class": "UScriptClass'WidgetTree'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/AvtCustom/WBP_AvtCustom_ItemName.11"
+      }
+    }
+  }
+]

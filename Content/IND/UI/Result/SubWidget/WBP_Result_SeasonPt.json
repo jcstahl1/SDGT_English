@@ -1,0 +1,2050 @@
+[
+  {
+    "Type": "StructProperty",
+    "Name": "UberGraphFrame",
+    "Outer": "WBP_Result_SeasonPt_C",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "Transient | DuplicateTransient",
+    "Struct": {
+      "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "WBP_Result_SeasonPt_C",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WBP_Result_SeasonPt_C:WidgetTree'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SeasonPt.64"
+      },
+      "bAllowTemplate": true,
+      "bValidTemplate": true,
+      "Animations": [
+        {
+          "ObjectName": "WidgetAnimation'WBP_Result_SeasonPt_C:GrayOut_INST'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SeasonPt.63"
+        }
+      ],
+      "TemplateAsset": {
+        "AssetPathName": "/Game/IND/UI/Result/SubWidget/WBP_Result_SeasonPt.WidgetArchetype",
+        "SubPathString": ""
+      },
+      "UberGraphFramePointerProperty": {
+        "ObjectName": "StructProperty'WBP_Result_SeasonPt_C:UberGraphFrame'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SeasonPt.0"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'WBP_Result_SeasonPt_C:ExecuteUbergraph_WBP_Result_SeasonPt'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SeasonPt.5"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'UserWidget'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'WBP_Result_SeasonPt_C:UberGraphFrame'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SeasonPt.0"
+      },
+      {
+        "ObjectName": "Function'WBP_Result_SeasonPt_C:Set_Num'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SeasonPt.18"
+      },
+      {
+        "ObjectName": "Function'WBP_Result_SeasonPt_C:Play_Gray'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SeasonPt.15"
+      },
+      {
+        "ObjectName": "Function'WBP_Result_SeasonPt_C:Set_NumAdd'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SeasonPt.21"
+      },
+      {
+        "ObjectName": "Function'WBP_Result_SeasonPt_C:ExecuteUbergraph_WBP_Result_SeasonPt'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SeasonPt.5"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Result_SeasonPt_C:GrayOut'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SeasonPt.3"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Result_SeasonPt_C:P_AdditionPt'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SeasonPt.35"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Result_SeasonPt_C:P_CalcSeasonPtNum'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SeasonPt.36"
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_WBP_Result_SeasonPt": {
+        "ObjectName": "Function'WBP_Result_SeasonPt_C:ExecuteUbergraph_WBP_Result_SeasonPt'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SeasonPt.5"
+      },
+      "Set_NumAdd": {
+        "ObjectName": "Function'WBP_Result_SeasonPt_C:Set_NumAdd'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SeasonPt.21"
+      },
+      "Play_Gray": {
+        "ObjectName": "Function'WBP_Result_SeasonPt_C:Play_Gray'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SeasonPt.15"
+      },
+      "Set_Num": {
+        "ObjectName": "Function'WBP_Result_SeasonPt_C:Set_Num'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SeasonPt.18"
+      }
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "WBP_Result_SeasonPt_C'Default__WBP_Result_SeasonPt_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SeasonPt.2"
+    }
+  },
+  {
+    "Type": "WBP_Result_SeasonPt_C",
+    "Name": "Default__WBP_Result_SeasonPt_C",
+    "Class": "WidgetBlueprintGeneratedClass'GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SeasonPt.WBP_Result_SeasonPt_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "UberGraphFrame": {},
+      "bHasScriptImplementedTick": false,
+      "bHasScriptImplementedPaint": false
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "GrayOut",
+    "Outer": "WBP_Result_SeasonPt_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Transient | RepSkip",
+    "PropertyClass": {
+      "ObjectName": "Class'WidgetAnimation'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "EntryPoint",
+    "Outer": "ExecuteUbergraph_WBP_Result_SeasonPt",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_WBP_Result_SeasonPt",
+    "Outer": "WBP_Result_SeasonPt_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "IntProperty'WBP_Result_SeasonPt_C:ExecuteUbergraph_WBP_Result_SeasonPt.EntryPoint'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SeasonPt.4"
+      },
+      {
+        "ObjectName": "ByteProperty'WBP_Result_SeasonPt_C:ExecuteUbergraph_WBP_Result_SeasonPt.CallFunc_MakeLiteralByte_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SeasonPt.11"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Result_SeasonPt_C:ExecuteUbergraph_WBP_Result_SeasonPt.Temp_bool_Variable'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SeasonPt.8"
+      },
+      {
+        "ObjectName": "StrProperty'WBP_Result_SeasonPt_C:ExecuteUbergraph_WBP_Result_SeasonPt.Temp_string_Variable'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SeasonPt.53"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Result_SeasonPt_C:ExecuteUbergraph_WBP_Result_SeasonPt.Temp_bool_Variable_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SeasonPt.9"
+      },
+      {
+        "ObjectName": "StrProperty'WBP_Result_SeasonPt_C:ExecuteUbergraph_WBP_Result_SeasonPt.Temp_string_Variable_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SeasonPt.54"
+      },
+      {
+        "ObjectName": "StrProperty'WBP_Result_SeasonPt_C:ExecuteUbergraph_WBP_Result_SeasonPt.Temp_string_Variable_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SeasonPt.55"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Result_SeasonPt_C:ExecuteUbergraph_WBP_Result_SeasonPt.Temp_bool_Variable_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SeasonPt.10"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_Result_SeasonPt_C:ExecuteUbergraph_WBP_Result_SeasonPt.Temp_float_Variable'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SeasonPt.14"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Result_SeasonPt_C:ExecuteUbergraph_WBP_Result_SeasonPt.K2Node_CustomEvent_Num_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SeasonPt.16"
+      },
+      {
+        "ObjectName": "TextProperty'WBP_Result_SeasonPt_C:ExecuteUbergraph_WBP_Result_SeasonPt.CallFunc_Conv_IntToText_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SeasonPt.60"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_Result_SeasonPt_C:ExecuteUbergraph_WBP_Result_SeasonPt.CallFunc_GetEndTime_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SeasonPt.12"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Result_SeasonPt_C:ExecuteUbergraph_WBP_Result_SeasonPt.K2Node_CustomEvent_Num'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SeasonPt.19"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_Result_SeasonPt_C:ExecuteUbergraph_WBP_Result_SeasonPt.K2Node_Select_Default'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SeasonPt.13"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Result_SeasonPt_C:ExecuteUbergraph_WBP_Result_SeasonPt.CallFunc_Abs_Int_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SeasonPt.28"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Result_SeasonPt_C:ExecuteUbergraph_WBP_Result_SeasonPt.CallFunc_PlayAnimation_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SeasonPt.34"
+      },
+      {
+        "ObjectName": "StrProperty'WBP_Result_SeasonPt_C:ExecuteUbergraph_WBP_Result_SeasonPt.CallFunc_Conv_IntToString_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SeasonPt.50"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Result_SeasonPt_C:ExecuteUbergraph_WBP_Result_SeasonPt.CallFunc_Less_IntInt_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SeasonPt.7"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Result_SeasonPt_C:ExecuteUbergraph_WBP_Result_SeasonPt.CallFunc_Greater_IntInt_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SeasonPt.6"
+      },
+      {
+        "ObjectName": "StrProperty'WBP_Result_SeasonPt_C:ExecuteUbergraph_WBP_Result_SeasonPt.K2Node_Select_Default_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SeasonPt.51"
+      },
+      {
+        "ObjectName": "StrProperty'WBP_Result_SeasonPt_C:ExecuteUbergraph_WBP_Result_SeasonPt.K2Node_Select_Default_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SeasonPt.52"
+      },
+      {
+        "ObjectName": "StrProperty'WBP_Result_SeasonPt_C:ExecuteUbergraph_WBP_Result_SeasonPt.CallFunc_Concat_StrStr_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SeasonPt.49"
+      },
+      {
+        "ObjectName": "TextProperty'WBP_Result_SeasonPt_C:ExecuteUbergraph_WBP_Result_SeasonPt.CallFunc_Conv_StringToText_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SeasonPt.61"
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction | FUNC_HasDefaults"
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_Greater_IntInt_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_Result_SeasonPt",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_Less_IntInt_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_Result_SeasonPt",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "Temp_bool_Variable",
+    "Outer": "ExecuteUbergraph_WBP_Result_SeasonPt",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "Temp_bool_Variable_1",
+    "Outer": "ExecuteUbergraph_WBP_Result_SeasonPt",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "Temp_bool_Variable_2",
+    "Outer": "ExecuteUbergraph_WBP_Result_SeasonPt",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "CallFunc_MakeLiteralByte_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_Result_SeasonPt",
+    "Class": "UScriptClass'ByteProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": null
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_GetEndTime_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_Result_SeasonPt",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "K2Node_Select_Default",
+    "Outer": "ExecuteUbergraph_WBP_Result_SeasonPt",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "Temp_float_Variable",
+    "Outer": "ExecuteUbergraph_WBP_Result_SeasonPt",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "Function",
+    "Name": "Play_Gray",
+    "Outer": "WBP_Result_SeasonPt_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "K2Node_CustomEvent_Num_1",
+    "Outer": "ExecuteUbergraph_WBP_Result_SeasonPt",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "Num",
+    "Outer": "Set_Num",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "Set_Num",
+    "Outer": "WBP_Result_SeasonPt_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "IntProperty'WBP_Result_SeasonPt_C:Set_Num.Num'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SeasonPt.17"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "K2Node_CustomEvent_Num",
+    "Outer": "ExecuteUbergraph_WBP_Result_SeasonPt",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "Num",
+    "Outer": "Set_NumAdd",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "Set_NumAdd",
+    "Outer": "WBP_Result_SeasonPt_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "IntProperty'WBP_Result_SeasonPt_C:Set_NumAdd.Num'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SeasonPt.20"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Image",
+    "Name": "HeadSeasonCap",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 227.0,
+          "Y": 34.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Rslt_PointCap'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/Texture/online/T_Rslt_PointCap.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot'WBP_Result_SeasonPt_C:WidgetTree.Overlay_0.OverlaySlot_8'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SeasonPt.42"
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "HeadSeasonPtBase",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 920.0,
+          "Y": 48.0
+        },
+        "Margin": {
+          "Left": 0.6,
+          "Right": 0.39
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Rslt_PointHead'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/Texture/online/T_Rslt_PointHead.0"
+        },
+        "DrawAs": "ESlateBrushDrawType::Box"
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot'WBP_Result_SeasonPt_C:WidgetTree.Overlay_0.OverlaySlot_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SeasonPt.41"
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "T_SeasonPtBase01",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 920.0,
+          "Y": 120.0
+        },
+        "Margin": {
+          "Left": 0.5,
+          "Right": 0.5
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Rslt_PointBase1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/Texture/online/T_Rslt_PointBase1.0"
+        },
+        "DrawAs": "ESlateBrushDrawType::Box"
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot'WBP_Result_SeasonPt_C:WidgetTree.Overlay_0.OverlaySlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SeasonPt.40"
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "HeadSeasonCap",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 227.0,
+          "Y": 34.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Rslt_PointCap'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/Texture/online/T_Rslt_PointCap.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.Overlay_0.OverlaySlot_8'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SeasonPt.47"
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "HeadSeasonPtBase",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 920.0,
+          "Y": 48.0
+        },
+        "Margin": {
+          "Left": 0.6,
+          "Right": 0.39
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Rslt_PointHead'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/Texture/online/T_Rslt_PointHead.0"
+        },
+        "DrawAs": "ESlateBrushDrawType::Box"
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.Overlay_0.OverlaySlot_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SeasonPt.46"
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "T_SeasonPtBase01",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 920.0,
+          "Y": 120.0
+        },
+        "Margin": {
+          "Left": 0.5,
+          "Right": 0.5
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Rslt_PointBase1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/Texture/online/T_Rslt_PointBase1.0"
+        },
+        "DrawAs": "ESlateBrushDrawType::Box"
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.Overlay_0.OverlaySlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SeasonPt.45"
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_Abs_Int_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_Result_SeasonPt",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "MovieScene",
+    "Name": "GrayOut",
+    "Outer": "GrayOut_INST",
+    "Class": "UScriptClass'MovieScene'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Possessables": [
+        {
+          "Tags": [],
+          "Guid": "845B8310-480B9FFD-75BF679F-B2E99BF8",
+          "Name": "P_CalcSeasonPtNum",
+          "PossessedObjectClass": {
+            "ObjectName": "Class'TextBlock'",
+            "ObjectPath": "/Script/UMG"
+          },
+          "ParentGuid": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "ObjectBindings": [
+        {
+          "ObjectGuid": "845B8310-480B9FFD-75BF679F-B2E99BF8",
+          "BindingName": "P_CalcSeasonPtNum",
+          "Tracks": [
+            {
+              "ObjectName": "MovieSceneColorTrack'WBP_Result_SeasonPt_C:GrayOut_INST.GrayOut.MovieSceneColorTrack_0'",
+              "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SeasonPt.33"
+            }
+          ]
+        }
+      ],
+      "PlaybackRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 300001
+            }
+          }
+        }
+      },
+      "DisplayRate": {
+        "Numerator": 20
+      },
+      "Signature": "10F35F70-43AE404A-4245E9A8-2E87F241"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Outer": "MovieSceneColorSection_0",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Outer": "MovieSceneColorSection_0",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "MovieSceneColorSection",
+    "Name": "MovieSceneColorSection_0",
+    "Outer": "MovieSceneColorTrack_0",
+    "Class": "UScriptClass'MovieSceneColorSection'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RedCurve": {
+        "PreInfinityExtrap": "RCCE_None",
+        "PostInfinityExtrap": "RCCE_None",
+        "Times": [],
+        "Values": [],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 0,
+          "Denominator": 0
+        },
+        "bShowCurve": false,
+        "StructFallback": {
+          "Times": [
+            {
+              "Value": 0
+            }
+          ],
+          "Values": [
+            {
+              "Value": 0.3,
+              "Tangent": {
+                "ArriveTangent": 0.0,
+                "LeaveTangent": 0.0,
+                "ArriveTangentWeight": 0.0,
+                "LeaveTangentWeight": 0.0,
+                "TangentWeightMode": 0
+              },
+              "InterpMode": 2,
+              "TangentMode": 0
+            }
+          ]
+        }
+      },
+      "GreenCurve": {
+        "PreInfinityExtrap": "RCCE_None",
+        "PostInfinityExtrap": "RCCE_None",
+        "Times": [],
+        "Values": [],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 0,
+          "Denominator": 0
+        },
+        "bShowCurve": false,
+        "StructFallback": {
+          "Times": [
+            {
+              "Value": 0
+            }
+          ],
+          "Values": [
+            {
+              "Value": 0.3,
+              "Tangent": {
+                "ArriveTangent": 0.0,
+                "LeaveTangent": 0.0,
+                "ArriveTangentWeight": 0.0,
+                "LeaveTangentWeight": 0.0,
+                "TangentWeightMode": 0
+              },
+              "InterpMode": 2,
+              "TangentMode": 0
+            }
+          ]
+        }
+      },
+      "BlueCurve": {
+        "PreInfinityExtrap": "RCCE_None",
+        "PostInfinityExtrap": "RCCE_None",
+        "Times": [],
+        "Values": [],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 0,
+          "Denominator": 0
+        },
+        "bShowCurve": false,
+        "StructFallback": {
+          "Times": [
+            {
+              "Value": 0
+            }
+          ],
+          "Values": [
+            {
+              "Value": 0.3,
+              "Tangent": {
+                "ArriveTangent": 0.0,
+                "LeaveTangent": 0.0,
+                "ArriveTangentWeight": 0.0,
+                "LeaveTangentWeight": 0.0,
+                "TangentWeightMode": 0
+              },
+              "InterpMode": 2,
+              "TangentMode": 0
+            }
+          ]
+        }
+      },
+      "AlphaCurve": {
+        "PreInfinityExtrap": "RCCE_None",
+        "PostInfinityExtrap": "RCCE_None",
+        "Times": [],
+        "Values": [],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 0,
+          "Denominator": 0
+        },
+        "bShowCurve": false,
+        "StructFallback": {
+          "Times": [
+            {
+              "Value": 0
+            }
+          ],
+          "Values": [
+            {
+              "Value": 1.0,
+              "Tangent": {
+                "ArriveTangent": 0.0,
+                "LeaveTangent": 0.0,
+                "ArriveTangentWeight": 0.0,
+                "LeaveTangentWeight": 0.0,
+                "TangentWeightMode": 0
+              },
+              "InterpMode": 2,
+              "TangentMode": 0
+            }
+          ]
+        }
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'WBP_Result_SeasonPt_C:GrayOut_INST.GrayOut.MovieSceneColorTrack_0.MovieSceneColorSection_0.EaseInFunction'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SeasonPt.30"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'WBP_Result_SeasonPt_C:GrayOut_INST.GrayOut.MovieSceneColorTrack_0.MovieSceneColorSection_0.EaseOutFunction'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SeasonPt.31"
+        }
+      },
+      "Signature": "70FD36BB-48F9C04F-27C1DDBE-4EBD0623"
+    }
+  },
+  {
+    "Type": "MovieSceneColorTrack",
+    "Name": "MovieSceneColorTrack_0",
+    "Outer": "GrayOut",
+    "Class": "UScriptClass'MovieSceneColorTrack'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "PropertyName": "ColorAndOpacity",
+      "PropertyPath": "ColorAndOpacity",
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneColorSection'WBP_Result_SeasonPt_C:GrayOut_INST.GrayOut.MovieSceneColorTrack_0.MovieSceneColorSection_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SeasonPt.32"
+        }
+      ],
+      "Signature": "A7F40919-4EEF03D3-82AEBF81-C9CCD783"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_PlayAnimation_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_Result_SeasonPt",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyClass": {
+      "ObjectName": "Class'UMGSequencePlayer'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "P_AdditionPt",
+    "Outer": "WBP_Result_SeasonPt_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'TextBlock'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "P_CalcSeasonPtNum",
+    "Outer": "WBP_Result_SeasonPt_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'TextBlock'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "Overlay",
+    "Name": "Overlay_0",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'Overlay'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "OverlaySlot'WBP_Result_SeasonPt_C:WidgetTree.Overlay_0.OverlaySlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SeasonPt.40"
+        },
+        {
+          "ObjectName": "OverlaySlot'WBP_Result_SeasonPt_C:WidgetTree.Overlay_0.OverlaySlot_3'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SeasonPt.41"
+        },
+        {
+          "ObjectName": "OverlaySlot'WBP_Result_SeasonPt_C:WidgetTree.Overlay_0.OverlaySlot_8'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SeasonPt.42"
+        },
+        {
+          "ObjectName": "OverlaySlot'WBP_Result_SeasonPt_C:WidgetTree.Overlay_0.OverlaySlot_9'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SeasonPt.43"
+        },
+        {
+          "ObjectName": "OverlaySlot'WBP_Result_SeasonPt_C:WidgetTree.Overlay_0.OverlaySlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SeasonPt.39"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "Overlay",
+    "Name": "Overlay_0",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Overlay'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.Overlay_0.OverlaySlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SeasonPt.45"
+        },
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.Overlay_0.OverlaySlot_3'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SeasonPt.46"
+        },
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.Overlay_0.OverlaySlot_8'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SeasonPt.47"
+        },
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.Overlay_0.OverlaySlot_9'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SeasonPt.48"
+        },
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.Overlay_0.OverlaySlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SeasonPt.44"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_0",
+    "Outer": "Overlay_0",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Padding": {
+        "Left": 650.0,
+        "Top": 65.0
+      },
+      "Parent": {
+        "ObjectName": "Overlay'WBP_Result_SeasonPt_C:WidgetTree.Overlay_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SeasonPt.37"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WBP_Result_SeasonPt_C:WidgetTree.P_AdditionPt'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SeasonPt.56"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_1",
+    "Outer": "Overlay_0",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Overlay'WBP_Result_SeasonPt_C:WidgetTree.Overlay_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SeasonPt.37"
+      },
+      "Content": {
+        "ObjectName": "Image'WBP_Result_SeasonPt_C:WidgetTree.T_SeasonPtBase01'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SeasonPt.24"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_3",
+    "Outer": "Overlay_0",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Overlay'WBP_Result_SeasonPt_C:WidgetTree.Overlay_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SeasonPt.37"
+      },
+      "Content": {
+        "ObjectName": "Image'WBP_Result_SeasonPt_C:WidgetTree.HeadSeasonPtBase'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SeasonPt.23"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_8",
+    "Outer": "Overlay_0",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Padding": {
+        "Left": 60.0,
+        "Top": 5.0
+      },
+      "Parent": {
+        "ObjectName": "Overlay'WBP_Result_SeasonPt_C:WidgetTree.Overlay_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SeasonPt.37"
+      },
+      "Content": {
+        "ObjectName": "Image'WBP_Result_SeasonPt_C:WidgetTree.HeadSeasonCap'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SeasonPt.22"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_9",
+    "Outer": "Overlay_0",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Padding": {
+        "Top": 48.0,
+        "Right": 300.0
+      },
+      "HorizontalAlignment": "HAlign_Right",
+      "Parent": {
+        "ObjectName": "Overlay'WBP_Result_SeasonPt_C:WidgetTree.Overlay_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SeasonPt.37"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WBP_Result_SeasonPt_C:WidgetTree.P_CalcSeasonPtNum'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SeasonPt.57"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_0",
+    "Outer": "Overlay_0",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Padding": {
+        "Left": 650.0,
+        "Top": 65.0
+      },
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.Overlay_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SeasonPt.38"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.P_AdditionPt'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SeasonPt.58"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_1",
+    "Outer": "Overlay_0",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.Overlay_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SeasonPt.38"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.T_SeasonPtBase01'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SeasonPt.27"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_3",
+    "Outer": "Overlay_0",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.Overlay_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SeasonPt.38"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.HeadSeasonPtBase'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SeasonPt.26"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_8",
+    "Outer": "Overlay_0",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Padding": {
+        "Left": 60.0,
+        "Top": 5.0
+      },
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.Overlay_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SeasonPt.38"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.HeadSeasonCap'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SeasonPt.25"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_9",
+    "Outer": "Overlay_0",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Padding": {
+        "Top": 48.0,
+        "Right": 300.0
+      },
+      "HorizontalAlignment": "HAlign_Right",
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.Overlay_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SeasonPt.38"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.P_CalcSeasonPtNum'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SeasonPt.59"
+      }
+    }
+  },
+  {
+    "Type": "StrProperty",
+    "Name": "CallFunc_Concat_StrStr_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_Result_SeasonPt",
+    "Class": "UScriptClass'StrProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "StrProperty",
+    "Name": "CallFunc_Conv_IntToString_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_Result_SeasonPt",
+    "Class": "UScriptClass'StrProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "StrProperty",
+    "Name": "K2Node_Select_Default_1",
+    "Outer": "ExecuteUbergraph_WBP_Result_SeasonPt",
+    "Class": "UScriptClass'StrProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "StrProperty",
+    "Name": "K2Node_Select_Default_2",
+    "Outer": "ExecuteUbergraph_WBP_Result_SeasonPt",
+    "Class": "UScriptClass'StrProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "StrProperty",
+    "Name": "Temp_string_Variable",
+    "Outer": "ExecuteUbergraph_WBP_Result_SeasonPt",
+    "Class": "UScriptClass'StrProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "StrProperty",
+    "Name": "Temp_string_Variable_1",
+    "Outer": "ExecuteUbergraph_WBP_Result_SeasonPt",
+    "Class": "UScriptClass'StrProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "StrProperty",
+    "Name": "Temp_string_Variable_2",
+    "Outer": "ExecuteUbergraph_WBP_Result_SeasonPt",
+    "Class": "UScriptClass'StrProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "P_AdditionPt",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "86C7B98E4A795458C7E93C9D273D11B7",
+        "SourceString": "+000",
+        "LocalizedString": "+000"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 0.0,
+          "G": 1.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "00FF00"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 2,
+          "OutlineColor": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "FFFFFF"
+          }
+        },
+        "TypefaceFontName": "RodinN_B",
+        "Size": 30
+      },
+      "ShadowOffset": {
+        "X": 3.0,
+        "Y": 2.0
+      },
+      "ShadowColorAndOpacity": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "000000"
+      },
+      "Justification": "ETextJustify::Right",
+      "Slot": {
+        "ObjectName": "OverlaySlot'WBP_Result_SeasonPt_C:WidgetTree.Overlay_0.OverlaySlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SeasonPt.39"
+      },
+      "RenderTransform": {
+        "Shear": {
+          "X": -10.0,
+          "Y": 0.0
+        }
+      },
+      "RenderTransformPivot": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "P_CalcSeasonPtNum",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "2EBA15214C7E6429107321922DEB9DDE",
+        "SourceString": "000000",
+        "LocalizedString": "000000"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "FontMaterial": {
+          "ObjectName": "MaterialInstanceConstant'MI_ResultNumFont'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/Material/MI_ResultNumFont.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 2,
+          "OutlineColor": {
+            "R": 0.1,
+            "G": 0.1,
+            "B": 0.1,
+            "A": 1.0,
+            "Hex": "595959"
+          }
+        },
+        "TypefaceFontName": "RodinN_EB",
+        "Size": 47
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "OverlaySlot'WBP_Result_SeasonPt_C:WidgetTree.Overlay_0.OverlaySlot_9'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SeasonPt.43"
+      },
+      "RenderTransform": {
+        "Shear": {
+          "X": -10.0,
+          "Y": 0.0
+        }
+      },
+      "RenderTransformPivot": {
+        "X": 1.0,
+        "Y": 0.0
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "P_AdditionPt",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "86C7B98E4A795458C7E93C9D273D11B7",
+        "SourceString": "+000",
+        "LocalizedString": "+000"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 0.0,
+          "G": 1.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "00FF00"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 2,
+          "OutlineColor": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "FFFFFF"
+          }
+        },
+        "TypefaceFontName": "RodinN_B",
+        "Size": 30
+      },
+      "ShadowOffset": {
+        "X": 3.0,
+        "Y": 2.0
+      },
+      "ShadowColorAndOpacity": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "000000"
+      },
+      "Justification": "ETextJustify::Right",
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.Overlay_0.OverlaySlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SeasonPt.44"
+      },
+      "RenderTransform": {
+        "Shear": {
+          "X": -10.0,
+          "Y": 0.0
+        }
+      },
+      "RenderTransformPivot": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "P_CalcSeasonPtNum",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "2EBA15214C7E6429107321922DEB9DDE",
+        "SourceString": "000000",
+        "LocalizedString": "000000"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "FontMaterial": {
+          "ObjectName": "MaterialInstanceConstant'MI_ResultNumFont'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/Material/MI_ResultNumFont.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 2,
+          "OutlineColor": {
+            "R": 0.1,
+            "G": 0.1,
+            "B": 0.1,
+            "A": 1.0,
+            "Hex": "595959"
+          }
+        },
+        "TypefaceFontName": "RodinN_EB",
+        "Size": 47
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.Overlay_0.OverlaySlot_9'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SeasonPt.48"
+      },
+      "RenderTransform": {
+        "Shear": {
+          "X": -10.0,
+          "Y": 0.0
+        }
+      },
+      "RenderTransformPivot": {
+        "X": 1.0,
+        "Y": 0.0
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "CallFunc_Conv_IntToText_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_Result_SeasonPt",
+    "Class": "UScriptClass'TextProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "CallFunc_Conv_StringToText_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_Result_SeasonPt",
+    "Class": "UScriptClass'TextProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "WBP_Result_SeasonPt_C",
+    "Name": "WidgetArchetype",
+    "Class": "WidgetBlueprintGeneratedClass'GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SeasonPt.WBP_Result_SeasonPt_C'",
+    "Template": {
+      "ObjectName": "WBP_Result_SeasonPt_C'Default__WBP_Result_SeasonPt_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SeasonPt.2"
+    },
+    "Flags": "RF_Public | RF_Standalone | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "P_AdditionPt": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.P_AdditionPt'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SeasonPt.58"
+      },
+      "P_CalcSeasonPtNum": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.P_CalcSeasonPtNum'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SeasonPt.59"
+      },
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SeasonPt.65"
+      },
+      "bCookedWidgetTree": true
+    }
+  },
+  {
+    "Type": "WidgetAnimation",
+    "Name": "GrayOut_INST",
+    "Outer": "WBP_Result_SeasonPt_C",
+    "Class": "UScriptClass'WidgetAnimation'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "MovieScene": {
+        "ObjectName": "MovieScene'WBP_Result_SeasonPt_C:GrayOut_INST.GrayOut'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SeasonPt.29"
+      },
+      "AnimationBindings": [
+        {
+          "WidgetName": "P_CalcSeasonPtNum",
+          "SlotWidgetName": "None",
+          "AnimationGuid": "845B8310-480B9FFD-75BF679F-B2E99BF8",
+          "bIsRootWidget": false
+        }
+      ],
+      "DisplayLabel": "GrayOut",
+      "PrecompiledEvaluationTemplate": {
+        "Tracks": [
+          {
+            "Key": {
+              "Value": 0
+            },
+            "Value": {
+              "ObjectBindingID": "845B8310-480B9FFD-75BF679F-B2E99BF8",
+              "EvaluationPriority": 1000,
+              "EvaluationMethod": "EEvaluationMethod::Static",
+              "Segments": {
+                "SegmentIdentifierToIndex": [
+                  0
+                ],
+                "SortedSegments": [
+                  {
+                    "Range": {
+                      "LowerBound": {
+                        "Type": 1,
+                        "Value": {
+                          "Value": 0
+                        }
+                      },
+                      "UpperBound": {
+                        "Type": 0,
+                        "Value": {
+                          "Value": 1
+                        }
+                      }
+                    },
+                    "ID": {
+                      "IdentifierIndex": 0
+                    },
+                    "bAllowEmpty": false,
+                    "Impls": [
+                      {
+                        "ImplIndex": 0,
+                        "ForcedTime": {
+                          "Value": -2147483648
+                        },
+                        "Flags": "ESectionEvaluationFlags::None"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "SourceTrack": {
+                "ObjectName": "MovieSceneColorTrack'WBP_Result_SeasonPt_C:GrayOut_INST.GrayOut.MovieSceneColorTrack_0'",
+                "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SeasonPt.33"
+              },
+              "EvaluationTree": {
+                "Tree": {
+                  "Data": {
+                    "Entries": [
+                      {
+                        "StartIndex": 0,
+                        "Size": 1,
+                        "Capacity": 1
+                      }
+                    ],
+                    "Items": [
+                      {
+                        "ImplIndex": 0,
+                        "ForcedTime": {
+                          "Value": -2147483648
+                        },
+                        "Flags": 0
+                      }
+                    ]
+                  },
+                  "RootNode": {
+                    "Range": {
+                      "LowerBound": {
+                        "Type": 2,
+                        "Value": {
+                          "Value": 0
+                        }
+                      },
+                      "UpperBound": {
+                        "Type": 2,
+                        "Value": {
+                          "Value": 0
+                        }
+                      }
+                    },
+                    "Parent": {
+                      "ChildrenHandle": {
+                        "EntryIndex": -1
+                      },
+                      "Index": -1
+                    },
+                    "ChildrenID": {
+                      "EntryIndex": 0
+                    },
+                    "DataID": {
+                      "EntryIndex": -1
+                    }
+                  },
+                  "ChildNodes": {
+                    "Entries": [
+                      {
+                        "StartIndex": 0,
+                        "Size": 1,
+                        "Capacity": 1
+                      }
+                    ],
+                    "Items": [
+                      {
+                        "Range": {
+                          "LowerBound": {
+                            "Type": 1,
+                            "Value": {
+                              "Value": 0
+                            }
+                          },
+                          "UpperBound": {
+                            "Type": 0,
+                            "Value": {
+                              "Value": 1
+                            }
+                          }
+                        },
+                        "Parent": {
+                          "ChildrenHandle": {
+                            "EntryIndex": -1
+                          },
+                          "Index": 0
+                        },
+                        "ChildrenID": {
+                          "EntryIndex": -1
+                        },
+                        "DataID": {
+                          "EntryIndex": 0
+                        }
+                      }
+                    ]
+                  }
+                }
+              },
+              "ChildTemplates": [
+                {
+                  "TypeName": "/Script/MovieSceneTracks.MovieSceneColorSectionTemplate",
+                  "Data": {
+                    "Curves": {
+                      "PreInfinityExtrap": "RCCE_None",
+                      "PostInfinityExtrap": "RCCE_None",
+                      "Times": [],
+                      "Values": [],
+                      "DefaultValue": 0.0,
+                      "bHasDefaultValue": false,
+                      "TickResolution": {
+                        "Numerator": 0,
+                        "Denominator": 0
+                      },
+                      "bShowCurve": false,
+                      "StructFallback": {
+                        "PreInfinityExtrap": "RCCE_Constant",
+                        "PostInfinityExtrap": "RCCE_Constant",
+                        "Times": [
+                          {
+                            "Value": 0
+                          }
+                        ],
+                        "Values": [
+                          {
+                            "Value": 0.3,
+                            "Tangent": {
+                              "ArriveTangent": 0.0,
+                              "LeaveTangent": 0.0,
+                              "ArriveTangentWeight": 0.0,
+                              "LeaveTangentWeight": 0.0,
+                              "TangentWeightMode": 0
+                            },
+                            "InterpMode": 2,
+                            "TangentMode": 0
+                          }
+                        ],
+                        "DefaultValue": 0.0,
+                        "bHasDefaultValue": false,
+                        "TickResolution": {
+                          "Numerator": 60000,
+                          "Denominator": 1
+                        }
+                      }
+                    },
+                    "Curves[1]": {
+                      "PreInfinityExtrap": "RCCE_None",
+                      "PostInfinityExtrap": "RCCE_None",
+                      "Times": [],
+                      "Values": [],
+                      "DefaultValue": 0.0,
+                      "bHasDefaultValue": false,
+                      "TickResolution": {
+                        "Numerator": 0,
+                        "Denominator": 0
+                      },
+                      "bShowCurve": false,
+                      "StructFallback": {
+                        "PreInfinityExtrap": "RCCE_Constant",
+                        "PostInfinityExtrap": "RCCE_Constant",
+                        "Times": [
+                          {
+                            "Value": 0
+                          }
+                        ],
+                        "Values": [
+                          {
+                            "Value": 0.3,
+                            "Tangent": {
+                              "ArriveTangent": 0.0,
+                              "LeaveTangent": 0.0,
+                              "ArriveTangentWeight": 0.0,
+                              "LeaveTangentWeight": 0.0,
+                              "TangentWeightMode": 0
+                            },
+                            "InterpMode": 2,
+                            "TangentMode": 0
+                          }
+                        ],
+                        "DefaultValue": 0.0,
+                        "bHasDefaultValue": false,
+                        "TickResolution": {
+                          "Numerator": 60000,
+                          "Denominator": 1
+                        }
+                      }
+                    },
+                    "Curves[2]": {
+                      "PreInfinityExtrap": "RCCE_None",
+                      "PostInfinityExtrap": "RCCE_None",
+                      "Times": [],
+                      "Values": [],
+                      "DefaultValue": 0.0,
+                      "bHasDefaultValue": false,
+                      "TickResolution": {
+                        "Numerator": 0,
+                        "Denominator": 0
+                      },
+                      "bShowCurve": false,
+                      "StructFallback": {
+                        "PreInfinityExtrap": "RCCE_Constant",
+                        "PostInfinityExtrap": "RCCE_Constant",
+                        "Times": [
+                          {
+                            "Value": 0
+                          }
+                        ],
+                        "Values": [
+                          {
+                            "Value": 0.3,
+                            "Tangent": {
+                              "ArriveTangent": 0.0,
+                              "LeaveTangent": 0.0,
+                              "ArriveTangentWeight": 0.0,
+                              "LeaveTangentWeight": 0.0,
+                              "TangentWeightMode": 0
+                            },
+                            "InterpMode": 2,
+                            "TangentMode": 0
+                          }
+                        ],
+                        "DefaultValue": 0.0,
+                        "bHasDefaultValue": false,
+                        "TickResolution": {
+                          "Numerator": 60000,
+                          "Denominator": 1
+                        }
+                      }
+                    },
+                    "Curves[3]": {
+                      "PreInfinityExtrap": "RCCE_None",
+                      "PostInfinityExtrap": "RCCE_None",
+                      "Times": [],
+                      "Values": [],
+                      "DefaultValue": 0.0,
+                      "bHasDefaultValue": false,
+                      "TickResolution": {
+                        "Numerator": 0,
+                        "Denominator": 0
+                      },
+                      "bShowCurve": false,
+                      "StructFallback": {
+                        "PreInfinityExtrap": "RCCE_Constant",
+                        "PostInfinityExtrap": "RCCE_Constant",
+                        "Times": [
+                          {
+                            "Value": 0
+                          }
+                        ],
+                        "Values": [
+                          {
+                            "Value": 1.0,
+                            "Tangent": {
+                              "ArriveTangent": 0.0,
+                              "LeaveTangent": 0.0,
+                              "ArriveTangentWeight": 0.0,
+                              "LeaveTangentWeight": 0.0,
+                              "TangentWeightMode": 0
+                            },
+                            "InterpMode": 2,
+                            "TangentMode": 0
+                          }
+                        ],
+                        "DefaultValue": 0.0,
+                        "bHasDefaultValue": false,
+                        "TickResolution": {
+                          "Numerator": 60000,
+                          "Denominator": 1
+                        }
+                      }
+                    },
+                    "BlendType": "EMovieSceneBlendType::Absolute",
+                    "PropertyData": {
+                      "PropertyName": "ColorAndOpacity",
+                      "PropertyPath": "ColorAndOpacity",
+                      "FunctionName": "None",
+                      "NotifyFunctionName": "None"
+                    },
+                    "CompletionMode": "EMovieSceneCompletionMode::KeepState",
+                    "SourceSectionPtr": {
+                      "ObjectName": "MovieSceneColorSection'WBP_Result_SeasonPt_C:GrayOut_INST.GrayOut.MovieSceneColorTrack_0.MovieSceneColorSection_0'",
+                      "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SeasonPt.32"
+                    }
+                  }
+                }
+              ],
+              "TrackTemplate": {
+                "TypeName": "",
+                "Data": null
+              },
+              "EvaluationGroup": "None",
+              "bEvaluateInPreroll": false,
+              "bEvaluateInPostroll": false,
+              "bTearDownPriority": false
+            }
+          }
+        ],
+        "EvaluationField": {
+          "Ranges": [
+            {
+              "Value": {
+                "LowerBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                },
+                "UpperBound": {
+                  "Type": 0,
+                  "Value": {
+                    "Value": 0
+                  }
+                }
+              }
+            },
+            {
+              "Value": {
+                "LowerBound": {
+                  "Type": 1,
+                  "Value": {
+                    "Value": 0
+                  }
+                },
+                "UpperBound": {
+                  "Type": 0,
+                  "Value": {
+                    "Value": 1
+                  }
+                }
+              }
+            },
+            {
+              "Value": {
+                "LowerBound": {
+                  "Type": 1,
+                  "Value": {
+                    "Value": 1
+                  }
+                },
+                "UpperBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                }
+              }
+            }
+          ],
+          "Groups": [
+            {
+              "LUTIndices": [],
+              "SegmentPtrLUT": []
+            },
+            {
+              "LUTIndices": [
+                {
+                  "LUTOffset": 0,
+                  "NumInitPtrs": 0,
+                  "NumEvalPtrs": 1
+                }
+              ],
+              "SegmentPtrLUT": [
+                {
+                  "SegmentID": {
+                    "IdentifierIndex": 0
+                  },
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 0
+                  }
+                }
+              ]
+            },
+            {
+              "LUTIndices": [],
+              "SegmentPtrLUT": []
+            }
+          ],
+          "MetaData": [
+            {
+              "ActiveSequences": [
+                {
+                  "Value": 0
+                }
+              ],
+              "ActiveEntities": [],
+              "SubTemplateSerialNumbers": []
+            },
+            {
+              "ActiveSequences": [
+                {
+                  "Value": 0
+                }
+              ],
+              "ActiveEntities": [
+                {
+                  "Key": {
+                    "SequenceID": {
+                      "Value": 0
+                    },
+                    "TrackIdentifier": {
+                      "Value": 0
+                    },
+                    "SectionIndex": 0
+                  },
+                  "SetupIndex": 1,
+                  "TearDownIndex": 65534
+                },
+                {
+                  "Key": {
+                    "SequenceID": {
+                      "Value": 0
+                    },
+                    "TrackIdentifier": {
+                      "Value": 0
+                    },
+                    "SectionIndex": 4294967295
+                  },
+                  "SetupIndex": 0,
+                  "TearDownIndex": 65535
+                }
+              ],
+              "SubTemplateSerialNumbers": []
+            },
+            {
+              "ActiveSequences": [
+                {
+                  "Value": 0
+                }
+              ],
+              "ActiveEntities": [],
+              "SubTemplateSerialNumbers": []
+            }
+          ]
+        },
+        "SequenceSignature": "EE6E976A-477B7310-4B1361B6-3413412B",
+        "TemplateSerialNumber": {
+          "Value": 1
+        },
+        "TemplateLedger": {
+          "LastTrackIdentifier": {
+            "Value": 0
+          },
+          "TrackSignatureToTrackIdentifier": [
+            {
+              "Key": "A7F40919-4EEF03D3-82AEBF81-C9CCD783",
+              "Value": {
+                "Value": 0
+              }
+            }
+          ]
+        },
+        "TrackFieldData": {
+          "Field": {
+            "Data": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 1,
+                  "Capacity": 1
+                }
+              ],
+              "Items": [
+                0
+              ]
+            },
+            "RootNode": {
+              "Range": {
+                "LowerBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                },
+                "UpperBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                }
+              },
+              "Parent": {
+                "ChildrenHandle": {
+                  "EntryIndex": -1
+                },
+                "Index": -1
+              },
+              "ChildrenID": {
+                "EntryIndex": 0
+              },
+              "DataID": {
+                "EntryIndex": -1
+              }
+            },
+            "ChildNodes": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 1,
+                  "Capacity": 1
+                }
+              ],
+              "Items": [
+                {
+                  "Range": {
+                    "LowerBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": 0
+                      }
+                    },
+                    "UpperBound": {
+                      "Type": 0,
+                      "Value": {
+                        "Value": 1
+                      }
+                    }
+                  },
+                  "Parent": {
+                    "ChildrenHandle": {
+                      "EntryIndex": -1
+                    },
+                    "Index": 0
+                  },
+                  "ChildrenID": {
+                    "EntryIndex": -1
+                  },
+                  "DataID": {
+                    "EntryIndex": 0
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "Signature": "EE6E976A-477B7310-4B1361B6-3413412B"
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Outer": "WBP_Result_SeasonPt_C",
+    "Class": "UScriptClass'WidgetTree'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "Overlay'WBP_Result_SeasonPt_C:WidgetTree.Overlay_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SeasonPt.37"
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree_0",
+    "Outer": "WidgetArchetype",
+    "Class": "UScriptClass'WidgetTree'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.Overlay_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SeasonPt.38"
+      }
+    }
+  }
+]

@@ -1,0 +1,1804 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_TheoryRank",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'TheoryRankTableData'",
+        "ObjectPath": "/Script/GameProject"
+      }
+    },
+    "Rows": {
+      "0": {
+        "Rank": 0,
+        "RankName": "ゲスト",
+        "ExperienceMin": 0,
+        "ExperienceMax": 0,
+        "GradeExperience": 0,
+        "ReleasedContentTypes": [],
+        "RankUpRivalInformations": [],
+        "NeedCountForTrainingComplete": 5,
+        "RewardReason": {
+          "CultureInvariantString": null
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "1": {
+        "Rank": 1,
+        "RankName": "無地",
+        "ExperienceMin": 0,
+        "ExperienceMax": 9,
+        "GradeExperience": 0,
+        "ReleasedContentTypes": [],
+        "RankUpRivalInformations": [],
+        "NeedCountForTrainingComplete": 5,
+        "RewardReason": {
+          "CultureInvariantString": null
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "2": {
+        "Rank": 2,
+        "RankName": "グリーン☆",
+        "ExperienceMin": 10,
+        "ExperienceMax": 49,
+        "GradeExperience": 10,
+        "ReleasedContentTypes": [],
+        "RankUpRivalInformations": [],
+        "NeedCountForTrainingComplete": 5,
+        "RewardReason": {
+          "Namespace": "DT_StoryRank",
+          "Key": "85A193774D7EFF06B1634F95DD95BA7D",
+          "SourceString": "Theory of Street Rank upgrade to Green★",
+          "LocalizedString": "Theory of Street Rank upgrade to Green★"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Liminous",
+          "RewardID": 97
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "3": {
+        "Rank": 3,
+        "RankName": "グリーン☆☆",
+        "ExperienceMin": 50,
+        "ExperienceMax": 99,
+        "GradeExperience": 10,
+        "ReleasedContentTypes": [],
+        "RankUpRivalInformations": [],
+        "NeedCountForTrainingComplete": 5,
+        "RewardReason": {
+          "Namespace": "DT_StoryRank",
+          "Key": "B824ECC84F2E9163C9D3C9BF4EAB7DE7",
+          "SourceString": "Theory of Street Rank upgrade to Green★★",
+          "LocalizedString": "Theory of Street Rank upgrade to Green★★"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "4": {
+        "Rank": 4,
+        "RankName": "グリーン☆☆☆",
+        "ExperienceMin": 100,
+        "ExperienceMax": 149,
+        "GradeExperience": 10,
+        "ReleasedContentTypes": [],
+        "RankUpRivalInformations": [],
+        "NeedCountForTrainingComplete": 5,
+        "RewardReason": {
+          "Namespace": "DT_StoryRank",
+          "Key": "1C31B13E454601E859402FB576B08E63",
+          "SourceString": "Theory of Street Rank upgrade to Green★★★",
+          "LocalizedString": "Theory of Street Rank upgrade to Green★★★"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Liminous",
+          "RewardID": 99
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "5": {
+        "Rank": 5,
+        "RankName": "ブルー☆",
+        "ExperienceMin": 150,
+        "ExperienceMax": 199,
+        "GradeExperience": 20,
+        "ReleasedContentTypes": [],
+        "RankUpRivalInformations": [],
+        "NeedCountForTrainingComplete": 5,
+        "RewardReason": {
+          "Namespace": "DT_StoryRank",
+          "Key": "9258A8CF476764CE9AFBD2AB8D98420A",
+          "SourceString": "Theory of Street Rank upgrade to Blue★",
+          "LocalizedString": "Theory of Street Rank upgrade to Blue★"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "6": {
+        "Rank": 6,
+        "RankName": "ブルー☆☆",
+        "ExperienceMin": 200,
+        "ExperienceMax": 249,
+        "GradeExperience": 20,
+        "ReleasedContentTypes": [],
+        "RankUpRivalInformations": [],
+        "NeedCountForTrainingComplete": 5,
+        "RewardReason": {
+          "Namespace": "DT_StoryRank",
+          "Key": "66BA4C4B482ACE72A54CE6967B31278E",
+          "SourceString": "Theory of Street Rank upgrade to Blue★★",
+          "LocalizedString": "Theory of Street Rank upgrade to Blue★★"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Liminous",
+          "RewardID": 101
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "7": {
+        "Rank": 7,
+        "RankName": "ブルー☆☆☆",
+        "ExperienceMin": 250,
+        "ExperienceMax": 299,
+        "GradeExperience": 20,
+        "ReleasedContentTypes": [],
+        "RankUpRivalInformations": [],
+        "NeedCountForTrainingComplete": 5,
+        "RewardReason": {
+          "Namespace": "DT_StoryRank",
+          "Key": "A9C0E40E401E2661D1541BA33ED8E9A8",
+          "SourceString": "Theory of Street Rank upgrade to Blue★★★",
+          "LocalizedString": "Theory of Street Rank upgrade to Blue★★★"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "8": {
+        "Rank": 8,
+        "RankName": "レッド☆",
+        "ExperienceMin": 300,
+        "ExperienceMax": 399,
+        "GradeExperience": 30,
+        "ReleasedContentTypes": [],
+        "RankUpRivalInformations": [],
+        "NeedCountForTrainingComplete": 5,
+        "RewardReason": {
+          "Namespace": "DT_StoryRank",
+          "Key": "0EF4989744A032D2EF368599D71A185B",
+          "SourceString": "Theory of Street Rank upgrade to Red★",
+          "LocalizedString": "Theory of Street Rank upgrade to Red★"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Liminous",
+          "RewardID": 95
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "9": {
+        "Rank": 9,
+        "RankName": "レッド☆☆",
+        "ExperienceMin": 400,
+        "ExperienceMax": 499,
+        "GradeExperience": 30,
+        "ReleasedContentTypes": [],
+        "RankUpRivalInformations": [],
+        "NeedCountForTrainingComplete": 5,
+        "RewardReason": {
+          "Namespace": "DT_StoryRank",
+          "Key": "7B431D3D4C9CCDE50CFA1082D3B29913",
+          "SourceString": "Theory of Street Rank upgrade to Red★★",
+          "LocalizedString": "Theory of Street Rank upgrade to Red★★"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "10": {
+        "Rank": 10,
+        "RankName": "レッド☆☆☆",
+        "ExperienceMin": 500,
+        "ExperienceMax": 599,
+        "GradeExperience": 30,
+        "ReleasedContentTypes": [],
+        "RankUpRivalInformations": [],
+        "NeedCountForTrainingComplete": 5,
+        "RewardReason": {
+          "Namespace": "DT_StoryRank",
+          "Key": "DF0239A84AF9CA99F949C0913524B847",
+          "SourceString": "Theory of Street Rank upgrade to Red★★★",
+          "LocalizedString": "Theory of Street Rank upgrade to Red★★★"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Liminous",
+          "RewardID": 103
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "11": {
+        "Rank": 11,
+        "RankName": "クリアグリーン☆",
+        "ExperienceMin": 600,
+        "ExperienceMax": 799,
+        "GradeExperience": 45,
+        "ReleasedContentTypes": [
+          "ETheoryReleaseContentType::RivalSelect_PowerhouseMatch"
+        ],
+        "RankUpRivalInformations": [],
+        "NeedCountForTrainingComplete": 10,
+        "RewardReason": {
+          "Namespace": "DT_StoryRank",
+          "Key": "56BBD26449D6EC37E3CF31A8619F2B60",
+          "SourceString": "Theory of Street Rank upgrade to Clear Green★",
+          "LocalizedString": "Theory of Street Rank upgrade to Clear Green★"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "12": {
+        "Rank": 12,
+        "RankName": "クリアグリーン☆☆",
+        "ExperienceMin": 800,
+        "ExperienceMax": 999,
+        "GradeExperience": 45,
+        "ReleasedContentTypes": [],
+        "RankUpRivalInformations": [],
+        "NeedCountForTrainingComplete": 10,
+        "RewardReason": {
+          "Namespace": "DT_StoryRank",
+          "Key": "143D49BC492084332F4057B7362F2231",
+          "SourceString": "Theory of Street Rank upgrade to Clear Green★★",
+          "LocalizedString": "Theory of Street Rank upgrade to Clear Green★★"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Liminous",
+          "RewardID": 98
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "13": {
+        "Rank": 13,
+        "RankName": "クリアグリーン☆☆☆",
+        "ExperienceMin": 1000,
+        "ExperienceMax": 1199,
+        "GradeExperience": 45,
+        "ReleasedContentTypes": [],
+        "RankUpRivalInformations": [],
+        "NeedCountForTrainingComplete": 10,
+        "RewardReason": {
+          "Namespace": "DT_StoryRank",
+          "Key": "91B7CC76462DA0137B9B4C8B1E31BB6E",
+          "SourceString": "Theory of Street Rank upgrade to Clear Green★★★",
+          "LocalizedString": "Theory of Street Rank upgrade to Clear Green★★★"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "14": {
+        "Rank": 14,
+        "RankName": "クリアグリーン☆☆☆☆",
+        "ExperienceMin": 1200,
+        "ExperienceMax": 1499,
+        "GradeExperience": 45,
+        "ReleasedContentTypes": [],
+        "RankUpRivalInformations": [],
+        "NeedCountForTrainingComplete": 10,
+        "RewardReason": {
+          "Namespace": "DT_StoryRank",
+          "Key": "DC53D2DF487B0C6B4C8A53B161813700",
+          "SourceString": "Theory of Street Rank upgrade to Clear Green★★★★",
+          "LocalizedString": "Theory of Street Rank upgrade to Clear Green★★★★"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Liminous",
+          "RewardID": 100
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "15": {
+        "Rank": 15,
+        "RankName": "クリアグリーン☆☆☆☆☆",
+        "ExperienceMin": 1500,
+        "ExperienceMax": 1999,
+        "GradeExperience": 45,
+        "ReleasedContentTypes": [],
+        "RankUpRivalInformations": [],
+        "NeedCountForTrainingComplete": 10,
+        "RewardReason": {
+          "Namespace": "DT_StoryRank",
+          "Key": "2F9BA30247FAFE50E66946B097D2E445",
+          "SourceString": "Theory of Street Rank upgrade to Clear Green★★★★★",
+          "LocalizedString": "Theory of Street Rank upgrade to Clear Green★★★★★"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Liminous",
+          "RewardID": 96
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "16": {
+        "Rank": 16,
+        "RankName": "クリアブルー☆",
+        "ExperienceMin": 2000,
+        "ExperienceMax": 2499,
+        "GradeExperience": 70,
+        "ReleasedContentTypes": [],
+        "RankUpRivalInformations": [],
+        "NeedCountForTrainingComplete": 10,
+        "RewardReason": {
+          "Namespace": "DT_StoryRank",
+          "Key": "C3121BF74A0E4ECD9AC27D9DD9FA8ED7",
+          "SourceString": "Theory of Street Rank upgrade to Clear Blue★",
+          "LocalizedString": "Theory of Street Rank upgrade to Clear Blue★"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Liminous",
+          "RewardID": 102
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "17": {
+        "Rank": 17,
+        "RankName": "クリアブルー☆☆",
+        "ExperienceMin": 2500,
+        "ExperienceMax": 2999,
+        "GradeExperience": 70,
+        "ReleasedContentTypes": [],
+        "RankUpRivalInformations": [],
+        "NeedCountForTrainingComplete": 10,
+        "RewardReason": {
+          "Namespace": "DT_StoryRank",
+          "Key": "61EF74FD452AFF1266C8AF9D52D985CC",
+          "SourceString": "Theory of Street Rank upgrade to Clear Blue★★",
+          "LocalizedString": "Theory of Street Rank upgrade to Clear Blue★★"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Liminous",
+          "RewardID": 106
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "18": {
+        "Rank": 18,
+        "RankName": "クリアブルー☆☆☆",
+        "ExperienceMin": 3000,
+        "ExperienceMax": 3499,
+        "GradeExperience": 70,
+        "ReleasedContentTypes": [],
+        "RankUpRivalInformations": [],
+        "NeedCountForTrainingComplete": 10,
+        "RewardReason": {
+          "Namespace": "DT_StoryRank",
+          "Key": "807834054164BC4A3072BCADF852CB84",
+          "SourceString": "Theory of Street Rank upgrade to Clear Blue★★★",
+          "LocalizedString": "Theory of Street Rank upgrade to Clear Blue★★★"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Liminous",
+          "RewardID": 105
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "19": {
+        "Rank": 19,
+        "RankName": "クリアブルー☆☆☆☆",
+        "ExperienceMin": 3500,
+        "ExperienceMax": 3999,
+        "GradeExperience": 70,
+        "ReleasedContentTypes": [],
+        "RankUpRivalInformations": [],
+        "NeedCountForTrainingComplete": 10,
+        "RewardReason": {
+          "Namespace": "DT_StoryRank",
+          "Key": "BE5D12524AC1D7166D27A1BD78DAFFC8",
+          "SourceString": "Theory of Street Rank upgrade to Clear Blue★★★★",
+          "LocalizedString": "Theory of Street Rank upgrade to Clear Blue★★★★"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Liminous",
+          "RewardID": 104
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "20": {
+        "Rank": 20,
+        "RankName": "クリアブルー☆☆☆☆☆",
+        "ExperienceMin": 4000,
+        "ExperienceMax": 4499,
+        "GradeExperience": 70,
+        "ReleasedContentTypes": [],
+        "RankUpRivalInformations": [],
+        "NeedCountForTrainingComplete": 10,
+        "RewardReason": {
+          "Namespace": "DT_StoryRank",
+          "Key": "27FB3C804B13CE1A50A9E28EE681212E",
+          "SourceString": "Theory of Street Rank upgrade to Clear Blue★★★★★",
+          "LocalizedString": "Theory of Street Rank upgrade to Clear Blue★★★★★"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Liminous",
+          "RewardID": 6
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "21": {
+        "Rank": 21,
+        "RankName": "クリアレッド☆",
+        "ExperienceMin": 4500,
+        "ExperienceMax": 4999,
+        "GradeExperience": 105,
+        "ReleasedContentTypes": [],
+        "RankUpRivalInformations": [],
+        "NeedCountForTrainingComplete": 10,
+        "RewardReason": {
+          "Namespace": "DT_StoryRank",
+          "Key": "C33C26A34612795ADF2ECABF76BAE01C",
+          "SourceString": "Theory of Street Rank upgrade to Clear Red★",
+          "LocalizedString": "Theory of Street Rank upgrade to Clear Red★"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Liminous",
+          "RewardID": 8
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "22": {
+        "Rank": 22,
+        "RankName": "クリアレッド☆☆",
+        "ExperienceMin": 5000,
+        "ExperienceMax": 5999,
+        "GradeExperience": 105,
+        "ReleasedContentTypes": [],
+        "RankUpRivalInformations": [],
+        "NeedCountForTrainingComplete": 10,
+        "RewardReason": {
+          "Namespace": "DT_StoryRank",
+          "Key": "75E7CE8148B49C5117FCF58B593A777C",
+          "SourceString": "Theory of Street Rank upgrade to Clear Red★★",
+          "LocalizedString": "Theory of Street Rank upgrade to Clear Red★★"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Liminous",
+          "RewardID": 10
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "23": {
+        "Rank": 23,
+        "RankName": "クリアレッド☆☆☆",
+        "ExperienceMin": 6000,
+        "ExperienceMax": 6999,
+        "GradeExperience": 105,
+        "ReleasedContentTypes": [],
+        "RankUpRivalInformations": [],
+        "NeedCountForTrainingComplete": 10,
+        "RewardReason": {
+          "Namespace": "DT_StoryRank",
+          "Key": "640BA13644EBFC34912064B753BFC548",
+          "SourceString": "Theory of Street Rank upgrade to Clear Red★★★",
+          "LocalizedString": "Theory of Street Rank upgrade to Clear Red★★★"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Liminous",
+          "RewardID": 4
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "24": {
+        "Rank": 24,
+        "RankName": "クリアレッド☆☆☆☆",
+        "ExperienceMin": 7000,
+        "ExperienceMax": 7999,
+        "GradeExperience": 105,
+        "ReleasedContentTypes": [],
+        "RankUpRivalInformations": [],
+        "NeedCountForTrainingComplete": 10,
+        "RewardReason": {
+          "Namespace": "DT_StoryRank",
+          "Key": "250DB24C40B026D6B97FD88FA6CF4662",
+          "SourceString": "Theory of Street Rank upgrade to Clear Red★★★★",
+          "LocalizedString": "Theory of Street Rank upgrade to Clear Red★★★★"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Liminous",
+          "RewardID": 12
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "25": {
+        "Rank": 25,
+        "RankName": "クリアレッド☆☆☆☆☆",
+        "ExperienceMin": 8000,
+        "ExperienceMax": 8999,
+        "GradeExperience": 105,
+        "ReleasedContentTypes": [],
+        "RankUpRivalInformations": [],
+        "NeedCountForTrainingComplete": 10,
+        "RewardReason": {
+          "Namespace": "DT_StoryRank",
+          "Key": "FB6B6A444FABB2872BB34BAC2D105F36",
+          "SourceString": "Theory of Street Rank upgrade to Clear Red★★★★★",
+          "LocalizedString": "Theory of Street Rank upgrade to Clear Red★★★★★"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Liminous",
+          "RewardID": 7
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "26": {
+        "Rank": 26,
+        "RankName": "エメラルド☆",
+        "ExperienceMin": 9000,
+        "ExperienceMax": 9999,
+        "GradeExperience": 160,
+        "ReleasedContentTypes": [],
+        "RankUpRivalInformations": [],
+        "NeedCountForTrainingComplete": 10,
+        "RewardReason": {
+          "Namespace": "DT_StoryRank",
+          "Key": "9BA3B2C54230DE1920292783B7401D18",
+          "SourceString": "Theory of Street Rank upgrade to Emerald★",
+          "LocalizedString": "Theory of Street Rank upgrade to Emerald★"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Liminous",
+          "RewardID": 9
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "27": {
+        "Rank": 27,
+        "RankName": "エメラルド☆☆",
+        "ExperienceMin": 10000,
+        "ExperienceMax": 10999,
+        "GradeExperience": 160,
+        "ReleasedContentTypes": [],
+        "RankUpRivalInformations": [],
+        "NeedCountForTrainingComplete": 10,
+        "RewardReason": {
+          "Namespace": "DT_StoryRank",
+          "Key": "9578CBD34E1D26090838D7AB6026353D",
+          "SourceString": "Theory of Street Rank upgrade to Emerald★★",
+          "LocalizedString": "Theory of Street Rank upgrade to Emerald★★"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Liminous",
+          "RewardID": 5
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "28": {
+        "Rank": 28,
+        "RankName": "エメラルド☆☆☆",
+        "ExperienceMin": 11000,
+        "ExperienceMax": 11999,
+        "GradeExperience": 160,
+        "ReleasedContentTypes": [],
+        "RankUpRivalInformations": [],
+        "NeedCountForTrainingComplete": 10,
+        "RewardReason": {
+          "Namespace": "DT_StoryRank",
+          "Key": "090E84764C25F3D8FDB5AC94CD119F26",
+          "SourceString": "Theory of Street Rank upgrade to Emerald★★★",
+          "LocalizedString": "Theory of Street Rank upgrade to Emerald★★★"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Liminous",
+          "RewardID": 11
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "29": {
+        "Rank": 29,
+        "RankName": "エメラルド☆☆☆☆",
+        "ExperienceMin": 12000,
+        "ExperienceMax": 12999,
+        "GradeExperience": 160,
+        "ReleasedContentTypes": [],
+        "RankUpRivalInformations": [],
+        "NeedCountForTrainingComplete": 10,
+        "RewardReason": {
+          "Namespace": "DT_StoryRank",
+          "Key": "55EE064B4466A5376A218DBB1E1991F8",
+          "SourceString": "Theory of Street Rank upgrade to Emerald★★★★",
+          "LocalizedString": "Theory of Street Rank upgrade to Emerald★★★★"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Liminous",
+          "RewardID": 15
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "30": {
+        "Rank": 30,
+        "RankName": "エメラルド☆☆☆☆☆",
+        "ExperienceMin": 13000,
+        "ExperienceMax": 13999,
+        "GradeExperience": 160,
+        "ReleasedContentTypes": [],
+        "RankUpRivalInformations": [],
+        "NeedCountForTrainingComplete": 10,
+        "RewardReason": {
+          "Namespace": "DT_StoryRank",
+          "Key": "6D09E12C46341950ED51E899DE1381AF",
+          "SourceString": "Theory of Street Rank upgrade to Emerald★★★★★",
+          "LocalizedString": "Theory of Street Rank upgrade to Emerald★★★★★"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Liminous",
+          "RewardID": 14
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "31": {
+        "Rank": 31,
+        "RankName": "エメラルド☆☆☆☆☆☆",
+        "ExperienceMin": 14000,
+        "ExperienceMax": 14999,
+        "GradeExperience": 160,
+        "ReleasedContentTypes": [],
+        "RankUpRivalInformations": [],
+        "NeedCountForTrainingComplete": 10,
+        "RewardReason": {
+          "Namespace": "DT_StoryRank",
+          "Key": "6F17BF8446F50F3A6F4431A3A16DAE86",
+          "SourceString": "Theory of Street Rank upgrade to Emerald★★★★★★",
+          "LocalizedString": "Theory of Street Rank upgrade to Emerald★★★★★★"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Liminous",
+          "RewardID": 13
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "32": {
+        "Rank": 32,
+        "RankName": "サファイア☆",
+        "ExperienceMin": 15000,
+        "ExperienceMax": 15999,
+        "GradeExperience": 240,
+        "ReleasedContentTypes": [],
+        "RankUpRivalInformations": [],
+        "NeedCountForTrainingComplete": 10,
+        "RewardReason": {
+          "Namespace": "",
+          "Key": "B85734974355C7510C39A781F9C88756",
+          "SourceString": "Theory of Street Rank upgrade to Sapphire★",
+          "LocalizedString": "Theory of Street Rank upgrade to Sapphire★"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Liminous",
+          "RewardID": 19
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "33": {
+        "Rank": 33,
+        "RankName": "サファイア☆☆",
+        "ExperienceMin": 16000,
+        "ExperienceMax": 16999,
+        "GradeExperience": 240,
+        "ReleasedContentTypes": [],
+        "RankUpRivalInformations": [],
+        "NeedCountForTrainingComplete": 10,
+        "RewardReason": {
+          "Namespace": "",
+          "Key": "D72371364DE82DC1729AF4A2E414B723",
+          "SourceString": "Theory of Street Rank upgrade to Sapphire★★",
+          "LocalizedString": "Theory of Street Rank upgrade to Sapphire★★"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Liminous",
+          "RewardID": 21
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "34": {
+        "Rank": 34,
+        "RankName": "サファイア☆☆☆",
+        "ExperienceMin": 17000,
+        "ExperienceMax": 17999,
+        "GradeExperience": 240,
+        "ReleasedContentTypes": [],
+        "RankUpRivalInformations": [],
+        "NeedCountForTrainingComplete": 10,
+        "RewardReason": {
+          "Namespace": "",
+          "Key": "8704C72E446E1CBF21DD8B9DB07B0747",
+          "SourceString": "Theory of Street Rank upgrade to Sapphire★★★",
+          "LocalizedString": "Theory of Street Rank upgrade to Sapphire★★★"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Liminous",
+          "RewardID": 23
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "35": {
+        "Rank": 35,
+        "RankName": "サファイア☆☆☆☆",
+        "ExperienceMin": 18000,
+        "ExperienceMax": 18999,
+        "GradeExperience": 240,
+        "ReleasedContentTypes": [],
+        "RankUpRivalInformations": [],
+        "NeedCountForTrainingComplete": 10,
+        "RewardReason": {
+          "Namespace": "",
+          "Key": "2A8D62374FBD005B4A04CB8011C093B7",
+          "SourceString": "Theory of Street Rank upgrade to Sapphire★★★★",
+          "LocalizedString": "Theory of Street Rank upgrade to Sapphire★★★★"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Liminous",
+          "RewardID": 17
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "36": {
+        "Rank": 36,
+        "RankName": "サファイア☆☆☆☆☆",
+        "ExperienceMin": 19000,
+        "ExperienceMax": 19999,
+        "GradeExperience": 240,
+        "ReleasedContentTypes": [],
+        "RankUpRivalInformations": [],
+        "NeedCountForTrainingComplete": 10,
+        "RewardReason": {
+          "Namespace": "",
+          "Key": "B2384FEC4F74489526AF73B6E0DC455A",
+          "SourceString": "Theory of Street Rank upgrade to Sapphire★★★★★",
+          "LocalizedString": "Theory of Street Rank upgrade to Sapphire★★★★★"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Liminous",
+          "RewardID": 25
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "37": {
+        "Rank": 37,
+        "RankName": "サファイア☆☆☆☆☆☆",
+        "ExperienceMin": 20000,
+        "ExperienceMax": 20999,
+        "GradeExperience": 240,
+        "ReleasedContentTypes": [],
+        "RankUpRivalInformations": [],
+        "NeedCountForTrainingComplete": 10,
+        "RewardReason": {
+          "Namespace": "",
+          "Key": "442FA84D4EC4D91485CAD8A937F6DB2B",
+          "SourceString": "Theory of Street Rank upgrade to Sapphire★★★★★★",
+          "LocalizedString": "Theory of Street Rank upgrade to Sapphire★★★★★★"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Liminous",
+          "RewardID": 20
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "38": {
+        "Rank": 38,
+        "RankName": "サファイア☆☆☆☆☆☆☆",
+        "ExperienceMin": 21000,
+        "ExperienceMax": 21999,
+        "GradeExperience": 240,
+        "ReleasedContentTypes": [],
+        "RankUpRivalInformations": [],
+        "NeedCountForTrainingComplete": 10,
+        "RewardReason": {
+          "Namespace": "",
+          "Key": "3883B47640C9AAF8CF4D3F9D8384355B",
+          "SourceString": "Theory of Street Rank upgrade to Sapphire★★★★★★★",
+          "LocalizedString": "Theory of Street Rank upgrade to Sapphire★★★★★★★"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Liminous",
+          "RewardID": 22
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "39": {
+        "Rank": 39,
+        "RankName": "ルビー☆",
+        "ExperienceMin": 22000,
+        "ExperienceMax": 22999,
+        "GradeExperience": 360,
+        "ReleasedContentTypes": [],
+        "RankUpRivalInformations": [],
+        "NeedCountForTrainingComplete": 10,
+        "RewardReason": {
+          "Namespace": "",
+          "Key": "B1EAA28044B1FFA1E07FD591E62ABE43",
+          "SourceString": "Theory of Street Rank upgrade to Ruby★",
+          "LocalizedString": "Theory of Street Rank upgrade to Ruby★"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "40": {
+        "Rank": 40,
+        "RankName": "ルビー☆☆",
+        "ExperienceMin": 23000,
+        "ExperienceMax": 23999,
+        "GradeExperience": 360,
+        "ReleasedContentTypes": [],
+        "RankUpRivalInformations": [],
+        "NeedCountForTrainingComplete": 10,
+        "RewardReason": {
+          "Namespace": "",
+          "Key": "8D2E6D9F4522BFC15A7144A981B83C40",
+          "SourceString": "Theory of Street Rank upgrade to Ruby★★",
+          "LocalizedString": "Theory of Street Rank upgrade to Ruby★★"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "41": {
+        "Rank": 41,
+        "RankName": "ルビー☆☆☆",
+        "ExperienceMin": 24000,
+        "ExperienceMax": 24999,
+        "GradeExperience": 360,
+        "ReleasedContentTypes": [],
+        "RankUpRivalInformations": [],
+        "NeedCountForTrainingComplete": 10,
+        "RewardReason": {
+          "Namespace": "",
+          "Key": "54C627F749A374AECCF0DB9828AB8F1A",
+          "SourceString": "Theory of Street Rank upgrade to Ruby★★★",
+          "LocalizedString": "Theory of Street Rank upgrade to Ruby★★★"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "42": {
+        "Rank": 42,
+        "RankName": "ルビー☆☆☆☆",
+        "ExperienceMin": 25000,
+        "ExperienceMax": 26999,
+        "GradeExperience": 360,
+        "ReleasedContentTypes": [],
+        "RankUpRivalInformations": [],
+        "NeedCountForTrainingComplete": 10,
+        "RewardReason": {
+          "Namespace": "",
+          "Key": "600BC35D413E1F2BDACA39A86E0A6182",
+          "SourceString": "Theory of Street Rank upgrade to Ruby★★★★",
+          "LocalizedString": "Theory of Street Rank upgrade to Ruby★★★★"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "43": {
+        "Rank": 43,
+        "RankName": "ルビー☆☆☆☆☆",
+        "ExperienceMin": 27000,
+        "ExperienceMax": 28999,
+        "GradeExperience": 360,
+        "ReleasedContentTypes": [],
+        "RankUpRivalInformations": [],
+        "NeedCountForTrainingComplete": 10,
+        "RewardReason": {
+          "Namespace": "",
+          "Key": "CC14D1CB42A50C22BD088FAD1F15FE62",
+          "SourceString": "Theory of Street Rank upgrade to Ruby★★★★★",
+          "LocalizedString": "Theory of Street Rank upgrade to Ruby★★★★★"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "44": {
+        "Rank": 44,
+        "RankName": "ルビー☆☆☆☆☆☆",
+        "ExperienceMin": 29000,
+        "ExperienceMax": 30999,
+        "GradeExperience": 360,
+        "ReleasedContentTypes": [],
+        "RankUpRivalInformations": [],
+        "NeedCountForTrainingComplete": 10,
+        "RewardReason": {
+          "Namespace": "",
+          "Key": "A5793288463ACB4A780922B528253BAF",
+          "SourceString": "Theory of Street Rank upgrade to Ruby★★★★★★",
+          "LocalizedString": "Theory of Street Rank upgrade to Ruby★★★★★★"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "45": {
+        "Rank": 45,
+        "RankName": "ルビー☆☆☆☆☆☆☆",
+        "ExperienceMin": 31000,
+        "ExperienceMax": 32999,
+        "GradeExperience": 360,
+        "ReleasedContentTypes": [],
+        "RankUpRivalInformations": [],
+        "NeedCountForTrainingComplete": 10,
+        "RewardReason": {
+          "Namespace": "",
+          "Key": "8A2981E348C5DF8C59BD25A43788AA62",
+          "SourceString": "Theory of Street Rank upgrade to Ruby★★★★★★★",
+          "LocalizedString": "Theory of Street Rank upgrade to Ruby★★★★★★★"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "46": {
+        "Rank": 46,
+        "RankName": "ルビー☆☆☆☆☆☆☆☆",
+        "ExperienceMin": 33000,
+        "ExperienceMax": 34999,
+        "GradeExperience": 360,
+        "ReleasedContentTypes": [],
+        "RankUpRivalInformations": [],
+        "NeedCountForTrainingComplete": 10,
+        "RewardReason": {
+          "Namespace": "",
+          "Key": "2EBE680C4A735823C6C776ACFDB74BCD",
+          "SourceString": "Theory of Street Rank upgrade to Ruby★★★★★★★★",
+          "LocalizedString": "Theory of Street Rank upgrade to Ruby★★★★★★★★"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "47": {
+        "Rank": 47,
+        "RankName": "ブラックダイヤモンド☆",
+        "ExperienceMin": 35000,
+        "ExperienceMax": 36999,
+        "GradeExperience": 540,
+        "ReleasedContentTypes": [],
+        "RankUpRivalInformations": [],
+        "NeedCountForTrainingComplete": 10,
+        "RewardReason": {
+          "Namespace": "",
+          "Key": "6E6737CB4C3C874C4510C9929F9C482A",
+          "SourceString": "Theory of Street Rank upgrade to Black Diamond★",
+          "LocalizedString": "Theory of Street Rank upgrade to Black Diamond★"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "48": {
+        "Rank": 48,
+        "RankName": "ブラックダイヤモンド☆☆",
+        "ExperienceMin": 37000,
+        "ExperienceMax": 38999,
+        "GradeExperience": 540,
+        "ReleasedContentTypes": [],
+        "RankUpRivalInformations": [],
+        "NeedCountForTrainingComplete": 10,
+        "RewardReason": {
+          "Namespace": "",
+          "Key": "72A636404DCC1CDC33EFC99CBBCC4EAD",
+          "SourceString": "Theory of Street Rank upgrade to Black Diamond★★",
+          "LocalizedString": "Theory of Street Rank upgrade to Black Diamond★★"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "49": {
+        "Rank": 49,
+        "RankName": "ブラックダイヤモンド☆☆☆",
+        "ExperienceMin": 39000,
+        "ExperienceMax": 40999,
+        "GradeExperience": 540,
+        "ReleasedContentTypes": [],
+        "RankUpRivalInformations": [],
+        "NeedCountForTrainingComplete": 10,
+        "RewardReason": {
+          "Namespace": "",
+          "Key": "F1FF00A54DD6F8C959B284BB2D8161A5",
+          "SourceString": "Theory of Street Rank upgrade to Black Diamond★★★",
+          "LocalizedString": "Theory of Street Rank upgrade to Black Diamond★★★"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "50": {
+        "Rank": 50,
+        "RankName": "ブラックダイヤモンド☆☆☆☆",
+        "ExperienceMin": 41000,
+        "ExperienceMax": 42999,
+        "GradeExperience": 540,
+        "ReleasedContentTypes": [],
+        "RankUpRivalInformations": [],
+        "NeedCountForTrainingComplete": 10,
+        "RewardReason": {
+          "Namespace": "",
+          "Key": "71758C6B4E50DB5D94B5BDB99D15F764",
+          "SourceString": "Theory of Street Rank upgrade to Black Diamond★★★★",
+          "LocalizedString": "Theory of Street Rank upgrade to Black Diamond★★★★"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "51": {
+        "Rank": 51,
+        "RankName": "ブラックダイヤモンド☆☆☆☆☆",
+        "ExperienceMin": 43000,
+        "ExperienceMax": 44999,
+        "GradeExperience": 540,
+        "ReleasedContentTypes": [],
+        "RankUpRivalInformations": [],
+        "NeedCountForTrainingComplete": 10,
+        "RewardReason": {
+          "Namespace": "",
+          "Key": "B67F536E437D876EDD22EF9FF747855A",
+          "SourceString": "Theory of Street Rank upgrade to Black Diamond★★★★★",
+          "LocalizedString": "Theory of Street Rank upgrade to Black Diamond★★★★★"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "52": {
+        "Rank": 52,
+        "RankName": "ブラックダイヤモンド☆☆☆☆☆☆",
+        "ExperienceMin": 45000,
+        "ExperienceMax": 46999,
+        "GradeExperience": 540,
+        "ReleasedContentTypes": [],
+        "RankUpRivalInformations": [],
+        "NeedCountForTrainingComplete": 10,
+        "RewardReason": {
+          "Namespace": "",
+          "Key": "1FBB73D74AB40D0EFB430D96BB063C1D",
+          "SourceString": "Theory of Street Rank upgrade to Black Diamond★★★★★★",
+          "LocalizedString": "Theory of Street Rank upgrade to Black Diamond★★★★★★"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "53": {
+        "Rank": 53,
+        "RankName": "ブラックダイヤモンド☆☆☆☆☆☆☆",
+        "ExperienceMin": 47000,
+        "ExperienceMax": 48999,
+        "GradeExperience": 540,
+        "ReleasedContentTypes": [],
+        "RankUpRivalInformations": [],
+        "NeedCountForTrainingComplete": 10,
+        "RewardReason": {
+          "Namespace": "",
+          "Key": "71B8AB6F438305CABCDCC49D8CEC8F40",
+          "SourceString": "Theory of Street Rank upgrade to Black Diamond★★★★★★★",
+          "LocalizedString": "Theory of Street Rank upgrade to Black Diamond★★★★★★★"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "54": {
+        "Rank": 54,
+        "RankName": "ブラックダイヤモンド☆☆☆☆☆☆☆☆",
+        "ExperienceMin": 49000,
+        "ExperienceMax": 50999,
+        "GradeExperience": 540,
+        "ReleasedContentTypes": [],
+        "RankUpRivalInformations": [],
+        "NeedCountForTrainingComplete": 10,
+        "RewardReason": {
+          "Namespace": "",
+          "Key": "F759617C425A6F10BC1164A541D34034",
+          "SourceString": "Theory of Street Rank upgrade to Black Diamond★★★★★★★★",
+          "LocalizedString": "Theory of Street Rank upgrade to Black Diamond★★★★★★★★"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "55": {
+        "Rank": 55,
+        "RankName": "ブラックダイヤモンド☆☆☆☆☆☆☆☆☆",
+        "ExperienceMin": 51000,
+        "ExperienceMax": 52999,
+        "GradeExperience": 540,
+        "ReleasedContentTypes": [],
+        "RankUpRivalInformations": [],
+        "NeedCountForTrainingComplete": 10,
+        "RewardReason": {
+          "Namespace": "",
+          "Key": "3A4B11FD49ECD672EC8E2BAF73D680AB",
+          "SourceString": "Theory of Street Rank upgrade to Black Diamond★★★★★★★★★",
+          "LocalizedString": "Theory of Street Rank upgrade to Black Diamond★★★★★★★★★"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      }
+    }
+  }
+]

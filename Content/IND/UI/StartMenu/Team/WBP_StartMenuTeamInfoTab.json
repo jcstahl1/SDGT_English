@@ -1,0 +1,2317 @@
+[
+  {
+    "Type": "StructProperty",
+    "Name": "UberGraphFrame",
+    "Outer": "WBP_StartMenuTeamInfoTab_C",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "Transient | DuplicateTransient",
+    "Struct": {
+      "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "WBP_StartMenuTeamInfoTab_C",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WBP_StartMenuTeamInfoTab_C:WidgetTree'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.117"
+      },
+      "bAllowTemplate": true,
+      "bValidTemplate": true,
+      "TemplateAsset": {
+        "AssetPathName": "/Game/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.WidgetArchetype",
+        "SubPathString": ""
+      },
+      "UberGraphFramePointerProperty": {
+        "ObjectName": "StructProperty'WBP_StartMenuTeamInfoTab_C:UberGraphFrame'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.0"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'WBP_StartMenuTeamInfoTab_C:ExecuteUbergraph_WBP_StartMenuTeamInfoTab'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.5"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'CustomWidgetBase'",
+      "ObjectPath": "/Script/GameProject"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'WBP_StartMenuTeamInfoTab_C:UberGraphFrame'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.0"
+      },
+      {
+        "ObjectName": "Function'WBP_StartMenuTeamInfoTab_C:PreConstruct'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.22"
+      },
+      {
+        "ObjectName": "Function'WBP_StartMenuTeamInfoTab_C:SetDriverNameAndMsg'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.21"
+      },
+      {
+        "ObjectName": "Function'WBP_StartMenuTeamInfoTab_C:CallCustomActionbyID'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.19"
+      },
+      {
+        "ObjectName": "Function'WBP_StartMenuTeamInfoTab_C:ExecuteUbergraph_WBP_StartMenuTeamInfoTab'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.5"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_StartMenuTeamInfoTab_C:base'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.3"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_StartMenuTeamInfoTab_C:LeaderIcon'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.56"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_StartMenuTeamInfoTab_C:WidgetSwitcher_92'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.59"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_StartMenuTeamInfoTab_C:TextBlock'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.57"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_StartMenuTeamInfoTab_C:TextDefault'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.58"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_StartMenuTeamInfoTab_C:EXPVersion'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.17"
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_WBP_StartMenuTeamInfoTab": {
+        "ObjectName": "Function'WBP_StartMenuTeamInfoTab_C:ExecuteUbergraph_WBP_StartMenuTeamInfoTab'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.5"
+      },
+      "CallCustomActionbyID": {
+        "ObjectName": "Function'WBP_StartMenuTeamInfoTab_C:CallCustomActionbyID'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.19"
+      },
+      "SetDriverNameAndMsg": {
+        "ObjectName": "Function'WBP_StartMenuTeamInfoTab_C:SetDriverNameAndMsg'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.21"
+      },
+      "PreConstruct": {
+        "ObjectName": "Function'WBP_StartMenuTeamInfoTab_C:PreConstruct'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.22"
+      }
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "WBP_StartMenuTeamInfoTab_C'Default__WBP_StartMenuTeamInfoTab_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.2"
+    }
+  },
+  {
+    "Type": "WBP_StartMenuTeamInfoTab_C",
+    "Name": "Default__WBP_StartMenuTeamInfoTab_C",
+    "Class": "WidgetBlueprintGeneratedClass'GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.WBP_StartMenuTeamInfoTab_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "UberGraphFrame": {},
+      "CustomActionStringArray": [
+        "ランダムで項目セット"
+      ],
+      "bHasScriptImplementedTick": false,
+      "bHasScriptImplementedPaint": false
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "base",
+    "Outer": "WBP_StartMenuTeamInfoTab_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'Image'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "EntryPoint",
+    "Outer": "ExecuteUbergraph_WBP_StartMenuTeamInfoTab",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_WBP_StartMenuTeamInfoTab",
+    "Outer": "WBP_StartMenuTeamInfoTab_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "IntProperty'WBP_StartMenuTeamInfoTab_C:ExecuteUbergraph_WBP_StartMenuTeamInfoTab.EntryPoint'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.4"
+      },
+      {
+        "ObjectName": "EnumProperty'WBP_StartMenuTeamInfoTab_C:ExecuteUbergraph_WBP_StartMenuTeamInfoTab.CallFunc_GetRegionCode_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.45"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_StartMenuTeamInfoTab_C:ExecuteUbergraph_WBP_StartMenuTeamInfoTab.CallFunc_EqualEqual_ByteByte_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.8"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_StartMenuTeamInfoTab_C:ExecuteUbergraph_WBP_StartMenuTeamInfoTab.K2Node_CustomEvent_MsgNo'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.53"
+      },
+      {
+        "ObjectName": "StrProperty'WBP_StartMenuTeamInfoTab_C:ExecuteUbergraph_WBP_StartMenuTeamInfoTab.K2Node_CustomEvent_DriverName'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.97"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_StartMenuTeamInfoTab_C:ExecuteUbergraph_WBP_StartMenuTeamInfoTab.CallFunc_EqualEqual_IntInt_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.9"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_StartMenuTeamInfoTab_C:ExecuteUbergraph_WBP_StartMenuTeamInfoTab.CallFunc_EqualEqual_IntInt_ReturnValue_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.10"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_StartMenuTeamInfoTab_C:ExecuteUbergraph_WBP_StartMenuTeamInfoTab.CallFunc_SelectInt_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.52"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_StartMenuTeamInfoTab_C:ExecuteUbergraph_WBP_StartMenuTeamInfoTab.CallFunc_Not_PreBool_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.15"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_StartMenuTeamInfoTab_C:ExecuteUbergraph_WBP_StartMenuTeamInfoTab.CallFunc_Clamp_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.50"
+      },
+      {
+        "ObjectName": "StrProperty'WBP_StartMenuTeamInfoTab_C:ExecuteUbergraph_WBP_StartMenuTeamInfoTab.CallFunc_MakeLiteralString_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.93"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_StartMenuTeamInfoTab_C:ExecuteUbergraph_WBP_StartMenuTeamInfoTab.CallFunc_LessEqual_IntInt_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.14"
+      },
+      {
+        "ObjectName": "StrProperty'WBP_StartMenuTeamInfoTab_C:ExecuteUbergraph_WBP_StartMenuTeamInfoTab.CallFunc_Concat_StrStr_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.84"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_StartMenuTeamInfoTab_C:ExecuteUbergraph_WBP_StartMenuTeamInfoTab.CallFunc_GreaterEqual_IntInt_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.12"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_StartMenuTeamInfoTab_C:ExecuteUbergraph_WBP_StartMenuTeamInfoTab.CallFunc_EqualEqual_IntInt_ReturnValue_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.11"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_StartMenuTeamInfoTab_C:ExecuteUbergraph_WBP_StartMenuTeamInfoTab.CallFunc_BooleanAND_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.6"
+      },
+      {
+        "ObjectName": "StrProperty'WBP_StartMenuTeamInfoTab_C:ExecuteUbergraph_WBP_StartMenuTeamInfoTab.CallFunc_Conv_IntToString_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.88"
+      },
+      {
+        "ObjectName": "StrProperty'WBP_StartMenuTeamInfoTab_C:ExecuteUbergraph_WBP_StartMenuTeamInfoTab.CallFunc_MakeLiteralString_ReturnValue_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.94"
+      },
+      {
+        "ObjectName": "StrProperty'WBP_StartMenuTeamInfoTab_C:ExecuteUbergraph_WBP_StartMenuTeamInfoTab.CallFunc_GetPathName_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.90"
+      },
+      {
+        "ObjectName": "StrProperty'WBP_StartMenuTeamInfoTab_C:ExecuteUbergraph_WBP_StartMenuTeamInfoTab.CallFunc_Concat_StrStr_ReturnValue_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.85"
+      },
+      {
+        "ObjectName": "StrProperty'WBP_StartMenuTeamInfoTab_C:ExecuteUbergraph_WBP_StartMenuTeamInfoTab.CallFunc_GetPathName_ReturnValue_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.91"
+      },
+      {
+        "ObjectName": "StrProperty'WBP_StartMenuTeamInfoTab_C:ExecuteUbergraph_WBP_StartMenuTeamInfoTab.CallFunc_SelectString_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.95"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_StartMenuTeamInfoTab_C:ExecuteUbergraph_WBP_StartMenuTeamInfoTab.CallFunc_BooleanAND_ReturnValue_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.7"
+      },
+      {
+        "ObjectName": "NameProperty'WBP_StartMenuTeamInfoTab_C:ExecuteUbergraph_WBP_StartMenuTeamInfoTab.CallFunc_Conv_StringToName_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.55"
+      },
+      {
+        "ObjectName": "StrProperty'WBP_StartMenuTeamInfoTab_C:ExecuteUbergraph_WBP_StartMenuTeamInfoTab.CallFunc_GetTableEntrySourceString_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.92"
+      },
+      {
+        "ObjectName": "StrProperty'WBP_StartMenuTeamInfoTab_C:ExecuteUbergraph_WBP_StartMenuTeamInfoTab.CallFunc_Concat_StrStr_ReturnValue_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.86"
+      },
+      {
+        "ObjectName": "StrProperty'WBP_StartMenuTeamInfoTab_C:ExecuteUbergraph_WBP_StartMenuTeamInfoTab.CallFunc_Concat_StrStr_ReturnValue_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.87"
+      },
+      {
+        "ObjectName": "StructProperty'WBP_StartMenuTeamInfoTab_C:ExecuteUbergraph_WBP_StartMenuTeamInfoTab.K2Node_MakeStruct_LinearColor'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.99"
+      },
+      {
+        "ObjectName": "StrProperty'WBP_StartMenuTeamInfoTab_C:ExecuteUbergraph_WBP_StartMenuTeamInfoTab.CallFunc_SelectString_ReturnValue_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.96"
+      },
+      {
+        "ObjectName": "StructProperty'WBP_StartMenuTeamInfoTab_C:ExecuteUbergraph_WBP_StartMenuTeamInfoTab.K2Node_MakeStruct_SlateColor'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.100"
+      },
+      {
+        "ObjectName": "TextProperty'WBP_StartMenuTeamInfoTab_C:ExecuteUbergraph_WBP_StartMenuTeamInfoTab.CallFunc_Conv_StringToText_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.107"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_StartMenuTeamInfoTab_C:ExecuteUbergraph_WBP_StartMenuTeamInfoTab.K2Node_Event_ActionIndex'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.54"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_StartMenuTeamInfoTab_C:ExecuteUbergraph_WBP_StartMenuTeamInfoTab.CallFunc_RandomIntegerInRange_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.51"
+      },
+      {
+        "ObjectName": "StrProperty'WBP_StartMenuTeamInfoTab_C:ExecuteUbergraph_WBP_StartMenuTeamInfoTab.CallFunc_Debug_MakeDummyName_OutNameString'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.89"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_StartMenuTeamInfoTab_C:ExecuteUbergraph_WBP_StartMenuTeamInfoTab.K2Node_Event_IsDesignTime'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.16"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_StartMenuTeamInfoTab_C:ExecuteUbergraph_WBP_StartMenuTeamInfoTab.CallFunc_IsShippingBuild_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.13"
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction | FUNC_HasDefaults"
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_BooleanAND_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_StartMenuTeamInfoTab",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_BooleanAND_ReturnValue_1",
+    "Outer": "ExecuteUbergraph_WBP_StartMenuTeamInfoTab",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_EqualEqual_ByteByte_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_StartMenuTeamInfoTab",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_EqualEqual_IntInt_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_StartMenuTeamInfoTab",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_EqualEqual_IntInt_ReturnValue_1",
+    "Outer": "ExecuteUbergraph_WBP_StartMenuTeamInfoTab",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_EqualEqual_IntInt_ReturnValue_2",
+    "Outer": "ExecuteUbergraph_WBP_StartMenuTeamInfoTab",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_GreaterEqual_IntInt_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_StartMenuTeamInfoTab",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_IsShippingBuild_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_StartMenuTeamInfoTab",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_LessEqual_IntInt_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_StartMenuTeamInfoTab",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_Not_PreBool_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_StartMenuTeamInfoTab",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_Event_IsDesignTime",
+    "Outer": "ExecuteUbergraph_WBP_StartMenuTeamInfoTab",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "EXPVersion",
+    "Outer": "WBP_StartMenuTeamInfoTab_C",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "ActionIndex",
+    "Outer": "CallCustomActionbyID",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "CallCustomActionbyID",
+    "Outer": "WBP_StartMenuTeamInfoTab_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Function'CustomWidgetBase:CallCustomActionbyID'",
+      "ObjectPath": "/Script/GameProject"
+    },
+    "Children": [
+      {
+        "ObjectName": "IntProperty'WBP_StartMenuTeamInfoTab_C:CallCustomActionbyID.ActionIndex'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.18"
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "MsgNo",
+    "Outer": "SetDriverNameAndMsg",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "SetDriverNameAndMsg",
+    "Outer": "WBP_StartMenuTeamInfoTab_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "IntProperty'WBP_StartMenuTeamInfoTab_C:SetDriverNameAndMsg.MsgNo'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.20"
+      },
+      {
+        "ObjectName": "StrProperty'WBP_StartMenuTeamInfoTab_C:SetDriverNameAndMsg.DriverName'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.98"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "PreConstruct",
+    "Outer": "WBP_StartMenuTeamInfoTab_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Function'UserWidget:PreConstruct'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "Children": [
+      {
+        "ObjectName": "BoolProperty'WBP_StartMenuTeamInfoTab_C:PreConstruct.IsDesignTime'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.23"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCosmetic | FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "IsDesignTime",
+    "Outer": "PreConstruct",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Outer": "CallFunc_GetRegionCode_ReturnValue",
+    "Class": "UScriptClass'ByteProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": null
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_0",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_StartMenuTeamInfoTab_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.33"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_StartMenuTeamInfoTab_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_2'",
+          "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.34"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "LeaderInfoText",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_StartMenuTeamInfoTab_C:WidgetTree.LeaderInfoText.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.35"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_StartMenuTeamInfoTab_C:WidgetTree.LeaderInfoText.CanvasPanelSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.36"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "WidgetSwitcherSlot'WBP_StartMenuTeamInfoTab_C:WidgetTree.WidgetSwitcher_92.WidgetSwitcherSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.112"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "TeamDefaultText",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_StartMenuTeamInfoTab_C:WidgetTree.TeamDefaultText.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.37"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "WidgetSwitcherSlot'WBP_StartMenuTeamInfoTab_C:WidgetTree.WidgetSwitcher_92.WidgetSwitcherSlot_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.113"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "TeamInfoText",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_StartMenuTeamInfoTab_C:WidgetTree.TeamInfoText.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.38"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "WidgetSwitcherSlot'WBP_StartMenuTeamInfoTab_C:WidgetTree.WidgetSwitcher_92.WidgetSwitcherSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.111"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_0",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.39"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_2'",
+          "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.40"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "LeaderInfoText",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.LeaderInfoText.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.41"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.LeaderInfoText.CanvasPanelSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.42"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "WidgetSwitcherSlot'WidgetArchetype:WidgetTree_0.WidgetSwitcher_92.WidgetSwitcherSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.115"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "TeamDefaultText",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.TeamDefaultText.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.43"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "WidgetSwitcherSlot'WidgetArchetype:WidgetTree_0.WidgetSwitcher_92.WidgetSwitcherSlot_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.116"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "TeamInfoText",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.TeamInfoText.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.44"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "WidgetSwitcherSlot'WidgetArchetype:WidgetTree_0.WidgetSwitcher_92.WidgetSwitcherSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.114"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_StartMenuTeamInfoTab_C:WidgetTree.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.25"
+      },
+      "Content": {
+        "ObjectName": "Image'WBP_StartMenuTeamInfoTab_C:WidgetTree.base'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.46"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_2",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 452.0,
+          "Bottom": 36.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_StartMenuTeamInfoTab_C:WidgetTree.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.25"
+      },
+      "Content": {
+        "ObjectName": "WidgetSwitcher'WBP_StartMenuTeamInfoTab_C:WidgetTree.WidgetSwitcher_92'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.109"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "LeaderInfoText",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 316.0,
+          "Bottom": 24.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_StartMenuTeamInfoTab_C:WidgetTree.LeaderInfoText'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.26"
+      },
+      "Content": {
+        "ObjectName": "SizeBox'WBP_StartMenuTeamInfoTab_C:WidgetTree.SizeBox_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.74"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "LeaderInfoText",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -186.0,
+          "Right": 40.0,
+          "Bottom": 44.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_StartMenuTeamInfoTab_C:WidgetTree.LeaderInfoText'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.26"
+      },
+      "Content": {
+        "ObjectName": "Image'WBP_StartMenuTeamInfoTab_C:WidgetTree.LeaderIcon'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.47"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "TeamDefaultText",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 400.0,
+          "Bottom": 24.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_StartMenuTeamInfoTab_C:WidgetTree.TeamDefaultText'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.27"
+      },
+      "Content": {
+        "ObjectName": "SizeBox'WBP_StartMenuTeamInfoTab_C:WidgetTree.SizeBox_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.73"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "TeamInfoText",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 400.0,
+          "Bottom": 24.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_StartMenuTeamInfoTab_C:WidgetTree.TeamInfoText'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.28"
+      },
+      "Content": {
+        "ObjectName": "SizeBox'WBP_StartMenuTeamInfoTab_C:WidgetTree.SizeBox_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.72"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.29"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.base'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.48"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_2",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 452.0,
+          "Bottom": 36.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.29"
+      },
+      "Content": {
+        "ObjectName": "WidgetSwitcher'WidgetArchetype:WidgetTree_0.WidgetSwitcher_92'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.110"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "LeaderInfoText",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 316.0,
+          "Bottom": 24.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.LeaderInfoText'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.30"
+      },
+      "Content": {
+        "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.SizeBox_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.77"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "LeaderInfoText",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -186.0,
+          "Right": 40.0,
+          "Bottom": 44.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.LeaderInfoText'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.30"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.LeaderIcon'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.49"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "TeamDefaultText",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 400.0,
+          "Bottom": 24.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.TeamDefaultText'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.31"
+      },
+      "Content": {
+        "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.SizeBox_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.76"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "TeamInfoText",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 400.0,
+          "Bottom": 24.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.TeamInfoText'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.32"
+      },
+      "Content": {
+        "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.SizeBox_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.75"
+      }
+    }
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "CallFunc_GetRegionCode_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_StartMenuTeamInfoTab",
+    "Class": "UScriptClass'EnumProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": {
+      "ObjectName": "Enum'EAMDaemonRegionCode'",
+      "ObjectPath": "/Script/AMDaemon"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'WBP_StartMenuTeamInfoTab_C:ExecuteUbergraph_WBP_StartMenuTeamInfoTab.CallFunc_GetRegionCode_ReturnValue.UnderlyingType'",
+      "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.24"
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "base",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 452.0,
+          "Y": 36.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_StartMenuTeanInfomationWindow'",
+          "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/Texture/T_StartMenuTeanInfomationWindow.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_StartMenuTeamInfoTab_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.33"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "LeaderIcon",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 40.0,
+          "Y": 44.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_StartMenuTeanInfoLeaderIcon'",
+          "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/Texture/T_StartMenuTeanInfoLeaderIcon.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_StartMenuTeamInfoTab_C:WidgetTree.LeaderInfoText.CanvasPanelSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.36"
+      },
+      "RenderTransform": {
+        "Scale": {
+          "X": 0.6,
+          "Y": 0.6
+        }
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "base",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 452.0,
+          "Y": 36.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_StartMenuTeanInfomationWindow'",
+          "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/Texture/T_StartMenuTeanInfomationWindow.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.39"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "LeaderIcon",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 40.0,
+          "Y": 44.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_StartMenuTeanInfoLeaderIcon'",
+          "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/Texture/T_StartMenuTeanInfoLeaderIcon.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.LeaderInfoText.CanvasPanelSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.42"
+      },
+      "RenderTransform": {
+        "Scale": {
+          "X": 0.6,
+          "Y": 0.6
+        }
+      }
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_Clamp_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_StartMenuTeamInfoTab",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_RandomIntegerInRange_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_StartMenuTeamInfoTab",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_SelectInt_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_StartMenuTeamInfoTab",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "K2Node_CustomEvent_MsgNo",
+    "Outer": "ExecuteUbergraph_WBP_StartMenuTeamInfoTab",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "K2Node_Event_ActionIndex",
+    "Outer": "ExecuteUbergraph_WBP_StartMenuTeamInfoTab",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "NameProperty",
+    "Name": "CallFunc_Conv_StringToName_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_StartMenuTeamInfoTab",
+    "Class": "UScriptClass'NameProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "LeaderIcon",
+    "Outer": "WBP_StartMenuTeamInfoTab_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'Image'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "TextBlock",
+    "Outer": "WBP_StartMenuTeamInfoTab_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance | InstancedReference",
+    "PropertyClass": {
+      "ObjectName": "Class'TextBlock'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "TextDefault",
+    "Outer": "WBP_StartMenuTeamInfoTab_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance | InstancedReference",
+    "PropertyClass": {
+      "ObjectName": "Class'TextBlock'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "WidgetSwitcher_92",
+    "Outer": "WBP_StartMenuTeamInfoTab_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'WidgetSwitcher'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ScaleBox",
+    "Name": "ScaleBox_0",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'ScaleBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "ScaleBoxSlot'WBP_StartMenuTeamInfoTab_C:WidgetTree.ScaleBox_0.ScaleBoxSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.66"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "SizeBoxSlot'WBP_StartMenuTeamInfoTab_C:WidgetTree.SizeBox_0.SizeBoxSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.78"
+      }
+    }
+  },
+  {
+    "Type": "ScaleBox",
+    "Name": "ScaleBox_1",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'ScaleBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "ScaleBoxSlot'WBP_StartMenuTeamInfoTab_C:WidgetTree.ScaleBox_1.ScaleBoxSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.67"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "SizeBoxSlot'WBP_StartMenuTeamInfoTab_C:WidgetTree.SizeBox_1.SizeBoxSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.79"
+      }
+    }
+  },
+  {
+    "Type": "ScaleBox",
+    "Name": "ScaleBox_2",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'ScaleBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "ScaleBoxSlot'WBP_StartMenuTeamInfoTab_C:WidgetTree.ScaleBox_2.ScaleBoxSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.68"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "SizeBoxSlot'WBP_StartMenuTeamInfoTab_C:WidgetTree.SizeBox_2.SizeBoxSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.80"
+      }
+    }
+  },
+  {
+    "Type": "ScaleBox",
+    "Name": "ScaleBox_0",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'ScaleBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "ScaleBoxSlot'WidgetArchetype:WidgetTree_0.ScaleBox_0.ScaleBoxSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.69"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "SizeBoxSlot'WidgetArchetype:WidgetTree_0.SizeBox_0.SizeBoxSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.81"
+      }
+    }
+  },
+  {
+    "Type": "ScaleBox",
+    "Name": "ScaleBox_1",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'ScaleBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "ScaleBoxSlot'WidgetArchetype:WidgetTree_0.ScaleBox_1.ScaleBoxSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.70"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "SizeBoxSlot'WidgetArchetype:WidgetTree_0.SizeBox_1.SizeBoxSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.82"
+      }
+    }
+  },
+  {
+    "Type": "ScaleBox",
+    "Name": "ScaleBox_2",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'ScaleBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "ScaleBoxSlot'WidgetArchetype:WidgetTree_0.ScaleBox_2.ScaleBoxSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.71"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "SizeBoxSlot'WidgetArchetype:WidgetTree_0.SizeBox_2.SizeBoxSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.83"
+      }
+    }
+  },
+  {
+    "Type": "ScaleBoxSlot",
+    "Name": "ScaleBoxSlot_0",
+    "Outer": "ScaleBox_0",
+    "Class": "UScriptClass'ScaleBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "ScaleBox'WBP_StartMenuTeamInfoTab_C:WidgetTree.ScaleBox_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.60"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WBP_StartMenuTeamInfoTab_C:WidgetTree.Text【ドライバー名】がチームポ'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.103"
+      }
+    }
+  },
+  {
+    "Type": "ScaleBoxSlot",
+    "Name": "ScaleBoxSlot_0",
+    "Outer": "ScaleBox_1",
+    "Class": "UScriptClass'ScaleBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "ScaleBox'WBP_StartMenuTeamInfoTab_C:WidgetTree.ScaleBox_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.61"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WBP_StartMenuTeamInfoTab_C:WidgetTree.TextDefault'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.102"
+      }
+    }
+  },
+  {
+    "Type": "ScaleBoxSlot",
+    "Name": "ScaleBoxSlot_0",
+    "Outer": "ScaleBox_2",
+    "Class": "UScriptClass'ScaleBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "ScaleBox'WBP_StartMenuTeamInfoTab_C:WidgetTree.ScaleBox_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.62"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WBP_StartMenuTeamInfoTab_C:WidgetTree.TextBlock'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.101"
+      }
+    }
+  },
+  {
+    "Type": "ScaleBoxSlot",
+    "Name": "ScaleBoxSlot_0",
+    "Outer": "ScaleBox_0",
+    "Class": "UScriptClass'ScaleBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "ScaleBox'WidgetArchetype:WidgetTree_0.ScaleBox_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.63"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.Text【ドライバー名】がチームポ'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.106"
+      }
+    }
+  },
+  {
+    "Type": "ScaleBoxSlot",
+    "Name": "ScaleBoxSlot_0",
+    "Outer": "ScaleBox_1",
+    "Class": "UScriptClass'ScaleBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "ScaleBox'WidgetArchetype:WidgetTree_0.ScaleBox_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.64"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.TextDefault'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.105"
+      }
+    }
+  },
+  {
+    "Type": "ScaleBoxSlot",
+    "Name": "ScaleBoxSlot_0",
+    "Outer": "ScaleBox_2",
+    "Class": "UScriptClass'ScaleBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "ScaleBox'WidgetArchetype:WidgetTree_0.ScaleBox_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.65"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.TextBlock'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.104"
+      }
+    }
+  },
+  {
+    "Type": "SizeBox",
+    "Name": "SizeBox_0",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'SizeBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "SizeBoxSlot'WBP_StartMenuTeamInfoTab_C:WidgetTree.SizeBox_0.SizeBoxSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.78"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_StartMenuTeamInfoTab_C:WidgetTree.TeamInfoText.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.38"
+      }
+    }
+  },
+  {
+    "Type": "SizeBox",
+    "Name": "SizeBox_1",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'SizeBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "SizeBoxSlot'WBP_StartMenuTeamInfoTab_C:WidgetTree.SizeBox_1.SizeBoxSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.79"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_StartMenuTeamInfoTab_C:WidgetTree.TeamDefaultText.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.37"
+      }
+    }
+  },
+  {
+    "Type": "SizeBox",
+    "Name": "SizeBox_2",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'SizeBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "SizeBoxSlot'WBP_StartMenuTeamInfoTab_C:WidgetTree.SizeBox_2.SizeBoxSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.80"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_StartMenuTeamInfoTab_C:WidgetTree.LeaderInfoText.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.35"
+      }
+    }
+  },
+  {
+    "Type": "SizeBox",
+    "Name": "SizeBox_0",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'SizeBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "SizeBoxSlot'WidgetArchetype:WidgetTree_0.SizeBox_0.SizeBoxSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.81"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.TeamInfoText.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.44"
+      }
+    }
+  },
+  {
+    "Type": "SizeBox",
+    "Name": "SizeBox_1",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'SizeBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "SizeBoxSlot'WidgetArchetype:WidgetTree_0.SizeBox_1.SizeBoxSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.82"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.TeamDefaultText.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.43"
+      }
+    }
+  },
+  {
+    "Type": "SizeBox",
+    "Name": "SizeBox_2",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'SizeBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "SizeBoxSlot'WidgetArchetype:WidgetTree_0.SizeBox_2.SizeBoxSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.83"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.LeaderInfoText.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.41"
+      }
+    }
+  },
+  {
+    "Type": "SizeBoxSlot",
+    "Name": "SizeBoxSlot_0",
+    "Outer": "SizeBox_0",
+    "Class": "UScriptClass'SizeBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "SizeBox'WBP_StartMenuTeamInfoTab_C:WidgetTree.SizeBox_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.72"
+      },
+      "Content": {
+        "ObjectName": "ScaleBox'WBP_StartMenuTeamInfoTab_C:WidgetTree.ScaleBox_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.60"
+      }
+    }
+  },
+  {
+    "Type": "SizeBoxSlot",
+    "Name": "SizeBoxSlot_0",
+    "Outer": "SizeBox_1",
+    "Class": "UScriptClass'SizeBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "SizeBox'WBP_StartMenuTeamInfoTab_C:WidgetTree.SizeBox_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.73"
+      },
+      "Content": {
+        "ObjectName": "ScaleBox'WBP_StartMenuTeamInfoTab_C:WidgetTree.ScaleBox_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.61"
+      }
+    }
+  },
+  {
+    "Type": "SizeBoxSlot",
+    "Name": "SizeBoxSlot_0",
+    "Outer": "SizeBox_2",
+    "Class": "UScriptClass'SizeBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "SizeBox'WBP_StartMenuTeamInfoTab_C:WidgetTree.SizeBox_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.74"
+      },
+      "Content": {
+        "ObjectName": "ScaleBox'WBP_StartMenuTeamInfoTab_C:WidgetTree.ScaleBox_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.62"
+      }
+    }
+  },
+  {
+    "Type": "SizeBoxSlot",
+    "Name": "SizeBoxSlot_0",
+    "Outer": "SizeBox_0",
+    "Class": "UScriptClass'SizeBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.SizeBox_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.75"
+      },
+      "Content": {
+        "ObjectName": "ScaleBox'WidgetArchetype:WidgetTree_0.ScaleBox_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.63"
+      }
+    }
+  },
+  {
+    "Type": "SizeBoxSlot",
+    "Name": "SizeBoxSlot_0",
+    "Outer": "SizeBox_1",
+    "Class": "UScriptClass'SizeBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.SizeBox_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.76"
+      },
+      "Content": {
+        "ObjectName": "ScaleBox'WidgetArchetype:WidgetTree_0.ScaleBox_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.64"
+      }
+    }
+  },
+  {
+    "Type": "SizeBoxSlot",
+    "Name": "SizeBoxSlot_0",
+    "Outer": "SizeBox_2",
+    "Class": "UScriptClass'SizeBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.SizeBox_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.77"
+      },
+      "Content": {
+        "ObjectName": "ScaleBox'WidgetArchetype:WidgetTree_0.ScaleBox_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.65"
+      }
+    }
+  },
+  {
+    "Type": "StrProperty",
+    "Name": "CallFunc_Concat_StrStr_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_StartMenuTeamInfoTab",
+    "Class": "UScriptClass'StrProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "StrProperty",
+    "Name": "CallFunc_Concat_StrStr_ReturnValue_1",
+    "Outer": "ExecuteUbergraph_WBP_StartMenuTeamInfoTab",
+    "Class": "UScriptClass'StrProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "StrProperty",
+    "Name": "CallFunc_Concat_StrStr_ReturnValue_2",
+    "Outer": "ExecuteUbergraph_WBP_StartMenuTeamInfoTab",
+    "Class": "UScriptClass'StrProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "StrProperty",
+    "Name": "CallFunc_Concat_StrStr_ReturnValue_3",
+    "Outer": "ExecuteUbergraph_WBP_StartMenuTeamInfoTab",
+    "Class": "UScriptClass'StrProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "StrProperty",
+    "Name": "CallFunc_Conv_IntToString_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_StartMenuTeamInfoTab",
+    "Class": "UScriptClass'StrProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "StrProperty",
+    "Name": "CallFunc_Debug_MakeDummyName_OutNameString",
+    "Outer": "ExecuteUbergraph_WBP_StartMenuTeamInfoTab",
+    "Class": "UScriptClass'StrProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "StrProperty",
+    "Name": "CallFunc_GetPathName_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_StartMenuTeamInfoTab",
+    "Class": "UScriptClass'StrProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "StrProperty",
+    "Name": "CallFunc_GetPathName_ReturnValue_1",
+    "Outer": "ExecuteUbergraph_WBP_StartMenuTeamInfoTab",
+    "Class": "UScriptClass'StrProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "StrProperty",
+    "Name": "CallFunc_GetTableEntrySourceString_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_StartMenuTeamInfoTab",
+    "Class": "UScriptClass'StrProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "StrProperty",
+    "Name": "CallFunc_MakeLiteralString_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_StartMenuTeamInfoTab",
+    "Class": "UScriptClass'StrProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "StrProperty",
+    "Name": "CallFunc_MakeLiteralString_ReturnValue_1",
+    "Outer": "ExecuteUbergraph_WBP_StartMenuTeamInfoTab",
+    "Class": "UScriptClass'StrProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "StrProperty",
+    "Name": "CallFunc_SelectString_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_StartMenuTeamInfoTab",
+    "Class": "UScriptClass'StrProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "StrProperty",
+    "Name": "CallFunc_SelectString_ReturnValue_1",
+    "Outer": "ExecuteUbergraph_WBP_StartMenuTeamInfoTab",
+    "Class": "UScriptClass'StrProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "StrProperty",
+    "Name": "K2Node_CustomEvent_DriverName",
+    "Outer": "ExecuteUbergraph_WBP_StartMenuTeamInfoTab",
+    "Class": "UScriptClass'StrProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "StrProperty",
+    "Name": "DriverName",
+    "Outer": "SetDriverNameAndMsg",
+    "Class": "UScriptClass'StrProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "K2Node_MakeStruct_LinearColor",
+    "Outer": "ExecuteUbergraph_WBP_StartMenuTeamInfoTab",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Struct": {
+      "ObjectName": "ScriptStruct'LinearColor'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "K2Node_MakeStruct_SlateColor",
+    "Outer": "ExecuteUbergraph_WBP_StartMenuTeamInfoTab",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Struct": {
+      "ObjectName": "ScriptStruct'SlateColor'",
+      "ObjectPath": "/Script/SlateCore"
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "TextBlock",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "EEE5CDFE4284539FB6C0EBBF1545F2B8",
+        "SourceString": "A leader authority was transferd to 【McDonald】",
+        "LocalizedString": "A leader authority was transferd to 【McDonald】"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 0.564712,
+          "G": 1.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "C6FF00"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "TypefaceFontName": "RodinN_EB",
+        "Size": 10
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "ScaleBoxSlot'WBP_StartMenuTeamInfoTab_C:WidgetTree.ScaleBox_2.ScaleBoxSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.68"
+      }
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "TextDefault",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "0993487343158BC59107EEB1F696259A",
+        "SourceString": "Leader authority was transferred to 【Driver Name】",
+        "LocalizedString": "Leader authority was transferred to 【Driver Name】"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 0.978311,
+          "G": 1.0,
+          "B": 0.936638,
+          "A": 1.0,
+          "Hex": "FDFFF8"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "TypefaceFontName": "RodinN_EB",
+        "Size": 10
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "ScaleBoxSlot'WBP_StartMenuTeamInfoTab_C:WidgetTree.ScaleBox_1.ScaleBoxSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.67"
+      }
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "Text【ドライバー名】がチームポ",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "3378F3774383D705AFF3D6B83EAFD4A9",
+        "SourceString": "【Driver Name】 earned 100000 Team Points",
+        "LocalizedString": "【Driver Name】 earned 100000 Team Points"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "TypefaceFontName": "RodinN_EB",
+        "Size": 10
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "ScaleBoxSlot'WBP_StartMenuTeamInfoTab_C:WidgetTree.ScaleBox_0.ScaleBoxSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.66"
+      }
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "TextBlock",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "EEE5CDFE4284539FB6C0EBBF1545F2B8",
+        "SourceString": "A leader authority was transferd to 【McDonald】",
+        "LocalizedString": "A leader authority was transferd to 【McDonald】"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 0.564712,
+          "G": 1.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "C6FF00"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "TypefaceFontName": "RodinN_EB",
+        "Size": 10
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "ScaleBoxSlot'WidgetArchetype:WidgetTree_0.ScaleBox_2.ScaleBoxSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.71"
+      }
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "TextDefault",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "0993487343158BC59107EEB1F696259A",
+        "SourceString": "Leader authority was transferred to 【Driver Name】",
+        "LocalizedString": "Leader authority was transferred to 【Driver Name】"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 0.978311,
+          "G": 1.0,
+          "B": 0.936638,
+          "A": 1.0,
+          "Hex": "FDFFF8"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "TypefaceFontName": "RodinN_EB",
+        "Size": 10
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "ScaleBoxSlot'WidgetArchetype:WidgetTree_0.ScaleBox_1.ScaleBoxSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.70"
+      }
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "Text【ドライバー名】がチームポ",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "3378F3774383D705AFF3D6B83EAFD4A9",
+        "SourceString": "【Driver Name】 earned 100000 Team Points",
+        "LocalizedString": "【Driver Name】 earned 100000 Team Points"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "TypefaceFontName": "RodinN_EB",
+        "Size": 10
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "ScaleBoxSlot'WidgetArchetype:WidgetTree_0.ScaleBox_0.ScaleBoxSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.69"
+      }
+    }
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "CallFunc_Conv_StringToText_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_StartMenuTeamInfoTab",
+    "Class": "UScriptClass'TextProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "WBP_StartMenuTeamInfoTab_C",
+    "Name": "WidgetArchetype",
+    "Class": "WidgetBlueprintGeneratedClass'GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.WBP_StartMenuTeamInfoTab_C'",
+    "Template": {
+      "ObjectName": "WBP_StartMenuTeamInfoTab_C'Default__WBP_StartMenuTeamInfoTab_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.2"
+    },
+    "Flags": "RF_Public | RF_Standalone | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "base": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.base'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.48"
+      },
+      "LeaderIcon": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.LeaderIcon'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.49"
+      },
+      "WidgetSwitcher_92": {
+        "ObjectName": "WidgetSwitcher'WidgetArchetype:WidgetTree_0.WidgetSwitcher_92'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.110"
+      },
+      "TextBlock": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.TextBlock'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.104"
+      },
+      "TextDefault": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.TextDefault'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.105"
+      },
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.118"
+      },
+      "bCookedWidgetTree": true
+    }
+  },
+  {
+    "Type": "WidgetSwitcher",
+    "Name": "WidgetSwitcher_92",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'WidgetSwitcher'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "WidgetSwitcherSlot'WBP_StartMenuTeamInfoTab_C:WidgetTree.WidgetSwitcher_92.WidgetSwitcherSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.111"
+        },
+        {
+          "ObjectName": "WidgetSwitcherSlot'WBP_StartMenuTeamInfoTab_C:WidgetTree.WidgetSwitcher_92.WidgetSwitcherSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.112"
+        },
+        {
+          "ObjectName": "WidgetSwitcherSlot'WBP_StartMenuTeamInfoTab_C:WidgetTree.WidgetSwitcher_92.WidgetSwitcherSlot_3'",
+          "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.113"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_StartMenuTeamInfoTab_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.34"
+      }
+    }
+  },
+  {
+    "Type": "WidgetSwitcher",
+    "Name": "WidgetSwitcher_92",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'WidgetSwitcher'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "WidgetSwitcherSlot'WidgetArchetype:WidgetTree_0.WidgetSwitcher_92.WidgetSwitcherSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.114"
+        },
+        {
+          "ObjectName": "WidgetSwitcherSlot'WidgetArchetype:WidgetTree_0.WidgetSwitcher_92.WidgetSwitcherSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.115"
+        },
+        {
+          "ObjectName": "WidgetSwitcherSlot'WidgetArchetype:WidgetTree_0.WidgetSwitcher_92.WidgetSwitcherSlot_3'",
+          "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.116"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.40"
+      }
+    }
+  },
+  {
+    "Type": "WidgetSwitcherSlot",
+    "Name": "WidgetSwitcherSlot_0",
+    "Outer": "WidgetSwitcher_92",
+    "Class": "UScriptClass'WidgetSwitcherSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "WidgetSwitcher'WBP_StartMenuTeamInfoTab_C:WidgetTree.WidgetSwitcher_92'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.109"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WBP_StartMenuTeamInfoTab_C:WidgetTree.TeamInfoText'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.28"
+      }
+    }
+  },
+  {
+    "Type": "WidgetSwitcherSlot",
+    "Name": "WidgetSwitcherSlot_1",
+    "Outer": "WidgetSwitcher_92",
+    "Class": "UScriptClass'WidgetSwitcherSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "WidgetSwitcher'WBP_StartMenuTeamInfoTab_C:WidgetTree.WidgetSwitcher_92'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.109"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WBP_StartMenuTeamInfoTab_C:WidgetTree.LeaderInfoText'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.26"
+      }
+    }
+  },
+  {
+    "Type": "WidgetSwitcherSlot",
+    "Name": "WidgetSwitcherSlot_3",
+    "Outer": "WidgetSwitcher_92",
+    "Class": "UScriptClass'WidgetSwitcherSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "WidgetSwitcher'WBP_StartMenuTeamInfoTab_C:WidgetTree.WidgetSwitcher_92'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.109"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WBP_StartMenuTeamInfoTab_C:WidgetTree.TeamDefaultText'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.27"
+      }
+    }
+  },
+  {
+    "Type": "WidgetSwitcherSlot",
+    "Name": "WidgetSwitcherSlot_0",
+    "Outer": "WidgetSwitcher_92",
+    "Class": "UScriptClass'WidgetSwitcherSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "WidgetSwitcher'WidgetArchetype:WidgetTree_0.WidgetSwitcher_92'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.110"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.TeamInfoText'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.32"
+      }
+    }
+  },
+  {
+    "Type": "WidgetSwitcherSlot",
+    "Name": "WidgetSwitcherSlot_1",
+    "Outer": "WidgetSwitcher_92",
+    "Class": "UScriptClass'WidgetSwitcherSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "WidgetSwitcher'WidgetArchetype:WidgetTree_0.WidgetSwitcher_92'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.110"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.LeaderInfoText'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.30"
+      }
+    }
+  },
+  {
+    "Type": "WidgetSwitcherSlot",
+    "Name": "WidgetSwitcherSlot_3",
+    "Outer": "WidgetSwitcher_92",
+    "Class": "UScriptClass'WidgetSwitcherSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "WidgetSwitcher'WidgetArchetype:WidgetTree_0.WidgetSwitcher_92'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.110"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.TeamDefaultText'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.31"
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Outer": "WBP_StartMenuTeamInfoTab_C",
+    "Class": "UScriptClass'WidgetTree'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CanvasPanel'WBP_StartMenuTeamInfoTab_C:WidgetTree.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.25"
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree_0",
+    "Outer": "WidgetArchetype",
+    "Class": "UScriptClass'WidgetTree'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Team/WBP_StartMenuTeamInfoTab.29"
+      }
+    }
+  }
+]

@@ -1,0 +1,2507 @@
+[
+  {
+    "Type": "StructProperty",
+    "Name": "UberGraphFrame",
+    "Outer": "WBP_RaceRivalTeam_C",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "Transient | DuplicateTransient",
+    "Struct": {
+      "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "WBP_RaceRivalTeam_C",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WBP_RaceRivalTeam_C:WidgetTree'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.136"
+      },
+      "bAllowTemplate": true,
+      "bValidTemplate": true,
+      "TemplateAsset": {
+        "AssetPathName": "/Game/IND/UI/Team/Common/WBP_RaceRivalTeam.WidgetArchetype",
+        "SubPathString": ""
+      },
+      "UberGraphFramePointerProperty": {
+        "ObjectName": "StructProperty'WBP_RaceRivalTeam_C:UberGraphFrame'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.0"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'WBP_RaceRivalTeam_C:ExecuteUbergraph_WBP_RaceRivalTeam'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.5"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'CustomWidgetBase'",
+      "ObjectPath": "/Script/GameProject"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'WBP_RaceRivalTeam_C:UberGraphFrame'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.0"
+      },
+      {
+        "ObjectName": "Function'WBP_RaceRivalTeam_C:OnLoaded_C56AE8404708ECF8835684AF18A8DD30'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.94"
+      },
+      {
+        "ObjectName": "Function'WBP_RaceRivalTeam_C:PreConstruct'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.42"
+      },
+      {
+        "ObjectName": "Function'WBP_RaceRivalTeam_C:Change_TeamLeagueIcon'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.41"
+      },
+      {
+        "ObjectName": "Function'WBP_RaceRivalTeam_C:Change_TeamClass'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.38"
+      },
+      {
+        "ObjectName": "Function'WBP_RaceRivalTeam_C:SetTeamLeaderIcon'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.35"
+      },
+      {
+        "ObjectName": "Function'WBP_RaceRivalTeam_C:SetTeamNoJoin'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.33"
+      },
+      {
+        "ObjectName": "Function'WBP_RaceRivalTeam_C:Change_TeamName'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.32"
+      },
+      {
+        "ObjectName": "Function'WBP_RaceRivalTeam_C:Setup_RaceRivalTeam'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.30"
+      },
+      {
+        "ObjectName": "Function'WBP_RaceRivalTeam_C:CallCustomActionbyID'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.28"
+      },
+      {
+        "ObjectName": "Function'WBP_RaceRivalTeam_C:ExecuteUbergraph_WBP_RaceRivalTeam'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.5"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_RaceRivalTeam_C:Base'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.3"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_RaceRivalTeam_C:P_Image_LeaderIcon'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.118"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_RaceRivalTeam_C:P_Image_TeamLeagueIcon'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.119"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_RaceRivalTeam_C:P_Text_TeamName'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.120"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_RaceRivalTeam_C:TeamInfomation'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.121"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_RaceRivalTeam_C:WBP_Team_ClassIcon'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.122"
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_WBP_RaceRivalTeam": {
+        "ObjectName": "Function'WBP_RaceRivalTeam_C:ExecuteUbergraph_WBP_RaceRivalTeam'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.5"
+      },
+      "CallCustomActionbyID": {
+        "ObjectName": "Function'WBP_RaceRivalTeam_C:CallCustomActionbyID'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.28"
+      },
+      "Setup_RaceRivalTeam": {
+        "ObjectName": "Function'WBP_RaceRivalTeam_C:Setup_RaceRivalTeam'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.30"
+      },
+      "Change_TeamName": {
+        "ObjectName": "Function'WBP_RaceRivalTeam_C:Change_TeamName'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.32"
+      },
+      "SetTeamNoJoin": {
+        "ObjectName": "Function'WBP_RaceRivalTeam_C:SetTeamNoJoin'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.33"
+      },
+      "SetTeamLeaderIcon": {
+        "ObjectName": "Function'WBP_RaceRivalTeam_C:SetTeamLeaderIcon'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.35"
+      },
+      "Change_TeamClass": {
+        "ObjectName": "Function'WBP_RaceRivalTeam_C:Change_TeamClass'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.38"
+      },
+      "Change_TeamLeagueIcon": {
+        "ObjectName": "Function'WBP_RaceRivalTeam_C:Change_TeamLeagueIcon'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.41"
+      },
+      "PreConstruct": {
+        "ObjectName": "Function'WBP_RaceRivalTeam_C:PreConstruct'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.42"
+      },
+      "OnLoaded_C56AE8404708ECF8835684AF18A8DD30": {
+        "ObjectName": "Function'WBP_RaceRivalTeam_C:OnLoaded_C56AE8404708ECF8835684AF18A8DD30'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.94"
+      }
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "WBP_RaceRivalTeam_C'Default__WBP_RaceRivalTeam_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.2"
+    }
+  },
+  {
+    "Type": "WBP_RaceRivalTeam_C",
+    "Name": "Default__WBP_RaceRivalTeam_C",
+    "Class": "WidgetBlueprintGeneratedClass'GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.WBP_RaceRivalTeam_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "UberGraphFrame": {},
+      "WidgetViewerAdjustPos": {
+        "X": 300.0,
+        "Y": 300.0
+      },
+      "CustomActionStringArray": [
+        "ランダム設定",
+        "非加入"
+      ],
+      "bHasScriptImplementedTick": false,
+      "bHasScriptImplementedPaint": false
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Base",
+    "Outer": "WBP_RaceRivalTeam_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'Image'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "EntryPoint",
+    "Outer": "ExecuteUbergraph_WBP_RaceRivalTeam",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_WBP_RaceRivalTeam",
+    "Outer": "WBP_RaceRivalTeam_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "IntProperty'WBP_RaceRivalTeam_C:ExecuteUbergraph_WBP_RaceRivalTeam.EntryPoint'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.4"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_RaceRivalTeam_C:ExecuteUbergraph_WBP_RaceRivalTeam.CallFunc_RandomIntegerInRange_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.113"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_RaceRivalTeam_C:ExecuteUbergraph_WBP_RaceRivalTeam.Temp_bool_Variable'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.22"
+      },
+      {
+        "ObjectName": "ByteProperty'WBP_RaceRivalTeam_C:ExecuteUbergraph_WBP_RaceRivalTeam.CallFunc_Conv_IntToByte_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.45"
+      },
+      {
+        "ObjectName": "ByteProperty'WBP_RaceRivalTeam_C:ExecuteUbergraph_WBP_RaceRivalTeam.CallFunc_GetValidValue_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.47"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_RaceRivalTeam_C:ExecuteUbergraph_WBP_RaceRivalTeam.Temp_object_Variable'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.117"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_RaceRivalTeam_C:ExecuteUbergraph_WBP_RaceRivalTeam.CallFunc_IsShippingBuild_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.6"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_RaceRivalTeam_C:ExecuteUbergraph_WBP_RaceRivalTeam.K2Node_DynamicCast_AsTexture_2D'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.116"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_RaceRivalTeam_C:ExecuteUbergraph_WBP_RaceRivalTeam.K2Node_DynamicCast_bSuccess'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.18"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_RaceRivalTeam_C:ExecuteUbergraph_WBP_RaceRivalTeam.CallFunc_IsValid_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.7"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_RaceRivalTeam_C:ExecuteUbergraph_WBP_RaceRivalTeam.K2Node_CustomEvent_Loaded'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.92"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_RaceRivalTeam_C:ExecuteUbergraph_WBP_RaceRivalTeam.Temp_float_Variable'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.88"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_RaceRivalTeam_C:ExecuteUbergraph_WBP_RaceRivalTeam.K2Node_Event_IsDesignTime'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.20"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_RaceRivalTeam_C:ExecuteUbergraph_WBP_RaceRivalTeam.Temp_float_Variable_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.89"
+      },
+      {
+        "ObjectName": "EnumProperty'WBP_RaceRivalTeam_C:ExecuteUbergraph_WBP_RaceRivalTeam.K2Node_CustomEvent_LeagueRank_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.75"
+      },
+      {
+        "ObjectName": "SoftObjectProperty'WBP_RaceRivalTeam_C:ExecuteUbergraph_WBP_RaceRivalTeam.CallFunc_GetTeamLeagueImageRef_TextureRef'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.124"
+      },
+      {
+        "ObjectName": "SoftObjectProperty'WBP_RaceRivalTeam_C:ExecuteUbergraph_WBP_RaceRivalTeam.CallFunc_GetTeamLeagueImageRef_SmallTextureRef'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.123"
+      },
+      {
+        "ObjectName": "EnumProperty'WBP_RaceRivalTeam_C:ExecuteUbergraph_WBP_RaceRivalTeam.K2Node_CustomEvent_TeamClass_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.77"
+      },
+      {
+        "ObjectName": "SoftObjectProperty'WBP_RaceRivalTeam_C:ExecuteUbergraph_WBP_RaceRivalTeam.K2Node_Select_Default'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.125"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_RaceRivalTeam_C:ExecuteUbergraph_WBP_RaceRivalTeam.CallFunc_NotEqual_ByteByte_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.13"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_RaceRivalTeam_C:ExecuteUbergraph_WBP_RaceRivalTeam.CallFunc_IsValidSoftObjectReference_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.8"
+      },
+      {
+        "ObjectName": "InterfaceProperty'WBP_RaceRivalTeam_C:ExecuteUbergraph_WBP_RaceRivalTeam.K2Node_DynamicCast_AsBPI_Control_Select_Focus'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.112"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_RaceRivalTeam_C:ExecuteUbergraph_WBP_RaceRivalTeam.K2Node_DynamicCast_bSuccess_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.19"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_RaceRivalTeam_C:ExecuteUbergraph_WBP_RaceRivalTeam.Temp_bool_Variable_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.23"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_RaceRivalTeam_C:ExecuteUbergraph_WBP_RaceRivalTeam.K2Node_CustomEvent_Leader'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.17"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_RaceRivalTeam_C:ExecuteUbergraph_WBP_RaceRivalTeam.Temp_bool_Variable_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.24"
+      },
+      {
+        "ObjectName": "TextProperty'WBP_RaceRivalTeam_C:ExecuteUbergraph_WBP_RaceRivalTeam.K2Node_CustomEvent_Name'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.130"
+      },
+      {
+        "ObjectName": "StructProperty'WBP_RaceRivalTeam_C:ExecuteUbergraph_WBP_RaceRivalTeam.CallFunc_GetDesiredSize_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.126"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_RaceRivalTeam_C:ExecuteUbergraph_WBP_RaceRivalTeam.CallFunc_BreakVector2D_X'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.80"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_RaceRivalTeam_C:ExecuteUbergraph_WBP_RaceRivalTeam.CallFunc_BreakVector2D_Y'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.81"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_RaceRivalTeam_C:ExecuteUbergraph_WBP_RaceRivalTeam.CallFunc_Divide_FloatFloat_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.82"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_RaceRivalTeam_C:ExecuteUbergraph_WBP_RaceRivalTeam.CallFunc_Less_FloatFloat_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.9"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_RaceRivalTeam_C:ExecuteUbergraph_WBP_RaceRivalTeam.CallFunc_Less_FloatFloat_ReturnValue_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.10"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_RaceRivalTeam_C:ExecuteUbergraph_WBP_RaceRivalTeam.CallFunc_Divide_FloatFloat_ReturnValue_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.83"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_RaceRivalTeam_C:ExecuteUbergraph_WBP_RaceRivalTeam.Temp_float_Variable_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.90"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_RaceRivalTeam_C:ExecuteUbergraph_WBP_RaceRivalTeam.K2Node_Select_Default_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.84"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_RaceRivalTeam_C:ExecuteUbergraph_WBP_RaceRivalTeam.CallFunc_Less_FloatFloat_ReturnValue_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.11"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_RaceRivalTeam_C:ExecuteUbergraph_WBP_RaceRivalTeam.K2Node_CustomEvent_bJoinTeam'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.15"
+      },
+      {
+        "ObjectName": "EnumProperty'WBP_RaceRivalTeam_C:ExecuteUbergraph_WBP_RaceRivalTeam.K2Node_CustomEvent_LeagueRank'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.74"
+      },
+      {
+        "ObjectName": "EnumProperty'WBP_RaceRivalTeam_C:ExecuteUbergraph_WBP_RaceRivalTeam.K2Node_CustomEvent_TeamClass'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.76"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_RaceRivalTeam_C:ExecuteUbergraph_WBP_RaceRivalTeam.K2Node_CustomEvent_bLeader'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.16"
+      },
+      {
+        "ObjectName": "TextProperty'WBP_RaceRivalTeam_C:ExecuteUbergraph_WBP_RaceRivalTeam.K2Node_CustomEvent_TeamName'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.131"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_RaceRivalTeam_C:ExecuteUbergraph_WBP_RaceRivalTeam.Temp_bool_Variable_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.25"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_RaceRivalTeam_C:ExecuteUbergraph_WBP_RaceRivalTeam.K2Node_Select_Default_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.85"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_RaceRivalTeam_C:ExecuteUbergraph_WBP_RaceRivalTeam.Temp_float_Variable_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.91"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_RaceRivalTeam_C:ExecuteUbergraph_WBP_RaceRivalTeam.K2Node_Event_ActionIndex'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.115"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_RaceRivalTeam_C:ExecuteUbergraph_WBP_RaceRivalTeam.K2Node_SwitchInteger_CmpSuccess'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.21"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_RaceRivalTeam_C:ExecuteUbergraph_WBP_RaceRivalTeam.Temp_bool_Variable_4'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.26"
+      },
+      {
+        "ObjectName": "DelegateProperty'WBP_RaceRivalTeam_C:ExecuteUbergraph_WBP_RaceRivalTeam.K2Node_CreateDelegate_OutputDelegate'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.73"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_RaceRivalTeam_C:ExecuteUbergraph_WBP_RaceRivalTeam.K2Node_Select_Default_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.86"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_RaceRivalTeam_C:ExecuteUbergraph_WBP_RaceRivalTeam.CallFunc_Less_FloatFloat_ReturnValue_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.12"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_RaceRivalTeam_C:ExecuteUbergraph_WBP_RaceRivalTeam.CallFunc_RandomBool_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.14"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_RaceRivalTeam_C:ExecuteUbergraph_WBP_RaceRivalTeam.K2Node_Select_Default_4'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.87"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_RaceRivalTeam_C:ExecuteUbergraph_WBP_RaceRivalTeam.CallFunc_RandomIntegerInRange_ReturnValue_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.114"
+      },
+      {
+        "ObjectName": "StructProperty'WBP_RaceRivalTeam_C:ExecuteUbergraph_WBP_RaceRivalTeam.CallFunc_MakeVector2D_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.127"
+      },
+      {
+        "ObjectName": "ByteProperty'WBP_RaceRivalTeam_C:ExecuteUbergraph_WBP_RaceRivalTeam.CallFunc_Conv_IntToByte_ReturnValue_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.46"
+      },
+      {
+        "ObjectName": "ByteProperty'WBP_RaceRivalTeam_C:ExecuteUbergraph_WBP_RaceRivalTeam.CallFunc_GetValidValue_ReturnValue_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.48"
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction | FUNC_HasDefaults"
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_IsShippingBuild_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_RaceRivalTeam",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_IsValid_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_RaceRivalTeam",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_IsValidSoftObjectReference_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_RaceRivalTeam",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_Less_FloatFloat_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_RaceRivalTeam",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_Less_FloatFloat_ReturnValue_1",
+    "Outer": "ExecuteUbergraph_WBP_RaceRivalTeam",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_Less_FloatFloat_ReturnValue_2",
+    "Outer": "ExecuteUbergraph_WBP_RaceRivalTeam",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_Less_FloatFloat_ReturnValue_3",
+    "Outer": "ExecuteUbergraph_WBP_RaceRivalTeam",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_NotEqual_ByteByte_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_RaceRivalTeam",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_RandomBool_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_RaceRivalTeam",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_CustomEvent_bJoinTeam",
+    "Outer": "ExecuteUbergraph_WBP_RaceRivalTeam",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_CustomEvent_bLeader",
+    "Outer": "ExecuteUbergraph_WBP_RaceRivalTeam",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_CustomEvent_Leader",
+    "Outer": "ExecuteUbergraph_WBP_RaceRivalTeam",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_DynamicCast_bSuccess",
+    "Outer": "ExecuteUbergraph_WBP_RaceRivalTeam",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_DynamicCast_bSuccess_1",
+    "Outer": "ExecuteUbergraph_WBP_RaceRivalTeam",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_Event_IsDesignTime",
+    "Outer": "ExecuteUbergraph_WBP_RaceRivalTeam",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_SwitchInteger_CmpSuccess",
+    "Outer": "ExecuteUbergraph_WBP_RaceRivalTeam",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "Temp_bool_Variable",
+    "Outer": "ExecuteUbergraph_WBP_RaceRivalTeam",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "Temp_bool_Variable_1",
+    "Outer": "ExecuteUbergraph_WBP_RaceRivalTeam",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "Temp_bool_Variable_2",
+    "Outer": "ExecuteUbergraph_WBP_RaceRivalTeam",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "Temp_bool_Variable_3",
+    "Outer": "ExecuteUbergraph_WBP_RaceRivalTeam",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "Temp_bool_Variable_4",
+    "Outer": "ExecuteUbergraph_WBP_RaceRivalTeam",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "ActionIndex",
+    "Outer": "CallCustomActionbyID",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "CallCustomActionbyID",
+    "Outer": "WBP_RaceRivalTeam_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Function'CustomWidgetBase:CallCustomActionbyID'",
+      "ObjectPath": "/Script/GameProject"
+    },
+    "Children": [
+      {
+        "ObjectName": "IntProperty'WBP_RaceRivalTeam_C:CallCustomActionbyID.ActionIndex'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.27"
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "bJoinTeam",
+    "Outer": "Setup_RaceRivalTeam",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "Function",
+    "Name": "Setup_RaceRivalTeam",
+    "Outer": "WBP_RaceRivalTeam_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "BoolProperty'WBP_RaceRivalTeam_C:Setup_RaceRivalTeam.bJoinTeam'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.29"
+      },
+      {
+        "ObjectName": "EnumProperty'WBP_RaceRivalTeam_C:Setup_RaceRivalTeam.LeagueRank'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.78"
+      },
+      {
+        "ObjectName": "EnumProperty'WBP_RaceRivalTeam_C:Setup_RaceRivalTeam.TeamClass'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.79"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_RaceRivalTeam_C:Setup_RaceRivalTeam.bLeader'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.44"
+      },
+      {
+        "ObjectName": "TextProperty'WBP_RaceRivalTeam_C:Setup_RaceRivalTeam.TeamName'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.132"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "Name",
+    "Outer": "Change_TeamName",
+    "Class": "UScriptClass'TextProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "Change_TeamName",
+    "Outer": "WBP_RaceRivalTeam_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "TextProperty'WBP_RaceRivalTeam_C:Change_TeamName.Name'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.31"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "SetTeamNoJoin",
+    "Outer": "WBP_RaceRivalTeam_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "Leader",
+    "Outer": "SetTeamLeaderIcon",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "Function",
+    "Name": "SetTeamLeaderIcon",
+    "Outer": "WBP_RaceRivalTeam_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "BoolProperty'WBP_RaceRivalTeam_C:SetTeamLeaderIcon.Leader'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.34"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Outer": "TeamClass",
+    "Class": "UScriptClass'ByteProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": null
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "TeamClass",
+    "Outer": "Change_TeamClass",
+    "Class": "UScriptClass'EnumProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "Enum": {
+      "ObjectName": "Enum'ETeamClassId'",
+      "ObjectPath": "/Script/GameProject"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'WBP_RaceRivalTeam_C:Change_TeamClass.TeamClass.UnderlyingType'",
+      "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.36"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "Change_TeamClass",
+    "Outer": "WBP_RaceRivalTeam_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "EnumProperty'WBP_RaceRivalTeam_C:Change_TeamClass.TeamClass'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.37"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Outer": "LeagueRank",
+    "Class": "UScriptClass'ByteProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": null
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "LeagueRank",
+    "Outer": "Change_TeamLeagueIcon",
+    "Class": "UScriptClass'EnumProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "Enum": {
+      "ObjectName": "Enum'ETeamLeagueRankId'",
+      "ObjectPath": "/Script/GameProject"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'WBP_RaceRivalTeam_C:Change_TeamLeagueIcon.LeagueRank.UnderlyingType'",
+      "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.39"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "Change_TeamLeagueIcon",
+    "Outer": "WBP_RaceRivalTeam_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "EnumProperty'WBP_RaceRivalTeam_C:Change_TeamLeagueIcon.LeagueRank'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.40"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "PreConstruct",
+    "Outer": "WBP_RaceRivalTeam_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Function'UserWidget:PreConstruct'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "Children": [
+      {
+        "ObjectName": "BoolProperty'WBP_RaceRivalTeam_C:PreConstruct.IsDesignTime'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.43"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCosmetic | FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "IsDesignTime",
+    "Outer": "PreConstruct",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "bLeader",
+    "Outer": "Setup_RaceRivalTeam",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "CallFunc_Conv_IntToByte_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_RaceRivalTeam",
+    "Class": "UScriptClass'ByteProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": null
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "CallFunc_Conv_IntToByte_ReturnValue_1",
+    "Outer": "ExecuteUbergraph_WBP_RaceRivalTeam",
+    "Class": "UScriptClass'ByteProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": null
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "CallFunc_GetValidValue_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_RaceRivalTeam",
+    "Class": "UScriptClass'ByteProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": null
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "CallFunc_GetValidValue_ReturnValue_1",
+    "Outer": "ExecuteUbergraph_WBP_RaceRivalTeam",
+    "Class": "UScriptClass'ByteProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": null
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Outer": "K2Node_CustomEvent_LeagueRank",
+    "Class": "UScriptClass'ByteProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": null
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Outer": "K2Node_CustomEvent_LeagueRank_1",
+    "Class": "UScriptClass'ByteProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": null
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Outer": "K2Node_CustomEvent_TeamClass",
+    "Class": "UScriptClass'ByteProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": null
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Outer": "K2Node_CustomEvent_TeamClass_1",
+    "Class": "UScriptClass'ByteProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": null
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Outer": "LeagueRank",
+    "Class": "UScriptClass'ByteProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": null
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Outer": "TeamClass",
+    "Class": "UScriptClass'ByteProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": null
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_0",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_RaceRivalTeam_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.61"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "TeamInfomation",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_RaceRivalTeam_C:WidgetTree.TeamInfomation.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.62"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_RaceRivalTeam_C:WidgetTree.TeamInfomation.CanvasPanelSlot_2'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.64"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_RaceRivalTeam_C:WidgetTree.TeamInfomation.CanvasPanelSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.63"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_RaceRivalTeam_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.61"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_0",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.65"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "TeamInfomation",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.TeamInfomation.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.66"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.TeamInfomation.CanvasPanelSlot_2'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.68"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.TeamInfomation.CanvasPanelSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.67"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.65"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_0",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_Team_ClassIcon.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_6'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.69"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_96",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_Team_ClassIcon.WidgetTree_0.CanvasPanel_96.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.70"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_Team_ClassIcon.WidgetTree_0.CanvasPanel_96.CanvasPanelSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.71"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_Team_ClassIcon.WidgetTree_0.CanvasPanel_96.CanvasPanelSlot_3'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.72"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_Team_ClassIcon.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_6'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.69"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_RaceRivalTeam_C:WidgetTree.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.55"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WBP_RaceRivalTeam_C:WidgetTree.TeamInfomation'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.56"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "TeamInfomation",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -17.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_RaceRivalTeam_C:WidgetTree.TeamInfomation'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.56"
+      },
+      "Content": {
+        "ObjectName": "Image'WBP_RaceRivalTeam_C:WidgetTree.Base'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.103"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "TeamInfomation",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -20.603441,
+          "Top": 11.515625,
+          "Right": 0.0,
+          "Bottom": 0.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_RaceRivalTeam_C:WidgetTree.TeamInfomation'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.56"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WBP_RaceRivalTeam_C:WidgetTree.P_Text_TeamName'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.128"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_2",
+    "Outer": "TeamInfomation",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -16.0,
+          "Top": -22.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_RaceRivalTeam_C:WidgetTree.TeamInfomation'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.56"
+      },
+      "Content": {
+        "ObjectName": "HorizontalBox'WBP_RaceRivalTeam_C:WidgetTree.HorizontalBox'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.95"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.57"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.TeamInfomation'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.58"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "TeamInfomation",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -17.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.TeamInfomation'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.58"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.Base'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.106"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "TeamInfomation",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -20.603441,
+          "Top": 11.515625,
+          "Right": 0.0,
+          "Bottom": 0.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.TeamInfomation'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.58"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.P_Text_TeamName'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.129"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_2",
+    "Outer": "TeamInfomation",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -16.0,
+          "Top": -22.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.TeamInfomation'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.58"
+      },
+      "Content": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.HorizontalBox'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.96"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_6",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 64.0,
+          "Bottom": 48.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_Team_ClassIcon.WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.59"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_Team_ClassIcon.WidgetTree_0.CanvasPanel_96'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.60"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "CanvasPanel_96",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Bottom": 40.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_Team_ClassIcon.WidgetTree_0.CanvasPanel_96'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.60"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_Team_ClassIcon.WidgetTree_0.ClassIcon'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.109"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "CanvasPanel_96",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Bottom": 40.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_Team_ClassIcon.WidgetTree_0.CanvasPanel_96'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.60"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_Team_ClassIcon.WidgetTree_0.ClassIcon_Effect'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.110"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_3",
+    "Outer": "CanvasPanel_96",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -19.0,
+          "Top": -12.0,
+          "Right": 50.0,
+          "Bottom": 50.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_Team_ClassIcon.WidgetTree_0.CanvasPanel_96'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.60"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_Team_ClassIcon.WidgetTree_0.Image_Effect_Star'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.111"
+      }
+    }
+  },
+  {
+    "Type": "DelegateProperty",
+    "Name": "K2Node_CreateDelegate_OutputDelegate",
+    "Outer": "ExecuteUbergraph_WBP_RaceRivalTeam",
+    "Class": "UScriptClass'DelegateProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "SignatureFunction": {
+      "ObjectName": "DelegateFunction'KismetSystemLibrary:OnAssetLoaded__DelegateSignature'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "K2Node_CustomEvent_LeagueRank",
+    "Outer": "ExecuteUbergraph_WBP_RaceRivalTeam",
+    "Class": "UScriptClass'EnumProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": {
+      "ObjectName": "Enum'ETeamLeagueRankId'",
+      "ObjectPath": "/Script/GameProject"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'WBP_RaceRivalTeam_C:ExecuteUbergraph_WBP_RaceRivalTeam.K2Node_CustomEvent_LeagueRank.UnderlyingType'",
+      "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.49"
+    }
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "K2Node_CustomEvent_LeagueRank_1",
+    "Outer": "ExecuteUbergraph_WBP_RaceRivalTeam",
+    "Class": "UScriptClass'EnumProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": {
+      "ObjectName": "Enum'ETeamLeagueRankId'",
+      "ObjectPath": "/Script/GameProject"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'WBP_RaceRivalTeam_C:ExecuteUbergraph_WBP_RaceRivalTeam.K2Node_CustomEvent_LeagueRank_1.UnderlyingType'",
+      "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.50"
+    }
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "K2Node_CustomEvent_TeamClass",
+    "Outer": "ExecuteUbergraph_WBP_RaceRivalTeam",
+    "Class": "UScriptClass'EnumProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": {
+      "ObjectName": "Enum'ETeamClassId'",
+      "ObjectPath": "/Script/GameProject"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'WBP_RaceRivalTeam_C:ExecuteUbergraph_WBP_RaceRivalTeam.K2Node_CustomEvent_TeamClass.UnderlyingType'",
+      "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.51"
+    }
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "K2Node_CustomEvent_TeamClass_1",
+    "Outer": "ExecuteUbergraph_WBP_RaceRivalTeam",
+    "Class": "UScriptClass'EnumProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": {
+      "ObjectName": "Enum'ETeamClassId'",
+      "ObjectPath": "/Script/GameProject"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'WBP_RaceRivalTeam_C:ExecuteUbergraph_WBP_RaceRivalTeam.K2Node_CustomEvent_TeamClass_1.UnderlyingType'",
+      "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.52"
+    }
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "LeagueRank",
+    "Outer": "Setup_RaceRivalTeam",
+    "Class": "UScriptClass'EnumProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "Enum": {
+      "ObjectName": "Enum'ETeamLeagueRankId'",
+      "ObjectPath": "/Script/GameProject"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'WBP_RaceRivalTeam_C:Setup_RaceRivalTeam.LeagueRank.UnderlyingType'",
+      "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.53"
+    }
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "TeamClass",
+    "Outer": "Setup_RaceRivalTeam",
+    "Class": "UScriptClass'EnumProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "Enum": {
+      "ObjectName": "Enum'ETeamClassId'",
+      "ObjectPath": "/Script/GameProject"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'WBP_RaceRivalTeam_C:Setup_RaceRivalTeam.TeamClass.UnderlyingType'",
+      "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.54"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_BreakVector2D_X",
+    "Outer": "ExecuteUbergraph_WBP_RaceRivalTeam",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_BreakVector2D_Y",
+    "Outer": "ExecuteUbergraph_WBP_RaceRivalTeam",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_Divide_FloatFloat_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_RaceRivalTeam",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_Divide_FloatFloat_ReturnValue_1",
+    "Outer": "ExecuteUbergraph_WBP_RaceRivalTeam",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "K2Node_Select_Default_1",
+    "Outer": "ExecuteUbergraph_WBP_RaceRivalTeam",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "K2Node_Select_Default_2",
+    "Outer": "ExecuteUbergraph_WBP_RaceRivalTeam",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "K2Node_Select_Default_3",
+    "Outer": "ExecuteUbergraph_WBP_RaceRivalTeam",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "K2Node_Select_Default_4",
+    "Outer": "ExecuteUbergraph_WBP_RaceRivalTeam",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "Temp_float_Variable",
+    "Outer": "ExecuteUbergraph_WBP_RaceRivalTeam",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "Temp_float_Variable_1",
+    "Outer": "ExecuteUbergraph_WBP_RaceRivalTeam",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "Temp_float_Variable_2",
+    "Outer": "ExecuteUbergraph_WBP_RaceRivalTeam",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "Temp_float_Variable_3",
+    "Outer": "ExecuteUbergraph_WBP_RaceRivalTeam",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "K2Node_CustomEvent_Loaded",
+    "Outer": "ExecuteUbergraph_WBP_RaceRivalTeam",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyClass": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Loaded",
+    "Outer": "OnLoaded_C56AE8404708ECF8835684AF18A8DD30",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "PropertyClass": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "OnLoaded_C56AE8404708ECF8835684AF18A8DD30",
+    "Outer": "WBP_RaceRivalTeam_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "ObjectProperty'WBP_RaceRivalTeam_C:OnLoaded_C56AE8404708ECF8835684AF18A8DD30.Loaded'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.93"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "HorizontalBox",
+    "Name": "HorizontalBox",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'HorizontalBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "HorizontalBoxSlot'WBP_RaceRivalTeam_C:WidgetTree.HorizontalBox.HorizontalBoxSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.97"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot'WBP_RaceRivalTeam_C:WidgetTree.HorizontalBox.HorizontalBoxSlot_3'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.99"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot'WBP_RaceRivalTeam_C:WidgetTree.HorizontalBox.HorizontalBoxSlot_2'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.98"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_RaceRivalTeam_C:WidgetTree.TeamInfomation.CanvasPanelSlot_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.64"
+      },
+      "RenderTransform": {
+        "Scale": {
+          "X": 1.2,
+          "Y": 1.2
+        }
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBox",
+    "Name": "HorizontalBox",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'HorizontalBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.HorizontalBox.HorizontalBoxSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.100"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.HorizontalBox.HorizontalBoxSlot_3'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.102"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.HorizontalBox.HorizontalBoxSlot_2'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.101"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.TeamInfomation.CanvasPanelSlot_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.68"
+      },
+      "RenderTransform": {
+        "Scale": {
+          "X": 1.2,
+          "Y": 1.2
+        }
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_0",
+    "Outer": "HorizontalBox",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Padding": {
+        "Left": -10.0,
+        "Right": -10.0
+      },
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox'WBP_RaceRivalTeam_C:WidgetTree.HorizontalBox'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.95"
+      },
+      "Content": {
+        "ObjectName": "Image'WBP_RaceRivalTeam_C:WidgetTree.P_Image_LeaderIcon'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.104"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_2",
+    "Outer": "HorizontalBox",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Padding": {
+        "Left": -10.0,
+        "Right": -10.0
+      },
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox'WBP_RaceRivalTeam_C:WidgetTree.HorizontalBox'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.95"
+      },
+      "Content": {
+        "ObjectName": "Image'WBP_RaceRivalTeam_C:WidgetTree.P_Image_TeamLeagueIcon'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.105"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_3",
+    "Outer": "HorizontalBox",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Padding": {
+        "Left": -10.0,
+        "Right": -10.0
+      },
+      "Parent": {
+        "ObjectName": "HorizontalBox'WBP_RaceRivalTeam_C:WidgetTree.HorizontalBox'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.95"
+      },
+      "Content": {
+        "ObjectName": "WBP_Team_ClassIcon_C'WBP_RaceRivalTeam_C:WidgetTree.WBP_Team_ClassIcon'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.134"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_0",
+    "Outer": "HorizontalBox",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Padding": {
+        "Left": -10.0,
+        "Right": -10.0
+      },
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.HorizontalBox'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.96"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.P_Image_LeaderIcon'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.107"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_2",
+    "Outer": "HorizontalBox",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Padding": {
+        "Left": -10.0,
+        "Right": -10.0
+      },
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.HorizontalBox'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.96"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.P_Image_TeamLeagueIcon'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.108"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_3",
+    "Outer": "HorizontalBox",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Padding": {
+        "Left": -10.0,
+        "Right": -10.0
+      },
+      "Parent": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.HorizontalBox'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.96"
+      },
+      "Content": {
+        "ObjectName": "WBP_Team_ClassIcon_C'WidgetArchetype:WidgetTree_0.WBP_Team_ClassIcon'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.135"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Base",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 164.0,
+          "Y": 48.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Race_TeamInfo_StoreRival_Base'",
+          "ObjectPath": "GameProject/Content/IND/UI/Race/Team/Texture/T_Race_TeamInfo_StoreRival_Base.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_RaceRivalTeam_C:WidgetTree.TeamInfomation.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.62"
+      },
+      "RenderTransform": {
+        "Scale": {
+          "X": 1.47,
+          "Y": 1.47
+        }
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "P_Image_LeaderIcon",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 64.0,
+          "Y": 48.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_TeamLeaderIcon'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/Common/Icon/T_TeamLeaderIcon.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WBP_RaceRivalTeam_C:WidgetTree.HorizontalBox.HorizontalBoxSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.97"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "P_Image_TeamLeagueIcon",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 120.0,
+          "Y": 40.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_TeamLeagueIcon_00s'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/TeamLeagueIcon/Texture_s/T_TeamLeagueIcon_00s.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WBP_RaceRivalTeam_C:WidgetTree.HorizontalBox.HorizontalBoxSlot_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.98"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Base",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 164.0,
+          "Y": 48.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Race_TeamInfo_StoreRival_Base'",
+          "ObjectPath": "GameProject/Content/IND/UI/Race/Team/Texture/T_Race_TeamInfo_StoreRival_Base.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.TeamInfomation.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.66"
+      },
+      "RenderTransform": {
+        "Scale": {
+          "X": 1.47,
+          "Y": 1.47
+        }
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "P_Image_LeaderIcon",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 64.0,
+          "Y": 48.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_TeamLeaderIcon'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/Common/Icon/T_TeamLeaderIcon.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.HorizontalBox.HorizontalBoxSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.100"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "P_Image_TeamLeagueIcon",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 120.0,
+          "Y": 40.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_TeamLeagueIcon_00s'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/TeamLeagueIcon/Texture_s/T_TeamLeagueIcon_00s.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.HorizontalBox.HorizontalBoxSlot_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.101"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "ClassIcon",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 64.0,
+          "Y": 48.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_TeamClassIcon_Ace'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/Common/Icon/T_TeamClassIcon_Ace.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_Team_ClassIcon.WidgetTree_0.CanvasPanel_96.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.70"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "ClassIcon_Effect",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 64.0,
+          "Y": 48.0
+        },
+        "ResourceObject": {
+          "ObjectName": "MaterialInstanceConstant'MI_Team_CassIcon_Effect_Scroll'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/Common/Material/MI_Team_CassIcon_Effect_Scroll.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_Team_ClassIcon.WidgetTree_0.CanvasPanel_96.CanvasPanelSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.71"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Image_Effect_Star",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 128.0,
+          "Y": 128.0
+        },
+        "ResourceObject": {
+          "ObjectName": "MaterialInstanceConstant'MI_Team_ClassIcon_Effect_01'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/Common/Material/MI_Team_ClassIcon_Effect_01.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_Team_ClassIcon.WidgetTree_0.CanvasPanel_96.CanvasPanelSlot_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.72"
+      }
+    }
+  },
+  {
+    "Type": "InterfaceProperty",
+    "Name": "K2Node_DynamicCast_AsBPI_Control_Select_Focus",
+    "Outer": "ExecuteUbergraph_WBP_RaceRivalTeam",
+    "Class": "UScriptClass'InterfaceProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "InterfaceClass": {
+      "ObjectName": "BlueprintGeneratedClass'BPI_Control_SelectFocus_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Common/Parent/BPI_Control_SelectFocus.9"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_RandomIntegerInRange_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_RaceRivalTeam",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_RandomIntegerInRange_ReturnValue_1",
+    "Outer": "ExecuteUbergraph_WBP_RaceRivalTeam",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "K2Node_Event_ActionIndex",
+    "Outer": "ExecuteUbergraph_WBP_RaceRivalTeam",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "K2Node_DynamicCast_AsTexture_2D",
+    "Outer": "ExecuteUbergraph_WBP_RaceRivalTeam",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyClass": {
+      "ObjectName": "Class'Texture2D'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Temp_object_Variable",
+    "Outer": "ExecuteUbergraph_WBP_RaceRivalTeam",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyClass": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "P_Image_LeaderIcon",
+    "Outer": "WBP_RaceRivalTeam_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'Image'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "P_Image_TeamLeagueIcon",
+    "Outer": "WBP_RaceRivalTeam_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'Image'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "P_Text_TeamName",
+    "Outer": "WBP_RaceRivalTeam_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'TextBlock'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "TeamInfomation",
+    "Outer": "WBP_RaceRivalTeam_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'CanvasPanel'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "WBP_Team_ClassIcon",
+    "Outer": "WBP_RaceRivalTeam_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'WBP_Team_ClassIcon_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_Team_ClassIcon.1"
+    }
+  },
+  {
+    "Type": "SoftObjectProperty",
+    "Name": "CallFunc_GetTeamLeagueImageRef_SmallTextureRef",
+    "Outer": "ExecuteUbergraph_WBP_RaceRivalTeam",
+    "Class": "UScriptClass'SoftObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyClass": {
+      "ObjectName": "Class'Texture2D'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "SoftObjectProperty",
+    "Name": "CallFunc_GetTeamLeagueImageRef_TextureRef",
+    "Outer": "ExecuteUbergraph_WBP_RaceRivalTeam",
+    "Class": "UScriptClass'SoftObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyClass": {
+      "ObjectName": "Class'Texture2D'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "SoftObjectProperty",
+    "Name": "K2Node_Select_Default",
+    "Outer": "ExecuteUbergraph_WBP_RaceRivalTeam",
+    "Class": "UScriptClass'SoftObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "ConstParm",
+    "PropertyClass": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_GetDesiredSize_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_RaceRivalTeam",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector2D'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_MakeVector2D_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_RaceRivalTeam",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector2D'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "P_Text_TeamName",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "3DDCA4174C8E3673F6186683DC5F4D84",
+        "SourceString": "チーム名最大１５文字",
+        "LocalizedString": "チーム名最大１５文字"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "TypefaceFontName": "RodinN_B",
+        "Size": 13
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_RaceRivalTeam_C:WidgetTree.TeamInfomation.CanvasPanelSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.63"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "P_Text_TeamName",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "3DDCA4174C8E3673F6186683DC5F4D84",
+        "SourceString": "チーム名最大１５文字",
+        "LocalizedString": "チーム名最大１５文字"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "TypefaceFontName": "RodinN_B",
+        "Size": 13
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.TeamInfomation.CanvasPanelSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.67"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "K2Node_CustomEvent_Name",
+    "Outer": "ExecuteUbergraph_WBP_RaceRivalTeam",
+    "Class": "UScriptClass'TextProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "K2Node_CustomEvent_TeamName",
+    "Outer": "ExecuteUbergraph_WBP_RaceRivalTeam",
+    "Class": "UScriptClass'TextProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "TeamName",
+    "Outer": "Setup_RaceRivalTeam",
+    "Class": "UScriptClass'TextProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "WBP_RaceRivalTeam_C",
+    "Name": "WidgetArchetype",
+    "Class": "WidgetBlueprintGeneratedClass'GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.WBP_RaceRivalTeam_C'",
+    "Template": {
+      "ObjectName": "WBP_RaceRivalTeam_C'Default__WBP_RaceRivalTeam_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.2"
+    },
+    "Flags": "RF_Public | RF_Standalone | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Base": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.Base'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.106"
+      },
+      "P_Image_LeaderIcon": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.P_Image_LeaderIcon'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.107"
+      },
+      "P_Image_TeamLeagueIcon": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.P_Image_TeamLeagueIcon'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.108"
+      },
+      "P_Text_TeamName": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.P_Text_TeamName'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.129"
+      },
+      "TeamInfomation": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.TeamInfomation'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.58"
+      },
+      "WBP_Team_ClassIcon": {
+        "ObjectName": "WBP_Team_ClassIcon_C'WidgetArchetype:WidgetTree_0.WBP_Team_ClassIcon'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.135"
+      },
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.137"
+      },
+      "bCookedWidgetTree": true
+    }
+  },
+  {
+    "Type": "WBP_Team_ClassIcon_C",
+    "Name": "WBP_Team_ClassIcon",
+    "Outer": "WidgetTree",
+    "Class": "WidgetBlueprintGeneratedClass'GameProject/Content/IND/UI/Team/Common/WBP_Team_ClassIcon.WBP_Team_ClassIcon_C'",
+    "Template": {
+      "ObjectName": "WBP_Team_ClassIcon_C'Default__WBP_Team_ClassIcon_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_Team_ClassIcon.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WBP_RaceRivalTeam_C:WidgetTree.HorizontalBox.HorizontalBoxSlot_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.99"
+      }
+    }
+  },
+  {
+    "Type": "WBP_Team_ClassIcon_C",
+    "Name": "WBP_Team_ClassIcon",
+    "Outer": "WidgetTree_0",
+    "Class": "WidgetBlueprintGeneratedClass'GameProject/Content/IND/UI/Team/Common/WBP_Team_ClassIcon.WBP_Team_ClassIcon_C'",
+    "Template": {
+      "ObjectName": "WBP_Team_ClassIcon_C'Default__WBP_Team_ClassIcon_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_Team_ClassIcon.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ClassIcon": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_Team_ClassIcon.WidgetTree_0.ClassIcon'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.109"
+      },
+      "ClassIcon_Effect": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_Team_ClassIcon.WidgetTree_0.ClassIcon_Effect'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.110"
+      },
+      "Image_Effect_Star": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_Team_ClassIcon.WidgetTree_0.Image_Effect_Star'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.111"
+      },
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.WBP_Team_ClassIcon.WidgetTree_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.138"
+      },
+      "bCookedWidgetTree": true,
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.HorizontalBox.HorizontalBoxSlot_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.102"
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Outer": "WBP_RaceRivalTeam_C",
+    "Class": "UScriptClass'WidgetTree'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CanvasPanel'WBP_RaceRivalTeam_C:WidgetTree.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.55"
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree_0",
+    "Outer": "WidgetArchetype",
+    "Class": "UScriptClass'WidgetTree'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.57"
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree_0",
+    "Outer": "WBP_Team_ClassIcon",
+    "Class": "UScriptClass'WidgetTree'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_Team_ClassIcon.WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_RaceRivalTeam.59"
+      }
+    }
+  }
+]

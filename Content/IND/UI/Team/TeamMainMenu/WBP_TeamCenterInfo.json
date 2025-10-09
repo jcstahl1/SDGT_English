@@ -1,0 +1,1960 @@
+[
+  {
+    "Type": "StructProperty",
+    "Name": "UberGraphFrame",
+    "Outer": "WBP_TeamCenterInfo_C",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "Transient | DuplicateTransient",
+    "Struct": {
+      "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "WBP_TeamCenterInfo_C",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WBP_TeamCenterInfo_C:WidgetTree'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.98"
+      },
+      "bAllowTemplate": true,
+      "bValidTemplate": true,
+      "TemplateAsset": {
+        "AssetPathName": "/Game/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.WidgetArchetype",
+        "SubPathString": ""
+      },
+      "UberGraphFramePointerProperty": {
+        "ObjectName": "StructProperty'WBP_TeamCenterInfo_C:UberGraphFrame'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.0"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'WBP_TeamCenterInfo_C:ExecuteUbergraph_WBP_TeamCenterInfo'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.5"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'CustomWidgetBase'",
+      "ObjectPath": "/Script/GameProject"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'WBP_TeamCenterInfo_C:UberGraphFrame'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.0"
+      },
+      {
+        "ObjectName": "Function'WBP_TeamCenterInfo_C:OnLoaded_85BBA0F64B58F9B0D8CF14A8F920EAB6'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.54"
+      },
+      {
+        "ObjectName": "Function'WBP_TeamCenterInfo_C:OnLoaded_76E6E2C246241DBD69BDE5860616ECDF'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.52"
+      },
+      {
+        "ObjectName": "Function'WBP_TeamCenterInfo_C:ChangeText_Subject'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.51"
+      },
+      {
+        "ObjectName": "Function'WBP_TeamCenterInfo_C:ChangeText_Setsumei'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.49"
+      },
+      {
+        "ObjectName": "Function'WBP_TeamCenterInfo_C:ChangeHashiriya_AlignY'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.47"
+      },
+      {
+        "ObjectName": "Function'WBP_TeamCenterInfo_C:SetTeamLogo'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.22"
+      },
+      {
+        "ObjectName": "Function'WBP_TeamCenterInfo_C:SetHashitiyaImage'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.16"
+      },
+      {
+        "ObjectName": "Function'WBP_TeamCenterInfo_C:CallCustomActionbyID'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.15"
+      },
+      {
+        "ObjectName": "Function'WBP_TeamCenterInfo_C:CustomEvent'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.13"
+      },
+      {
+        "ObjectName": "Function'WBP_TeamCenterInfo_C:ExecuteUbergraph_WBP_TeamCenterInfo'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.5"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_TeamCenterInfo_C:Image_Hashiriya'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.3"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_TeamCenterInfo_C:TeamLogo'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.74"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_TeamCenterInfo_C:TextBlock_46'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.75"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_TeamCenterInfo_C:TextBlock_setsumei'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.76"
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_WBP_TeamCenterInfo": {
+        "ObjectName": "Function'WBP_TeamCenterInfo_C:ExecuteUbergraph_WBP_TeamCenterInfo'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.5"
+      },
+      "CustomEvent": {
+        "ObjectName": "Function'WBP_TeamCenterInfo_C:CustomEvent'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.13"
+      },
+      "CallCustomActionbyID": {
+        "ObjectName": "Function'WBP_TeamCenterInfo_C:CallCustomActionbyID'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.15"
+      },
+      "SetHashitiyaImage": {
+        "ObjectName": "Function'WBP_TeamCenterInfo_C:SetHashitiyaImage'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.16"
+      },
+      "SetTeamLogo": {
+        "ObjectName": "Function'WBP_TeamCenterInfo_C:SetTeamLogo'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.22"
+      },
+      "ChangeHashiriya_AlignY": {
+        "ObjectName": "Function'WBP_TeamCenterInfo_C:ChangeHashiriya_AlignY'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.47"
+      },
+      "ChangeText_Setsumei": {
+        "ObjectName": "Function'WBP_TeamCenterInfo_C:ChangeText_Setsumei'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.49"
+      },
+      "ChangeText_Subject": {
+        "ObjectName": "Function'WBP_TeamCenterInfo_C:ChangeText_Subject'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.51"
+      },
+      "OnLoaded_76E6E2C246241DBD69BDE5860616ECDF": {
+        "ObjectName": "Function'WBP_TeamCenterInfo_C:OnLoaded_76E6E2C246241DBD69BDE5860616ECDF'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.52"
+      },
+      "OnLoaded_85BBA0F64B58F9B0D8CF14A8F920EAB6": {
+        "ObjectName": "Function'WBP_TeamCenterInfo_C:OnLoaded_85BBA0F64B58F9B0D8CF14A8F920EAB6'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.54"
+      }
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "WBP_TeamCenterInfo_C'Default__WBP_TeamCenterInfo_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.2"
+    }
+  },
+  {
+    "Type": "WBP_TeamCenterInfo_C",
+    "Name": "Default__WBP_TeamCenterInfo_C",
+    "Class": "WidgetBlueprintGeneratedClass'GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.WBP_TeamCenterInfo_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "UberGraphFrame": {},
+      "CustomActionStringArray": [
+        "チームステッカー表示"
+      ],
+      "bHasScriptImplementedTick": false,
+      "bHasScriptImplementedPaint": false
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Image_Hashiriya",
+    "Outer": "WBP_TeamCenterInfo_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'Image'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "EntryPoint",
+    "Outer": "ExecuteUbergraph_WBP_TeamCenterInfo",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_WBP_TeamCenterInfo",
+    "Outer": "WBP_TeamCenterInfo_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "IntProperty'WBP_TeamCenterInfo_C:ExecuteUbergraph_WBP_TeamCenterInfo.EntryPoint'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.4"
+      },
+      {
+        "ObjectName": "TextProperty'WBP_TeamCenterInfo_C:ExecuteUbergraph_WBP_TeamCenterInfo.K2Node_CustomEvent_text_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.96"
+      },
+      {
+        "ObjectName": "TextProperty'WBP_TeamCenterInfo_C:ExecuteUbergraph_WBP_TeamCenterInfo.K2Node_CustomEvent_text_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.95"
+      },
+      {
+        "ObjectName": "TextProperty'WBP_TeamCenterInfo_C:ExecuteUbergraph_WBP_TeamCenterInfo.K2Node_CustomEvent_text'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.94"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_TeamCenterInfo_C:ExecuteUbergraph_WBP_TeamCenterInfo.K2Node_CustomEvent_TeamLogoId'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.68"
+      },
+      {
+        "ObjectName": "StrProperty'WBP_TeamCenterInfo_C:ExecuteUbergraph_WBP_TeamCenterInfo.K2Node_CustomEvent_TeamName_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.81"
+      },
+      {
+        "ObjectName": "StrProperty'WBP_TeamCenterInfo_C:ExecuteUbergraph_WBP_TeamCenterInfo.K2Node_CustomEvent_TeamNickname_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.83"
+      },
+      {
+        "ObjectName": "EnumProperty'WBP_TeamCenterInfo_C:ExecuteUbergraph_WBP_TeamCenterInfo.K2Node_CustomEvent_TeamRank'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.60"
+      },
+      {
+        "ObjectName": "TextProperty'WBP_TeamCenterInfo_C:ExecuteUbergraph_WBP_TeamCenterInfo.CallFunc_Conv_StringToText_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.90"
+      },
+      {
+        "ObjectName": "TextProperty'WBP_TeamCenterInfo_C:ExecuteUbergraph_WBP_TeamCenterInfo.CallFunc_Conv_StringToText_ReturnValue_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.91"
+      },
+      {
+        "ObjectName": "SoftClassProperty'WBP_TeamCenterInfo_C:ExecuteUbergraph_WBP_TeamCenterInfo.CallFunc_GetTeamLogoClassRef_ClassRef'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.77"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_TeamCenterInfo_C:ExecuteUbergraph_WBP_TeamCenterInfo.K2Node_CustomEvent_bVisible'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.8"
+      },
+      {
+        "ObjectName": "ClassProperty'WBP_TeamCenterInfo_C:ExecuteUbergraph_WBP_TeamCenterInfo.Temp_class_Variable'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.44"
+      },
+      {
+        "ObjectName": "ClassProperty'WBP_TeamCenterInfo_C:ExecuteUbergraph_WBP_TeamCenterInfo.K2Node_ClassDynamicCast_AsCustom_Widget_Base'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.40"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_TeamCenterInfo_C:ExecuteUbergraph_WBP_TeamCenterInfo.K2Node_ClassDynamicCast_bSuccess'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.6"
+      },
+      {
+        "ObjectName": "ClassProperty'WBP_TeamCenterInfo_C:ExecuteUbergraph_WBP_TeamCenterInfo.Temp_class_Variable_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.45"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_TeamCenterInfo_C:ExecuteUbergraph_WBP_TeamCenterInfo.CallFunc_Create_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.72"
+      },
+      {
+        "ObjectName": "ClassProperty'WBP_TeamCenterInfo_C:ExecuteUbergraph_WBP_TeamCenterInfo.K2Node_ClassDynamicCast_AsCustom_Widget_Base_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.41"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_TeamCenterInfo_C:ExecuteUbergraph_WBP_TeamCenterInfo.K2Node_ClassDynamicCast_bSuccess_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.7"
+      },
+      {
+        "ObjectName": "InterfaceProperty'WBP_TeamCenterInfo_C:ExecuteUbergraph_WBP_TeamCenterInfo.K2Node_DynamicCast_AsWBP_Team_Logo_Interface'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.64"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_TeamCenterInfo_C:ExecuteUbergraph_WBP_TeamCenterInfo.K2Node_DynamicCast_bSuccess'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.9"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_TeamCenterInfo_C:ExecuteUbergraph_WBP_TeamCenterInfo.CallFunc_Create_ReturnValue_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.73"
+      },
+      {
+        "ObjectName": "InterfaceProperty'WBP_TeamCenterInfo_C:ExecuteUbergraph_WBP_TeamCenterInfo.K2Node_DynamicCast_AsWBP_Team_Logo_Interface_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.65"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_TeamCenterInfo_C:ExecuteUbergraph_WBP_TeamCenterInfo.K2Node_DynamicCast_bSuccess_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.10"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_TeamCenterInfo_C:ExecuteUbergraph_WBP_TeamCenterInfo.CallFunc_AddChildToCanvas_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.70"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_TeamCenterInfo_C:ExecuteUbergraph_WBP_TeamCenterInfo.K2Node_Event_ActionIndex'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.69"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_TeamCenterInfo_C:ExecuteUbergraph_WBP_TeamCenterInfo.K2Node_SwitchInteger_CmpSuccess'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.11"
+      },
+      {
+        "ObjectName": "StrProperty'WBP_TeamCenterInfo_C:ExecuteUbergraph_WBP_TeamCenterInfo.K2Node_CustomEvent_TeamName'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.80"
+      },
+      {
+        "ObjectName": "StrProperty'WBP_TeamCenterInfo_C:ExecuteUbergraph_WBP_TeamCenterInfo.K2Node_CustomEvent_TeamNickName'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.82"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_TeamCenterInfo_C:ExecuteUbergraph_WBP_TeamCenterInfo.K2Node_CustomEvent_LogoId'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.67"
+      },
+      {
+        "ObjectName": "EnumProperty'WBP_TeamCenterInfo_C:ExecuteUbergraph_WBP_TeamCenterInfo.K2Node_CustomEvent_Rank'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.59"
+      },
+      {
+        "ObjectName": "ClassProperty'WBP_TeamCenterInfo_C:ExecuteUbergraph_WBP_TeamCenterInfo.K2Node_CustomEvent_Loaded_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.43"
+      },
+      {
+        "ObjectName": "SoftClassProperty'WBP_TeamCenterInfo_C:ExecuteUbergraph_WBP_TeamCenterInfo.CallFunc_GetTeamLogoClassRef_ClassRef_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.78"
+      },
+      {
+        "ObjectName": "TextProperty'WBP_TeamCenterInfo_C:ExecuteUbergraph_WBP_TeamCenterInfo.CallFunc_Conv_StringToText_ReturnValue_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.92"
+      },
+      {
+        "ObjectName": "TextProperty'WBP_TeamCenterInfo_C:ExecuteUbergraph_WBP_TeamCenterInfo.CallFunc_Conv_StringToText_ReturnValue_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.93"
+      },
+      {
+        "ObjectName": "DelegateProperty'WBP_TeamCenterInfo_C:ExecuteUbergraph_WBP_TeamCenterInfo.K2Node_CreateDelegate_OutputDelegate'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.56"
+      },
+      {
+        "ObjectName": "ClassProperty'WBP_TeamCenterInfo_C:ExecuteUbergraph_WBP_TeamCenterInfo.K2Node_CustomEvent_Loaded'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.42"
+      },
+      {
+        "ObjectName": "DelegateProperty'WBP_TeamCenterInfo_C:ExecuteUbergraph_WBP_TeamCenterInfo.K2Node_CreateDelegate_OutputDelegate_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.57"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_TeamCenterInfo_C:ExecuteUbergraph_WBP_TeamCenterInfo.CallFunc_AddChildToCanvas_ReturnValue_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.71"
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction | FUNC_HasDefaults"
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_ClassDynamicCast_bSuccess",
+    "Outer": "ExecuteUbergraph_WBP_TeamCenterInfo",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_ClassDynamicCast_bSuccess_1",
+    "Outer": "ExecuteUbergraph_WBP_TeamCenterInfo",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_CustomEvent_bVisible",
+    "Outer": "ExecuteUbergraph_WBP_TeamCenterInfo",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_DynamicCast_bSuccess",
+    "Outer": "ExecuteUbergraph_WBP_TeamCenterInfo",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_DynamicCast_bSuccess_1",
+    "Outer": "ExecuteUbergraph_WBP_TeamCenterInfo",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_SwitchInteger_CmpSuccess",
+    "Outer": "ExecuteUbergraph_WBP_TeamCenterInfo",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "StrProperty",
+    "Name": "TeamName",
+    "Outer": "CustomEvent",
+    "Class": "UScriptClass'StrProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "CustomEvent",
+    "Outer": "WBP_TeamCenterInfo_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "StrProperty'WBP_TeamCenterInfo_C:CustomEvent.TeamName'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.12"
+      },
+      {
+        "ObjectName": "StrProperty'WBP_TeamCenterInfo_C:CustomEvent.TeamNickName'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.79"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_TeamCenterInfo_C:CustomEvent.LogoId'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.66"
+      },
+      {
+        "ObjectName": "EnumProperty'WBP_TeamCenterInfo_C:CustomEvent.Rank'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.58"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "ActionIndex",
+    "Outer": "CallCustomActionbyID",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "CallCustomActionbyID",
+    "Outer": "WBP_TeamCenterInfo_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Function'CustomWidgetBase:CallCustomActionbyID'",
+      "ObjectPath": "/Script/GameProject"
+    },
+    "Children": [
+      {
+        "ObjectName": "IntProperty'WBP_TeamCenterInfo_C:CallCustomActionbyID.ActionIndex'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.14"
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "SetHashitiyaImage",
+    "Outer": "WBP_TeamCenterInfo_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "BoolProperty'WBP_TeamCenterInfo_C:SetHashitiyaImage.bVisible'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.17"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "bVisible",
+    "Outer": "SetHashitiyaImage",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Outer": "Rank",
+    "Class": "UScriptClass'ByteProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": null
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Outer": "K2Node_CustomEvent_Rank",
+    "Class": "UScriptClass'ByteProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": null
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Outer": "K2Node_CustomEvent_TeamRank",
+    "Class": "UScriptClass'ByteProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": null
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "TeamLogoId",
+    "Outer": "SetTeamLogo",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "SetTeamLogo",
+    "Outer": "WBP_TeamCenterInfo_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "IntProperty'WBP_TeamCenterInfo_C:SetTeamLogo.TeamLogoId'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.21"
+      },
+      {
+        "ObjectName": "StrProperty'WBP_TeamCenterInfo_C:SetTeamLogo.TeamName'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.84"
+      },
+      {
+        "ObjectName": "StrProperty'WBP_TeamCenterInfo_C:SetTeamLogo.TeamNickname'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.85"
+      },
+      {
+        "ObjectName": "EnumProperty'WBP_TeamCenterInfo_C:SetTeamLogo.TeamRank'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.61"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Outer": "TeamRank",
+    "Class": "UScriptClass'ByteProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": null
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_0",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_TeamCenterInfo_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_2'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.30"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_35",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_TeamCenterInfo_C:WidgetTree.CanvasPanel_35.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.31"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_TeamCenterInfo_C:WidgetTree.CanvasPanel_35.CanvasPanelSlot_5'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.34"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_TeamCenterInfo_C:WidgetTree.CanvasPanel_35.CanvasPanelSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.32"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_TeamCenterInfo_C:WidgetTree.CanvasPanel_35.CanvasPanelSlot_2'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.33"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_TeamCenterInfo_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.30"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "TeamLogo",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_TeamCenterInfo_C:WidgetTree.CanvasPanel_35.CanvasPanelSlot_5'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.34"
+      },
+      "RenderTransform": {
+        "Scale": {
+          "X": 0.9,
+          "Y": 0.9
+        },
+        "Angle": -5.0
+      },
+      "RenderTransformPivot": {
+        "X": 1.0,
+        "Y": 1.0
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_0",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_2'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.35"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_35",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_35.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.36"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_35.CanvasPanelSlot_5'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.39"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_35.CanvasPanelSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.37"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_35.CanvasPanelSlot_2'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.38"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.35"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "TeamLogo",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_35.CanvasPanelSlot_5'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.39"
+      },
+      "RenderTransform": {
+        "Scale": {
+          "X": 0.9,
+          "Y": 0.9
+        },
+        "Angle": -5.0
+      },
+      "RenderTransformPivot": {
+        "X": 1.0,
+        "Y": 1.0
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_2",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_TeamCenterInfo_C:WidgetTree.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.24"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WBP_TeamCenterInfo_C:WidgetTree.CanvasPanel_35'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.25"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "CanvasPanel_35",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": -158.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_TeamCenterInfo_C:WidgetTree.CanvasPanel_35'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.25"
+      },
+      "Content": {
+        "ObjectName": "Image'WBP_TeamCenterInfo_C:WidgetTree.Image_Hashiriya'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.62"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "CanvasPanel_35",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": -54.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_TeamCenterInfo_C:WidgetTree.CanvasPanel_35'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.25"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WBP_TeamCenterInfo_C:WidgetTree.TextBlock_46'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.86"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_2",
+    "Outer": "CanvasPanel_35",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_TeamCenterInfo_C:WidgetTree.CanvasPanel_35'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.25"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WBP_TeamCenterInfo_C:WidgetTree.TextBlock_setsumei'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.87"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_5",
+    "Outer": "CanvasPanel_35",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -20.0,
+          "Top": -222.0,
+          "Right": 450.0,
+          "Bottom": 150.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_TeamCenterInfo_C:WidgetTree.CanvasPanel_35'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.25"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WBP_TeamCenterInfo_C:WidgetTree.TeamLogo'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.26"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_2",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.27"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_35'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.28"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "CanvasPanel_35",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": -158.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_35'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.28"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.Image_Hashiriya'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.63"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "CanvasPanel_35",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": -54.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_35'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.28"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.TextBlock_46'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.88"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_2",
+    "Outer": "CanvasPanel_35",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_35'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.28"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.TextBlock_setsumei'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.89"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_5",
+    "Outer": "CanvasPanel_35",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -20.0,
+          "Top": -222.0,
+          "Right": 450.0,
+          "Bottom": 150.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_35'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.28"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.TeamLogo'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.29"
+      }
+    }
+  },
+  {
+    "Type": "ClassProperty",
+    "Name": "K2Node_ClassDynamicCast_AsCustom_Widget_Base",
+    "Outer": "ExecuteUbergraph_WBP_TeamCenterInfo",
+    "Class": "UScriptClass'ClassProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyClass": {
+      "ObjectName": "Class'Class'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "MetaClass": {
+      "ObjectName": "Class'CustomWidgetBase'",
+      "ObjectPath": "/Script/GameProject"
+    }
+  },
+  {
+    "Type": "ClassProperty",
+    "Name": "K2Node_ClassDynamicCast_AsCustom_Widget_Base_1",
+    "Outer": "ExecuteUbergraph_WBP_TeamCenterInfo",
+    "Class": "UScriptClass'ClassProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyClass": {
+      "ObjectName": "Class'Class'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "MetaClass": {
+      "ObjectName": "Class'CustomWidgetBase'",
+      "ObjectPath": "/Script/GameProject"
+    }
+  },
+  {
+    "Type": "ClassProperty",
+    "Name": "K2Node_CustomEvent_Loaded",
+    "Outer": "ExecuteUbergraph_WBP_TeamCenterInfo",
+    "Class": "UScriptClass'ClassProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyClass": {
+      "ObjectName": "Class'Class'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "MetaClass": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "ClassProperty",
+    "Name": "K2Node_CustomEvent_Loaded_1",
+    "Outer": "ExecuteUbergraph_WBP_TeamCenterInfo",
+    "Class": "UScriptClass'ClassProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyClass": {
+      "ObjectName": "Class'Class'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "MetaClass": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "ClassProperty",
+    "Name": "Temp_class_Variable",
+    "Outer": "ExecuteUbergraph_WBP_TeamCenterInfo",
+    "Class": "UScriptClass'ClassProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyClass": {
+      "ObjectName": "Class'Class'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "MetaClass": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "ClassProperty",
+    "Name": "Temp_class_Variable_1",
+    "Outer": "ExecuteUbergraph_WBP_TeamCenterInfo",
+    "Class": "UScriptClass'ClassProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyClass": {
+      "ObjectName": "Class'Class'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "MetaClass": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "text",
+    "Outer": "ChangeHashiriya_AlignY",
+    "Class": "UScriptClass'TextProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "ChangeHashiriya_AlignY",
+    "Outer": "WBP_TeamCenterInfo_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "TextProperty'WBP_TeamCenterInfo_C:ChangeHashiriya_AlignY.text'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.46"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "text",
+    "Outer": "ChangeText_Setsumei",
+    "Class": "UScriptClass'TextProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "ChangeText_Setsumei",
+    "Outer": "WBP_TeamCenterInfo_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "TextProperty'WBP_TeamCenterInfo_C:ChangeText_Setsumei.text'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.48"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "text",
+    "Outer": "ChangeText_Subject",
+    "Class": "UScriptClass'TextProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "ChangeText_Subject",
+    "Outer": "WBP_TeamCenterInfo_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "TextProperty'WBP_TeamCenterInfo_C:ChangeText_Subject.text'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.50"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "OnLoaded_76E6E2C246241DBD69BDE5860616ECDF",
+    "Outer": "WBP_TeamCenterInfo_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "ClassProperty'WBP_TeamCenterInfo_C:OnLoaded_76E6E2C246241DBD69BDE5860616ECDF.Loaded'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.53"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "ClassProperty",
+    "Name": "Loaded",
+    "Outer": "OnLoaded_76E6E2C246241DBD69BDE5860616ECDF",
+    "Class": "UScriptClass'ClassProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "PropertyClass": {
+      "ObjectName": "Class'Class'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "MetaClass": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "OnLoaded_85BBA0F64B58F9B0D8CF14A8F920EAB6",
+    "Outer": "WBP_TeamCenterInfo_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "ClassProperty'WBP_TeamCenterInfo_C:OnLoaded_85BBA0F64B58F9B0D8CF14A8F920EAB6.Loaded'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.55"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "ClassProperty",
+    "Name": "Loaded",
+    "Outer": "OnLoaded_85BBA0F64B58F9B0D8CF14A8F920EAB6",
+    "Class": "UScriptClass'ClassProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "PropertyClass": {
+      "ObjectName": "Class'Class'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "MetaClass": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "DelegateProperty",
+    "Name": "K2Node_CreateDelegate_OutputDelegate",
+    "Outer": "ExecuteUbergraph_WBP_TeamCenterInfo",
+    "Class": "UScriptClass'DelegateProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "SignatureFunction": {
+      "ObjectName": "DelegateFunction'KismetSystemLibrary:OnAssetClassLoaded__DelegateSignature'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "DelegateProperty",
+    "Name": "K2Node_CreateDelegate_OutputDelegate_1",
+    "Outer": "ExecuteUbergraph_WBP_TeamCenterInfo",
+    "Class": "UScriptClass'DelegateProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "SignatureFunction": {
+      "ObjectName": "DelegateFunction'KismetSystemLibrary:OnAssetClassLoaded__DelegateSignature'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "Rank",
+    "Outer": "CustomEvent",
+    "Class": "UScriptClass'EnumProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "Enum": {
+      "ObjectName": "Enum'ETeamLeagueRankId'",
+      "ObjectPath": "/Script/GameProject"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'WBP_TeamCenterInfo_C:CustomEvent.Rank.UnderlyingType'",
+      "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.18"
+    }
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "K2Node_CustomEvent_Rank",
+    "Outer": "ExecuteUbergraph_WBP_TeamCenterInfo",
+    "Class": "UScriptClass'EnumProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": {
+      "ObjectName": "Enum'ETeamLeagueRankId'",
+      "ObjectPath": "/Script/GameProject"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'WBP_TeamCenterInfo_C:ExecuteUbergraph_WBP_TeamCenterInfo.K2Node_CustomEvent_Rank.UnderlyingType'",
+      "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.19"
+    }
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "K2Node_CustomEvent_TeamRank",
+    "Outer": "ExecuteUbergraph_WBP_TeamCenterInfo",
+    "Class": "UScriptClass'EnumProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": {
+      "ObjectName": "Enum'ETeamLeagueRankId'",
+      "ObjectPath": "/Script/GameProject"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'WBP_TeamCenterInfo_C:ExecuteUbergraph_WBP_TeamCenterInfo.K2Node_CustomEvent_TeamRank.UnderlyingType'",
+      "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.20"
+    }
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "TeamRank",
+    "Outer": "SetTeamLogo",
+    "Class": "UScriptClass'EnumProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "Enum": {
+      "ObjectName": "Enum'ETeamLeagueRankId'",
+      "ObjectPath": "/Script/GameProject"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'WBP_TeamCenterInfo_C:SetTeamLogo.TeamRank.UnderlyingType'",
+      "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.23"
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Image_Hashiriya",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 796.0,
+          "Y": 216.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_HashiriyaTeamLogo'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/Common/Texture/T_HashiriyaTeamLogo.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_TeamCenterInfo_C:WidgetTree.CanvasPanel_35.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.31"
+      },
+      "RenderTransform": {
+        "Scale": {
+          "X": 0.7,
+          "Y": 0.7
+        }
+      },
+      "Visibility": "ESlateVisibility::Collapsed"
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Image_Hashiriya",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 796.0,
+          "Y": 216.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_HashiriyaTeamLogo'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/Common/Texture/T_HashiriyaTeamLogo.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_35.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.36"
+      },
+      "RenderTransform": {
+        "Scale": {
+          "X": 0.7,
+          "Y": 0.7
+        }
+      },
+      "Visibility": "ESlateVisibility::Collapsed"
+    }
+  },
+  {
+    "Type": "InterfaceProperty",
+    "Name": "K2Node_DynamicCast_AsWBP_Team_Logo_Interface",
+    "Outer": "ExecuteUbergraph_WBP_TeamCenterInfo",
+    "Class": "UScriptClass'InterfaceProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "InterfaceClass": {
+      "ObjectName": "BlueprintGeneratedClass'WBP_TeamLogo_Interface_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Team/Common/TeamLogo/WBP_TeamLogo_Interface.2"
+    }
+  },
+  {
+    "Type": "InterfaceProperty",
+    "Name": "K2Node_DynamicCast_AsWBP_Team_Logo_Interface_1",
+    "Outer": "ExecuteUbergraph_WBP_TeamCenterInfo",
+    "Class": "UScriptClass'InterfaceProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "InterfaceClass": {
+      "ObjectName": "BlueprintGeneratedClass'WBP_TeamLogo_Interface_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Team/Common/TeamLogo/WBP_TeamLogo_Interface.2"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "LogoId",
+    "Outer": "CustomEvent",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "K2Node_CustomEvent_LogoId",
+    "Outer": "ExecuteUbergraph_WBP_TeamCenterInfo",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "K2Node_CustomEvent_TeamLogoId",
+    "Outer": "ExecuteUbergraph_WBP_TeamCenterInfo",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "K2Node_Event_ActionIndex",
+    "Outer": "ExecuteUbergraph_WBP_TeamCenterInfo",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_AddChildToCanvas_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_TeamCenterInfo",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "InstancedReference",
+    "PropertyClass": {
+      "ObjectName": "Class'CanvasPanelSlot'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_AddChildToCanvas_ReturnValue_1",
+    "Outer": "ExecuteUbergraph_WBP_TeamCenterInfo",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "InstancedReference",
+    "PropertyClass": {
+      "ObjectName": "Class'CanvasPanelSlot'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_Create_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_TeamCenterInfo",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "InstancedReference",
+    "PropertyClass": {
+      "ObjectName": "Class'CustomWidgetBase'",
+      "ObjectPath": "/Script/GameProject"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_Create_ReturnValue_1",
+    "Outer": "ExecuteUbergraph_WBP_TeamCenterInfo",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "InstancedReference",
+    "PropertyClass": {
+      "ObjectName": "Class'CustomWidgetBase'",
+      "ObjectPath": "/Script/GameProject"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "TeamLogo",
+    "Outer": "WBP_TeamCenterInfo_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'CanvasPanel'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "TextBlock_46",
+    "Outer": "WBP_TeamCenterInfo_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'TextBlock'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "TextBlock_setsumei",
+    "Outer": "WBP_TeamCenterInfo_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'TextBlock'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "SoftClassProperty",
+    "Name": "CallFunc_GetTeamLogoClassRef_ClassRef",
+    "Outer": "ExecuteUbergraph_WBP_TeamCenterInfo",
+    "Class": "UScriptClass'SoftClassProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyClass": {
+      "ObjectName": "Class'Class'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "MetaClass": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'WBP_TeamLogo_Base_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Team/Common/TeamLogo/WBP_TeamLogo_Base.1"
+    }
+  },
+  {
+    "Type": "SoftClassProperty",
+    "Name": "CallFunc_GetTeamLogoClassRef_ClassRef_1",
+    "Outer": "ExecuteUbergraph_WBP_TeamCenterInfo",
+    "Class": "UScriptClass'SoftClassProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyClass": {
+      "ObjectName": "Class'Class'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "MetaClass": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'WBP_TeamLogo_Base_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Team/Common/TeamLogo/WBP_TeamLogo_Base.1"
+    }
+  },
+  {
+    "Type": "StrProperty",
+    "Name": "TeamNickName",
+    "Outer": "CustomEvent",
+    "Class": "UScriptClass'StrProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "StrProperty",
+    "Name": "K2Node_CustomEvent_TeamName",
+    "Outer": "ExecuteUbergraph_WBP_TeamCenterInfo",
+    "Class": "UScriptClass'StrProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "StrProperty",
+    "Name": "K2Node_CustomEvent_TeamName_1",
+    "Outer": "ExecuteUbergraph_WBP_TeamCenterInfo",
+    "Class": "UScriptClass'StrProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "StrProperty",
+    "Name": "K2Node_CustomEvent_TeamNickName",
+    "Outer": "ExecuteUbergraph_WBP_TeamCenterInfo",
+    "Class": "UScriptClass'StrProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "StrProperty",
+    "Name": "K2Node_CustomEvent_TeamNickname_1",
+    "Outer": "ExecuteUbergraph_WBP_TeamCenterInfo",
+    "Class": "UScriptClass'StrProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "StrProperty",
+    "Name": "TeamName",
+    "Outer": "SetTeamLogo",
+    "Class": "UScriptClass'StrProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "StrProperty",
+    "Name": "TeamNickname",
+    "Outer": "SetTeamLogo",
+    "Class": "UScriptClass'StrProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "TextBlock_46",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "C7ECCF414CDA6BD619165DB3A49AEB1B",
+        "SourceString": "チーム脱退",
+        "LocalizedString": "チーム脱退"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "FontMaterial": {
+          "ObjectName": "MaterialInstanceConstant'MI_GachaFont01'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/AvaterGacha/GachaResult/Material/MI_GachaFont01.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 2,
+          "OutlineColor": {
+            "R": 0.2,
+            "G": 0.2,
+            "B": 0.2,
+            "A": 1.0,
+            "Hex": "7C7C7C"
+          }
+        },
+        "TypefaceFontName": "RodinN_B",
+        "Size": 34
+      },
+      "ShadowOffset": {
+        "X": 0.0,
+        "Y": 6.0
+      },
+      "ShadowColorAndOpacity": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "000000"
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_TeamCenterInfo_C:WidgetTree.CanvasPanel_35.CanvasPanelSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.32"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "TextBlock_setsumei",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "18DA74F2408E7C2DC1B9D48850C6479A",
+        "SourceString": "現在加入しているチームから脱退します\r\n現ラウンドのポイントは失われます",
+        "LocalizedString": "現在加入しているチームから脱退します\r\n現ラウンドのポイントは失われます"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "OutlineSettings": {
+          "OutlineColor": {
+            "R": 0.2,
+            "G": 0.2,
+            "B": 0.2,
+            "A": 1.0,
+            "Hex": "7C7C7C"
+          }
+        },
+        "TypefaceFontName": "RodinN_EB",
+        "Size": 16
+      },
+      "ShadowOffset": {
+        "X": 0.0,
+        "Y": 3.0
+      },
+      "ShadowColorAndOpacity": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "000000"
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_TeamCenterInfo_C:WidgetTree.CanvasPanel_35.CanvasPanelSlot_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.33"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "TextBlock_46",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "C7ECCF414CDA6BD619165DB3A49AEB1B",
+        "SourceString": "チーム脱退",
+        "LocalizedString": "チーム脱退"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "FontMaterial": {
+          "ObjectName": "MaterialInstanceConstant'MI_GachaFont01'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/AvaterGacha/GachaResult/Material/MI_GachaFont01.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 2,
+          "OutlineColor": {
+            "R": 0.2,
+            "G": 0.2,
+            "B": 0.2,
+            "A": 1.0,
+            "Hex": "7C7C7C"
+          }
+        },
+        "TypefaceFontName": "RodinN_B",
+        "Size": 34
+      },
+      "ShadowOffset": {
+        "X": 0.0,
+        "Y": 6.0
+      },
+      "ShadowColorAndOpacity": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "000000"
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_35.CanvasPanelSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.37"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "TextBlock_setsumei",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "18DA74F2408E7C2DC1B9D48850C6479A",
+        "SourceString": "現在加入しているチームから脱退します\r\n現ラウンドのポイントは失われます",
+        "LocalizedString": "現在加入しているチームから脱退します\r\n現ラウンドのポイントは失われます"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "OutlineSettings": {
+          "OutlineColor": {
+            "R": 0.2,
+            "G": 0.2,
+            "B": 0.2,
+            "A": 1.0,
+            "Hex": "7C7C7C"
+          }
+        },
+        "TypefaceFontName": "RodinN_EB",
+        "Size": 16
+      },
+      "ShadowOffset": {
+        "X": 0.0,
+        "Y": 3.0
+      },
+      "ShadowColorAndOpacity": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "000000"
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_35.CanvasPanelSlot_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.38"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "CallFunc_Conv_StringToText_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_TeamCenterInfo",
+    "Class": "UScriptClass'TextProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "CallFunc_Conv_StringToText_ReturnValue_1",
+    "Outer": "ExecuteUbergraph_WBP_TeamCenterInfo",
+    "Class": "UScriptClass'TextProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "CallFunc_Conv_StringToText_ReturnValue_2",
+    "Outer": "ExecuteUbergraph_WBP_TeamCenterInfo",
+    "Class": "UScriptClass'TextProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "CallFunc_Conv_StringToText_ReturnValue_3",
+    "Outer": "ExecuteUbergraph_WBP_TeamCenterInfo",
+    "Class": "UScriptClass'TextProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "K2Node_CustomEvent_text",
+    "Outer": "ExecuteUbergraph_WBP_TeamCenterInfo",
+    "Class": "UScriptClass'TextProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "K2Node_CustomEvent_text_1",
+    "Outer": "ExecuteUbergraph_WBP_TeamCenterInfo",
+    "Class": "UScriptClass'TextProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "K2Node_CustomEvent_text_2",
+    "Outer": "ExecuteUbergraph_WBP_TeamCenterInfo",
+    "Class": "UScriptClass'TextProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "WBP_TeamCenterInfo_C",
+    "Name": "WidgetArchetype",
+    "Class": "WidgetBlueprintGeneratedClass'GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.WBP_TeamCenterInfo_C'",
+    "Template": {
+      "ObjectName": "WBP_TeamCenterInfo_C'Default__WBP_TeamCenterInfo_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.2"
+    },
+    "Flags": "RF_Public | RF_Standalone | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Image_Hashiriya": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.Image_Hashiriya'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.63"
+      },
+      "TeamLogo": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.TeamLogo'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.29"
+      },
+      "TextBlock_46": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.TextBlock_46'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.88"
+      },
+      "TextBlock_setsumei": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.TextBlock_setsumei'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.89"
+      },
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.99"
+      },
+      "bCookedWidgetTree": true
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Outer": "WBP_TeamCenterInfo_C",
+    "Class": "UScriptClass'WidgetTree'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CanvasPanel'WBP_TeamCenterInfo_C:WidgetTree.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.24"
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree_0",
+    "Outer": "WidgetArchetype",
+    "Class": "UScriptClass'WidgetTree'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamMainMenu/WBP_TeamCenterInfo.27"
+      }
+    }
+  }
+]

@@ -1,0 +1,377 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_SelectCourse_CourseInfo_WidgetSetting",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "UserDefinedStruct'ST_SelectCourse_CourseInfo_WidgetSetting'",
+        "ObjectPath": "GameProject/Content/IND/UI/DataTable/Common/CourseInfo/ST_SelectCourse_CourseInfo_WidgetSetting.1"
+      }
+    },
+    "Rows": {
+      "ECourseID::AkinaLake": {
+        "Name_18_3CEB6C5343597A52520B57887910CB6F": {
+          "Namespace": "",
+          "Key": "8A4029A549942183E845F2ADAD3A9FB6",
+          "SourceString": "L. Akina",
+          "LocalizedString": "L. Akina"
+        },
+        "LayoutAttribute_33_8AF6D0BD4657081E37CDAA99D856401F": "ECarLayoutAttribute::HighSpeed",
+        "Foward_27_1DD05C0F478DB375DAE2E2B946E0754F": "ESelectCourse_RuteType::CounterClockWise",
+        "Backward_29_4E6BB5454DCD345AD0BAEE84788F3D49": "ESelectCourse_RuteType::ClockWise",
+        "km_36_704A41A743D5F66B0BA32BB10975FD4B": {
+          "Namespace": "",
+          "Key": "C4C19456406DB76410656489C61A7AB7",
+          "SourceString": "3.1km",
+          "LocalizedString": "3.1km"
+        },
+        "DefaultBGM_Foward_66_122CF199410272AF51D1ED9671DC4D74": "E_BGM_Race::NewEnumerator0",
+        "DefaultBGM_Backward_67_AFE0B212432E441F1A29638019CEFA83": "E_BGM_Race::NewEnumerator0"
+      },
+      "ECourseID::Myogi": {
+        "Name_18_3CEB6C5343597A52520B57887910CB6F": {
+          "Namespace": "",
+          "Key": "4DB947314D2C89E62AA41CB71F2C2F99",
+          "SourceString": "Myogi",
+          "LocalizedString": "Myogi"
+        },
+        "LayoutAttribute_33_8AF6D0BD4657081E37CDAA99D856401F": "ECarLayoutAttribute::Technical",
+        "Foward_27_1DD05C0F478DB375DAE2E2B946E0754F": "ESelectCourse_RuteType::DownHill",
+        "Backward_29_4E6BB5454DCD345AD0BAEE84788F3D49": "ESelectCourse_RuteType::HillClimb",
+        "km_36_704A41A743D5F66B0BA32BB10975FD4B": {
+          "Namespace": "",
+          "Key": "04C36D404B9F2189A7AD76BF31B3A065",
+          "SourceString": "7.0km",
+          "LocalizedString": "7.0km"
+        },
+        "DefaultBGM_Foward_66_122CF199410272AF51D1ED9671DC4D74": "E_BGM_Race::NewEnumerator2",
+        "DefaultBGM_Backward_67_AFE0B212432E441F1A29638019CEFA83": "E_BGM_Race::NewEnumerator2"
+      },
+      "ECourseID::Akagi": {
+        "Name_18_3CEB6C5343597A52520B57887910CB6F": {
+          "Namespace": "",
+          "Key": "BDDCAF2241B35A110B348C94D24B9292",
+          "SourceString": "Akagi",
+          "LocalizedString": "Akagi"
+        },
+        "LayoutAttribute_33_8AF6D0BD4657081E37CDAA99D856401F": "ECarLayoutAttribute::Technical",
+        "Foward_27_1DD05C0F478DB375DAE2E2B946E0754F": "ESelectCourse_RuteType::DownHill",
+        "Backward_29_4E6BB5454DCD345AD0BAEE84788F3D49": "ESelectCourse_RuteType::HillClimb",
+        "km_36_704A41A743D5F66B0BA32BB10975FD4B": {
+          "Namespace": "",
+          "Key": "AC8C321B4FFF0CCA819ADC91B59FAE73",
+          "SourceString": "5.8km",
+          "LocalizedString": "5.8km"
+        },
+        "DefaultBGM_Foward_66_122CF199410272AF51D1ED9671DC4D74": "E_BGM_Race::NewEnumerator1",
+        "DefaultBGM_Backward_67_AFE0B212432E441F1A29638019CEFA83": "E_BGM_Race::NewEnumerator33"
+      },
+      "ECourseID::Akina": {
+        "Name_18_3CEB6C5343597A52520B57887910CB6F": {
+          "Namespace": "",
+          "Key": "FCA53B2548082205AEA27DBFBBF40274",
+          "SourceString": "Akina",
+          "LocalizedString": "Akina"
+        },
+        "LayoutAttribute_33_8AF6D0BD4657081E37CDAA99D856401F": "ECarLayoutAttribute::HighSpeed",
+        "Foward_27_1DD05C0F478DB375DAE2E2B946E0754F": "ESelectCourse_RuteType::DownHill",
+        "Backward_29_4E6BB5454DCD345AD0BAEE84788F3D49": "ESelectCourse_RuteType::HillClimb",
+        "km_36_704A41A743D5F66B0BA32BB10975FD4B": {
+          "Namespace": "",
+          "Key": "F5AF24E0410009EE99A3EC9DADB49B5D",
+          "SourceString": "7.5km",
+          "LocalizedString": "7.5km"
+        },
+        "DefaultBGM_Foward_66_122CF199410272AF51D1ED9671DC4D74": "E_BGM_Race::NewEnumerator35",
+        "DefaultBGM_Backward_67_AFE0B212432E441F1A29638019CEFA83": "E_BGM_Race::NewEnumerator32"
+      },
+      "ECourseID::Irohazaka": {
+        "Name_18_3CEB6C5343597A52520B57887910CB6F": {
+          "Namespace": "",
+          "Key": "967AD5334860F35BA36D778E6D74CD6C",
+          "SourceString": "Iroha",
+          "LocalizedString": "Iroha"
+        },
+        "LayoutAttribute_33_8AF6D0BD4657081E37CDAA99D856401F": "ECarLayoutAttribute::Technical",
+        "Foward_27_1DD05C0F478DB375DAE2E2B946E0754F": "ESelectCourse_RuteType::DownHill",
+        "Backward_29_4E6BB5454DCD345AD0BAEE84788F3D49": "ESelectCourse_RuteType::ReverseRun",
+        "km_36_704A41A743D5F66B0BA32BB10975FD4B": {
+          "Namespace": "",
+          "Key": "D6632B784098DED35121B28991CFF4B2",
+          "SourceString": "5.1km",
+          "LocalizedString": "5.1km"
+        },
+        "DefaultBGM_Foward_66_122CF199410272AF51D1ED9671DC4D74": "E_BGM_Race::NewEnumerator44",
+        "DefaultBGM_Backward_67_AFE0B212432E441F1A29638019CEFA83": "E_BGM_Race::NewEnumerator44"
+      },
+      "ECourseID::Tsukuba": {
+        "Name_18_3CEB6C5343597A52520B57887910CB6F": {
+          "Namespace": "",
+          "Key": "5917EA49407C87EE0BED00B239422E8B",
+          "SourceString": "Tsukuba",
+          "LocalizedString": "Tsukuba"
+        },
+        "LayoutAttribute_33_8AF6D0BD4657081E37CDAA99D856401F": "ECarLayoutAttribute::HighSpeed",
+        "Foward_27_1DD05C0F478DB375DAE2E2B946E0754F": "ESelectCourse_RuteType::OutWard",
+        "Backward_29_4E6BB5454DCD345AD0BAEE84788F3D49": "ESelectCourse_RuteType::ReturnTrip",
+        "km_36_704A41A743D5F66B0BA32BB10975FD4B": {
+          "Namespace": "",
+          "Key": "F8D153F449B5DD2273D617B5AAFAC01E",
+          "SourceString": "6.8km",
+          "LocalizedString": "6.8km"
+        },
+        "DefaultBGM_Foward_66_122CF199410272AF51D1ED9671DC4D74": "E_BGM_Race::NewEnumerator71",
+        "DefaultBGM_Backward_67_AFE0B212432E441F1A29638019CEFA83": "E_BGM_Race::NewEnumerator71"
+      },
+      "ECourseID::Happo": {
+        "Name_18_3CEB6C5343597A52520B57887910CB6F": {
+          "Namespace": "",
+          "Key": "44771DD04194527CE25986AC28D6CC8D",
+          "SourceString": "Happogahara",
+          "LocalizedString": "Happogahara"
+        },
+        "LayoutAttribute_33_8AF6D0BD4657081E37CDAA99D856401F": "ECarLayoutAttribute::Technical",
+        "Foward_27_1DD05C0F478DB375DAE2E2B946E0754F": "ESelectCourse_RuteType::OutWard",
+        "Backward_29_4E6BB5454DCD345AD0BAEE84788F3D49": "ESelectCourse_RuteType::ReturnTrip",
+        "km_36_704A41A743D5F66B0BA32BB10975FD4B": {
+          "Namespace": "",
+          "Key": "D8C12ACF480B828F17F1E0878FA4357C",
+          "SourceString": "5.4km",
+          "LocalizedString": "5.4km"
+        },
+        "DefaultBGM_Foward_66_122CF199410272AF51D1ED9671DC4D74": "E_BGM_Race::NewEnumerator50",
+        "DefaultBGM_Backward_67_AFE0B212432E441F1A29638019CEFA83": "E_BGM_Race::NewEnumerator50"
+      },
+      "ECourseID::Nagao": {
+        "Name_18_3CEB6C5343597A52520B57887910CB6F": {
+          "Namespace": "",
+          "Key": "D9DEF6064D98FF7A7D69C6B8A9302D40",
+          "SourceString": "Nagao",
+          "LocalizedString": "Nagao"
+        },
+        "LayoutAttribute_33_8AF6D0BD4657081E37CDAA99D856401F": "ECarLayoutAttribute::Technical",
+        "Foward_27_1DD05C0F478DB375DAE2E2B946E0754F": "ESelectCourse_RuteType::DownHill",
+        "Backward_29_4E6BB5454DCD345AD0BAEE84788F3D49": "ESelectCourse_RuteType::HillClimb",
+        "km_36_704A41A743D5F66B0BA32BB10975FD4B": {
+          "Namespace": "",
+          "Key": "8FD966164935ACC9EF4AC59ED6A5BF56",
+          "SourceString": "6.5km",
+          "LocalizedString": "6.5km"
+        },
+        "DefaultBGM_Foward_66_122CF199410272AF51D1ED9671DC4D74": "E_BGM_Race::NewEnumerator57",
+        "DefaultBGM_Backward_67_AFE0B212432E441F1A29638019CEFA83": "E_BGM_Race::NewEnumerator57"
+      },
+      "ECourseID::Tsubaki": {
+        "Name_18_3CEB6C5343597A52520B57887910CB6F": {
+          "Namespace": "",
+          "Key": "0F5BCB3C41A445E1FD6212B226460E40",
+          "SourceString": "Tsubaki Line",
+          "LocalizedString": "Tsubaki Line"
+        },
+        "LayoutAttribute_33_8AF6D0BD4657081E37CDAA99D856401F": "ECarLayoutAttribute::Technical",
+        "Foward_27_1DD05C0F478DB375DAE2E2B946E0754F": "ESelectCourse_RuteType::DownHill",
+        "Backward_29_4E6BB5454DCD345AD0BAEE84788F3D49": "ESelectCourse_RuteType::HillClimb",
+        "km_36_704A41A743D5F66B0BA32BB10975FD4B": {
+          "Namespace": "",
+          "Key": "46CB3AA84A10A9C008D005BC4FAB8709",
+          "SourceString": "7.3km",
+          "LocalizedString": "7.3km"
+        },
+        "DefaultBGM_Foward_66_122CF199410272AF51D1ED9671DC4D74": "E_BGM_Race::NewEnumerator42",
+        "DefaultBGM_Backward_67_AFE0B212432E441F1A29638019CEFA83": "E_BGM_Race::NewEnumerator42"
+      },
+      "ECourseID::Usui": {
+        "Name_18_3CEB6C5343597A52520B57887910CB6F": {
+          "Namespace": "",
+          "Key": "2BECFD9942135443DA8C7997D734B7BE",
+          "SourceString": "Usui",
+          "LocalizedString": "Usui"
+        },
+        "LayoutAttribute_33_8AF6D0BD4657081E37CDAA99D856401F": "ECarLayoutAttribute::Technical",
+        "Foward_27_1DD05C0F478DB375DAE2E2B946E0754F": "ESelectCourse_RuteType::CounterClockWise",
+        "Backward_29_4E6BB5454DCD345AD0BAEE84788F3D49": "ESelectCourse_RuteType::ClockWise",
+        "km_36_704A41A743D5F66B0BA32BB10975FD4B": {
+          "Namespace": "",
+          "Key": "B6FDF01C4BEC404EFC3295A76E3C9E94",
+          "SourceString": "3.9km",
+          "LocalizedString": "3.9km"
+        },
+        "DefaultBGM_Foward_66_122CF199410272AF51D1ED9671DC4D74": "E_BGM_Race::NewEnumerator36",
+        "DefaultBGM_Backward_67_AFE0B212432E441F1A29638019CEFA83": "E_BGM_Race::NewEnumerator34"
+      },
+      "ECourseID::Sadamine": {
+        "Name_18_3CEB6C5343597A52520B57887910CB6F": {
+          "Namespace": "",
+          "Key": "E07F4B7A44065CEE5C8C319752388D4A",
+          "SourceString": "Sada",
+          "LocalizedString": "Sada"
+        },
+        "LayoutAttribute_33_8AF6D0BD4657081E37CDAA99D856401F": "ECarLayoutAttribute::Technical",
+        "Foward_27_1DD05C0F478DB375DAE2E2B946E0754F": "ESelectCourse_RuteType::DownHill",
+        "Backward_29_4E6BB5454DCD345AD0BAEE84788F3D49": "ESelectCourse_RuteType::HillClimb",
+        "km_36_704A41A743D5F66B0BA32BB10975FD4B": {
+          "Namespace": "",
+          "Key": "3E110CC04D081FFD0D0F79BF46DD9E9A",
+          "SourceString": "6.8km",
+          "LocalizedString": "6.8km"
+        },
+        "DefaultBGM_Foward_66_122CF199410272AF51D1ED9671DC4D74": "E_BGM_Race::NewEnumerator48",
+        "DefaultBGM_Backward_67_AFE0B212432E441F1A29638019CEFA83": "E_BGM_Race::NewEnumerator48"
+      },
+      "ECourseID::Tsuchisaka": {
+        "Name_18_3CEB6C5343597A52520B57887910CB6F": {
+          "Namespace": "",
+          "Key": "B0899EB544F5E7E2286AA38ECF4AA9B1",
+          "SourceString": "Tsaka",
+          "LocalizedString": "Tsaka"
+        },
+        "LayoutAttribute_33_8AF6D0BD4657081E37CDAA99D856401F": "ECarLayoutAttribute::HighSpeed",
+        "Foward_27_1DD05C0F478DB375DAE2E2B946E0754F": "ESelectCourse_RuteType::OutWard",
+        "Backward_29_4E6BB5454DCD345AD0BAEE84788F3D49": "ESelectCourse_RuteType::ReturnTrip",
+        "km_36_704A41A743D5F66B0BA32BB10975FD4B": {
+          "Namespace": "",
+          "Key": "5BC149C946AB014192A4FCA11495DD0B",
+          "SourceString": "6.7km",
+          "LocalizedString": "6.7km"
+        },
+        "DefaultBGM_Foward_66_122CF199410272AF51D1ED9671DC4D74": "E_BGM_Race::NewEnumerator64",
+        "DefaultBGM_Backward_67_AFE0B212432E441F1A29638019CEFA83": "E_BGM_Race::NewEnumerator64"
+      },
+      "ECourseID::AkinaSnow": {
+        "Name_18_3CEB6C5343597A52520B57887910CB6F": {
+          "Namespace": "",
+          "Key": "60291FF24FB244BD69C820B20B56E446",
+          "SourceString": "Akina(S)",
+          "LocalizedString": "Akina(S)"
+        },
+        "LayoutAttribute_33_8AF6D0BD4657081E37CDAA99D856401F": "ECarLayoutAttribute::HighSpeed",
+        "Foward_27_1DD05C0F478DB375DAE2E2B946E0754F": "ESelectCourse_RuteType::DownHill",
+        "Backward_29_4E6BB5454DCD345AD0BAEE84788F3D49": "ESelectCourse_RuteType::HillClimb",
+        "km_36_704A41A743D5F66B0BA32BB10975FD4B": {
+          "Namespace": "",
+          "Key": "771E48E348A30B6C3A3CFEA6F9E458A3",
+          "SourceString": "7.5km",
+          "LocalizedString": "7.5km"
+        },
+        "DefaultBGM_Foward_66_122CF199410272AF51D1ED9671DC4D74": "E_BGM_Race::NewEnumerator3",
+        "DefaultBGM_Backward_67_AFE0B212432E441F1A29638019CEFA83": "E_BGM_Race::NewEnumerator3"
+      },
+      "ECourseID::Hakone": {
+        "Name_18_3CEB6C5343597A52520B57887910CB6F": {
+          "Namespace": "",
+          "Key": "535189FB4A9FB1A5F76CD288D4D2BFAC",
+          "SourceString": "Hakone",
+          "LocalizedString": "Hakone"
+        },
+        "LayoutAttribute_33_8AF6D0BD4657081E37CDAA99D856401F": "ECarLayoutAttribute::HighSpeed",
+        "Foward_27_1DD05C0F478DB375DAE2E2B946E0754F": "ESelectCourse_RuteType::DownHill",
+        "Backward_29_4E6BB5454DCD345AD0BAEE84788F3D49": "ESelectCourse_RuteType::HillClimb",
+        "km_36_704A41A743D5F66B0BA32BB10975FD4B": {
+          "Namespace": "",
+          "Key": "5E928EFA4CC9D59CDCEFC9BC753DD7DD",
+          "SourceString": "10.7km",
+          "LocalizedString": "10.7km"
+        },
+        "DefaultBGM_Foward_66_122CF199410272AF51D1ED9671DC4D74": "E_BGM_Race::NewEnumerator83",
+        "DefaultBGM_Backward_67_AFE0B212432E441F1A29638019CEFA83": "E_BGM_Race::NewEnumerator83"
+      },
+      "ECourseID::Momiji": {
+        "Name_18_3CEB6C5343597A52520B57887910CB6F": {
+          "Namespace": "",
+          "Key": "403A42C448C663F041D491A43B6E2A3B",
+          "SourceString": "Momiji Line",
+          "LocalizedString": "Momiji Line"
+        },
+        "LayoutAttribute_33_8AF6D0BD4657081E37CDAA99D856401F": "ECarLayoutAttribute::HighSpeed",
+        "Foward_27_1DD05C0F478DB375DAE2E2B946E0754F": "ESelectCourse_RuteType::DownHill",
+        "Backward_29_4E6BB5454DCD345AD0BAEE84788F3D49": "ESelectCourse_RuteType::HillClimb",
+        "km_36_704A41A743D5F66B0BA32BB10975FD4B": {
+          "Namespace": "",
+          "Key": "B7F35B754A665D68AFD54BAAECE697E6",
+          "SourceString": "6.1km",
+          "LocalizedString": "6.1km"
+        },
+        "DefaultBGM_Foward_66_122CF199410272AF51D1ED9671DC4D74": "E_BGM_Race::NewEnumerator49",
+        "DefaultBGM_Backward_67_AFE0B212432E441F1A29638019CEFA83": "E_BGM_Race::NewEnumerator49"
+      },
+      "ECourseID::Nanamagari": {
+        "Name_18_3CEB6C5343597A52520B57887910CB6F": {
+          "Namespace": "",
+          "Key": "BED52EDD44A0E1EA5E0A5C8C8D96F9F7",
+          "SourceString": "Nana",
+          "LocalizedString": "Nana"
+        },
+        "LayoutAttribute_33_8AF6D0BD4657081E37CDAA99D856401F": "ECarLayoutAttribute::Technical",
+        "Foward_27_1DD05C0F478DB375DAE2E2B946E0754F": "ESelectCourse_RuteType::DownHill",
+        "Backward_29_4E6BB5454DCD345AD0BAEE84788F3D49": "ESelectCourse_RuteType::HillClimb",
+        "km_36_704A41A743D5F66B0BA32BB10975FD4B": {
+          "Namespace": "",
+          "Key": "4B176CA340CCD8A9FD6181A2A206714E",
+          "SourceString": "5.9km",
+          "LocalizedString": "5.9km"
+        },
+        "DefaultBGM_Foward_66_122CF199410272AF51D1ED9671DC4D74": "E_BGM_Race::NewEnumerator84",
+        "DefaultBGM_Backward_67_AFE0B212432E441F1A29638019CEFA83": "E_BGM_Race::NewEnumerator84"
+      },
+      "ECourseID::Gunsai": {
+        "Name_18_3CEB6C5343597A52520B57887910CB6F": {
+          "Namespace": "",
+          "Key": "E63BAFB84C390AD3E96F7380071CEC5B",
+          "SourceString": "Gunma Sai",
+          "LocalizedString": "Gunma Sai"
+        },
+        "LayoutAttribute_33_8AF6D0BD4657081E37CDAA99D856401F": "ECarLayoutAttribute::HighSpeed",
+        "Foward_27_1DD05C0F478DB375DAE2E2B946E0754F": "ESelectCourse_RuteType::OutWard",
+        "Backward_29_4E6BB5454DCD345AD0BAEE84788F3D49": "ESelectCourse_RuteType::ReturnTrip",
+        "km_36_704A41A743D5F66B0BA32BB10975FD4B": {
+          "Namespace": "",
+          "Key": "F9AE8DC441795D6606B4C1818DD5D3F4",
+          "SourceString": "6.0km",
+          "LocalizedString": "6.0km"
+        },
+        "DefaultBGM_Foward_66_122CF199410272AF51D1ED9671DC4D74": "E_BGM_Race::NewEnumerator34",
+        "DefaultBGM_Backward_67_AFE0B212432E441F1A29638019CEFA83": "E_BGM_Race::NewEnumerator33"
+      },
+      "ECourseID::Odawara": {
+        "Name_18_3CEB6C5343597A52520B57887910CB6F": {
+          "Namespace": "",
+          "Key": "AC87C8FB483E03EA7292C4937D2E53F8",
+          "SourceString": "Odawara",
+          "LocalizedString": "Odawara"
+        },
+        "LayoutAttribute_33_8AF6D0BD4657081E37CDAA99D856401F": "ECarLayoutAttribute::HighSpeed",
+        "Foward_27_1DD05C0F478DB375DAE2E2B946E0754F": "ESelectCourse_RuteType::FowardRunAR",
+        "Backward_29_4E6BB5454DCD345AD0BAEE84788F3D49": "ESelectCourse_RuteType::ReverseRunAR",
+        "km_36_704A41A743D5F66B0BA32BB10975FD4B": {
+          "Namespace": "",
+          "Key": "C56B2CD344DCB9BBCCC53CB3148C53FA",
+          "SourceString": "4.4km",
+          "LocalizedString": "4.4km"
+        },
+        "DefaultBGM_Foward_66_122CF199410272AF51D1ED9671DC4D74": "E_BGM_Race::NewEnumerator58",
+        "DefaultBGM_Backward_67_AFE0B212432E441F1A29638019CEFA83": "E_BGM_Race::NewEnumerator58"
+      },
+      "ECourseID::TsukubaSnow": {
+        "Name_18_3CEB6C5343597A52520B57887910CB6F": {
+          "Namespace": "",
+          "Key": "46877E60415601241A5942BFB4ECA116",
+          "SourceString": "Tsukuba(S)",
+          "LocalizedString": "Tsukuba(S)"
+        },
+        "LayoutAttribute_33_8AF6D0BD4657081E37CDAA99D856401F": "ECarLayoutAttribute::HighSpeed",
+        "Foward_27_1DD05C0F478DB375DAE2E2B946E0754F": "ESelectCourse_RuteType::OutWard",
+        "Backward_29_4E6BB5454DCD345AD0BAEE84788F3D49": "ESelectCourse_RuteType::ReturnTrip",
+        "km_36_704A41A743D5F66B0BA32BB10975FD4B": {
+          "Namespace": "",
+          "Key": "F8D153F449B5DD2273D617B5AAFAC01E",
+          "SourceString": "6.8km",
+          "LocalizedString": "6.8km"
+        },
+        "DefaultBGM_Foward_66_122CF199410272AF51D1ED9671DC4D74": "E_BGM_Race::NewEnumerator56",
+        "DefaultBGM_Backward_67_AFE0B212432E441F1A29638019CEFA83": "E_BGM_Race::NewEnumerator56"
+      }
+    }
+  }
+]

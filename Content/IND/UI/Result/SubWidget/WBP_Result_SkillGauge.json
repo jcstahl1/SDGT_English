@@ -1,0 +1,3918 @@
+[
+  {
+    "Type": "StructProperty",
+    "Name": "UberGraphFrame",
+    "Outer": "WBP_Result_SkillGauge_C",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "Transient | DuplicateTransient",
+    "Struct": {
+      "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "WBP_Result_SkillGauge_C",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WBP_Result_SkillGauge_C:WidgetTree'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.152"
+      },
+      "bAllowTemplate": true,
+      "bValidTemplate": true,
+      "Animations": [
+        {
+          "ObjectName": "WidgetAnimation'WBP_Result_SkillGauge_C:gauge_INST'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.142"
+        }
+      ],
+      "TemplateAsset": {
+        "AssetPathName": "/Game/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.WidgetArchetype",
+        "SubPathString": ""
+      },
+      "UberGraphFramePointerProperty": {
+        "ObjectName": "StructProperty'WBP_Result_SkillGauge_C:UberGraphFrame'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.0"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'WBP_Result_SkillGauge_C:ExecuteUbergraph_WBP_Result_SkillGauge'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.5"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'UserWidget'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'WBP_Result_SkillGauge_C:UberGraphFrame'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.0"
+      },
+      {
+        "ObjectName": "Function'WBP_Result_SkillGauge_C:Set_SkillLevel'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.69"
+      },
+      {
+        "ObjectName": "Function'WBP_Result_SkillGauge_C:Set_Gauge'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.65"
+      },
+      {
+        "ObjectName": "Function'WBP_Result_SkillGauge_C:Set_Rank'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.29"
+      },
+      {
+        "ObjectName": "Function'WBP_Result_SkillGauge_C:Set_SkillLevelFromSkillLevel'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.27"
+      },
+      {
+        "ObjectName": "Function'WBP_Result_SkillGauge_C:Set_CourseInfo'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.22"
+      },
+      {
+        "ObjectName": "Function'WBP_Result_SkillGauge_C:ExecuteUbergraph_WBP_Result_SkillGauge'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.5"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Result_SkillGauge_C:gauge'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.3"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Result_SkillGauge_C:P_CourseName'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.120"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Result_SkillGauge_C:P_CourseRoute_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.121"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Result_SkillGauge_C:P_GaugeMeter'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.122"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Result_SkillGauge_C:P_SkillNum'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.123"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Result_SkillGauge_C:P_SkillNum_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.124"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Result_SkillGauge_C:SkillUnit2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.125"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Result_SkillGauge_C:WBP_Com_Hyoka'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.126"
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_WBP_Result_SkillGauge": {
+        "ObjectName": "Function'WBP_Result_SkillGauge_C:ExecuteUbergraph_WBP_Result_SkillGauge'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.5"
+      },
+      "Set_CourseInfo": {
+        "ObjectName": "Function'WBP_Result_SkillGauge_C:Set_CourseInfo'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.22"
+      },
+      "Set_SkillLevelFromSkillLevel": {
+        "ObjectName": "Function'WBP_Result_SkillGauge_C:Set_SkillLevelFromSkillLevel'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.27"
+      },
+      "Set_Rank": {
+        "ObjectName": "Function'WBP_Result_SkillGauge_C:Set_Rank'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.29"
+      },
+      "Set_Gauge": {
+        "ObjectName": "Function'WBP_Result_SkillGauge_C:Set_Gauge'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.65"
+      },
+      "Set_SkillLevel": {
+        "ObjectName": "Function'WBP_Result_SkillGauge_C:Set_SkillLevel'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.69"
+      }
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "WBP_Result_SkillGauge_C'Default__WBP_Result_SkillGauge_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.2"
+    }
+  },
+  {
+    "Type": "WBP_Result_SkillGauge_C",
+    "Name": "Default__WBP_Result_SkillGauge_C",
+    "Class": "WidgetBlueprintGeneratedClass'GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.WBP_Result_SkillGauge_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "UberGraphFrame": {},
+      "bHasScriptImplementedTick": false,
+      "bHasScriptImplementedPaint": false
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "gauge",
+    "Outer": "WBP_Result_SkillGauge_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Transient | RepSkip",
+    "PropertyClass": {
+      "ObjectName": "Class'WidgetAnimation'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "EntryPoint",
+    "Outer": "ExecuteUbergraph_WBP_Result_SkillGauge",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_WBP_Result_SkillGauge",
+    "Outer": "WBP_Result_SkillGauge_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "IntProperty'WBP_Result_SkillGauge_C:ExecuteUbergraph_WBP_Result_SkillGauge.EntryPoint'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.4"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Result_SkillGauge_C:ExecuteUbergraph_WBP_Result_SkillGauge.Temp_int_Array_Index_Variable'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.108"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Result_SkillGauge_C:ExecuteUbergraph_WBP_Result_SkillGauge.Temp_int_Loop_Counter_Variable'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.109"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Result_SkillGauge_C:ExecuteUbergraph_WBP_Result_SkillGauge.CallFunc_Add_IntInt_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.104"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Result_SkillGauge_C:ExecuteUbergraph_WBP_Result_SkillGauge.K2Node_CustomEvent_Value'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.67"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_Result_SkillGauge_C:ExecuteUbergraph_WBP_Result_SkillGauge.K2Node_CustomEvent_Rate'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.64"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Result_SkillGauge_C:ExecuteUbergraph_WBP_Result_SkillGauge.CallFunc_CulcDigitNumber_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.107"
+      },
+      {
+        "ObjectName": "EnumProperty'WBP_Result_SkillGauge_C:ExecuteUbergraph_WBP_Result_SkillGauge.K2Node_CustomEvent_Evalution'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.58"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_Result_SkillGauge_C:ExecuteUbergraph_WBP_Result_SkillGauge.CallFunc_Conv_IntToFloat_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.61"
+      },
+      {
+        "ObjectName": "EnumProperty'WBP_Result_SkillGauge_C:ExecuteUbergraph_WBP_Result_SkillGauge.CallFunc_ConvWidgetEvalutionFromEvalution_Type'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.53"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Result_SkillGauge_C:ExecuteUbergraph_WBP_Result_SkillGauge.CallFunc_GreaterEqual_IntInt_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.10"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_Result_SkillGauge_C:ExecuteUbergraph_WBP_Result_SkillGauge.CallFunc_GetEndTime_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.62"
+      },
+      {
+        "ObjectName": "EnumProperty'WBP_Result_SkillGauge_C:ExecuteUbergraph_WBP_Result_SkillGauge.K2Node_CustomEvent_Level'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.59"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_Result_SkillGauge_C:ExecuteUbergraph_WBP_Result_SkillGauge.CallFunc_Multiply_FloatFloat_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.63"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Result_SkillGauge_C:ExecuteUbergraph_WBP_Result_SkillGauge.CallFunc_Convert_CourseSkillLevel_To_Int_Out'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.106"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Result_SkillGauge_C:ExecuteUbergraph_WBP_Result_SkillGauge.CallFunc_PlayAnimation_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.119"
+      },
+      {
+        "ObjectName": "EnumProperty'WBP_Result_SkillGauge_C:ExecuteUbergraph_WBP_Result_SkillGauge.K2Node_CustomEvent_Course'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.56"
+      },
+      {
+        "ObjectName": "EnumProperty'WBP_Result_SkillGauge_C:ExecuteUbergraph_WBP_Result_SkillGauge.K2Node_CustomEvent_Direction'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.57"
+      },
+      {
+        "ObjectName": "EnumProperty'WBP_Result_SkillGauge_C:ExecuteUbergraph_WBP_Result_SkillGauge.CallFunc_Find_CourseAttr_LayoutAttribute'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.54"
+      },
+      {
+        "ObjectName": "EnumProperty'WBP_Result_SkillGauge_C:ExecuteUbergraph_WBP_Result_SkillGauge.CallFunc_Find_CourseAttr_RouteAttribute'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.55"
+      },
+      {
+        "ObjectName": "NameProperty'WBP_Result_SkillGauge_C:ExecuteUbergraph_WBP_Result_SkillGauge.CallFunc_GetEnumeratorName_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.115"
+      },
+      {
+        "ObjectName": "NameProperty'WBP_Result_SkillGauge_C:ExecuteUbergraph_WBP_Result_SkillGauge.CallFunc_GetEnumeratorName_ReturnValue_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.116"
+      },
+      {
+        "ObjectName": "StructProperty'WBP_Result_SkillGauge_C:ExecuteUbergraph_WBP_Result_SkillGauge.CallFunc_GetDataTableRowFromName_OutRow'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.129"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Result_SkillGauge_C:ExecuteUbergraph_WBP_Result_SkillGauge.CallFunc_GetDataTableRowFromName_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.8"
+      },
+      {
+        "ObjectName": "StructProperty'WBP_Result_SkillGauge_C:ExecuteUbergraph_WBP_Result_SkillGauge.CallFunc_GetDataTableRowFromName_OutRow_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.130"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Result_SkillGauge_C:ExecuteUbergraph_WBP_Result_SkillGauge.CallFunc_GetDataTableRowFromName_ReturnValue_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.9"
+      },
+      {
+        "ObjectName": "ByteProperty'WBP_Result_SkillGauge_C:ExecuteUbergraph_WBP_Result_SkillGauge.CallFunc_MakeLiteralByte_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.16"
+      },
+      {
+        "ObjectName": "ArrayProperty'WBP_Result_SkillGauge_C:ExecuteUbergraph_WBP_Result_SkillGauge.K2Node_MakeArray_Array'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.7"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Result_SkillGauge_C:ExecuteUbergraph_WBP_Result_SkillGauge.CallFunc_LessEqual_ByteByte_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.12"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Result_SkillGauge_C:ExecuteUbergraph_WBP_Result_SkillGauge.CallFunc_Array_Get_Item'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.117"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Result_SkillGauge_C:ExecuteUbergraph_WBP_Result_SkillGauge.CallFunc_GetDynamicMaterial_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.118"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Result_SkillGauge_C:ExecuteUbergraph_WBP_Result_SkillGauge.CallFunc_Array_Length_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.105"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Result_SkillGauge_C:ExecuteUbergraph_WBP_Result_SkillGauge.CallFunc_Less_IntInt_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.11"
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction | FUNC_HasDefaults"
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "K2Node_MakeArray_Array",
+    "Outer": "K2Node_MakeArray_Array",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "InstancedReference",
+    "PropertyClass": {
+      "ObjectName": "Class'Image'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ArrayProperty",
+    "Name": "K2Node_MakeArray_Array",
+    "Outer": "ExecuteUbergraph_WBP_Result_SkillGauge",
+    "Class": "UScriptClass'ArrayProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "ReferenceParm | ContainsInstancedReference",
+    "Inner": {
+      "ObjectName": "ObjectProperty'WBP_Result_SkillGauge_C:ExecuteUbergraph_WBP_Result_SkillGauge.K2Node_MakeArray_Array.K2Node_MakeArray_Array'",
+      "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.6"
+    }
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_GetDataTableRowFromName_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_Result_SkillGauge",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_GetDataTableRowFromName_ReturnValue_1",
+    "Outer": "ExecuteUbergraph_WBP_Result_SkillGauge",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_GreaterEqual_IntInt_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_Result_SkillGauge",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_Less_IntInt_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_Result_SkillGauge",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_LessEqual_ByteByte_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_Result_SkillGauge",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Outer": "CallFunc_ConvWidgetEvalutionFromEvalution_Type",
+    "Class": "UScriptClass'ByteProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": null
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Outer": "CallFunc_Find_CourseAttr_LayoutAttribute",
+    "Class": "UScriptClass'ByteProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": null
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Outer": "CallFunc_Find_CourseAttr_RouteAttribute",
+    "Class": "UScriptClass'ByteProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": null
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "CallFunc_MakeLiteralByte_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_Result_SkillGauge",
+    "Class": "UScriptClass'ByteProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": null
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Outer": "K2Node_CustomEvent_Course",
+    "Class": "UScriptClass'ByteProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": null
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Outer": "K2Node_CustomEvent_Direction",
+    "Class": "UScriptClass'ByteProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": null
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Outer": "K2Node_CustomEvent_Evalution",
+    "Class": "UScriptClass'ByteProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": null
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Outer": "K2Node_CustomEvent_Level",
+    "Class": "UScriptClass'ByteProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": null
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "Course",
+    "Outer": "Set_CourseInfo",
+    "Class": "UScriptClass'EnumProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "Enum": {
+      "ObjectName": "Enum'ECourseID'",
+      "ObjectPath": "/Script/IndRun"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'WBP_Result_SkillGauge_C:Set_CourseInfo.Course.UnderlyingType'",
+      "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.23"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "Set_CourseInfo",
+    "Outer": "WBP_Result_SkillGauge_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "EnumProperty'WBP_Result_SkillGauge_C:Set_CourseInfo.Course'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.21"
+      },
+      {
+        "ObjectName": "EnumProperty'WBP_Result_SkillGauge_C:Set_CourseInfo.Direction'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.60"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Outer": "Course",
+    "Class": "UScriptClass'ByteProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": null
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Outer": "Direction",
+    "Class": "UScriptClass'ByteProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": null
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Outer": "Level",
+    "Class": "UScriptClass'ByteProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": null
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "Level",
+    "Outer": "Set_SkillLevelFromSkillLevel",
+    "Class": "UScriptClass'EnumProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "Enum": {
+      "ObjectName": "Enum'ECourseSkillLevel'",
+      "ObjectPath": "/Script/GameProject"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'WBP_Result_SkillGauge_C:Set_SkillLevelFromSkillLevel.Level.UnderlyingType'",
+      "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.25"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "Set_SkillLevelFromSkillLevel",
+    "Outer": "WBP_Result_SkillGauge_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "EnumProperty'WBP_Result_SkillGauge_C:Set_SkillLevelFromSkillLevel.Level'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.26"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "Evalution",
+    "Outer": "Set_Rank",
+    "Class": "UScriptClass'EnumProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "Enum": {
+      "ObjectName": "Enum'EEvalution'",
+      "ObjectPath": "/Script/IndRun"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'WBP_Result_SkillGauge_C:Set_Rank.Evalution.UnderlyingType'",
+      "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.30"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "Set_Rank",
+    "Outer": "WBP_Result_SkillGauge_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "EnumProperty'WBP_Result_SkillGauge_C:Set_Rank.Evalution'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.28"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Outer": "Evalution",
+    "Class": "UScriptClass'ByteProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": null
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_0",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Result_SkillGauge_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.35"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Result_SkillGauge_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.36"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Result_SkillGauge_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_2'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.37"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Result_SkillGauge_C:WidgetTree.CanvasPanel_1.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.38"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_1",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Result_SkillGauge_C:WidgetTree.CanvasPanel_1.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.38"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Result_SkillGauge_C:WidgetTree.CanvasPanel_1.CanvasPanelSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.39"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Result_SkillGauge_C:WidgetTree.CanvasPanel_1.CanvasPanelSlot_2'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.40"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Result_SkillGauge_C:WidgetTree.CanvasPanel_1.CanvasPanelSlot_3'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.41"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Result_SkillGauge_C:WidgetTree.CanvasPanel_1.CanvasPanelSlot_4'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.42"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Result_SkillGauge_C:WidgetTree.CanvasPanel_1.CanvasPanelSlot_5'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.43"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_0",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.44"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.45"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_2'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.46"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_1.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.47"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_1",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_1.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.47"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_1.CanvasPanelSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.48"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_1.CanvasPanelSlot_2'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.49"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_1.CanvasPanelSlot_3'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.50"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_1.CanvasPanelSlot_4'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.51"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_1.CanvasPanelSlot_5'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.52"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Result_SkillGauge_C:WidgetTree.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.31"
+      },
+      "Content": {
+        "ObjectName": "Image'WBP_Result_SkillGauge_C:WidgetTree.GaugeBase'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.84"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Result_SkillGauge_C:WidgetTree.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.31"
+      },
+      "Content": {
+        "ObjectName": "Image'WBP_Result_SkillGauge_C:WidgetTree.P_GaugeMeter'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.86"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_2",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Result_SkillGauge_C:WidgetTree.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.31"
+      },
+      "Content": {
+        "ObjectName": "Image'WBP_Result_SkillGauge_C:WidgetTree.GaugeFlame'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.85"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "CanvasPanel_1",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Result_SkillGauge_C:WidgetTree.CanvasPanel_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.32"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WBP_Result_SkillGauge_C:WidgetTree.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.31"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "CanvasPanel_1",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 30.0,
+          "Top": -80.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 1.0,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Result_SkillGauge_C:WidgetTree.CanvasPanel_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.32"
+      },
+      "Content": {
+        "ObjectName": "Image'WBP_Result_SkillGauge_C:WidgetTree.T_SkillUnit1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.89"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_2",
+    "Outer": "CanvasPanel_1",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 40.0,
+          "Top": -80.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.0,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Result_SkillGauge_C:WidgetTree.CanvasPanel_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.32"
+      },
+      "Content": {
+        "ObjectName": "HorizontalBox'WBP_Result_SkillGauge_C:WidgetTree.HorizontalBox_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.71"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_3",
+    "Outer": "CanvasPanel_1",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": 60.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.0,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Result_SkillGauge_C:WidgetTree.CanvasPanel_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.32"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WBP_Result_SkillGauge_C:WidgetTree.SkillUnit2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.134"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_4",
+    "Outer": "CanvasPanel_1",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -20.0,
+          "Top": 60.0,
+          "Right": 154.0,
+          "Bottom": 39.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 1.0,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Result_SkillGauge_C:WidgetTree.CanvasPanel_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.32"
+      },
+      "Content": {
+        "ObjectName": "WBP_Com_Hyoka_C'WBP_Result_SkillGauge_C:WidgetTree.WBP_Com_Hyoka'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.139"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_5",
+    "Outer": "CanvasPanel_1",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": -150.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Result_SkillGauge_C:WidgetTree.CanvasPanel_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.32"
+      },
+      "Content": {
+        "ObjectName": "HorizontalBox'WBP_Result_SkillGauge_C:WidgetTree.HorizontalBox_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.70"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.33"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.GaugeBase'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.90"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.33"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.P_GaugeMeter'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.92"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_2",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.33"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.GaugeFlame'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.91"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "CanvasPanel_1",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.34"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.33"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "CanvasPanel_1",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 30.0,
+          "Top": -80.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 1.0,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.34"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.T_SkillUnit1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.95"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_2",
+    "Outer": "CanvasPanel_1",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 40.0,
+          "Top": -80.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.0,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.34"
+      },
+      "Content": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.HorizontalBox_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.73"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_3",
+    "Outer": "CanvasPanel_1",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": 60.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.0,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.34"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.SkillUnit2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.138"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_4",
+    "Outer": "CanvasPanel_1",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -20.0,
+          "Top": 60.0,
+          "Right": 154.0,
+          "Bottom": 39.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 1.0,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.34"
+      },
+      "Content": {
+        "ObjectName": "WBP_Com_Hyoka_C'WidgetArchetype:WidgetTree_0.WBP_Com_Hyoka'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.140"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_5",
+    "Outer": "CanvasPanel_1",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": -150.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.34"
+      },
+      "Content": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.HorizontalBox_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.72"
+      }
+    }
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "CallFunc_ConvWidgetEvalutionFromEvalution_Type",
+    "Outer": "ExecuteUbergraph_WBP_Result_SkillGauge",
+    "Class": "UScriptClass'EnumProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": {
+      "ObjectName": "Enum'EWidget_TimeEvalutionType'",
+      "ObjectPath": "/Script/GameProject"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'WBP_Result_SkillGauge_C:ExecuteUbergraph_WBP_Result_SkillGauge.CallFunc_ConvWidgetEvalutionFromEvalution_Type.UnderlyingType'",
+      "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.13"
+    }
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "CallFunc_Find_CourseAttr_LayoutAttribute",
+    "Outer": "ExecuteUbergraph_WBP_Result_SkillGauge",
+    "Class": "UScriptClass'EnumProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": {
+      "ObjectName": "Enum'ECarLayoutAttribute'",
+      "ObjectPath": "/Script/GameProject"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'WBP_Result_SkillGauge_C:ExecuteUbergraph_WBP_Result_SkillGauge.CallFunc_Find_CourseAttr_LayoutAttribute.UnderlyingType'",
+      "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.14"
+    }
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "CallFunc_Find_CourseAttr_RouteAttribute",
+    "Outer": "ExecuteUbergraph_WBP_Result_SkillGauge",
+    "Class": "UScriptClass'EnumProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": {
+      "ObjectName": "Enum'ESelectCourse_RuteType'",
+      "ObjectPath": "/Script/GameProject"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'WBP_Result_SkillGauge_C:ExecuteUbergraph_WBP_Result_SkillGauge.CallFunc_Find_CourseAttr_RouteAttribute.UnderlyingType'",
+      "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.15"
+    }
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "K2Node_CustomEvent_Course",
+    "Outer": "ExecuteUbergraph_WBP_Result_SkillGauge",
+    "Class": "UScriptClass'EnumProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": {
+      "ObjectName": "Enum'ECourseID'",
+      "ObjectPath": "/Script/IndRun"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'WBP_Result_SkillGauge_C:ExecuteUbergraph_WBP_Result_SkillGauge.K2Node_CustomEvent_Course.UnderlyingType'",
+      "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.17"
+    }
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "K2Node_CustomEvent_Direction",
+    "Outer": "ExecuteUbergraph_WBP_Result_SkillGauge",
+    "Class": "UScriptClass'EnumProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": {
+      "ObjectName": "Enum'ECourseDirection'",
+      "ObjectPath": "/Script/IndRun"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'WBP_Result_SkillGauge_C:ExecuteUbergraph_WBP_Result_SkillGauge.K2Node_CustomEvent_Direction.UnderlyingType'",
+      "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.18"
+    }
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "K2Node_CustomEvent_Evalution",
+    "Outer": "ExecuteUbergraph_WBP_Result_SkillGauge",
+    "Class": "UScriptClass'EnumProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": {
+      "ObjectName": "Enum'EEvalution'",
+      "ObjectPath": "/Script/IndRun"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'WBP_Result_SkillGauge_C:ExecuteUbergraph_WBP_Result_SkillGauge.K2Node_CustomEvent_Evalution.UnderlyingType'",
+      "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.19"
+    }
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "K2Node_CustomEvent_Level",
+    "Outer": "ExecuteUbergraph_WBP_Result_SkillGauge",
+    "Class": "UScriptClass'EnumProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": {
+      "ObjectName": "Enum'ECourseSkillLevel'",
+      "ObjectPath": "/Script/GameProject"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'WBP_Result_SkillGauge_C:ExecuteUbergraph_WBP_Result_SkillGauge.K2Node_CustomEvent_Level.UnderlyingType'",
+      "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.20"
+    }
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "Direction",
+    "Outer": "Set_CourseInfo",
+    "Class": "UScriptClass'EnumProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "Enum": {
+      "ObjectName": "Enum'ECourseDirection'",
+      "ObjectPath": "/Script/IndRun"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'WBP_Result_SkillGauge_C:Set_CourseInfo.Direction.UnderlyingType'",
+      "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.24"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_Conv_IntToFloat_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_Result_SkillGauge",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_GetEndTime_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_Result_SkillGauge",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_Multiply_FloatFloat_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_Result_SkillGauge",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "K2Node_CustomEvent_Rate",
+    "Outer": "ExecuteUbergraph_WBP_Result_SkillGauge",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "Function",
+    "Name": "Set_Gauge",
+    "Outer": "WBP_Result_SkillGauge_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "FloatProperty'WBP_Result_SkillGauge_C:Set_Gauge.Rate'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.66"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "Rate",
+    "Outer": "Set_Gauge",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "K2Node_CustomEvent_Value",
+    "Outer": "ExecuteUbergraph_WBP_Result_SkillGauge",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "Value",
+    "Outer": "Set_SkillLevel",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "Set_SkillLevel",
+    "Outer": "WBP_Result_SkillGauge_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "IntProperty'WBP_Result_SkillGauge_C:Set_SkillLevel.Value'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.68"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "HorizontalBox",
+    "Name": "HorizontalBox_0",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'HorizontalBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "HorizontalBoxSlot'WBP_Result_SkillGauge_C:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.74"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot'WBP_Result_SkillGauge_C:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.75"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot'WBP_Result_SkillGauge_C:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_2'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.76"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Result_SkillGauge_C:WidgetTree.CanvasPanel_1.CanvasPanelSlot_5'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.43"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBox",
+    "Name": "HorizontalBox_1",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'HorizontalBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "HorizontalBoxSlot'WBP_Result_SkillGauge_C:WidgetTree.HorizontalBox_1.HorizontalBoxSlot_4'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.78"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot'WBP_Result_SkillGauge_C:WidgetTree.HorizontalBox_1.HorizontalBoxSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.77"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Result_SkillGauge_C:WidgetTree.CanvasPanel_1.CanvasPanelSlot_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.40"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBox",
+    "Name": "HorizontalBox_0",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'HorizontalBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.HorizontalBox_0.HorizontalBoxSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.79"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.HorizontalBox_0.HorizontalBoxSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.80"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.HorizontalBox_0.HorizontalBoxSlot_2'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.81"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_1.CanvasPanelSlot_5'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.52"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBox",
+    "Name": "HorizontalBox_1",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'HorizontalBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.HorizontalBox_1.HorizontalBoxSlot_4'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.83"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.HorizontalBox_1.HorizontalBoxSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.82"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_1.CanvasPanelSlot_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.49"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_0",
+    "Outer": "HorizontalBox_0",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Top",
+      "Parent": {
+        "ObjectName": "HorizontalBox'WBP_Result_SkillGauge_C:WidgetTree.HorizontalBox_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.70"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WBP_Result_SkillGauge_C:WidgetTree.P_CourseName'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.132"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_1",
+    "Outer": "HorizontalBox_0",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Padding": {
+        "Left": 10.0,
+        "Right": 10.0
+      },
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Top",
+      "Parent": {
+        "ObjectName": "HorizontalBox'WBP_Result_SkillGauge_C:WidgetTree.HorizontalBox_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.70"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WBP_Result_SkillGauge_C:WidgetTree.CourseSplit'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.131"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_2",
+    "Outer": "HorizontalBox_0",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Top",
+      "Parent": {
+        "ObjectName": "HorizontalBox'WBP_Result_SkillGauge_C:WidgetTree.HorizontalBox_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.70"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WBP_Result_SkillGauge_C:WidgetTree.P_CourseRoute_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.133"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_1",
+    "Outer": "HorizontalBox_1",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "HorizontalBox'WBP_Result_SkillGauge_C:WidgetTree.HorizontalBox_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.71"
+      },
+      "Content": {
+        "ObjectName": "Image'WBP_Result_SkillGauge_C:WidgetTree.P_SkillNum'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.87"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_4",
+    "Outer": "HorizontalBox_1",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "HorizontalBox'WBP_Result_SkillGauge_C:WidgetTree.HorizontalBox_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.71"
+      },
+      "Content": {
+        "ObjectName": "Image'WBP_Result_SkillGauge_C:WidgetTree.P_SkillNum_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.88"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_0",
+    "Outer": "HorizontalBox_0",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Top",
+      "Parent": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.HorizontalBox_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.72"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.P_CourseName'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.136"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_1",
+    "Outer": "HorizontalBox_0",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Padding": {
+        "Left": 10.0,
+        "Right": 10.0
+      },
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Top",
+      "Parent": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.HorizontalBox_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.72"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.CourseSplit'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.135"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_2",
+    "Outer": "HorizontalBox_0",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Top",
+      "Parent": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.HorizontalBox_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.72"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.P_CourseRoute_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.137"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_1",
+    "Outer": "HorizontalBox_1",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.HorizontalBox_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.73"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.P_SkillNum'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.93"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_4",
+    "Outer": "HorizontalBox_1",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.HorizontalBox_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.73"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.P_SkillNum_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.94"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "GaugeBase",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 424.0,
+          "Y": 44.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Rslt_SkillGaugeBase'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/Texture/online/T_Rslt_SkillGaugeBase.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Result_SkillGauge_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.35"
+      },
+      "RenderTransform": {
+        "Shear": {
+          "X": -20.0,
+          "Y": 0.0
+        }
+      },
+      "RenderTransformPivot": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "GaugeFlame",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 424.0,
+          "Y": 44.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Rslt_SkillGaugeFlame'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/Texture/online/T_Rslt_SkillGaugeFlame.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Result_SkillGauge_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.37"
+      },
+      "RenderTransform": {
+        "Shear": {
+          "X": -20.0,
+          "Y": 0.0
+        }
+      },
+      "RenderTransformPivot": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "P_GaugeMeter",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 424.0,
+          "Y": 44.0
+        },
+        "ResourceObject": {
+          "ObjectName": "MaterialInstanceConstant'MI_GaugeSkillAnmHzt'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/Material/MI_GaugeSkillAnmHzt.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Result_SkillGauge_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.36"
+      },
+      "RenderTransform": {
+        "Shear": {
+          "X": -20.0,
+          "Y": 0.0
+        }
+      },
+      "RenderTransformPivot": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "P_SkillNum",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 56.0,
+          "Y": 64.0
+        },
+        "ResourceObject": {
+          "ObjectName": "MaterialInstanceConstant'MI_ResultTrialSkillNum'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/Material/MI_ResultTrialSkillNum.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WBP_Result_SkillGauge_C:WidgetTree.HorizontalBox_1.HorizontalBoxSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.77"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "P_SkillNum_2",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 56.0,
+          "Y": 64.0
+        },
+        "ResourceObject": {
+          "ObjectName": "MaterialInstanceConstant'MI_ResultTrialSkillNum'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/Material/MI_ResultTrialSkillNum.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WBP_Result_SkillGauge_C:WidgetTree.HorizontalBox_1.HorizontalBoxSlot_4'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.78"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "T_SkillUnit1",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 192.0,
+          "Y": 64.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Rslt_SkillCap'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/Texture/online/T_Rslt_SkillCap.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Result_SkillGauge_C:WidgetTree.CanvasPanel_1.CanvasPanelSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.39"
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "GaugeBase",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 424.0,
+          "Y": 44.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Rslt_SkillGaugeBase'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/Texture/online/T_Rslt_SkillGaugeBase.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.44"
+      },
+      "RenderTransform": {
+        "Shear": {
+          "X": -20.0,
+          "Y": 0.0
+        }
+      },
+      "RenderTransformPivot": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "GaugeFlame",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 424.0,
+          "Y": 44.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Rslt_SkillGaugeFlame'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/Texture/online/T_Rslt_SkillGaugeFlame.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.46"
+      },
+      "RenderTransform": {
+        "Shear": {
+          "X": -20.0,
+          "Y": 0.0
+        }
+      },
+      "RenderTransformPivot": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "P_GaugeMeter",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 424.0,
+          "Y": 44.0
+        },
+        "ResourceObject": {
+          "ObjectName": "MaterialInstanceConstant'MI_GaugeSkillAnmHzt'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/Material/MI_GaugeSkillAnmHzt.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.45"
+      },
+      "RenderTransform": {
+        "Shear": {
+          "X": -20.0,
+          "Y": 0.0
+        }
+      },
+      "RenderTransformPivot": {
+        "X": 0.0,
+        "Y": 0.0
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "P_SkillNum",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 56.0,
+          "Y": 64.0
+        },
+        "ResourceObject": {
+          "ObjectName": "MaterialInstanceConstant'MI_ResultTrialSkillNum'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/Material/MI_ResultTrialSkillNum.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.HorizontalBox_1.HorizontalBoxSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.82"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "P_SkillNum_2",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 56.0,
+          "Y": 64.0
+        },
+        "ResourceObject": {
+          "ObjectName": "MaterialInstanceConstant'MI_ResultTrialSkillNum'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/Material/MI_ResultTrialSkillNum.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.HorizontalBox_1.HorizontalBoxSlot_4'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.83"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "T_SkillUnit1",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 192.0,
+          "Y": 64.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Rslt_SkillCap'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/Texture/online/T_Rslt_SkillCap.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_1.CanvasPanelSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.48"
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Expert",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 700.0,
+          "Y": 176.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'hyoka_04'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/Hyoka/Texture/hyoka_04.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "WidgetSwitcherSlot'WidgetArchetype:WidgetTree_0.WBP_Com_Hyoka.WidgetTree_0.WidgetSwitcher_0.WidgetSwitcherSlot_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.147"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Master",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 700.0,
+          "Y": 176.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'hyoka_06'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/Hyoka/Texture/hyoka_06.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "WidgetSwitcherSlot'WidgetArchetype:WidgetTree_0.WBP_Com_Hyoka.WidgetTree_0.WidgetSwitcher_0.WidgetSwitcherSlot_5'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.149"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "MasterPlus",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 700.0,
+          "Y": 176.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'hyoka_07'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/Hyoka/Texture/hyoka_07.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "WidgetSwitcherSlot'WidgetArchetype:WidgetTree_0.WBP_Com_Hyoka.WidgetTree_0.WidgetSwitcher_0.WidgetSwitcherSlot_8'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.151"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Non",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 700.0,
+          "Y": 176.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'hyoka_00'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/Hyoka/Texture/hyoka_00.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "WidgetSwitcherSlot'WidgetArchetype:WidgetTree_0.WBP_Com_Hyoka.WidgetTree_0.WidgetSwitcher_0.WidgetSwitcherSlot_6'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.150"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Professional",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 700.0,
+          "Y": 176.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'hyoka_05'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/Hyoka/Texture/hyoka_05.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "WidgetSwitcherSlot'WidgetArchetype:WidgetTree_0.WBP_Com_Hyoka.WidgetTree_0.WidgetSwitcher_0.WidgetSwitcherSlot_4'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.148"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Regular",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 700.0,
+          "Y": 176.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'hyoka_02'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/Hyoka/Texture/hyoka_02.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "WidgetSwitcherSlot'WidgetArchetype:WidgetTree_0.WBP_Com_Hyoka.WidgetTree_0.WidgetSwitcher_0.WidgetSwitcherSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.145"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Rookie",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 700.0,
+          "Y": 176.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'hyoka_01'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/Hyoka/Texture/hyoka_01.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "WidgetSwitcherSlot'WidgetArchetype:WidgetTree_0.WBP_Com_Hyoka.WidgetTree_0.WidgetSwitcher_0.WidgetSwitcherSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.144"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Specialist",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 700.0,
+          "Y": 176.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'hyoka_03'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/Hyoka/Texture/hyoka_03.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "WidgetSwitcherSlot'WidgetArchetype:WidgetTree_0.WBP_Com_Hyoka.WidgetTree_0.WidgetSwitcher_0.WidgetSwitcherSlot_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.146"
+      }
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_Add_IntInt_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_Result_SkillGauge",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_Array_Length_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_Result_SkillGauge",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_Convert_CourseSkillLevel_To_Int_Out",
+    "Outer": "ExecuteUbergraph_WBP_Result_SkillGauge",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_CulcDigitNumber_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_Result_SkillGauge",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "Temp_int_Array_Index_Variable",
+    "Outer": "ExecuteUbergraph_WBP_Result_SkillGauge",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "Temp_int_Loop_Counter_Variable",
+    "Outer": "ExecuteUbergraph_WBP_Result_SkillGauge",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "MovieScene",
+    "Name": "gauge",
+    "Outer": "gauge_INST",
+    "Class": "UScriptClass'MovieScene'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Possessables": [
+        {
+          "Tags": [],
+          "Guid": "E7187C56-4748C135-EE855C80-3682F771",
+          "Name": "P_GaugeMeter",
+          "PossessedObjectClass": {
+            "ObjectName": "Class'Image'",
+            "ObjectPath": "/Script/UMG"
+          },
+          "ParentGuid": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "ObjectBindings": [
+        {
+          "ObjectGuid": "E7187C56-4748C135-EE855C80-3682F771",
+          "BindingName": "GaugeMeter",
+          "Tracks": [
+            {
+              "ObjectName": "MovieSceneWidgetMaterialTrack'WBP_Result_SkillGauge_C:gauge_INST.gauge.MovieSceneWidgetMaterialTrack_1'",
+              "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.114"
+            }
+          ]
+        }
+      ],
+      "PlaybackRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 60001
+            }
+          }
+        }
+      },
+      "DisplayRate": {
+        "Numerator": 60
+      },
+      "Signature": "6E557243-48333606-D2EFBA8E-24FA2CC0"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Outer": "MovieSceneParameterSection_0",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Outer": "MovieSceneParameterSection_0",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "MovieSceneParameterSection",
+    "Name": "MovieSceneParameterSection_0",
+    "Outer": "MovieSceneWidgetMaterialTrack_1",
+    "Class": "UScriptClass'MovieSceneParameterSection'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ScalarParameterNamesAndCurves": [
+        {
+          "ParameterName": "Percentage",
+          "ParameterCurve": {
+            "PreInfinityExtrap": "RCCE_None",
+            "PostInfinityExtrap": "RCCE_None",
+            "Times": [],
+            "Values": [],
+            "DefaultValue": 0.0,
+            "bHasDefaultValue": false,
+            "TickResolution": {
+              "Numerator": 0,
+              "Denominator": 0
+            },
+            "bShowCurve": false,
+            "StructFallback": {
+              "PreInfinityExtrap": "RCCE_Constant",
+              "PostInfinityExtrap": "RCCE_Constant",
+              "Times": [
+                {
+                  "Value": 0
+                },
+                {
+                  "Value": 60000
+                }
+              ],
+              "Values": [
+                {
+                  "Value": 0.0,
+                  "Tangent": {
+                    "ArriveTangent": 0.0,
+                    "LeaveTangent": 0.0,
+                    "ArriveTangentWeight": 0.0,
+                    "LeaveTangentWeight": 0.0,
+                    "TangentWeightMode": 0
+                  },
+                  "InterpMode": 2,
+                  "TangentMode": 0
+                },
+                {
+                  "Value": 1.0,
+                  "Tangent": {
+                    "ArriveTangent": 0.0,
+                    "LeaveTangent": 0.0,
+                    "ArriveTangentWeight": 0.0,
+                    "LeaveTangentWeight": 0.0,
+                    "TangentWeightMode": 0
+                  },
+                  "InterpMode": 2,
+                  "TangentMode": 0
+                }
+              ],
+              "DefaultValue": 0.0,
+              "bHasDefaultValue": false,
+              "TickResolution": {
+                "Numerator": 60000,
+                "Denominator": 1
+              }
+            }
+          }
+        }
+      ],
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'WBP_Result_SkillGauge_C:gauge_INST.gauge.MovieSceneWidgetMaterialTrack_1.MovieSceneParameterSection_0.EaseInFunction'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.111"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'WBP_Result_SkillGauge_C:gauge_INST.gauge.MovieSceneWidgetMaterialTrack_1.MovieSceneParameterSection_0.EaseOutFunction'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.112"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 60000
+            }
+          }
+        }
+      },
+      "Signature": "A0DF4939-42A0F412-905746A1-DE87D937"
+    }
+  },
+  {
+    "Type": "MovieSceneWidgetMaterialTrack",
+    "Name": "MovieSceneWidgetMaterialTrack_1",
+    "Outer": "gauge",
+    "Class": "UScriptClass'MovieSceneWidgetMaterialTrack'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "BrushPropertyNamePath": [
+        "Brush"
+      ],
+      "TrackName": "Brush",
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneParameterSection'WBP_Result_SkillGauge_C:gauge_INST.gauge.MovieSceneWidgetMaterialTrack_1.MovieSceneParameterSection_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.113"
+        }
+      ],
+      "Signature": "5747491B-4C403B58-95D2B18E-DF23651B"
+    }
+  },
+  {
+    "Type": "NameProperty",
+    "Name": "CallFunc_GetEnumeratorName_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_Result_SkillGauge",
+    "Class": "UScriptClass'NameProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "NameProperty",
+    "Name": "CallFunc_GetEnumeratorName_ReturnValue_1",
+    "Outer": "ExecuteUbergraph_WBP_Result_SkillGauge",
+    "Class": "UScriptClass'NameProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_Array_Get_Item",
+    "Outer": "ExecuteUbergraph_WBP_Result_SkillGauge",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "InstancedReference",
+    "PropertyClass": {
+      "ObjectName": "Class'Image'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetDynamicMaterial_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_Result_SkillGauge",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyClass": {
+      "ObjectName": "Class'MaterialInstanceDynamic'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_PlayAnimation_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_Result_SkillGauge",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyClass": {
+      "ObjectName": "Class'UMGSequencePlayer'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "P_CourseName",
+    "Outer": "WBP_Result_SkillGauge_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'TextBlock'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "P_CourseRoute_1",
+    "Outer": "WBP_Result_SkillGauge_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'TextBlock'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "P_GaugeMeter",
+    "Outer": "WBP_Result_SkillGauge_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'Image'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "P_SkillNum",
+    "Outer": "WBP_Result_SkillGauge_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'Image'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "P_SkillNum_2",
+    "Outer": "WBP_Result_SkillGauge_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'Image'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "SkillUnit2",
+    "Outer": "WBP_Result_SkillGauge_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'TextBlock'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "WBP_Com_Hyoka",
+    "Outer": "WBP_Result_SkillGauge_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'WBP_Com_Hyoka_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Common/Hyoka/WBP_Com_Hyoka.1"
+    }
+  },
+  {
+    "Type": "Overlay",
+    "Name": "Overlay_1",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Overlay'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.WBP_Com_Hyoka.WidgetTree_0.Overlay_1.OverlaySlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.128"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_0",
+    "Outer": "Overlay_1",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.WBP_Com_Hyoka.WidgetTree_0.Overlay_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.127"
+      },
+      "Content": {
+        "ObjectName": "WidgetSwitcher'WidgetArchetype:WidgetTree_0.WBP_Com_Hyoka.WidgetTree_0.WidgetSwitcher_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.143"
+      }
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_GetDataTableRowFromName_OutRow",
+    "Outer": "ExecuteUbergraph_WBP_Result_SkillGauge",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Struct": {
+      "ObjectName": "UserDefinedStruct'ST_SelectCourse_CourseInfo_WidgetSetting'",
+      "ObjectPath": "GameProject/Content/IND/UI/DataTable/Common/CourseInfo/ST_SelectCourse_CourseInfo_WidgetSetting.1"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_GetDataTableRowFromName_OutRow_1",
+    "Outer": "ExecuteUbergraph_WBP_Result_SkillGauge",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Struct": {
+      "ObjectName": "UserDefinedStruct'ST_WidgetSetting_SelectCommon_ToText'",
+      "ObjectPath": "GameProject/Content/IND/UI/DataTable/Select/Common/ST_WidgetSetting_SelectCommon_ToText.0"
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "CourseSplit",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "1BDE3B8C4C0207E0EB8E1F8C74A8D62A",
+        "SourceString": "/",
+        "LocalizedString": "/"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "FontMaterial": {
+          "ObjectName": "MaterialInstanceConstant'MI_CourseFontTex'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/Material/MI_CourseFontTex.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 2,
+          "bApplyOutlineToDropShadows": true
+        },
+        "TypefaceFontName": "RodinN_B"
+      },
+      "ShadowOffset": {
+        "X": 2.0,
+        "Y": 2.0
+      },
+      "ShadowColorAndOpacity": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "000000"
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WBP_Result_SkillGauge_C:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.75"
+      },
+      "RenderTransform": {
+        "Shear": {
+          "X": -20.0,
+          "Y": 0.0
+        }
+      }
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "P_CourseName",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "8660D82F4155592DF5734B85F6EDA2BC",
+        "SourceString": "コース名",
+        "LocalizedString": "コース名"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "FontMaterial": {
+          "ObjectName": "MaterialInstanceConstant'MI_CourseFontTex'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/Material/MI_CourseFontTex.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 2,
+          "bApplyOutlineToDropShadows": true
+        },
+        "TypefaceFontName": "RodinN_B"
+      },
+      "ShadowOffset": {
+        "X": 2.0,
+        "Y": 2.0
+      },
+      "ShadowColorAndOpacity": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "000000"
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WBP_Result_SkillGauge_C:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.74"
+      },
+      "RenderTransform": {
+        "Shear": {
+          "X": -20.0,
+          "Y": 0.0
+        }
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "P_CourseRoute_1",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "17A1BE90482A63058BDD0CA189EDD4C9",
+        "SourceString": "上り",
+        "LocalizedString": "上り"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "FontMaterial": {
+          "ObjectName": "MaterialInstanceConstant'MI_CourseFontTex'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/Material/MI_CourseFontTex.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 2,
+          "bApplyOutlineToDropShadows": true
+        },
+        "TypefaceFontName": "RodinN_B"
+      },
+      "ShadowOffset": {
+        "X": 2.0,
+        "Y": 2.0
+      },
+      "ShadowColorAndOpacity": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "000000"
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WBP_Result_SkillGauge_C:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.76"
+      },
+      "RenderTransform": {
+        "Shear": {
+          "X": -20.0,
+          "Y": 0.0
+        }
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "SkillUnit2",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "6AD0018E4C0DBD4E0D01AB9E7B7F7EB5",
+        "SourceString": "以上で熟練度上昇！",
+        "LocalizedString": "以上で熟練度上昇！"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 1
+        },
+        "TypefaceFontName": "RodinN_EB",
+        "Size": 14
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Result_SkillGauge_C:WidgetTree.CanvasPanel_1.CanvasPanelSlot_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.41"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "CourseSplit",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "1BDE3B8C4C0207E0EB8E1F8C74A8D62A",
+        "SourceString": "/",
+        "LocalizedString": "/"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "FontMaterial": {
+          "ObjectName": "MaterialInstanceConstant'MI_CourseFontTex'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/Material/MI_CourseFontTex.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 2,
+          "bApplyOutlineToDropShadows": true
+        },
+        "TypefaceFontName": "RodinN_B"
+      },
+      "ShadowOffset": {
+        "X": 2.0,
+        "Y": 2.0
+      },
+      "ShadowColorAndOpacity": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "000000"
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.HorizontalBox_0.HorizontalBoxSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.80"
+      },
+      "RenderTransform": {
+        "Shear": {
+          "X": -20.0,
+          "Y": 0.0
+        }
+      }
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "P_CourseName",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "8660D82F4155592DF5734B85F6EDA2BC",
+        "SourceString": "コース名",
+        "LocalizedString": "コース名"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "FontMaterial": {
+          "ObjectName": "MaterialInstanceConstant'MI_CourseFontTex'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/Material/MI_CourseFontTex.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 2,
+          "bApplyOutlineToDropShadows": true
+        },
+        "TypefaceFontName": "RodinN_B"
+      },
+      "ShadowOffset": {
+        "X": 2.0,
+        "Y": 2.0
+      },
+      "ShadowColorAndOpacity": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "000000"
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.HorizontalBox_0.HorizontalBoxSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.79"
+      },
+      "RenderTransform": {
+        "Shear": {
+          "X": -20.0,
+          "Y": 0.0
+        }
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "P_CourseRoute_1",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "17A1BE90482A63058BDD0CA189EDD4C9",
+        "SourceString": "上り",
+        "LocalizedString": "上り"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "FontMaterial": {
+          "ObjectName": "MaterialInstanceConstant'MI_CourseFontTex'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/Material/MI_CourseFontTex.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 2,
+          "bApplyOutlineToDropShadows": true
+        },
+        "TypefaceFontName": "RodinN_B"
+      },
+      "ShadowOffset": {
+        "X": 2.0,
+        "Y": 2.0
+      },
+      "ShadowColorAndOpacity": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "000000"
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.HorizontalBox_0.HorizontalBoxSlot_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.81"
+      },
+      "RenderTransform": {
+        "Shear": {
+          "X": -20.0,
+          "Y": 0.0
+        }
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "SkillUnit2",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "6AD0018E4C0DBD4E0D01AB9E7B7F7EB5",
+        "SourceString": "以上で熟練度上昇！",
+        "LocalizedString": "以上で熟練度上昇！"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 1
+        },
+        "TypefaceFontName": "RodinN_EB",
+        "Size": 14
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_1.CanvasPanelSlot_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.50"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "WBP_Com_Hyoka_C",
+    "Name": "WBP_Com_Hyoka",
+    "Outer": "WidgetTree",
+    "Class": "WidgetBlueprintGeneratedClass'GameProject/Content/IND/UI/Common/Hyoka/WBP_Com_Hyoka.WBP_Com_Hyoka_C'",
+    "Template": {
+      "ObjectName": "WBP_Com_Hyoka_C'Default__WBP_Com_Hyoka_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Common/Hyoka/WBP_Com_Hyoka.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Result_SkillGauge_C:WidgetTree.CanvasPanel_1.CanvasPanelSlot_4'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.42"
+      }
+    }
+  },
+  {
+    "Type": "WBP_Com_Hyoka_C",
+    "Name": "WBP_Com_Hyoka",
+    "Outer": "WidgetTree_0",
+    "Class": "WidgetBlueprintGeneratedClass'GameProject/Content/IND/UI/Common/Hyoka/WBP_Com_Hyoka.WBP_Com_Hyoka_C'",
+    "Template": {
+      "ObjectName": "WBP_Com_Hyoka_C'Default__WBP_Com_Hyoka_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Common/Hyoka/WBP_Com_Hyoka.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Expert": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_Com_Hyoka.WidgetTree_0.Expert'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.96"
+      },
+      "Master": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_Com_Hyoka.WidgetTree_0.Master'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.97"
+      },
+      "MasterPlus": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_Com_Hyoka.WidgetTree_0.MasterPlus'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.98"
+      },
+      "Non": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_Com_Hyoka.WidgetTree_0.Non'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.99"
+      },
+      "Professional": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_Com_Hyoka.WidgetTree_0.Professional'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.100"
+      },
+      "Regular": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_Com_Hyoka.WidgetTree_0.Regular'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.101"
+      },
+      "Rookie": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_Com_Hyoka.WidgetTree_0.Rookie'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.102"
+      },
+      "Specialist": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_Com_Hyoka.WidgetTree_0.Specialist'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.103"
+      },
+      "WidgetSwitcher_0": {
+        "ObjectName": "WidgetSwitcher'WidgetArchetype:WidgetTree_0.WBP_Com_Hyoka.WidgetTree_0.WidgetSwitcher_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.143"
+      },
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.WBP_Com_Hyoka.WidgetTree_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.154"
+      },
+      "bCookedWidgetTree": true,
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_1.CanvasPanelSlot_4'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.51"
+      }
+    }
+  },
+  {
+    "Type": "WBP_Result_SkillGauge_C",
+    "Name": "WidgetArchetype",
+    "Class": "WidgetBlueprintGeneratedClass'GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.WBP_Result_SkillGauge_C'",
+    "Template": {
+      "ObjectName": "WBP_Result_SkillGauge_C'Default__WBP_Result_SkillGauge_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.2"
+    },
+    "Flags": "RF_Public | RF_Standalone | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "P_CourseName": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.P_CourseName'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.136"
+      },
+      "P_CourseRoute_1": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.P_CourseRoute_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.137"
+      },
+      "P_GaugeMeter": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.P_GaugeMeter'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.92"
+      },
+      "P_SkillNum": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.P_SkillNum'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.93"
+      },
+      "P_SkillNum_2": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.P_SkillNum_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.94"
+      },
+      "SkillUnit2": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.SkillUnit2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.138"
+      },
+      "WBP_Com_Hyoka": {
+        "ObjectName": "WBP_Com_Hyoka_C'WidgetArchetype:WidgetTree_0.WBP_Com_Hyoka'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.140"
+      },
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.153"
+      },
+      "bCookedWidgetTree": true
+    }
+  },
+  {
+    "Type": "WidgetAnimation",
+    "Name": "gauge_INST",
+    "Outer": "WBP_Result_SkillGauge_C",
+    "Class": "UScriptClass'WidgetAnimation'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "MovieScene": {
+        "ObjectName": "MovieScene'WBP_Result_SkillGauge_C:gauge_INST.gauge'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.110"
+      },
+      "AnimationBindings": [
+        {
+          "WidgetName": "P_GaugeMeter",
+          "SlotWidgetName": "None",
+          "AnimationGuid": "E7187C56-4748C135-EE855C80-3682F771",
+          "bIsRootWidget": false
+        }
+      ],
+      "DisplayLabel": "gauge",
+      "PrecompiledEvaluationTemplate": {
+        "Tracks": [
+          {
+            "Key": {
+              "Value": 0
+            },
+            "Value": {
+              "ObjectBindingID": "E7187C56-4748C135-EE855C80-3682F771",
+              "EvaluationPriority": 1000,
+              "EvaluationMethod": "EEvaluationMethod::Static",
+              "Segments": {
+                "SegmentIdentifierToIndex": [
+                  0
+                ],
+                "SortedSegments": [
+                  {
+                    "Range": {
+                      "LowerBound": {
+                        "Type": 1,
+                        "Value": {
+                          "Value": 0
+                        }
+                      },
+                      "UpperBound": {
+                        "Type": 0,
+                        "Value": {
+                          "Value": 60001
+                        }
+                      }
+                    },
+                    "ID": {
+                      "IdentifierIndex": 0
+                    },
+                    "bAllowEmpty": false,
+                    "Impls": [
+                      {
+                        "ImplIndex": 0,
+                        "ForcedTime": {
+                          "Value": -2147483648
+                        },
+                        "Flags": "ESectionEvaluationFlags::None"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "SourceTrack": {
+                "ObjectName": "MovieSceneWidgetMaterialTrack'WBP_Result_SkillGauge_C:gauge_INST.gauge.MovieSceneWidgetMaterialTrack_1'",
+                "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.114"
+              },
+              "EvaluationTree": {
+                "Tree": {
+                  "Data": {
+                    "Entries": [
+                      {
+                        "StartIndex": 0,
+                        "Size": 1,
+                        "Capacity": 1
+                      }
+                    ],
+                    "Items": [
+                      {
+                        "ImplIndex": 0,
+                        "ForcedTime": {
+                          "Value": -2147483648
+                        },
+                        "Flags": 0
+                      }
+                    ]
+                  },
+                  "RootNode": {
+                    "Range": {
+                      "LowerBound": {
+                        "Type": 2,
+                        "Value": {
+                          "Value": 0
+                        }
+                      },
+                      "UpperBound": {
+                        "Type": 2,
+                        "Value": {
+                          "Value": 0
+                        }
+                      }
+                    },
+                    "Parent": {
+                      "ChildrenHandle": {
+                        "EntryIndex": -1
+                      },
+                      "Index": -1
+                    },
+                    "ChildrenID": {
+                      "EntryIndex": 0
+                    },
+                    "DataID": {
+                      "EntryIndex": -1
+                    }
+                  },
+                  "ChildNodes": {
+                    "Entries": [
+                      {
+                        "StartIndex": 0,
+                        "Size": 1,
+                        "Capacity": 1
+                      }
+                    ],
+                    "Items": [
+                      {
+                        "Range": {
+                          "LowerBound": {
+                            "Type": 1,
+                            "Value": {
+                              "Value": 0
+                            }
+                          },
+                          "UpperBound": {
+                            "Type": 0,
+                            "Value": {
+                              "Value": 60001
+                            }
+                          }
+                        },
+                        "Parent": {
+                          "ChildrenHandle": {
+                            "EntryIndex": -1
+                          },
+                          "Index": 0
+                        },
+                        "ChildrenID": {
+                          "EntryIndex": -1
+                        },
+                        "DataID": {
+                          "EntryIndex": 0
+                        }
+                      }
+                    ]
+                  }
+                }
+              },
+              "ChildTemplates": [
+                {
+                  "TypeName": "/Script/UMG.MovieSceneWidgetMaterialSectionTemplate",
+                  "Data": {
+                    "BrushPropertyNamePath": [
+                      "Brush"
+                    ],
+                    "Scalars": [
+                      {
+                        "ParameterName": "Percentage",
+                        "ParameterCurve": {
+                          "PreInfinityExtrap": "RCCE_None",
+                          "PostInfinityExtrap": "RCCE_None",
+                          "Times": [],
+                          "Values": [],
+                          "DefaultValue": 0.0,
+                          "bHasDefaultValue": false,
+                          "TickResolution": {
+                            "Numerator": 0,
+                            "Denominator": 0
+                          },
+                          "bShowCurve": false,
+                          "StructFallback": {
+                            "PreInfinityExtrap": "RCCE_Constant",
+                            "PostInfinityExtrap": "RCCE_Constant",
+                            "Times": [
+                              {
+                                "Value": 0
+                              },
+                              {
+                                "Value": 60000
+                              }
+                            ],
+                            "Values": [
+                              {
+                                "Value": 0.0,
+                                "Tangent": {
+                                  "ArriveTangent": 0.0,
+                                  "LeaveTangent": 0.0,
+                                  "ArriveTangentWeight": 0.0,
+                                  "LeaveTangentWeight": 0.0,
+                                  "TangentWeightMode": 0
+                                },
+                                "InterpMode": 2,
+                                "TangentMode": 0
+                              },
+                              {
+                                "Value": 1.0,
+                                "Tangent": {
+                                  "ArriveTangent": 0.0,
+                                  "LeaveTangent": 0.0,
+                                  "ArriveTangentWeight": 0.0,
+                                  "LeaveTangentWeight": 0.0,
+                                  "TangentWeightMode": 0
+                                },
+                                "InterpMode": 2,
+                                "TangentMode": 0
+                              }
+                            ],
+                            "DefaultValue": 0.0,
+                            "bHasDefaultValue": false,
+                            "TickResolution": {
+                              "Numerator": 60000,
+                              "Denominator": 1
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "Vectors": [],
+                    "Colors": [],
+                    "Transforms": [],
+                    "CompletionMode": "EMovieSceneCompletionMode::KeepState",
+                    "SourceSectionPtr": {
+                      "ObjectName": "MovieSceneParameterSection'WBP_Result_SkillGauge_C:gauge_INST.gauge.MovieSceneWidgetMaterialTrack_1.MovieSceneParameterSection_0'",
+                      "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.113"
+                    }
+                  }
+                }
+              ],
+              "TrackTemplate": {
+                "TypeName": "",
+                "Data": null
+              },
+              "EvaluationGroup": "None",
+              "bEvaluateInPreroll": false,
+              "bEvaluateInPostroll": false,
+              "bTearDownPriority": false
+            }
+          }
+        ],
+        "EvaluationField": {
+          "Ranges": [
+            {
+              "Value": {
+                "LowerBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                },
+                "UpperBound": {
+                  "Type": 0,
+                  "Value": {
+                    "Value": 0
+                  }
+                }
+              }
+            },
+            {
+              "Value": {
+                "LowerBound": {
+                  "Type": 1,
+                  "Value": {
+                    "Value": 0
+                  }
+                },
+                "UpperBound": {
+                  "Type": 0,
+                  "Value": {
+                    "Value": 60001
+                  }
+                }
+              }
+            },
+            {
+              "Value": {
+                "LowerBound": {
+                  "Type": 1,
+                  "Value": {
+                    "Value": 60001
+                  }
+                },
+                "UpperBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                }
+              }
+            }
+          ],
+          "Groups": [
+            {
+              "LUTIndices": [],
+              "SegmentPtrLUT": []
+            },
+            {
+              "LUTIndices": [
+                {
+                  "LUTOffset": 0,
+                  "NumInitPtrs": 0,
+                  "NumEvalPtrs": 1
+                }
+              ],
+              "SegmentPtrLUT": [
+                {
+                  "SegmentID": {
+                    "IdentifierIndex": 0
+                  },
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 0
+                  }
+                }
+              ]
+            },
+            {
+              "LUTIndices": [],
+              "SegmentPtrLUT": []
+            }
+          ],
+          "MetaData": [
+            {
+              "ActiveSequences": [
+                {
+                  "Value": 0
+                }
+              ],
+              "ActiveEntities": [],
+              "SubTemplateSerialNumbers": []
+            },
+            {
+              "ActiveSequences": [
+                {
+                  "Value": 0
+                }
+              ],
+              "ActiveEntities": [
+                {
+                  "Key": {
+                    "SequenceID": {
+                      "Value": 0
+                    },
+                    "TrackIdentifier": {
+                      "Value": 0
+                    },
+                    "SectionIndex": 0
+                  },
+                  "SetupIndex": 1,
+                  "TearDownIndex": 65534
+                },
+                {
+                  "Key": {
+                    "SequenceID": {
+                      "Value": 0
+                    },
+                    "TrackIdentifier": {
+                      "Value": 0
+                    },
+                    "SectionIndex": 4294967295
+                  },
+                  "SetupIndex": 0,
+                  "TearDownIndex": 65535
+                }
+              ],
+              "SubTemplateSerialNumbers": []
+            },
+            {
+              "ActiveSequences": [
+                {
+                  "Value": 0
+                }
+              ],
+              "ActiveEntities": [],
+              "SubTemplateSerialNumbers": []
+            }
+          ]
+        },
+        "SequenceSignature": "44229C7C-4E2B8E83-4FEF47B3-3A586379",
+        "TemplateSerialNumber": {
+          "Value": 1
+        },
+        "TemplateLedger": {
+          "LastTrackIdentifier": {
+            "Value": 0
+          },
+          "TrackSignatureToTrackIdentifier": [
+            {
+              "Key": "5747491B-4C403B58-95D2B18E-DF23651B",
+              "Value": {
+                "Value": 0
+              }
+            }
+          ]
+        },
+        "TrackFieldData": {
+          "Field": {
+            "Data": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 1,
+                  "Capacity": 1
+                }
+              ],
+              "Items": [
+                0
+              ]
+            },
+            "RootNode": {
+              "Range": {
+                "LowerBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                },
+                "UpperBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                }
+              },
+              "Parent": {
+                "ChildrenHandle": {
+                  "EntryIndex": -1
+                },
+                "Index": -1
+              },
+              "ChildrenID": {
+                "EntryIndex": 0
+              },
+              "DataID": {
+                "EntryIndex": -1
+              }
+            },
+            "ChildNodes": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 1,
+                  "Capacity": 1
+                }
+              ],
+              "Items": [
+                {
+                  "Range": {
+                    "LowerBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": 0
+                      }
+                    },
+                    "UpperBound": {
+                      "Type": 0,
+                      "Value": {
+                        "Value": 60001
+                      }
+                    }
+                  },
+                  "Parent": {
+                    "ChildrenHandle": {
+                      "EntryIndex": -1
+                    },
+                    "Index": 0
+                  },
+                  "ChildrenID": {
+                    "EntryIndex": -1
+                  },
+                  "DataID": {
+                    "EntryIndex": 0
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "Signature": "44229C7C-4E2B8E83-4FEF47B3-3A586379"
+    }
+  },
+  {
+    "Type": "WidgetSwitcher",
+    "Name": "WidgetSwitcher_0",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'WidgetSwitcher'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "WidgetSwitcherSlot'WidgetArchetype:WidgetTree_0.WBP_Com_Hyoka.WidgetTree_0.WidgetSwitcher_0.WidgetSwitcherSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.144"
+        },
+        {
+          "ObjectName": "WidgetSwitcherSlot'WidgetArchetype:WidgetTree_0.WBP_Com_Hyoka.WidgetTree_0.WidgetSwitcher_0.WidgetSwitcherSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.145"
+        },
+        {
+          "ObjectName": "WidgetSwitcherSlot'WidgetArchetype:WidgetTree_0.WBP_Com_Hyoka.WidgetTree_0.WidgetSwitcher_0.WidgetSwitcherSlot_2'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.146"
+        },
+        {
+          "ObjectName": "WidgetSwitcherSlot'WidgetArchetype:WidgetTree_0.WBP_Com_Hyoka.WidgetTree_0.WidgetSwitcher_0.WidgetSwitcherSlot_3'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.147"
+        },
+        {
+          "ObjectName": "WidgetSwitcherSlot'WidgetArchetype:WidgetTree_0.WBP_Com_Hyoka.WidgetTree_0.WidgetSwitcher_0.WidgetSwitcherSlot_4'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.148"
+        },
+        {
+          "ObjectName": "WidgetSwitcherSlot'WidgetArchetype:WidgetTree_0.WBP_Com_Hyoka.WidgetTree_0.WidgetSwitcher_0.WidgetSwitcherSlot_5'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.149"
+        },
+        {
+          "ObjectName": "WidgetSwitcherSlot'WidgetArchetype:WidgetTree_0.WBP_Com_Hyoka.WidgetTree_0.WidgetSwitcher_0.WidgetSwitcherSlot_8'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.151"
+        },
+        {
+          "ObjectName": "WidgetSwitcherSlot'WidgetArchetype:WidgetTree_0.WBP_Com_Hyoka.WidgetTree_0.WidgetSwitcher_0.WidgetSwitcherSlot_6'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.150"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.WBP_Com_Hyoka.WidgetTree_0.Overlay_1.OverlaySlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.128"
+      }
+    }
+  },
+  {
+    "Type": "WidgetSwitcherSlot",
+    "Name": "WidgetSwitcherSlot_0",
+    "Outer": "WidgetSwitcher_0",
+    "Class": "UScriptClass'WidgetSwitcherSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "WidgetSwitcher'WidgetArchetype:WidgetTree_0.WBP_Com_Hyoka.WidgetTree_0.WidgetSwitcher_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.143"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_Com_Hyoka.WidgetTree_0.Rookie'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.102"
+      }
+    }
+  },
+  {
+    "Type": "WidgetSwitcherSlot",
+    "Name": "WidgetSwitcherSlot_1",
+    "Outer": "WidgetSwitcher_0",
+    "Class": "UScriptClass'WidgetSwitcherSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Left",
+      "VerticalAlignment": "VAlign_Top",
+      "Parent": {
+        "ObjectName": "WidgetSwitcher'WidgetArchetype:WidgetTree_0.WBP_Com_Hyoka.WidgetTree_0.WidgetSwitcher_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.143"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_Com_Hyoka.WidgetTree_0.Regular'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.101"
+      }
+    }
+  },
+  {
+    "Type": "WidgetSwitcherSlot",
+    "Name": "WidgetSwitcherSlot_2",
+    "Outer": "WidgetSwitcher_0",
+    "Class": "UScriptClass'WidgetSwitcherSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Left",
+      "VerticalAlignment": "VAlign_Top",
+      "Parent": {
+        "ObjectName": "WidgetSwitcher'WidgetArchetype:WidgetTree_0.WBP_Com_Hyoka.WidgetTree_0.WidgetSwitcher_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.143"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_Com_Hyoka.WidgetTree_0.Specialist'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.103"
+      }
+    }
+  },
+  {
+    "Type": "WidgetSwitcherSlot",
+    "Name": "WidgetSwitcherSlot_3",
+    "Outer": "WidgetSwitcher_0",
+    "Class": "UScriptClass'WidgetSwitcherSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Left",
+      "VerticalAlignment": "VAlign_Top",
+      "Parent": {
+        "ObjectName": "WidgetSwitcher'WidgetArchetype:WidgetTree_0.WBP_Com_Hyoka.WidgetTree_0.WidgetSwitcher_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.143"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_Com_Hyoka.WidgetTree_0.Expert'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.96"
+      }
+    }
+  },
+  {
+    "Type": "WidgetSwitcherSlot",
+    "Name": "WidgetSwitcherSlot_4",
+    "Outer": "WidgetSwitcher_0",
+    "Class": "UScriptClass'WidgetSwitcherSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Left",
+      "VerticalAlignment": "VAlign_Top",
+      "Parent": {
+        "ObjectName": "WidgetSwitcher'WidgetArchetype:WidgetTree_0.WBP_Com_Hyoka.WidgetTree_0.WidgetSwitcher_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.143"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_Com_Hyoka.WidgetTree_0.Professional'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.100"
+      }
+    }
+  },
+  {
+    "Type": "WidgetSwitcherSlot",
+    "Name": "WidgetSwitcherSlot_5",
+    "Outer": "WidgetSwitcher_0",
+    "Class": "UScriptClass'WidgetSwitcherSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Left",
+      "VerticalAlignment": "VAlign_Top",
+      "Parent": {
+        "ObjectName": "WidgetSwitcher'WidgetArchetype:WidgetTree_0.WBP_Com_Hyoka.WidgetTree_0.WidgetSwitcher_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.143"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_Com_Hyoka.WidgetTree_0.Master'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.97"
+      }
+    }
+  },
+  {
+    "Type": "WidgetSwitcherSlot",
+    "Name": "WidgetSwitcherSlot_6",
+    "Outer": "WidgetSwitcher_0",
+    "Class": "UScriptClass'WidgetSwitcherSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Left",
+      "VerticalAlignment": "VAlign_Top",
+      "Parent": {
+        "ObjectName": "WidgetSwitcher'WidgetArchetype:WidgetTree_0.WBP_Com_Hyoka.WidgetTree_0.WidgetSwitcher_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.143"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_Com_Hyoka.WidgetTree_0.Non'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.99"
+      }
+    }
+  },
+  {
+    "Type": "WidgetSwitcherSlot",
+    "Name": "WidgetSwitcherSlot_8",
+    "Outer": "WidgetSwitcher_0",
+    "Class": "UScriptClass'WidgetSwitcherSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Left",
+      "VerticalAlignment": "VAlign_Top",
+      "Parent": {
+        "ObjectName": "WidgetSwitcher'WidgetArchetype:WidgetTree_0.WBP_Com_Hyoka.WidgetTree_0.WidgetSwitcher_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.143"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_Com_Hyoka.WidgetTree_0.MasterPlus'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.98"
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Outer": "WBP_Result_SkillGauge_C",
+    "Class": "UScriptClass'WidgetTree'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CanvasPanel'WBP_Result_SkillGauge_C:WidgetTree.CanvasPanel_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.32"
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree_0",
+    "Outer": "WidgetArchetype",
+    "Class": "UScriptClass'WidgetTree'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.34"
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree_0",
+    "Outer": "WBP_Com_Hyoka",
+    "Class": "UScriptClass'WidgetTree'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.WBP_Com_Hyoka.WidgetTree_0.Overlay_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/SubWidget/WBP_Result_SkillGauge.127"
+      }
+    }
+  }
+]

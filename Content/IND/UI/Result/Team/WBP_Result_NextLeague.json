@@ -1,0 +1,3596 @@
+[
+  {
+    "Type": "StructProperty",
+    "Name": "UberGraphFrame",
+    "Outer": "WBP_Result_NextLeague_C",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "Transient | DuplicateTransient",
+    "Struct": {
+      "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "WBP_Result_NextLeague_C",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WBP_Result_NextLeague_C:WidgetTree'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.157"
+      },
+      "bAllowTemplate": true,
+      "bValidTemplate": true,
+      "TemplateAsset": {
+        "AssetPathName": "/Game/IND/UI/Result/Team/WBP_Result_NextLeague.WidgetArchetype",
+        "SubPathString": ""
+      },
+      "UberGraphFramePointerProperty": {
+        "ObjectName": "StructProperty'WBP_Result_NextLeague_C:UberGraphFrame'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.0"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'WBP_Result_NextLeague_C:ExecuteUbergraph_WBP_Result_NextLeague'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.5"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'UserWidget'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'WBP_Result_NextLeague_C:UberGraphFrame'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.0"
+      },
+      {
+        "ObjectName": "Function'WBP_Result_NextLeague_C:SetUpperLowerText'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.22"
+      },
+      {
+        "ObjectName": "Function'WBP_Result_NextLeague_C:Setup'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.13"
+      },
+      {
+        "ObjectName": "Function'WBP_Result_NextLeague_C:SetupPromotionDemotionVisible'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.10"
+      },
+      {
+        "ObjectName": "Function'WBP_Result_NextLeague_C:PreConstruct'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.8"
+      },
+      {
+        "ObjectName": "Function'WBP_Result_NextLeague_C:FinalRound'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.6"
+      },
+      {
+        "ObjectName": "Function'WBP_Result_NextLeague_C:ExecuteUbergraph_WBP_Result_NextLeague'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.5"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Result_NextLeague_C:bar'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.3"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Result_NextLeague_C:CanvasPanel_FinalRound'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.100"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Result_NextLeague_C:CanvasPanel_Round'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.101"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Result_NextLeague_C:P_Image_LeagueIcon'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.102"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Result_NextLeague_C:P_Text_NextLeague'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.103"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Result_NextLeague_C:P_Text_Top'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.104"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Result_NextLeague_C:TextBlock_LeagueChangeReserveStatus'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.105"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Result_NextLeague_C:TextBlock_TeamPoint'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.106"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Result_NextLeague_C:TextBlock_TeamRank'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.107"
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_WBP_Result_NextLeague": {
+        "ObjectName": "Function'WBP_Result_NextLeague_C:ExecuteUbergraph_WBP_Result_NextLeague'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.5"
+      },
+      "FinalRound": {
+        "ObjectName": "Function'WBP_Result_NextLeague_C:FinalRound'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.6"
+      },
+      "PreConstruct": {
+        "ObjectName": "Function'WBP_Result_NextLeague_C:PreConstruct'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.8"
+      },
+      "SetupPromotionDemotionVisible": {
+        "ObjectName": "Function'WBP_Result_NextLeague_C:SetupPromotionDemotionVisible'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.10"
+      },
+      "Setup": {
+        "ObjectName": "Function'WBP_Result_NextLeague_C:Setup'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.13"
+      },
+      "SetUpperLowerText": {
+        "ObjectName": "Function'WBP_Result_NextLeague_C:SetUpperLowerText'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.22"
+      }
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "WBP_Result_NextLeague_C'Default__WBP_Result_NextLeague_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.2"
+    }
+  },
+  {
+    "Type": "WBP_Result_NextLeague_C",
+    "Name": "Default__WBP_Result_NextLeague_C",
+    "Class": "WidgetBlueprintGeneratedClass'GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.WBP_Result_NextLeague_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "UberGraphFrame": {},
+      "bHasScriptImplementedTick": false,
+      "bHasScriptImplementedPaint": false
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "bar",
+    "Outer": "WBP_Result_NextLeague_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'Image'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "EntryPoint",
+    "Outer": "ExecuteUbergraph_WBP_Result_NextLeague",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_WBP_Result_NextLeague",
+    "Outer": "WBP_Result_NextLeague_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "IntProperty'WBP_Result_NextLeague_C:ExecuteUbergraph_WBP_Result_NextLeague.EntryPoint'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.4"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Result_NextLeague_C:ExecuteUbergraph_WBP_Result_NextLeague.K2Node_Event_IsDesignTime'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.16"
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "FinalRound",
+    "Outer": "WBP_Result_NextLeague_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "IsDesignTime",
+    "Outer": "PreConstruct",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "Function",
+    "Name": "PreConstruct",
+    "Outer": "WBP_Result_NextLeague_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Function'UserWidget:PreConstruct'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "Children": [
+      {
+        "ObjectName": "BoolProperty'WBP_Result_NextLeague_C:PreConstruct.IsDesignTime'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.7"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCosmetic | FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "bUserPoint",
+    "Outer": "SetupPromotionDemotionVisible",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "Function",
+    "Name": "SetupPromotionDemotionVisible",
+    "Outer": "WBP_Result_NextLeague_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "BoolProperty'WBP_Result_NextLeague_C:SetupPromotionDemotionVisible.bUserPoint'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.9"
+      },
+      {
+        "ObjectName": "EnumProperty'WBP_Result_NextLeague_C:SetupPromotionDemotionVisible.PromoteEffect'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.93"
+      },
+      {
+        "ObjectName": "EnumProperty'WBP_Result_NextLeague_C:SetupPromotionDemotionVisible.CurrentLeagueRankId'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.90"
+      },
+      {
+        "ObjectName": "EnumProperty'WBP_Result_NextLeague_C:SetupPromotionDemotionVisible.LocalCurrentLeagueRankId'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.91"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Result_NextLeague_C:SetupPromotionDemotionVisible.bLocalUsePoint'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.27"
+      },
+      {
+        "ObjectName": "EnumProperty'WBP_Result_NextLeague_C:SetupPromotionDemotionVisible.LocalPromoteEffect'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.92"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Result_NextLeague_C:SetupPromotionDemotionVisible.bLocalPromotion'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.26"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Result_NextLeague_C:SetupPromotionDemotionVisible.CallFunc_EqualEqual_ByteByte_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.28"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Result_NextLeague_C:SetupPromotionDemotionVisible.CallFunc_EqualEqual_ByteByte_ReturnValue_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.29"
+      }
+    ],
+    "FunctionFlags": "FUNC_Private | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Outer": "CurrentTeamLeagueRankId",
+    "Class": "UScriptClass'ByteProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": null
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "CurrentTeamLeagueRankId",
+    "Outer": "Setup",
+    "Class": "UScriptClass'EnumProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "Enum": {
+      "ObjectName": "Enum'ETeamLeagueRankId'",
+      "ObjectPath": "/Script/GameProject"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'WBP_Result_NextLeague_C:Setup.CurrentTeamLeagueRankId.UnderlyingType'",
+      "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.11"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "Setup",
+    "Outer": "WBP_Result_NextLeague_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "EnumProperty'WBP_Result_NextLeague_C:Setup.CurrentTeamLeagueRankId'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.12"
+      },
+      {
+        "ObjectName": "StructProperty'WBP_Result_NextLeague_C:Setup.Data'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.132"
+      },
+      {
+        "ObjectName": "EnumProperty'WBP_Result_NextLeague_C:Setup.LeagueOpenFlag'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.85"
+      },
+      {
+        "ObjectName": "EnumProperty'WBP_Result_NextLeague_C:Setup.LocalCurrentTeamLeagueRankId'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.86"
+      },
+      {
+        "ObjectName": "TextProperty'WBP_Result_NextLeague_C:Setup.LocalRankText'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.155"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Result_NextLeague_C:Setup.bLocalUsePoint'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.17"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Result_NextLeague_C:Setup.LocalTeamRankInLeague'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.99"
+      },
+      {
+        "ObjectName": "EnumProperty'WBP_Result_NextLeague_C:Setup.LocalPromoteEffect'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.87"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Result_NextLeague_C:Setup.LocalTeamPoint'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.98"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Result_NextLeague_C:Setup.K2Node_SwitchEnum_CmpSuccess'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.20"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Result_NextLeague_C:Setup.CallFunc_IsValid_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.18"
+      },
+      {
+        "ObjectName": "TextProperty'WBP_Result_NextLeague_C:Setup.CallFunc_Conv_IntToText_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.152"
+      },
+      {
+        "ObjectName": "StructProperty'WBP_Result_NextLeague_C:Setup.K2Node_MakeStruct_FormatArgumentData'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.133"
+      },
+      {
+        "ObjectName": "ArrayProperty'WBP_Result_NextLeague_C:Setup.K2Node_MakeArray_Array'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.15"
+      },
+      {
+        "ObjectName": "TextProperty'WBP_Result_NextLeague_C:Setup.CallFunc_Format_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.153"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Result_NextLeague_C:Setup.CallFunc_LessEqual_IntInt_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.19"
+      },
+      {
+        "ObjectName": "TextProperty'WBP_Result_NextLeague_C:Setup.CallFunc_MakeTeamPointText_PointsText'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.154"
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "K2Node_MakeArray_Array",
+    "Outer": "K2Node_MakeArray_Array",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Struct": {
+      "ObjectName": "ScriptStruct'FormatArgumentData'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ArrayProperty",
+    "Name": "K2Node_MakeArray_Array",
+    "Outer": "Setup",
+    "Class": "UScriptClass'ArrayProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "ReferenceParm",
+    "Inner": {
+      "ObjectName": "StructProperty'WBP_Result_NextLeague_C:Setup.K2Node_MakeArray_Array.K2Node_MakeArray_Array'",
+      "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.14"
+    }
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_Event_IsDesignTime",
+    "Outer": "ExecuteUbergraph_WBP_Result_NextLeague",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "bLocalUsePoint",
+    "Outer": "Setup",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "Edit | BlueprintVisible",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_IsValid_ReturnValue",
+    "Outer": "Setup",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_LessEqual_IntInt_ReturnValue",
+    "Outer": "Setup",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_SwitchEnum_CmpSuccess",
+    "Outer": "Setup",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "bUserPoint",
+    "Outer": "SetUpperLowerText",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "Function",
+    "Name": "SetUpperLowerText",
+    "Outer": "WBP_Result_NextLeague_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "BoolProperty'WBP_Result_NextLeague_C:SetUpperLowerText.bUserPoint'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.21"
+      },
+      {
+        "ObjectName": "EnumProperty'WBP_Result_NextLeague_C:SetUpperLowerText.PromoteEffect'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.89"
+      },
+      {
+        "ObjectName": "EnumProperty'WBP_Result_NextLeague_C:SetUpperLowerText.CurrentLeagueRankId'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.88"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Result_NextLeague_C:SetUpperLowerText.bLocalMaxTeamLeagueRank'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.23"
+      },
+      {
+        "ObjectName": "StructProperty'WBP_Result_NextLeague_C:SetUpperLowerText.K2Node_MakeStruct_LinearColor'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.134"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Result_NextLeague_C:SetUpperLowerText.CallFunc_EqualEqual_ByteByte_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.24"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Result_NextLeague_C:SetUpperLowerText.K2Node_SwitchEnum_CmpSuccess'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.25"
+      },
+      {
+        "ObjectName": "StructProperty'WBP_Result_NextLeague_C:SetUpperLowerText.K2Node_MakeStruct_LinearColor_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.135"
+      },
+      {
+        "ObjectName": "StructProperty'WBP_Result_NextLeague_C:SetUpperLowerText.K2Node_MakeStruct_SlateColor'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.137"
+      },
+      {
+        "ObjectName": "StructProperty'WBP_Result_NextLeague_C:SetUpperLowerText.K2Node_MakeStruct_LinearColor_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.136"
+      },
+      {
+        "ObjectName": "StructProperty'WBP_Result_NextLeague_C:SetUpperLowerText.K2Node_MakeStruct_SlateColor_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.138"
+      },
+      {
+        "ObjectName": "StructProperty'WBP_Result_NextLeague_C:SetUpperLowerText.K2Node_MakeStruct_SlateColor_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.139"
+      }
+    ],
+    "FunctionFlags": "FUNC_Private | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "bLocalMaxTeamLeagueRank",
+    "Outer": "SetUpperLowerText",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "Edit | BlueprintVisible",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_EqualEqual_ByteByte_ReturnValue",
+    "Outer": "SetUpperLowerText",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_SwitchEnum_CmpSuccess",
+    "Outer": "SetUpperLowerText",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "bLocalPromotion",
+    "Outer": "SetupPromotionDemotionVisible",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "Edit | BlueprintVisible",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "bLocalUsePoint",
+    "Outer": "SetupPromotionDemotionVisible",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "Edit | BlueprintVisible",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_EqualEqual_ByteByte_ReturnValue",
+    "Outer": "SetupPromotionDemotionVisible",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_EqualEqual_ByteByte_ReturnValue_1",
+    "Outer": "SetupPromotionDemotionVisible",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Outer": "LeagueOpenFlag",
+    "Class": "UScriptClass'ByteProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": null
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Outer": "LocalCurrentTeamLeagueRankId",
+    "Class": "UScriptClass'ByteProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": null
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Outer": "LocalPromoteEffect",
+    "Class": "UScriptClass'ByteProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": null
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Outer": "CurrentLeagueRankId",
+    "Class": "UScriptClass'ByteProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": null
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Outer": "PromoteEffect",
+    "Class": "UScriptClass'ByteProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": null
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Outer": "CurrentLeagueRankId",
+    "Class": "UScriptClass'ByteProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": null
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Outer": "LocalCurrentLeagueRankId",
+    "Class": "UScriptClass'ByteProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": null
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Outer": "LocalPromoteEffect",
+    "Class": "UScriptClass'ByteProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": null
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Outer": "PromoteEffect",
+    "Class": "UScriptClass'ByteProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": null
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_155",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Result_NextLeague_C:WidgetTree.CanvasPanel_155.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.55"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Result_NextLeague_C:WidgetTree.CanvasPanel_155.CanvasPanelSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.56"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "ScaleBoxSlot'WBP_Result_NextLeague_C:WidgetTree.ScaleBox_2.ScaleBoxSlot_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.116"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_157",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Result_NextLeague_C:WidgetTree.CanvasPanel_157.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.57"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "ScaleBoxSlot'WBP_Result_NextLeague_C:WidgetTree.ScaleBox_1.ScaleBoxSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.115"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_95",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Result_NextLeague_C:WidgetTree.CanvasPanel_95.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.58"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Result_NextLeague_C:WidgetTree.CanvasPanel_95.CanvasPanelSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.59"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_FinalRound",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Result_NextLeague_C:WidgetTree.CanvasPanel_FinalRound.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.60"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Result_NextLeague_C:WidgetTree.CanvasPanel_95.CanvasPanelSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.59"
+      },
+      "bIsVariable": true,
+      "Visibility": "ESlateVisibility::Collapsed"
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_Round",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Result_NextLeague_C:WidgetTree.CanvasPanel_Round.CanvasPanelSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.61"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Result_NextLeague_C:WidgetTree.CanvasPanel_Round.CanvasPanelSlot_3'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.63"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Result_NextLeague_C:WidgetTree.CanvasPanel_Round.CanvasPanelSlot_4'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.64"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Result_NextLeague_C:WidgetTree.CanvasPanel_Round.CanvasPanelSlot_8'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.65"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Result_NextLeague_C:WidgetTree.CanvasPanel_Round.CanvasPanelSlot_11'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.62"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Result_NextLeague_C:WidgetTree.CanvasPanel_Round.CanvasPanelSlot_9'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.66"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Result_NextLeague_C:WidgetTree.CanvasPanel_95.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.58"
+      },
+      "bIsVariable": true,
+      "Visibility": "ESlateVisibility::Visible"
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "Text_Bottom",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Result_NextLeague_C:WidgetTree.Text_Bottom.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.67"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Result_NextLeague_C:WidgetTree.CanvasPanel_Round.CanvasPanelSlot_9'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.66"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "Text_MIddle",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Result_NextLeague_C:WidgetTree.Text_MIddle.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.68"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Result_NextLeague_C:WidgetTree.CanvasPanel_Round.CanvasPanelSlot_11'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.62"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "Text_Top",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Result_NextLeague_C:WidgetTree.Text_Top.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.69"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Result_NextLeague_C:WidgetTree.CanvasPanel_Round.CanvasPanelSlot_8'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.65"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_155",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_155.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.70"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_155.CanvasPanelSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.71"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "ScaleBoxSlot'WidgetArchetype:WidgetTree_0.ScaleBox_2.ScaleBoxSlot_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.119"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_157",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_157.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.72"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "ScaleBoxSlot'WidgetArchetype:WidgetTree_0.ScaleBox_1.ScaleBoxSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.118"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_95",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_95.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.73"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_95.CanvasPanelSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.74"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_FinalRound",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_FinalRound.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.75"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_95.CanvasPanelSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.74"
+      },
+      "bIsVariable": true,
+      "Visibility": "ESlateVisibility::Collapsed"
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_Round",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_Round.CanvasPanelSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.76"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_Round.CanvasPanelSlot_3'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.78"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_Round.CanvasPanelSlot_4'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.79"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_Round.CanvasPanelSlot_8'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.80"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_Round.CanvasPanelSlot_11'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.77"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_Round.CanvasPanelSlot_9'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.81"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_95.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.73"
+      },
+      "bIsVariable": true,
+      "Visibility": "ESlateVisibility::Visible"
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "Text_Bottom",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.Text_Bottom.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.82"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_Round.CanvasPanelSlot_9'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.81"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "Text_MIddle",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.Text_MIddle.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.83"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_Round.CanvasPanelSlot_11'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.77"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "Text_Top",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.Text_Top.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.84"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_Round.CanvasPanelSlot_8'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.80"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "CanvasPanel_155",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Result_NextLeague_C:WidgetTree.CanvasPanel_155'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.39"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WBP_Result_NextLeague_C:WidgetTree.TextBlock_TeamRank'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.145"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "CanvasPanel_155",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Result_NextLeague_C:WidgetTree.CanvasPanel_155'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.39"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WBP_Result_NextLeague_C:WidgetTree.TextBlock_TeamPoint'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.144"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "CanvasPanel_157",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Result_NextLeague_C:WidgetTree.CanvasPanel_157'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.40"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WBP_Result_NextLeague_C:WidgetTree.TextBlock_LeagueChangeReserveStatus'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.143"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "CanvasPanel_95",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 246.0,
+          "Bottom": 360.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Result_NextLeague_C:WidgetTree.CanvasPanel_95'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.41"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WBP_Result_NextLeague_C:WidgetTree.CanvasPanel_Round'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.43"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "CanvasPanel_95",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 246.0,
+          "Bottom": 360.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Result_NextLeague_C:WidgetTree.CanvasPanel_95'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.41"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WBP_Result_NextLeague_C:WidgetTree.CanvasPanel_FinalRound'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.42"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "CanvasPanel_FinalRound",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": -15.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Result_NextLeague_C:WidgetTree.CanvasPanel_FinalRound'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.42"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WBP_Result_NextLeague_C:WidgetTree.TextBlock_117'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.142"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "CanvasPanel_Round",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": -106.0,
+          "Right": 200.0,
+          "Bottom": 200.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Result_NextLeague_C:WidgetTree.CanvasPanel_Round'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.43"
+      },
+      "Content": {
+        "ObjectName": "Image'WBP_Result_NextLeague_C:WidgetTree.P_Image_LeagueIcon'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.95"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_11",
+    "Outer": "CanvasPanel_Round",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": 65.85732
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Result_NextLeague_C:WidgetTree.CanvasPanel_Round'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.43"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WBP_Result_NextLeague_C:WidgetTree.Text_MIddle'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.45"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_3",
+    "Outer": "CanvasPanel_Round",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": -9.0,
+          "Right": 198.0,
+          "Bottom": 3.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Result_NextLeague_C:WidgetTree.CanvasPanel_Round'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.43"
+      },
+      "Content": {
+        "ObjectName": "Image'WBP_Result_NextLeague_C:WidgetTree.bar'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.94"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_4",
+    "Outer": "CanvasPanel_Round",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": -34.0,
+          "Right": 257.0,
+          "Bottom": 40.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Result_NextLeague_C:WidgetTree.CanvasPanel_Round'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.43"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WBP_Result_NextLeague_C:WidgetTree.P_Text_NextLeague'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.140"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_8",
+    "Outer": "CanvasPanel_Round",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": 22.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Result_NextLeague_C:WidgetTree.CanvasPanel_Round'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.43"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WBP_Result_NextLeague_C:WidgetTree.Text_Top'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.46"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_9",
+    "Outer": "CanvasPanel_Round",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": 110.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Result_NextLeague_C:WidgetTree.CanvasPanel_Round'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.43"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WBP_Result_NextLeague_C:WidgetTree.Text_Bottom'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.44"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "Text_Bottom",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 164.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Result_NextLeague_C:WidgetTree.Text_Bottom'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.44"
+      },
+      "Content": {
+        "ObjectName": "SizeBox'WBP_Result_NextLeague_C:WidgetTree.SizeBox_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.121"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "Text_MIddle",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 170.0,
+          "Bottom": 50.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Result_NextLeague_C:WidgetTree.Text_MIddle'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.45"
+      },
+      "Content": {
+        "ObjectName": "SizeBox'WBP_Result_NextLeague_C:WidgetTree.SizeBox_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.122"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "Text_Top",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 180.0,
+          "Bottom": 40.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Result_NextLeague_C:WidgetTree.Text_Top'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.46"
+      },
+      "Content": {
+        "ObjectName": "SizeBox'WBP_Result_NextLeague_C:WidgetTree.SizeBox'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.120"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "CanvasPanel_155",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_155'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.47"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.TextBlock_TeamRank'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.151"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "CanvasPanel_155",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_155'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.47"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.TextBlock_TeamPoint'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.150"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "CanvasPanel_157",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_157'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.48"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.TextBlock_LeagueChangeReserveStatus'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.149"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "CanvasPanel_95",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 246.0,
+          "Bottom": 360.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_95'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.49"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_Round'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.51"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "CanvasPanel_95",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 246.0,
+          "Bottom": 360.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_95'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.49"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_FinalRound'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.50"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "CanvasPanel_FinalRound",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": -15.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_FinalRound'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.50"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.TextBlock_117'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.148"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "CanvasPanel_Round",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": -106.0,
+          "Right": 200.0,
+          "Bottom": 200.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_Round'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.51"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.P_Image_LeagueIcon'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.97"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_11",
+    "Outer": "CanvasPanel_Round",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": 65.85732
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_Round'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.51"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.Text_MIddle'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.53"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_3",
+    "Outer": "CanvasPanel_Round",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": -9.0,
+          "Right": 198.0,
+          "Bottom": 3.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_Round'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.51"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.bar'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.96"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_4",
+    "Outer": "CanvasPanel_Round",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": -34.0,
+          "Right": 257.0,
+          "Bottom": 40.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_Round'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.51"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.P_Text_NextLeague'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.146"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_8",
+    "Outer": "CanvasPanel_Round",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": 22.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_Round'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.51"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.Text_Top'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.54"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_9",
+    "Outer": "CanvasPanel_Round",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": 110.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_Round'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.51"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.Text_Bottom'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.52"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "Text_Bottom",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 164.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.Text_Bottom'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.52"
+      },
+      "Content": {
+        "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.SizeBox_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.124"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "Text_MIddle",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 170.0,
+          "Bottom": 50.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.Text_MIddle'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.53"
+      },
+      "Content": {
+        "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.SizeBox_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.125"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "Text_Top",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 180.0,
+          "Bottom": 40.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.Text_Top'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.54"
+      },
+      "Content": {
+        "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.SizeBox'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.123"
+      }
+    }
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "LeagueOpenFlag",
+    "Outer": "Setup",
+    "Class": "UScriptClass'EnumProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "Enum": {
+      "ObjectName": "Enum'ETeamLeagueOpenFlag'",
+      "ObjectPath": "/Script/GameProject"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'WBP_Result_NextLeague_C:Setup.LeagueOpenFlag.UnderlyingType'",
+      "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.30"
+    }
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "LocalCurrentTeamLeagueRankId",
+    "Outer": "Setup",
+    "Class": "UScriptClass'EnumProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "Edit | BlueprintVisible",
+    "Enum": {
+      "ObjectName": "Enum'ETeamLeagueRankId'",
+      "ObjectPath": "/Script/GameProject"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'WBP_Result_NextLeague_C:Setup.LocalCurrentTeamLeagueRankId.UnderlyingType'",
+      "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.31"
+    }
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "LocalPromoteEffect",
+    "Outer": "Setup",
+    "Class": "UScriptClass'EnumProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "Edit | BlueprintVisible",
+    "Enum": {
+      "ObjectName": "Enum'ETeamLeagueRankPromoteEffect'",
+      "ObjectPath": "/Script/GameProject"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'WBP_Result_NextLeague_C:Setup.LocalPromoteEffect.UnderlyingType'",
+      "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.32"
+    }
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "CurrentLeagueRankId",
+    "Outer": "SetUpperLowerText",
+    "Class": "UScriptClass'EnumProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "Enum": {
+      "ObjectName": "Enum'ETeamLeagueRankId'",
+      "ObjectPath": "/Script/GameProject"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'WBP_Result_NextLeague_C:SetUpperLowerText.CurrentLeagueRankId.UnderlyingType'",
+      "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.33"
+    }
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "PromoteEffect",
+    "Outer": "SetUpperLowerText",
+    "Class": "UScriptClass'EnumProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "Enum": {
+      "ObjectName": "Enum'ETeamLeagueRankPromoteEffect'",
+      "ObjectPath": "/Script/GameProject"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'WBP_Result_NextLeague_C:SetUpperLowerText.PromoteEffect.UnderlyingType'",
+      "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.34"
+    }
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "CurrentLeagueRankId",
+    "Outer": "SetupPromotionDemotionVisible",
+    "Class": "UScriptClass'EnumProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "Enum": {
+      "ObjectName": "Enum'ETeamLeagueRankId'",
+      "ObjectPath": "/Script/GameProject"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'WBP_Result_NextLeague_C:SetupPromotionDemotionVisible.CurrentLeagueRankId.UnderlyingType'",
+      "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.35"
+    }
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "LocalCurrentLeagueRankId",
+    "Outer": "SetupPromotionDemotionVisible",
+    "Class": "UScriptClass'EnumProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "Edit | BlueprintVisible",
+    "Enum": {
+      "ObjectName": "Enum'ETeamLeagueRankId'",
+      "ObjectPath": "/Script/GameProject"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'WBP_Result_NextLeague_C:SetupPromotionDemotionVisible.LocalCurrentLeagueRankId.UnderlyingType'",
+      "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.36"
+    }
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "LocalPromoteEffect",
+    "Outer": "SetupPromotionDemotionVisible",
+    "Class": "UScriptClass'EnumProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "Edit | BlueprintVisible",
+    "Enum": {
+      "ObjectName": "Enum'ETeamLeagueRankPromoteEffect'",
+      "ObjectPath": "/Script/GameProject"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'WBP_Result_NextLeague_C:SetupPromotionDemotionVisible.LocalPromoteEffect.UnderlyingType'",
+      "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.37"
+    }
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "PromoteEffect",
+    "Outer": "SetupPromotionDemotionVisible",
+    "Class": "UScriptClass'EnumProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "Enum": {
+      "ObjectName": "Enum'ETeamLeagueRankPromoteEffect'",
+      "ObjectPath": "/Script/GameProject"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'WBP_Result_NextLeague_C:SetupPromotionDemotionVisible.PromoteEffect.UnderlyingType'",
+      "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.38"
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "bar",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 48.0,
+          "Y": 120.0
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Result_NextLeague_C:WidgetTree.CanvasPanel_Round.CanvasPanelSlot_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.63"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "P_Image_LeagueIcon",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 512.0,
+          "Y": 512.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_TeamLeagueIcon_00'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/TeamLeagueIcon/Texture/T_TeamLeagueIcon_00.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Result_NextLeague_C:WidgetTree.CanvasPanel_Round.CanvasPanelSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.61"
+      },
+      "RenderTransform": {
+        "Scale": {
+          "X": 0.8,
+          "Y": 0.8
+        }
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "bar",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 48.0,
+          "Y": 120.0
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_Round.CanvasPanelSlot_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.78"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "P_Image_LeagueIcon",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 512.0,
+          "Y": 512.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_TeamLeagueIcon_00'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/TeamLeagueIcon/Texture/T_TeamLeagueIcon_00.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_Round.CanvasPanelSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.76"
+      },
+      "RenderTransform": {
+        "Scale": {
+          "X": 0.8,
+          "Y": 0.8
+        }
+      }
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "LocalTeamPoint",
+    "Outer": "Setup",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "Edit | BlueprintVisible"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "LocalTeamRankInLeague",
+    "Outer": "Setup",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "Edit | BlueprintVisible"
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CanvasPanel_FinalRound",
+    "Outer": "WBP_Result_NextLeague_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'CanvasPanel'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CanvasPanel_Round",
+    "Outer": "WBP_Result_NextLeague_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'CanvasPanel'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "P_Image_LeagueIcon",
+    "Outer": "WBP_Result_NextLeague_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'Image'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "P_Text_NextLeague",
+    "Outer": "WBP_Result_NextLeague_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'TextBlock'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "P_Text_Top",
+    "Outer": "WBP_Result_NextLeague_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'TextBlock'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "TextBlock_LeagueChangeReserveStatus",
+    "Outer": "WBP_Result_NextLeague_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'TextBlock'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "TextBlock_TeamPoint",
+    "Outer": "WBP_Result_NextLeague_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'TextBlock'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "TextBlock_TeamRank",
+    "Outer": "WBP_Result_NextLeague_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'TextBlock'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ScaleBox",
+    "Name": "ScaleBox",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'ScaleBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "ScaleBoxSlot'WBP_Result_NextLeague_C:WidgetTree.ScaleBox.ScaleBoxSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.114"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "SizeBoxSlot'WBP_Result_NextLeague_C:WidgetTree.SizeBox.SizeBoxSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.126"
+      }
+    }
+  },
+  {
+    "Type": "ScaleBox",
+    "Name": "ScaleBox_1",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'ScaleBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "ScaleBoxSlot'WBP_Result_NextLeague_C:WidgetTree.ScaleBox_1.ScaleBoxSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.115"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "SizeBoxSlot'WBP_Result_NextLeague_C:WidgetTree.SizeBox_1.SizeBoxSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.127"
+      }
+    }
+  },
+  {
+    "Type": "ScaleBox",
+    "Name": "ScaleBox_2",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'ScaleBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "ScaleBoxSlot'WBP_Result_NextLeague_C:WidgetTree.ScaleBox_2.ScaleBoxSlot_3'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.116"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "SizeBoxSlot'WBP_Result_NextLeague_C:WidgetTree.SizeBox_2.SizeBoxSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.128"
+      }
+    }
+  },
+  {
+    "Type": "ScaleBox",
+    "Name": "ScaleBox",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'ScaleBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "ScaleBoxSlot'WidgetArchetype:WidgetTree_0.ScaleBox.ScaleBoxSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.117"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "SizeBoxSlot'WidgetArchetype:WidgetTree_0.SizeBox.SizeBoxSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.129"
+      }
+    }
+  },
+  {
+    "Type": "ScaleBox",
+    "Name": "ScaleBox_1",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'ScaleBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "ScaleBoxSlot'WidgetArchetype:WidgetTree_0.ScaleBox_1.ScaleBoxSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.118"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "SizeBoxSlot'WidgetArchetype:WidgetTree_0.SizeBox_1.SizeBoxSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.130"
+      }
+    }
+  },
+  {
+    "Type": "ScaleBox",
+    "Name": "ScaleBox_2",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'ScaleBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "ScaleBoxSlot'WidgetArchetype:WidgetTree_0.ScaleBox_2.ScaleBoxSlot_3'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.119"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "SizeBoxSlot'WidgetArchetype:WidgetTree_0.SizeBox_2.SizeBoxSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.131"
+      }
+    }
+  },
+  {
+    "Type": "ScaleBoxSlot",
+    "Name": "ScaleBoxSlot_1",
+    "Outer": "ScaleBox",
+    "Class": "UScriptClass'ScaleBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "ScaleBox'WBP_Result_NextLeague_C:WidgetTree.ScaleBox'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.108"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WBP_Result_NextLeague_C:WidgetTree.P_Text_Top'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.141"
+      }
+    }
+  },
+  {
+    "Type": "ScaleBoxSlot",
+    "Name": "ScaleBoxSlot_1",
+    "Outer": "ScaleBox_1",
+    "Class": "UScriptClass'ScaleBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "ScaleBox'WBP_Result_NextLeague_C:WidgetTree.ScaleBox_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.109"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WBP_Result_NextLeague_C:WidgetTree.CanvasPanel_157'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.40"
+      }
+    }
+  },
+  {
+    "Type": "ScaleBoxSlot",
+    "Name": "ScaleBoxSlot_3",
+    "Outer": "ScaleBox_2",
+    "Class": "UScriptClass'ScaleBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Fill",
+      "VerticalAlignment": "VAlign_Fill",
+      "Parent": {
+        "ObjectName": "ScaleBox'WBP_Result_NextLeague_C:WidgetTree.ScaleBox_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.110"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WBP_Result_NextLeague_C:WidgetTree.CanvasPanel_155'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.39"
+      }
+    }
+  },
+  {
+    "Type": "ScaleBoxSlot",
+    "Name": "ScaleBoxSlot_1",
+    "Outer": "ScaleBox",
+    "Class": "UScriptClass'ScaleBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "ScaleBox'WidgetArchetype:WidgetTree_0.ScaleBox'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.111"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.P_Text_Top'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.147"
+      }
+    }
+  },
+  {
+    "Type": "ScaleBoxSlot",
+    "Name": "ScaleBoxSlot_1",
+    "Outer": "ScaleBox_1",
+    "Class": "UScriptClass'ScaleBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "ScaleBox'WidgetArchetype:WidgetTree_0.ScaleBox_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.112"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_157'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.48"
+      }
+    }
+  },
+  {
+    "Type": "ScaleBoxSlot",
+    "Name": "ScaleBoxSlot_3",
+    "Outer": "ScaleBox_2",
+    "Class": "UScriptClass'ScaleBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Fill",
+      "VerticalAlignment": "VAlign_Fill",
+      "Parent": {
+        "ObjectName": "ScaleBox'WidgetArchetype:WidgetTree_0.ScaleBox_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.113"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_155'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.47"
+      }
+    }
+  },
+  {
+    "Type": "SizeBox",
+    "Name": "SizeBox",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'SizeBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "SizeBoxSlot'WBP_Result_NextLeague_C:WidgetTree.SizeBox.SizeBoxSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.126"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Result_NextLeague_C:WidgetTree.Text_Top.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.69"
+      }
+    }
+  },
+  {
+    "Type": "SizeBox",
+    "Name": "SizeBox_1",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'SizeBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "SizeBoxSlot'WBP_Result_NextLeague_C:WidgetTree.SizeBox_1.SizeBoxSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.127"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Result_NextLeague_C:WidgetTree.Text_Bottom.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.67"
+      }
+    }
+  },
+  {
+    "Type": "SizeBox",
+    "Name": "SizeBox_2",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'SizeBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "SizeBoxSlot'WBP_Result_NextLeague_C:WidgetTree.SizeBox_2.SizeBoxSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.128"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Result_NextLeague_C:WidgetTree.Text_MIddle.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.68"
+      }
+    }
+  },
+  {
+    "Type": "SizeBox",
+    "Name": "SizeBox",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'SizeBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "SizeBoxSlot'WidgetArchetype:WidgetTree_0.SizeBox.SizeBoxSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.129"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.Text_Top.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.84"
+      }
+    }
+  },
+  {
+    "Type": "SizeBox",
+    "Name": "SizeBox_1",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'SizeBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "SizeBoxSlot'WidgetArchetype:WidgetTree_0.SizeBox_1.SizeBoxSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.130"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.Text_Bottom.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.82"
+      }
+    }
+  },
+  {
+    "Type": "SizeBox",
+    "Name": "SizeBox_2",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'SizeBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "SizeBoxSlot'WidgetArchetype:WidgetTree_0.SizeBox_2.SizeBoxSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.131"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.Text_MIddle.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.83"
+      }
+    }
+  },
+  {
+    "Type": "SizeBoxSlot",
+    "Name": "SizeBoxSlot_1",
+    "Outer": "SizeBox",
+    "Class": "UScriptClass'SizeBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "SizeBox'WBP_Result_NextLeague_C:WidgetTree.SizeBox'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.120"
+      },
+      "Content": {
+        "ObjectName": "ScaleBox'WBP_Result_NextLeague_C:WidgetTree.ScaleBox'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.108"
+      }
+    }
+  },
+  {
+    "Type": "SizeBoxSlot",
+    "Name": "SizeBoxSlot_1",
+    "Outer": "SizeBox_1",
+    "Class": "UScriptClass'SizeBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "SizeBox'WBP_Result_NextLeague_C:WidgetTree.SizeBox_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.121"
+      },
+      "Content": {
+        "ObjectName": "ScaleBox'WBP_Result_NextLeague_C:WidgetTree.ScaleBox_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.109"
+      }
+    }
+  },
+  {
+    "Type": "SizeBoxSlot",
+    "Name": "SizeBoxSlot_1",
+    "Outer": "SizeBox_2",
+    "Class": "UScriptClass'SizeBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "SizeBox'WBP_Result_NextLeague_C:WidgetTree.SizeBox_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.122"
+      },
+      "Content": {
+        "ObjectName": "ScaleBox'WBP_Result_NextLeague_C:WidgetTree.ScaleBox_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.110"
+      }
+    }
+  },
+  {
+    "Type": "SizeBoxSlot",
+    "Name": "SizeBoxSlot_1",
+    "Outer": "SizeBox",
+    "Class": "UScriptClass'SizeBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.SizeBox'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.123"
+      },
+      "Content": {
+        "ObjectName": "ScaleBox'WidgetArchetype:WidgetTree_0.ScaleBox'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.111"
+      }
+    }
+  },
+  {
+    "Type": "SizeBoxSlot",
+    "Name": "SizeBoxSlot_1",
+    "Outer": "SizeBox_1",
+    "Class": "UScriptClass'SizeBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.SizeBox_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.124"
+      },
+      "Content": {
+        "ObjectName": "ScaleBox'WidgetArchetype:WidgetTree_0.ScaleBox_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.112"
+      }
+    }
+  },
+  {
+    "Type": "SizeBoxSlot",
+    "Name": "SizeBoxSlot_1",
+    "Outer": "SizeBox_2",
+    "Class": "UScriptClass'SizeBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.SizeBox_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.125"
+      },
+      "Content": {
+        "ObjectName": "ScaleBox'WidgetArchetype:WidgetTree_0.ScaleBox_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.113"
+      }
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "Data",
+    "Outer": "Setup",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "Struct": {
+      "ObjectName": "UserDefinedStruct'ST_ResultTeamLeagueData'",
+      "ObjectPath": "GameProject/Content/IND/UI/Result/Team/Structure/ST_ResultTeamLeagueData.0"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "K2Node_MakeStruct_FormatArgumentData",
+    "Outer": "Setup",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Struct": {
+      "ObjectName": "ScriptStruct'FormatArgumentData'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "K2Node_MakeStruct_LinearColor",
+    "Outer": "SetUpperLowerText",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Struct": {
+      "ObjectName": "ScriptStruct'LinearColor'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "K2Node_MakeStruct_LinearColor_1",
+    "Outer": "SetUpperLowerText",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Struct": {
+      "ObjectName": "ScriptStruct'LinearColor'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "K2Node_MakeStruct_LinearColor_2",
+    "Outer": "SetUpperLowerText",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Struct": {
+      "ObjectName": "ScriptStruct'LinearColor'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "K2Node_MakeStruct_SlateColor",
+    "Outer": "SetUpperLowerText",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Struct": {
+      "ObjectName": "ScriptStruct'SlateColor'",
+      "ObjectPath": "/Script/SlateCore"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "K2Node_MakeStruct_SlateColor_1",
+    "Outer": "SetUpperLowerText",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Struct": {
+      "ObjectName": "ScriptStruct'SlateColor'",
+      "ObjectPath": "/Script/SlateCore"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "K2Node_MakeStruct_SlateColor_2",
+    "Outer": "SetUpperLowerText",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Struct": {
+      "ObjectName": "ScriptStruct'SlateColor'",
+      "ObjectPath": "/Script/SlateCore"
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "P_Text_NextLeague",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "44BD2348404F771027773D95444CF1DC",
+        "SourceString": "昇格条件",
+        "LocalizedString": "昇格条件"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "TypefaceFontName": "RodinN_EB"
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Result_NextLeague_C:WidgetTree.CanvasPanel_Round.CanvasPanelSlot_4'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.64"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "P_Text_Top",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "81FDF96243D3E0602111D0A249B45F78",
+        "SourceString": "ラウンド終了時チームポイント",
+        "LocalizedString": "ラウンド終了時チームポイント"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "TypefaceFontName": "RodinN_EB",
+        "Size": 16
+      },
+      "ShadowOffset": {
+        "X": 0.0,
+        "Y": 3.0
+      },
+      "ShadowColorAndOpacity": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "000000"
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "ScaleBoxSlot'WBP_Result_NextLeague_C:WidgetTree.ScaleBox.ScaleBoxSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.114"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "TextBlock_117",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "FDFF335040315A3C0D6C97807310524E",
+        "SourceString": "最終ラウンドのため\r\n昇格/降格しません",
+        "LocalizedString": "最終ラウンドのため\r\n昇格/降格しません"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "TypefaceFontName": "RodinN_EB",
+        "Size": 12
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Result_NextLeague_C:WidgetTree.CanvasPanel_FinalRound.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.60"
+      }
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "TextBlock_LeagueChangeReserveStatus",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "484E7B7D49EF8F38A59C62A87327E2A6",
+        "SourceString": "以上でリーグ昇格！",
+        "LocalizedString": "以上でリーグ昇格！"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 1.0,
+          "G": 0.14996,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "FF6C00"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "TypefaceFontName": "RodinN_EB",
+        "Size": 14
+      },
+      "ShadowOffset": {
+        "X": 0.0,
+        "Y": 3.0
+      },
+      "ShadowColorAndOpacity": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "000000"
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Result_NextLeague_C:WidgetTree.CanvasPanel_157.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.57"
+      },
+      "bIsVariable": true,
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "TextBlock_TeamPoint",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "B1C818CB4844A5EBEB4E338CE4FE5797",
+        "SourceString": "10000",
+        "LocalizedString": "10000"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 0.564712,
+          "G": 1.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "C6FF00"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "TypefaceFontName": "RodinN_EB",
+        "Size": 20
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Result_NextLeague_C:WidgetTree.CanvasPanel_155.CanvasPanelSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.56"
+      },
+      "RenderTransform": {
+        "Shear": {
+          "X": -10.0,
+          "Y": 0.0
+        }
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "TextBlock_TeamRank",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "243BFD754D9E8C15F4A10C9794338A0E",
+        "SourceString": "99位",
+        "LocalizedString": "99位"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "FontMaterial": {
+          "ObjectName": "MaterialInstanceConstant'MI_Font_01'",
+          "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/Material/MI_Font_01.0"
+        },
+        "TypefaceFontName": "RodinN_EB",
+        "Size": 28
+      },
+      "ShadowOffset": {
+        "X": 4.0,
+        "Y": 4.0
+      },
+      "ShadowColorAndOpacity": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "000000"
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Result_NextLeague_C:WidgetTree.CanvasPanel_155.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.55"
+      },
+      "RenderTransform": {
+        "Shear": {
+          "X": -10.0,
+          "Y": 0.0
+        }
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "P_Text_NextLeague",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "44BD2348404F771027773D95444CF1DC",
+        "SourceString": "昇格条件",
+        "LocalizedString": "昇格条件"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "TypefaceFontName": "RodinN_EB"
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_Round.CanvasPanelSlot_4'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.79"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "P_Text_Top",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "81FDF96243D3E0602111D0A249B45F78",
+        "SourceString": "ラウンド終了時チームポイント",
+        "LocalizedString": "ラウンド終了時チームポイント"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "TypefaceFontName": "RodinN_EB",
+        "Size": 16
+      },
+      "ShadowOffset": {
+        "X": 0.0,
+        "Y": 3.0
+      },
+      "ShadowColorAndOpacity": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "000000"
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "ScaleBoxSlot'WidgetArchetype:WidgetTree_0.ScaleBox.ScaleBoxSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.117"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "TextBlock_117",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "FDFF335040315A3C0D6C97807310524E",
+        "SourceString": "最終ラウンドのため\r\n昇格/降格しません",
+        "LocalizedString": "最終ラウンドのため\r\n昇格/降格しません"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "TypefaceFontName": "RodinN_EB",
+        "Size": 12
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_FinalRound.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.75"
+      }
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "TextBlock_LeagueChangeReserveStatus",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "484E7B7D49EF8F38A59C62A87327E2A6",
+        "SourceString": "以上でリーグ昇格！",
+        "LocalizedString": "以上でリーグ昇格！"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 1.0,
+          "G": 0.14996,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "FF6C00"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "TypefaceFontName": "RodinN_EB",
+        "Size": 14
+      },
+      "ShadowOffset": {
+        "X": 0.0,
+        "Y": 3.0
+      },
+      "ShadowColorAndOpacity": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "000000"
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_157.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.72"
+      },
+      "bIsVariable": true,
+      "Visibility": "ESlateVisibility::SelfHitTestInvisible"
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "TextBlock_TeamPoint",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "B1C818CB4844A5EBEB4E338CE4FE5797",
+        "SourceString": "10000",
+        "LocalizedString": "10000"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 0.564712,
+          "G": 1.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "C6FF00"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "TypefaceFontName": "RodinN_EB",
+        "Size": 20
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_155.CanvasPanelSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.71"
+      },
+      "RenderTransform": {
+        "Shear": {
+          "X": -10.0,
+          "Y": 0.0
+        }
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "TextBlock_TeamRank",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "243BFD754D9E8C15F4A10C9794338A0E",
+        "SourceString": "99位",
+        "LocalizedString": "99位"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "FontMaterial": {
+          "ObjectName": "MaterialInstanceConstant'MI_Font_01'",
+          "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/Material/MI_Font_01.0"
+        },
+        "TypefaceFontName": "RodinN_EB",
+        "Size": 28
+      },
+      "ShadowOffset": {
+        "X": 4.0,
+        "Y": 4.0
+      },
+      "ShadowColorAndOpacity": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "000000"
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_155.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.70"
+      },
+      "RenderTransform": {
+        "Shear": {
+          "X": -10.0,
+          "Y": 0.0
+        }
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "CallFunc_Conv_IntToText_ReturnValue",
+    "Outer": "Setup",
+    "Class": "UScriptClass'TextProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "CallFunc_Format_ReturnValue",
+    "Outer": "Setup",
+    "Class": "UScriptClass'TextProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "CallFunc_MakeTeamPointText_PointsText",
+    "Outer": "Setup",
+    "Class": "UScriptClass'TextProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "LocalRankText",
+    "Outer": "Setup",
+    "Class": "UScriptClass'TextProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "Edit | BlueprintVisible"
+  },
+  {
+    "Type": "WBP_Result_NextLeague_C",
+    "Name": "WidgetArchetype",
+    "Class": "WidgetBlueprintGeneratedClass'GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.WBP_Result_NextLeague_C'",
+    "Template": {
+      "ObjectName": "WBP_Result_NextLeague_C'Default__WBP_Result_NextLeague_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.2"
+    },
+    "Flags": "RF_Public | RF_Standalone | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "bar": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.bar'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.96"
+      },
+      "CanvasPanel_FinalRound": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_FinalRound'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.50"
+      },
+      "CanvasPanel_Round": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_Round'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.51"
+      },
+      "P_Image_LeagueIcon": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.P_Image_LeagueIcon'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.97"
+      },
+      "P_Text_NextLeague": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.P_Text_NextLeague'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.146"
+      },
+      "P_Text_Top": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.P_Text_Top'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.147"
+      },
+      "TextBlock_LeagueChangeReserveStatus": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.TextBlock_LeagueChangeReserveStatus'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.149"
+      },
+      "TextBlock_TeamPoint": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.TextBlock_TeamPoint'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.150"
+      },
+      "TextBlock_TeamRank": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.TextBlock_TeamRank'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.151"
+      },
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.158"
+      },
+      "bCookedWidgetTree": true
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Outer": "WBP_Result_NextLeague_C",
+    "Class": "UScriptClass'WidgetTree'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CanvasPanel'WBP_Result_NextLeague_C:WidgetTree.CanvasPanel_95'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.41"
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree_0",
+    "Outer": "WidgetArchetype",
+    "Class": "UScriptClass'WidgetTree'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_95'",
+        "ObjectPath": "GameProject/Content/IND/UI/Result/Team/WBP_Result_NextLeague.49"
+      }
+    }
+  }
+]

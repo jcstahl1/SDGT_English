@@ -1,0 +1,903 @@
+[
+  {
+    "Type": "StructProperty",
+    "Name": "UberGraphFrame",
+    "Outer": "WBP_Aime_Dialog_Code_C",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "Transient | DuplicateTransient",
+    "Struct": {
+      "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "WBP_Aime_Dialog_Code_C",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WBP_Aime_Dialog_Code_C:WidgetTree'",
+        "ObjectPath": "GameProject/Content/IND/UI/Aime/Dialog/WBP_Aime_Dialog_Code.35"
+      },
+      "bAllowTemplate": true,
+      "bValidTemplate": true,
+      "TemplateAsset": {
+        "AssetPathName": "/Game/IND/UI/Aime/Dialog/WBP_Aime_Dialog_Code.WidgetArchetype",
+        "SubPathString": ""
+      },
+      "UberGraphFramePointerProperty": {
+        "ObjectName": "StructProperty'WBP_Aime_Dialog_Code_C:UberGraphFrame'",
+        "ObjectPath": "GameProject/Content/IND/UI/Aime/Dialog/WBP_Aime_Dialog_Code.0"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'WBP_Aime_Dialog_Code_C:ExecuteUbergraph_WBP_Aime_Dialog_Code'",
+        "ObjectPath": "GameProject/Content/IND/UI/Aime/Dialog/WBP_Aime_Dialog_Code.15"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'UserWidget'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'WBP_Aime_Dialog_Code_C:UberGraphFrame'",
+        "ObjectPath": "GameProject/Content/IND/UI/Aime/Dialog/WBP_Aime_Dialog_Code.0"
+      },
+      {
+        "ObjectName": "Function'WBP_Aime_Dialog_Code_C:Construct'",
+        "ObjectPath": "GameProject/Content/IND/UI/Aime/Dialog/WBP_Aime_Dialog_Code.16"
+      },
+      {
+        "ObjectName": "Function'WBP_Aime_Dialog_Code_C:ExecuteUbergraph_WBP_Aime_Dialog_Code'",
+        "ObjectPath": "GameProject/Content/IND/UI/Aime/Dialog/WBP_Aime_Dialog_Code.15"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Aime_Dialog_Code_C:Base'",
+        "ObjectPath": "GameProject/Content/IND/UI/Aime/Dialog/WBP_Aime_Dialog_Code.13"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Aime_Dialog_Code_C:P_Text'",
+        "ObjectPath": "GameProject/Content/IND/UI/Aime/Dialog/WBP_Aime_Dialog_Code.27"
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_WBP_Aime_Dialog_Code": {
+        "ObjectName": "Function'WBP_Aime_Dialog_Code_C:ExecuteUbergraph_WBP_Aime_Dialog_Code'",
+        "ObjectPath": "GameProject/Content/IND/UI/Aime/Dialog/WBP_Aime_Dialog_Code.15"
+      },
+      "Construct": {
+        "ObjectName": "Function'WBP_Aime_Dialog_Code_C:Construct'",
+        "ObjectPath": "GameProject/Content/IND/UI/Aime/Dialog/WBP_Aime_Dialog_Code.16"
+      }
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "WBP_Aime_Dialog_Code_C'Default__WBP_Aime_Dialog_Code_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Aime/Dialog/WBP_Aime_Dialog_Code.2"
+    }
+  },
+  {
+    "Type": "WBP_Aime_Dialog_Code_C",
+    "Name": "Default__WBP_Aime_Dialog_Code_C",
+    "Class": "WidgetBlueprintGeneratedClass'GameProject/Content/IND/UI/Aime/Dialog/WBP_Aime_Dialog_Code.WBP_Aime_Dialog_Code_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "UberGraphFrame": {},
+      "bHasScriptImplementedTick": false,
+      "bHasScriptImplementedPaint": false
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_0",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Aime_Dialog_Code_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Aime/Dialog/WBP_Aime_Dialog_Code.7"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_88",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Aime_Dialog_Code_C:WidgetTree.CanvasPanel_88.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Aime/Dialog/WBP_Aime_Dialog_Code.8"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Aime_Dialog_Code_C:WidgetTree.CanvasPanel_88.CanvasPanelSlot_3'",
+          "ObjectPath": "GameProject/Content/IND/UI/Aime/Dialog/WBP_Aime_Dialog_Code.9"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "OverlaySlot'WBP_Aime_Dialog_Code_C:WidgetTree.Overlay_1.OverlaySlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Aime/Dialog/WBP_Aime_Dialog_Code.30"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_0",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Aime/Dialog/WBP_Aime_Dialog_Code.10"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_88",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_88.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Aime/Dialog/WBP_Aime_Dialog_Code.11"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_88.CanvasPanelSlot_3'",
+          "ObjectPath": "GameProject/Content/IND/UI/Aime/Dialog/WBP_Aime_Dialog_Code.12"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.Overlay_1.OverlaySlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Aime/Dialog/WBP_Aime_Dialog_Code.31"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Aime_Dialog_Code_C:WidgetTree.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Aime/Dialog/WBP_Aime_Dialog_Code.3"
+      },
+      "Content": {
+        "ObjectName": "Overlay'WBP_Aime_Dialog_Code_C:WidgetTree.Overlay_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Aime/Dialog/WBP_Aime_Dialog_Code.28"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "CanvasPanel_88",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 360.0,
+          "Bottom": 84.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Aime_Dialog_Code_C:WidgetTree.CanvasPanel_88'",
+        "ObjectPath": "GameProject/Content/IND/UI/Aime/Dialog/WBP_Aime_Dialog_Code.4"
+      },
+      "Content": {
+        "ObjectName": "Image'WBP_Aime_Dialog_Code_C:WidgetTree.Base'",
+        "ObjectPath": "GameProject/Content/IND/UI/Aime/Dialog/WBP_Aime_Dialog_Code.23"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_3",
+    "Outer": "CanvasPanel_88",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Aime_Dialog_Code_C:WidgetTree.CanvasPanel_88'",
+        "ObjectPath": "GameProject/Content/IND/UI/Aime/Dialog/WBP_Aime_Dialog_Code.4"
+      },
+      "Content": {
+        "ObjectName": "HorizontalBox'WBP_Aime_Dialog_Code_C:WidgetTree.Main'",
+        "ObjectPath": "GameProject/Content/IND/UI/Aime/Dialog/WBP_Aime_Dialog_Code.17"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Aime/Dialog/WBP_Aime_Dialog_Code.5"
+      },
+      "Content": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.Overlay_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Aime/Dialog/WBP_Aime_Dialog_Code.29"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "CanvasPanel_88",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 360.0,
+          "Bottom": 84.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_88'",
+        "ObjectPath": "GameProject/Content/IND/UI/Aime/Dialog/WBP_Aime_Dialog_Code.6"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.Base'",
+        "ObjectPath": "GameProject/Content/IND/UI/Aime/Dialog/WBP_Aime_Dialog_Code.25"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_3",
+    "Outer": "CanvasPanel_88",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_88'",
+        "ObjectPath": "GameProject/Content/IND/UI/Aime/Dialog/WBP_Aime_Dialog_Code.6"
+      },
+      "Content": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.Main'",
+        "ObjectPath": "GameProject/Content/IND/UI/Aime/Dialog/WBP_Aime_Dialog_Code.18"
+      }
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Base",
+    "Outer": "WBP_Aime_Dialog_Code_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'Image'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "EntryPoint",
+    "Outer": "ExecuteUbergraph_WBP_Aime_Dialog_Code",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_WBP_Aime_Dialog_Code",
+    "Outer": "WBP_Aime_Dialog_Code_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "IntProperty'WBP_Aime_Dialog_Code_C:ExecuteUbergraph_WBP_Aime_Dialog_Code.EntryPoint'",
+        "ObjectPath": "GameProject/Content/IND/UI/Aime/Dialog/WBP_Aime_Dialog_Code.14"
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "Construct",
+    "Outer": "WBP_Aime_Dialog_Code_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Function'UserWidget:Construct'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "FunctionFlags": "FUNC_BlueprintCosmetic | FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "HorizontalBox",
+    "Name": "Main",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'HorizontalBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "HorizontalBoxSlot'WBP_Aime_Dialog_Code_C:WidgetTree.Main.HorizontalBoxSlot_2'",
+          "ObjectPath": "GameProject/Content/IND/UI/Aime/Dialog/WBP_Aime_Dialog_Code.20"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot'WBP_Aime_Dialog_Code_C:WidgetTree.Main.HorizontalBoxSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Aime/Dialog/WBP_Aime_Dialog_Code.19"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Aime_Dialog_Code_C:WidgetTree.CanvasPanel_88.CanvasPanelSlot_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Aime/Dialog/WBP_Aime_Dialog_Code.9"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBox",
+    "Name": "Main",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'HorizontalBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.Main.HorizontalBoxSlot_2'",
+          "ObjectPath": "GameProject/Content/IND/UI/Aime/Dialog/WBP_Aime_Dialog_Code.22"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.Main.HorizontalBoxSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Aime/Dialog/WBP_Aime_Dialog_Code.21"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_88.CanvasPanelSlot_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Aime/Dialog/WBP_Aime_Dialog_Code.12"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_0",
+    "Outer": "Main",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Padding": {
+        "Left": -5.0
+      },
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox'WBP_Aime_Dialog_Code_C:WidgetTree.Main'",
+        "ObjectPath": "GameProject/Content/IND/UI/Aime/Dialog/WBP_Aime_Dialog_Code.17"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WBP_Aime_Dialog_Code_C:WidgetTree.P_Text'",
+        "ObjectPath": "GameProject/Content/IND/UI/Aime/Dialog/WBP_Aime_Dialog_Code.32"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_2",
+    "Outer": "Main",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Padding": {
+        "Right": 12.0
+      },
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox'WBP_Aime_Dialog_Code_C:WidgetTree.Main'",
+        "ObjectPath": "GameProject/Content/IND/UI/Aime/Dialog/WBP_Aime_Dialog_Code.17"
+      },
+      "Content": {
+        "ObjectName": "Image'WBP_Aime_Dialog_Code_C:WidgetTree.btn_icon'",
+        "ObjectPath": "GameProject/Content/IND/UI/Aime/Dialog/WBP_Aime_Dialog_Code.24"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_0",
+    "Outer": "Main",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Padding": {
+        "Left": -5.0
+      },
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.Main'",
+        "ObjectPath": "GameProject/Content/IND/UI/Aime/Dialog/WBP_Aime_Dialog_Code.18"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.P_Text'",
+        "ObjectPath": "GameProject/Content/IND/UI/Aime/Dialog/WBP_Aime_Dialog_Code.33"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_2",
+    "Outer": "Main",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Padding": {
+        "Right": 12.0
+      },
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.Main'",
+        "ObjectPath": "GameProject/Content/IND/UI/Aime/Dialog/WBP_Aime_Dialog_Code.18"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.btn_icon'",
+        "ObjectPath": "GameProject/Content/IND/UI/Aime/Dialog/WBP_Aime_Dialog_Code.26"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Base",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 36.0,
+          "Y": 84.0
+        },
+        "Margin": {
+          "Left": 0.5,
+          "Top": 0.5,
+          "Right": 0.5,
+          "Bottom": 0.5
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Aime_Dialog_Base03'",
+          "ObjectPath": "GameProject/Content/IND/UI/Aime/Dialog/Texture/T_Aime_Dialog_Base03.0"
+        },
+        "DrawAs": "ESlateBrushDrawType::Box"
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Aime_Dialog_Code_C:WidgetTree.CanvasPanel_88.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Aime/Dialog/WBP_Aime_Dialog_Code.8"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "btn_icon",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 40.0,
+          "Y": 60.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'btn_icon'",
+          "ObjectPath": "GameProject/Content/IND/UI/StartMenu/MenuBanner/Texture/btn_icon.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WBP_Aime_Dialog_Code_C:WidgetTree.Main.HorizontalBoxSlot_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Aime/Dialog/WBP_Aime_Dialog_Code.20"
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Base",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 36.0,
+          "Y": 84.0
+        },
+        "Margin": {
+          "Left": 0.5,
+          "Top": 0.5,
+          "Right": 0.5,
+          "Bottom": 0.5
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Aime_Dialog_Base03'",
+          "ObjectPath": "GameProject/Content/IND/UI/Aime/Dialog/Texture/T_Aime_Dialog_Base03.0"
+        },
+        "DrawAs": "ESlateBrushDrawType::Box"
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_88.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Aime/Dialog/WBP_Aime_Dialog_Code.11"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "btn_icon",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 40.0,
+          "Y": 60.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'btn_icon'",
+          "ObjectPath": "GameProject/Content/IND/UI/StartMenu/MenuBanner/Texture/btn_icon.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.Main.HorizontalBoxSlot_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Aime/Dialog/WBP_Aime_Dialog_Code.22"
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "P_Text",
+    "Outer": "WBP_Aime_Dialog_Code_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'TextBlock'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "Overlay",
+    "Name": "Overlay_1",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'Overlay'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "OverlaySlot'WBP_Aime_Dialog_Code_C:WidgetTree.Overlay_1.OverlaySlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Aime/Dialog/WBP_Aime_Dialog_Code.30"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Aime_Dialog_Code_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Aime/Dialog/WBP_Aime_Dialog_Code.7"
+      }
+    }
+  },
+  {
+    "Type": "Overlay",
+    "Name": "Overlay_1",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Overlay'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.Overlay_1.OverlaySlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Aime/Dialog/WBP_Aime_Dialog_Code.31"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Aime/Dialog/WBP_Aime_Dialog_Code.10"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_0",
+    "Outer": "Overlay_1",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "Overlay'WBP_Aime_Dialog_Code_C:WidgetTree.Overlay_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Aime/Dialog/WBP_Aime_Dialog_Code.28"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WBP_Aime_Dialog_Code_C:WidgetTree.CanvasPanel_88'",
+        "ObjectPath": "GameProject/Content/IND/UI/Aime/Dialog/WBP_Aime_Dialog_Code.4"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_0",
+    "Outer": "Overlay_1",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.Overlay_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Aime/Dialog/WBP_Aime_Dialog_Code.29"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_88'",
+        "ObjectPath": "GameProject/Content/IND/UI/Aime/Dialog/WBP_Aime_Dialog_Code.6"
+      }
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "P_Text",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "TableId": "/Game/IND/StringTable/BP/ST_GameMessage.ST_GameMessage",
+        "Key": "AimeDialog_ConfirmCode",
+        "SourceString": "アクセスコード確認",
+        "LocalizedString": "Confirm\nAccess Code"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 0.0,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "000000"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 2,
+          "OutlineColor": {
+            "R": 0.564712,
+            "G": 0.571125,
+            "B": 0.564712,
+            "A": 1.0,
+            "Hex": "C6C7C6"
+          }
+        },
+        "TypefaceFontName": "RodinN_B",
+        "Size": 22
+      },
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WBP_Aime_Dialog_Code_C:WidgetTree.Main.HorizontalBoxSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Aime/Dialog/WBP_Aime_Dialog_Code.19"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "P_Text",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "TableId": "/Game/IND/StringTable/BP/ST_GameMessage.ST_GameMessage",
+        "Key": "AimeDialog_ConfirmCode",
+        "SourceString": "アクセスコード確認",
+        "LocalizedString": "Confirm\nAccess Code"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 0.0,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "000000"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 2,
+          "OutlineColor": {
+            "R": 0.564712,
+            "G": 0.571125,
+            "B": 0.564712,
+            "A": 1.0,
+            "Hex": "C6C7C6"
+          }
+        },
+        "TypefaceFontName": "RodinN_B",
+        "Size": 22
+      },
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.Main.HorizontalBoxSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Aime/Dialog/WBP_Aime_Dialog_Code.21"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "WBP_Aime_Dialog_Code_C",
+    "Name": "WidgetArchetype",
+    "Class": "WidgetBlueprintGeneratedClass'GameProject/Content/IND/UI/Aime/Dialog/WBP_Aime_Dialog_Code.WBP_Aime_Dialog_Code_C'",
+    "Template": {
+      "ObjectName": "WBP_Aime_Dialog_Code_C'Default__WBP_Aime_Dialog_Code_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Aime/Dialog/WBP_Aime_Dialog_Code.2"
+    },
+    "Flags": "RF_Public | RF_Standalone | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Base": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.Base'",
+        "ObjectPath": "GameProject/Content/IND/UI/Aime/Dialog/WBP_Aime_Dialog_Code.25"
+      },
+      "P_Text": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.P_Text'",
+        "ObjectPath": "GameProject/Content/IND/UI/Aime/Dialog/WBP_Aime_Dialog_Code.33"
+      },
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Aime/Dialog/WBP_Aime_Dialog_Code.36"
+      },
+      "bCookedWidgetTree": true
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Outer": "WBP_Aime_Dialog_Code_C",
+    "Class": "UScriptClass'WidgetTree'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CanvasPanel'WBP_Aime_Dialog_Code_C:WidgetTree.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Aime/Dialog/WBP_Aime_Dialog_Code.3"
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree_0",
+    "Outer": "WidgetArchetype",
+    "Class": "UScriptClass'WidgetTree'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Aime/Dialog/WBP_Aime_Dialog_Code.5"
+      }
+    }
+  }
+]

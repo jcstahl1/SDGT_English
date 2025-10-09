@@ -1,0 +1,1965 @@
+[
+  {
+    "Type": "StructProperty",
+    "Name": "UberGraphFrame",
+    "Outer": "WBP_Playdata_OnlineBattle_PastRound_Bar_C",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "Transient | DuplicateTransient",
+    "Struct": {
+      "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "WBP_Playdata_OnlineBattle_PastRound_Bar_C",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WBP_Playdata_OnlineBattle_PastRound_Bar_C:WidgetTree'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.94"
+      },
+      "bAllowTemplate": true,
+      "bValidTemplate": true,
+      "TemplateAsset": {
+        "AssetPathName": "/Game/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.WidgetArchetype",
+        "SubPathString": ""
+      },
+      "UberGraphFramePointerProperty": {
+        "ObjectName": "StructProperty'WBP_Playdata_OnlineBattle_PastRound_Bar_C:UberGraphFrame'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.0"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'WBP_Playdata_OnlineBattle_PastRound_Bar_C:ExecuteUbergraph_WBP_Playdata_OnlineBattle_PastRound_Bar'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.5"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'UserWidget'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'WBP_Playdata_OnlineBattle_PastRound_Bar_C:UberGraphFrame'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.0"
+      },
+      {
+        "ObjectName": "Function'WBP_Playdata_OnlineBattle_PastRound_Bar_C:GetHomareType'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.21"
+      },
+      {
+        "ObjectName": "Function'WBP_Playdata_OnlineBattle_PastRound_Bar_C:SetPastRoundInfo'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.19"
+      },
+      {
+        "ObjectName": "Function'WBP_Playdata_OnlineBattle_PastRound_Bar_C:PreConstruct'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.17"
+      },
+      {
+        "ObjectName": "Function'WBP_Playdata_OnlineBattle_PastRound_Bar_C:ExecuteUbergraph_WBP_Playdata_OnlineBattle_PastRound_Bar'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.5"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Playdata_OnlineBattle_PastRound_Bar_C:Image_HomareIcon'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.3"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Playdata_OnlineBattle_PastRound_Bar_C:Text_PastRoundName'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.68"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Playdata_OnlineBattle_PastRound_Bar_C:Text_PastRoundPts'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.69"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Playdata_OnlineBattle_PastRound_Bar_C:Text_PastRoundRanking'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.70"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Playdata_OnlineBattle_PastRound_Bar_C:Text_PastRoundWin'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.71"
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_WBP_Playdata_OnlineBattle_PastRound_Bar": {
+        "ObjectName": "Function'WBP_Playdata_OnlineBattle_PastRound_Bar_C:ExecuteUbergraph_WBP_Playdata_OnlineBattle_PastRound_Bar'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.5"
+      },
+      "PreConstruct": {
+        "ObjectName": "Function'WBP_Playdata_OnlineBattle_PastRound_Bar_C:PreConstruct'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.17"
+      },
+      "SetPastRoundInfo": {
+        "ObjectName": "Function'WBP_Playdata_OnlineBattle_PastRound_Bar_C:SetPastRoundInfo'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.19"
+      },
+      "GetHomareType": {
+        "ObjectName": "Function'WBP_Playdata_OnlineBattle_PastRound_Bar_C:GetHomareType'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.21"
+      }
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "WBP_Playdata_OnlineBattle_PastRound_Bar_C'Default__WBP_Playdata_OnlineBattle_PastRound_Bar_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.2"
+    }
+  },
+  {
+    "Type": "WBP_Playdata_OnlineBattle_PastRound_Bar_C",
+    "Name": "Default__WBP_Playdata_OnlineBattle_PastRound_Bar_C",
+    "Class": "WidgetBlueprintGeneratedClass'GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.WBP_Playdata_OnlineBattle_PastRound_Bar_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "UberGraphFrame": {},
+      "bHasScriptImplementedTick": false,
+      "bHasScriptImplementedPaint": false
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Image_HomareIcon",
+    "Outer": "WBP_Playdata_OnlineBattle_PastRound_Bar_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'Image'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "EntryPoint",
+    "Outer": "ExecuteUbergraph_WBP_Playdata_OnlineBattle_PastRound_Bar",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_WBP_Playdata_OnlineBattle_PastRound_Bar",
+    "Outer": "WBP_Playdata_OnlineBattle_PastRound_Bar_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "IntProperty'WBP_Playdata_OnlineBattle_PastRound_Bar_C:ExecuteUbergraph_WBP_Playdata_OnlineBattle_PastRound_Bar.EntryPoint'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.4"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Playdata_OnlineBattle_PastRound_Bar_C:ExecuteUbergraph_WBP_Playdata_OnlineBattle_PastRound_Bar.K2Node_Event_IsDesignTime'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.10"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_Playdata_OnlineBattle_PastRound_Bar_C:ExecuteUbergraph_WBP_Playdata_OnlineBattle_PastRound_Bar.Temp_float_Variable'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.56"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Playdata_OnlineBattle_PastRound_Bar_C:ExecuteUbergraph_WBP_Playdata_OnlineBattle_PastRound_Bar.Temp_bool_Variable'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.12"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_Playdata_OnlineBattle_PastRound_Bar_C:ExecuteUbergraph_WBP_Playdata_OnlineBattle_PastRound_Bar.Temp_float_Variable_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.57"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Playdata_OnlineBattle_PastRound_Bar_C:ExecuteUbergraph_WBP_Playdata_OnlineBattle_PastRound_Bar.Temp_bool_Variable_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.13"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_Playdata_OnlineBattle_PastRound_Bar_C:ExecuteUbergraph_WBP_Playdata_OnlineBattle_PastRound_Bar.Temp_float_Variable_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.58"
+      },
+      {
+        "ObjectName": "TextProperty'WBP_Playdata_OnlineBattle_PastRound_Bar_C:ExecuteUbergraph_WBP_Playdata_OnlineBattle_PastRound_Bar.K2Node_CustomEvent_RoundName'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.86"
+      },
+      {
+        "ObjectName": "TextProperty'WBP_Playdata_OnlineBattle_PastRound_Bar_C:ExecuteUbergraph_WBP_Playdata_OnlineBattle_PastRound_Bar.K2Node_CustomEvent_RoundPts'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.87"
+      },
+      {
+        "ObjectName": "TextProperty'WBP_Playdata_OnlineBattle_PastRound_Bar_C:ExecuteUbergraph_WBP_Playdata_OnlineBattle_PastRound_Bar.K2Node_CustomEvent_RoundRank'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.88"
+      },
+      {
+        "ObjectName": "TextProperty'WBP_Playdata_OnlineBattle_PastRound_Bar_C:ExecuteUbergraph_WBP_Playdata_OnlineBattle_PastRound_Bar.K2Node_CustomEvent_RoundWin'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.89"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Playdata_OnlineBattle_PastRound_Bar_C:ExecuteUbergraph_WBP_Playdata_OnlineBattle_PastRound_Bar.K2Node_CustomEvent_AreaRank'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.65"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Playdata_OnlineBattle_PastRound_Bar_C:ExecuteUbergraph_WBP_Playdata_OnlineBattle_PastRound_Bar.CallFunc_GetHomareType_Type'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.64"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Playdata_OnlineBattle_PastRound_Bar_C:ExecuteUbergraph_WBP_Playdata_OnlineBattle_PastRound_Bar.K2Node_SwitchInteger_CmpSuccess'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.11"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Playdata_OnlineBattle_PastRound_Bar_C:ExecuteUbergraph_WBP_Playdata_OnlineBattle_PastRound_Bar.Temp_bool_Variable_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.14"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_Playdata_OnlineBattle_PastRound_Bar_C:ExecuteUbergraph_WBP_Playdata_OnlineBattle_PastRound_Bar.Temp_float_Variable_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.59"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Playdata_OnlineBattle_PastRound_Bar_C:ExecuteUbergraph_WBP_Playdata_OnlineBattle_PastRound_Bar.Temp_bool_Variable_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.15"
+      },
+      {
+        "ObjectName": "StructProperty'WBP_Playdata_OnlineBattle_PastRound_Bar_C:ExecuteUbergraph_WBP_Playdata_OnlineBattle_PastRound_Bar.CallFunc_GetDesiredSize_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.76"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_Playdata_OnlineBattle_PastRound_Bar_C:ExecuteUbergraph_WBP_Playdata_OnlineBattle_PastRound_Bar.CallFunc_BreakVector2D_X'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.48"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_Playdata_OnlineBattle_PastRound_Bar_C:ExecuteUbergraph_WBP_Playdata_OnlineBattle_PastRound_Bar.CallFunc_BreakVector2D_Y'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.49"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_Playdata_OnlineBattle_PastRound_Bar_C:ExecuteUbergraph_WBP_Playdata_OnlineBattle_PastRound_Bar.CallFunc_Divide_FloatFloat_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.50"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_Playdata_OnlineBattle_PastRound_Bar_C:ExecuteUbergraph_WBP_Playdata_OnlineBattle_PastRound_Bar.CallFunc_Divide_FloatFloat_ReturnValue_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.51"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Playdata_OnlineBattle_PastRound_Bar_C:ExecuteUbergraph_WBP_Playdata_OnlineBattle_PastRound_Bar.CallFunc_Less_FloatFloat_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.6"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Playdata_OnlineBattle_PastRound_Bar_C:ExecuteUbergraph_WBP_Playdata_OnlineBattle_PastRound_Bar.CallFunc_Less_FloatFloat_ReturnValue_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.7"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_Playdata_OnlineBattle_PastRound_Bar_C:ExecuteUbergraph_WBP_Playdata_OnlineBattle_PastRound_Bar.K2Node_Select_Default'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.52"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_Playdata_OnlineBattle_PastRound_Bar_C:ExecuteUbergraph_WBP_Playdata_OnlineBattle_PastRound_Bar.K2Node_Select_Default_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.53"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Playdata_OnlineBattle_PastRound_Bar_C:ExecuteUbergraph_WBP_Playdata_OnlineBattle_PastRound_Bar.CallFunc_Less_FloatFloat_ReturnValue_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.8"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Playdata_OnlineBattle_PastRound_Bar_C:ExecuteUbergraph_WBP_Playdata_OnlineBattle_PastRound_Bar.CallFunc_Less_FloatFloat_ReturnValue_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.9"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_Playdata_OnlineBattle_PastRound_Bar_C:ExecuteUbergraph_WBP_Playdata_OnlineBattle_PastRound_Bar.K2Node_Select_Default_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.54"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_Playdata_OnlineBattle_PastRound_Bar_C:ExecuteUbergraph_WBP_Playdata_OnlineBattle_PastRound_Bar.K2Node_Select_Default_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.55"
+      },
+      {
+        "ObjectName": "StructProperty'WBP_Playdata_OnlineBattle_PastRound_Bar_C:ExecuteUbergraph_WBP_Playdata_OnlineBattle_PastRound_Bar.CallFunc_MakeVector2D_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.77"
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction | FUNC_HasDefaults"
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_Less_FloatFloat_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_Playdata_OnlineBattle_PastRound_Bar",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_Less_FloatFloat_ReturnValue_1",
+    "Outer": "ExecuteUbergraph_WBP_Playdata_OnlineBattle_PastRound_Bar",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_Less_FloatFloat_ReturnValue_2",
+    "Outer": "ExecuteUbergraph_WBP_Playdata_OnlineBattle_PastRound_Bar",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_Less_FloatFloat_ReturnValue_3",
+    "Outer": "ExecuteUbergraph_WBP_Playdata_OnlineBattle_PastRound_Bar",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_Event_IsDesignTime",
+    "Outer": "ExecuteUbergraph_WBP_Playdata_OnlineBattle_PastRound_Bar",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_SwitchInteger_CmpSuccess",
+    "Outer": "ExecuteUbergraph_WBP_Playdata_OnlineBattle_PastRound_Bar",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "Temp_bool_Variable",
+    "Outer": "ExecuteUbergraph_WBP_Playdata_OnlineBattle_PastRound_Bar",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "Temp_bool_Variable_1",
+    "Outer": "ExecuteUbergraph_WBP_Playdata_OnlineBattle_PastRound_Bar",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "Temp_bool_Variable_2",
+    "Outer": "ExecuteUbergraph_WBP_Playdata_OnlineBattle_PastRound_Bar",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "Temp_bool_Variable_3",
+    "Outer": "ExecuteUbergraph_WBP_Playdata_OnlineBattle_PastRound_Bar",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "IsDesignTime",
+    "Outer": "PreConstruct",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "Function",
+    "Name": "PreConstruct",
+    "Outer": "WBP_Playdata_OnlineBattle_PastRound_Bar_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Function'UserWidget:PreConstruct'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "Children": [
+      {
+        "ObjectName": "BoolProperty'WBP_Playdata_OnlineBattle_PastRound_Bar_C:PreConstruct.IsDesignTime'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.16"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCosmetic | FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "RoundName",
+    "Outer": "SetPastRoundInfo",
+    "Class": "UScriptClass'TextProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "SetPastRoundInfo",
+    "Outer": "WBP_Playdata_OnlineBattle_PastRound_Bar_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "TextProperty'WBP_Playdata_OnlineBattle_PastRound_Bar_C:SetPastRoundInfo.RoundName'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.18"
+      },
+      {
+        "ObjectName": "TextProperty'WBP_Playdata_OnlineBattle_PastRound_Bar_C:SetPastRoundInfo.RoundPts'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.90"
+      },
+      {
+        "ObjectName": "TextProperty'WBP_Playdata_OnlineBattle_PastRound_Bar_C:SetPastRoundInfo.RoundRank'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.91"
+      },
+      {
+        "ObjectName": "TextProperty'WBP_Playdata_OnlineBattle_PastRound_Bar_C:SetPastRoundInfo.RoundWin'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.92"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Playdata_OnlineBattle_PastRound_Bar_C:SetPastRoundInfo.AreaRank'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.67"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "Rank",
+    "Outer": "GetHomareType",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "GetHomareType",
+    "Outer": "WBP_Playdata_OnlineBattle_PastRound_Bar_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "IntProperty'WBP_Playdata_OnlineBattle_PastRound_Bar_C:GetHomareType.Rank'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.20"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Playdata_OnlineBattle_PastRound_Bar_C:GetHomareType.Type'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.66"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Playdata_OnlineBattle_PastRound_Bar_C:GetHomareType.CallFunc_LessEqual_IntInt_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.28"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Playdata_OnlineBattle_PastRound_Bar_C:GetHomareType.CallFunc_GreaterEqual_IntInt_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.26"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Playdata_OnlineBattle_PastRound_Bar_C:GetHomareType.CallFunc_LessEqual_IntInt_ReturnValue_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.29"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Playdata_OnlineBattle_PastRound_Bar_C:GetHomareType.CallFunc_BooleanAND_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.22"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Playdata_OnlineBattle_PastRound_Bar_C:GetHomareType.CallFunc_GreaterEqual_IntInt_ReturnValue_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.27"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Playdata_OnlineBattle_PastRound_Bar_C:GetHomareType.CallFunc_BooleanAND_ReturnValue_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.23"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Playdata_OnlineBattle_PastRound_Bar_C:GetHomareType.CallFunc_EqualEqual_IntInt_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.24"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Playdata_OnlineBattle_PastRound_Bar_C:GetHomareType.CallFunc_EqualEqual_IntInt_ReturnValue_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.25"
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasOutParms | FUNC_BlueprintCallable | FUNC_BlueprintEvent | FUNC_BlueprintPure"
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_BooleanAND_ReturnValue",
+    "Outer": "GetHomareType",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_BooleanAND_ReturnValue_1",
+    "Outer": "GetHomareType",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_EqualEqual_IntInt_ReturnValue",
+    "Outer": "GetHomareType",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_EqualEqual_IntInt_ReturnValue_1",
+    "Outer": "GetHomareType",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_GreaterEqual_IntInt_ReturnValue",
+    "Outer": "GetHomareType",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_GreaterEqual_IntInt_ReturnValue_1",
+    "Outer": "GetHomareType",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_LessEqual_IntInt_ReturnValue",
+    "Outer": "GetHomareType",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_LessEqual_IntInt_ReturnValue_1",
+    "Outer": "GetHomareType",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_0",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Playdata_OnlineBattle_PastRound_Bar_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.34"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Playdata_OnlineBattle_PastRound_Bar_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_2'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.35"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Playdata_OnlineBattle_PastRound_Bar_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_3'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.36"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Playdata_OnlineBattle_PastRound_Bar_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_4'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.37"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Playdata_OnlineBattle_PastRound_Bar_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_5'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.38"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Playdata_OnlineBattle_PastRound_Bar_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_7'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.39"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Playdata_OnlineBattle_PastRound_Bar_C:WidgetTree.CanvasPanel_1.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.40"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_1",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Playdata_OnlineBattle_PastRound_Bar_C:WidgetTree.CanvasPanel_1.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.40"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_0",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.41"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_2'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.42"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_3'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.43"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_4'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.44"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_5'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.45"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_7'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.46"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_1.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.47"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_1",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_1.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.47"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Bottom": 40.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Playdata_OnlineBattle_PastRound_Bar_C:WidgetTree.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.30"
+      },
+      "Content": {
+        "ObjectName": "Image'WBP_Playdata_OnlineBattle_PastRound_Bar_C:WidgetTree.Image_Bar'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.60"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_2",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -140.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Playdata_OnlineBattle_PastRound_Bar_C:WidgetTree.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.30"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WBP_Playdata_OnlineBattle_PastRound_Bar_C:WidgetTree.Text_PastRoundName'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.78"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_3",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 18.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Playdata_OnlineBattle_PastRound_Bar_C:WidgetTree.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.30"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WBP_Playdata_OnlineBattle_PastRound_Bar_C:WidgetTree.Text_PastRoundWin'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.81"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_4",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 127.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Playdata_OnlineBattle_PastRound_Bar_C:WidgetTree.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.30"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WBP_Playdata_OnlineBattle_PastRound_Bar_C:WidgetTree.Text_PastRoundPts'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.79"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_5",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 226.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Playdata_OnlineBattle_PastRound_Bar_C:WidgetTree.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.30"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WBP_Playdata_OnlineBattle_PastRound_Bar_C:WidgetTree.Text_PastRoundRanking'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.80"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_7",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -280.0,
+          "Right": 66.0,
+          "Bottom": 42.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Playdata_OnlineBattle_PastRound_Bar_C:WidgetTree.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.30"
+      },
+      "Content": {
+        "ObjectName": "ScaleBox'WBP_Playdata_OnlineBattle_PastRound_Bar_C:WidgetTree.ScaleBox_66'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.72"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "CanvasPanel_1",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 544.0,
+          "Bottom": 42.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Playdata_OnlineBattle_PastRound_Bar_C:WidgetTree.CanvasPanel_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.31"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WBP_Playdata_OnlineBattle_PastRound_Bar_C:WidgetTree.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.30"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Bottom": 40.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.32"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.Image_Bar'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.62"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_2",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -140.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.32"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.Text_PastRoundName'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.82"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_3",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 18.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.32"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.Text_PastRoundWin'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.85"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_4",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 127.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.32"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.Text_PastRoundPts'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.83"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_5",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 226.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.32"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.Text_PastRoundRanking'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.84"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_7",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -280.0,
+          "Right": 66.0,
+          "Bottom": 42.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.32"
+      },
+      "Content": {
+        "ObjectName": "ScaleBox'WidgetArchetype:WidgetTree_0.ScaleBox_66'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.73"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "CanvasPanel_1",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 544.0,
+          "Bottom": 42.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.33"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.32"
+      }
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_BreakVector2D_X",
+    "Outer": "ExecuteUbergraph_WBP_Playdata_OnlineBattle_PastRound_Bar",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_BreakVector2D_Y",
+    "Outer": "ExecuteUbergraph_WBP_Playdata_OnlineBattle_PastRound_Bar",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_Divide_FloatFloat_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_Playdata_OnlineBattle_PastRound_Bar",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_Divide_FloatFloat_ReturnValue_1",
+    "Outer": "ExecuteUbergraph_WBP_Playdata_OnlineBattle_PastRound_Bar",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "K2Node_Select_Default",
+    "Outer": "ExecuteUbergraph_WBP_Playdata_OnlineBattle_PastRound_Bar",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "K2Node_Select_Default_1",
+    "Outer": "ExecuteUbergraph_WBP_Playdata_OnlineBattle_PastRound_Bar",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "K2Node_Select_Default_2",
+    "Outer": "ExecuteUbergraph_WBP_Playdata_OnlineBattle_PastRound_Bar",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "K2Node_Select_Default_3",
+    "Outer": "ExecuteUbergraph_WBP_Playdata_OnlineBattle_PastRound_Bar",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "Temp_float_Variable",
+    "Outer": "ExecuteUbergraph_WBP_Playdata_OnlineBattle_PastRound_Bar",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "Temp_float_Variable_1",
+    "Outer": "ExecuteUbergraph_WBP_Playdata_OnlineBattle_PastRound_Bar",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "Temp_float_Variable_2",
+    "Outer": "ExecuteUbergraph_WBP_Playdata_OnlineBattle_PastRound_Bar",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "Temp_float_Variable_3",
+    "Outer": "ExecuteUbergraph_WBP_Playdata_OnlineBattle_PastRound_Bar",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "Image",
+    "Name": "Image_Bar",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 544.0,
+          "Y": 44.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Playdata_OnlineRank_PastRound_Bar'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/Texture/T_Playdata_OnlineRank_PastRound_Bar.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Playdata_OnlineBattle_PastRound_Bar_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.34"
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Image_HomareIcon",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 132.0,
+          "Y": 84.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Playdata_OnlineRank_HomareIcon_Kari'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/Texture/T_Playdata_OnlineRank_HomareIcon_Kari.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "ScaleBoxSlot'WBP_Playdata_OnlineBattle_PastRound_Bar_C:WidgetTree.ScaleBox_66.ScaleBoxSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.74"
+      },
+      "Visibility": "ESlateVisibility::Collapsed"
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Image_Bar",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 544.0,
+          "Y": 44.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Playdata_OnlineRank_PastRound_Bar'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/Texture/T_Playdata_OnlineRank_PastRound_Bar.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.41"
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Image_HomareIcon",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 132.0,
+          "Y": 84.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Playdata_OnlineRank_HomareIcon_Kari'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/Texture/T_Playdata_OnlineRank_HomareIcon_Kari.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "ScaleBoxSlot'WidgetArchetype:WidgetTree_0.ScaleBox_66.ScaleBoxSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.75"
+      },
+      "Visibility": "ESlateVisibility::Collapsed"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_GetHomareType_Type",
+    "Outer": "ExecuteUbergraph_WBP_Playdata_OnlineBattle_PastRound_Bar",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "K2Node_CustomEvent_AreaRank",
+    "Outer": "ExecuteUbergraph_WBP_Playdata_OnlineBattle_PastRound_Bar",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "Type",
+    "Outer": "GetHomareType",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "Parm | OutParm"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "AreaRank",
+    "Outer": "SetPastRoundInfo",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Text_PastRoundName",
+    "Outer": "WBP_Playdata_OnlineBattle_PastRound_Bar_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'TextBlock'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Text_PastRoundPts",
+    "Outer": "WBP_Playdata_OnlineBattle_PastRound_Bar_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'TextBlock'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Text_PastRoundRanking",
+    "Outer": "WBP_Playdata_OnlineBattle_PastRound_Bar_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'TextBlock'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Text_PastRoundWin",
+    "Outer": "WBP_Playdata_OnlineBattle_PastRound_Bar_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'TextBlock'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ScaleBox",
+    "Name": "ScaleBox_66",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'ScaleBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "ScaleBoxSlot'WBP_Playdata_OnlineBattle_PastRound_Bar_C:WidgetTree.ScaleBox_66.ScaleBoxSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.74"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Playdata_OnlineBattle_PastRound_Bar_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_7'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.39"
+      }
+    }
+  },
+  {
+    "Type": "ScaleBox",
+    "Name": "ScaleBox_66",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'ScaleBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "ScaleBoxSlot'WidgetArchetype:WidgetTree_0.ScaleBox_66.ScaleBoxSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.75"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_7'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.46"
+      }
+    }
+  },
+  {
+    "Type": "ScaleBoxSlot",
+    "Name": "ScaleBoxSlot_0",
+    "Outer": "ScaleBox_66",
+    "Class": "UScriptClass'ScaleBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "ScaleBox'WBP_Playdata_OnlineBattle_PastRound_Bar_C:WidgetTree.ScaleBox_66'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.72"
+      },
+      "Content": {
+        "ObjectName": "Image'WBP_Playdata_OnlineBattle_PastRound_Bar_C:WidgetTree.Image_HomareIcon'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.61"
+      }
+    }
+  },
+  {
+    "Type": "ScaleBoxSlot",
+    "Name": "ScaleBoxSlot_0",
+    "Outer": "ScaleBox_66",
+    "Class": "UScriptClass'ScaleBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "ScaleBox'WidgetArchetype:WidgetTree_0.ScaleBox_66'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.73"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.Image_HomareIcon'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.63"
+      }
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_GetDesiredSize_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_Playdata_OnlineBattle_PastRound_Bar",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector2D'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_MakeVector2D_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_Playdata_OnlineBattle_PastRound_Bar",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector2D'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "Text_PastRoundName",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "BF0A290B4613BADDFAD34786AA5A0204",
+        "SourceString": "DAC稼働記念　1stラウンド",
+        "LocalizedString": "DAC稼働記念　1stラウンド"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 0.0,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "000000"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "TypefaceFontName": "RodinN_EB",
+        "Size": 11
+      },
+      "Justification": "ETextJustify::Right",
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Playdata_OnlineBattle_PastRound_Bar_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.35"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "Text_PastRoundPts",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "636359514DBC28BAAED249BA0AD342DC",
+        "SourceString": "999999pts",
+        "LocalizedString": "999999pts"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 0.0,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "000000"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "TypefaceFontName": "RodinN_EB",
+        "Size": 11
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Playdata_OnlineBattle_PastRound_Bar_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_4'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.37"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "Text_PastRoundRanking",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "39A678E749B84CF1891F61951EF82C0C",
+        "SourceString": "999位",
+        "LocalizedString": "999位"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 0.0,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "000000"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "TypefaceFontName": "RodinN_EB",
+        "Size": 11
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Playdata_OnlineBattle_PastRound_Bar_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_5'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.38"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "Text_PastRoundWin",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "1DC9102D42E2654D6D49B787A12ED3BA",
+        "SourceString": "9999勝",
+        "LocalizedString": "9999勝"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 0.0,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "000000"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "TypefaceFontName": "RodinN_EB",
+        "Size": 11
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Playdata_OnlineBattle_PastRound_Bar_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.36"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "Text_PastRoundName",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "BF0A290B4613BADDFAD34786AA5A0204",
+        "SourceString": "DAC稼働記念　1stラウンド",
+        "LocalizedString": "DAC稼働記念　1stラウンド"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 0.0,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "000000"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "TypefaceFontName": "RodinN_EB",
+        "Size": 11
+      },
+      "Justification": "ETextJustify::Right",
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.42"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "Text_PastRoundPts",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "636359514DBC28BAAED249BA0AD342DC",
+        "SourceString": "999999pts",
+        "LocalizedString": "999999pts"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 0.0,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "000000"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "TypefaceFontName": "RodinN_EB",
+        "Size": 11
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_4'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.44"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "Text_PastRoundRanking",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "39A678E749B84CF1891F61951EF82C0C",
+        "SourceString": "999位",
+        "LocalizedString": "999位"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 0.0,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "000000"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "TypefaceFontName": "RodinN_EB",
+        "Size": 11
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_5'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.45"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "Text_PastRoundWin",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "1DC9102D42E2654D6D49B787A12ED3BA",
+        "SourceString": "9999勝",
+        "LocalizedString": "9999勝"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 0.0,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "000000"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "TypefaceFontName": "RodinN_EB",
+        "Size": 11
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.43"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "K2Node_CustomEvent_RoundName",
+    "Outer": "ExecuteUbergraph_WBP_Playdata_OnlineBattle_PastRound_Bar",
+    "Class": "UScriptClass'TextProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "K2Node_CustomEvent_RoundPts",
+    "Outer": "ExecuteUbergraph_WBP_Playdata_OnlineBattle_PastRound_Bar",
+    "Class": "UScriptClass'TextProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "K2Node_CustomEvent_RoundRank",
+    "Outer": "ExecuteUbergraph_WBP_Playdata_OnlineBattle_PastRound_Bar",
+    "Class": "UScriptClass'TextProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "K2Node_CustomEvent_RoundWin",
+    "Outer": "ExecuteUbergraph_WBP_Playdata_OnlineBattle_PastRound_Bar",
+    "Class": "UScriptClass'TextProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "RoundPts",
+    "Outer": "SetPastRoundInfo",
+    "Class": "UScriptClass'TextProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "RoundRank",
+    "Outer": "SetPastRoundInfo",
+    "Class": "UScriptClass'TextProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "RoundWin",
+    "Outer": "SetPastRoundInfo",
+    "Class": "UScriptClass'TextProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "WBP_Playdata_OnlineBattle_PastRound_Bar_C",
+    "Name": "WidgetArchetype",
+    "Class": "WidgetBlueprintGeneratedClass'GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.WBP_Playdata_OnlineBattle_PastRound_Bar_C'",
+    "Template": {
+      "ObjectName": "WBP_Playdata_OnlineBattle_PastRound_Bar_C'Default__WBP_Playdata_OnlineBattle_PastRound_Bar_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.2"
+    },
+    "Flags": "RF_Public | RF_Standalone | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Image_HomareIcon": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.Image_HomareIcon'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.63"
+      },
+      "Text_PastRoundName": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.Text_PastRoundName'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.82"
+      },
+      "Text_PastRoundPts": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.Text_PastRoundPts'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.83"
+      },
+      "Text_PastRoundRanking": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.Text_PastRoundRanking'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.84"
+      },
+      "Text_PastRoundWin": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.Text_PastRoundWin'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.85"
+      },
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.95"
+      },
+      "bCookedWidgetTree": true
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Outer": "WBP_Playdata_OnlineBattle_PastRound_Bar_C",
+    "Class": "UScriptClass'WidgetTree'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CanvasPanel'WBP_Playdata_OnlineBattle_PastRound_Bar_C:WidgetTree.CanvasPanel_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.31"
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree_0",
+    "Outer": "WidgetArchetype",
+    "Class": "UScriptClass'WidgetTree'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/ConfigPlayData/PlayData/WBP_Playdata_OnlineBattle_PastRound_Bar.33"
+      }
+    }
+  }
+]

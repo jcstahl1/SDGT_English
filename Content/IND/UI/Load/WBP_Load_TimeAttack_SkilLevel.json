@@ -1,0 +1,2335 @@
+[
+  {
+    "Type": "StructProperty",
+    "Name": "UberGraphFrame",
+    "Outer": "WBP_Load_TimeAttack_SkilLevel_C",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "Transient | DuplicateTransient",
+    "Struct": {
+      "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "WBP_Load_TimeAttack_SkilLevel_C",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WBP_Load_TimeAttack_SkilLevel_C:WidgetTree'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.89"
+      },
+      "bAllowTemplate": true,
+      "bValidTemplate": true,
+      "TemplateAsset": {
+        "AssetPathName": "/Game/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.WidgetArchetype",
+        "SubPathString": ""
+      },
+      "UberGraphFramePointerProperty": {
+        "ObjectName": "StructProperty'WBP_Load_TimeAttack_SkilLevel_C:UberGraphFrame'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.0"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'WBP_Load_TimeAttack_SkilLevel_C:ExecuteUbergraph_WBP_Load_TimeAttack_SkilLevel'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.5"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'UserWidget'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'WBP_Load_TimeAttack_SkilLevel_C:UberGraphFrame'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.0"
+      },
+      {
+        "ObjectName": "Function'WBP_Load_TimeAttack_SkilLevel_C:Set_Help'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.17"
+      },
+      {
+        "ObjectName": "Function'WBP_Load_TimeAttack_SkilLevel_C:Set_SkillLevel'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.15"
+      },
+      {
+        "ObjectName": "Function'WBP_Load_TimeAttack_SkilLevel_C:Set_SkillLevelFromSkillLevel'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.13"
+      },
+      {
+        "ObjectName": "Function'WBP_Load_TimeAttack_SkilLevel_C:ExecuteUbergraph_WBP_Load_TimeAttack_SkilLevel'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.5"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Load_TimeAttack_SkilLevel_C:P_Help_Text'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.3"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Load_TimeAttack_SkilLevel_C:P_SukilLevel_Num'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.66"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Load_TimeAttack_SkilLevel_C:WBP_Com_Hyoka'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.67"
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_WBP_Load_TimeAttack_SkilLevel": {
+        "ObjectName": "Function'WBP_Load_TimeAttack_SkilLevel_C:ExecuteUbergraph_WBP_Load_TimeAttack_SkilLevel'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.5"
+      },
+      "Set_SkillLevelFromSkillLevel": {
+        "ObjectName": "Function'WBP_Load_TimeAttack_SkilLevel_C:Set_SkillLevelFromSkillLevel'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.13"
+      },
+      "Set_SkillLevel": {
+        "ObjectName": "Function'WBP_Load_TimeAttack_SkilLevel_C:Set_SkillLevel'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.15"
+      },
+      "Set_Help": {
+        "ObjectName": "Function'WBP_Load_TimeAttack_SkilLevel_C:Set_Help'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.17"
+      }
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "WBP_Load_TimeAttack_SkilLevel_C'Default__WBP_Load_TimeAttack_SkilLevel_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.2"
+    }
+  },
+  {
+    "Type": "WBP_Load_TimeAttack_SkilLevel_C",
+    "Name": "Default__WBP_Load_TimeAttack_SkilLevel_C",
+    "Class": "WidgetBlueprintGeneratedClass'GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.WBP_Load_TimeAttack_SkilLevel_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "UberGraphFrame": {},
+      "bHasScriptImplementedTick": false,
+      "bHasScriptImplementedPaint": false
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "P_Help_Text",
+    "Outer": "WBP_Load_TimeAttack_SkilLevel_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'TextBlock'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "EntryPoint",
+    "Outer": "ExecuteUbergraph_WBP_Load_TimeAttack_SkilLevel",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_WBP_Load_TimeAttack_SkilLevel",
+    "Outer": "WBP_Load_TimeAttack_SkilLevel_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "IntProperty'WBP_Load_TimeAttack_SkilLevel_C:ExecuteUbergraph_WBP_Load_TimeAttack_SkilLevel.EntryPoint'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.4"
+      },
+      {
+        "ObjectName": "EnumProperty'WBP_Load_TimeAttack_SkilLevel_C:ExecuteUbergraph_WBP_Load_TimeAttack_SkilLevel.K2Node_CustomEvent_Level'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.49"
+      },
+      {
+        "ObjectName": "ByteProperty'WBP_Load_TimeAttack_SkilLevel_C:ExecuteUbergraph_WBP_Load_TimeAttack_SkilLevel.CallFunc_MakeLiteralByte_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.8"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Load_TimeAttack_SkilLevel_C:ExecuteUbergraph_WBP_Load_TimeAttack_SkilLevel.CallFunc_Convert_CourseSkillLevel_To_Int_Out'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.64"
+      },
+      {
+        "ObjectName": "EnumProperty'WBP_Load_TimeAttack_SkilLevel_C:ExecuteUbergraph_WBP_Load_TimeAttack_SkilLevel.K2Node_CustomEvent_Evalution'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.48"
+      },
+      {
+        "ObjectName": "EnumProperty'WBP_Load_TimeAttack_SkilLevel_C:ExecuteUbergraph_WBP_Load_TimeAttack_SkilLevel.CallFunc_ConvWidgetEvalutionFromEvalution_Type'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.47"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Load_TimeAttack_SkilLevel_C:ExecuteUbergraph_WBP_Load_TimeAttack_SkilLevel.CallFunc_LessEqual_ByteByte_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.6"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Load_TimeAttack_SkilLevel_C:ExecuteUbergraph_WBP_Load_TimeAttack_SkilLevel.K2Node_CustomEvent_Value'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.65"
+      },
+      {
+        "ObjectName": "TextProperty'WBP_Load_TimeAttack_SkilLevel_C:ExecuteUbergraph_WBP_Load_TimeAttack_SkilLevel.CallFunc_Conv_IntToText_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.76"
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction | FUNC_HasDefaults"
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_LessEqual_ByteByte_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_Load_TimeAttack_SkilLevel",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Outer": "CallFunc_ConvWidgetEvalutionFromEvalution_Type",
+    "Class": "UScriptClass'ByteProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": null
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "CallFunc_MakeLiteralByte_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_Load_TimeAttack_SkilLevel",
+    "Class": "UScriptClass'ByteProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": null
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Outer": "K2Node_CustomEvent_Evalution",
+    "Class": "UScriptClass'ByteProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": null
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Outer": "K2Node_CustomEvent_Level",
+    "Class": "UScriptClass'ByteProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": null
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Outer": "Level",
+    "Class": "UScriptClass'ByteProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": null
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "Level",
+    "Outer": "Set_SkillLevelFromSkillLevel",
+    "Class": "UScriptClass'EnumProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "Enum": {
+      "ObjectName": "Enum'ECourseSkillLevel'",
+      "ObjectPath": "/Script/GameProject"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'WBP_Load_TimeAttack_SkilLevel_C:Set_SkillLevelFromSkillLevel.Level.UnderlyingType'",
+      "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.11"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "Set_SkillLevelFromSkillLevel",
+    "Outer": "WBP_Load_TimeAttack_SkilLevel_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "EnumProperty'WBP_Load_TimeAttack_SkilLevel_C:Set_SkillLevelFromSkillLevel.Level'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.12"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "Value",
+    "Outer": "Set_SkillLevel",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "Set_SkillLevel",
+    "Outer": "WBP_Load_TimeAttack_SkilLevel_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "IntProperty'WBP_Load_TimeAttack_SkilLevel_C:Set_SkillLevel.Value'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.14"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "Evalution",
+    "Outer": "Set_Help",
+    "Class": "UScriptClass'EnumProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "Enum": {
+      "ObjectName": "Enum'EEvalution'",
+      "ObjectPath": "/Script/IndRun"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'WBP_Load_TimeAttack_SkilLevel_C:Set_Help.Evalution.UnderlyingType'",
+      "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.18"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "Set_Help",
+    "Outer": "WBP_Load_TimeAttack_SkilLevel_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "EnumProperty'WBP_Load_TimeAttack_SkilLevel_C:Set_Help.Evalution'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.16"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Outer": "Evalution",
+    "Class": "UScriptClass'ByteProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": null
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "Base",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Load_TimeAttack_SkilLevel_C:WidgetTree.Base.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.27"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Load_TimeAttack_SkilLevel_C:WidgetTree.Base.CanvasPanelSlot_3'",
+          "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.29"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Load_TimeAttack_SkilLevel_C:WidgetTree.Base.CanvasPanelSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.28"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Load_TimeAttack_SkilLevel_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.30"
+      },
+      "RenderOpacity": 0.5
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_0",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Load_TimeAttack_SkilLevel_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.30"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Load_TimeAttack_SkilLevel_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_5'",
+          "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.31"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_3",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Load_TimeAttack_SkilLevel_C:WidgetTree.CanvasPanel_3.CanvasPanelSlot_2'",
+          "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.33"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Load_TimeAttack_SkilLevel_C:WidgetTree.CanvasPanel_3.CanvasPanelSlot_3'",
+          "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.34"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Load_TimeAttack_SkilLevel_C:WidgetTree.CanvasPanel_3.CanvasPanelSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.32"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Load_TimeAttack_SkilLevel_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_5'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.31"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "Help",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Load_TimeAttack_SkilLevel_C:WidgetTree.Help.CanvasPanelSlot_2'",
+          "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.36"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Load_TimeAttack_SkilLevel_C:WidgetTree.Help.CanvasPanelSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.35"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Load_TimeAttack_SkilLevel_C:WidgetTree.CanvasPanel_3.CanvasPanelSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.32"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "Base",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.Base.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.37"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.Base.CanvasPanelSlot_3'",
+          "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.39"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.Base.CanvasPanelSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.38"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.40"
+      },
+      "RenderOpacity": 0.5
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_0",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.40"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_5'",
+          "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.41"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_3",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_3.CanvasPanelSlot_2'",
+          "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.43"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_3.CanvasPanelSlot_3'",
+          "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.44"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_3.CanvasPanelSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.42"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_5'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.41"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "Help",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.Help.CanvasPanelSlot_2'",
+          "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.46"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.Help.CanvasPanelSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.45"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_3.CanvasPanelSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.42"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "Base",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 240.0,
+          "Bottom": 0.0
+        },
+        "Anchors": {
+          "Maximum": {
+            "X": 0.0,
+            "Y": 1.0
+          }
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Load_TimeAttack_SkilLevel_C:WidgetTree.Base'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.19"
+      },
+      "Content": {
+        "ObjectName": "Image'WBP_Load_TimeAttack_SkilLevel_C:WidgetTree.Base_L'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.51"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "Base",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 240.0,
+          "Bottom": 0.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 1.0,
+            "Y": 0.0
+          },
+          "Maximum": {
+            "X": 1.0,
+            "Y": 1.0
+          }
+        },
+        "Alignment": {
+          "X": 1.0,
+          "Y": 0.0
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Load_TimeAttack_SkilLevel_C:WidgetTree.Base'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.19"
+      },
+      "Content": {
+        "ObjectName": "Image'WBP_Load_TimeAttack_SkilLevel_C:WidgetTree.Base_R'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.52"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_3",
+    "Outer": "Base",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 240.0,
+          "Right": 240.0,
+          "Bottom": 0.0
+        },
+        "Anchors": {
+          "Maximum": {
+            "X": 1.0,
+            "Y": 1.0
+          }
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Load_TimeAttack_SkilLevel_C:WidgetTree.Base'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.19"
+      },
+      "Content": {
+        "ObjectName": "Image'WBP_Load_TimeAttack_SkilLevel_C:WidgetTree.Base_C'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.50"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 998.0,
+          "Bottom": 108.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Load_TimeAttack_SkilLevel_C:WidgetTree.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.20"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WBP_Load_TimeAttack_SkilLevel_C:WidgetTree.Base'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.19"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_5",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 998.0,
+          "Bottom": 108.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Load_TimeAttack_SkilLevel_C:WidgetTree.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.20"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WBP_Load_TimeAttack_SkilLevel_C:WidgetTree.CanvasPanel_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.21"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "CanvasPanel_3",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": 32.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Load_TimeAttack_SkilLevel_C:WidgetTree.CanvasPanel_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.21"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WBP_Load_TimeAttack_SkilLevel_C:WidgetTree.Help'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.22"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_2",
+    "Outer": "CanvasPanel_3",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 44.0,
+          "Top": -41.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 1.0
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 1.0
+          }
+        },
+        "Alignment": {
+          "X": 1.0,
+          "Y": 1.0
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Load_TimeAttack_SkilLevel_C:WidgetTree.CanvasPanel_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.21"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WBP_Load_TimeAttack_SkilLevel_C:WidgetTree.P_SukilLevel_Text'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.72"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_3",
+    "Outer": "CanvasPanel_3",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 46.0,
+          "Top": -36.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 1.0
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 1.0
+          }
+        },
+        "Alignment": {
+          "X": 0.0,
+          "Y": 1.0
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Load_TimeAttack_SkilLevel_C:WidgetTree.CanvasPanel_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.21"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WBP_Load_TimeAttack_SkilLevel_C:WidgetTree.P_SukilLevel_Num'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.71"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "Help",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -160.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.0,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Load_TimeAttack_SkilLevel_C:WidgetTree.Help'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.22"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WBP_Load_TimeAttack_SkilLevel_C:WidgetTree.P_Help_Text'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.70"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_2",
+    "Outer": "Help",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -164.0,
+          "Right": 119.0,
+          "Bottom": 29.92
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 1.0,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Load_TimeAttack_SkilLevel_C:WidgetTree.Help'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.22"
+      },
+      "Content": {
+        "ObjectName": "WBP_Com_Hyoka_C'WBP_Load_TimeAttack_SkilLevel_C:WidgetTree.WBP_Com_Hyoka'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.77"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "Base",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 240.0,
+          "Bottom": 0.0
+        },
+        "Anchors": {
+          "Maximum": {
+            "X": 0.0,
+            "Y": 1.0
+          }
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.Base'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.23"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.Base_L'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.54"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "Base",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 240.0,
+          "Bottom": 0.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 1.0,
+            "Y": 0.0
+          },
+          "Maximum": {
+            "X": 1.0,
+            "Y": 1.0
+          }
+        },
+        "Alignment": {
+          "X": 1.0,
+          "Y": 0.0
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.Base'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.23"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.Base_R'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.55"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_3",
+    "Outer": "Base",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 240.0,
+          "Right": 240.0,
+          "Bottom": 0.0
+        },
+        "Anchors": {
+          "Maximum": {
+            "X": 1.0,
+            "Y": 1.0
+          }
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.Base'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.23"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.Base_C'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.53"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 998.0,
+          "Bottom": 108.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.24"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.Base'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.23"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_5",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 998.0,
+          "Bottom": 108.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.24"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.25"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "CanvasPanel_3",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": 32.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.25"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.Help'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.26"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_2",
+    "Outer": "CanvasPanel_3",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 44.0,
+          "Top": -41.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 1.0
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 1.0
+          }
+        },
+        "Alignment": {
+          "X": 1.0,
+          "Y": 1.0
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.25"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.P_SukilLevel_Text'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.75"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_3",
+    "Outer": "CanvasPanel_3",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 46.0,
+          "Top": -36.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 1.0
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 1.0
+          }
+        },
+        "Alignment": {
+          "X": 0.0,
+          "Y": 1.0
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.25"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.P_SukilLevel_Num'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.74"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "Help",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -160.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.0,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.Help'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.26"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.P_Help_Text'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.73"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_2",
+    "Outer": "Help",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -164.0,
+          "Right": 119.0,
+          "Bottom": 29.92
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 1.0,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.Help'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.26"
+      },
+      "Content": {
+        "ObjectName": "WBP_Com_Hyoka_C'WidgetArchetype:WidgetTree_0.WBP_Com_Hyoka'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.78"
+      }
+    }
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "CallFunc_ConvWidgetEvalutionFromEvalution_Type",
+    "Outer": "ExecuteUbergraph_WBP_Load_TimeAttack_SkilLevel",
+    "Class": "UScriptClass'EnumProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": {
+      "ObjectName": "Enum'EWidget_TimeEvalutionType'",
+      "ObjectPath": "/Script/GameProject"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'WBP_Load_TimeAttack_SkilLevel_C:ExecuteUbergraph_WBP_Load_TimeAttack_SkilLevel.CallFunc_ConvWidgetEvalutionFromEvalution_Type.UnderlyingType'",
+      "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.7"
+    }
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "K2Node_CustomEvent_Evalution",
+    "Outer": "ExecuteUbergraph_WBP_Load_TimeAttack_SkilLevel",
+    "Class": "UScriptClass'EnumProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": {
+      "ObjectName": "Enum'EEvalution'",
+      "ObjectPath": "/Script/IndRun"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'WBP_Load_TimeAttack_SkilLevel_C:ExecuteUbergraph_WBP_Load_TimeAttack_SkilLevel.K2Node_CustomEvent_Evalution.UnderlyingType'",
+      "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.9"
+    }
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "K2Node_CustomEvent_Level",
+    "Outer": "ExecuteUbergraph_WBP_Load_TimeAttack_SkilLevel",
+    "Class": "UScriptClass'EnumProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": {
+      "ObjectName": "Enum'ECourseSkillLevel'",
+      "ObjectPath": "/Script/GameProject"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'WBP_Load_TimeAttack_SkilLevel_C:ExecuteUbergraph_WBP_Load_TimeAttack_SkilLevel.K2Node_CustomEvent_Level.UnderlyingType'",
+      "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.10"
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Base_C",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 1440.0,
+          "Y": 300.0
+        }
+      },
+      "ColorAndOpacity": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "000000"
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Load_TimeAttack_SkilLevel_C:WidgetTree.Base.CanvasPanelSlot_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.29"
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Base_L",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 240.0,
+          "Y": 8.0
+        },
+        "Margin": {
+          "Left": 0.5,
+          "Right": 0.5
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Load_TimeAttack_Base'",
+          "ObjectPath": "GameProject/Content/IND/UI/Load/Texture/T_Load_TimeAttack_Base.0"
+        },
+        "Tiling": "ESlateBrushTileType::Vertical"
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Load_TimeAttack_SkilLevel_C:WidgetTree.Base.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.27"
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Base_R",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 240.0,
+          "Y": 8.0
+        },
+        "Margin": {
+          "Left": 0.5,
+          "Right": 0.5
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Load_TimeAttack_Base'",
+          "ObjectPath": "GameProject/Content/IND/UI/Load/Texture/T_Load_TimeAttack_Base.0"
+        },
+        "Tiling": "ESlateBrushTileType::Vertical"
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Load_TimeAttack_SkilLevel_C:WidgetTree.Base.CanvasPanelSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.28"
+      },
+      "RenderTransform": {
+        "Scale": {
+          "X": -1.0,
+          "Y": 1.0
+        }
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Base_C",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 1440.0,
+          "Y": 300.0
+        }
+      },
+      "ColorAndOpacity": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "000000"
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.Base.CanvasPanelSlot_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.39"
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Base_L",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 240.0,
+          "Y": 8.0
+        },
+        "Margin": {
+          "Left": 0.5,
+          "Right": 0.5
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Load_TimeAttack_Base'",
+          "ObjectPath": "GameProject/Content/IND/UI/Load/Texture/T_Load_TimeAttack_Base.0"
+        },
+        "Tiling": "ESlateBrushTileType::Vertical"
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.Base.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.37"
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Base_R",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 240.0,
+          "Y": 8.0
+        },
+        "Margin": {
+          "Left": 0.5,
+          "Right": 0.5
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Load_TimeAttack_Base'",
+          "ObjectPath": "GameProject/Content/IND/UI/Load/Texture/T_Load_TimeAttack_Base.0"
+        },
+        "Tiling": "ESlateBrushTileType::Vertical"
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.Base.CanvasPanelSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.38"
+      },
+      "RenderTransform": {
+        "Scale": {
+          "X": -1.0,
+          "Y": 1.0
+        }
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Expert",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 700.0,
+          "Y": 176.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'hyoka_04'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/Hyoka/Texture/hyoka_04.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "WidgetSwitcherSlot'WidgetArchetype:WidgetTree_0.WBP_Com_Hyoka.WidgetTree_0.WidgetSwitcher_0.WidgetSwitcherSlot_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.84"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Master",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 700.0,
+          "Y": 176.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'hyoka_06'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/Hyoka/Texture/hyoka_06.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "WidgetSwitcherSlot'WidgetArchetype:WidgetTree_0.WBP_Com_Hyoka.WidgetTree_0.WidgetSwitcher_0.WidgetSwitcherSlot_5'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.86"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "MasterPlus",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 700.0,
+          "Y": 176.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'hyoka_07'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/Hyoka/Texture/hyoka_07.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "WidgetSwitcherSlot'WidgetArchetype:WidgetTree_0.WBP_Com_Hyoka.WidgetTree_0.WidgetSwitcher_0.WidgetSwitcherSlot_8'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.88"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Non",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 700.0,
+          "Y": 176.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'hyoka_00'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/Hyoka/Texture/hyoka_00.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "WidgetSwitcherSlot'WidgetArchetype:WidgetTree_0.WBP_Com_Hyoka.WidgetTree_0.WidgetSwitcher_0.WidgetSwitcherSlot_6'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.87"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Professional",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 700.0,
+          "Y": 176.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'hyoka_05'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/Hyoka/Texture/hyoka_05.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "WidgetSwitcherSlot'WidgetArchetype:WidgetTree_0.WBP_Com_Hyoka.WidgetTree_0.WidgetSwitcher_0.WidgetSwitcherSlot_4'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.85"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Regular",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 700.0,
+          "Y": 176.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'hyoka_02'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/Hyoka/Texture/hyoka_02.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "WidgetSwitcherSlot'WidgetArchetype:WidgetTree_0.WBP_Com_Hyoka.WidgetTree_0.WidgetSwitcher_0.WidgetSwitcherSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.82"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Rookie",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 700.0,
+          "Y": 176.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'hyoka_01'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/Hyoka/Texture/hyoka_01.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "WidgetSwitcherSlot'WidgetArchetype:WidgetTree_0.WBP_Com_Hyoka.WidgetTree_0.WidgetSwitcher_0.WidgetSwitcherSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.81"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Specialist",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 700.0,
+          "Y": 176.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'hyoka_03'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/Hyoka/Texture/hyoka_03.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "WidgetSwitcherSlot'WidgetArchetype:WidgetTree_0.WBP_Com_Hyoka.WidgetTree_0.WidgetSwitcher_0.WidgetSwitcherSlot_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.83"
+      }
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_Convert_CourseSkillLevel_To_Int_Out",
+    "Outer": "ExecuteUbergraph_WBP_Load_TimeAttack_SkilLevel",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "K2Node_CustomEvent_Value",
+    "Outer": "ExecuteUbergraph_WBP_Load_TimeAttack_SkilLevel",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "P_SukilLevel_Num",
+    "Outer": "WBP_Load_TimeAttack_SkilLevel_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'TextBlock'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "WBP_Com_Hyoka",
+    "Outer": "WBP_Load_TimeAttack_SkilLevel_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'WBP_Com_Hyoka_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Common/Hyoka/WBP_Com_Hyoka.1"
+    }
+  },
+  {
+    "Type": "Overlay",
+    "Name": "Overlay_1",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Overlay'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.WBP_Com_Hyoka.WidgetTree_0.Overlay_1.OverlaySlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.69"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_0",
+    "Outer": "Overlay_1",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.WBP_Com_Hyoka.WidgetTree_0.Overlay_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.68"
+      },
+      "Content": {
+        "ObjectName": "WidgetSwitcher'WidgetArchetype:WidgetTree_0.WBP_Com_Hyoka.WidgetTree_0.WidgetSwitcher_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.80"
+      }
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "P_Help_Text",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "9E9084434843E7CEF1CE78AE68591C84",
+        "SourceString": "With the above time rating, the proficiency gauge will increase.",
+        "LocalizedString": "With the above time rating, the proficiency gauge will increase."
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 2,
+          "OutlineColor": {
+            "R": 0.002428,
+            "G": 0.205079,
+            "B": 0.002428,
+            "A": 1.0,
+            "Hex": "087D08"
+          }
+        },
+        "TypefaceFontName": "RodinN_B",
+        "Size": 14
+      },
+      "ShadowOffset": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Load_TimeAttack_SkilLevel_C:WidgetTree.Help.CanvasPanelSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.35"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "P_SukilLevel_Num",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "DD8568D54AF3758C585C84B79F86992B",
+        "SourceString": "6",
+        "LocalizedString": "6"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 1.0,
+          "G": 1.0,
+          "B": 0.068478,
+          "A": 1.0,
+          "Hex": "FFFF4A"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 2,
+          "OutlineColor": {
+            "R": 0.022174,
+            "G": 0.025187,
+            "B": 0.022174,
+            "A": 1.0,
+            "Hex": "292C29"
+          }
+        },
+        "TypefaceFontName": "RodinN_EB",
+        "Size": 46
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Load_TimeAttack_SkilLevel_C:WidgetTree.CanvasPanel_3.CanvasPanelSlot_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.34"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "P_SukilLevel_Text",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "22BED3BF42DB3D2196E07D91BAB68865",
+        "SourceString": "Course Proficiency",
+        "LocalizedString": "Course Proficiency"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 1.0,
+          "G": 1.0,
+          "B": 0.068478,
+          "A": 1.0,
+          "Hex": "FFFF4A"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 2,
+          "OutlineColor": {
+            "R": 0.022174,
+            "G": 0.025187,
+            "B": 0.022174,
+            "A": 1.0,
+            "Hex": "292C29"
+          }
+        },
+        "TypefaceFontName": "RodinN_EB",
+        "Size": 22
+      },
+      "Justification": "ETextJustify::Right",
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Load_TimeAttack_SkilLevel_C:WidgetTree.CanvasPanel_3.CanvasPanelSlot_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.33"
+      }
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "P_Help_Text",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "9E9084434843E7CEF1CE78AE68591C84",
+        "SourceString": "With the above time rating, the proficiency gauge will increase.",
+        "LocalizedString": "With the above time rating, the proficiency gauge will increase."
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 2,
+          "OutlineColor": {
+            "R": 0.002428,
+            "G": 0.205079,
+            "B": 0.002428,
+            "A": 1.0,
+            "Hex": "087D08"
+          }
+        },
+        "TypefaceFontName": "RodinN_B",
+        "Size": 14
+      },
+      "ShadowOffset": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.Help.CanvasPanelSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.45"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "P_SukilLevel_Num",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "DD8568D54AF3758C585C84B79F86992B",
+        "SourceString": "6",
+        "LocalizedString": "6"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 1.0,
+          "G": 1.0,
+          "B": 0.068478,
+          "A": 1.0,
+          "Hex": "FFFF4A"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 2,
+          "OutlineColor": {
+            "R": 0.022174,
+            "G": 0.025187,
+            "B": 0.022174,
+            "A": 1.0,
+            "Hex": "292C29"
+          }
+        },
+        "TypefaceFontName": "RodinN_EB",
+        "Size": 46
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_3.CanvasPanelSlot_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.44"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "P_SukilLevel_Text",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "22BED3BF42DB3D2196E07D91BAB68865",
+        "SourceString": "Course Proficiency",
+        "LocalizedString": "Course Proficiency"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 1.0,
+          "G": 1.0,
+          "B": 0.068478,
+          "A": 1.0,
+          "Hex": "FFFF4A"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 2,
+          "OutlineColor": {
+            "R": 0.022174,
+            "G": 0.025187,
+            "B": 0.022174,
+            "A": 1.0,
+            "Hex": "292C29"
+          }
+        },
+        "TypefaceFontName": "RodinN_EB",
+        "Size": 22
+      },
+      "Justification": "ETextJustify::Right",
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_3.CanvasPanelSlot_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.43"
+      }
+    }
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "CallFunc_Conv_IntToText_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_Load_TimeAttack_SkilLevel",
+    "Class": "UScriptClass'TextProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "WBP_Com_Hyoka_C",
+    "Name": "WBP_Com_Hyoka",
+    "Outer": "WidgetTree",
+    "Class": "WidgetBlueprintGeneratedClass'GameProject/Content/IND/UI/Common/Hyoka/WBP_Com_Hyoka.WBP_Com_Hyoka_C'",
+    "Template": {
+      "ObjectName": "WBP_Com_Hyoka_C'Default__WBP_Com_Hyoka_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Common/Hyoka/WBP_Com_Hyoka.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Load_TimeAttack_SkilLevel_C:WidgetTree.Help.CanvasPanelSlot_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.36"
+      }
+    }
+  },
+  {
+    "Type": "WBP_Com_Hyoka_C",
+    "Name": "WBP_Com_Hyoka",
+    "Outer": "WidgetTree_0",
+    "Class": "WidgetBlueprintGeneratedClass'GameProject/Content/IND/UI/Common/Hyoka/WBP_Com_Hyoka.WBP_Com_Hyoka_C'",
+    "Template": {
+      "ObjectName": "WBP_Com_Hyoka_C'Default__WBP_Com_Hyoka_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Common/Hyoka/WBP_Com_Hyoka.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Expert": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_Com_Hyoka.WidgetTree_0.Expert'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.56"
+      },
+      "Master": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_Com_Hyoka.WidgetTree_0.Master'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.57"
+      },
+      "MasterPlus": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_Com_Hyoka.WidgetTree_0.MasterPlus'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.58"
+      },
+      "Non": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_Com_Hyoka.WidgetTree_0.Non'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.59"
+      },
+      "Professional": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_Com_Hyoka.WidgetTree_0.Professional'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.60"
+      },
+      "Regular": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_Com_Hyoka.WidgetTree_0.Regular'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.61"
+      },
+      "Rookie": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_Com_Hyoka.WidgetTree_0.Rookie'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.62"
+      },
+      "Specialist": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_Com_Hyoka.WidgetTree_0.Specialist'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.63"
+      },
+      "WidgetSwitcher_0": {
+        "ObjectName": "WidgetSwitcher'WidgetArchetype:WidgetTree_0.WBP_Com_Hyoka.WidgetTree_0.WidgetSwitcher_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.80"
+      },
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.WBP_Com_Hyoka.WidgetTree_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.91"
+      },
+      "bCookedWidgetTree": true,
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.Help.CanvasPanelSlot_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.46"
+      }
+    }
+  },
+  {
+    "Type": "WBP_Load_TimeAttack_SkilLevel_C",
+    "Name": "WidgetArchetype",
+    "Class": "WidgetBlueprintGeneratedClass'GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.WBP_Load_TimeAttack_SkilLevel_C'",
+    "Template": {
+      "ObjectName": "WBP_Load_TimeAttack_SkilLevel_C'Default__WBP_Load_TimeAttack_SkilLevel_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.2"
+    },
+    "Flags": "RF_Public | RF_Standalone | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "P_Help_Text": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.P_Help_Text'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.73"
+      },
+      "P_SukilLevel_Num": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.P_SukilLevel_Num'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.74"
+      },
+      "WBP_Com_Hyoka": {
+        "ObjectName": "WBP_Com_Hyoka_C'WidgetArchetype:WidgetTree_0.WBP_Com_Hyoka'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.78"
+      },
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.90"
+      },
+      "bCookedWidgetTree": true
+    }
+  },
+  {
+    "Type": "WidgetSwitcher",
+    "Name": "WidgetSwitcher_0",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'WidgetSwitcher'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "WidgetSwitcherSlot'WidgetArchetype:WidgetTree_0.WBP_Com_Hyoka.WidgetTree_0.WidgetSwitcher_0.WidgetSwitcherSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.81"
+        },
+        {
+          "ObjectName": "WidgetSwitcherSlot'WidgetArchetype:WidgetTree_0.WBP_Com_Hyoka.WidgetTree_0.WidgetSwitcher_0.WidgetSwitcherSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.82"
+        },
+        {
+          "ObjectName": "WidgetSwitcherSlot'WidgetArchetype:WidgetTree_0.WBP_Com_Hyoka.WidgetTree_0.WidgetSwitcher_0.WidgetSwitcherSlot_2'",
+          "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.83"
+        },
+        {
+          "ObjectName": "WidgetSwitcherSlot'WidgetArchetype:WidgetTree_0.WBP_Com_Hyoka.WidgetTree_0.WidgetSwitcher_0.WidgetSwitcherSlot_3'",
+          "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.84"
+        },
+        {
+          "ObjectName": "WidgetSwitcherSlot'WidgetArchetype:WidgetTree_0.WBP_Com_Hyoka.WidgetTree_0.WidgetSwitcher_0.WidgetSwitcherSlot_4'",
+          "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.85"
+        },
+        {
+          "ObjectName": "WidgetSwitcherSlot'WidgetArchetype:WidgetTree_0.WBP_Com_Hyoka.WidgetTree_0.WidgetSwitcher_0.WidgetSwitcherSlot_5'",
+          "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.86"
+        },
+        {
+          "ObjectName": "WidgetSwitcherSlot'WidgetArchetype:WidgetTree_0.WBP_Com_Hyoka.WidgetTree_0.WidgetSwitcher_0.WidgetSwitcherSlot_8'",
+          "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.88"
+        },
+        {
+          "ObjectName": "WidgetSwitcherSlot'WidgetArchetype:WidgetTree_0.WBP_Com_Hyoka.WidgetTree_0.WidgetSwitcher_0.WidgetSwitcherSlot_6'",
+          "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.87"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.WBP_Com_Hyoka.WidgetTree_0.Overlay_1.OverlaySlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.69"
+      }
+    }
+  },
+  {
+    "Type": "WidgetSwitcherSlot",
+    "Name": "WidgetSwitcherSlot_0",
+    "Outer": "WidgetSwitcher_0",
+    "Class": "UScriptClass'WidgetSwitcherSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "WidgetSwitcher'WidgetArchetype:WidgetTree_0.WBP_Com_Hyoka.WidgetTree_0.WidgetSwitcher_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.80"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_Com_Hyoka.WidgetTree_0.Rookie'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.62"
+      }
+    }
+  },
+  {
+    "Type": "WidgetSwitcherSlot",
+    "Name": "WidgetSwitcherSlot_1",
+    "Outer": "WidgetSwitcher_0",
+    "Class": "UScriptClass'WidgetSwitcherSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Left",
+      "VerticalAlignment": "VAlign_Top",
+      "Parent": {
+        "ObjectName": "WidgetSwitcher'WidgetArchetype:WidgetTree_0.WBP_Com_Hyoka.WidgetTree_0.WidgetSwitcher_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.80"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_Com_Hyoka.WidgetTree_0.Regular'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.61"
+      }
+    }
+  },
+  {
+    "Type": "WidgetSwitcherSlot",
+    "Name": "WidgetSwitcherSlot_2",
+    "Outer": "WidgetSwitcher_0",
+    "Class": "UScriptClass'WidgetSwitcherSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Left",
+      "VerticalAlignment": "VAlign_Top",
+      "Parent": {
+        "ObjectName": "WidgetSwitcher'WidgetArchetype:WidgetTree_0.WBP_Com_Hyoka.WidgetTree_0.WidgetSwitcher_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.80"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_Com_Hyoka.WidgetTree_0.Specialist'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.63"
+      }
+    }
+  },
+  {
+    "Type": "WidgetSwitcherSlot",
+    "Name": "WidgetSwitcherSlot_3",
+    "Outer": "WidgetSwitcher_0",
+    "Class": "UScriptClass'WidgetSwitcherSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Left",
+      "VerticalAlignment": "VAlign_Top",
+      "Parent": {
+        "ObjectName": "WidgetSwitcher'WidgetArchetype:WidgetTree_0.WBP_Com_Hyoka.WidgetTree_0.WidgetSwitcher_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.80"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_Com_Hyoka.WidgetTree_0.Expert'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.56"
+      }
+    }
+  },
+  {
+    "Type": "WidgetSwitcherSlot",
+    "Name": "WidgetSwitcherSlot_4",
+    "Outer": "WidgetSwitcher_0",
+    "Class": "UScriptClass'WidgetSwitcherSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Left",
+      "VerticalAlignment": "VAlign_Top",
+      "Parent": {
+        "ObjectName": "WidgetSwitcher'WidgetArchetype:WidgetTree_0.WBP_Com_Hyoka.WidgetTree_0.WidgetSwitcher_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.80"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_Com_Hyoka.WidgetTree_0.Professional'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.60"
+      }
+    }
+  },
+  {
+    "Type": "WidgetSwitcherSlot",
+    "Name": "WidgetSwitcherSlot_5",
+    "Outer": "WidgetSwitcher_0",
+    "Class": "UScriptClass'WidgetSwitcherSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Left",
+      "VerticalAlignment": "VAlign_Top",
+      "Parent": {
+        "ObjectName": "WidgetSwitcher'WidgetArchetype:WidgetTree_0.WBP_Com_Hyoka.WidgetTree_0.WidgetSwitcher_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.80"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_Com_Hyoka.WidgetTree_0.Master'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.57"
+      }
+    }
+  },
+  {
+    "Type": "WidgetSwitcherSlot",
+    "Name": "WidgetSwitcherSlot_6",
+    "Outer": "WidgetSwitcher_0",
+    "Class": "UScriptClass'WidgetSwitcherSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Left",
+      "VerticalAlignment": "VAlign_Top",
+      "Parent": {
+        "ObjectName": "WidgetSwitcher'WidgetArchetype:WidgetTree_0.WBP_Com_Hyoka.WidgetTree_0.WidgetSwitcher_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.80"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_Com_Hyoka.WidgetTree_0.Non'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.59"
+      }
+    }
+  },
+  {
+    "Type": "WidgetSwitcherSlot",
+    "Name": "WidgetSwitcherSlot_8",
+    "Outer": "WidgetSwitcher_0",
+    "Class": "UScriptClass'WidgetSwitcherSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Left",
+      "VerticalAlignment": "VAlign_Top",
+      "Parent": {
+        "ObjectName": "WidgetSwitcher'WidgetArchetype:WidgetTree_0.WBP_Com_Hyoka.WidgetTree_0.WidgetSwitcher_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.80"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_Com_Hyoka.WidgetTree_0.MasterPlus'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.58"
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Outer": "WBP_Load_TimeAttack_SkilLevel_C",
+    "Class": "UScriptClass'WidgetTree'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CanvasPanel'WBP_Load_TimeAttack_SkilLevel_C:WidgetTree.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.20"
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree_0",
+    "Outer": "WidgetArchetype",
+    "Class": "UScriptClass'WidgetTree'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.24"
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree_0",
+    "Outer": "WBP_Com_Hyoka",
+    "Class": "UScriptClass'WidgetTree'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.WBP_Com_Hyoka.WidgetTree_0.Overlay_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_SkilLevel.68"
+      }
+    }
+  }
+]

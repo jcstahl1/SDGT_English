@@ -1,0 +1,2967 @@
+[
+  {
+    "Type": "StructProperty",
+    "Name": "UberGraphFrame",
+    "Outer": "WBP_Com_PopMaster_C",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "Transient | DuplicateTransient",
+    "Struct": {
+      "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "WBP_Com_PopMaster_C",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WBP_Com_PopMaster_C:WidgetTree'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.163"
+      },
+      "bAllowTemplate": true,
+      "bValidTemplate": true,
+      "TemplateAsset": {
+        "AssetPathName": "/Game/IND/UI/Common/WBP_Com_PopMaster.WidgetArchetype",
+        "SubPathString": ""
+      },
+      "UberGraphFramePointerProperty": {
+        "ObjectName": "StructProperty'WBP_Com_PopMaster_C:UberGraphFrame'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.0"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'WBP_Com_PopMaster_C:ExecuteUbergraph_WBP_Com_PopMaster'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.7"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'UserWidget'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'WBP_Com_PopMaster_C:UberGraphFrame'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.0"
+      },
+      {
+        "ObjectName": "Function'WBP_Com_PopMaster_C:GetOutAnimationDuration'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.37"
+      },
+      {
+        "ObjectName": "Function'WBP_Com_PopMaster_C:UnBindAllAnimationFinished'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.35"
+      },
+      {
+        "ObjectName": "Function'WBP_Com_PopMaster_C:UniqueBindOutAnimationFinished'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.33"
+      },
+      {
+        "ObjectName": "Function'WBP_Com_PopMaster_C:UniqueBindInAnimationFinished'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.31"
+      },
+      {
+        "ObjectName": "Function'WBP_Com_PopMaster_C:BindOutAnimationFinished'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.23"
+      },
+      {
+        "ObjectName": "Function'WBP_Com_PopMaster_C:BindInAnimationFinished'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.18"
+      },
+      {
+        "ObjectName": "Function'WBP_Com_PopMaster_C:SetText'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.16"
+      },
+      {
+        "ObjectName": "Function'WBP_Com_PopMaster_C:Out'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.14"
+      },
+      {
+        "ObjectName": "Function'WBP_Com_PopMaster_C:In'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.12"
+      },
+      {
+        "ObjectName": "Function'WBP_Com_PopMaster_C:PreConstruct'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.10"
+      },
+      {
+        "ObjectName": "Function'WBP_Com_PopMaster_C:Construct'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.8"
+      },
+      {
+        "ObjectName": "Function'WBP_Com_PopMaster_C:ExecuteUbergraph_WBP_Com_PopMaster'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.7"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Com_PopMaster_C:WBP_ComWIn_Info'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.5"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Com_PopMaster_C:WidgetSwitcher'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.152"
+      },
+      {
+        "ObjectName": "ArrayProperty'WBP_Com_PopMaster_C:Children'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.4"
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_WBP_Com_PopMaster": {
+        "ObjectName": "Function'WBP_Com_PopMaster_C:ExecuteUbergraph_WBP_Com_PopMaster'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.7"
+      },
+      "Construct": {
+        "ObjectName": "Function'WBP_Com_PopMaster_C:Construct'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.8"
+      },
+      "PreConstruct": {
+        "ObjectName": "Function'WBP_Com_PopMaster_C:PreConstruct'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.10"
+      },
+      "In": {
+        "ObjectName": "Function'WBP_Com_PopMaster_C:In'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.12"
+      },
+      "Out": {
+        "ObjectName": "Function'WBP_Com_PopMaster_C:Out'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.14"
+      },
+      "SetText": {
+        "ObjectName": "Function'WBP_Com_PopMaster_C:SetText'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.16"
+      },
+      "BindInAnimationFinished": {
+        "ObjectName": "Function'WBP_Com_PopMaster_C:BindInAnimationFinished'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.18"
+      },
+      "BindOutAnimationFinished": {
+        "ObjectName": "Function'WBP_Com_PopMaster_C:BindOutAnimationFinished'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.23"
+      },
+      "UniqueBindInAnimationFinished": {
+        "ObjectName": "Function'WBP_Com_PopMaster_C:UniqueBindInAnimationFinished'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.31"
+      },
+      "UniqueBindOutAnimationFinished": {
+        "ObjectName": "Function'WBP_Com_PopMaster_C:UniqueBindOutAnimationFinished'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.33"
+      },
+      "UnBindAllAnimationFinished": {
+        "ObjectName": "Function'WBP_Com_PopMaster_C:UnBindAllAnimationFinished'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.35"
+      },
+      "GetOutAnimationDuration": {
+        "ObjectName": "Function'WBP_Com_PopMaster_C:GetOutAnimationDuration'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.37"
+      }
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "WBP_Com_PopMaster_C'Default__WBP_Com_PopMaster_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.2"
+    }
+  },
+  {
+    "Type": "WBP_Com_PopMaster_C",
+    "Name": "Default__WBP_Com_PopMaster_C",
+    "Class": "WidgetBlueprintGeneratedClass'GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.WBP_Com_PopMaster_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "UberGraphFrame": {},
+      "bHasScriptImplementedTick": false,
+      "bHasScriptImplementedPaint": false
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Children",
+    "Outer": "Children",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "InstancedReference",
+    "PropertyClass": {
+      "ObjectName": "Class'Widget'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ArrayProperty",
+    "Name": "Children",
+    "Outer": "WBP_Com_PopMaster_C",
+    "Class": "UScriptClass'ArrayProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance | ContainsInstancedReference",
+    "Inner": {
+      "ObjectName": "ObjectProperty'WBP_Com_PopMaster_C:Children.Children'",
+      "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.3"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "WBP_ComWIn_Info",
+    "Outer": "WBP_Com_PopMaster_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'WBP_ComWIn_Info_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Common/ComWin/WBP_ComWIn_Info.1"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "EntryPoint",
+    "Outer": "ExecuteUbergraph_WBP_Com_PopMaster",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_WBP_Com_PopMaster",
+    "Outer": "WBP_Com_PopMaster_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "IntProperty'WBP_Com_PopMaster_C:ExecuteUbergraph_WBP_Com_PopMaster.EntryPoint'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.6"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Com_PopMaster_C:ExecuteUbergraph_WBP_Com_PopMaster.Temp_int_Array_Index_Variable'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.117"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Com_PopMaster_C:ExecuteUbergraph_WBP_Com_PopMaster.Temp_int_Variable'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.119"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Com_PopMaster_C:ExecuteUbergraph_WBP_Com_PopMaster.CallFunc_Add_IntInt_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.111"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Com_PopMaster_C:ExecuteUbergraph_WBP_Com_PopMaster.K2Node_Event_IsDesignTime'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.29"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Com_PopMaster_C:ExecuteUbergraph_WBP_Com_PopMaster.CallFunc_GetWidgetAtIndex_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.138"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Com_PopMaster_C:ExecuteUbergraph_WBP_Com_PopMaster.CallFunc_Array_Get_Item'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.137"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Com_PopMaster_C:ExecuteUbergraph_WBP_Com_PopMaster.CallFunc_Array_Add_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.113"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Com_PopMaster_C:ExecuteUbergraph_WBP_Com_PopMaster.CallFunc_Array_Length_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.114"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Com_PopMaster_C:ExecuteUbergraph_WBP_Com_PopMaster.CallFunc_GetNumWidgets_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.115"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Com_PopMaster_C:ExecuteUbergraph_WBP_Com_PopMaster.Temp_int_Loop_Counter_Variable'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.118"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Com_PopMaster_C:ExecuteUbergraph_WBP_Com_PopMaster.CallFunc_Subtract_IntInt_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.116"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Com_PopMaster_C:ExecuteUbergraph_WBP_Com_PopMaster.CallFunc_LessEqual_IntInt_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.28"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Com_PopMaster_C:ExecuteUbergraph_WBP_Com_PopMaster.CallFunc_Less_IntInt_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.27"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Com_PopMaster_C:ExecuteUbergraph_WBP_Com_PopMaster.CallFunc_Add_IntInt_ReturnValue_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.112"
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "Construct",
+    "Outer": "WBP_Com_PopMaster_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Function'UserWidget:Construct'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "FunctionFlags": "FUNC_BlueprintCosmetic | FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "IsDesignTime",
+    "Outer": "PreConstruct",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "Function",
+    "Name": "PreConstruct",
+    "Outer": "WBP_Com_PopMaster_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Function'UserWidget:PreConstruct'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "Children": [
+      {
+        "ObjectName": "BoolProperty'WBP_Com_PopMaster_C:PreConstruct.IsDesignTime'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.9"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCosmetic | FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "Type",
+    "Outer": "In",
+    "Class": "UScriptClass'ByteProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "Enum": {
+      "ObjectName": "UserDefinedEnum'EComWinDialogType'",
+      "ObjectPath": "GameProject/Content/IND/UI/Common/ComWin/EComWinDialogType.0"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "In",
+    "Outer": "WBP_Com_PopMaster_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "ByteProperty'WBP_Com_PopMaster_C:In.Type'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.11"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Com_PopMaster_C:In.K2Node_SwitchEnum_CmpSuccess'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.44"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Com_PopMaster_C:In.CallFunc_GetActiveWidget_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.140"
+      },
+      {
+        "ObjectName": "InterfaceProperty'WBP_Com_PopMaster_C:In.K2Node_DynamicCast_AsBPI_Com_Win'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.95"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Com_PopMaster_C:In.K2Node_DynamicCast_bSuccess'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.42"
+      },
+      {
+        "ObjectName": "InterfaceProperty'WBP_Com_PopMaster_C:In.K2Node_DynamicCast_AsBPI_Com_Win_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.96"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Com_PopMaster_C:In.K2Node_DynamicCast_bSuccess_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.43"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Com_PopMaster_C:In.CallFunc_SetType__'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.41"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Com_PopMaster_C:In.CallFunc_PlayInAnim__'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.40"
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetActiveWidget_ReturnValue",
+    "Outer": "Out",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "InstancedReference",
+    "PropertyClass": {
+      "ObjectName": "Class'Widget'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "Out",
+    "Outer": "WBP_Com_PopMaster_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "ObjectProperty'WBP_Com_PopMaster_C:Out.CallFunc_GetActiveWidget_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.13"
+      },
+      {
+        "ObjectName": "InterfaceProperty'WBP_Com_PopMaster_C:Out.K2Node_DynamicCast_AsBPI_Com_Win'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.97"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Com_PopMaster_C:Out.K2Node_DynamicCast_bSuccess'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.46"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Com_PopMaster_C:Out.CallFunc_PlayOutAnim__'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.45"
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "Text",
+    "Outer": "SetText",
+    "Class": "UScriptClass'TextProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "SetText",
+    "Outer": "WBP_Com_PopMaster_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "TextProperty'WBP_Com_PopMaster_C:SetText.Text'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.15"
+      },
+      {
+        "ObjectName": "ByteProperty'WBP_Com_PopMaster_C:SetText.TextColor'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.60"
+      },
+      {
+        "ObjectName": "ByteProperty'WBP_Com_PopMaster_C:SetText.TextAlign'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.59"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Com_PopMaster_C:SetText.CallFunc_GetActiveWidget_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.141"
+      },
+      {
+        "ObjectName": "InterfaceProperty'WBP_Com_PopMaster_C:SetText.K2Node_DynamicCast_AsBPI_Com_Win'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.98"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Com_PopMaster_C:SetText.K2Node_DynamicCast_bSuccess'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.48"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Com_PopMaster_C:SetText.CallFunc_SetText__'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.47"
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "DelegateProperty",
+    "Name": "Delegate",
+    "Outer": "BindInAnimationFinished",
+    "Class": "UScriptClass'DelegateProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "SignatureFunction": {
+      "ObjectName": "DelegateFunction'WidgetAnimationDynamicEvent__DelegateSignature'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "BindInAnimationFinished",
+    "Outer": "WBP_Com_PopMaster_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "DelegateProperty'WBP_Com_PopMaster_C:BindInAnimationFinished.Delegate'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.17"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Com_PopMaster_C:BindInAnimationFinished.Temp_int_Array_Index_Variable'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.105"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Com_PopMaster_C:BindInAnimationFinished.Temp_int_Loop_Counter_Variable'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.106"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Com_PopMaster_C:BindInAnimationFinished.CallFunc_Add_IntInt_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.103"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Com_PopMaster_C:BindInAnimationFinished.CallFunc_Array_Length_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.104"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Com_PopMaster_C:BindInAnimationFinished.CallFunc_Array_Get_Item'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.131"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Com_PopMaster_C:BindInAnimationFinished.CallFunc_Less_IntInt_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.19"
+      },
+      {
+        "ObjectName": "InterfaceProperty'WBP_Com_PopMaster_C:BindInAnimationFinished.K2Node_DynamicCast_AsBPI_Com_Win'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.92"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Com_PopMaster_C:BindInAnimationFinished.K2Node_DynamicCast_bSuccess'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.20"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Com_PopMaster_C:BindInAnimationFinished.CallFunc_GetInAnimation_Animation'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.132"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Com_PopMaster_C:BindInAnimationFinished.K2Node_DynamicCast_AsUser_Widget'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.133"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Com_PopMaster_C:BindInAnimationFinished.K2Node_DynamicCast_bSuccess_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.21"
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_Less_IntInt_ReturnValue",
+    "Outer": "BindInAnimationFinished",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_DynamicCast_bSuccess",
+    "Outer": "BindInAnimationFinished",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_DynamicCast_bSuccess_1",
+    "Outer": "BindInAnimationFinished",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "DelegateProperty",
+    "Name": "Delegate",
+    "Outer": "BindOutAnimationFinished",
+    "Class": "UScriptClass'DelegateProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "SignatureFunction": {
+      "ObjectName": "DelegateFunction'WidgetAnimationDynamicEvent__DelegateSignature'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "BindOutAnimationFinished",
+    "Outer": "WBP_Com_PopMaster_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "DelegateProperty'WBP_Com_PopMaster_C:BindOutAnimationFinished.Delegate'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.22"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Com_PopMaster_C:BindOutAnimationFinished.Temp_int_Array_Index_Variable'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.109"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Com_PopMaster_C:BindOutAnimationFinished.Temp_int_Loop_Counter_Variable'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.110"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Com_PopMaster_C:BindOutAnimationFinished.CallFunc_Add_IntInt_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.107"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Com_PopMaster_C:BindOutAnimationFinished.CallFunc_Array_Length_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.108"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Com_PopMaster_C:BindOutAnimationFinished.CallFunc_Array_Get_Item'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.134"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Com_PopMaster_C:BindOutAnimationFinished.CallFunc_Less_IntInt_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.24"
+      },
+      {
+        "ObjectName": "InterfaceProperty'WBP_Com_PopMaster_C:BindOutAnimationFinished.K2Node_DynamicCast_AsBPI_Com_Win'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.93"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Com_PopMaster_C:BindOutAnimationFinished.K2Node_DynamicCast_bSuccess'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.25"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Com_PopMaster_C:BindOutAnimationFinished.CallFunc_GetOutAnimation_Animation'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.135"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Com_PopMaster_C:BindOutAnimationFinished.K2Node_DynamicCast_AsUser_Widget'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.136"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Com_PopMaster_C:BindOutAnimationFinished.K2Node_DynamicCast_bSuccess_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.26"
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_Less_IntInt_ReturnValue",
+    "Outer": "BindOutAnimationFinished",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_DynamicCast_bSuccess",
+    "Outer": "BindOutAnimationFinished",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_DynamicCast_bSuccess_1",
+    "Outer": "BindOutAnimationFinished",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_Less_IntInt_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_Com_PopMaster",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_LessEqual_IntInt_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_Com_PopMaster",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_Event_IsDesignTime",
+    "Outer": "ExecuteUbergraph_WBP_Com_PopMaster",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "DelegateProperty",
+    "Name": "Delegate",
+    "Outer": "UniqueBindInAnimationFinished",
+    "Class": "UScriptClass'DelegateProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "SignatureFunction": {
+      "ObjectName": "DelegateFunction'WidgetAnimationDynamicEvent__DelegateSignature'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "UniqueBindInAnimationFinished",
+    "Outer": "WBP_Com_PopMaster_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "DelegateProperty'WBP_Com_PopMaster_C:UniqueBindInAnimationFinished.Delegate'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.30"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Com_PopMaster_C:UniqueBindInAnimationFinished.Temp_int_Array_Index_Variable'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.125"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Com_PopMaster_C:UniqueBindInAnimationFinished.Temp_int_Loop_Counter_Variable'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.126"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Com_PopMaster_C:UniqueBindInAnimationFinished.CallFunc_Add_IntInt_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.123"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Com_PopMaster_C:UniqueBindInAnimationFinished.CallFunc_Array_Length_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.124"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Com_PopMaster_C:UniqueBindInAnimationFinished.CallFunc_Array_Get_Item'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.146"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Com_PopMaster_C:UniqueBindInAnimationFinished.CallFunc_Less_IntInt_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.53"
+      },
+      {
+        "ObjectName": "InterfaceProperty'WBP_Com_PopMaster_C:UniqueBindInAnimationFinished.K2Node_DynamicCast_AsBPI_Com_Win'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.101"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Com_PopMaster_C:UniqueBindInAnimationFinished.K2Node_DynamicCast_bSuccess'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.54"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Com_PopMaster_C:UniqueBindInAnimationFinished.CallFunc_GetInAnimation_Animation'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.147"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Com_PopMaster_C:UniqueBindInAnimationFinished.K2Node_DynamicCast_AsUser_Widget'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.148"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Com_PopMaster_C:UniqueBindInAnimationFinished.K2Node_DynamicCast_bSuccess_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.55"
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "DelegateProperty",
+    "Name": "Delegate",
+    "Outer": "UniqueBindOutAnimationFinished",
+    "Class": "UScriptClass'DelegateProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "SignatureFunction": {
+      "ObjectName": "DelegateFunction'WidgetAnimationDynamicEvent__DelegateSignature'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "UniqueBindOutAnimationFinished",
+    "Outer": "WBP_Com_PopMaster_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "DelegateProperty'WBP_Com_PopMaster_C:UniqueBindOutAnimationFinished.Delegate'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.32"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Com_PopMaster_C:UniqueBindOutAnimationFinished.Temp_int_Array_Index_Variable'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.129"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Com_PopMaster_C:UniqueBindOutAnimationFinished.Temp_int_Loop_Counter_Variable'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.130"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Com_PopMaster_C:UniqueBindOutAnimationFinished.CallFunc_Add_IntInt_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.127"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Com_PopMaster_C:UniqueBindOutAnimationFinished.CallFunc_Array_Length_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.128"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Com_PopMaster_C:UniqueBindOutAnimationFinished.CallFunc_Array_Get_Item'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.149"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Com_PopMaster_C:UniqueBindOutAnimationFinished.CallFunc_Less_IntInt_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.56"
+      },
+      {
+        "ObjectName": "InterfaceProperty'WBP_Com_PopMaster_C:UniqueBindOutAnimationFinished.K2Node_DynamicCast_AsBPI_Com_Win'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.102"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Com_PopMaster_C:UniqueBindOutAnimationFinished.K2Node_DynamicCast_bSuccess'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.57"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Com_PopMaster_C:UniqueBindOutAnimationFinished.CallFunc_GetOutAnimation_Animation'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.150"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Com_PopMaster_C:UniqueBindOutAnimationFinished.K2Node_DynamicCast_AsUser_Widget'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.151"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Com_PopMaster_C:UniqueBindOutAnimationFinished.K2Node_DynamicCast_bSuccess_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.58"
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "Temp_int_Array_Index_Variable",
+    "Outer": "UnBindAllAnimationFinished",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "Function",
+    "Name": "UnBindAllAnimationFinished",
+    "Outer": "WBP_Com_PopMaster_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "IntProperty'WBP_Com_PopMaster_C:UnBindAllAnimationFinished.Temp_int_Array_Index_Variable'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.34"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Com_PopMaster_C:UnBindAllAnimationFinished.Temp_int_Loop_Counter_Variable'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.122"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Com_PopMaster_C:UnBindAllAnimationFinished.CallFunc_Add_IntInt_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.120"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Com_PopMaster_C:UnBindAllAnimationFinished.CallFunc_Array_Length_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.121"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Com_PopMaster_C:UnBindAllAnimationFinished.CallFunc_Array_Get_Item'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.142"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Com_PopMaster_C:UnBindAllAnimationFinished.CallFunc_Less_IntInt_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.49"
+      },
+      {
+        "ObjectName": "InterfaceProperty'WBP_Com_PopMaster_C:UnBindAllAnimationFinished.K2Node_DynamicCast_AsBPI_Com_Win'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.99"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Com_PopMaster_C:UnBindAllAnimationFinished.K2Node_DynamicCast_bSuccess'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.50"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Com_PopMaster_C:UnBindAllAnimationFinished.CallFunc_GetInAnimation_Animation'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.143"
+      },
+      {
+        "ObjectName": "InterfaceProperty'WBP_Com_PopMaster_C:UnBindAllAnimationFinished.K2Node_DynamicCast_AsBPI_Com_Win_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.100"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Com_PopMaster_C:UnBindAllAnimationFinished.K2Node_DynamicCast_bSuccess_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.51"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Com_PopMaster_C:UnBindAllAnimationFinished.CallFunc_GetOutAnimation_Animation'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.144"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Com_PopMaster_C:UnBindAllAnimationFinished.K2Node_DynamicCast_AsUser_Widget'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.145"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Com_PopMaster_C:UnBindAllAnimationFinished.K2Node_DynamicCast_bSuccess_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.52"
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "Duration",
+    "Outer": "GetOutAnimationDuration",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "Parm | OutParm"
+  },
+  {
+    "Type": "Function",
+    "Name": "GetOutAnimationDuration",
+    "Outer": "WBP_Com_PopMaster_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "FloatProperty'WBP_Com_PopMaster_C:GetOutAnimationDuration.Duration'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.36"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_Com_PopMaster_C:GetOutAnimationDuration.LocalDuration'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.80"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Com_PopMaster_C:GetOutAnimationDuration.CallFunc_GetActiveWidget_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.139"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Com_PopMaster_C:GetOutAnimationDuration.CallFunc_IsValid_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.38"
+      },
+      {
+        "ObjectName": "InterfaceProperty'WBP_Com_PopMaster_C:GetOutAnimationDuration.K2Node_DynamicCast_AsBPI_Com_Win'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.94"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Com_PopMaster_C:GetOutAnimationDuration.K2Node_DynamicCast_bSuccess'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.39"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_Com_PopMaster_C:GetOutAnimationDuration.CallFunc_GetOutAnimationDuration_Duration'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.79"
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasOutParms | FUNC_BlueprintCallable | FUNC_BlueprintEvent | FUNC_BlueprintPure | FUNC_Const"
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_IsValid_ReturnValue",
+    "Outer": "GetOutAnimationDuration",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_DynamicCast_bSuccess",
+    "Outer": "GetOutAnimationDuration",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_PlayInAnim__",
+    "Outer": "In",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_SetType__",
+    "Outer": "In",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_DynamicCast_bSuccess",
+    "Outer": "In",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_DynamicCast_bSuccess_1",
+    "Outer": "In",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_SwitchEnum_CmpSuccess",
+    "Outer": "In",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_PlayOutAnim__",
+    "Outer": "Out",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_DynamicCast_bSuccess",
+    "Outer": "Out",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_SetText__",
+    "Outer": "SetText",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_DynamicCast_bSuccess",
+    "Outer": "SetText",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_Less_IntInt_ReturnValue",
+    "Outer": "UnBindAllAnimationFinished",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_DynamicCast_bSuccess",
+    "Outer": "UnBindAllAnimationFinished",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_DynamicCast_bSuccess_1",
+    "Outer": "UnBindAllAnimationFinished",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_DynamicCast_bSuccess_2",
+    "Outer": "UnBindAllAnimationFinished",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_Less_IntInt_ReturnValue",
+    "Outer": "UniqueBindInAnimationFinished",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_DynamicCast_bSuccess",
+    "Outer": "UniqueBindInAnimationFinished",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_DynamicCast_bSuccess_1",
+    "Outer": "UniqueBindInAnimationFinished",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_Less_IntInt_ReturnValue",
+    "Outer": "UniqueBindOutAnimationFinished",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_DynamicCast_bSuccess",
+    "Outer": "UniqueBindOutAnimationFinished",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_DynamicCast_bSuccess_1",
+    "Outer": "UniqueBindOutAnimationFinished",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "TextAlign",
+    "Outer": "SetText",
+    "Class": "UScriptClass'ByteProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "Enum": {
+      "ObjectName": "UserDefinedEnum'EComWinTextAlignment'",
+      "ObjectPath": "GameProject/Content/IND/UI/Common/ComWin/EComWinTextAlignment.0"
+    }
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "TextColor",
+    "Outer": "SetText",
+    "Class": "UScriptClass'ByteProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "Enum": {
+      "ObjectName": "UserDefinedEnum'EComWinTextColor'",
+      "ObjectPath": "GameProject/Content/IND/UI/Common/ComWin/EComWinTextColor.0"
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_ComWIn_Info.WidgetTree_0.CanvasPanel.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.64"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_ComWIn_Info.WidgetTree_0.CanvasPanel.CanvasPanelSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.65"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_ComWIn_Info.WidgetTree_0.CanvasPanel.CanvasPanelSlot_2'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.66"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_ComWIn_Info.WidgetTree_0.CanvasPanel.CanvasPanelSlot_4'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.67"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_ComWIn_Info.WidgetTree_0.CanvasPanel_533.CanvasPanelSlot_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.68"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_533",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_ComWIn_Info.WidgetTree_0.CanvasPanel_533.CanvasPanelSlot_3'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.68"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_0",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_ComWIn_Info.WidgetTree_0.WBP_ComWin_1.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.69"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_ComWIn_Info.WidgetTree_0.WBP_ComWin_1.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.70"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_ComWIn_Info.WidgetTree_0.WBP_ComWin_1.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_3'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.74"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_ComWIn_Info.WidgetTree_0.WBP_ComWin_1.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_5'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.75"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_ComWIn_Info.WidgetTree_0.WBP_ComWin_1.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_6'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.76"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_ComWIn_Info.WidgetTree_0.WBP_ComWin_1.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_7'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.77"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_ComWIn_Info.WidgetTree_0.WBP_ComWin_1.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_9'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.78"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_ComWIn_Info.WidgetTree_0.WBP_ComWin_1.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_10'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.71"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_ComWIn_Info.WidgetTree_0.WBP_ComWin_1.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_13'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.72"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_ComWIn_Info.WidgetTree_0.WBP_ComWin_1.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_2'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.73"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "CanvasPanel",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -52.0,
+          "Top": -125.0,
+          "Right": -52.0,
+          "Bottom": -125.0
+        },
+        "Anchors": {
+          "Maximum": {
+            "X": 1.0,
+            "Y": 1.0
+          }
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_ComWIn_Info.WidgetTree_0.CanvasPanel'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.61"
+      },
+      "Content": {
+        "ObjectName": "WBP_ComWin_C'WidgetArchetype:WidgetTree_0.WBP_ComWIn_Info.WidgetTree_0.WBP_ComWin_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.156"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "CanvasPanel",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": 12.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_ComWIn_Info.WidgetTree_0.CanvasPanel'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.61"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.WBP_ComWIn_Info.WidgetTree_0.P_Text_01'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.154"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_2",
+    "Outer": "CanvasPanel",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 1200.0,
+          "Bottom": 151.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_ComWIn_Info.WidgetTree_0.CanvasPanel'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.61"
+      },
+      "Content": {
+        "ObjectName": "Spacer'WidgetArchetype:WidgetTree_0.WBP_ComWIn_Info.WidgetTree_0.Spacer'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.153"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_4",
+    "Outer": "CanvasPanel",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -52.0,
+          "Top": -125.0,
+          "Right": -52.0,
+          "Bottom": -125.0
+        },
+        "Anchors": {
+          "Maximum": {
+            "X": 1.0,
+            "Y": 1.0
+          }
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_ComWIn_Info.WidgetTree_0.CanvasPanel'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.61"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_ComWIn_Info.WidgetTree_0.Eff'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.81"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_3",
+    "Outer": "CanvasPanel_533",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_ComWIn_Info.WidgetTree_0.CanvasPanel_533'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.62"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_ComWIn_Info.WidgetTree_0.CanvasPanel'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.61"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 0.0,
+          "Bottom": 0.0
+        },
+        "Anchors": {
+          "Maximum": {
+            "X": 1.0,
+            "Y": 1.0
+          }
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_ComWIn_Info.WidgetTree_0.WBP_ComWin_1.WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.63"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_ComWIn_Info.WidgetTree_0.WBP_ComWin_1.WidgetTree_0.Base'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.82"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 12.0,
+          "Top": 12.0,
+          "Right": 12.0,
+          "Bottom": 0.0
+        },
+        "Anchors": {
+          "Maximum": {
+            "X": 1.0,
+            "Y": 0.0
+          }
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_ComWIn_Info.WidgetTree_0.WBP_ComWin_1.WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.63"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_ComWIn_Info.WidgetTree_0.WBP_ComWin_1.WidgetTree_0.Pattern01'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.90"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_10",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 0.0,
+          "Bottom": 0.0
+        },
+        "Anchors": {
+          "Maximum": {
+            "X": 1.0,
+            "Y": 1.0
+          }
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_ComWIn_Info.WidgetTree_0.WBP_ComWin_1.WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.63"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_ComWIn_Info.WidgetTree_0.WBP_ComWin_1.WidgetTree_0.FrameSilver'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.88"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_13",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 0.0,
+          "Bottom": 0.0
+        },
+        "Anchors": {
+          "Maximum": {
+            "X": 1.0,
+            "Y": 1.0
+          }
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_ComWIn_Info.WidgetTree_0.WBP_ComWin_1.WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.63"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_ComWIn_Info.WidgetTree_0.WBP_ComWin_1.WidgetTree_0.FrameGold'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.87"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_2",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 28.0,
+          "Top": 29.0,
+          "Bottom": 40.0
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_ComWIn_Info.WidgetTree_0.WBP_ComWin_1.WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.63"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_ComWIn_Info.WidgetTree_0.WBP_ComWin_1.WidgetTree_0.Logo'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.89"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_3",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 12.0,
+          "Top": -12.0,
+          "Right": 12.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.0,
+            "Y": 1.0
+          },
+          "Maximum": {
+            "X": 1.0,
+            "Y": 1.0
+          }
+        },
+        "Alignment": {
+          "X": 0.0,
+          "Y": 1.0
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_ComWIn_Info.WidgetTree_0.WBP_ComWin_1.WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.63"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_ComWIn_Info.WidgetTree_0.WBP_ComWin_1.WidgetTree_0.Pattern02'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.91"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_5",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 0.0,
+          "Bottom": 0.0
+        },
+        "Anchors": {
+          "Maximum": {
+            "X": 1.0,
+            "Y": 1.0
+          }
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_ComWIn_Info.WidgetTree_0.WBP_ComWin_1.WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.63"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_ComWIn_Info.WidgetTree_0.WBP_ComWin_1.WidgetTree_0.Frame01'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.83"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_6",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 0.0,
+          "Bottom": 0.0
+        },
+        "Anchors": {
+          "Maximum": {
+            "X": 1.0,
+            "Y": 1.0
+          }
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_ComWIn_Info.WidgetTree_0.WBP_ComWin_1.WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.63"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_ComWIn_Info.WidgetTree_0.WBP_ComWin_1.WidgetTree_0.Frame02'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.84"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_7",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 0.0,
+          "Bottom": 0.0
+        },
+        "Anchors": {
+          "Maximum": {
+            "X": 1.0,
+            "Y": 1.0
+          }
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_ComWIn_Info.WidgetTree_0.WBP_ComWin_1.WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.63"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_ComWIn_Info.WidgetTree_0.WBP_ComWin_1.WidgetTree_0.Frame03'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.85"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_9",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 0.0,
+          "Bottom": 0.0
+        },
+        "Anchors": {
+          "Maximum": {
+            "X": 1.0,
+            "Y": 1.0
+          }
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_ComWIn_Info.WidgetTree_0.WBP_ComWin_1.WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.63"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_ComWIn_Info.WidgetTree_0.WBP_ComWin_1.WidgetTree_0.FrameBronze'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.86"
+      }
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_GetOutAnimationDuration_Duration",
+    "Outer": "GetOutAnimationDuration",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "LocalDuration",
+    "Outer": "GetOutAnimationDuration",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "Edit | BlueprintVisible"
+  },
+  {
+    "Type": "Image",
+    "Name": "Eff",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 108.0,
+          "Y": 108.0
+        },
+        "Margin": {
+          "Left": 0.3,
+          "Top": 0.3,
+          "Right": 0.3,
+          "Bottom": 0.3
+        },
+        "ResourceObject": {
+          "ObjectName": "MaterialInstanceConstant'M_ComWin_Eff_Inst'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/ComWin/Material/M_ComWin_Eff_Inst.0"
+        },
+        "DrawAs": "ESlateBrushDrawType::Box"
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_ComWIn_Info.WidgetTree_0.CanvasPanel.CanvasPanelSlot_4'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.67"
+      },
+      "bIsVariable": false,
+      "RenderOpacity": 0.0
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Base",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 108.0,
+          "Y": 108.0
+        },
+        "Margin": {
+          "Left": 0.5,
+          "Top": 0.5,
+          "Right": 0.5,
+          "Bottom": 0.5
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_ComWin_Base'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/ComWin/Texture/T_ComWin_Base.0"
+        },
+        "DrawAs": "ESlateBrushDrawType::Box"
+      },
+      "ColorAndOpacity": {
+        "R": 0.019382,
+        "G": 0.019382,
+        "B": 0.019382,
+        "A": 1.0,
+        "Hex": "262626"
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_ComWIn_Info.WidgetTree_0.WBP_ComWin_1.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.69"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Frame01",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 108.0,
+          "Y": 108.0
+        },
+        "Margin": {
+          "Left": 0.3,
+          "Top": 0.3,
+          "Right": 0.3,
+          "Bottom": 0.3
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_ComWin_Frame_01'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/ComWin/Texture/T_ComWin_Frame_01.0"
+        },
+        "DrawAs": "ESlateBrushDrawType::Box"
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_ComWIn_Info.WidgetTree_0.WBP_ComWin_1.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_5'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.75"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Frame02",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 108.0,
+          "Y": 108.0
+        },
+        "Margin": {
+          "Left": 0.3,
+          "Top": 0.3,
+          "Right": 0.3,
+          "Bottom": 0.3
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_ComWin_Frame_02'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/ComWin/Texture/T_ComWin_Frame_02.0"
+        },
+        "DrawAs": "ESlateBrushDrawType::Box"
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_ComWIn_Info.WidgetTree_0.WBP_ComWin_1.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_6'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.76"
+      },
+      "RenderOpacity": 0.0
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Frame03",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "Margin": {
+          "Left": 0.3,
+          "Top": 0.3,
+          "Right": 0.3,
+          "Bottom": 0.3
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_ComWin_Frame_03'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/ComWin/Texture/T_ComWin_Frame_03.0"
+        },
+        "DrawAs": "ESlateBrushDrawType::Box"
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_ComWIn_Info.WidgetTree_0.WBP_ComWin_1.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_7'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.77"
+      },
+      "RenderOpacity": 0.0
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "FrameBronze",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 108.0,
+          "Y": 108.0
+        },
+        "Margin": {
+          "Left": 0.3,
+          "Top": 0.3,
+          "Right": 0.3,
+          "Bottom": 0.3
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_ComWin_Frame_04'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/ComWin/Texture/T_ComWin_Frame_04.0"
+        },
+        "DrawAs": "ESlateBrushDrawType::Box"
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_ComWIn_Info.WidgetTree_0.WBP_ComWin_1.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_9'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.78"
+      },
+      "RenderOpacity": 0.0
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "FrameGold",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 108.0,
+          "Y": 108.0
+        },
+        "Margin": {
+          "Left": 0.3,
+          "Top": 0.3,
+          "Right": 0.3,
+          "Bottom": 0.3
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_ComWin_Frame_06'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/ComWin/Texture/T_ComWin_Frame_06.0"
+        },
+        "DrawAs": "ESlateBrushDrawType::Box"
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_ComWIn_Info.WidgetTree_0.WBP_ComWin_1.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_13'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.72"
+      },
+      "RenderOpacity": 0.0
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "FrameSilver",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 108.0,
+          "Y": 108.0
+        },
+        "Margin": {
+          "Left": 0.3,
+          "Top": 0.3,
+          "Right": 0.3,
+          "Bottom": 0.3
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_ComWin_Frame_05'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/ComWin/Texture/T_ComWin_Frame_05.0"
+        },
+        "DrawAs": "ESlateBrushDrawType::Box"
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_ComWIn_Info.WidgetTree_0.WBP_ComWin_1.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_10'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.71"
+      },
+      "RenderOpacity": 0.0
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Logo",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 372.0,
+          "Y": 132.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_ComWin_Logo'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/ComWin/Texture/T_ComWin_Logo.0"
+        }
+      },
+      "ColorAndOpacity": {
+        "R": 0.051269,
+        "G": 0.051269,
+        "B": 0.051269,
+        "A": 1.0,
+        "Hex": "404040"
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_ComWIn_Info.WidgetTree_0.WBP_ComWin_1.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.73"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Pattern01",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 16.0,
+          "Y": 252.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_ComWin_Pattern01'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/ComWin/Texture/T_ComWin_Pattern01.0"
+        },
+        "Tiling": "ESlateBrushTileType::Horizontal"
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_ComWIn_Info.WidgetTree_0.WBP_ComWin_1.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.70"
+      },
+      "RenderOpacity": 0.5
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Pattern02",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 16.0,
+          "Y": 252.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_ComWin_Pattern02'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/ComWin/Texture/T_ComWin_Pattern02.0"
+        },
+        "Tiling": "ESlateBrushTileType::Horizontal"
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_ComWIn_Info.WidgetTree_0.WBP_ComWin_1.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.74"
+      },
+      "RenderOpacity": 0.2
+    }
+  },
+  {
+    "Type": "InterfaceProperty",
+    "Name": "K2Node_DynamicCast_AsBPI_Com_Win",
+    "Outer": "BindInAnimationFinished",
+    "Class": "UScriptClass'InterfaceProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "InterfaceClass": {
+      "ObjectName": "BlueprintGeneratedClass'BPI_ComWin_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Common/ComWin/BPI_ComWin.14"
+    }
+  },
+  {
+    "Type": "InterfaceProperty",
+    "Name": "K2Node_DynamicCast_AsBPI_Com_Win",
+    "Outer": "BindOutAnimationFinished",
+    "Class": "UScriptClass'InterfaceProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "InterfaceClass": {
+      "ObjectName": "BlueprintGeneratedClass'BPI_ComWin_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Common/ComWin/BPI_ComWin.14"
+    }
+  },
+  {
+    "Type": "InterfaceProperty",
+    "Name": "K2Node_DynamicCast_AsBPI_Com_Win",
+    "Outer": "GetOutAnimationDuration",
+    "Class": "UScriptClass'InterfaceProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "InterfaceClass": {
+      "ObjectName": "BlueprintGeneratedClass'BPI_ComWin_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Common/ComWin/BPI_ComWin.14"
+    }
+  },
+  {
+    "Type": "InterfaceProperty",
+    "Name": "K2Node_DynamicCast_AsBPI_Com_Win",
+    "Outer": "In",
+    "Class": "UScriptClass'InterfaceProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "InterfaceClass": {
+      "ObjectName": "BlueprintGeneratedClass'BPI_ComWin_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Common/ComWin/BPI_ComWin.14"
+    }
+  },
+  {
+    "Type": "InterfaceProperty",
+    "Name": "K2Node_DynamicCast_AsBPI_Com_Win_1",
+    "Outer": "In",
+    "Class": "UScriptClass'InterfaceProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "InterfaceClass": {
+      "ObjectName": "BlueprintGeneratedClass'BPI_ComWin_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Common/ComWin/BPI_ComWin.14"
+    }
+  },
+  {
+    "Type": "InterfaceProperty",
+    "Name": "K2Node_DynamicCast_AsBPI_Com_Win",
+    "Outer": "Out",
+    "Class": "UScriptClass'InterfaceProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "InterfaceClass": {
+      "ObjectName": "BlueprintGeneratedClass'BPI_ComWin_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Common/ComWin/BPI_ComWin.14"
+    }
+  },
+  {
+    "Type": "InterfaceProperty",
+    "Name": "K2Node_DynamicCast_AsBPI_Com_Win",
+    "Outer": "SetText",
+    "Class": "UScriptClass'InterfaceProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "InterfaceClass": {
+      "ObjectName": "BlueprintGeneratedClass'BPI_ComWin_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Common/ComWin/BPI_ComWin.14"
+    }
+  },
+  {
+    "Type": "InterfaceProperty",
+    "Name": "K2Node_DynamicCast_AsBPI_Com_Win",
+    "Outer": "UnBindAllAnimationFinished",
+    "Class": "UScriptClass'InterfaceProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "InterfaceClass": {
+      "ObjectName": "BlueprintGeneratedClass'BPI_ComWin_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Common/ComWin/BPI_ComWin.14"
+    }
+  },
+  {
+    "Type": "InterfaceProperty",
+    "Name": "K2Node_DynamicCast_AsBPI_Com_Win_1",
+    "Outer": "UnBindAllAnimationFinished",
+    "Class": "UScriptClass'InterfaceProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "InterfaceClass": {
+      "ObjectName": "BlueprintGeneratedClass'BPI_ComWin_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Common/ComWin/BPI_ComWin.14"
+    }
+  },
+  {
+    "Type": "InterfaceProperty",
+    "Name": "K2Node_DynamicCast_AsBPI_Com_Win",
+    "Outer": "UniqueBindInAnimationFinished",
+    "Class": "UScriptClass'InterfaceProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "InterfaceClass": {
+      "ObjectName": "BlueprintGeneratedClass'BPI_ComWin_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Common/ComWin/BPI_ComWin.14"
+    }
+  },
+  {
+    "Type": "InterfaceProperty",
+    "Name": "K2Node_DynamicCast_AsBPI_Com_Win",
+    "Outer": "UniqueBindOutAnimationFinished",
+    "Class": "UScriptClass'InterfaceProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "InterfaceClass": {
+      "ObjectName": "BlueprintGeneratedClass'BPI_ComWin_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Common/ComWin/BPI_ComWin.14"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_Add_IntInt_ReturnValue",
+    "Outer": "BindInAnimationFinished",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_Array_Length_ReturnValue",
+    "Outer": "BindInAnimationFinished",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "Temp_int_Array_Index_Variable",
+    "Outer": "BindInAnimationFinished",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "Temp_int_Loop_Counter_Variable",
+    "Outer": "BindInAnimationFinished",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_Add_IntInt_ReturnValue",
+    "Outer": "BindOutAnimationFinished",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_Array_Length_ReturnValue",
+    "Outer": "BindOutAnimationFinished",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "Temp_int_Array_Index_Variable",
+    "Outer": "BindOutAnimationFinished",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "Temp_int_Loop_Counter_Variable",
+    "Outer": "BindOutAnimationFinished",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_Add_IntInt_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_Com_PopMaster",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_Add_IntInt_ReturnValue_1",
+    "Outer": "ExecuteUbergraph_WBP_Com_PopMaster",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_Array_Add_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_Com_PopMaster",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_Array_Length_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_Com_PopMaster",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_GetNumWidgets_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_Com_PopMaster",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_Subtract_IntInt_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_Com_PopMaster",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "Temp_int_Array_Index_Variable",
+    "Outer": "ExecuteUbergraph_WBP_Com_PopMaster",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "Temp_int_Loop_Counter_Variable",
+    "Outer": "ExecuteUbergraph_WBP_Com_PopMaster",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "Temp_int_Variable",
+    "Outer": "ExecuteUbergraph_WBP_Com_PopMaster",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_Add_IntInt_ReturnValue",
+    "Outer": "UnBindAllAnimationFinished",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_Array_Length_ReturnValue",
+    "Outer": "UnBindAllAnimationFinished",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "Temp_int_Loop_Counter_Variable",
+    "Outer": "UnBindAllAnimationFinished",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_Add_IntInt_ReturnValue",
+    "Outer": "UniqueBindInAnimationFinished",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_Array_Length_ReturnValue",
+    "Outer": "UniqueBindInAnimationFinished",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "Temp_int_Array_Index_Variable",
+    "Outer": "UniqueBindInAnimationFinished",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "Temp_int_Loop_Counter_Variable",
+    "Outer": "UniqueBindInAnimationFinished",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_Add_IntInt_ReturnValue",
+    "Outer": "UniqueBindOutAnimationFinished",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_Array_Length_ReturnValue",
+    "Outer": "UniqueBindOutAnimationFinished",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "Temp_int_Array_Index_Variable",
+    "Outer": "UniqueBindOutAnimationFinished",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "Temp_int_Loop_Counter_Variable",
+    "Outer": "UniqueBindOutAnimationFinished",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_Array_Get_Item",
+    "Outer": "BindInAnimationFinished",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "InstancedReference",
+    "PropertyClass": {
+      "ObjectName": "Class'Widget'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetInAnimation_Animation",
+    "Outer": "BindInAnimationFinished",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyClass": {
+      "ObjectName": "Class'WidgetAnimation'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "K2Node_DynamicCast_AsUser_Widget",
+    "Outer": "BindInAnimationFinished",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "InstancedReference",
+    "PropertyClass": {
+      "ObjectName": "Class'UserWidget'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_Array_Get_Item",
+    "Outer": "BindOutAnimationFinished",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "InstancedReference",
+    "PropertyClass": {
+      "ObjectName": "Class'Widget'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetOutAnimation_Animation",
+    "Outer": "BindOutAnimationFinished",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyClass": {
+      "ObjectName": "Class'WidgetAnimation'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "K2Node_DynamicCast_AsUser_Widget",
+    "Outer": "BindOutAnimationFinished",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "InstancedReference",
+    "PropertyClass": {
+      "ObjectName": "Class'UserWidget'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_Array_Get_Item",
+    "Outer": "ExecuteUbergraph_WBP_Com_PopMaster",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "InstancedReference",
+    "PropertyClass": {
+      "ObjectName": "Class'Widget'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetWidgetAtIndex_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_Com_PopMaster",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "InstancedReference",
+    "PropertyClass": {
+      "ObjectName": "Class'Widget'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetActiveWidget_ReturnValue",
+    "Outer": "GetOutAnimationDuration",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "InstancedReference",
+    "PropertyClass": {
+      "ObjectName": "Class'Widget'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetActiveWidget_ReturnValue",
+    "Outer": "In",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "InstancedReference",
+    "PropertyClass": {
+      "ObjectName": "Class'Widget'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetActiveWidget_ReturnValue",
+    "Outer": "SetText",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "InstancedReference",
+    "PropertyClass": {
+      "ObjectName": "Class'Widget'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_Array_Get_Item",
+    "Outer": "UnBindAllAnimationFinished",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "InstancedReference",
+    "PropertyClass": {
+      "ObjectName": "Class'Widget'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetInAnimation_Animation",
+    "Outer": "UnBindAllAnimationFinished",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyClass": {
+      "ObjectName": "Class'WidgetAnimation'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetOutAnimation_Animation",
+    "Outer": "UnBindAllAnimationFinished",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyClass": {
+      "ObjectName": "Class'WidgetAnimation'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "K2Node_DynamicCast_AsUser_Widget",
+    "Outer": "UnBindAllAnimationFinished",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "InstancedReference",
+    "PropertyClass": {
+      "ObjectName": "Class'UserWidget'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_Array_Get_Item",
+    "Outer": "UniqueBindInAnimationFinished",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "InstancedReference",
+    "PropertyClass": {
+      "ObjectName": "Class'Widget'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetInAnimation_Animation",
+    "Outer": "UniqueBindInAnimationFinished",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyClass": {
+      "ObjectName": "Class'WidgetAnimation'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "K2Node_DynamicCast_AsUser_Widget",
+    "Outer": "UniqueBindInAnimationFinished",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "InstancedReference",
+    "PropertyClass": {
+      "ObjectName": "Class'UserWidget'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_Array_Get_Item",
+    "Outer": "UniqueBindOutAnimationFinished",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "InstancedReference",
+    "PropertyClass": {
+      "ObjectName": "Class'Widget'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetOutAnimation_Animation",
+    "Outer": "UniqueBindOutAnimationFinished",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyClass": {
+      "ObjectName": "Class'WidgetAnimation'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "K2Node_DynamicCast_AsUser_Widget",
+    "Outer": "UniqueBindOutAnimationFinished",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "InstancedReference",
+    "PropertyClass": {
+      "ObjectName": "Class'UserWidget'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "WidgetSwitcher",
+    "Outer": "WBP_Com_PopMaster_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'WidgetSwitcher'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "Spacer",
+    "Name": "Spacer",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Spacer'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_ComWIn_Info.WidgetTree_0.CanvasPanel.CanvasPanelSlot_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.66"
+      }
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "P_Text_01",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "ABF87A4344D48ED18EEEA9ABA489EAAD",
+        "SourceString": "一行全角六十文字ああああああああああああああああああああああああああああああああああああああああああ\r\n一行全角六十文字ああああああああああああああああああああああああああああああああああああああああああ\r\n一行全角六十文字ああああああああああああああああああああああああああああああああああああああああああ",
+        "LocalizedString": "一行全角六十文字ああああああああああああああああああああああああああああああああああああああああああ\r\n一行全角六十文字ああああああああああああああああああああああああああああああああああああああああああ\r\n一行全角六十文字ああああああああああああああああああああああああああああああああああああああああああ"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 0.791298,
+          "G": 0.791298,
+          "B": 0.791298,
+          "A": 1.0,
+          "Hex": "E6E6E6"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "TypefaceFontName": "RodinN_B",
+        "Size": 18
+      },
+      "ShadowOffset": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "WrapTextAt": 1201.0,
+      "LineHeightPercentage": 2.0,
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_ComWIn_Info.WidgetTree_0.CanvasPanel.CanvasPanelSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.65"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "WBP_Com_PopMaster_C",
+    "Name": "WidgetArchetype",
+    "Class": "WidgetBlueprintGeneratedClass'GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.WBP_Com_PopMaster_C'",
+    "Template": {
+      "ObjectName": "WBP_Com_PopMaster_C'Default__WBP_Com_PopMaster_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.2"
+    },
+    "Flags": "RF_Public | RF_Standalone | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "WBP_ComWIn_Info": {
+        "ObjectName": "WBP_ComWIn_Info_C'WidgetArchetype:WidgetTree_0.WBP_ComWIn_Info'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.158"
+      },
+      "WidgetSwitcher": {
+        "ObjectName": "WidgetSwitcher'WidgetArchetype:WidgetTree_0.WidgetSwitcher'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.160"
+      },
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.164"
+      },
+      "bCookedWidgetTree": true
+    }
+  },
+  {
+    "Type": "WBP_ComWin_C",
+    "Name": "WBP_ComWin_1",
+    "Outer": "WidgetTree_0",
+    "Class": "WidgetBlueprintGeneratedClass'GameProject/Content/IND/UI/Common/ComWin/WBP_ComWin.WBP_ComWin_C'",
+    "Template": {
+      "ObjectName": "WBP_ComWin_C'Default__WBP_ComWin_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Common/ComWin/WBP_ComWin.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Base": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_ComWIn_Info.WidgetTree_0.WBP_ComWin_1.WidgetTree_0.Base'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.82"
+      },
+      "Frame01": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_ComWIn_Info.WidgetTree_0.WBP_ComWin_1.WidgetTree_0.Frame01'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.83"
+      },
+      "Frame02": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_ComWIn_Info.WidgetTree_0.WBP_ComWin_1.WidgetTree_0.Frame02'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.84"
+      },
+      "Frame03": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_ComWIn_Info.WidgetTree_0.WBP_ComWin_1.WidgetTree_0.Frame03'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.85"
+      },
+      "FrameBronze": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_ComWIn_Info.WidgetTree_0.WBP_ComWin_1.WidgetTree_0.FrameBronze'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.86"
+      },
+      "FrameGold": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_ComWIn_Info.WidgetTree_0.WBP_ComWin_1.WidgetTree_0.FrameGold'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.87"
+      },
+      "FrameSilver": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_ComWIn_Info.WidgetTree_0.WBP_ComWin_1.WidgetTree_0.FrameSilver'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.88"
+      },
+      "Logo": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_ComWIn_Info.WidgetTree_0.WBP_ComWin_1.WidgetTree_0.Logo'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.89"
+      },
+      "Pattern01": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_ComWIn_Info.WidgetTree_0.WBP_ComWin_1.WidgetTree_0.Pattern01'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.90"
+      },
+      "Pattern02": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_ComWIn_Info.WidgetTree_0.WBP_ComWin_1.WidgetTree_0.Pattern02'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.91"
+      },
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.WBP_ComWIn_Info.WidgetTree_0.WBP_ComWin_1.WidgetTree_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.166"
+      },
+      "bCookedWidgetTree": true,
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_ComWIn_Info.WidgetTree_0.CanvasPanel.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.64"
+      }
+    }
+  },
+  {
+    "Type": "WBP_ComWIn_Info_C",
+    "Name": "WBP_ComWIn_Info",
+    "Outer": "WidgetTree",
+    "Class": "WidgetBlueprintGeneratedClass'GameProject/Content/IND/UI/Common/ComWin/WBP_ComWIn_Info.WBP_ComWIn_Info_C'",
+    "Template": {
+      "ObjectName": "WBP_ComWIn_Info_C'Default__WBP_ComWIn_Info_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Common/ComWin/WBP_ComWIn_Info.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slot": {
+        "ObjectName": "WidgetSwitcherSlot'WBP_Com_PopMaster_C:WidgetTree.WidgetSwitcher.WidgetSwitcherSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.161"
+      }
+    }
+  },
+  {
+    "Type": "WBP_ComWIn_Info_C",
+    "Name": "WBP_ComWIn_Info",
+    "Outer": "WidgetTree_0",
+    "Class": "WidgetBlueprintGeneratedClass'GameProject/Content/IND/UI/Common/ComWin/WBP_ComWIn_Info.WBP_ComWIn_Info_C'",
+    "Template": {
+      "ObjectName": "WBP_ComWIn_Info_C'Default__WBP_ComWIn_Info_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Common/ComWin/WBP_ComWIn_Info.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "P_Text_01": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.WBP_ComWIn_Info.WidgetTree_0.P_Text_01'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.154"
+      },
+      "WBP_ComWin_1": {
+        "ObjectName": "WBP_ComWin_C'WidgetArchetype:WidgetTree_0.WBP_ComWIn_Info.WidgetTree_0.WBP_ComWin_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.156"
+      },
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.WBP_ComWIn_Info.WidgetTree_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.165"
+      },
+      "bCookedWidgetTree": true,
+      "Slot": {
+        "ObjectName": "WidgetSwitcherSlot'WidgetArchetype:WidgetTree_0.WidgetSwitcher.WidgetSwitcherSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.162"
+      }
+    }
+  },
+  {
+    "Type": "WidgetSwitcher",
+    "Name": "WidgetSwitcher",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'WidgetSwitcher'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "WidgetSwitcherSlot'WBP_Com_PopMaster_C:WidgetTree.WidgetSwitcher.WidgetSwitcherSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.161"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "WidgetSwitcher",
+    "Name": "WidgetSwitcher",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'WidgetSwitcher'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "WidgetSwitcherSlot'WidgetArchetype:WidgetTree_0.WidgetSwitcher.WidgetSwitcherSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.162"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "WidgetSwitcherSlot",
+    "Name": "WidgetSwitcherSlot_0",
+    "Outer": "WidgetSwitcher",
+    "Class": "UScriptClass'WidgetSwitcherSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "WidgetSwitcher'WBP_Com_PopMaster_C:WidgetTree.WidgetSwitcher'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.159"
+      },
+      "Content": {
+        "ObjectName": "WBP_ComWIn_Info_C'WBP_Com_PopMaster_C:WidgetTree.WBP_ComWIn_Info'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.157"
+      }
+    }
+  },
+  {
+    "Type": "WidgetSwitcherSlot",
+    "Name": "WidgetSwitcherSlot_0",
+    "Outer": "WidgetSwitcher",
+    "Class": "UScriptClass'WidgetSwitcherSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "WidgetSwitcher'WidgetArchetype:WidgetTree_0.WidgetSwitcher'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.160"
+      },
+      "Content": {
+        "ObjectName": "WBP_ComWIn_Info_C'WidgetArchetype:WidgetTree_0.WBP_ComWIn_Info'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.158"
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Outer": "WBP_Com_PopMaster_C",
+    "Class": "UScriptClass'WidgetTree'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "WidgetSwitcher'WBP_Com_PopMaster_C:WidgetTree.WidgetSwitcher'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.159"
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree_0",
+    "Outer": "WidgetArchetype",
+    "Class": "UScriptClass'WidgetTree'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "WidgetSwitcher'WidgetArchetype:WidgetTree_0.WidgetSwitcher'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.160"
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree_0",
+    "Outer": "WBP_ComWIn_Info",
+    "Class": "UScriptClass'WidgetTree'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_ComWIn_Info.WidgetTree_0.CanvasPanel_533'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.62"
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree_0",
+    "Outer": "WBP_ComWin_1",
+    "Class": "UScriptClass'WidgetTree'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_ComWIn_Info.WidgetTree_0.WBP_ComWin_1.WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/WBP_Com_PopMaster.63"
+      }
+    }
+  }
+]

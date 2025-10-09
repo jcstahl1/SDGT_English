@@ -1,0 +1,617 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_RentalCarList",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'RentalCarInfo'",
+        "ObjectPath": "/Script/GameProject"
+      }
+    },
+    "Rows": {
+      "FR_レンタカー_S13": {
+        "RentalCarId": 0,
+        "RentalCarName": {
+          "Namespace": "",
+          "Key": "EE36F82A4587B49AEFCD3884AE93F6F4",
+          "SourceString": "SILVIA (S13)",
+          "LocalizedString": "SILVIA (S13)"
+        },
+        "TuningShopName": {
+          "Namespace": "",
+          "Key": "298480B64002D6BEF60BC08111F09155",
+          "SourceString": "Osaki Speed",
+          "LocalizedString": "Osaki Speed"
+        },
+        "TuningShopTextureRef": {
+          "AssetPathName": "/Game/IND/UI/Select/CarModel/Rental/RentalMakerLogo/T_RentalMaker_Logo_03.T_RentalMaker_Logo_03",
+          "SubPathString": ""
+        },
+        "CarId": 258,
+        "TuningStylePattern": "ETuningStylePattern::Pattern1",
+        "TuningLevel": 16,
+        "PartsIdList": [
+          17418,
+          18438,
+          35847,
+          25606,
+          36098,
+          27653,
+          11,
+          31751,
+          64886,
+          20480,
+          33792,
+          34048,
+          40960,
+          39168,
+          34304,
+          28672,
+          43264,
+          43520,
+          19456,
+          18688,
+          26880,
+          26624,
+          20736,
+          42240,
+          37888,
+          48896,
+          48129
+        ],
+        "PartsSetIdList": [],
+        "ColorId": 4,
+        "CarFlags": 86594594,
+        "NumberPlateId": 1
+      },
+      "FR_レンタカー_NA6CE": {
+        "RentalCarId": 1,
+        "RentalCarName": {
+          "Namespace": "",
+          "Key": "3816094A43B12CB46FF3268F68CF217F",
+          "SourceString": "EUNOS ROADSTER (NA6CE)",
+          "LocalizedString": "EUNOS ROADSTER (NA6CE)"
+        },
+        "TuningShopName": {
+          "Namespace": "",
+          "Key": "921A0D0E439AF4D0F1E560A31E56B8EF",
+          "SourceString": "GARAGE SG(SEGA)",
+          "LocalizedString": "GARAGE SG(SEGA)"
+        },
+        "TuningShopTextureRef": {
+          "AssetPathName": "/Game/IND/UI/Select/CarModel/Rental/RentalMakerLogo/T_RentalMaker_Logo_01.T_RentalMaker_Logo_01",
+          "SubPathString": ""
+        },
+        "CarId": 771,
+        "TuningStylePattern": "ETuningStylePattern::Pattern1",
+        "TuningLevel": 16,
+        "PartsIdList": [
+          35847,
+          36098,
+          48129,
+          27656,
+          6,
+          31751,
+          33792,
+          34048,
+          40960,
+          39168,
+          34304,
+          28672,
+          43264,
+          43520,
+          18432,
+          20480,
+          36864,
+          18688,
+          26880,
+          26624,
+          20736,
+          42240,
+          64768
+        ],
+        "PartsSetIdList": [
+          65027,
+          65029
+        ],
+        "ColorId": 2,
+        "CarFlags": 69243955,
+        "NumberPlateId": 1
+      },
+      "FR_レンタカー_ZC6": {
+        "RentalCarId": 2,
+        "RentalCarName": {
+          "Namespace": "",
+          "Key": "265DD2794E3C5B036A76A98D27A7B366",
+          "SourceString": "SUBARU BRZ S  (ZC6)",
+          "LocalizedString": "SUBARU BRZ S  (ZC6)"
+        },
+        "TuningShopName": {
+          "Namespace": "",
+          "Key": "75089AD64279105A3012379F4EE57E15",
+          "SourceString": "Tuning Shop ARAI",
+          "LocalizedString": "Tuning Shop ARAI"
+        },
+        "TuningShopTextureRef": {
+          "AssetPathName": "/Game/IND/UI/Select/CarModel/Rental/RentalMakerLogo/T_RentalMaker_Logo_06.T_RentalMaker_Logo_06",
+          "SubPathString": ""
+        },
+        "CarId": 1027,
+        "TuningStylePattern": "ETuningStylePattern::Pattern1",
+        "TuningLevel": 16,
+        "PartsIdList": [
+          17411,
+          35842,
+          25602,
+          36097,
+          27651,
+          26626,
+          28,
+          31748,
+          33792,
+          34048,
+          34304,
+          40960,
+          18432,
+          20480,
+          28672,
+          18688,
+          43264,
+          43520,
+          42240,
+          39168,
+          37888,
+          48896,
+          64768,
+          48129
+        ],
+        "PartsSetIdList": [],
+        "ColorId": 0,
+        "CarFlags": 69217331,
+        "NumberPlateId": 1
+      },
+      "FF_レンタカー_EG6": {
+        "RentalCarId": 3,
+        "RentalCarName": {
+          "Namespace": "",
+          "Key": "E27069D14323DD0CC6FB38BCBFD82BF8",
+          "SourceString": "Civic SiR･Ⅱ (EG6)",
+          "LocalizedString": "Civic SiR･Ⅱ (EG6)"
+        },
+        "TuningShopName": {
+          "Namespace": "",
+          "Key": "A1BF1CC14CC2D562A12925BBB0F3318E",
+          "SourceString": "Blessing",
+          "LocalizedString": "Blessing"
+        },
+        "TuningShopTextureRef": {
+          "AssetPathName": "/Game/IND/UI/Select/CarModel/Rental/RentalMakerLogo/T_RentalMaker_Logo_12.T_RentalMaker_Logo_12",
+          "SubPathString": ""
+        },
+        "CarId": 512,
+        "TuningStylePattern": "ETuningStylePattern::Pattern1",
+        "TuningLevel": 16,
+        "PartsIdList": [
+          17410,
+          35843,
+          25602,
+          18433,
+          36099,
+          13,
+          64862,
+          31744,
+          18688,
+          33792,
+          34048,
+          40960,
+          39168,
+          34304,
+          28672,
+          43264,
+          43520,
+          26624,
+          26880,
+          20480,
+          42240,
+          37888,
+          48129
+        ],
+        "PartsSetIdList": [
+          65055
+        ],
+        "ColorId": 9,
+        "CarFlags": 69227076,
+        "NumberPlateId": 1
+      },
+      "FF_レンタカー_ZC33S": {
+        "RentalCarId": 4,
+        "RentalCarName": {
+          "Namespace": "",
+          "Key": "2C12467F4447A851AA30C3871695806F",
+          "SourceString": "SWIFT Sport (ZC33S)",
+          "LocalizedString": "SWIFT Sport (ZC33S)"
+        },
+        "TuningShopName": {
+          "Namespace": "",
+          "Key": "1766A96C46EFA44F715BD6843B7859FA",
+          "SourceString": "Power House Brave",
+          "LocalizedString": "Power House Brave"
+        },
+        "TuningShopTextureRef": {
+          "AssetPathName": "/Game/IND/UI/Select/CarModel/Rental/RentalMakerLogo/T_RentalMaker_Logo_13.T_RentalMaker_Logo_13",
+          "SubPathString": ""
+        },
+        "CarId": 1537,
+        "TuningStylePattern": "ETuningStylePattern::Pattern2",
+        "TuningLevel": 16,
+        "PartsIdList": [
+          33792,
+          34049,
+          34304,
+          40960,
+          18432,
+          28672,
+          26624,
+          43264,
+          43520,
+          42240,
+          27649,
+          36097,
+          31745,
+          64769,
+          1,
+          48129
+        ],
+        "PartsSetIdList": [
+          65025
+        ],
+        "ColorId": 4,
+        "CarFlags": 86583808,
+        "NumberPlateId": 1
+      },
+      "FF_レンタカー_DC2": {
+        "RentalCarId": 5,
+        "RentalCarName": {
+          "Namespace": "",
+          "Key": "FAC48D24495E27C7C9613CA97EE5F74E",
+          "SourceString": "INTEGRA TYPE R (DC2)",
+          "LocalizedString": "INTEGRA TYPE R (DC2)"
+        },
+        "TuningShopName": {
+          "Namespace": "",
+          "Key": "A48871044D018852629B988893903D56",
+          "SourceString": "Sega Speed Stars (SSS)",
+          "LocalizedString": "Sega Speed Stars (SSS)"
+        },
+        "TuningShopTextureRef": {
+          "AssetPathName": "/Game/IND/UI/Select/CarModel/Rental/RentalMakerLogo/T_RentalMaker_Logo_07.T_RentalMaker_Logo_07",
+          "SubPathString": ""
+        },
+        "CarId": 514,
+        "TuningStylePattern": "ETuningStylePattern::Pattern3",
+        "TuningLevel": 16,
+        "PartsIdList": [
+          31748,
+          18435,
+          36099,
+          10,
+          33792,
+          34048,
+          40960,
+          39168,
+          34304,
+          28672,
+          43264,
+          43520,
+          20480,
+          35840,
+          18688,
+          26880,
+          25600,
+          27648,
+          26624,
+          26624,
+          42240,
+          37888,
+          64768,
+          48129
+        ],
+        "PartsSetIdList": [
+          65026
+        ],
+        "ColorId": 0,
+        "CarFlags": 86594133,
+        "NumberPlateId": 1
+      },
+      "4DW_レンタカー_GC8": {
+        "RentalCarId": 6,
+        "RentalCarName": {
+          "Namespace": "",
+          "Key": "3F34420D4D98D664026370BC57537EEE",
+          "SourceString": "IMPREZA STi Ver.Ⅴ (GC8)",
+          "LocalizedString": "IMPREZA STi Ver.Ⅴ (GC8)"
+        },
+        "TuningShopName": {
+          "Namespace": "",
+          "Key": "1E752BA84CFC9E9ECD18829080FEFC18",
+          "SourceString": "Muscle Speed",
+          "LocalizedString": "Muscle Speed"
+        },
+        "TuningShopTextureRef": {
+          "AssetPathName": "/Game/IND/UI/Select/CarModel/Rental/RentalMakerLogo/T_RentalMaker_Logo_15.T_RentalMaker_Logo_15",
+          "SubPathString": ""
+        },
+        "CarId": 1024,
+        "TuningStylePattern": "ETuningStylePattern::Pattern2",
+        "TuningLevel": 16,
+        "PartsIdList": [
+          35841,
+          36097,
+          18434,
+          27649,
+          14,
+          31750,
+          64877,
+          18688,
+          26880,
+          33792,
+          34048,
+          40960,
+          39168,
+          34304,
+          28672,
+          43264,
+          43520,
+          20480,
+          26624,
+          42240,
+          37888,
+          48896,
+          48129
+        ],
+        "PartsSetIdList": [
+          65027,
+          65034
+        ],
+        "ColorId": 10,
+        "CarFlags": 103372339,
+        "NumberPlateId": 1
+      },
+      "4DW_レンタカー_エボ9": {
+        "RentalCarId": 7,
+        "RentalCarName": {
+          "Namespace": "",
+          "Key": "BA07620142B35070E4E083BC606F1E9A",
+          "SourceString": "LANCER Evolution Ⅸ (CT9A)",
+          "LocalizedString": "LANCER Evolution Ⅸ (CT9A)"
+        },
+        "TuningShopName": {
+          "Namespace": "",
+          "Key": "B131FBE043F2BD3CCB3C419D9EF944C8",
+          "SourceString": "Makke Pon Factory(MPR)",
+          "LocalizedString": "Makke Pon Factory(MPR)"
+        },
+        "TuningShopTextureRef": {
+          "AssetPathName": "/Game/IND/UI/Select/CarModel/Rental/RentalMakerLogo/T_RentalMaker_Logo_08.T_RentalMaker_Logo_08",
+          "SubPathString": ""
+        },
+        "CarId": 1282,
+        "TuningStylePattern": "ETuningStylePattern::Pattern3",
+        "TuningLevel": 16,
+        "PartsIdList": [
+          27652,
+          18437,
+          13,
+          36099,
+          33792,
+          34048,
+          40960,
+          39168,
+          34304,
+          28672,
+          43264,
+          43520,
+          42240,
+          20480,
+          26880,
+          26624,
+          31744,
+          37632,
+          37888,
+          48896,
+          64768,
+          48129
+        ],
+        "PartsSetIdList": [
+          65035,
+          65038
+        ],
+        "ColorId": 8,
+        "CarFlags": 656485922,
+        "NumberPlateId": 1
+      },
+      "4DW_レンタカー_BNR32": {
+        "RentalCarId": 8,
+        "RentalCarName": {
+          "Namespace": "",
+          "Key": "2AFF0BF74E6D8D3DDCADDA9B45B3CB0D",
+          "SourceString": "SKYLINE GT-R (BNR32)",
+          "LocalizedString": "SKYLINE GT-R (BNR32)"
+        },
+        "TuningShopName": {
+          "Namespace": "",
+          "Key": "39AF43FF407CDBFED45846B79C6D0AE5",
+          "SourceString": "Motor Shop Ishii ",
+          "LocalizedString": "Motor Shop Ishii "
+        },
+        "TuningShopTextureRef": {
+          "AssetPathName": "/Game/IND/UI/Select/CarModel/Rental/RentalMakerLogo/T_RentalMaker_Logo_10.T_RentalMaker_Logo_10",
+          "SubPathString": ""
+        },
+        "CarId": 256,
+        "TuningStylePattern": "ETuningStylePattern::Pattern3",
+        "TuningLevel": 16,
+        "PartsIdList": [
+          35844,
+          12,
+          27655,
+          31752,
+          25600,
+          18432,
+          18688,
+          33792,
+          34048,
+          40960,
+          39168,
+          34304,
+          28672,
+          26880,
+          43264,
+          43520,
+          19456,
+          26624,
+          20480,
+          29184,
+          25856,
+          42240,
+          37888,
+          48896,
+          48129,
+          36099
+        ],
+        "PartsSetIdList": [
+          65026
+        ],
+        "ColorId": 9,
+        "CarFlags": 656479795,
+        "NumberPlateId": 1
+      },
+      "=MCR=_BNR34": {
+        "RentalCarId": 9,
+        "RentalCarName": {
+          "Namespace": "",
+          "Key": "C4FBACF64402AC7EB533B7997FFCFA89",
+          "SourceString": "SKYLINE GT-R (BNR34)",
+          "LocalizedString": "SKYLINE GT-R (BNR34)"
+        },
+        "TuningShopName": {
+          "Namespace": "",
+          "Key": "30AD9F5B4378A8F84E437489EBC8311A",
+          "SourceString": "=MCR=",
+          "LocalizedString": "=MCR="
+        },
+        "TuningShopTextureRef": {
+          "AssetPathName": "/Game/IND/UI/Select/DressUpShop/Select/Texture/MakerTexture/shop_logo_01_092.shop_logo_01_092",
+          "SubPathString": ""
+        },
+        "CarId": 257,
+        "TuningStylePattern": "ETuningStylePattern::Pattern2",
+        "TuningLevel": 16,
+        "PartsIdList": [
+          31753,
+          27657,
+          29184,
+          37888,
+          39168,
+          40960,
+          42240,
+          43264,
+          43520,
+          16,
+          48129
+        ],
+        "PartsSetIdList": [
+          65058
+        ],
+        "ColorId": 10,
+        "CarFlags": 103362116,
+        "NumberPlateId": 1
+      },
+      "FEED_FD3S6": {
+        "RentalCarId": 10,
+        "RentalCarName": {
+          "Namespace": "",
+          "Key": "32DCD7064B07CDBBE55FF1ACBF8DB4AB",
+          "SourceString": "RX-7 Type RS (FD3S)",
+          "LocalizedString": "RX-7 Type RS (FD3S)"
+        },
+        "TuningShopName": {
+          "Namespace": "",
+          "Key": "2FDEA1EC44BBD9EC33D2F888EC38C954",
+          "SourceString": "FEED",
+          "LocalizedString": "FEED"
+        },
+        "TuningShopTextureRef": {
+          "AssetPathName": "/Game/IND/UI/Select/DressUpShop/Select/Texture/MakerTexture/shop_logo_01_033.shop_logo_01_033",
+          "SubPathString": ""
+        },
+        "CarId": 773,
+        "TuningStylePattern": "ETuningStylePattern::Pattern2",
+        "TuningLevel": 16,
+        "PartsIdList": [
+          27661,
+          31753,
+          34304,
+          28672,
+          26624,
+          43264,
+          43520,
+          39168,
+          37888,
+          42240,
+          64768,
+          48129,
+          27
+        ],
+        "PartsSetIdList": [
+          65060
+        ],
+        "ColorId": 10,
+        "CarFlags": 103355443,
+        "NumberPlateId": 1
+      },
+      "JSRACING_AP1": {
+        "RentalCarId": 11,
+        "RentalCarName": {
+          "Namespace": "",
+          "Key": "2861BDFC42179057A7BC1DB2E28607D2",
+          "SourceString": "S2000 (AP1)",
+          "LocalizedString": "S2000 (AP1)"
+        },
+        "TuningShopName": {
+          "Namespace": "",
+          "Key": "C72F56F7485073343AF5A894F3EF65F2",
+          "SourceString": "J'S RACING",
+          "LocalizedString": "J'S RACING"
+        },
+        "TuningShopTextureRef": {
+          "AssetPathName": "/Game/IND/UI/Select/DressUpShop/Select/Texture/MakerTexture/shop_logo_01_075.shop_logo_01_075",
+          "SubPathString": ""
+        },
+        "CarId": 515,
+        "TuningStylePattern": "ETuningStylePattern::Pattern1",
+        "TuningLevel": 16,
+        "PartsIdList": [
+          34048,
+          40960,
+          34304,
+          43264,
+          43520,
+          42240,
+          37888,
+          64768,
+          48129,
+          32
+        ],
+        "PartsSetIdList": [
+          65053
+        ],
+        "ColorId": 10,
+        "CarFlags": 69217382,
+        "NumberPlateId": 1
+      }
+    }
+  }
+]

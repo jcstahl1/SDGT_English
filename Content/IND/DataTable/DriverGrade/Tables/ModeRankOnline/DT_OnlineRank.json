@@ -1,0 +1,1994 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_OnlineRank",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'OnlineRankTableData'",
+        "ObjectPath": "/Script/GameProject"
+      }
+    },
+    "Rows": {
+      "GUEST": {
+        "Rank": 0,
+        "RankGroup": 0,
+        "RankName": "ゲスト用",
+        "ExperienceMin": 0,
+        "ExperienceMax": 0,
+        "GradeExperience": 0,
+        "RankDownStop": false,
+        "RewardReason": {
+          "CultureInvariantString": null
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "1": {
+        "Rank": 1,
+        "RankGroup": 1,
+        "RankName": "無地",
+        "ExperienceMin": 0,
+        "ExperienceMax": 999,
+        "GradeExperience": 0,
+        "RankDownStop": false,
+        "RewardReason": {
+          "CultureInvariantString": null
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "2": {
+        "Rank": 2,
+        "RankGroup": 2,
+        "RankName": "グリーン★",
+        "ExperienceMin": 1000,
+        "ExperienceMax": 1999,
+        "GradeExperience": 10,
+        "RankDownStop": true,
+        "RewardReason": {
+          "Namespace": "DT_OnlineRank",
+          "Key": "2_RewardReason",
+          "SourceString": "Online Rank upgrade",
+          "LocalizedString": "Online Rank upgrade"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "3": {
+        "Rank": 3,
+        "RankGroup": 2,
+        "RankName": "グリーン★★",
+        "ExperienceMin": 2000,
+        "ExperienceMax": 2999,
+        "GradeExperience": 10,
+        "RankDownStop": true,
+        "RewardReason": {
+          "Namespace": "DT_OnlineRank",
+          "Key": "3_RewardReason",
+          "SourceString": "Online Rank upgrade",
+          "LocalizedString": "Online Rank upgrade"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "4": {
+        "Rank": 4,
+        "RankGroup": 2,
+        "RankName": "グリーン★★★",
+        "ExperienceMin": 3000,
+        "ExperienceMax": 3999,
+        "GradeExperience": 10,
+        "RankDownStop": true,
+        "RewardReason": {
+          "Namespace": "DT_OnlineRank",
+          "Key": "4_RewardReason",
+          "SourceString": "Online Rank upgrade",
+          "LocalizedString": "Online Rank upgrade"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "5": {
+        "Rank": 5,
+        "RankGroup": 3,
+        "RankName": "ブルー★",
+        "ExperienceMin": 4000,
+        "ExperienceMax": 4999,
+        "GradeExperience": 20,
+        "RankDownStop": true,
+        "RewardReason": {
+          "Namespace": "DT_OnlineRank",
+          "Key": "5_RewardReason",
+          "SourceString": "Online Rank upgrade to Blue★",
+          "LocalizedString": "Online Rank upgrade to Blue★"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Title",
+          "RewardID": 26
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "6": {
+        "Rank": 6,
+        "RankGroup": 3,
+        "RankName": "ブルー★★",
+        "ExperienceMin": 5000,
+        "ExperienceMax": 5999,
+        "GradeExperience": 20,
+        "RankDownStop": true,
+        "RewardReason": {
+          "Namespace": "DT_OnlineRank",
+          "Key": "6_RewardReason",
+          "SourceString": "Online Rank upgrade",
+          "LocalizedString": "Online Rank upgrade"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "7": {
+        "Rank": 7,
+        "RankGroup": 3,
+        "RankName": "ブルー★★★",
+        "ExperienceMin": 6000,
+        "ExperienceMax": 6999,
+        "GradeExperience": 20,
+        "RankDownStop": true,
+        "RewardReason": {
+          "Namespace": "DT_OnlineRank",
+          "Key": "7_RewardReason",
+          "SourceString": "Online Rank upgrade",
+          "LocalizedString": "Online Rank upgrade"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "8": {
+        "Rank": 8,
+        "RankGroup": 4,
+        "RankName": "レッド★",
+        "ExperienceMin": 7000,
+        "ExperienceMax": 7999,
+        "GradeExperience": 30,
+        "RankDownStop": true,
+        "RewardReason": {
+          "Namespace": "DT_OnlineRank",
+          "Key": "8_RewardReason",
+          "SourceString": "Online Rank upgrade to Red★",
+          "LocalizedString": "Online Rank upgrade to Red★"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Title",
+          "RewardID": 27
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "9": {
+        "Rank": 9,
+        "RankGroup": 4,
+        "RankName": "レッド★★",
+        "ExperienceMin": 8000,
+        "ExperienceMax": 8999,
+        "GradeExperience": 30,
+        "RankDownStop": true,
+        "RewardReason": {
+          "Namespace": "DT_OnlineRank",
+          "Key": "9_RewardReason",
+          "SourceString": "Online Rank upgrade",
+          "LocalizedString": "Online Rank upgrade"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "10": {
+        "Rank": 10,
+        "RankGroup": 4,
+        "RankName": "レッド★★★",
+        "ExperienceMin": 9000,
+        "ExperienceMax": 9999,
+        "GradeExperience": 30,
+        "RankDownStop": true,
+        "RewardReason": {
+          "Namespace": "DT_OnlineRank",
+          "Key": "10_RewardReason",
+          "SourceString": "Online Rank upgrade",
+          "LocalizedString": "Online Rank upgrade"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "11": {
+        "Rank": 11,
+        "RankGroup": 5,
+        "RankName": "クリアグリーン★",
+        "ExperienceMin": 10000,
+        "ExperienceMax": 10999,
+        "GradeExperience": 45,
+        "RankDownStop": true,
+        "RewardReason": {
+          "Namespace": "DT_OnlineRank",
+          "Key": "11_RewardReason",
+          "SourceString": "Online Rank upgrade to Clear Green★",
+          "LocalizedString": "Online Rank upgrade to Clear Green★"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::AuraColor",
+          "RewardID": 1
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Title",
+          "RewardID": 28
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "12": {
+        "Rank": 12,
+        "RankGroup": 5,
+        "RankName": "クリアグリーン★★",
+        "ExperienceMin": 11000,
+        "ExperienceMax": 11999,
+        "GradeExperience": 45,
+        "RankDownStop": false,
+        "RewardReason": {
+          "Namespace": "DT_OnlineRank",
+          "Key": "12_RewardReason",
+          "SourceString": "Online Rank upgrade",
+          "LocalizedString": "Online Rank upgrade"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "13": {
+        "Rank": 13,
+        "RankGroup": 6,
+        "RankName": "クリアグリーン★★★",
+        "ExperienceMin": 12000,
+        "ExperienceMax": 12999,
+        "GradeExperience": 45,
+        "RankDownStop": false,
+        "RewardReason": {
+          "Namespace": "DT_OnlineRank",
+          "Key": "13_RewardReason",
+          "SourceString": "Online Rank upgrade",
+          "LocalizedString": "Online Rank upgrade"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "14": {
+        "Rank": 14,
+        "RankGroup": 6,
+        "RankName": "クリアグリーン★★★★",
+        "ExperienceMin": 13000,
+        "ExperienceMax": 13999,
+        "GradeExperience": 45,
+        "RankDownStop": false,
+        "RewardReason": {
+          "Namespace": "DT_OnlineRank",
+          "Key": "14_RewardReason",
+          "SourceString": "Online Rank upgrade",
+          "LocalizedString": "Online Rank upgrade"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "15": {
+        "Rank": 15,
+        "RankGroup": 6,
+        "RankName": "クリアグリーン★★★★★",
+        "ExperienceMin": 14000,
+        "ExperienceMax": 14999,
+        "GradeExperience": 45,
+        "RankDownStop": false,
+        "RewardReason": {
+          "Namespace": "DT_OnlineRank",
+          "Key": "15_RewardReason",
+          "SourceString": "Online Rank upgrade",
+          "LocalizedString": "Online Rank upgrade"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "16": {
+        "Rank": 16,
+        "RankGroup": 7,
+        "RankName": "クリアブルー★",
+        "ExperienceMin": 15000,
+        "ExperienceMax": 15999,
+        "GradeExperience": 70,
+        "RankDownStop": true,
+        "RewardReason": {
+          "Namespace": "DT_OnlineRank",
+          "Key": "16_RewardReason",
+          "SourceString": "Online Rank upgrade to Clear Blue★",
+          "LocalizedString": "Online Rank upgrade to Clear Blue★"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::AuraColor",
+          "RewardID": 2
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Title",
+          "RewardID": 29
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "17": {
+        "Rank": 17,
+        "RankGroup": 7,
+        "RankName": "クリアブルー★★",
+        "ExperienceMin": 16000,
+        "ExperienceMax": 16999,
+        "GradeExperience": 70,
+        "RankDownStop": false,
+        "RewardReason": {
+          "Namespace": "DT_OnlineRank",
+          "Key": "17_RewardReason",
+          "SourceString": "Online Rank upgrade",
+          "LocalizedString": "Online Rank upgrade"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "18": {
+        "Rank": 18,
+        "RankGroup": 8,
+        "RankName": "クリアブルー★★★",
+        "ExperienceMin": 17000,
+        "ExperienceMax": 17999,
+        "GradeExperience": 70,
+        "RankDownStop": false,
+        "RewardReason": {
+          "Namespace": "DT_OnlineRank",
+          "Key": "18_RewardReason",
+          "SourceString": "Online Rank upgrade",
+          "LocalizedString": "Online Rank upgrade"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "19": {
+        "Rank": 19,
+        "RankGroup": 8,
+        "RankName": "クリアブルー★★★★",
+        "ExperienceMin": 18000,
+        "ExperienceMax": 18999,
+        "GradeExperience": 70,
+        "RankDownStop": false,
+        "RewardReason": {
+          "Namespace": "DT_OnlineRank",
+          "Key": "19_RewardReason",
+          "SourceString": "Online Rank upgrade",
+          "LocalizedString": "Online Rank upgrade"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "20": {
+        "Rank": 20,
+        "RankGroup": 8,
+        "RankName": "クリアブルー★★★★★",
+        "ExperienceMin": 19000,
+        "ExperienceMax": 19999,
+        "GradeExperience": 70,
+        "RankDownStop": false,
+        "RewardReason": {
+          "Namespace": "DT_OnlineRank",
+          "Key": "20_RewardReason",
+          "SourceString": "Online Rank upgrade",
+          "LocalizedString": "Online Rank upgrade"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "21": {
+        "Rank": 21,
+        "RankGroup": 9,
+        "RankName": "クリアレッド★",
+        "ExperienceMin": 20000,
+        "ExperienceMax": 20999,
+        "GradeExperience": 105,
+        "RankDownStop": true,
+        "RewardReason": {
+          "Namespace": "DT_OnlineRank",
+          "Key": "21_RewardReason",
+          "SourceString": "Online Rank upgrade to Clear Red★",
+          "LocalizedString": "Online Rank upgrade to Clear Red★"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::AuraColor",
+          "RewardID": 3
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Title",
+          "RewardID": 30
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "22": {
+        "Rank": 22,
+        "RankGroup": 9,
+        "RankName": "クリアレッド★★",
+        "ExperienceMin": 21000,
+        "ExperienceMax": 21999,
+        "GradeExperience": 105,
+        "RankDownStop": false,
+        "RewardReason": {
+          "Namespace": "DT_OnlineRank",
+          "Key": "22_RewardReason",
+          "SourceString": "Online Rank upgrade",
+          "LocalizedString": "Online Rank upgrade"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "23": {
+        "Rank": 23,
+        "RankGroup": 10,
+        "RankName": "クリアレッド★★★",
+        "ExperienceMin": 22000,
+        "ExperienceMax": 22999,
+        "GradeExperience": 105,
+        "RankDownStop": false,
+        "RewardReason": {
+          "Namespace": "DT_OnlineRank",
+          "Key": "23_RewardReason",
+          "SourceString": "Online Rank upgrade",
+          "LocalizedString": "Online Rank upgrade"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "24": {
+        "Rank": 24,
+        "RankGroup": 10,
+        "RankName": "クリアレッド★★★★",
+        "ExperienceMin": 23000,
+        "ExperienceMax": 23999,
+        "GradeExperience": 105,
+        "RankDownStop": false,
+        "RewardReason": {
+          "Namespace": "DT_OnlineRank",
+          "Key": "24_RewardReason",
+          "SourceString": "Online Rank upgrade",
+          "LocalizedString": "Online Rank upgrade"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "25": {
+        "Rank": 25,
+        "RankGroup": 10,
+        "RankName": "クリアレッド★★★★★",
+        "ExperienceMin": 24000,
+        "ExperienceMax": 24999,
+        "GradeExperience": 105,
+        "RankDownStop": false,
+        "RewardReason": {
+          "Namespace": "DT_OnlineRank",
+          "Key": "25_RewardReason",
+          "SourceString": "Online Rank upgrade",
+          "LocalizedString": "Online Rank upgrade"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "26": {
+        "Rank": 26,
+        "RankGroup": 11,
+        "RankName": "エメラルド★",
+        "ExperienceMin": 25000,
+        "ExperienceMax": 25999,
+        "GradeExperience": 160,
+        "RankDownStop": false,
+        "RewardReason": {
+          "Namespace": "DT_OnlineRank",
+          "Key": "26_RewardReason",
+          "SourceString": "Online Rank upgrade to Emerald★",
+          "LocalizedString": "Online Rank upgrade to Emerald★"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::AuraColor",
+          "RewardID": 4
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Title",
+          "RewardID": 31
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "27": {
+        "Rank": 27,
+        "RankGroup": 11,
+        "RankName": "エメラルド★★",
+        "ExperienceMin": 26000,
+        "ExperienceMax": 26999,
+        "GradeExperience": 160,
+        "RankDownStop": false,
+        "RewardReason": {
+          "Namespace": "DT_OnlineRank",
+          "Key": "27_RewardReason",
+          "SourceString": "Online Rank upgrade",
+          "LocalizedString": "Online Rank upgrade"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "28": {
+        "Rank": 28,
+        "RankGroup": 12,
+        "RankName": "エメラルド★★★",
+        "ExperienceMin": 27000,
+        "ExperienceMax": 27999,
+        "GradeExperience": 160,
+        "RankDownStop": false,
+        "RewardReason": {
+          "Namespace": "DT_OnlineRank",
+          "Key": "28_RewardReason",
+          "SourceString": "Online Rank upgrade",
+          "LocalizedString": "Online Rank upgrade"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "29": {
+        "Rank": 29,
+        "RankGroup": 12,
+        "RankName": "エメラルド★★★★",
+        "ExperienceMin": 28000,
+        "ExperienceMax": 28999,
+        "GradeExperience": 160,
+        "RankDownStop": false,
+        "RewardReason": {
+          "Namespace": "DT_OnlineRank",
+          "Key": "29_RewardReason",
+          "SourceString": "Online Rank upgrade",
+          "LocalizedString": "Online Rank upgrade"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "30": {
+        "Rank": 30,
+        "RankGroup": 13,
+        "RankName": "エメラルド★★★★★",
+        "ExperienceMin": 29000,
+        "ExperienceMax": 29999,
+        "GradeExperience": 160,
+        "RankDownStop": false,
+        "RewardReason": {
+          "Namespace": "DT_OnlineRank",
+          "Key": "30_RewardReason",
+          "SourceString": "Online Rank upgrade",
+          "LocalizedString": "Online Rank upgrade"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "31": {
+        "Rank": 31,
+        "RankGroup": 13,
+        "RankName": "エメラルド★★★★★★",
+        "ExperienceMin": 30000,
+        "ExperienceMax": 30999,
+        "GradeExperience": 160,
+        "RankDownStop": false,
+        "RewardReason": {
+          "Namespace": "DT_OnlineRank",
+          "Key": "31_RewardReason",
+          "SourceString": "Online Rank upgrade",
+          "LocalizedString": "Online Rank upgrade"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "32": {
+        "Rank": 32,
+        "RankGroup": 14,
+        "RankName": "サファイア★",
+        "ExperienceMin": 31000,
+        "ExperienceMax": 31999,
+        "GradeExperience": 240,
+        "RankDownStop": false,
+        "RewardReason": {
+          "Namespace": "DT_OnlineRank",
+          "Key": "32_RewardReason",
+          "SourceString": "Online Rank upgrade to Sapphire★",
+          "LocalizedString": "Online Rank upgrade to Sapphire★"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::AuraColor",
+          "RewardID": 5
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Title",
+          "RewardID": 32
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "33": {
+        "Rank": 33,
+        "RankGroup": 14,
+        "RankName": "サファイア★★",
+        "ExperienceMin": 32000,
+        "ExperienceMax": 32999,
+        "GradeExperience": 240,
+        "RankDownStop": false,
+        "RewardReason": {
+          "Namespace": "DT_OnlineRank",
+          "Key": "33_RewardReason",
+          "SourceString": "Online Rank upgrade",
+          "LocalizedString": "Online Rank upgrade"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "34": {
+        "Rank": 34,
+        "RankGroup": 15,
+        "RankName": "サファイア★★★",
+        "ExperienceMin": 33000,
+        "ExperienceMax": 33999,
+        "GradeExperience": 240,
+        "RankDownStop": false,
+        "RewardReason": {
+          "Namespace": "DT_OnlineRank",
+          "Key": "34_RewardReason",
+          "SourceString": "Online Rank upgrade",
+          "LocalizedString": "Online Rank upgrade"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "35": {
+        "Rank": 35,
+        "RankGroup": 15,
+        "RankName": "サファイア★★★★",
+        "ExperienceMin": 34000,
+        "ExperienceMax": 34999,
+        "GradeExperience": 240,
+        "RankDownStop": false,
+        "RewardReason": {
+          "Namespace": "DT_OnlineRank",
+          "Key": "35_RewardReason",
+          "SourceString": "Online Rank upgrade",
+          "LocalizedString": "Online Rank upgrade"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "36": {
+        "Rank": 36,
+        "RankGroup": 15,
+        "RankName": "サファイア★★★★★",
+        "ExperienceMin": 35000,
+        "ExperienceMax": 35999,
+        "GradeExperience": 240,
+        "RankDownStop": false,
+        "RewardReason": {
+          "Namespace": "DT_OnlineRank",
+          "Key": "36_RewardReason",
+          "SourceString": "Online Rank upgrade",
+          "LocalizedString": "Online Rank upgrade"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "37": {
+        "Rank": 37,
+        "RankGroup": 16,
+        "RankName": "サファイア★★★★★★",
+        "ExperienceMin": 36000,
+        "ExperienceMax": 36999,
+        "GradeExperience": 240,
+        "RankDownStop": false,
+        "RewardReason": {
+          "Namespace": "DT_OnlineRank",
+          "Key": "37_RewardReason",
+          "SourceString": "Online Rank upgrade",
+          "LocalizedString": "Online Rank upgrade"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "38": {
+        "Rank": 38,
+        "RankGroup": 16,
+        "RankName": "サファイア★★★★★★★",
+        "ExperienceMin": 37000,
+        "ExperienceMax": 37999,
+        "GradeExperience": 240,
+        "RankDownStop": false,
+        "RewardReason": {
+          "Namespace": "DT_OnlineRank",
+          "Key": "38_RewardReason",
+          "SourceString": "Online Rank upgrade",
+          "LocalizedString": "Online Rank upgrade"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "39": {
+        "Rank": 39,
+        "RankGroup": 14,
+        "RankName": "ルビー★",
+        "ExperienceMin": 38000,
+        "ExperienceMax": 38999,
+        "GradeExperience": 360,
+        "RankDownStop": false,
+        "RewardReason": {
+          "Namespace": "DT_OnlineRank",
+          "Key": "39_RewardReason",
+          "SourceString": "Online Rank upgrade to Ruby★",
+          "LocalizedString": "Online Rank upgrade to Ruby★"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::AuraColor",
+          "RewardID": 10
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Title",
+          "RewardID": 33
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "40": {
+        "Rank": 40,
+        "RankGroup": 14,
+        "RankName": "ルビー★★",
+        "ExperienceMin": 39000,
+        "ExperienceMax": 39999,
+        "GradeExperience": 360,
+        "RankDownStop": false,
+        "RewardReason": {
+          "Namespace": "DT_OnlineRank",
+          "Key": "40_RewardReason",
+          "SourceString": "Online Rank upgrade",
+          "LocalizedString": "Online Rank upgrade"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "41": {
+        "Rank": 41,
+        "RankGroup": 14,
+        "RankName": "ルビー★★★",
+        "ExperienceMin": 40000,
+        "ExperienceMax": 40999,
+        "GradeExperience": 360,
+        "RankDownStop": false,
+        "RewardReason": {
+          "Namespace": "DT_OnlineRank",
+          "Key": "41_RewardReason",
+          "SourceString": "Online Rank upgrade",
+          "LocalizedString": "Online Rank upgrade"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "42": {
+        "Rank": 42,
+        "RankGroup": 14,
+        "RankName": "ルビー★★★★",
+        "ExperienceMin": 41000,
+        "ExperienceMax": 41999,
+        "GradeExperience": 360,
+        "RankDownStop": false,
+        "RewardReason": {
+          "Namespace": "DT_OnlineRank",
+          "Key": "42_RewardReason",
+          "SourceString": "Online Rank upgrade",
+          "LocalizedString": "Online Rank upgrade"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "43": {
+        "Rank": 43,
+        "RankGroup": 14,
+        "RankName": "ルビー★★★★★",
+        "ExperienceMin": 42000,
+        "ExperienceMax": 42999,
+        "GradeExperience": 360,
+        "RankDownStop": false,
+        "RewardReason": {
+          "Namespace": "DT_OnlineRank",
+          "Key": "43_RewardReason",
+          "SourceString": "Online Rank upgrade",
+          "LocalizedString": "Online Rank upgrade"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "44": {
+        "Rank": 44,
+        "RankGroup": 14,
+        "RankName": "ルビー★★★★★★",
+        "ExperienceMin": 43000,
+        "ExperienceMax": 43999,
+        "GradeExperience": 360,
+        "RankDownStop": false,
+        "RewardReason": {
+          "Namespace": "DT_OnlineRank",
+          "Key": "44_RewardReason",
+          "SourceString": "Online Rank upgrade",
+          "LocalizedString": "Online Rank upgrade"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "45": {
+        "Rank": 45,
+        "RankGroup": 14,
+        "RankName": "ルビー★★★★★★★",
+        "ExperienceMin": 44000,
+        "ExperienceMax": 44999,
+        "GradeExperience": 360,
+        "RankDownStop": false,
+        "RewardReason": {
+          "Namespace": "DT_OnlineRank",
+          "Key": "45_RewardReason",
+          "SourceString": "Online Rank upgrade",
+          "LocalizedString": "Online Rank upgrade"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "46": {
+        "Rank": 46,
+        "RankGroup": 14,
+        "RankName": "ルビー★★★★★★★★",
+        "ExperienceMin": 45000,
+        "ExperienceMax": 45999,
+        "GradeExperience": 360,
+        "RankDownStop": false,
+        "RewardReason": {
+          "Namespace": "DT_OnlineRank",
+          "Key": "46_RewardReason",
+          "SourceString": "Online Rank upgrade",
+          "LocalizedString": "Online Rank upgrade"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "47": {
+        "Rank": 47,
+        "RankGroup": 14,
+        "RankName": "ブラックダイヤモンド★",
+        "ExperienceMin": 46000,
+        "ExperienceMax": 46999,
+        "GradeExperience": 540,
+        "RankDownStop": false,
+        "RewardReason": {
+          "Namespace": "DT_OnlineRank",
+          "Key": "47_RewardReason",
+          "SourceString": "Online Rank upgrade to Black Diamond★",
+          "LocalizedString": "Online Rank upgrade to Black Diamond★"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::AuraColor",
+          "RewardID": 10
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Title",
+          "RewardID": 34
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "48": {
+        "Rank": 48,
+        "RankGroup": 14,
+        "RankName": "ブラックダイヤモンド★★",
+        "ExperienceMin": 47000,
+        "ExperienceMax": 47999,
+        "GradeExperience": 540,
+        "RankDownStop": false,
+        "RewardReason": {
+          "Namespace": "DT_OnlineRank",
+          "Key": "48_RewardReason",
+          "SourceString": "Online Rank upgrade",
+          "LocalizedString": "Online Rank upgrade"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "49": {
+        "Rank": 49,
+        "RankGroup": 14,
+        "RankName": "ブラックダイヤモンド★★★",
+        "ExperienceMin": 48000,
+        "ExperienceMax": 48999,
+        "GradeExperience": 540,
+        "RankDownStop": false,
+        "RewardReason": {
+          "Namespace": "DT_OnlineRank",
+          "Key": "49_RewardReason",
+          "SourceString": "Online Rank upgrade",
+          "LocalizedString": "Online Rank upgrade"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "50": {
+        "Rank": 50,
+        "RankGroup": 14,
+        "RankName": "ブラックダイヤモンド★★★★",
+        "ExperienceMin": 49000,
+        "ExperienceMax": 49999,
+        "GradeExperience": 540,
+        "RankDownStop": false,
+        "RewardReason": {
+          "Namespace": "DT_OnlineRank",
+          "Key": "50_RewardReason",
+          "SourceString": "Online Rank upgrade",
+          "LocalizedString": "Online Rank upgrade"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "51": {
+        "Rank": 51,
+        "RankGroup": 14,
+        "RankName": "ブラックダイヤモンド★★★★★",
+        "ExperienceMin": 50000,
+        "ExperienceMax": 50999,
+        "GradeExperience": 540,
+        "RankDownStop": false,
+        "RewardReason": {
+          "Namespace": "DT_OnlineRank",
+          "Key": "51_RewardReason",
+          "SourceString": "Online Rank upgrade",
+          "LocalizedString": "Online Rank upgrade"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "52": {
+        "Rank": 52,
+        "RankGroup": 14,
+        "RankName": "ブラックダイヤモンド★★★★★★",
+        "ExperienceMin": 51000,
+        "ExperienceMax": 51999,
+        "GradeExperience": 540,
+        "RankDownStop": false,
+        "RewardReason": {
+          "Namespace": "DT_OnlineRank",
+          "Key": "52_RewardReason",
+          "SourceString": "Online Rank upgrade",
+          "LocalizedString": "Online Rank upgrade"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "53": {
+        "Rank": 53,
+        "RankGroup": 14,
+        "RankName": "ブラックダイヤモンド★★★★★★★",
+        "ExperienceMin": 52000,
+        "ExperienceMax": 52999,
+        "GradeExperience": 540,
+        "RankDownStop": false,
+        "RewardReason": {
+          "Namespace": "DT_OnlineRank",
+          "Key": "53_RewardReason",
+          "SourceString": "Online Rank upgrade",
+          "LocalizedString": "Online Rank upgrade"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "54": {
+        "Rank": 54,
+        "RankGroup": 14,
+        "RankName": "ブラックダイヤモンド★★★★★★★★",
+        "ExperienceMin": 53000,
+        "ExperienceMax": 53999,
+        "GradeExperience": 540,
+        "RankDownStop": false,
+        "RewardReason": {
+          "Namespace": "DT_OnlineRank",
+          "Key": "54_RewardReason",
+          "SourceString": "Online Rank upgrade",
+          "LocalizedString": "Online Rank upgrade"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "55": {
+        "Rank": 55,
+        "RankGroup": 14,
+        "RankName": "ブラックダイヤモンド★★★★★★★★★",
+        "ExperienceMin": 54000,
+        "ExperienceMax": 54999,
+        "GradeExperience": 540,
+        "RankDownStop": false,
+        "RewardReason": {
+          "Namespace": "DT_OnlineRank",
+          "Key": "55_RewardReason",
+          "SourceString": "Online Rank upgrade",
+          "LocalizedString": "Online Rank upgrade"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Title",
+          "RewardID": 35
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "56": {
+        "Rank": 56,
+        "RankGroup": 12,
+        "RankName": "ダミー",
+        "ExperienceMin": 55000,
+        "ExperienceMax": 99929,
+        "GradeExperience": 100,
+        "RankDownStop": false,
+        "RewardReason": {
+          "Namespace": "DT_OnlineRank",
+          "Key": "56_RewardReason",
+          "SourceString": "Online Rank upgrade",
+          "LocalizedString": "Online Rank upgrade"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "57": {
+        "Rank": 57,
+        "RankGroup": 12,
+        "RankName": "ダミー",
+        "ExperienceMin": 99930,
+        "ExperienceMax": 99939,
+        "GradeExperience": 100,
+        "RankDownStop": false,
+        "RewardReason": {
+          "Namespace": "DT_OnlineRank",
+          "Key": "57_RewardReason",
+          "SourceString": "Online Rank upgrade",
+          "LocalizedString": "Online Rank upgrade"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "58": {
+        "Rank": 58,
+        "RankGroup": 12,
+        "RankName": "ダミー",
+        "ExperienceMin": 99940,
+        "ExperienceMax": 99949,
+        "GradeExperience": 100,
+        "RankDownStop": false,
+        "RewardReason": {
+          "Namespace": "DT_OnlineRank",
+          "Key": "58_RewardReason",
+          "SourceString": "Online Rank upgrade",
+          "LocalizedString": "Online Rank upgrade"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "59": {
+        "Rank": 59,
+        "RankGroup": 12,
+        "RankName": "ダミー",
+        "ExperienceMin": 99950,
+        "ExperienceMax": 99959,
+        "GradeExperience": 100,
+        "RankDownStop": false,
+        "RewardReason": {
+          "Namespace": "DT_OnlineRank",
+          "Key": "59_RewardReason",
+          "SourceString": "Online Rank upgrade",
+          "LocalizedString": "Online Rank upgrade"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "60": {
+        "Rank": 60,
+        "RankGroup": 12,
+        "RankName": "ダミー",
+        "ExperienceMin": 99960,
+        "ExperienceMax": 99969,
+        "GradeExperience": 100,
+        "RankDownStop": false,
+        "RewardReason": {
+          "Namespace": "DT_OnlineRank",
+          "Key": "60_RewardReason",
+          "SourceString": "Online Rank upgrade",
+          "LocalizedString": "Online Rank upgrade"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "61": {
+        "Rank": 61,
+        "RankGroup": 12,
+        "RankName": "ダミー",
+        "ExperienceMin": 99970,
+        "ExperienceMax": 99979,
+        "GradeExperience": 100,
+        "RankDownStop": false,
+        "RewardReason": {
+          "Namespace": "DT_OnlineRank",
+          "Key": "61_RewardReason",
+          "SourceString": "Online Rank upgrade",
+          "LocalizedString": "Online Rank upgrade"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "62": {
+        "Rank": 62,
+        "RankGroup": 12,
+        "RankName": "ダミー",
+        "ExperienceMin": 99980,
+        "ExperienceMax": 99989,
+        "GradeExperience": 100,
+        "RankDownStop": false,
+        "RewardReason": {
+          "Namespace": "DT_OnlineRank",
+          "Key": "62_RewardReason",
+          "SourceString": "Online Rank upgrade",
+          "LocalizedString": "Online Rank upgrade"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      },
+      "63": {
+        "Rank": 63,
+        "RankGroup": 12,
+        "RankName": "ダミー",
+        "ExperienceMin": 99990,
+        "ExperienceMax": 99999,
+        "GradeExperience": 100,
+        "RankDownStop": false,
+        "RewardReason": {
+          "Namespace": "DT_OnlineRank",
+          "Key": "63_RewardReason",
+          "SourceString": "Online Rank upgrade",
+          "LocalizedString": "Online Rank upgrade"
+        },
+        "Reward_1": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_2": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_3": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        },
+        "Reward_4": {
+          "RewardCategoryID": "ERewardCategoryID::Invalid",
+          "RewardID": 0
+        }
+      }
+    }
+  }
+]

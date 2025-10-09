@@ -1,0 +1,2523 @@
+[
+  {
+    "Type": "StructProperty",
+    "Name": "UberGraphFrame",
+    "Outer": "WBP_Race_StoryTarget_C",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "Transient | DuplicateTransient",
+    "Struct": {
+      "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "WBP_Race_StoryTarget_C",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WBP_Race_StoryTarget_C:WidgetTree'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.138"
+      },
+      "bAllowTemplate": true,
+      "bValidTemplate": true,
+      "TemplateAsset": {
+        "AssetPathName": "/Game/IND/UI/Race/Story/WBP_Race_StoryTarget.WidgetArchetype",
+        "SubPathString": ""
+      },
+      "UberGraphFramePointerProperty": {
+        "ObjectName": "StructProperty'WBP_Race_StoryTarget_C:UberGraphFrame'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.0"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'WBP_Race_StoryTarget_C:ExecuteUbergraph_WBP_Race_StoryTarget'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.5"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'UserWidget'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'WBP_Race_StoryTarget_C:UberGraphFrame'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.0"
+      },
+      {
+        "ObjectName": "Function'WBP_Race_StoryTarget_C:SetTargetText'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.11"
+      },
+      {
+        "ObjectName": "Function'WBP_Race_StoryTarget_C:PreConstruct'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.9"
+      },
+      {
+        "ObjectName": "Function'WBP_Race_StoryTarget_C:Setup'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.7"
+      },
+      {
+        "ObjectName": "Function'WBP_Race_StoryTarget_C:ExecuteUbergraph_WBP_Race_StoryTarget'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.5"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Race_StoryTarget_C:P_TargetDetail_Rich'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.3"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Race_StoryTarget_C:WBP_Couse_Info_Chara'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.100"
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_WBP_Race_StoryTarget": {
+        "ObjectName": "Function'WBP_Race_StoryTarget_C:ExecuteUbergraph_WBP_Race_StoryTarget'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.5"
+      },
+      "Setup": {
+        "ObjectName": "Function'WBP_Race_StoryTarget_C:Setup'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.7"
+      },
+      "PreConstruct": {
+        "ObjectName": "Function'WBP_Race_StoryTarget_C:PreConstruct'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.9"
+      },
+      "SetTargetText": {
+        "ObjectName": "Function'WBP_Race_StoryTarget_C:SetTargetText'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.11"
+      }
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "WBP_Race_StoryTarget_C'Default__WBP_Race_StoryTarget_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.2"
+    }
+  },
+  {
+    "Type": "WBP_Race_StoryTarget_C",
+    "Name": "Default__WBP_Race_StoryTarget_C",
+    "Class": "WidgetBlueprintGeneratedClass'GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.WBP_Race_StoryTarget_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "UberGraphFrame": {},
+      "bHasScriptImplementedTick": false,
+      "bHasScriptImplementedPaint": false
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "P_TargetDetail_Rich",
+    "Outer": "WBP_Race_StoryTarget_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'RichTextBlock'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "EntryPoint",
+    "Outer": "ExecuteUbergraph_WBP_Race_StoryTarget",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_WBP_Race_StoryTarget",
+    "Outer": "WBP_Race_StoryTarget_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "IntProperty'WBP_Race_StoryTarget_C:ExecuteUbergraph_WBP_Race_StoryTarget.EntryPoint'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.4"
+      },
+      {
+        "ObjectName": "EnumProperty'WBP_Race_StoryTarget_C:ExecuteUbergraph_WBP_Race_StoryTarget.Temp_byte_Variable'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.63"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Race_StoryTarget_C:ExecuteUbergraph_WBP_Race_StoryTarget.Temp_int_Variable'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.78"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Race_StoryTarget_C:ExecuteUbergraph_WBP_Race_StoryTarget.Temp_int_Variable_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.79"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Race_StoryTarget_C:ExecuteUbergraph_WBP_Race_StoryTarget.Temp_int_Variable_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.80"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Race_StoryTarget_C:ExecuteUbergraph_WBP_Race_StoryTarget.Temp_int_Variable_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.81"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Race_StoryTarget_C:ExecuteUbergraph_WBP_Race_StoryTarget.Temp_bool_Variable'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.22"
+      },
+      {
+        "ObjectName": "EnumProperty'WBP_Race_StoryTarget_C:ExecuteUbergraph_WBP_Race_StoryTarget.Temp_byte_Variable_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.64"
+      },
+      {
+        "ObjectName": "EnumProperty'WBP_Race_StoryTarget_C:ExecuteUbergraph_WBP_Race_StoryTarget.Temp_byte_Variable_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.65"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Race_StoryTarget_C:ExecuteUbergraph_WBP_Race_StoryTarget.K2Node_Event_IsDesignTime'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.21"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Race_StoryTarget_C:ExecuteUbergraph_WBP_Race_StoryTarget.K2Node_CustomEvent_ConditionIndex'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.76"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Race_StoryTarget_C:ExecuteUbergraph_WBP_Race_StoryTarget.CallFunc_Generate_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.96"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Race_StoryTarget_C:ExecuteUbergraph_WBP_Race_StoryTarget.CallFunc_GenerateStoryObject_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.99"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Race_StoryTarget_C:ExecuteUbergraph_WBP_Race_StoryTarget.CallFunc_GetStoryDataKey_StoryTypeID'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.75"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Race_StoryTarget_C:ExecuteUbergraph_WBP_Race_StoryTarget.CallFunc_GetStoryDataKey_ChapterID'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.72"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Race_StoryTarget_C:ExecuteUbergraph_WBP_Race_StoryTarget.CallFunc_GetStoryDataKey_EpisodeNo'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.74"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Race_StoryTarget_C:ExecuteUbergraph_WBP_Race_StoryTarget.CallFunc_GetStoryDataKey_Difficulty'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.73"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Race_StoryTarget_C:ExecuteUbergraph_WBP_Race_StoryTarget.CallFunc_GenerateRivalObject_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.97"
+      },
+      {
+        "ObjectName": "StructProperty'WBP_Race_StoryTarget_C:ExecuteUbergraph_WBP_Race_StoryTarget.CallFunc_GetStoryEpisodeData_OutStoryEpisodeData'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.130"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Race_StoryTarget_C:ExecuteUbergraph_WBP_Race_StoryTarget.CallFunc_GetStoryEpisodeData_Success'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.20"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Race_StoryTarget_C:ExecuteUbergraph_WBP_Race_StoryTarget.CallFunc_GenerateStoryCharacterObject_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.98"
+      },
+      {
+        "ObjectName": "StructProperty'WBP_Race_StoryTarget_C:ExecuteUbergraph_WBP_Race_StoryTarget.CallFunc_GetStoryClearCondition_OutStoryClearCondition'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.129"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Race_StoryTarget_C:ExecuteUbergraph_WBP_Race_StoryTarget.CallFunc_GetStoryClearCondition_Success'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.19"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Race_StoryTarget_C:ExecuteUbergraph_WBP_Race_StoryTarget.CallFunc_EqualEqual_ByteByte_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.16"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Race_StoryTarget_C:ExecuteUbergraph_WBP_Race_StoryTarget.K2Node_Select_Default'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.77"
+      },
+      {
+        "ObjectName": "EnumProperty'WBP_Race_StoryTarget_C:ExecuteUbergraph_WBP_Race_StoryTarget.K2Node_Select_Default_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.62"
+      },
+      {
+        "ObjectName": "StructProperty'WBP_Race_StoryTarget_C:ExecuteUbergraph_WBP_Race_StoryTarget.CallFunc_FindRivalInfo_OutRivalAsset'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.127"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Race_StoryTarget_C:ExecuteUbergraph_WBP_Race_StoryTarget.CallFunc_FindRivalInfo_OutFound'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.17"
+      },
+      {
+        "ObjectName": "StructProperty'WBP_Race_StoryTarget_C:ExecuteUbergraph_WBP_Race_StoryTarget.CallFunc_FindStoryCharacterInfo_OutCharacterAsset'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.128"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Race_StoryTarget_C:ExecuteUbergraph_WBP_Race_StoryTarget.CallFunc_FindStoryCharacterInfo_OutFound'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.18"
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction | FUNC_HasDefaults"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "ConditionIndex",
+    "Outer": "Setup",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "Setup",
+    "Outer": "WBP_Race_StoryTarget_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "IntProperty'WBP_Race_StoryTarget_C:Setup.ConditionIndex'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.6"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "IsDesignTime",
+    "Outer": "PreConstruct",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "Function",
+    "Name": "PreConstruct",
+    "Outer": "WBP_Race_StoryTarget_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Function'UserWidget:PreConstruct'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "Children": [
+      {
+        "ObjectName": "BoolProperty'WBP_Race_StoryTarget_C:PreConstruct.IsDesignTime'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.8"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCosmetic | FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "FormatText",
+    "Outer": "SetTargetText",
+    "Class": "UScriptClass'TextProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "SetTargetText",
+    "Outer": "WBP_Race_StoryTarget_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "TextProperty'WBP_Race_StoryTarget_C:SetTargetText.FormatText'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.10"
+      },
+      {
+        "ObjectName": "TextProperty'WBP_Race_StoryTarget_C:SetTargetText.RivalName'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.134"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Race_StoryTarget_C:SetTargetText.Value'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.95"
+      },
+      {
+        "ObjectName": "ArrayProperty'WBP_Race_StoryTarget_C:SetTargetText.Strings'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.15"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Race_StoryTarget_C:SetTargetText.AddLinePoint'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.82"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Race_StoryTarget_C:SetTargetText.AddLine'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.23"
+      },
+      {
+        "ObjectName": "StrProperty'WBP_Race_StoryTarget_C:SetTargetText.Text'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.126"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Race_StoryTarget_C:SetTargetText.Temp_int_Array_Index_Variable'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.92"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Race_StoryTarget_C:SetTargetText.CallFunc_Abs_Int_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.83"
+      },
+      {
+        "ObjectName": "StrProperty'WBP_Race_StoryTarget_C:SetTargetText.CallFunc_Conv_IntToString_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.121"
+      },
+      {
+        "ObjectName": "StrProperty'WBP_Race_StoryTarget_C:SetTargetText.CallFunc_Conv_TextToString_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.122"
+      },
+      {
+        "ObjectName": "StrProperty'WBP_Race_StoryTarget_C:SetTargetText.CallFunc_Conv_TextToString_ReturnValue_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.123"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Race_StoryTarget_C:SetTargetText.CallFunc_Len_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.88"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Race_StoryTarget_C:SetTargetText.CallFunc_GreaterEqual_IntInt_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.30"
+      },
+      {
+        "ObjectName": "StrProperty'WBP_Race_StoryTarget_C:SetTargetText.CallFunc_Array_Get_Item'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.115"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Race_StoryTarget_C:SetTargetText.CallFunc_Array_Length_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.86"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Race_StoryTarget_C:SetTargetText.Temp_int_Loop_Counter_Variable'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.93"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Race_StoryTarget_C:SetTargetText.CallFunc_Less_IntInt_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.32"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Race_StoryTarget_C:SetTargetText.CallFunc_Add_IntInt_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.84"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Race_StoryTarget_C:SetTargetText.Temp_bool_Variable'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.36"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Race_StoryTarget_C:SetTargetText.Temp_int_Variable'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.94"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Race_StoryTarget_C:SetTargetText.CallFunc_Add_IntInt_ReturnValue_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.85"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Race_StoryTarget_C:SetTargetText.CallFunc_Not_PreBool_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.34"
+      },
+      {
+        "ObjectName": "ArrayProperty'WBP_Race_StoryTarget_C:SetTargetText.CallFunc_GetCharacterArrayFromString_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.13"
+      },
+      {
+        "ObjectName": "StrProperty'WBP_Race_StoryTarget_C:SetTargetText.CallFunc_Concat_StrStr_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.119"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Race_StoryTarget_C:SetTargetText.CallFunc_EqualEqual_IntInt_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.26"
+      },
+      {
+        "ObjectName": "StrProperty'WBP_Race_StoryTarget_C:SetTargetText.CallFunc_Concat_StrStr_ReturnValue_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.120"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Race_StoryTarget_C:SetTargetText.CallFunc_GreaterEqual_IntInt_ReturnValue_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.31"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Race_StoryTarget_C:SetTargetText.CallFunc_FindSubstring_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.87"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Race_StoryTarget_C:SetTargetText.CallFunc_Subtract_IntInt_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.89"
+      },
+      {
+        "ObjectName": "StrProperty'WBP_Race_StoryTarget_C:SetTargetText.CallFunc_Array_Get_Item_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.116"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Race_StoryTarget_C:SetTargetText.CallFunc_LessEqual_IntInt_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.33"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Race_StoryTarget_C:SetTargetText.CallFunc_EqualEqual_StrStr_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.27"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Race_StoryTarget_C:SetTargetText.CallFunc_BooleanAND_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.24"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Race_StoryTarget_C:SetTargetText.CallFunc_Subtract_IntInt_ReturnValue_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.90"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Race_StoryTarget_C:SetTargetText.CallFunc_Subtract_IntInt_ReturnValue_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.91"
+      },
+      {
+        "ObjectName": "StrProperty'WBP_Race_StoryTarget_C:SetTargetText.CallFunc_Array_Get_Item_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.117"
+      },
+      {
+        "ObjectName": "StrProperty'WBP_Race_StoryTarget_C:SetTargetText.CallFunc_Array_Get_Item_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.118"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Race_StoryTarget_C:SetTargetText.CallFunc_EqualEqual_StrStr_ReturnValue_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.28"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Race_StoryTarget_C:SetTargetText.CallFunc_NotEqual_StrStr_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.35"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Race_StoryTarget_C:SetTargetText.CallFunc_Greater_IntInt_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.29"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Race_StoryTarget_C:SetTargetText.CallFunc_BooleanAND_ReturnValue_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.25"
+      },
+      {
+        "ObjectName": "TextProperty'WBP_Race_StoryTarget_C:SetTargetText.CallFunc_Conv_StringToText_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.133"
+      },
+      {
+        "ObjectName": "StrProperty'WBP_Race_StoryTarget_C:SetTargetText.CallFunc_Replace_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.124"
+      },
+      {
+        "ObjectName": "StrProperty'WBP_Race_StoryTarget_C:SetTargetText.CallFunc_Replace_ReturnValue_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.125"
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "StrProperty",
+    "Name": "CallFunc_GetCharacterArrayFromString_ReturnValue",
+    "Outer": "CallFunc_GetCharacterArrayFromString_ReturnValue",
+    "Class": "UScriptClass'StrProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "ArrayProperty",
+    "Name": "CallFunc_GetCharacterArrayFromString_ReturnValue",
+    "Outer": "SetTargetText",
+    "Class": "UScriptClass'ArrayProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "ReferenceParm",
+    "Inner": {
+      "ObjectName": "StrProperty'WBP_Race_StoryTarget_C:SetTargetText.CallFunc_GetCharacterArrayFromString_ReturnValue.CallFunc_GetCharacterArrayFromString_ReturnValue'",
+      "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.12"
+    }
+  },
+  {
+    "Type": "StrProperty",
+    "Name": "Strings",
+    "Outer": "Strings",
+    "Class": "UScriptClass'StrProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "ArrayProperty",
+    "Name": "Strings",
+    "Outer": "SetTargetText",
+    "Class": "UScriptClass'ArrayProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "Edit | BlueprintVisible",
+    "Inner": {
+      "ObjectName": "StrProperty'WBP_Race_StoryTarget_C:SetTargetText.Strings.Strings'",
+      "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.14"
+    }
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_EqualEqual_ByteByte_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_Race_StoryTarget",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_FindRivalInfo_OutFound",
+    "Outer": "ExecuteUbergraph_WBP_Race_StoryTarget",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_FindStoryCharacterInfo_OutFound",
+    "Outer": "ExecuteUbergraph_WBP_Race_StoryTarget",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_GetStoryClearCondition_Success",
+    "Outer": "ExecuteUbergraph_WBP_Race_StoryTarget",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_GetStoryEpisodeData_Success",
+    "Outer": "ExecuteUbergraph_WBP_Race_StoryTarget",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_Event_IsDesignTime",
+    "Outer": "ExecuteUbergraph_WBP_Race_StoryTarget",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "Temp_bool_Variable",
+    "Outer": "ExecuteUbergraph_WBP_Race_StoryTarget",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "AddLine",
+    "Outer": "SetTargetText",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "Edit | BlueprintVisible",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_BooleanAND_ReturnValue",
+    "Outer": "SetTargetText",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_BooleanAND_ReturnValue_1",
+    "Outer": "SetTargetText",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_EqualEqual_IntInt_ReturnValue",
+    "Outer": "SetTargetText",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_EqualEqual_StrStr_ReturnValue",
+    "Outer": "SetTargetText",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_EqualEqual_StrStr_ReturnValue_1",
+    "Outer": "SetTargetText",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_Greater_IntInt_ReturnValue",
+    "Outer": "SetTargetText",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_GreaterEqual_IntInt_ReturnValue",
+    "Outer": "SetTargetText",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_GreaterEqual_IntInt_ReturnValue_1",
+    "Outer": "SetTargetText",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_Less_IntInt_ReturnValue",
+    "Outer": "SetTargetText",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_LessEqual_IntInt_ReturnValue",
+    "Outer": "SetTargetText",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_Not_PreBool_ReturnValue",
+    "Outer": "SetTargetText",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_NotEqual_StrStr_ReturnValue",
+    "Outer": "SetTargetText",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "Temp_bool_Variable",
+    "Outer": "SetTargetText",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Outer": "K2Node_Select_Default_1",
+    "Class": "UScriptClass'ByteProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": null
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Outer": "Temp_byte_Variable",
+    "Class": "UScriptClass'ByteProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": null
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Outer": "Temp_byte_Variable_1",
+    "Class": "UScriptClass'ByteProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": null
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Outer": "Temp_byte_Variable_2",
+    "Class": "UScriptClass'ByteProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": null
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_0",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Race_StoryTarget_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.47"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Race_StoryTarget_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_2'",
+          "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.48"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Race_StoryTarget_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_8'",
+          "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.49"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_0",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.50"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_2'",
+          "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.51"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_8'",
+          "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.52"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_0",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_Couse_Info_Chara.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.53"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_Couse_Info_Chara.WidgetTree_0.NameBar_2.CanvasPanelSlot_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.61"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_1",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_Couse_Info_Chara.WidgetTree_0.CanvasPanel_1.CanvasPanelSlot_2'",
+          "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.55"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_Couse_Info_Chara.WidgetTree_0.CanvasPanel_1.CanvasPanelSlot_3'",
+          "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.56"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_Couse_Info_Chara.WidgetTree_0.CanvasPanel_1.CanvasPanelSlot_4'",
+          "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.57"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_Couse_Info_Chara.WidgetTree_0.CanvasPanel_1.CanvasPanelSlot_19'",
+          "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.54"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "ScaleBoxSlot'WidgetArchetype:WidgetTree_0.WBP_Couse_Info_Chara.WidgetTree_0.ScaleBox_61.ScaleBoxSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.108"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_2",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_Couse_Info_Chara.WidgetTree_0.CanvasPanel_2.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.58"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "NameBar_2",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_Couse_Info_Chara.WidgetTree_0.NameBar_2.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.59"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_Couse_Info_Chara.WidgetTree_0.NameBar_2.CanvasPanelSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.60"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_Couse_Info_Chara.WidgetTree_0.NameBar_2.CanvasPanelSlot_2'",
+          "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.61"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_Couse_Info_Chara.WidgetTree_0.CanvasPanel_1.CanvasPanelSlot_19'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.54"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -20.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Race_StoryTarget_C:WidgetTree.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.41"
+      },
+      "Content": {
+        "ObjectName": "Image'WBP_Race_StoryTarget_C:WidgetTree.Base'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.66"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_2",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -20.0,
+          "Top": 7.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Race_StoryTarget_C:WidgetTree.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.41"
+      },
+      "Content": {
+        "ObjectName": "SizeBox'WBP_Race_StoryTarget_C:WidgetTree.SizeBox_104'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.109"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_8",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 450.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Race_StoryTarget_C:WidgetTree.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.41"
+      },
+      "Content": {
+        "ObjectName": "WBP_Couse_Info_Chara_C'WBP_Race_StoryTarget_C:WidgetTree.WBP_Couse_Info_Chara'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.135"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -20.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.42"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.Base'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.67"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_2",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -20.0,
+          "Top": 7.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.42"
+      },
+      "Content": {
+        "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.SizeBox_104'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.110"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_8",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 450.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.42"
+      },
+      "Content": {
+        "ObjectName": "WBP_Couse_Info_Chara_C'WidgetArchetype:WidgetTree_0.WBP_Couse_Info_Chara'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.136"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 170.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 1.0,
+            "Y": 1.0
+          },
+          "Maximum": {
+            "X": 1.0,
+            "Y": 1.0
+          }
+        },
+        "Alignment": {
+          "X": 1.0,
+          "Y": 1.0
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_Couse_Info_Chara.WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.43"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.WBP_Couse_Info_Chara.WidgetTree_0.P_CharaName'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.132"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_19",
+    "Outer": "CanvasPanel_1",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 296.0,
+          "Bottom": 296.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_Couse_Info_Chara.WidgetTree_0.CanvasPanel_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.44"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_Couse_Info_Chara.WidgetTree_0.NameBar_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.46"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_2",
+    "Outer": "CanvasPanel_1",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_Couse_Info_Chara.WidgetTree_0.CanvasPanel_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.44"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_Couse_Info_Chara.WidgetTree_0.Base'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.68"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_3",
+    "Outer": "CanvasPanel_1",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_Couse_Info_Chara.WidgetTree_0.CanvasPanel_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.44"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_Couse_Info_Chara.WidgetTree_0.P_CharacterMask'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.70"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_4",
+    "Outer": "CanvasPanel_1",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_Couse_Info_Chara.WidgetTree_0.CanvasPanel_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.44"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_Couse_Info_Chara.WidgetTree_0.waku'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.71"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "CanvasPanel_2",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 296.0,
+          "Bottom": 296.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_Couse_Info_Chara.WidgetTree_0.CanvasPanel_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.45"
+      },
+      "Content": {
+        "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.WBP_Couse_Info_Chara.WidgetTree_0.SizeBox_60'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.111"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "NameBar_2",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -127.0,
+          "Top": 100.0,
+          "Right": 190.0,
+          "Bottom": 24.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_Couse_Info_Chara.WidgetTree_0.NameBar_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.46"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_Couse_Info_Chara.WidgetTree_0.NameBase'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.69"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "NameBar_2",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 30.0,
+          "Top": 238.63994
+        },
+        "Alignment": {
+          "X": 0.0,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_Couse_Info_Chara.WidgetTree_0.NameBar_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.46"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.WBP_Couse_Info_Chara.WidgetTree_0.P_Belong'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.131"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_2",
+    "Outer": "NameBar_2",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 101.40554,
+          "Top": 240.0
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_Couse_Info_Chara.WidgetTree_0.NameBar_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.46"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_Couse_Info_Chara.WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.43"
+      }
+    }
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "K2Node_Select_Default_1",
+    "Outer": "ExecuteUbergraph_WBP_Race_StoryTarget",
+    "Class": "UScriptClass'EnumProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": {
+      "ObjectName": "Enum'ESlateVisibility'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'WBP_Race_StoryTarget_C:ExecuteUbergraph_WBP_Race_StoryTarget.K2Node_Select_Default_1.UnderlyingType'",
+      "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.37"
+    }
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "Temp_byte_Variable",
+    "Outer": "ExecuteUbergraph_WBP_Race_StoryTarget",
+    "Class": "UScriptClass'EnumProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": {
+      "ObjectName": "Enum'EStoryClearCondition_Target'",
+      "ObjectPath": "/Script/GameProject"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'WBP_Race_StoryTarget_C:ExecuteUbergraph_WBP_Race_StoryTarget.Temp_byte_Variable.UnderlyingType'",
+      "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.38"
+    }
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "Temp_byte_Variable_1",
+    "Outer": "ExecuteUbergraph_WBP_Race_StoryTarget",
+    "Class": "UScriptClass'EnumProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": {
+      "ObjectName": "Enum'ESlateVisibility'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'WBP_Race_StoryTarget_C:ExecuteUbergraph_WBP_Race_StoryTarget.Temp_byte_Variable_1.UnderlyingType'",
+      "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.39"
+    }
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "Temp_byte_Variable_2",
+    "Outer": "ExecuteUbergraph_WBP_Race_StoryTarget",
+    "Class": "UScriptClass'EnumProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": {
+      "ObjectName": "Enum'ESlateVisibility'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'WBP_Race_StoryTarget_C:ExecuteUbergraph_WBP_Race_StoryTarget.Temp_byte_Variable_2.UnderlyingType'",
+      "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.40"
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Base",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 824.0,
+          "Y": 144.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Race_StoryClearTaskB'",
+          "ObjectPath": "GameProject/Content/IND/UI/Race/Story/Texture/T_Race_StoryClearTaskB.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Race_StoryTarget_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.47"
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Base",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 824.0,
+          "Y": 144.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Race_StoryClearTaskB'",
+          "ObjectPath": "GameProject/Content/IND/UI/Race/Story/Texture/T_Race_StoryClearTaskB.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.50"
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Base",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 287.0,
+          "Y": 263.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'sel_story_chara_base'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/Texture/sel_story_chara_base.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_Couse_Info_Chara.WidgetTree_0.CanvasPanel_1.CanvasPanelSlot_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.55"
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "NameBase",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 140.0,
+          "Y": 24.0
+        },
+        "Margin": {
+          "Left": 0.5,
+          "Right": 0.5
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Story_CharaNamePlate'",
+          "ObjectPath": "GameProject/Content/IND/UI/Load/Texture/T_Story_CharaNamePlate.0"
+        },
+        "DrawAs": "ESlateBrushDrawType::Box"
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_Couse_Info_Chara.WidgetTree_0.NameBar_2.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.59"
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "P_CharacterMask",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 296.0,
+          "Y": 296.0
+        },
+        "ResourceObject": {
+          "ObjectName": "MaterialInstanceConstant'MI_CourseInfoMask'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/MI_CourseInfoMask.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_Couse_Info_Chara.WidgetTree_0.CanvasPanel_1.CanvasPanelSlot_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.56"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "waku",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 298.0,
+          "Y": 270.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'sel_story_chara_waku'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/Texture/sel_story_chara_waku.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_Couse_Info_Chara.WidgetTree_0.CanvasPanel_1.CanvasPanelSlot_4'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.57"
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_GetStoryDataKey_ChapterID",
+    "Outer": "ExecuteUbergraph_WBP_Race_StoryTarget",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_GetStoryDataKey_Difficulty",
+    "Outer": "ExecuteUbergraph_WBP_Race_StoryTarget",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_GetStoryDataKey_EpisodeNo",
+    "Outer": "ExecuteUbergraph_WBP_Race_StoryTarget",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_GetStoryDataKey_StoryTypeID",
+    "Outer": "ExecuteUbergraph_WBP_Race_StoryTarget",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "K2Node_CustomEvent_ConditionIndex",
+    "Outer": "ExecuteUbergraph_WBP_Race_StoryTarget",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "K2Node_Select_Default",
+    "Outer": "ExecuteUbergraph_WBP_Race_StoryTarget",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "Temp_int_Variable",
+    "Outer": "ExecuteUbergraph_WBP_Race_StoryTarget",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "Temp_int_Variable_1",
+    "Outer": "ExecuteUbergraph_WBP_Race_StoryTarget",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "Temp_int_Variable_2",
+    "Outer": "ExecuteUbergraph_WBP_Race_StoryTarget",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "Temp_int_Variable_3",
+    "Outer": "ExecuteUbergraph_WBP_Race_StoryTarget",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "AddLinePoint",
+    "Outer": "SetTargetText",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "Edit | BlueprintVisible"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_Abs_Int_ReturnValue",
+    "Outer": "SetTargetText",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_Add_IntInt_ReturnValue",
+    "Outer": "SetTargetText",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_Add_IntInt_ReturnValue_1",
+    "Outer": "SetTargetText",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_Array_Length_ReturnValue",
+    "Outer": "SetTargetText",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_FindSubstring_ReturnValue",
+    "Outer": "SetTargetText",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_Len_ReturnValue",
+    "Outer": "SetTargetText",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_Subtract_IntInt_ReturnValue",
+    "Outer": "SetTargetText",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_Subtract_IntInt_ReturnValue_1",
+    "Outer": "SetTargetText",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_Subtract_IntInt_ReturnValue_2",
+    "Outer": "SetTargetText",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "Temp_int_Array_Index_Variable",
+    "Outer": "SetTargetText",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "Temp_int_Loop_Counter_Variable",
+    "Outer": "SetTargetText",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "Temp_int_Variable",
+    "Outer": "SetTargetText",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "Value",
+    "Outer": "SetTargetText",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_Generate_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_Race_StoryTarget",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyClass": {
+      "ObjectName": "Class'MenuSettingObject'",
+      "ObjectPath": "/Script/GameProject"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GenerateRivalObject_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_Race_StoryTarget",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyClass": {
+      "ObjectName": "Class'RivalDBObject'",
+      "ObjectPath": "/Script/GameProject"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GenerateStoryCharacterObject_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_Race_StoryTarget",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyClass": {
+      "ObjectName": "Class'StoryCharacterDBObject'",
+      "ObjectPath": "/Script/GameProject"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GenerateStoryObject_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_Race_StoryTarget",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyClass": {
+      "ObjectName": "Class'StoryDBObject'",
+      "ObjectPath": "/Script/GameProject"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "WBP_Couse_Info_Chara",
+    "Outer": "WBP_Race_StoryTarget_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'WBP_Couse_Info_Chara_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.1"
+    }
+  },
+  {
+    "Type": "RichTextBlock",
+    "Name": "P_TargetDetail_Rich",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'RichTextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "6567FC32497F262A8889F2A3EE2578AF",
+        "SourceString": "Finish the race within <ClearTextRivalName>300</>m of <ClearTextRivalName>Wataru</>",
+        "LocalizedString": "Finish the race within <ClearTextRivalName>300</>m of <ClearTextRivalName>Wataru</>"
+      },
+      "TextStyleSet": {
+        "ObjectName": "DataTable'RichTextStyleSet'",
+        "ObjectPath": "GameProject/Content/IND/UI/RichTextStyle/RichTextStyleSet.0"
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "ScaleBoxSlot'WBP_Race_StoryTarget_C:WidgetTree.ScaleBox_92.ScaleBoxSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.106"
+      }
+    }
+  },
+  {
+    "Type": "RichTextBlock",
+    "Name": "P_TargetDetail_Rich",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'RichTextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "6567FC32497F262A8889F2A3EE2578AF",
+        "SourceString": "Finish the race within <ClearTextRivalName>300</>m of <ClearTextRivalName>Wataru</>",
+        "LocalizedString": "Finish the race within <ClearTextRivalName>300</>m of <ClearTextRivalName>Wataru</>"
+      },
+      "TextStyleSet": {
+        "ObjectName": "DataTable'RichTextStyleSet'",
+        "ObjectPath": "GameProject/Content/IND/UI/RichTextStyle/RichTextStyleSet.0"
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "ScaleBoxSlot'WidgetArchetype:WidgetTree_0.ScaleBox_92.ScaleBoxSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.107"
+      }
+    }
+  },
+  {
+    "Type": "ScaleBox",
+    "Name": "ScaleBox_92",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'ScaleBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "ScaleBoxSlot'WBP_Race_StoryTarget_C:WidgetTree.ScaleBox_92.ScaleBoxSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.106"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "SizeBoxSlot'WBP_Race_StoryTarget_C:WidgetTree.SizeBox_104.SizeBoxSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.112"
+      }
+    }
+  },
+  {
+    "Type": "ScaleBox",
+    "Name": "ScaleBox_92",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'ScaleBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "ScaleBoxSlot'WidgetArchetype:WidgetTree_0.ScaleBox_92.ScaleBoxSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.107"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "SizeBoxSlot'WidgetArchetype:WidgetTree_0.SizeBox_104.SizeBoxSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.113"
+      }
+    }
+  },
+  {
+    "Type": "ScaleBox",
+    "Name": "ScaleBox_61",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'ScaleBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "ScaleBoxSlot'WidgetArchetype:WidgetTree_0.WBP_Couse_Info_Chara.WidgetTree_0.ScaleBox_61.ScaleBoxSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.108"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "SizeBoxSlot'WidgetArchetype:WidgetTree_0.WBP_Couse_Info_Chara.WidgetTree_0.SizeBox_60.SizeBoxSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.114"
+      }
+    }
+  },
+  {
+    "Type": "ScaleBoxSlot",
+    "Name": "ScaleBoxSlot_0",
+    "Outer": "ScaleBox_92",
+    "Class": "UScriptClass'ScaleBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "ScaleBox'WBP_Race_StoryTarget_C:WidgetTree.ScaleBox_92'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.103"
+      },
+      "Content": {
+        "ObjectName": "RichTextBlock'WBP_Race_StoryTarget_C:WidgetTree.P_TargetDetail_Rich'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.101"
+      }
+    }
+  },
+  {
+    "Type": "ScaleBoxSlot",
+    "Name": "ScaleBoxSlot_0",
+    "Outer": "ScaleBox_92",
+    "Class": "UScriptClass'ScaleBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "ScaleBox'WidgetArchetype:WidgetTree_0.ScaleBox_92'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.104"
+      },
+      "Content": {
+        "ObjectName": "RichTextBlock'WidgetArchetype:WidgetTree_0.P_TargetDetail_Rich'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.102"
+      }
+    }
+  },
+  {
+    "Type": "ScaleBoxSlot",
+    "Name": "ScaleBoxSlot_0",
+    "Outer": "ScaleBox_61",
+    "Class": "UScriptClass'ScaleBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "ScaleBox'WidgetArchetype:WidgetTree_0.WBP_Couse_Info_Chara.WidgetTree_0.ScaleBox_61'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.105"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_Couse_Info_Chara.WidgetTree_0.CanvasPanel_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.44"
+      }
+    }
+  },
+  {
+    "Type": "SizeBox",
+    "Name": "SizeBox_104",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'SizeBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "WidthOverride": 714.0,
+      "bOverride_WidthOverride": true,
+      "Slots": [
+        {
+          "ObjectName": "SizeBoxSlot'WBP_Race_StoryTarget_C:WidgetTree.SizeBox_104.SizeBoxSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.112"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Race_StoryTarget_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.48"
+      }
+    }
+  },
+  {
+    "Type": "SizeBox",
+    "Name": "SizeBox_104",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'SizeBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "WidthOverride": 714.0,
+      "bOverride_WidthOverride": true,
+      "Slots": [
+        {
+          "ObjectName": "SizeBoxSlot'WidgetArchetype:WidgetTree_0.SizeBox_104.SizeBoxSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.113"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.51"
+      }
+    }
+  },
+  {
+    "Type": "SizeBox",
+    "Name": "SizeBox_60",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'SizeBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "SizeBoxSlot'WidgetArchetype:WidgetTree_0.WBP_Couse_Info_Chara.WidgetTree_0.SizeBox_60.SizeBoxSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.114"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_Couse_Info_Chara.WidgetTree_0.CanvasPanel_2.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.58"
+      }
+    }
+  },
+  {
+    "Type": "SizeBoxSlot",
+    "Name": "SizeBoxSlot_0",
+    "Outer": "SizeBox_104",
+    "Class": "UScriptClass'SizeBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "SizeBox'WBP_Race_StoryTarget_C:WidgetTree.SizeBox_104'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.109"
+      },
+      "Content": {
+        "ObjectName": "ScaleBox'WBP_Race_StoryTarget_C:WidgetTree.ScaleBox_92'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.103"
+      }
+    }
+  },
+  {
+    "Type": "SizeBoxSlot",
+    "Name": "SizeBoxSlot_0",
+    "Outer": "SizeBox_104",
+    "Class": "UScriptClass'SizeBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.SizeBox_104'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.110"
+      },
+      "Content": {
+        "ObjectName": "ScaleBox'WidgetArchetype:WidgetTree_0.ScaleBox_92'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.104"
+      }
+    }
+  },
+  {
+    "Type": "SizeBoxSlot",
+    "Name": "SizeBoxSlot_0",
+    "Outer": "SizeBox_60",
+    "Class": "UScriptClass'SizeBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.WBP_Couse_Info_Chara.WidgetTree_0.SizeBox_60'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.111"
+      },
+      "Content": {
+        "ObjectName": "ScaleBox'WidgetArchetype:WidgetTree_0.WBP_Couse_Info_Chara.WidgetTree_0.ScaleBox_61'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.105"
+      }
+    }
+  },
+  {
+    "Type": "StrProperty",
+    "Name": "CallFunc_Array_Get_Item",
+    "Outer": "SetTargetText",
+    "Class": "UScriptClass'StrProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "StrProperty",
+    "Name": "CallFunc_Array_Get_Item_1",
+    "Outer": "SetTargetText",
+    "Class": "UScriptClass'StrProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "StrProperty",
+    "Name": "CallFunc_Array_Get_Item_2",
+    "Outer": "SetTargetText",
+    "Class": "UScriptClass'StrProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "StrProperty",
+    "Name": "CallFunc_Array_Get_Item_3",
+    "Outer": "SetTargetText",
+    "Class": "UScriptClass'StrProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "StrProperty",
+    "Name": "CallFunc_Concat_StrStr_ReturnValue",
+    "Outer": "SetTargetText",
+    "Class": "UScriptClass'StrProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "StrProperty",
+    "Name": "CallFunc_Concat_StrStr_ReturnValue_1",
+    "Outer": "SetTargetText",
+    "Class": "UScriptClass'StrProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "StrProperty",
+    "Name": "CallFunc_Conv_IntToString_ReturnValue",
+    "Outer": "SetTargetText",
+    "Class": "UScriptClass'StrProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "StrProperty",
+    "Name": "CallFunc_Conv_TextToString_ReturnValue",
+    "Outer": "SetTargetText",
+    "Class": "UScriptClass'StrProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "StrProperty",
+    "Name": "CallFunc_Conv_TextToString_ReturnValue_1",
+    "Outer": "SetTargetText",
+    "Class": "UScriptClass'StrProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "StrProperty",
+    "Name": "CallFunc_Replace_ReturnValue",
+    "Outer": "SetTargetText",
+    "Class": "UScriptClass'StrProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "StrProperty",
+    "Name": "CallFunc_Replace_ReturnValue_1",
+    "Outer": "SetTargetText",
+    "Class": "UScriptClass'StrProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "StrProperty",
+    "Name": "Text",
+    "Outer": "SetTargetText",
+    "Class": "UScriptClass'StrProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "Edit | BlueprintVisible"
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_FindRivalInfo_OutRivalAsset",
+    "Outer": "ExecuteUbergraph_WBP_Race_StoryTarget",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Struct": {
+      "ObjectName": "ScriptStruct'RivalAsset'",
+      "ObjectPath": "/Script/GameProject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_FindStoryCharacterInfo_OutCharacterAsset",
+    "Outer": "ExecuteUbergraph_WBP_Race_StoryTarget",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Struct": {
+      "ObjectName": "ScriptStruct'StoryCharacterAsset'",
+      "ObjectPath": "/Script/GameProject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_GetStoryClearCondition_OutStoryClearCondition",
+    "Outer": "ExecuteUbergraph_WBP_Race_StoryTarget",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Struct": {
+      "ObjectName": "ScriptStruct'StoryClearConditionAsset'",
+      "ObjectPath": "/Script/GameProject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_GetStoryEpisodeData_OutStoryEpisodeData",
+    "Outer": "ExecuteUbergraph_WBP_Race_StoryTarget",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Struct": {
+      "ObjectName": "ScriptStruct'StoryEpisodeAsset'",
+      "ObjectPath": "/Script/GameProject"
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "P_Belong",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "A6D1D7424E734F6611207A8856D67B86",
+        "SourceString": "NW Saitama Crew",
+        "LocalizedString": "NW Saitama Crew"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 1.0,
+          "G": 1.0,
+          "B": 0.85,
+          "A": 1.0,
+          "Hex": "FFFFEE"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 1
+        },
+        "TypefaceFontName": "RodinN_B",
+        "Size": 10
+      },
+      "ShadowOffset": {
+        "X": 2.0,
+        "Y": 2.0
+      },
+      "ShadowColorAndOpacity": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "000000"
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_Couse_Info_Chara.WidgetTree_0.NameBar_2.CanvasPanelSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.60"
+      },
+      "RenderTransform": {
+        "Shear": {
+          "X": -10.0,
+          "Y": 0.0
+        }
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "P_CharaName",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "D219A4364D9D5052F7ABDFB87547C698",
+        "SourceString": "Iketani",
+        "LocalizedString": "Iketani"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 1.0,
+          "G": 1.0,
+          "B": 0.85,
+          "A": 1.0,
+          "Hex": "FFFFEE"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 1
+        },
+        "TypefaceFontName": "RodinN_B",
+        "Size": 18
+      },
+      "ShadowOffset": {
+        "X": 2.0,
+        "Y": 2.0
+      },
+      "ShadowColorAndOpacity": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "000000"
+      },
+      "Justification": "ETextJustify::Right",
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_Couse_Info_Chara.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.53"
+      },
+      "RenderTransform": {
+        "Shear": {
+          "X": -10.0,
+          "Y": 0.0
+        }
+      },
+      "RenderTransformPivot": {
+        "X": 1.0,
+        "Y": 1.0
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "CallFunc_Conv_StringToText_ReturnValue",
+    "Outer": "SetTargetText",
+    "Class": "UScriptClass'TextProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "RivalName",
+    "Outer": "SetTargetText",
+    "Class": "UScriptClass'TextProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "WBP_Couse_Info_Chara_C",
+    "Name": "WBP_Couse_Info_Chara",
+    "Outer": "WidgetTree",
+    "Class": "WidgetBlueprintGeneratedClass'GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.WBP_Couse_Info_Chara_C'",
+    "Template": {
+      "ObjectName": "WBP_Couse_Info_Chara_C'Default__WBP_Couse_Info_Chara_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Race_StoryTarget_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_8'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.49"
+      },
+      "RenderTransform": {
+        "Scale": {
+          "X": 0.8,
+          "Y": 0.8
+        }
+      }
+    }
+  },
+  {
+    "Type": "WBP_Couse_Info_Chara_C",
+    "Name": "WBP_Couse_Info_Chara",
+    "Outer": "WidgetTree_0",
+    "Class": "WidgetBlueprintGeneratedClass'GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.WBP_Couse_Info_Chara_C'",
+    "Template": {
+      "ObjectName": "WBP_Couse_Info_Chara_C'Default__WBP_Couse_Info_Chara_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "P_Belong": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.WBP_Couse_Info_Chara.WidgetTree_0.P_Belong'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.131"
+      },
+      "P_CharacterMask": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_Couse_Info_Chara.WidgetTree_0.P_CharacterMask'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.70"
+      },
+      "P_CharaName": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.WBP_Couse_Info_Chara.WidgetTree_0.P_CharaName'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.132"
+      },
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.WBP_Couse_Info_Chara.WidgetTree_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.140"
+      },
+      "bCookedWidgetTree": true,
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_8'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.52"
+      },
+      "RenderTransform": {
+        "Scale": {
+          "X": 0.8,
+          "Y": 0.8
+        }
+      }
+    }
+  },
+  {
+    "Type": "WBP_Race_StoryTarget_C",
+    "Name": "WidgetArchetype",
+    "Class": "WidgetBlueprintGeneratedClass'GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.WBP_Race_StoryTarget_C'",
+    "Template": {
+      "ObjectName": "WBP_Race_StoryTarget_C'Default__WBP_Race_StoryTarget_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.2"
+    },
+    "Flags": "RF_Public | RF_Standalone | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "P_TargetDetail_Rich": {
+        "ObjectName": "RichTextBlock'WidgetArchetype:WidgetTree_0.P_TargetDetail_Rich'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.102"
+      },
+      "WBP_Couse_Info_Chara": {
+        "ObjectName": "WBP_Couse_Info_Chara_C'WidgetArchetype:WidgetTree_0.WBP_Couse_Info_Chara'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.136"
+      },
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.139"
+      },
+      "bCookedWidgetTree": true
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Outer": "WBP_Race_StoryTarget_C",
+    "Class": "UScriptClass'WidgetTree'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CanvasPanel'WBP_Race_StoryTarget_C:WidgetTree.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.41"
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree_0",
+    "Outer": "WidgetArchetype",
+    "Class": "UScriptClass'WidgetTree'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.42"
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree_0",
+    "Outer": "WBP_Couse_Info_Chara",
+    "Class": "UScriptClass'WidgetTree'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_Couse_Info_Chara.WidgetTree_0.CanvasPanel_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Race/Story/WBP_Race_StoryTarget.45"
+      }
+    }
+  }
+]

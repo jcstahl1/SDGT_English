@@ -1,0 +1,1862 @@
+[
+  {
+    "Type": "StructProperty",
+    "Name": "UberGraphFrame",
+    "Outer": "WBP_Com_FocusIcon_RecruitTeam_C",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "Transient | DuplicateTransient",
+    "Struct": {
+      "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "WBP_Com_FocusIcon_RecruitTeam_C",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WBP_Com_FocusIcon_RecruitTeam_C:WidgetTree'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/ComParts/WBP_Com_FocusIcon_RecruitTeam.40"
+      },
+      "bAllowTemplate": true,
+      "bValidTemplate": true,
+      "Animations": [
+        {
+          "ObjectName": "WidgetAnimation'WBP_Com_FocusIcon_RecruitTeam_C:Loop_INST'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/ComParts/WBP_Com_FocusIcon_RecruitTeam.39"
+        }
+      ],
+      "TemplateAsset": {
+        "AssetPathName": "/Game/IND/UI/Common/ComParts/WBP_Com_FocusIcon_RecruitTeam.WidgetArchetype",
+        "SubPathString": ""
+      },
+      "UberGraphFramePointerProperty": {
+        "ObjectName": "StructProperty'WBP_Com_FocusIcon_RecruitTeam_C:UberGraphFrame'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/ComParts/WBP_Com_FocusIcon_RecruitTeam.0"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'WBP_Com_FocusIcon_RecruitTeam_C:ExecuteUbergraph_WBP_Com_FocusIcon_RecruitTeam'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/ComParts/WBP_Com_FocusIcon_RecruitTeam.5"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'UserWidget'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'WBP_Com_FocusIcon_RecruitTeam_C:UberGraphFrame'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/ComParts/WBP_Com_FocusIcon_RecruitTeam.0"
+      },
+      {
+        "ObjectName": "Function'WBP_Com_FocusIcon_RecruitTeam_C:PreConstruct'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/ComParts/WBP_Com_FocusIcon_RecruitTeam.12"
+      },
+      {
+        "ObjectName": "Function'WBP_Com_FocusIcon_RecruitTeam_C:Construct'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/ComParts/WBP_Com_FocusIcon_RecruitTeam.11"
+      },
+      {
+        "ObjectName": "Function'WBP_Com_FocusIcon_RecruitTeam_C:SetFocusIconText'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/ComParts/WBP_Com_FocusIcon_RecruitTeam.10"
+      },
+      {
+        "ObjectName": "Function'WBP_Com_FocusIcon_RecruitTeam_C:SetFocusIconText4StartMenu'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/ComParts/WBP_Com_FocusIcon_RecruitTeam.8"
+      },
+      {
+        "ObjectName": "Function'WBP_Com_FocusIcon_RecruitTeam_C:SetFocusIconText4TeamMenu'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/ComParts/WBP_Com_FocusIcon_RecruitTeam.7"
+      },
+      {
+        "ObjectName": "Function'WBP_Com_FocusIcon_RecruitTeam_C:ExecuteUbergraph_WBP_Com_FocusIcon_RecruitTeam'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/ComParts/WBP_Com_FocusIcon_RecruitTeam.5"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Com_FocusIcon_RecruitTeam_C:Loop'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/ComParts/WBP_Com_FocusIcon_RecruitTeam.3"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Com_FocusIcon_RecruitTeam_C:Base'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/ComParts/WBP_Com_FocusIcon_RecruitTeam.31"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Com_FocusIcon_RecruitTeam_C:Icon'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/ComParts/WBP_Com_FocusIcon_RecruitTeam.33"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Com_FocusIcon_RecruitTeam_C:TextBlock_159'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/ComParts/WBP_Com_FocusIcon_RecruitTeam.34"
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_WBP_Com_FocusIcon_RecruitTeam": {
+        "ObjectName": "Function'WBP_Com_FocusIcon_RecruitTeam_C:ExecuteUbergraph_WBP_Com_FocusIcon_RecruitTeam'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/ComParts/WBP_Com_FocusIcon_RecruitTeam.5"
+      },
+      "SetFocusIconText4TeamMenu": {
+        "ObjectName": "Function'WBP_Com_FocusIcon_RecruitTeam_C:SetFocusIconText4TeamMenu'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/ComParts/WBP_Com_FocusIcon_RecruitTeam.7"
+      },
+      "SetFocusIconText4StartMenu": {
+        "ObjectName": "Function'WBP_Com_FocusIcon_RecruitTeam_C:SetFocusIconText4StartMenu'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/ComParts/WBP_Com_FocusIcon_RecruitTeam.8"
+      },
+      "SetFocusIconText": {
+        "ObjectName": "Function'WBP_Com_FocusIcon_RecruitTeam_C:SetFocusIconText'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/ComParts/WBP_Com_FocusIcon_RecruitTeam.10"
+      },
+      "Construct": {
+        "ObjectName": "Function'WBP_Com_FocusIcon_RecruitTeam_C:Construct'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/ComParts/WBP_Com_FocusIcon_RecruitTeam.11"
+      },
+      "PreConstruct": {
+        "ObjectName": "Function'WBP_Com_FocusIcon_RecruitTeam_C:PreConstruct'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/ComParts/WBP_Com_FocusIcon_RecruitTeam.12"
+      }
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "WBP_Com_FocusIcon_RecruitTeam_C'Default__WBP_Com_FocusIcon_RecruitTeam_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Common/ComParts/WBP_Com_FocusIcon_RecruitTeam.2"
+    }
+  },
+  {
+    "Type": "WBP_Com_FocusIcon_RecruitTeam_C",
+    "Name": "Default__WBP_Com_FocusIcon_RecruitTeam_C",
+    "Class": "WidgetBlueprintGeneratedClass'GameProject/Content/IND/UI/Common/ComParts/WBP_Com_FocusIcon_RecruitTeam.WBP_Com_FocusIcon_RecruitTeam_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "UberGraphFrame": {},
+      "bHasScriptImplementedTick": false,
+      "bHasScriptImplementedPaint": false
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Loop",
+    "Outer": "WBP_Com_FocusIcon_RecruitTeam_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Transient | RepSkip",
+    "PropertyClass": {
+      "ObjectName": "Class'WidgetAnimation'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "EntryPoint",
+    "Outer": "ExecuteUbergraph_WBP_Com_FocusIcon_RecruitTeam",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_WBP_Com_FocusIcon_RecruitTeam",
+    "Outer": "WBP_Com_FocusIcon_RecruitTeam_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "IntProperty'WBP_Com_FocusIcon_RecruitTeam_C:ExecuteUbergraph_WBP_Com_FocusIcon_RecruitTeam.EntryPoint'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/ComParts/WBP_Com_FocusIcon_RecruitTeam.4"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Com_FocusIcon_RecruitTeam_C:ExecuteUbergraph_WBP_Com_FocusIcon_RecruitTeam.K2Node_Event_IsDesignTime'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/ComParts/WBP_Com_FocusIcon_RecruitTeam.6"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Com_FocusIcon_RecruitTeam_C:ExecuteUbergraph_WBP_Com_FocusIcon_RecruitTeam.CallFunc_PlayAnimation_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/ComParts/WBP_Com_FocusIcon_RecruitTeam.32"
+      },
+      {
+        "ObjectName": "TextProperty'WBP_Com_FocusIcon_RecruitTeam_C:ExecuteUbergraph_WBP_Com_FocusIcon_RecruitTeam.K2Node_CustomEvent_InText'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/ComParts/WBP_Com_FocusIcon_RecruitTeam.37"
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction | FUNC_HasDefaults"
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_Event_IsDesignTime",
+    "Outer": "ExecuteUbergraph_WBP_Com_FocusIcon_RecruitTeam",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "Function",
+    "Name": "SetFocusIconText4TeamMenu",
+    "Outer": "WBP_Com_FocusIcon_RecruitTeam_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "SetFocusIconText4StartMenu",
+    "Outer": "WBP_Com_FocusIcon_RecruitTeam_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "InText",
+    "Outer": "SetFocusIconText",
+    "Class": "UScriptClass'TextProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "SetFocusIconText",
+    "Outer": "WBP_Com_FocusIcon_RecruitTeam_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "TextProperty'WBP_Com_FocusIcon_RecruitTeam_C:SetFocusIconText.InText'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/ComParts/WBP_Com_FocusIcon_RecruitTeam.9"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "Construct",
+    "Outer": "WBP_Com_FocusIcon_RecruitTeam_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Function'UserWidget:Construct'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "FunctionFlags": "FUNC_BlueprintCosmetic | FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "PreConstruct",
+    "Outer": "WBP_Com_FocusIcon_RecruitTeam_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Function'UserWidget:PreConstruct'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "Children": [
+      {
+        "ObjectName": "BoolProperty'WBP_Com_FocusIcon_RecruitTeam_C:PreConstruct.IsDesignTime'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/ComParts/WBP_Com_FocusIcon_RecruitTeam.13"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCosmetic | FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "IsDesignTime",
+    "Outer": "PreConstruct",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_0",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Com_FocusIcon_RecruitTeam_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/ComParts/WBP_Com_FocusIcon_RecruitTeam.16"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Com_FocusIcon_RecruitTeam_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/ComParts/WBP_Com_FocusIcon_RecruitTeam.17"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Com_FocusIcon_RecruitTeam_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_2'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/ComParts/WBP_Com_FocusIcon_RecruitTeam.18"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_0",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/ComParts/WBP_Com_FocusIcon_RecruitTeam.19"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/ComParts/WBP_Com_FocusIcon_RecruitTeam.20"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_2'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/ComParts/WBP_Com_FocusIcon_RecruitTeam.21"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Com_FocusIcon_RecruitTeam_C:WidgetTree.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/ComParts/WBP_Com_FocusIcon_RecruitTeam.14"
+      },
+      "Content": {
+        "ObjectName": "Image'WBP_Com_FocusIcon_RecruitTeam_C:WidgetTree.Base'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/ComParts/WBP_Com_FocusIcon_RecruitTeam.22"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -150.70346,
+          "Top": -35.776424,
+          "Bottom": 76.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Com_FocusIcon_RecruitTeam_C:WidgetTree.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/ComParts/WBP_Com_FocusIcon_RecruitTeam.14"
+      },
+      "Content": {
+        "ObjectName": "Image'WBP_Com_FocusIcon_RecruitTeam_C:WidgetTree.Icon'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/ComParts/WBP_Com_FocusIcon_RecruitTeam.23"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_2",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 2.194848,
+          "Top": -22.305271
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Com_FocusIcon_RecruitTeam_C:WidgetTree.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/ComParts/WBP_Com_FocusIcon_RecruitTeam.14"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WBP_Com_FocusIcon_RecruitTeam_C:WidgetTree.TextBlock_159'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/ComParts/WBP_Com_FocusIcon_RecruitTeam.35"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/ComParts/WBP_Com_FocusIcon_RecruitTeam.15"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.Base'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/ComParts/WBP_Com_FocusIcon_RecruitTeam.24"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -150.70346,
+          "Top": -35.776424,
+          "Bottom": 76.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/ComParts/WBP_Com_FocusIcon_RecruitTeam.15"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.Icon'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/ComParts/WBP_Com_FocusIcon_RecruitTeam.25"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_2",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 2.194848,
+          "Top": -22.305271
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/ComParts/WBP_Com_FocusIcon_RecruitTeam.15"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.TextBlock_159'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/ComParts/WBP_Com_FocusIcon_RecruitTeam.36"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Base",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 392.0,
+          "Y": 140.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Com_SelectPanel_Focus_RecruitTeam_Base'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/ComParts/Texture/T_Com_SelectPanel_Focus_RecruitTeam_Base.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Com_FocusIcon_RecruitTeam_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/ComParts/WBP_Com_FocusIcon_RecruitTeam.16"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Icon",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 100.0,
+          "Y": 76.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Com_SelectPanel_Focus_RecruitTeam_Icon'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/ComParts/Texture/T_Com_SelectPanel_Focus_RecruitTeam_Icon.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Com_FocusIcon_RecruitTeam_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/ComParts/WBP_Com_FocusIcon_RecruitTeam.17"
+      },
+      "RenderTransform": {
+        "Translation": {
+          "X": 7.6527954E-07,
+          "Y": -3.132704E-06
+        }
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Base",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 392.0,
+          "Y": 140.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Com_SelectPanel_Focus_RecruitTeam_Base'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/ComParts/Texture/T_Com_SelectPanel_Focus_RecruitTeam_Base.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/ComParts/WBP_Com_FocusIcon_RecruitTeam.19"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Icon",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 100.0,
+          "Y": 76.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Com_SelectPanel_Focus_RecruitTeam_Icon'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/ComParts/Texture/T_Com_SelectPanel_Focus_RecruitTeam_Icon.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/ComParts/WBP_Com_FocusIcon_RecruitTeam.20"
+      },
+      "RenderTransform": {
+        "Translation": {
+          "X": 7.6527954E-07,
+          "Y": -3.132704E-06
+        }
+      }
+    }
+  },
+  {
+    "Type": "MovieScene",
+    "Name": "Loop",
+    "Outer": "Loop_INST",
+    "Class": "UScriptClass'MovieScene'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Possessables": [
+        {
+          "Tags": [],
+          "Guid": "5A340260-478BC04A-562478BD-E95CDFB0",
+          "Name": "Icon",
+          "PossessedObjectClass": {
+            "ObjectName": "Class'Image'",
+            "ObjectPath": "/Script/UMG"
+          },
+          "ParentGuid": "00000000-00000000-00000000-00000000"
+        }
+      ],
+      "ObjectBindings": [
+        {
+          "ObjectGuid": "5A340260-478BC04A-562478BD-E95CDFB0",
+          "BindingName": "Icon",
+          "Tracks": [
+            {
+              "ObjectName": "MovieScene2DTransformTrack'WBP_Com_FocusIcon_RecruitTeam_C:Loop_INST.Loop.MovieScene2DTransformTrack_0'",
+              "ObjectPath": "GameProject/Content/IND/UI/Common/ComParts/WBP_Com_FocusIcon_RecruitTeam.28"
+            }
+          ]
+        }
+      ],
+      "PlaybackRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 120000
+            }
+          }
+        }
+      },
+      "DisplayRate": {
+        "Numerator": 60
+      },
+      "Signature": "43BC816C-419E40DB-041F44A3-4B824A2F"
+    }
+  },
+  {
+    "Type": "MovieScene2DTransformSection",
+    "Name": "MovieScene2DTransformSection_0",
+    "Outer": "MovieScene2DTransformTrack_0",
+    "Class": "UScriptClass'MovieScene2DTransformSection'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Translation": {
+        "PreInfinityExtrap": "RCCE_None",
+        "PostInfinityExtrap": "RCCE_None",
+        "Times": [],
+        "Values": [],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 0,
+          "Denominator": 0
+        },
+        "bShowCurve": false,
+        "StructFallback": {
+          "Times": [
+            {
+              "Value": 0
+            },
+            {
+              "Value": 12000
+            },
+            {
+              "Value": 17000
+            },
+            {
+              "Value": 21000
+            }
+          ],
+          "Values": [
+            {
+              "Value": 0.0,
+              "Tangent": {
+                "ArriveTangent": 0.0,
+                "LeaveTangent": 0.0,
+                "ArriveTangentWeight": 0.0,
+                "LeaveTangentWeight": 0.0,
+                "TangentWeightMode": 0
+              },
+              "InterpMode": 2,
+              "TangentMode": 0
+            },
+            {
+              "Value": 7.806393E-07,
+              "Tangent": {
+                "ArriveTangent": 0.0,
+                "LeaveTangent": 0.0,
+                "ArriveTangentWeight": 0.06666667,
+                "LeaveTangentWeight": 0.02777778,
+                "TangentWeightMode": 0
+              },
+              "InterpMode": 2,
+              "TangentMode": 0
+            },
+            {
+              "Value": 7.806393E-07,
+              "Tangent": {
+                "ArriveTangent": 0.0,
+                "LeaveTangent": 0.0,
+                "ArriveTangentWeight": 0.0,
+                "LeaveTangentWeight": 0.0,
+                "TangentWeightMode": 0
+              },
+              "InterpMode": 2,
+              "TangentMode": 0
+            },
+            {
+              "Value": 7.806393E-07,
+              "Tangent": {
+                "ArriveTangent": 0.0,
+                "LeaveTangent": 0.0,
+                "ArriveTangentWeight": 0.0,
+                "LeaveTangentWeight": 0.0,
+                "TangentWeightMode": 0
+              },
+              "InterpMode": 1,
+              "TangentMode": 0
+            }
+          ]
+        }
+      },
+      "Translation[1]": {
+        "PreInfinityExtrap": "RCCE_None",
+        "PostInfinityExtrap": "RCCE_None",
+        "Times": [],
+        "Values": [],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 0,
+          "Denominator": 0
+        },
+        "bShowCurve": false,
+        "StructFallback": {
+          "Times": [
+            {
+              "Value": 0
+            },
+            {
+              "Value": 11000
+            },
+            {
+              "Value": 17000
+            },
+            {
+              "Value": 21000
+            }
+          ],
+          "Values": [
+            {
+              "Value": 0.0,
+              "Tangent": {
+                "ArriveTangent": -0.011492861,
+                "LeaveTangent": -0.011492861,
+                "ArriveTangentWeight": 0.0,
+                "LeaveTangentWeight": 0.0,
+                "TangentWeightMode": 0
+              },
+              "InterpMode": 2,
+              "TangentMode": 1
+            },
+            {
+              "Value": -10.000004,
+              "Tangent": {
+                "ArriveTangent": 0.0150104,
+                "LeaveTangent": 0.0150104,
+                "ArriveTangentWeight": 57.817825,
+                "LeaveTangentWeight": 37.828613,
+                "TangentWeightMode": 0
+              },
+              "InterpMode": 2,
+              "TangentMode": 1
+            },
+            {
+              "Value": -7.5,
+              "Tangent": {
+                "ArriveTangent": -0.009359393,
+                "LeaveTangent": -0.009359393,
+                "ArriveTangentWeight": 38.460903,
+                "LeaveTangentWeight": 19.308315,
+                "TangentWeightMode": 0
+              },
+              "InterpMode": 2,
+              "TangentMode": 1
+            },
+            {
+              "Value": -3.801326E-06,
+              "Tangent": {
+                "ArriveTangent": -0.010666828,
+                "LeaveTangent": -0.010666828,
+                "ArriveTangentWeight": 0.0,
+                "LeaveTangentWeight": 0.0,
+                "TangentWeightMode": 0
+              },
+              "InterpMode": 1,
+              "TangentMode": 0
+            }
+          ]
+        }
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'WBP_Com_FocusIcon_RecruitTeam_C:Loop_INST.Loop.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0.EaseInFunction'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/ComParts/WBP_Com_FocusIcon_RecruitTeam.29"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'WBP_Com_FocusIcon_RecruitTeam_C:Loop_INST.Loop.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0.EaseOutFunction'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/ComParts/WBP_Com_FocusIcon_RecruitTeam.30"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 120000
+            }
+          }
+        }
+      },
+      "Signature": "7EF0A54F-4420E8CC-823B3AB7-5F794BA8"
+    }
+  },
+  {
+    "Type": "MovieScene2DTransformTrack",
+    "Name": "MovieScene2DTransformTrack_0",
+    "Outer": "Loop",
+    "Class": "UScriptClass'MovieScene2DTransformTrack'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "PropertyName": "RenderTransform",
+      "PropertyPath": "RenderTransform",
+      "Sections": [
+        {
+          "ObjectName": "MovieScene2DTransformSection'WBP_Com_FocusIcon_RecruitTeam_C:Loop_INST.Loop.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/ComParts/WBP_Com_FocusIcon_RecruitTeam.27"
+        }
+      ],
+      "Signature": "1A42D78F-4EBCD931-B78ADAA3-EF78E383"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Outer": "MovieScene2DTransformSection_0",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Outer": "MovieScene2DTransformSection_0",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Base",
+    "Outer": "WBP_Com_FocusIcon_RecruitTeam_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'Image'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_PlayAnimation_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_Com_FocusIcon_RecruitTeam",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyClass": {
+      "ObjectName": "Class'UMGSequencePlayer'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Icon",
+    "Outer": "WBP_Com_FocusIcon_RecruitTeam_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'Image'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "TextBlock_159",
+    "Outer": "WBP_Com_FocusIcon_RecruitTeam_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'TextBlock'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "TextBlock_159",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "BB98F1644BD5768118D8D39810F2E220",
+        "SourceString": "A team invitation has arrived\\r\\nCheck from the Team Menu",
+        "LocalizedString": "A team invitation has arrived\\r\\nCheck from the Team Menu"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 1.0,
+          "G": 1.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "FFFF00"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 2
+        },
+        "TypefaceFontName": "RodinN_B",
+        "Size": 15
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Com_FocusIcon_RecruitTeam_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/ComParts/WBP_Com_FocusIcon_RecruitTeam.18"
+      },
+      "RenderTransform": {
+        "Shear": {
+          "X": -16.0,
+          "Y": 0.0
+        }
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "TextBlock_159",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "BB98F1644BD5768118D8D39810F2E220",
+        "SourceString": "A team invitation has arrived\\r\\nCheck from the Team Menu",
+        "LocalizedString": "A team invitation has arrived\\r\\nCheck from the Team Menu"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 1.0,
+          "G": 1.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "FFFF00"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 2
+        },
+        "TypefaceFontName": "RodinN_B",
+        "Size": 15
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/ComParts/WBP_Com_FocusIcon_RecruitTeam.21"
+      },
+      "RenderTransform": {
+        "Shear": {
+          "X": -16.0,
+          "Y": 0.0
+        }
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "K2Node_CustomEvent_InText",
+    "Outer": "ExecuteUbergraph_WBP_Com_FocusIcon_RecruitTeam",
+    "Class": "UScriptClass'TextProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "WBP_Com_FocusIcon_RecruitTeam_C",
+    "Name": "WidgetArchetype",
+    "Class": "WidgetBlueprintGeneratedClass'GameProject/Content/IND/UI/Common/ComParts/WBP_Com_FocusIcon_RecruitTeam.WBP_Com_FocusIcon_RecruitTeam_C'",
+    "Template": {
+      "ObjectName": "WBP_Com_FocusIcon_RecruitTeam_C'Default__WBP_Com_FocusIcon_RecruitTeam_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Common/ComParts/WBP_Com_FocusIcon_RecruitTeam.2"
+    },
+    "Flags": "RF_Public | RF_Standalone | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Base": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.Base'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/ComParts/WBP_Com_FocusIcon_RecruitTeam.24"
+      },
+      "Icon": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.Icon'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/ComParts/WBP_Com_FocusIcon_RecruitTeam.25"
+      },
+      "TextBlock_159": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.TextBlock_159'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/ComParts/WBP_Com_FocusIcon_RecruitTeam.36"
+      },
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/ComParts/WBP_Com_FocusIcon_RecruitTeam.41"
+      },
+      "bCookedWidgetTree": true
+    }
+  },
+  {
+    "Type": "WidgetAnimation",
+    "Name": "Loop_INST",
+    "Outer": "WBP_Com_FocusIcon_RecruitTeam_C",
+    "Class": "UScriptClass'WidgetAnimation'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "MovieScene": {
+        "ObjectName": "MovieScene'WBP_Com_FocusIcon_RecruitTeam_C:Loop_INST.Loop'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/ComParts/WBP_Com_FocusIcon_RecruitTeam.26"
+      },
+      "AnimationBindings": [
+        {
+          "WidgetName": "Icon",
+          "SlotWidgetName": "None",
+          "AnimationGuid": "5A340260-478BC04A-562478BD-E95CDFB0",
+          "bIsRootWidget": false
+        }
+      ],
+      "DisplayLabel": "Loop",
+      "PrecompiledEvaluationTemplate": {
+        "Tracks": [
+          {
+            "Key": {
+              "Value": 0
+            },
+            "Value": {
+              "ObjectBindingID": "5A340260-478BC04A-562478BD-E95CDFB0",
+              "EvaluationPriority": 1000,
+              "EvaluationMethod": "EEvaluationMethod::Static",
+              "Segments": {
+                "SegmentIdentifierToIndex": [
+                  0
+                ],
+                "SortedSegments": [
+                  {
+                    "Range": {
+                      "LowerBound": {
+                        "Type": 1,
+                        "Value": {
+                          "Value": 0
+                        }
+                      },
+                      "UpperBound": {
+                        "Type": 0,
+                        "Value": {
+                          "Value": 120000
+                        }
+                      }
+                    },
+                    "ID": {
+                      "IdentifierIndex": 0
+                    },
+                    "bAllowEmpty": false,
+                    "Impls": [
+                      {
+                        "ImplIndex": 0,
+                        "ForcedTime": {
+                          "Value": -2147483648
+                        },
+                        "Flags": "ESectionEvaluationFlags::None"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "SourceTrack": {
+                "ObjectName": "MovieScene2DTransformTrack'WBP_Com_FocusIcon_RecruitTeam_C:Loop_INST.Loop.MovieScene2DTransformTrack_0'",
+                "ObjectPath": "GameProject/Content/IND/UI/Common/ComParts/WBP_Com_FocusIcon_RecruitTeam.28"
+              },
+              "EvaluationTree": {
+                "Tree": {
+                  "Data": {
+                    "Entries": [
+                      {
+                        "StartIndex": 0,
+                        "Size": 1,
+                        "Capacity": 1
+                      }
+                    ],
+                    "Items": [
+                      {
+                        "ImplIndex": 0,
+                        "ForcedTime": {
+                          "Value": -2147483648
+                        },
+                        "Flags": 0
+                      }
+                    ]
+                  },
+                  "RootNode": {
+                    "Range": {
+                      "LowerBound": {
+                        "Type": 2,
+                        "Value": {
+                          "Value": 0
+                        }
+                      },
+                      "UpperBound": {
+                        "Type": 2,
+                        "Value": {
+                          "Value": 0
+                        }
+                      }
+                    },
+                    "Parent": {
+                      "ChildrenHandle": {
+                        "EntryIndex": -1
+                      },
+                      "Index": -1
+                    },
+                    "ChildrenID": {
+                      "EntryIndex": 0
+                    },
+                    "DataID": {
+                      "EntryIndex": -1
+                    }
+                  },
+                  "ChildNodes": {
+                    "Entries": [
+                      {
+                        "StartIndex": 0,
+                        "Size": 1,
+                        "Capacity": 1
+                      }
+                    ],
+                    "Items": [
+                      {
+                        "Range": {
+                          "LowerBound": {
+                            "Type": 1,
+                            "Value": {
+                              "Value": 0
+                            }
+                          },
+                          "UpperBound": {
+                            "Type": 0,
+                            "Value": {
+                              "Value": 120000
+                            }
+                          }
+                        },
+                        "Parent": {
+                          "ChildrenHandle": {
+                            "EntryIndex": -1
+                          },
+                          "Index": 0
+                        },
+                        "ChildrenID": {
+                          "EntryIndex": -1
+                        },
+                        "DataID": {
+                          "EntryIndex": 0
+                        }
+                      }
+                    ]
+                  }
+                }
+              },
+              "ChildTemplates": [
+                {
+                  "TypeName": "/Script/UMG.MovieScene2DTransformSectionTemplate",
+                  "Data": {
+                    "Translation": {
+                      "PreInfinityExtrap": "RCCE_None",
+                      "PostInfinityExtrap": "RCCE_None",
+                      "Times": [],
+                      "Values": [],
+                      "DefaultValue": 0.0,
+                      "bHasDefaultValue": false,
+                      "TickResolution": {
+                        "Numerator": 0,
+                        "Denominator": 0
+                      },
+                      "bShowCurve": false,
+                      "StructFallback": {
+                        "PreInfinityExtrap": "RCCE_Constant",
+                        "PostInfinityExtrap": "RCCE_Constant",
+                        "Times": [
+                          {
+                            "Value": 0
+                          },
+                          {
+                            "Value": 12000
+                          },
+                          {
+                            "Value": 17000
+                          },
+                          {
+                            "Value": 21000
+                          }
+                        ],
+                        "Values": [
+                          {
+                            "Value": 0.0,
+                            "Tangent": {
+                              "ArriveTangent": 0.0,
+                              "LeaveTangent": 0.0,
+                              "ArriveTangentWeight": 0.0,
+                              "LeaveTangentWeight": 0.0,
+                              "TangentWeightMode": 0
+                            },
+                            "InterpMode": 2,
+                            "TangentMode": 0
+                          },
+                          {
+                            "Value": 7.806393E-07,
+                            "Tangent": {
+                              "ArriveTangent": 0.0,
+                              "LeaveTangent": 0.0,
+                              "ArriveTangentWeight": 0.06666667,
+                              "LeaveTangentWeight": 0.02777778,
+                              "TangentWeightMode": 0
+                            },
+                            "InterpMode": 2,
+                            "TangentMode": 0
+                          },
+                          {
+                            "Value": 7.806393E-07,
+                            "Tangent": {
+                              "ArriveTangent": 0.0,
+                              "LeaveTangent": 0.0,
+                              "ArriveTangentWeight": 0.0,
+                              "LeaveTangentWeight": 0.0,
+                              "TangentWeightMode": 0
+                            },
+                            "InterpMode": 2,
+                            "TangentMode": 0
+                          },
+                          {
+                            "Value": 7.806393E-07,
+                            "Tangent": {
+                              "ArriveTangent": 0.0,
+                              "LeaveTangent": 0.0,
+                              "ArriveTangentWeight": 0.0,
+                              "LeaveTangentWeight": 0.0,
+                              "TangentWeightMode": 0
+                            },
+                            "InterpMode": 1,
+                            "TangentMode": 0
+                          }
+                        ],
+                        "DefaultValue": 0.0,
+                        "bHasDefaultValue": false,
+                        "TickResolution": {
+                          "Numerator": 60000,
+                          "Denominator": 1
+                        }
+                      }
+                    },
+                    "Translation[1]": {
+                      "PreInfinityExtrap": "RCCE_None",
+                      "PostInfinityExtrap": "RCCE_None",
+                      "Times": [],
+                      "Values": [],
+                      "DefaultValue": 0.0,
+                      "bHasDefaultValue": false,
+                      "TickResolution": {
+                        "Numerator": 0,
+                        "Denominator": 0
+                      },
+                      "bShowCurve": false,
+                      "StructFallback": {
+                        "PreInfinityExtrap": "RCCE_Constant",
+                        "PostInfinityExtrap": "RCCE_Constant",
+                        "Times": [
+                          {
+                            "Value": 0
+                          },
+                          {
+                            "Value": 11000
+                          },
+                          {
+                            "Value": 17000
+                          },
+                          {
+                            "Value": 21000
+                          }
+                        ],
+                        "Values": [
+                          {
+                            "Value": 0.0,
+                            "Tangent": {
+                              "ArriveTangent": -0.011492861,
+                              "LeaveTangent": -0.011492861,
+                              "ArriveTangentWeight": 0.0,
+                              "LeaveTangentWeight": 0.0,
+                              "TangentWeightMode": 0
+                            },
+                            "InterpMode": 2,
+                            "TangentMode": 1
+                          },
+                          {
+                            "Value": -10.000004,
+                            "Tangent": {
+                              "ArriveTangent": 0.0150104,
+                              "LeaveTangent": 0.0150104,
+                              "ArriveTangentWeight": 57.817825,
+                              "LeaveTangentWeight": 37.828613,
+                              "TangentWeightMode": 0
+                            },
+                            "InterpMode": 2,
+                            "TangentMode": 1
+                          },
+                          {
+                            "Value": -7.5,
+                            "Tangent": {
+                              "ArriveTangent": -0.009359393,
+                              "LeaveTangent": -0.009359393,
+                              "ArriveTangentWeight": 38.460903,
+                              "LeaveTangentWeight": 19.308315,
+                              "TangentWeightMode": 0
+                            },
+                            "InterpMode": 2,
+                            "TangentMode": 1
+                          },
+                          {
+                            "Value": -3.801326E-06,
+                            "Tangent": {
+                              "ArriveTangent": -0.010666828,
+                              "LeaveTangent": -0.010666828,
+                              "ArriveTangentWeight": 0.0,
+                              "LeaveTangentWeight": 0.0,
+                              "TangentWeightMode": 0
+                            },
+                            "InterpMode": 1,
+                            "TangentMode": 0
+                          }
+                        ],
+                        "DefaultValue": 0.0,
+                        "bHasDefaultValue": false,
+                        "TickResolution": {
+                          "Numerator": 60000,
+                          "Denominator": 1
+                        }
+                      }
+                    },
+                    "Rotation": {
+                      "PreInfinityExtrap": "RCCE_None",
+                      "PostInfinityExtrap": "RCCE_None",
+                      "Times": [],
+                      "Values": [],
+                      "DefaultValue": 0.0,
+                      "bHasDefaultValue": false,
+                      "TickResolution": {
+                        "Numerator": 0,
+                        "Denominator": 0
+                      },
+                      "bShowCurve": false,
+                      "StructFallback": {
+                        "PreInfinityExtrap": "RCCE_Constant",
+                        "PostInfinityExtrap": "RCCE_Constant",
+                        "Times": [],
+                        "Values": [],
+                        "DefaultValue": 0.0,
+                        "bHasDefaultValue": false,
+                        "TickResolution": {
+                          "Numerator": 60000,
+                          "Denominator": 1
+                        }
+                      }
+                    },
+                    "Scale": {
+                      "PreInfinityExtrap": "RCCE_None",
+                      "PostInfinityExtrap": "RCCE_None",
+                      "Times": [],
+                      "Values": [],
+                      "DefaultValue": 0.0,
+                      "bHasDefaultValue": false,
+                      "TickResolution": {
+                        "Numerator": 0,
+                        "Denominator": 0
+                      },
+                      "bShowCurve": false,
+                      "StructFallback": {
+                        "PreInfinityExtrap": "RCCE_Constant",
+                        "PostInfinityExtrap": "RCCE_Constant",
+                        "Times": [],
+                        "Values": [],
+                        "DefaultValue": 0.0,
+                        "bHasDefaultValue": false,
+                        "TickResolution": {
+                          "Numerator": 60000,
+                          "Denominator": 1
+                        }
+                      }
+                    },
+                    "Scale[1]": {
+                      "PreInfinityExtrap": "RCCE_None",
+                      "PostInfinityExtrap": "RCCE_None",
+                      "Times": [],
+                      "Values": [],
+                      "DefaultValue": 0.0,
+                      "bHasDefaultValue": false,
+                      "TickResolution": {
+                        "Numerator": 0,
+                        "Denominator": 0
+                      },
+                      "bShowCurve": false,
+                      "StructFallback": {
+                        "PreInfinityExtrap": "RCCE_Constant",
+                        "PostInfinityExtrap": "RCCE_Constant",
+                        "Times": [],
+                        "Values": [],
+                        "DefaultValue": 0.0,
+                        "bHasDefaultValue": false,
+                        "TickResolution": {
+                          "Numerator": 60000,
+                          "Denominator": 1
+                        }
+                      }
+                    },
+                    "Shear": {
+                      "PreInfinityExtrap": "RCCE_None",
+                      "PostInfinityExtrap": "RCCE_None",
+                      "Times": [],
+                      "Values": [],
+                      "DefaultValue": 0.0,
+                      "bHasDefaultValue": false,
+                      "TickResolution": {
+                        "Numerator": 0,
+                        "Denominator": 0
+                      },
+                      "bShowCurve": false,
+                      "StructFallback": {
+                        "PreInfinityExtrap": "RCCE_Constant",
+                        "PostInfinityExtrap": "RCCE_Constant",
+                        "Times": [],
+                        "Values": [],
+                        "DefaultValue": 0.0,
+                        "bHasDefaultValue": false,
+                        "TickResolution": {
+                          "Numerator": 60000,
+                          "Denominator": 1
+                        }
+                      }
+                    },
+                    "Shear[1]": {
+                      "PreInfinityExtrap": "RCCE_None",
+                      "PostInfinityExtrap": "RCCE_None",
+                      "Times": [],
+                      "Values": [],
+                      "DefaultValue": 0.0,
+                      "bHasDefaultValue": false,
+                      "TickResolution": {
+                        "Numerator": 0,
+                        "Denominator": 0
+                      },
+                      "bShowCurve": false,
+                      "StructFallback": {
+                        "PreInfinityExtrap": "RCCE_Constant",
+                        "PostInfinityExtrap": "RCCE_Constant",
+                        "Times": [],
+                        "Values": [],
+                        "DefaultValue": 0.0,
+                        "bHasDefaultValue": false,
+                        "TickResolution": {
+                          "Numerator": 60000,
+                          "Denominator": 1
+                        }
+                      }
+                    },
+                    "BlendType": "EMovieSceneBlendType::Absolute",
+                    "Mask": {
+                      "Mask": 127
+                    },
+                    "PropertyData": {
+                      "PropertyName": "RenderTransform",
+                      "PropertyPath": "RenderTransform",
+                      "FunctionName": "None",
+                      "NotifyFunctionName": "None"
+                    },
+                    "CompletionMode": "EMovieSceneCompletionMode::KeepState",
+                    "SourceSectionPtr": {
+                      "ObjectName": "MovieScene2DTransformSection'WBP_Com_FocusIcon_RecruitTeam_C:Loop_INST.Loop.MovieScene2DTransformTrack_0.MovieScene2DTransformSection_0'",
+                      "ObjectPath": "GameProject/Content/IND/UI/Common/ComParts/WBP_Com_FocusIcon_RecruitTeam.27"
+                    }
+                  }
+                }
+              ],
+              "TrackTemplate": {
+                "TypeName": "",
+                "Data": null
+              },
+              "EvaluationGroup": "None",
+              "bEvaluateInPreroll": false,
+              "bEvaluateInPostroll": false,
+              "bTearDownPriority": false
+            }
+          }
+        ],
+        "EvaluationField": {
+          "Ranges": [
+            {
+              "Value": {
+                "LowerBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                },
+                "UpperBound": {
+                  "Type": 0,
+                  "Value": {
+                    "Value": 0
+                  }
+                }
+              }
+            },
+            {
+              "Value": {
+                "LowerBound": {
+                  "Type": 1,
+                  "Value": {
+                    "Value": 0
+                  }
+                },
+                "UpperBound": {
+                  "Type": 0,
+                  "Value": {
+                    "Value": 120000
+                  }
+                }
+              }
+            },
+            {
+              "Value": {
+                "LowerBound": {
+                  "Type": 1,
+                  "Value": {
+                    "Value": 120000
+                  }
+                },
+                "UpperBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                }
+              }
+            }
+          ],
+          "Groups": [
+            {
+              "LUTIndices": [],
+              "SegmentPtrLUT": []
+            },
+            {
+              "LUTIndices": [
+                {
+                  "LUTOffset": 0,
+                  "NumInitPtrs": 0,
+                  "NumEvalPtrs": 1
+                }
+              ],
+              "SegmentPtrLUT": [
+                {
+                  "SegmentID": {
+                    "IdentifierIndex": 0
+                  },
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 0
+                  }
+                }
+              ]
+            },
+            {
+              "LUTIndices": [],
+              "SegmentPtrLUT": []
+            }
+          ],
+          "MetaData": [
+            {
+              "ActiveSequences": [
+                {
+                  "Value": 0
+                }
+              ],
+              "ActiveEntities": [],
+              "SubTemplateSerialNumbers": []
+            },
+            {
+              "ActiveSequences": [
+                {
+                  "Value": 0
+                }
+              ],
+              "ActiveEntities": [
+                {
+                  "Key": {
+                    "SequenceID": {
+                      "Value": 0
+                    },
+                    "TrackIdentifier": {
+                      "Value": 0
+                    },
+                    "SectionIndex": 0
+                  },
+                  "SetupIndex": 1,
+                  "TearDownIndex": 65534
+                },
+                {
+                  "Key": {
+                    "SequenceID": {
+                      "Value": 0
+                    },
+                    "TrackIdentifier": {
+                      "Value": 0
+                    },
+                    "SectionIndex": 4294967295
+                  },
+                  "SetupIndex": 0,
+                  "TearDownIndex": 65535
+                }
+              ],
+              "SubTemplateSerialNumbers": []
+            },
+            {
+              "ActiveSequences": [
+                {
+                  "Value": 0
+                }
+              ],
+              "ActiveEntities": [],
+              "SubTemplateSerialNumbers": []
+            }
+          ]
+        },
+        "SequenceSignature": "0481215B-4F38CA9F-9E7730BC-3BE4B258",
+        "TemplateSerialNumber": {
+          "Value": 1
+        },
+        "TemplateLedger": {
+          "LastTrackIdentifier": {
+            "Value": 0
+          },
+          "TrackSignatureToTrackIdentifier": [
+            {
+              "Key": "1A42D78F-4EBCD931-B78ADAA3-EF78E383",
+              "Value": {
+                "Value": 0
+              }
+            }
+          ]
+        },
+        "TrackFieldData": {
+          "Field": {
+            "Data": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 1,
+                  "Capacity": 1
+                }
+              ],
+              "Items": [
+                0
+              ]
+            },
+            "RootNode": {
+              "Range": {
+                "LowerBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                },
+                "UpperBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                }
+              },
+              "Parent": {
+                "ChildrenHandle": {
+                  "EntryIndex": -1
+                },
+                "Index": -1
+              },
+              "ChildrenID": {
+                "EntryIndex": 0
+              },
+              "DataID": {
+                "EntryIndex": -1
+              }
+            },
+            "ChildNodes": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 1,
+                  "Capacity": 1
+                }
+              ],
+              "Items": [
+                {
+                  "Range": {
+                    "LowerBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": 0
+                      }
+                    },
+                    "UpperBound": {
+                      "Type": 0,
+                      "Value": {
+                        "Value": 120000
+                      }
+                    }
+                  },
+                  "Parent": {
+                    "ChildrenHandle": {
+                      "EntryIndex": -1
+                    },
+                    "Index": 0
+                  },
+                  "ChildrenID": {
+                    "EntryIndex": -1
+                  },
+                  "DataID": {
+                    "EntryIndex": 0
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "Signature": "0481215B-4F38CA9F-9E7730BC-3BE4B258"
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Outer": "WBP_Com_FocusIcon_RecruitTeam_C",
+    "Class": "UScriptClass'WidgetTree'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CanvasPanel'WBP_Com_FocusIcon_RecruitTeam_C:WidgetTree.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/ComParts/WBP_Com_FocusIcon_RecruitTeam.14"
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree_0",
+    "Outer": "WidgetArchetype",
+    "Class": "UScriptClass'WidgetTree'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/ComParts/WBP_Com_FocusIcon_RecruitTeam.15"
+      }
+    }
+  }
+]

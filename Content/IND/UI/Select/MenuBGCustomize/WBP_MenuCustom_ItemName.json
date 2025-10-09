@@ -1,0 +1,827 @@
+[
+  {
+    "Type": "StructProperty",
+    "Name": "UberGraphFrame",
+    "Outer": "WBP_MenuCustom_ItemName_C",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "Transient | DuplicateTransient",
+    "Struct": {
+      "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "WBP_MenuCustom_ItemName_C",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WBP_MenuCustom_ItemName_C:WidgetTree'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/MenuBGCustomize/WBP_MenuCustom_ItemName.45"
+      },
+      "bAllowTemplate": true,
+      "bValidTemplate": true,
+      "TemplateAsset": {
+        "AssetPathName": "/Game/IND/UI/Select/MenuBGCustomize/WBP_MenuCustom_ItemName.WidgetArchetype",
+        "SubPathString": ""
+      },
+      "UberGraphFramePointerProperty": {
+        "ObjectName": "StructProperty'WBP_MenuCustom_ItemName_C:UberGraphFrame'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/MenuBGCustomize/WBP_MenuCustom_ItemName.0"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'WBP_MenuCustom_ItemName_C:ExecuteUbergraph_WBP_MenuCustom_ItemName'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/MenuBGCustomize/WBP_MenuCustom_ItemName.5"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'UserWidget'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'WBP_MenuCustom_ItemName_C:UberGraphFrame'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/MenuBGCustomize/WBP_MenuCustom_ItemName.0"
+      },
+      {
+        "ObjectName": "Function'WBP_MenuCustom_ItemName_C:SetStartMenuBG'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/MenuBGCustomize/WBP_MenuCustom_ItemName.35"
+      },
+      {
+        "ObjectName": "Function'WBP_MenuCustom_ItemName_C:ExecuteUbergraph_WBP_MenuCustom_ItemName'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/MenuBGCustomize/WBP_MenuCustom_ItemName.5"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_MenuCustom_ItemName_C:P_Name'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/MenuBGCustomize/WBP_MenuCustom_ItemName.3"
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_WBP_MenuCustom_ItemName": {
+        "ObjectName": "Function'WBP_MenuCustom_ItemName_C:ExecuteUbergraph_WBP_MenuCustom_ItemName'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/MenuBGCustomize/WBP_MenuCustom_ItemName.5"
+      },
+      "SetStartMenuBG": {
+        "ObjectName": "Function'WBP_MenuCustom_ItemName_C:SetStartMenuBG'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/MenuBGCustomize/WBP_MenuCustom_ItemName.35"
+      }
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "WBP_MenuCustom_ItemName_C'Default__WBP_MenuCustom_ItemName_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Select/MenuBGCustomize/WBP_MenuCustom_ItemName.2"
+    }
+  },
+  {
+    "Type": "WBP_MenuCustom_ItemName_C",
+    "Name": "Default__WBP_MenuCustom_ItemName_C",
+    "Class": "WidgetBlueprintGeneratedClass'GameProject/Content/IND/UI/Select/MenuBGCustomize/WBP_MenuCustom_ItemName.WBP_MenuCustom_ItemName_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "UberGraphFrame": {},
+      "bHasScriptImplementedTick": false,
+      "bHasScriptImplementedPaint": false
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "P_Name",
+    "Outer": "WBP_MenuCustom_ItemName_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'TextBlock'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "EntryPoint",
+    "Outer": "ExecuteUbergraph_WBP_MenuCustom_ItemName",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_WBP_MenuCustom_ItemName",
+    "Outer": "WBP_MenuCustom_ItemName_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "IntProperty'WBP_MenuCustom_ItemName_C:ExecuteUbergraph_WBP_MenuCustom_ItemName.EntryPoint'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/MenuBGCustomize/WBP_MenuCustom_ItemName.4"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_MenuCustom_ItemName_C:ExecuteUbergraph_WBP_MenuCustom_ItemName.CallFunc_GenerateStartMenuBGObject_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/MenuBGCustomize/WBP_MenuCustom_ItemName.38"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_MenuCustom_ItemName_C:ExecuteUbergraph_WBP_MenuCustom_ItemName.Temp_float_Variable'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/MenuBGCustomize/WBP_MenuCustom_ItemName.29"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_MenuCustom_ItemName_C:ExecuteUbergraph_WBP_MenuCustom_ItemName.Temp_bool_Variable'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/MenuBGCustomize/WBP_MenuCustom_ItemName.11"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_MenuCustom_ItemName_C:ExecuteUbergraph_WBP_MenuCustom_ItemName.Temp_float_Variable_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/MenuBGCustomize/WBP_MenuCustom_ItemName.30"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_MenuCustom_ItemName_C:ExecuteUbergraph_WBP_MenuCustom_ItemName.Temp_bool_Variable_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/MenuBGCustomize/WBP_MenuCustom_ItemName.12"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_MenuCustom_ItemName_C:ExecuteUbergraph_WBP_MenuCustom_ItemName.Temp_float_Variable_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/MenuBGCustomize/WBP_MenuCustom_ItemName.31"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_MenuCustom_ItemName_C:ExecuteUbergraph_WBP_MenuCustom_ItemName.Temp_bool_Variable_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/MenuBGCustomize/WBP_MenuCustom_ItemName.13"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_MenuCustom_ItemName_C:ExecuteUbergraph_WBP_MenuCustom_ItemName.Temp_float_Variable_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/MenuBGCustomize/WBP_MenuCustom_ItemName.32"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_MenuCustom_ItemName_C:ExecuteUbergraph_WBP_MenuCustom_ItemName.K2Node_CustomEvent_StartMenuBGID'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/MenuBGCustomize/WBP_MenuCustom_ItemName.33"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_MenuCustom_ItemName_C:ExecuteUbergraph_WBP_MenuCustom_ItemName.Temp_bool_Variable_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/MenuBGCustomize/WBP_MenuCustom_ItemName.14"
+      },
+      {
+        "ObjectName": "StructProperty'WBP_MenuCustom_ItemName_C:ExecuteUbergraph_WBP_MenuCustom_ItemName.CallFunc_FindStartMenuBGData_StartMenuBGData'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/MenuBGCustomize/WBP_MenuCustom_ItemName.39"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_MenuCustom_ItemName_C:ExecuteUbergraph_WBP_MenuCustom_ItemName.CallFunc_FindStartMenuBGData_Find'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/MenuBGCustomize/WBP_MenuCustom_ItemName.6"
+      },
+      {
+        "ObjectName": "StructProperty'WBP_MenuCustom_ItemName_C:ExecuteUbergraph_WBP_MenuCustom_ItemName.CallFunc_GetDesiredSize_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/MenuBGCustomize/WBP_MenuCustom_ItemName.40"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_MenuCustom_ItemName_C:ExecuteUbergraph_WBP_MenuCustom_ItemName.CallFunc_BreakVector2D_X'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/MenuBGCustomize/WBP_MenuCustom_ItemName.21"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_MenuCustom_ItemName_C:ExecuteUbergraph_WBP_MenuCustom_ItemName.CallFunc_BreakVector2D_Y'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/MenuBGCustomize/WBP_MenuCustom_ItemName.22"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_MenuCustom_ItemName_C:ExecuteUbergraph_WBP_MenuCustom_ItemName.CallFunc_Divide_FloatFloat_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/MenuBGCustomize/WBP_MenuCustom_ItemName.23"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_MenuCustom_ItemName_C:ExecuteUbergraph_WBP_MenuCustom_ItemName.CallFunc_Divide_FloatFloat_ReturnValue_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/MenuBGCustomize/WBP_MenuCustom_ItemName.24"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_MenuCustom_ItemName_C:ExecuteUbergraph_WBP_MenuCustom_ItemName.CallFunc_Less_FloatFloat_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/MenuBGCustomize/WBP_MenuCustom_ItemName.7"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_MenuCustom_ItemName_C:ExecuteUbergraph_WBP_MenuCustom_ItemName.CallFunc_Less_FloatFloat_ReturnValue_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/MenuBGCustomize/WBP_MenuCustom_ItemName.8"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_MenuCustom_ItemName_C:ExecuteUbergraph_WBP_MenuCustom_ItemName.K2Node_Select_Default'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/MenuBGCustomize/WBP_MenuCustom_ItemName.25"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_MenuCustom_ItemName_C:ExecuteUbergraph_WBP_MenuCustom_ItemName.K2Node_Select_Default_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/MenuBGCustomize/WBP_MenuCustom_ItemName.26"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_MenuCustom_ItemName_C:ExecuteUbergraph_WBP_MenuCustom_ItemName.CallFunc_Less_FloatFloat_ReturnValue_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/MenuBGCustomize/WBP_MenuCustom_ItemName.9"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_MenuCustom_ItemName_C:ExecuteUbergraph_WBP_MenuCustom_ItemName.CallFunc_Less_FloatFloat_ReturnValue_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/MenuBGCustomize/WBP_MenuCustom_ItemName.10"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_MenuCustom_ItemName_C:ExecuteUbergraph_WBP_MenuCustom_ItemName.K2Node_Select_Default_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/MenuBGCustomize/WBP_MenuCustom_ItemName.27"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_MenuCustom_ItemName_C:ExecuteUbergraph_WBP_MenuCustom_ItemName.K2Node_Select_Default_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/MenuBGCustomize/WBP_MenuCustom_ItemName.28"
+      },
+      {
+        "ObjectName": "StructProperty'WBP_MenuCustom_ItemName_C:ExecuteUbergraph_WBP_MenuCustom_ItemName.CallFunc_MakeVector2D_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/MenuBGCustomize/WBP_MenuCustom_ItemName.41"
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction | FUNC_HasDefaults"
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_FindStartMenuBGData_Find",
+    "Outer": "ExecuteUbergraph_WBP_MenuCustom_ItemName",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_Less_FloatFloat_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_MenuCustom_ItemName",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_Less_FloatFloat_ReturnValue_1",
+    "Outer": "ExecuteUbergraph_WBP_MenuCustom_ItemName",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_Less_FloatFloat_ReturnValue_2",
+    "Outer": "ExecuteUbergraph_WBP_MenuCustom_ItemName",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_Less_FloatFloat_ReturnValue_3",
+    "Outer": "ExecuteUbergraph_WBP_MenuCustom_ItemName",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "Temp_bool_Variable",
+    "Outer": "ExecuteUbergraph_WBP_MenuCustom_ItemName",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "Temp_bool_Variable_1",
+    "Outer": "ExecuteUbergraph_WBP_MenuCustom_ItemName",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "Temp_bool_Variable_2",
+    "Outer": "ExecuteUbergraph_WBP_MenuCustom_ItemName",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "Temp_bool_Variable_3",
+    "Outer": "ExecuteUbergraph_WBP_MenuCustom_ItemName",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_0",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_MenuCustom_ItemName_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/MenuBGCustomize/WBP_MenuCustom_ItemName.18"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_MenuCustom_ItemName_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/MenuBGCustomize/WBP_MenuCustom_ItemName.17"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_0",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/MenuBGCustomize/WBP_MenuCustom_ItemName.20"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/MenuBGCustomize/WBP_MenuCustom_ItemName.19"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 64.0,
+          "Top": -10.0
+        },
+        "Alignment": {
+          "X": 0.0,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_MenuCustom_ItemName_C:WidgetTree.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/MenuBGCustomize/WBP_MenuCustom_ItemName.15"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WBP_MenuCustom_ItemName_C:WidgetTree.P_Name'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/MenuBGCustomize/WBP_MenuCustom_ItemName.42"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 725.0,
+          "Bottom": 18.0
+        },
+        "Alignment": {
+          "X": 0.0,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_MenuCustom_ItemName_C:WidgetTree.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/MenuBGCustomize/WBP_MenuCustom_ItemName.15"
+      },
+      "Content": {
+        "ObjectName": "Image'WBP_MenuCustom_ItemName_C:WidgetTree.line'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/MenuBGCustomize/WBP_MenuCustom_ItemName.36"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 64.0,
+          "Top": -10.0
+        },
+        "Alignment": {
+          "X": 0.0,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/MenuBGCustomize/WBP_MenuCustom_ItemName.16"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.P_Name'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/MenuBGCustomize/WBP_MenuCustom_ItemName.43"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 725.0,
+          "Bottom": 18.0
+        },
+        "Alignment": {
+          "X": 0.0,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/MenuBGCustomize/WBP_MenuCustom_ItemName.16"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.line'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/MenuBGCustomize/WBP_MenuCustom_ItemName.37"
+      }
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_BreakVector2D_X",
+    "Outer": "ExecuteUbergraph_WBP_MenuCustom_ItemName",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_BreakVector2D_Y",
+    "Outer": "ExecuteUbergraph_WBP_MenuCustom_ItemName",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_Divide_FloatFloat_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_MenuCustom_ItemName",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_Divide_FloatFloat_ReturnValue_1",
+    "Outer": "ExecuteUbergraph_WBP_MenuCustom_ItemName",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "K2Node_Select_Default",
+    "Outer": "ExecuteUbergraph_WBP_MenuCustom_ItemName",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "K2Node_Select_Default_1",
+    "Outer": "ExecuteUbergraph_WBP_MenuCustom_ItemName",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "K2Node_Select_Default_2",
+    "Outer": "ExecuteUbergraph_WBP_MenuCustom_ItemName",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "K2Node_Select_Default_3",
+    "Outer": "ExecuteUbergraph_WBP_MenuCustom_ItemName",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "Temp_float_Variable",
+    "Outer": "ExecuteUbergraph_WBP_MenuCustom_ItemName",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "Temp_float_Variable_1",
+    "Outer": "ExecuteUbergraph_WBP_MenuCustom_ItemName",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "Temp_float_Variable_2",
+    "Outer": "ExecuteUbergraph_WBP_MenuCustom_ItemName",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "Temp_float_Variable_3",
+    "Outer": "ExecuteUbergraph_WBP_MenuCustom_ItemName",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "K2Node_CustomEvent_StartMenuBGID",
+    "Outer": "ExecuteUbergraph_WBP_MenuCustom_ItemName",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "StartMenuBGID",
+    "Outer": "SetStartMenuBG",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "SetStartMenuBG",
+    "Outer": "WBP_MenuCustom_ItemName_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "IntProperty'WBP_MenuCustom_ItemName_C:SetStartMenuBG.StartMenuBGID'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/MenuBGCustomize/WBP_MenuCustom_ItemName.34"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Image",
+    "Name": "line",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 582.0,
+          "Y": 18.0
+        },
+        "Margin": {
+          "Left": 0.5,
+          "Right": 0.5
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'text_base'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/MeterCustomize/Texture/text_base.0"
+        },
+        "DrawAs": "ESlateBrushDrawType::Box"
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_MenuCustom_ItemName_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/MenuBGCustomize/WBP_MenuCustom_ItemName.18"
+      },
+      "RenderTransform": {
+        "Scale": {
+          "X": -1.0,
+          "Y": 1.0
+        }
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "line",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 582.0,
+          "Y": 18.0
+        },
+        "Margin": {
+          "Left": 0.5,
+          "Right": 0.5
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'text_base'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/MeterCustomize/Texture/text_base.0"
+        },
+        "DrawAs": "ESlateBrushDrawType::Box"
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/MenuBGCustomize/WBP_MenuCustom_ItemName.20"
+      },
+      "RenderTransform": {
+        "Scale": {
+          "X": -1.0,
+          "Y": 1.0
+        }
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GenerateStartMenuBGObject_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_MenuCustom_ItemName",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyClass": {
+      "ObjectName": "Class'StartMenuBGDBObject'",
+      "ObjectPath": "/Script/GameProject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_FindStartMenuBGData_StartMenuBGData",
+    "Outer": "ExecuteUbergraph_WBP_MenuCustom_ItemName",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Struct": {
+      "ObjectName": "ScriptStruct'StartMenuBGDataAsset'",
+      "ObjectPath": "/Script/GameProject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_GetDesiredSize_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_MenuCustom_ItemName",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector2D'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_MakeVector2D_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_MenuCustom_ItemName",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector2D'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "P_Name",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "0D1038344303348088ABC882ABA5C0BF",
+        "SourceString": "デフォルト",
+        "LocalizedString": "デフォルト"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "FontMaterial": {
+          "ObjectName": "MaterialInstanceConstant'MI_CourseFontTex'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/Material/MI_CourseFontTex.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 3,
+          "OutlineColor": {
+            "R": 0.019382,
+            "G": 0.019382,
+            "B": 0.019382,
+            "A": 1.0,
+            "Hex": "262626"
+          }
+        },
+        "TypefaceFontName": "RodinN_B",
+        "Size": 22
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_MenuCustom_ItemName_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/MenuBGCustomize/WBP_MenuCustom_ItemName.17"
+      },
+      "RenderTransformPivot": {
+        "X": 0.0,
+        "Y": 0.5
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "P_Name",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "0D1038344303348088ABC882ABA5C0BF",
+        "SourceString": "デフォルト",
+        "LocalizedString": "デフォルト"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "FontMaterial": {
+          "ObjectName": "MaterialInstanceConstant'MI_CourseFontTex'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/Material/MI_CourseFontTex.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 3,
+          "OutlineColor": {
+            "R": 0.019382,
+            "G": 0.019382,
+            "B": 0.019382,
+            "A": 1.0,
+            "Hex": "262626"
+          }
+        },
+        "TypefaceFontName": "RodinN_B",
+        "Size": 22
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/MenuBGCustomize/WBP_MenuCustom_ItemName.19"
+      },
+      "RenderTransformPivot": {
+        "X": 0.0,
+        "Y": 0.5
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "WBP_MenuCustom_ItemName_C",
+    "Name": "WidgetArchetype",
+    "Class": "WidgetBlueprintGeneratedClass'GameProject/Content/IND/UI/Select/MenuBGCustomize/WBP_MenuCustom_ItemName.WBP_MenuCustom_ItemName_C'",
+    "Template": {
+      "ObjectName": "WBP_MenuCustom_ItemName_C'Default__WBP_MenuCustom_ItemName_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Select/MenuBGCustomize/WBP_MenuCustom_ItemName.2"
+    },
+    "Flags": "RF_Public | RF_Standalone | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "P_Name": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.P_Name'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/MenuBGCustomize/WBP_MenuCustom_ItemName.43"
+      },
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/MenuBGCustomize/WBP_MenuCustom_ItemName.46"
+      },
+      "bCookedWidgetTree": true
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Outer": "WBP_MenuCustom_ItemName_C",
+    "Class": "UScriptClass'WidgetTree'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CanvasPanel'WBP_MenuCustom_ItemName_C:WidgetTree.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/MenuBGCustomize/WBP_MenuCustom_ItemName.15"
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree_0",
+    "Outer": "WidgetArchetype",
+    "Class": "UScriptClass'WidgetTree'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/MenuBGCustomize/WBP_MenuCustom_ItemName.16"
+      }
+    }
+  }
+]

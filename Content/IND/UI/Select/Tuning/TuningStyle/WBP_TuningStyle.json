@@ -1,0 +1,1791 @@
+[
+  {
+    "Type": "StructProperty",
+    "Name": "UberGraphFrame",
+    "Outer": "WBP_TuningStyle_C",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "Transient | DuplicateTransient",
+    "Struct": {
+      "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "WBP_TuningStyle_C",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WBP_TuningStyle_C:WidgetTree'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.109"
+      },
+      "bAllowTemplate": true,
+      "bValidTemplate": true,
+      "TemplateAsset": {
+        "AssetPathName": "/Game/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.WidgetArchetype",
+        "SubPathString": ""
+      },
+      "UberGraphFramePointerProperty": {
+        "ObjectName": "StructProperty'WBP_TuningStyle_C:UberGraphFrame'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.0"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'WBP_TuningStyle_C:ExecuteUbergraph_WBP_TuningStyle'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.5"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'UserWidget'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'WBP_TuningStyle_C:UberGraphFrame'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.0"
+      },
+      {
+        "ObjectName": "Function'WBP_TuningStyle_C:SetStyleName'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.29"
+      },
+      {
+        "ObjectName": "Function'WBP_TuningStyle_C:Set_Style'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.27"
+      },
+      {
+        "ObjectName": "Function'WBP_TuningStyle_C:Set_Style_Unknown'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.25"
+      },
+      {
+        "ObjectName": "Function'WBP_TuningStyle_C:Set_StyleInfo_FromName'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.24"
+      },
+      {
+        "ObjectName": "Function'WBP_TuningStyle_C:Set_StyleInfo_FromIndex'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.22"
+      },
+      {
+        "ObjectName": "Function'WBP_TuningStyle_C:Set_StyleInfo_FromTuningStyleID'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.20"
+      },
+      {
+        "ObjectName": "Function'WBP_TuningStyle_C:ExecuteUbergraph_WBP_TuningStyle'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.5"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_TuningStyle_C:P_Text_TuningStyleName'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.3"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_TuningStyle_C:P_TuningIcon'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.96"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_TuningStyle_C:TuningStyleBase'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.97"
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_WBP_TuningStyle": {
+        "ObjectName": "Function'WBP_TuningStyle_C:ExecuteUbergraph_WBP_TuningStyle'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.5"
+      },
+      "Set_StyleInfo_FromTuningStyleID": {
+        "ObjectName": "Function'WBP_TuningStyle_C:Set_StyleInfo_FromTuningStyleID'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.20"
+      },
+      "Set_StyleInfo_FromIndex": {
+        "ObjectName": "Function'WBP_TuningStyle_C:Set_StyleInfo_FromIndex'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.22"
+      },
+      "Set_StyleInfo_FromName": {
+        "ObjectName": "Function'WBP_TuningStyle_C:Set_StyleInfo_FromName'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.24"
+      },
+      "Set_Style_Unknown": {
+        "ObjectName": "Function'WBP_TuningStyle_C:Set_Style_Unknown'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.25"
+      },
+      "Set_Style": {
+        "ObjectName": "Function'WBP_TuningStyle_C:Set_Style'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.27"
+      },
+      "SetStyleName": {
+        "ObjectName": "Function'WBP_TuningStyle_C:SetStyleName'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.29"
+      }
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "WBP_TuningStyle_C'Default__WBP_TuningStyle_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.2"
+    }
+  },
+  {
+    "Type": "WBP_TuningStyle_C",
+    "Name": "Default__WBP_TuningStyle_C",
+    "Class": "WidgetBlueprintGeneratedClass'GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.WBP_TuningStyle_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "UberGraphFrame": {},
+      "bHasScriptImplementedTick": false,
+      "bHasScriptImplementedPaint": false
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "P_Text_TuningStyleName",
+    "Outer": "WBP_TuningStyle_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'TextBlock'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "EntryPoint",
+    "Outer": "ExecuteUbergraph_WBP_TuningStyle",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_WBP_TuningStyle",
+    "Outer": "WBP_TuningStyle_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "IntProperty'WBP_TuningStyle_C:ExecuteUbergraph_WBP_TuningStyle.EntryPoint'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.4"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_TuningStyle_C:ExecuteUbergraph_WBP_TuningStyle.K2Node_CustomEvent_TuningStyleID'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.87"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_TuningStyle_C:ExecuteUbergraph_WBP_TuningStyle.CallFunc_IsValid_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.10"
+      },
+      {
+        "ObjectName": "StrProperty'WBP_TuningStyle_C:ExecuteUbergraph_WBP_TuningStyle.CallFunc_Conv_IntToString_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.98"
+      },
+      {
+        "ObjectName": "NameProperty'WBP_TuningStyle_C:ExecuteUbergraph_WBP_TuningStyle.CallFunc_Conv_StringToName_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.89"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_TuningStyle_C:ExecuteUbergraph_WBP_TuningStyle.Temp_bool_Variable'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.16"
+      },
+      {
+        "ObjectName": "EnumProperty'WBP_TuningStyle_C:ExecuteUbergraph_WBP_TuningStyle.Temp_byte_Variable'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.64"
+      },
+      {
+        "ObjectName": "EnumProperty'WBP_TuningStyle_C:ExecuteUbergraph_WBP_TuningStyle.Temp_byte_Variable_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.65"
+      },
+      {
+        "ObjectName": "EnumProperty'WBP_TuningStyle_C:ExecuteUbergraph_WBP_TuningStyle.Temp_byte_Variable_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.66"
+      },
+      {
+        "ObjectName": "EnumProperty'WBP_TuningStyle_C:ExecuteUbergraph_WBP_TuningStyle.Temp_byte_Variable_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.67"
+      },
+      {
+        "ObjectName": "NameProperty'WBP_TuningStyle_C:ExecuteUbergraph_WBP_TuningStyle.Temp_wildcard_Variable'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.91"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_TuningStyle_C:ExecuteUbergraph_WBP_TuningStyle.Temp_bool_Variable_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.17"
+      },
+      {
+        "ObjectName": "EnumProperty'WBP_TuningStyle_C:ExecuteUbergraph_WBP_TuningStyle.K2Node_Select_Default'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.61"
+      },
+      {
+        "ObjectName": "StructProperty'WBP_TuningStyle_C:ExecuteUbergraph_WBP_TuningStyle.K2Node_CustomEvent_Info'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.100"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_TuningStyle_C:ExecuteUbergraph_WBP_TuningStyle.CallFunc_Conv_SoftObjectReferenceToObject_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.92"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_TuningStyle_C:ExecuteUbergraph_WBP_TuningStyle.K2Node_DynamicCast_AsTexture_2D'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.95"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_TuningStyle_C:ExecuteUbergraph_WBP_TuningStyle.K2Node_DynamicCast_bSuccess'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.15"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_TuningStyle_C:ExecuteUbergraph_WBP_TuningStyle.CallFunc_IsValid_ReturnValue_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.11"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_TuningStyle_C:ExecuteUbergraph_WBP_TuningStyle.CallFunc_IsValidSoftObjectReference_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.13"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_TuningStyle_C:ExecuteUbergraph_WBP_TuningStyle.CallFunc_LoadAsset_Blocking_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.93"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_TuningStyle_C:ExecuteUbergraph_WBP_TuningStyle.CallFunc_IsValidSoftObjectReference_ReturnValue_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.14"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_TuningStyle_C:ExecuteUbergraph_WBP_TuningStyle.CallFunc_LoadAsset_Blocking_ReturnValue_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.94"
+      },
+      {
+        "ObjectName": "EnumProperty'WBP_TuningStyle_C:ExecuteUbergraph_WBP_TuningStyle.Temp_byte_Variable_4'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.68"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_TuningStyle_C:ExecuteUbergraph_WBP_TuningStyle.CallFunc_IsValid_ReturnValue_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.12"
+      },
+      {
+        "ObjectName": "EnumProperty'WBP_TuningStyle_C:ExecuteUbergraph_WBP_TuningStyle.Temp_byte_Variable_5'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.69"
+      },
+      {
+        "ObjectName": "TextProperty'WBP_TuningStyle_C:ExecuteUbergraph_WBP_TuningStyle.CallFunc_MakeLiteralText_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.107"
+      },
+      {
+        "ObjectName": "EnumProperty'WBP_TuningStyle_C:ExecuteUbergraph_WBP_TuningStyle.K2Node_Select_Default_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.62"
+      },
+      {
+        "ObjectName": "NameProperty'WBP_TuningStyle_C:ExecuteUbergraph_WBP_TuningStyle.K2Node_CustomEvent_Name'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.90"
+      },
+      {
+        "ObjectName": "StructProperty'WBP_TuningStyle_C:ExecuteUbergraph_WBP_TuningStyle.CallFunc_GetDataTableRowFromName_OutRow'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.99"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_TuningStyle_C:ExecuteUbergraph_WBP_TuningStyle.CallFunc_GetDataTableRowFromName_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.9"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_TuningStyle_C:ExecuteUbergraph_WBP_TuningStyle.Temp_bool_Variable_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.18"
+      },
+      {
+        "ObjectName": "EnumProperty'WBP_TuningStyle_C:ExecuteUbergraph_WBP_TuningStyle.K2Node_Select_Default_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.63"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_TuningStyle_C:ExecuteUbergraph_WBP_TuningStyle.K2Node_CustomEvent_Index'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.86"
+      },
+      {
+        "ObjectName": "ArrayProperty'WBP_TuningStyle_C:ExecuteUbergraph_WBP_TuningStyle.CallFunc_GetDataTableRowNames_OutRowNames'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.7"
+      },
+      {
+        "ObjectName": "NameProperty'WBP_TuningStyle_C:ExecuteUbergraph_WBP_TuningStyle.CallFunc_Array_Get_Item'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.88"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_TuningStyle_C:ExecuteUbergraph_WBP_TuningStyle.CallFunc_Array_IsValidIndex_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.8"
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction | FUNC_HasDefaults"
+  },
+  {
+    "Type": "NameProperty",
+    "Name": "CallFunc_GetDataTableRowNames_OutRowNames",
+    "Outer": "CallFunc_GetDataTableRowNames_OutRowNames",
+    "Class": "UScriptClass'NameProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "ArrayProperty",
+    "Name": "CallFunc_GetDataTableRowNames_OutRowNames",
+    "Outer": "ExecuteUbergraph_WBP_TuningStyle",
+    "Class": "UScriptClass'ArrayProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "ReferenceParm",
+    "Inner": {
+      "ObjectName": "NameProperty'WBP_TuningStyle_C:ExecuteUbergraph_WBP_TuningStyle.CallFunc_GetDataTableRowNames_OutRowNames.CallFunc_GetDataTableRowNames_OutRowNames'",
+      "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.6"
+    }
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_Array_IsValidIndex_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_TuningStyle",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_GetDataTableRowFromName_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_TuningStyle",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_IsValid_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_TuningStyle",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_IsValid_ReturnValue_1",
+    "Outer": "ExecuteUbergraph_WBP_TuningStyle",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_IsValid_ReturnValue_2",
+    "Outer": "ExecuteUbergraph_WBP_TuningStyle",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_IsValidSoftObjectReference_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_TuningStyle",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_IsValidSoftObjectReference_ReturnValue_1",
+    "Outer": "ExecuteUbergraph_WBP_TuningStyle",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_DynamicCast_bSuccess",
+    "Outer": "ExecuteUbergraph_WBP_TuningStyle",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "Temp_bool_Variable",
+    "Outer": "ExecuteUbergraph_WBP_TuningStyle",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "Temp_bool_Variable_1",
+    "Outer": "ExecuteUbergraph_WBP_TuningStyle",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "Temp_bool_Variable_2",
+    "Outer": "ExecuteUbergraph_WBP_TuningStyle",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "TuningStyleID",
+    "Outer": "Set_StyleInfo_FromTuningStyleID",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "Set_StyleInfo_FromTuningStyleID",
+    "Outer": "WBP_TuningStyle_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "IntProperty'WBP_TuningStyle_C:Set_StyleInfo_FromTuningStyleID.TuningStyleID'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.19"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "Index",
+    "Outer": "Set_StyleInfo_FromIndex",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "Set_StyleInfo_FromIndex",
+    "Outer": "WBP_TuningStyle_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "IntProperty'WBP_TuningStyle_C:Set_StyleInfo_FromIndex.Index'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.21"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "NameProperty",
+    "Name": "Name",
+    "Outer": "Set_StyleInfo_FromName",
+    "Class": "UScriptClass'NameProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "Set_StyleInfo_FromName",
+    "Outer": "WBP_TuningStyle_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "NameProperty'WBP_TuningStyle_C:Set_StyleInfo_FromName.Name'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.23"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "Set_Style_Unknown",
+    "Outer": "WBP_TuningStyle_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "Info",
+    "Outer": "Set_Style",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "ConstParm | BlueprintVisible | BlueprintReadOnly | Parm | OutParm | ReferenceParm",
+    "Struct": {
+      "ObjectName": "UserDefinedStruct'ST_WidgetSetting_Story_TuningStyleDesign'",
+      "ObjectPath": "GameProject/Content/IND/UI/DataTable/Story/Tuning/ST_WidgetSetting_Story_TuningStyleDesign.1"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "Set_Style",
+    "Outer": "WBP_TuningStyle_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "StructProperty'WBP_TuningStyle_C:Set_Style.Info'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.26"
+      }
+    ],
+    "FunctionFlags": "FUNC_HasOutParms | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "Name",
+    "Outer": "SetStyleName",
+    "Class": "UScriptClass'TextProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "SetStyleName",
+    "Outer": "WBP_TuningStyle_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "TextProperty'WBP_TuningStyle_C:SetStyleName.Name'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.28"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_TuningStyle_C:SetStyleName.Temp_float_Variable'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.78"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_TuningStyle_C:SetStyleName.Temp_bool_Variable'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.34"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_TuningStyle_C:SetStyleName.Temp_float_Variable_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.79"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_TuningStyle_C:SetStyleName.Temp_bool_Variable_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.35"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_TuningStyle_C:SetStyleName.Temp_float_Variable_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.80"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_TuningStyle_C:SetStyleName.Temp_bool_Variable_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.36"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_TuningStyle_C:SetStyleName.Temp_float_Variable_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.81"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_TuningStyle_C:SetStyleName.Temp_bool_Variable_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.37"
+      },
+      {
+        "ObjectName": "StructProperty'WBP_TuningStyle_C:SetStyleName.CallFunc_GetDesiredSize_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.101"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_TuningStyle_C:SetStyleName.CallFunc_BreakVector2D_X'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.70"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_TuningStyle_C:SetStyleName.CallFunc_BreakVector2D_Y'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.71"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_TuningStyle_C:SetStyleName.CallFunc_Divide_FloatFloat_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.72"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_TuningStyle_C:SetStyleName.CallFunc_Divide_FloatFloat_ReturnValue_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.73"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_TuningStyle_C:SetStyleName.CallFunc_Less_FloatFloat_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.30"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_TuningStyle_C:SetStyleName.CallFunc_Less_FloatFloat_ReturnValue_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.31"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_TuningStyle_C:SetStyleName.K2Node_Select_Default'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.74"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_TuningStyle_C:SetStyleName.K2Node_Select_Default_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.75"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_TuningStyle_C:SetStyleName.CallFunc_Less_FloatFloat_ReturnValue_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.32"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_TuningStyle_C:SetStyleName.CallFunc_Less_FloatFloat_ReturnValue_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.33"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_TuningStyle_C:SetStyleName.K2Node_Select_Default_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.76"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_TuningStyle_C:SetStyleName.K2Node_Select_Default_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.77"
+      },
+      {
+        "ObjectName": "StructProperty'WBP_TuningStyle_C:SetStyleName.CallFunc_MakeVector2D_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.102"
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_Less_FloatFloat_ReturnValue",
+    "Outer": "SetStyleName",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_Less_FloatFloat_ReturnValue_1",
+    "Outer": "SetStyleName",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_Less_FloatFloat_ReturnValue_2",
+    "Outer": "SetStyleName",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_Less_FloatFloat_ReturnValue_3",
+    "Outer": "SetStyleName",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "Temp_bool_Variable",
+    "Outer": "SetStyleName",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "Temp_bool_Variable_1",
+    "Outer": "SetStyleName",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "Temp_bool_Variable_2",
+    "Outer": "SetStyleName",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "Temp_bool_Variable_3",
+    "Outer": "SetStyleName",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Outer": "K2Node_Select_Default",
+    "Class": "UScriptClass'ByteProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": null
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Outer": "K2Node_Select_Default_1",
+    "Class": "UScriptClass'ByteProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": null
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Outer": "K2Node_Select_Default_2",
+    "Class": "UScriptClass'ByteProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": null
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Outer": "Temp_byte_Variable",
+    "Class": "UScriptClass'ByteProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": null
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Outer": "Temp_byte_Variable_1",
+    "Class": "UScriptClass'ByteProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": null
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Outer": "Temp_byte_Variable_2",
+    "Class": "UScriptClass'ByteProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": null
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Outer": "Temp_byte_Variable_3",
+    "Class": "UScriptClass'ByteProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": null
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Outer": "Temp_byte_Variable_4",
+    "Class": "UScriptClass'ByteProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": null
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Outer": "Temp_byte_Variable_5",
+    "Class": "UScriptClass'ByteProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": null
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_38",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_TuningStyle_C:WidgetTree.CanvasPanel_38.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.51"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_TuningStyle_C:WidgetTree.CanvasPanel_38.CanvasPanelSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.52"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_TuningStyle_C:WidgetTree.CanvasPanel_38.CanvasPanelSlot_7'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.54"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_TuningStyle_C:WidgetTree.CanvasPanel_38.CanvasPanelSlot_4'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.53"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_39",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_TuningStyle_C:WidgetTree.CanvasPanel_39.CanvasPanelSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.55"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_TuningStyle_C:WidgetTree.CanvasPanel_38.CanvasPanelSlot_7'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.54"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_38",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_38.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.56"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_38.CanvasPanelSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.57"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_38.CanvasPanelSlot_7'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.59"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_38.CanvasPanelSlot_4'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.58"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_39",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_39.CanvasPanelSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.60"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_38.CanvasPanelSlot_7'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.59"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "CanvasPanel_38",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_TuningStyle_C:WidgetTree.CanvasPanel_38'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.47"
+      },
+      "Content": {
+        "ObjectName": "Image'WBP_TuningStyle_C:WidgetTree.TuningStyleBase'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.83"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "CanvasPanel_38",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 94.06309,
+          "Top": 10.321276
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_TuningStyle_C:WidgetTree.CanvasPanel_38'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.47"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WBP_TuningStyle_C:WidgetTree.title'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.104"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_4",
+    "Outer": "CanvasPanel_38",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 21.7569,
+          "Top": 7.03637,
+          "Right": 46.0,
+          "Bottom": 46.0
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_TuningStyle_C:WidgetTree.CanvasPanel_38'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.47"
+      },
+      "Content": {
+        "ObjectName": "Image'WBP_TuningStyle_C:WidgetTree.P_TuningIcon'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.82"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_7",
+    "Outer": "CanvasPanel_38",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 84.99298,
+          "Top": 24.0,
+          "Right": 350.0,
+          "Bottom": 28.666664
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_TuningStyle_C:WidgetTree.CanvasPanel_38'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.47"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WBP_TuningStyle_C:WidgetTree.CanvasPanel_39'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.48"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "CanvasPanel_39",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 229.85237
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_TuningStyle_C:WidgetTree.CanvasPanel_39'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.48"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WBP_TuningStyle_C:WidgetTree.P_Text_TuningStyleName'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.103"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "CanvasPanel_38",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_38'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.49"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.TuningStyleBase'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.85"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "CanvasPanel_38",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 94.06309,
+          "Top": 10.321276
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_38'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.49"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.title'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.106"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_4",
+    "Outer": "CanvasPanel_38",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 21.7569,
+          "Top": 7.03637,
+          "Right": 46.0,
+          "Bottom": 46.0
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_38'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.49"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.P_TuningIcon'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.84"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_7",
+    "Outer": "CanvasPanel_38",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 84.99298,
+          "Top": 24.0,
+          "Right": 350.0,
+          "Bottom": 28.666664
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_38'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.49"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_39'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.50"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "CanvasPanel_39",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 229.85237
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_39'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.50"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.P_Text_TuningStyleName'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.105"
+      }
+    }
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "K2Node_Select_Default",
+    "Outer": "ExecuteUbergraph_WBP_TuningStyle",
+    "Class": "UScriptClass'EnumProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": {
+      "ObjectName": "Enum'ESlateVisibility'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'WBP_TuningStyle_C:ExecuteUbergraph_WBP_TuningStyle.K2Node_Select_Default.UnderlyingType'",
+      "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.38"
+    }
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "K2Node_Select_Default_1",
+    "Outer": "ExecuteUbergraph_WBP_TuningStyle",
+    "Class": "UScriptClass'EnumProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": {
+      "ObjectName": "Enum'ESlateVisibility'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'WBP_TuningStyle_C:ExecuteUbergraph_WBP_TuningStyle.K2Node_Select_Default_1.UnderlyingType'",
+      "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.39"
+    }
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "K2Node_Select_Default_2",
+    "Outer": "ExecuteUbergraph_WBP_TuningStyle",
+    "Class": "UScriptClass'EnumProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": {
+      "ObjectName": "Enum'ESlateVisibility'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'WBP_TuningStyle_C:ExecuteUbergraph_WBP_TuningStyle.K2Node_Select_Default_2.UnderlyingType'",
+      "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.40"
+    }
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "Temp_byte_Variable",
+    "Outer": "ExecuteUbergraph_WBP_TuningStyle",
+    "Class": "UScriptClass'EnumProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": {
+      "ObjectName": "Enum'ESlateVisibility'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'WBP_TuningStyle_C:ExecuteUbergraph_WBP_TuningStyle.Temp_byte_Variable.UnderlyingType'",
+      "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.41"
+    }
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "Temp_byte_Variable_1",
+    "Outer": "ExecuteUbergraph_WBP_TuningStyle",
+    "Class": "UScriptClass'EnumProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": {
+      "ObjectName": "Enum'ESlateVisibility'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'WBP_TuningStyle_C:ExecuteUbergraph_WBP_TuningStyle.Temp_byte_Variable_1.UnderlyingType'",
+      "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.42"
+    }
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "Temp_byte_Variable_2",
+    "Outer": "ExecuteUbergraph_WBP_TuningStyle",
+    "Class": "UScriptClass'EnumProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": {
+      "ObjectName": "Enum'ESlateVisibility'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'WBP_TuningStyle_C:ExecuteUbergraph_WBP_TuningStyle.Temp_byte_Variable_2.UnderlyingType'",
+      "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.43"
+    }
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "Temp_byte_Variable_3",
+    "Outer": "ExecuteUbergraph_WBP_TuningStyle",
+    "Class": "UScriptClass'EnumProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": {
+      "ObjectName": "Enum'ESlateVisibility'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'WBP_TuningStyle_C:ExecuteUbergraph_WBP_TuningStyle.Temp_byte_Variable_3.UnderlyingType'",
+      "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.44"
+    }
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "Temp_byte_Variable_4",
+    "Outer": "ExecuteUbergraph_WBP_TuningStyle",
+    "Class": "UScriptClass'EnumProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": {
+      "ObjectName": "Enum'ESlateVisibility'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'WBP_TuningStyle_C:ExecuteUbergraph_WBP_TuningStyle.Temp_byte_Variable_4.UnderlyingType'",
+      "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.45"
+    }
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "Temp_byte_Variable_5",
+    "Outer": "ExecuteUbergraph_WBP_TuningStyle",
+    "Class": "UScriptClass'EnumProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": {
+      "ObjectName": "Enum'ESlateVisibility'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'WBP_TuningStyle_C:ExecuteUbergraph_WBP_TuningStyle.Temp_byte_Variable_5.UnderlyingType'",
+      "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.46"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_BreakVector2D_X",
+    "Outer": "SetStyleName",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_BreakVector2D_Y",
+    "Outer": "SetStyleName",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_Divide_FloatFloat_ReturnValue",
+    "Outer": "SetStyleName",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_Divide_FloatFloat_ReturnValue_1",
+    "Outer": "SetStyleName",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "K2Node_Select_Default",
+    "Outer": "SetStyleName",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "K2Node_Select_Default_1",
+    "Outer": "SetStyleName",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "K2Node_Select_Default_2",
+    "Outer": "SetStyleName",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "K2Node_Select_Default_3",
+    "Outer": "SetStyleName",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "Temp_float_Variable",
+    "Outer": "SetStyleName",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "Temp_float_Variable_1",
+    "Outer": "SetStyleName",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "Temp_float_Variable_2",
+    "Outer": "SetStyleName",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "Temp_float_Variable_3",
+    "Outer": "SetStyleName",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "Image",
+    "Name": "P_TuningIcon",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 100.0,
+          "Y": 100.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'tuning_style_icon01'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/Texture/tuning_style_icon01.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_TuningStyle_C:WidgetTree.CanvasPanel_38.CanvasPanelSlot_4'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.53"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "TuningStyleBase",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 504.0,
+          "Y": 60.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_TuningStyle_Base'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/Texture/T_TuningStyle_Base.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_TuningStyle_C:WidgetTree.CanvasPanel_38.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.51"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "P_TuningIcon",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 100.0,
+          "Y": 100.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'tuning_style_icon01'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/Texture/tuning_style_icon01.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_38.CanvasPanelSlot_4'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.58"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "TuningStyleBase",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 504.0,
+          "Y": 60.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_TuningStyle_Base'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/Texture/T_TuningStyle_Base.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_38.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.56"
+      }
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "K2Node_CustomEvent_Index",
+    "Outer": "ExecuteUbergraph_WBP_TuningStyle",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "K2Node_CustomEvent_TuningStyleID",
+    "Outer": "ExecuteUbergraph_WBP_TuningStyle",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "NameProperty",
+    "Name": "CallFunc_Array_Get_Item",
+    "Outer": "ExecuteUbergraph_WBP_TuningStyle",
+    "Class": "UScriptClass'NameProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "NameProperty",
+    "Name": "CallFunc_Conv_StringToName_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_TuningStyle",
+    "Class": "UScriptClass'NameProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "NameProperty",
+    "Name": "K2Node_CustomEvent_Name",
+    "Outer": "ExecuteUbergraph_WBP_TuningStyle",
+    "Class": "UScriptClass'NameProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "NameProperty",
+    "Name": "Temp_wildcard_Variable",
+    "Outer": "ExecuteUbergraph_WBP_TuningStyle",
+    "Class": "UScriptClass'NameProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_Conv_SoftObjectReferenceToObject_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_TuningStyle",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyClass": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_LoadAsset_Blocking_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_TuningStyle",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyClass": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_LoadAsset_Blocking_ReturnValue_1",
+    "Outer": "ExecuteUbergraph_WBP_TuningStyle",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyClass": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "K2Node_DynamicCast_AsTexture_2D",
+    "Outer": "ExecuteUbergraph_WBP_TuningStyle",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyClass": {
+      "ObjectName": "Class'Texture2D'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "P_TuningIcon",
+    "Outer": "WBP_TuningStyle_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'Image'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "TuningStyleBase",
+    "Outer": "WBP_TuningStyle_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'Image'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "StrProperty",
+    "Name": "CallFunc_Conv_IntToString_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_TuningStyle",
+    "Class": "UScriptClass'StrProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_GetDataTableRowFromName_OutRow",
+    "Outer": "ExecuteUbergraph_WBP_TuningStyle",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Struct": {
+      "ObjectName": "UserDefinedStruct'ST_WidgetSetting_Story_TuningStyleDesign'",
+      "ObjectPath": "GameProject/Content/IND/UI/DataTable/Story/Tuning/ST_WidgetSetting_Story_TuningStyleDesign.1"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "K2Node_CustomEvent_Info",
+    "Outer": "ExecuteUbergraph_WBP_TuningStyle",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "ConstParm",
+    "Struct": {
+      "ObjectName": "UserDefinedStruct'ST_WidgetSetting_Story_TuningStyleDesign'",
+      "ObjectPath": "GameProject/Content/IND/UI/DataTable/Story/Tuning/ST_WidgetSetting_Story_TuningStyleDesign.1"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_GetDesiredSize_ReturnValue",
+    "Outer": "SetStyleName",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector2D'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_MakeVector2D_ReturnValue",
+    "Outer": "SetStyleName",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector2D'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "P_Text_TuningStyleName",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "128D93924832B0003CEBD2AC0FD1C4DF",
+        "SourceString": "チューニングスタイル名",
+        "LocalizedString": "チューニングスタイル名"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 2
+        },
+        "TypefaceFontName": "RodinN_B",
+        "Size": 15
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_TuningStyle_C:WidgetTree.CanvasPanel_39.CanvasPanelSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.55"
+      },
+      "RenderTransform": {
+        "Shear": {
+          "X": -10.0,
+          "Y": 0.0
+        }
+      },
+      "RenderTransformPivot": {
+        "X": 0.0,
+        "Y": 0.5
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "title",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "589FDD0047B7B01E51B2CB958E572AB8",
+        "SourceString": "チューニングスタイル",
+        "LocalizedString": "チューニングスタイル"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "TypefaceFontName": "RodinN_B",
+        "Size": 9
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_TuningStyle_C:WidgetTree.CanvasPanel_38.CanvasPanelSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.52"
+      },
+      "RenderTransform": {
+        "Shear": {
+          "X": -10.0,
+          "Y": 0.0
+        }
+      }
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "P_Text_TuningStyleName",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "128D93924832B0003CEBD2AC0FD1C4DF",
+        "SourceString": "チューニングスタイル名",
+        "LocalizedString": "チューニングスタイル名"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 2
+        },
+        "TypefaceFontName": "RodinN_B",
+        "Size": 15
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_39.CanvasPanelSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.60"
+      },
+      "RenderTransform": {
+        "Shear": {
+          "X": -10.0,
+          "Y": 0.0
+        }
+      },
+      "RenderTransformPivot": {
+        "X": 0.0,
+        "Y": 0.5
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "title",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "589FDD0047B7B01E51B2CB958E572AB8",
+        "SourceString": "チューニングスタイル",
+        "LocalizedString": "チューニングスタイル"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "TypefaceFontName": "RodinN_B",
+        "Size": 9
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_38.CanvasPanelSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.57"
+      },
+      "RenderTransform": {
+        "Shear": {
+          "X": -10.0,
+          "Y": 0.0
+        }
+      }
+    }
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "CallFunc_MakeLiteralText_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_TuningStyle",
+    "Class": "UScriptClass'TextProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "WBP_TuningStyle_C",
+    "Name": "WidgetArchetype",
+    "Class": "WidgetBlueprintGeneratedClass'GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.WBP_TuningStyle_C'",
+    "Template": {
+      "ObjectName": "WBP_TuningStyle_C'Default__WBP_TuningStyle_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.2"
+    },
+    "Flags": "RF_Public | RF_Standalone | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "P_Text_TuningStyleName": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.P_Text_TuningStyleName'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.105"
+      },
+      "P_TuningIcon": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.P_TuningIcon'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.84"
+      },
+      "TuningStyleBase": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.TuningStyleBase'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.85"
+      },
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.110"
+      },
+      "bCookedWidgetTree": true
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Outer": "WBP_TuningStyle_C",
+    "Class": "UScriptClass'WidgetTree'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CanvasPanel'WBP_TuningStyle_C:WidgetTree.CanvasPanel_38'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.47"
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree_0",
+    "Outer": "WidgetArchetype",
+    "Class": "UScriptClass'WidgetTree'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_38'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Tuning/TuningStyle/WBP_TuningStyle.49"
+      }
+    }
+  }
+]

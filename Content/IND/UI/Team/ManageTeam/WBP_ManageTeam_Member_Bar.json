@@ -1,0 +1,3458 @@
+[
+  {
+    "Type": "StructProperty",
+    "Name": "UberGraphFrame",
+    "Outer": "WBP_ManageTeam_Member_Bar_C",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "Transient | DuplicateTransient",
+    "Struct": {
+      "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "WBP_ManageTeam_Member_Bar_C",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WBP_ManageTeam_Member_Bar_C:WidgetTree'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.114"
+      },
+      "bAllowTemplate": true,
+      "bValidTemplate": true,
+      "TemplateAsset": {
+        "AssetPathName": "/Game/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.WidgetArchetype",
+        "SubPathString": ""
+      },
+      "UberGraphFramePointerProperty": {
+        "ObjectName": "StructProperty'WBP_ManageTeam_Member_Bar_C:UberGraphFrame'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.0"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'WBP_ManageTeam_Member_Bar_C:ExecuteUbergraph_WBP_ManageTeam_Member_Bar'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.5"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'UserWidget'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'WBP_ManageTeam_Member_Bar_C:UberGraphFrame'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.0"
+      },
+      {
+        "ObjectName": "Function'WBP_ManageTeam_Member_Bar_C:SetMemberInfo'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.12"
+      },
+      {
+        "ObjectName": "Function'WBP_ManageTeam_Member_Bar_C:SetButtonText'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.10"
+      },
+      {
+        "ObjectName": "Function'WBP_ManageTeam_Member_Bar_C:GetButton'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.8"
+      },
+      {
+        "ObjectName": "Function'WBP_ManageTeam_Member_Bar_C:Construct'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.6"
+      },
+      {
+        "ObjectName": "Function'WBP_ManageTeam_Member_Bar_C:ExecuteUbergraph_WBP_ManageTeam_Member_Bar'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.5"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_ManageTeam_Member_Bar_C:P_MemberName'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.3"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_ManageTeam_Member_Bar_C:WBP_ManageTeam_Button_01'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.93"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_ManageTeam_Member_Bar_C:WBP_ManageTeam_Button_02'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.94"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_ManageTeam_Member_Bar_C:WBP_Team_ClassIcon'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.95"
+      },
+      {
+        "ObjectName": "EnumProperty'WBP_ManageTeam_Member_Bar_C:AceIcon'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.73"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_ManageTeam_Member_Bar_C:UserId'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.91"
+      },
+      {
+        "ObjectName": "StructProperty'WBP_ManageTeam_Member_Bar_C:PersonalData'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.96"
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_WBP_ManageTeam_Member_Bar": {
+        "ObjectName": "Function'WBP_ManageTeam_Member_Bar_C:ExecuteUbergraph_WBP_ManageTeam_Member_Bar'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.5"
+      },
+      "Construct": {
+        "ObjectName": "Function'WBP_ManageTeam_Member_Bar_C:Construct'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.6"
+      },
+      "GetButton": {
+        "ObjectName": "Function'WBP_ManageTeam_Member_Bar_C:GetButton'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.8"
+      },
+      "SetButtonText": {
+        "ObjectName": "Function'WBP_ManageTeam_Member_Bar_C:SetButtonText'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.10"
+      },
+      "SetMemberInfo": {
+        "ObjectName": "Function'WBP_ManageTeam_Member_Bar_C:SetMemberInfo'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.12"
+      }
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "WBP_ManageTeam_Member_Bar_C'Default__WBP_ManageTeam_Member_Bar_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.2"
+    }
+  },
+  {
+    "Type": "WBP_ManageTeam_Member_Bar_C",
+    "Name": "Default__WBP_ManageTeam_Member_Bar_C",
+    "Class": "WidgetBlueprintGeneratedClass'GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.WBP_ManageTeam_Member_Bar_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "UberGraphFrame": {},
+      "PersonalData": {
+        "RecordData": {
+          "UserId": 0,
+          "UserName": "",
+          "Gender": "EAvatarGender::Male",
+          "PartsIndex": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "Point": 0
+        },
+        "TeamRoleId": "ETeamRoleId::TeamRoleMember",
+        "TeamClassId": "ETeamClassId::TeamClassNone",
+        "GradeId": 0,
+        "LastPlayDate": {
+          "Ticks": 0
+        }
+      },
+      "bHasScriptImplementedTick": false,
+      "bHasScriptImplementedPaint": false
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "P_MemberName",
+    "Outer": "WBP_ManageTeam_Member_Bar_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'TextBlock'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "EntryPoint",
+    "Outer": "ExecuteUbergraph_WBP_ManageTeam_Member_Bar",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_WBP_ManageTeam_Member_Bar",
+    "Outer": "WBP_ManageTeam_Member_Bar_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "IntProperty'WBP_ManageTeam_Member_Bar_C:ExecuteUbergraph_WBP_ManageTeam_Member_Bar.EntryPoint'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.4"
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "Function",
+    "Name": "Construct",
+    "Outer": "WBP_ManageTeam_Member_Bar_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Function'UserWidget:Construct'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "FunctionFlags": "FUNC_BlueprintCosmetic | FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "L",
+    "Outer": "GetButton",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "Parm | OutParm | InstancedReference",
+    "PropertyClass": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'WBP_ManageTeam_Button_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Button.1"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "GetButton",
+    "Outer": "WBP_ManageTeam_Member_Bar_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "ObjectProperty'WBP_ManageTeam_Member_Bar_C:GetButton.L'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.7"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_ManageTeam_Member_Bar_C:GetButton.R'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.92"
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasOutParms | FUNC_BlueprintCallable | FUNC_BlueprintEvent | FUNC_BlueprintPure"
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "L",
+    "Outer": "SetButtonText",
+    "Class": "UScriptClass'TextProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "SetButtonText",
+    "Outer": "WBP_ManageTeam_Member_Bar_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "TextProperty'WBP_ManageTeam_Member_Bar_C:SetButtonText.L'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.9"
+      },
+      {
+        "ObjectName": "TextProperty'WBP_ManageTeam_Member_Bar_C:SetButtonText.R'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.105"
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "PersonalData",
+    "Outer": "SetMemberInfo",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "Struct": {
+      "ObjectName": "ScriptStruct'TeamManagePersonalData'",
+      "ObjectPath": "/Script/GameProject"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "SetMemberInfo",
+    "Outer": "WBP_ManageTeam_Member_Bar_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "StructProperty'WBP_ManageTeam_Member_Bar_C:SetMemberInfo.PersonalData'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.11"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_ManageTeam_Member_Bar_C:SetMemberInfo.CallFunc_Greater_ByteByte_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.13"
+      },
+      {
+        "ObjectName": "TextProperty'WBP_ManageTeam_Member_Bar_C:SetMemberInfo.CallFunc_Conv_StringToText_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.106"
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_Greater_ByteByte_ReturnValue",
+    "Outer": "SetMemberInfo",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "Border",
+    "Name": "Border_148",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'Border'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Padding": {
+        "Left": 0.0,
+        "Top": 0.0,
+        "Right": 0.0,
+        "Bottom": 0.0
+      },
+      "BrushColor": {
+        "R": 0.564712,
+        "G": 1.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "C6FF00"
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_ManageTeam_Member_Bar_C:WidgetTree.CanvasPanel_52.CanvasPanelSlot_6'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.36"
+      }
+    }
+  },
+  {
+    "Type": "Border",
+    "Name": "Border_148",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Border'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Padding": {
+        "Left": 0.0,
+        "Top": 0.0,
+        "Right": 0.0,
+        "Bottom": 0.0
+      },
+      "BrushColor": {
+        "R": 0.564712,
+        "G": 1.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "C6FF00"
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_52.CanvasPanelSlot_6'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.42"
+      }
+    }
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Outer": "AceIcon",
+    "Class": "UScriptClass'ByteProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": null
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_0",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_ManageTeam_Member_Bar_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.31"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_52",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_ManageTeam_Member_Bar_C:WidgetTree.CanvasPanel_52.CanvasPanelSlot_6'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.36"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_ManageTeam_Member_Bar_C:WidgetTree.CanvasPanel_52.CanvasPanelSlot_19'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.34"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_ManageTeam_Member_Bar_C:WidgetTree.CanvasPanel_52.CanvasPanelSlot_18'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.33"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_ManageTeam_Member_Bar_C:WidgetTree.CanvasPanel_52.CanvasPanelSlot_20'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.35"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_ManageTeam_Member_Bar_C:WidgetTree.CanvasPanel_52.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.32"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_ManageTeam_Member_Bar_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.31"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_0",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.37"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_52",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_52.CanvasPanelSlot_6'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.42"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_52.CanvasPanelSlot_19'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.40"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_52.CanvasPanelSlot_18'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.39"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_52.CanvasPanelSlot_20'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.41"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_52.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.38"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.37"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_2",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_01.WidgetTree_0.CanvasPanel_2.CanvasPanelSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.43"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_01.WidgetTree_0.CanvasPanel_2.CanvasPanelSlot_3'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.45"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_01.WidgetTree_0.CanvasPanel_2.CanvasPanelSlot_2'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.44"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "Decison",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_01.WidgetTree_0.Decison.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.46"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_01.WidgetTree_0.Decison.CanvasPanelSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.47"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_01.WidgetTree_0.Decison.CanvasPanelSlot_3'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.48"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_01.WidgetTree_0.Decison.CanvasPanelSlot_4'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.49"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_01.WidgetTree_0.CanvasPanel_2.CanvasPanelSlot_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.45"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "Nomal",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_01.WidgetTree_0.Nomal.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.50"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_01.WidgetTree_0.Nomal.CanvasPanelSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.51"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_01.WidgetTree_0.CanvasPanel_2.CanvasPanelSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.43"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "Select",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_01.WidgetTree_0.Select.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.52"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_01.WidgetTree_0.Select.CanvasPanelSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.53"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_01.WidgetTree_0.Select.CanvasPanelSlot_3'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.54"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_01.WidgetTree_0.Select.CanvasPanelSlot_4'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.55"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_01.WidgetTree_0.CanvasPanel_2.CanvasPanelSlot_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.44"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_2",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_02.WidgetTree_0.CanvasPanel_2.CanvasPanelSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.56"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_02.WidgetTree_0.CanvasPanel_2.CanvasPanelSlot_3'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.58"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_02.WidgetTree_0.CanvasPanel_2.CanvasPanelSlot_2'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.57"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "Decison",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_02.WidgetTree_0.Decison.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.59"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_02.WidgetTree_0.Decison.CanvasPanelSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.60"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_02.WidgetTree_0.Decison.CanvasPanelSlot_3'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.61"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_02.WidgetTree_0.Decison.CanvasPanelSlot_4'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.62"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_02.WidgetTree_0.CanvasPanel_2.CanvasPanelSlot_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.58"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "Nomal",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_02.WidgetTree_0.Nomal.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.63"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_02.WidgetTree_0.Nomal.CanvasPanelSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.64"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_02.WidgetTree_0.CanvasPanel_2.CanvasPanelSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.56"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "Select",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_02.WidgetTree_0.Select.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.65"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_02.WidgetTree_0.Select.CanvasPanelSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.66"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_02.WidgetTree_0.Select.CanvasPanelSlot_3'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.67"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_02.WidgetTree_0.Select.CanvasPanelSlot_4'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.68"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_02.WidgetTree_0.CanvasPanel_2.CanvasPanelSlot_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.57"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_0",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_Team_ClassIcon.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_6'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.69"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_96",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_Team_ClassIcon.WidgetTree_0.CanvasPanel_96.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.70"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_Team_ClassIcon.WidgetTree_0.CanvasPanel_96.CanvasPanelSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.71"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_Team_ClassIcon.WidgetTree_0.CanvasPanel_96.CanvasPanelSlot_3'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.72"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_Team_ClassIcon.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_6'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.69"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 800.0,
+          "Bottom": 100.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 1.0
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 1.0
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 1.0
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_ManageTeam_Member_Bar_C:WidgetTree.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.17"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WBP_ManageTeam_Member_Bar_C:WidgetTree.CanvasPanel_52'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.18"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "CanvasPanel_52",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -360.0,
+          "Top": -45.0,
+          "Bottom": 48.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 1.0
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 1.0
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_ManageTeam_Member_Bar_C:WidgetTree.CanvasPanel_52'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.18"
+      },
+      "Content": {
+        "ObjectName": "WBP_Team_ClassIcon_C'WBP_ManageTeam_Member_Bar_C:WidgetTree.WBP_Team_ClassIcon'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.112"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_18",
+    "Outer": "CanvasPanel_52",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 292.0,
+          "Top": -56.0,
+          "Right": 180.0,
+          "Bottom": 52.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 1.0
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 1.0
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_ManageTeam_Member_Bar_C:WidgetTree.CanvasPanel_52'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.18"
+      },
+      "Content": {
+        "ObjectName": "WBP_ManageTeam_Button_C'WBP_ManageTeam_Member_Bar_C:WidgetTree.WBP_ManageTeam_Button_02'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.108"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_19",
+    "Outer": "CanvasPanel_52",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 76.0,
+          "Top": -56.0,
+          "Right": 180.0,
+          "Bottom": 52.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 1.0
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 1.0
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_ManageTeam_Member_Bar_C:WidgetTree.CanvasPanel_52'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.18"
+      },
+      "Content": {
+        "ObjectName": "WBP_ManageTeam_Button_C'WBP_ManageTeam_Member_Bar_C:WidgetTree.WBP_ManageTeam_Button_01'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.107"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_20",
+    "Outer": "CanvasPanel_52",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -232.0,
+          "Top": -46.0,
+          "Right": 257.0,
+          "Bottom": 40.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 1.0
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 1.0
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_ManageTeam_Member_Bar_C:WidgetTree.CanvasPanel_52'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.18"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WBP_ManageTeam_Member_Bar_C:WidgetTree.P_MemberName'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.97"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_6",
+    "Outer": "CanvasPanel_52",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": -16.0,
+          "Right": 0.0,
+          "Bottom": 2.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.0,
+            "Y": 1.0
+          },
+          "Maximum": {
+            "X": 1.0,
+            "Y": 1.0
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 1.0
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_ManageTeam_Member_Bar_C:WidgetTree.CanvasPanel_52'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.18"
+      },
+      "Content": {
+        "ObjectName": "Border'WBP_ManageTeam_Member_Bar_C:WidgetTree.Border_148'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.14"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 800.0,
+          "Bottom": 100.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 1.0
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 1.0
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 1.0
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.19"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_52'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.20"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "CanvasPanel_52",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -360.0,
+          "Top": -45.0,
+          "Bottom": 48.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 1.0
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 1.0
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_52'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.20"
+      },
+      "Content": {
+        "ObjectName": "WBP_Team_ClassIcon_C'WidgetArchetype:WidgetTree_0.WBP_Team_ClassIcon'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.113"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_18",
+    "Outer": "CanvasPanel_52",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 292.0,
+          "Top": -56.0,
+          "Right": 180.0,
+          "Bottom": 52.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 1.0
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 1.0
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_52'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.20"
+      },
+      "Content": {
+        "ObjectName": "WBP_ManageTeam_Button_C'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_02'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.110"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_19",
+    "Outer": "CanvasPanel_52",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 76.0,
+          "Top": -56.0,
+          "Right": 180.0,
+          "Bottom": 52.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 1.0
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 1.0
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_52'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.20"
+      },
+      "Content": {
+        "ObjectName": "WBP_ManageTeam_Button_C'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_01'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.109"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_20",
+    "Outer": "CanvasPanel_52",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -232.0,
+          "Top": -46.0,
+          "Right": 257.0,
+          "Bottom": 40.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 1.0
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 1.0
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_52'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.20"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.P_MemberName'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.98"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_6",
+    "Outer": "CanvasPanel_52",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": -16.0,
+          "Right": 0.0,
+          "Bottom": 2.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.0,
+            "Y": 1.0
+          },
+          "Maximum": {
+            "X": 1.0,
+            "Y": 1.0
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 1.0
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_52'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.20"
+      },
+      "Content": {
+        "ObjectName": "Border'WidgetArchetype:WidgetTree_0.Border_148'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.15"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "CanvasPanel_2",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 0.0,
+          "Bottom": 0.0
+        },
+        "Anchors": {
+          "Maximum": {
+            "X": 1.0,
+            "Y": 1.0
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_01.WidgetTree_0.CanvasPanel_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.21"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_01.WidgetTree_0.Nomal'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.23"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_2",
+    "Outer": "CanvasPanel_2",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 0.0,
+          "Bottom": 0.0
+        },
+        "Anchors": {
+          "Maximum": {
+            "X": 1.0,
+            "Y": 1.0
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_01.WidgetTree_0.CanvasPanel_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.21"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_01.WidgetTree_0.Select'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.24"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_3",
+    "Outer": "CanvasPanel_2",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 0.0,
+          "Bottom": 0.0
+        },
+        "Anchors": {
+          "Maximum": {
+            "X": 1.0,
+            "Y": 1.0
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_01.WidgetTree_0.CanvasPanel_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.21"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_01.WidgetTree_0.Decison'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.22"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "Decison",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 0.0,
+          "Bottom": 0.0
+        },
+        "Anchors": {
+          "Maximum": {
+            "X": 1.0,
+            "Y": 1.0
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_01.WidgetTree_0.Decison'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.22"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_01.WidgetTree_0.Image_ButtonBase_Select_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.80"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "Decison",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_01.WidgetTree_0.Decison'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.22"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_01.WidgetTree_0.P_ButtonText_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.101"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_3",
+    "Outer": "Decison",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -13.0,
+          "Top": -12.0,
+          "Right": -13.0,
+          "Bottom": -12.0
+        },
+        "Anchors": {
+          "Maximum": {
+            "X": 1.0,
+            "Y": 1.0
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_01.WidgetTree_0.Decison'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.22"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_01.WidgetTree_0.Image_ButtonBase_Cursor'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.74"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_4",
+    "Outer": "Decison",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 0.0,
+          "Bottom": 0.0
+        },
+        "Anchors": {
+          "Maximum": {
+            "X": 1.0,
+            "Y": 1.0
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_01.WidgetTree_0.Decison'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.22"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_01.WidgetTree_0.Image_ButtonBase_Cursor_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.77"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "Nomal",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 0.0,
+          "Bottom": 0.0
+        },
+        "Anchors": {
+          "Maximum": {
+            "X": 1.0,
+            "Y": 1.0
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_01.WidgetTree_0.Nomal'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.23"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_01.WidgetTree_0.Image_ButtonBase_Nomal'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.78"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "Nomal",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_01.WidgetTree_0.Nomal'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.23"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_01.WidgetTree_0.P_ButtonText'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.99"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "Select",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 0.0,
+          "Bottom": 0.0
+        },
+        "Anchors": {
+          "Maximum": {
+            "X": 1.0,
+            "Y": 1.0
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_01.WidgetTree_0.Select'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.24"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_01.WidgetTree_0.Image_ButtonBase_Select'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.79"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "Select",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_01.WidgetTree_0.Select'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.24"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_01.WidgetTree_0.P_ButtonText_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.100"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_3",
+    "Outer": "Select",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -13.0,
+          "Top": -12.0,
+          "Right": -13.0,
+          "Bottom": -12.0
+        },
+        "Anchors": {
+          "Maximum": {
+            "X": 1.0,
+            "Y": 1.0
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_01.WidgetTree_0.Select'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.24"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_01.WidgetTree_0.Image_ButtonBase_Cursor_01'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.75"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_4",
+    "Outer": "Select",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 0.0,
+          "Bottom": 0.0
+        },
+        "Anchors": {
+          "Maximum": {
+            "X": 1.0,
+            "Y": 1.0
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_01.WidgetTree_0.Select'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.24"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_01.WidgetTree_0.Image_ButtonBase_Cursor_02'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.76"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "CanvasPanel_2",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 0.0,
+          "Bottom": 0.0
+        },
+        "Anchors": {
+          "Maximum": {
+            "X": 1.0,
+            "Y": 1.0
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_02.WidgetTree_0.CanvasPanel_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.25"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_02.WidgetTree_0.Nomal'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.27"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_2",
+    "Outer": "CanvasPanel_2",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 0.0,
+          "Bottom": 0.0
+        },
+        "Anchors": {
+          "Maximum": {
+            "X": 1.0,
+            "Y": 1.0
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_02.WidgetTree_0.CanvasPanel_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.25"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_02.WidgetTree_0.Select'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.28"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_3",
+    "Outer": "CanvasPanel_2",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 0.0,
+          "Bottom": 0.0
+        },
+        "Anchors": {
+          "Maximum": {
+            "X": 1.0,
+            "Y": 1.0
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_02.WidgetTree_0.CanvasPanel_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.25"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_02.WidgetTree_0.Decison'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.26"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "Decison",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 0.0,
+          "Bottom": 0.0
+        },
+        "Anchors": {
+          "Maximum": {
+            "X": 1.0,
+            "Y": 1.0
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_02.WidgetTree_0.Decison'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.26"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_02.WidgetTree_0.Image_ButtonBase_Select_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.87"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "Decison",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_02.WidgetTree_0.Decison'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.26"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_02.WidgetTree_0.P_ButtonText_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.104"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_3",
+    "Outer": "Decison",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -13.0,
+          "Top": -12.0,
+          "Right": -13.0,
+          "Bottom": -12.0
+        },
+        "Anchors": {
+          "Maximum": {
+            "X": 1.0,
+            "Y": 1.0
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_02.WidgetTree_0.Decison'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.26"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_02.WidgetTree_0.Image_ButtonBase_Cursor'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.81"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_4",
+    "Outer": "Decison",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 0.0,
+          "Bottom": 0.0
+        },
+        "Anchors": {
+          "Maximum": {
+            "X": 1.0,
+            "Y": 1.0
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_02.WidgetTree_0.Decison'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.26"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_02.WidgetTree_0.Image_ButtonBase_Cursor_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.84"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "Nomal",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 0.0,
+          "Bottom": 0.0
+        },
+        "Anchors": {
+          "Maximum": {
+            "X": 1.0,
+            "Y": 1.0
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_02.WidgetTree_0.Nomal'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.27"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_02.WidgetTree_0.Image_ButtonBase_Nomal'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.85"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "Nomal",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_02.WidgetTree_0.Nomal'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.27"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_02.WidgetTree_0.P_ButtonText'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.102"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "Select",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 0.0,
+          "Bottom": 0.0
+        },
+        "Anchors": {
+          "Maximum": {
+            "X": 1.0,
+            "Y": 1.0
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_02.WidgetTree_0.Select'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.28"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_02.WidgetTree_0.Image_ButtonBase_Select'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.86"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "Select",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_02.WidgetTree_0.Select'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.28"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_02.WidgetTree_0.P_ButtonText_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.103"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_3",
+    "Outer": "Select",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -13.0,
+          "Top": -12.0,
+          "Right": -13.0,
+          "Bottom": -12.0
+        },
+        "Anchors": {
+          "Maximum": {
+            "X": 1.0,
+            "Y": 1.0
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_02.WidgetTree_0.Select'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.28"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_02.WidgetTree_0.Image_ButtonBase_Cursor_01'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.82"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_4",
+    "Outer": "Select",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 0.0,
+          "Bottom": 0.0
+        },
+        "Anchors": {
+          "Maximum": {
+            "X": 1.0,
+            "Y": 1.0
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_02.WidgetTree_0.Select'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.28"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_02.WidgetTree_0.Image_ButtonBase_Cursor_02'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.83"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_6",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 64.0,
+          "Bottom": 48.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_Team_ClassIcon.WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.29"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_Team_ClassIcon.WidgetTree_0.CanvasPanel_96'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.30"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "CanvasPanel_96",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Bottom": 40.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_Team_ClassIcon.WidgetTree_0.CanvasPanel_96'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.30"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_Team_ClassIcon.WidgetTree_0.ClassIcon'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.88"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "CanvasPanel_96",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Bottom": 40.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_Team_ClassIcon.WidgetTree_0.CanvasPanel_96'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.30"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_Team_ClassIcon.WidgetTree_0.ClassIcon_Effect'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.89"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_3",
+    "Outer": "CanvasPanel_96",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -19.0,
+          "Top": -12.0,
+          "Right": 50.0,
+          "Bottom": 50.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_Team_ClassIcon.WidgetTree_0.CanvasPanel_96'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.30"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_Team_ClassIcon.WidgetTree_0.Image_Effect_Star'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.90"
+      }
+    }
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "AceIcon",
+    "Outer": "WBP_ManageTeam_Member_Bar_C",
+    "Class": "UScriptClass'EnumProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+    "Enum": {
+      "ObjectName": "Enum'ETeamClassId'",
+      "ObjectPath": "/Script/GameProject"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'WBP_ManageTeam_Member_Bar_C:AceIcon.UnderlyingType'",
+      "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.16"
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Image_ButtonBase_Cursor",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 208.0,
+          "Y": 80.0
+        },
+        "Margin": {
+          "Left": 0.5,
+          "Top": 0.5,
+          "Right": 0.5,
+          "Bottom": 0.5
+        },
+        "ResourceObject": {
+          "ObjectName": "MaterialInstanceConstant'MI_ManageTeam_ButtonBase_Cursor_01'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/Material/MI_ManageTeam_ButtonBase_Cursor_01.0"
+        },
+        "DrawAs": "ESlateBrushDrawType::Box"
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_01.WidgetTree_0.Decison.CanvasPanelSlot_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.48"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Image_ButtonBase_Cursor_01",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 208.0,
+          "Y": 80.0
+        },
+        "Margin": {
+          "Left": 0.5,
+          "Top": 0.5,
+          "Right": 0.5,
+          "Bottom": 0.5
+        },
+        "ResourceObject": {
+          "ObjectName": "MaterialInstanceConstant'MI_ManageTeam_ButtonBase_Cursor_01'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/Material/MI_ManageTeam_ButtonBase_Cursor_01.0"
+        },
+        "DrawAs": "ESlateBrushDrawType::Box"
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_01.WidgetTree_0.Select.CanvasPanelSlot_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.54"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Image_ButtonBase_Cursor_02",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 180.0,
+          "Y": 52.0
+        },
+        "Margin": {
+          "Left": 0.5,
+          "Top": 0.5,
+          "Right": 0.5,
+          "Bottom": 0.5
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_ManageTeam_ButtonBase_Cursor_02'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/Texture/T_ManageTeam_ButtonBase_Cursor_02.0"
+        },
+        "DrawAs": "ESlateBrushDrawType::Box"
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_01.WidgetTree_0.Select.CanvasPanelSlot_4'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.55"
+      },
+      "RenderOpacity": 0.0
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Image_ButtonBase_Cursor_1",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 180.0,
+          "Y": 52.0
+        },
+        "Margin": {
+          "Left": 0.5,
+          "Top": 0.5,
+          "Right": 0.5,
+          "Bottom": 0.5
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_ManageTeam_ButtonBase_Cursor_02'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/Texture/T_ManageTeam_ButtonBase_Cursor_02.0"
+        },
+        "DrawAs": "ESlateBrushDrawType::Box"
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_01.WidgetTree_0.Decison.CanvasPanelSlot_4'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.49"
+      },
+      "RenderOpacity": 0.0
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Image_ButtonBase_Nomal",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 180.0,
+          "Y": 52.0
+        },
+        "Margin": {
+          "Left": 0.5,
+          "Top": 0.5,
+          "Right": 0.5,
+          "Bottom": 0.5
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_ManageTeam_ButtonBase_Nomal'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/Texture/T_ManageTeam_ButtonBase_Nomal.0"
+        },
+        "DrawAs": "ESlateBrushDrawType::Box"
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_01.WidgetTree_0.Nomal.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.50"
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Image_ButtonBase_Select",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 180.0,
+          "Y": 52.0
+        },
+        "Margin": {
+          "Left": 0.5,
+          "Top": 0.5,
+          "Right": 0.5,
+          "Bottom": 0.5
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_ManageTeam_ButtonBase_Select'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/Texture/T_ManageTeam_ButtonBase_Select.0"
+        },
+        "DrawAs": "ESlateBrushDrawType::Box"
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_01.WidgetTree_0.Select.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.52"
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Image_ButtonBase_Select_1",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 180.0,
+          "Y": 52.0
+        },
+        "Margin": {
+          "Left": 0.5,
+          "Top": 0.5,
+          "Right": 0.5,
+          "Bottom": 0.5
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_ManageTeam_ButtonBase_Select'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/Texture/T_ManageTeam_ButtonBase_Select.0"
+        },
+        "DrawAs": "ESlateBrushDrawType::Box"
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_01.WidgetTree_0.Decison.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.46"
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Image_ButtonBase_Cursor",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 208.0,
+          "Y": 80.0
+        },
+        "Margin": {
+          "Left": 0.5,
+          "Top": 0.5,
+          "Right": 0.5,
+          "Bottom": 0.5
+        },
+        "ResourceObject": {
+          "ObjectName": "MaterialInstanceConstant'MI_ManageTeam_ButtonBase_Cursor_01'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/Material/MI_ManageTeam_ButtonBase_Cursor_01.0"
+        },
+        "DrawAs": "ESlateBrushDrawType::Box"
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_02.WidgetTree_0.Decison.CanvasPanelSlot_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.61"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Image_ButtonBase_Cursor_01",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 208.0,
+          "Y": 80.0
+        },
+        "Margin": {
+          "Left": 0.5,
+          "Top": 0.5,
+          "Right": 0.5,
+          "Bottom": 0.5
+        },
+        "ResourceObject": {
+          "ObjectName": "MaterialInstanceConstant'MI_ManageTeam_ButtonBase_Cursor_01'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/Material/MI_ManageTeam_ButtonBase_Cursor_01.0"
+        },
+        "DrawAs": "ESlateBrushDrawType::Box"
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_02.WidgetTree_0.Select.CanvasPanelSlot_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.67"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Image_ButtonBase_Cursor_02",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 180.0,
+          "Y": 52.0
+        },
+        "Margin": {
+          "Left": 0.5,
+          "Top": 0.5,
+          "Right": 0.5,
+          "Bottom": 0.5
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_ManageTeam_ButtonBase_Cursor_02'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/Texture/T_ManageTeam_ButtonBase_Cursor_02.0"
+        },
+        "DrawAs": "ESlateBrushDrawType::Box"
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_02.WidgetTree_0.Select.CanvasPanelSlot_4'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.68"
+      },
+      "RenderOpacity": 0.0
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Image_ButtonBase_Cursor_1",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 180.0,
+          "Y": 52.0
+        },
+        "Margin": {
+          "Left": 0.5,
+          "Top": 0.5,
+          "Right": 0.5,
+          "Bottom": 0.5
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_ManageTeam_ButtonBase_Cursor_02'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/Texture/T_ManageTeam_ButtonBase_Cursor_02.0"
+        },
+        "DrawAs": "ESlateBrushDrawType::Box"
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_02.WidgetTree_0.Decison.CanvasPanelSlot_4'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.62"
+      },
+      "RenderOpacity": 0.0
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Image_ButtonBase_Nomal",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 180.0,
+          "Y": 52.0
+        },
+        "Margin": {
+          "Left": 0.5,
+          "Top": 0.5,
+          "Right": 0.5,
+          "Bottom": 0.5
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_ManageTeam_ButtonBase_Nomal'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/Texture/T_ManageTeam_ButtonBase_Nomal.0"
+        },
+        "DrawAs": "ESlateBrushDrawType::Box"
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_02.WidgetTree_0.Nomal.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.63"
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Image_ButtonBase_Select",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 180.0,
+          "Y": 52.0
+        },
+        "Margin": {
+          "Left": 0.5,
+          "Top": 0.5,
+          "Right": 0.5,
+          "Bottom": 0.5
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_ManageTeam_ButtonBase_Select'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/Texture/T_ManageTeam_ButtonBase_Select.0"
+        },
+        "DrawAs": "ESlateBrushDrawType::Box"
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_02.WidgetTree_0.Select.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.65"
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Image_ButtonBase_Select_1",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 180.0,
+          "Y": 52.0
+        },
+        "Margin": {
+          "Left": 0.5,
+          "Top": 0.5,
+          "Right": 0.5,
+          "Bottom": 0.5
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_ManageTeam_ButtonBase_Select'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/Texture/T_ManageTeam_ButtonBase_Select.0"
+        },
+        "DrawAs": "ESlateBrushDrawType::Box"
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_02.WidgetTree_0.Decison.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.59"
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "ClassIcon",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 64.0,
+          "Y": 48.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_TeamClassIcon_Ace'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/Common/Icon/T_TeamClassIcon_Ace.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_Team_ClassIcon.WidgetTree_0.CanvasPanel_96.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.70"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "ClassIcon_Effect",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 64.0,
+          "Y": 48.0
+        },
+        "ResourceObject": {
+          "ObjectName": "MaterialInstanceConstant'MI_Team_CassIcon_Effect_Scroll'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/Common/Material/MI_Team_CassIcon_Effect_Scroll.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_Team_ClassIcon.WidgetTree_0.CanvasPanel_96.CanvasPanelSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.71"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Image_Effect_Star",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 128.0,
+          "Y": 128.0
+        },
+        "ResourceObject": {
+          "ObjectName": "MaterialInstanceConstant'MI_Team_ClassIcon_Effect_01'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/Common/Material/MI_Team_ClassIcon_Effect_01.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_Team_ClassIcon.WidgetTree_0.CanvasPanel_96.CanvasPanelSlot_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.72"
+      }
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "UserId",
+    "Outer": "WBP_ManageTeam_Member_Bar_C",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "R",
+    "Outer": "GetButton",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "Parm | OutParm | InstancedReference",
+    "PropertyClass": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'WBP_ManageTeam_Button_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Button.1"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "WBP_ManageTeam_Button_01",
+    "Outer": "WBP_ManageTeam_Member_Bar_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'WBP_ManageTeam_Button_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Button.1"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "WBP_ManageTeam_Button_02",
+    "Outer": "WBP_ManageTeam_Member_Bar_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'WBP_ManageTeam_Button_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Button.1"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "WBP_Team_ClassIcon",
+    "Outer": "WBP_ManageTeam_Member_Bar_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'WBP_Team_ClassIcon_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_Team_ClassIcon.1"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "PersonalData",
+    "Outer": "WBP_ManageTeam_Member_Bar_C",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+    "Struct": {
+      "ObjectName": "ScriptStruct'TeamManagePersonalData'",
+      "ObjectPath": "/Script/GameProject"
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "P_MemberName",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "72ADB155427CFBBCBC417EBB160A96ED",
+        "SourceString": "銀河のまゆゆ",
+        "LocalizedString": "銀河のまゆゆ"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "TypefaceFontName": "RodinN_B",
+        "Size": 22
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_ManageTeam_Member_Bar_C:WidgetTree.CanvasPanel_52.CanvasPanelSlot_20'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.35"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "P_MemberName",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "72ADB155427CFBBCBC417EBB160A96ED",
+        "SourceString": "銀河のまゆゆ",
+        "LocalizedString": "銀河のまゆゆ"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "TypefaceFontName": "RodinN_B",
+        "Size": 22
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_52.CanvasPanelSlot_20'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.41"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "P_ButtonText",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "85C491B245A2E16A93D8EBBF245C3592",
+        "SourceString": "表示する",
+        "LocalizedString": "表示する"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 2
+        },
+        "TypefaceFontName": "RodinN_B",
+        "Size": 14
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_01.WidgetTree_0.Nomal.CanvasPanelSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.51"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "P_ButtonText_1",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "85C491B245A2E16A93D8EBBF245C3592",
+        "SourceString": "表示する",
+        "LocalizedString": "表示する"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 0.0,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "000000"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 2,
+          "OutlineColor": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "FFFFFF"
+          }
+        },
+        "TypefaceFontName": "RodinN_B",
+        "Size": 14
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_01.WidgetTree_0.Select.CanvasPanelSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.53"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "P_ButtonText_2",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "85C491B245A2E16A93D8EBBF245C3592",
+        "SourceString": "表示する",
+        "LocalizedString": "表示する"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 0.0,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "000000"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 2,
+          "OutlineColor": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "FFFFFF"
+          }
+        },
+        "TypefaceFontName": "RodinN_B",
+        "Size": 14
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_01.WidgetTree_0.Decison.CanvasPanelSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.47"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "P_ButtonText",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "85C491B245A2E16A93D8EBBF245C3592",
+        "SourceString": "表示する",
+        "LocalizedString": "表示する"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 2
+        },
+        "TypefaceFontName": "RodinN_B",
+        "Size": 14
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_02.WidgetTree_0.Nomal.CanvasPanelSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.64"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "P_ButtonText_1",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "85C491B245A2E16A93D8EBBF245C3592",
+        "SourceString": "表示する",
+        "LocalizedString": "表示する"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 0.0,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "000000"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 2,
+          "OutlineColor": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "FFFFFF"
+          }
+        },
+        "TypefaceFontName": "RodinN_B",
+        "Size": 14
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_02.WidgetTree_0.Select.CanvasPanelSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.66"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "P_ButtonText_2",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "85C491B245A2E16A93D8EBBF245C3592",
+        "SourceString": "表示する",
+        "LocalizedString": "表示する"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 0.0,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "000000"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 2,
+          "OutlineColor": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "FFFFFF"
+          }
+        },
+        "TypefaceFontName": "RodinN_B",
+        "Size": 14
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_02.WidgetTree_0.Decison.CanvasPanelSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.60"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "R",
+    "Outer": "SetButtonText",
+    "Class": "UScriptClass'TextProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "CallFunc_Conv_StringToText_ReturnValue",
+    "Outer": "SetMemberInfo",
+    "Class": "UScriptClass'TextProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "WBP_ManageTeam_Button_C",
+    "Name": "WBP_ManageTeam_Button_01",
+    "Outer": "WidgetTree",
+    "Class": "WidgetBlueprintGeneratedClass'GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Button.WBP_ManageTeam_Button_C'",
+    "Template": {
+      "ObjectName": "WBP_ManageTeam_Button_C'Default__WBP_ManageTeam_Button_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Button.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "7A02745D4AD4C087D957C585383731DA",
+        "SourceString": "リーダー譲渡",
+        "LocalizedString": "リーダー譲渡"
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_ManageTeam_Member_Bar_C:WidgetTree.CanvasPanel_52.CanvasPanelSlot_19'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.34"
+      }
+    }
+  },
+  {
+    "Type": "WBP_ManageTeam_Button_C",
+    "Name": "WBP_ManageTeam_Button_02",
+    "Outer": "WidgetTree",
+    "Class": "WidgetBlueprintGeneratedClass'GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Button.WBP_ManageTeam_Button_C'",
+    "Template": {
+      "ObjectName": "WBP_ManageTeam_Button_C'Default__WBP_ManageTeam_Button_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Button.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "AAC8DEAD458595F4E728CBB79E429A12",
+        "SourceString": "脱退させる",
+        "LocalizedString": "脱退させる"
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_ManageTeam_Member_Bar_C:WidgetTree.CanvasPanel_52.CanvasPanelSlot_18'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.33"
+      }
+    }
+  },
+  {
+    "Type": "WBP_ManageTeam_Button_C",
+    "Name": "WBP_ManageTeam_Button_01",
+    "Outer": "WidgetTree_0",
+    "Class": "WidgetBlueprintGeneratedClass'GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Button.WBP_ManageTeam_Button_C'",
+    "Template": {
+      "ObjectName": "WBP_ManageTeam_Button_C'Default__WBP_ManageTeam_Button_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Button.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Decison": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_01.WidgetTree_0.Decison'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.22"
+      },
+      "Image_ButtonBase_Cursor": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_01.WidgetTree_0.Image_ButtonBase_Cursor'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.74"
+      },
+      "Image_ButtonBase_Cursor_1": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_01.WidgetTree_0.Image_ButtonBase_Cursor_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.77"
+      },
+      "Image_ButtonBase_Cursor_01": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_01.WidgetTree_0.Image_ButtonBase_Cursor_01'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.75"
+      },
+      "Image_ButtonBase_Cursor_02": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_01.WidgetTree_0.Image_ButtonBase_Cursor_02'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.76"
+      },
+      "P_ButtonText": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_01.WidgetTree_0.P_ButtonText'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.99"
+      },
+      "P_ButtonText_1": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_01.WidgetTree_0.P_ButtonText_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.100"
+      },
+      "P_ButtonText_2": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_01.WidgetTree_0.P_ButtonText_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.101"
+      },
+      "Select": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_01.WidgetTree_0.Select'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.24"
+      },
+      "Text": {
+        "Namespace": "",
+        "Key": "7A02745D4AD4C087D957C585383731DA",
+        "SourceString": "リーダー譲渡",
+        "LocalizedString": "リーダー譲渡"
+      },
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_01.WidgetTree_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.116"
+      },
+      "bCookedWidgetTree": true,
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_52.CanvasPanelSlot_19'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.40"
+      }
+    }
+  },
+  {
+    "Type": "WBP_ManageTeam_Button_C",
+    "Name": "WBP_ManageTeam_Button_02",
+    "Outer": "WidgetTree_0",
+    "Class": "WidgetBlueprintGeneratedClass'GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Button.WBP_ManageTeam_Button_C'",
+    "Template": {
+      "ObjectName": "WBP_ManageTeam_Button_C'Default__WBP_ManageTeam_Button_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Button.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Decison": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_02.WidgetTree_0.Decison'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.26"
+      },
+      "Image_ButtonBase_Cursor": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_02.WidgetTree_0.Image_ButtonBase_Cursor'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.81"
+      },
+      "Image_ButtonBase_Cursor_1": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_02.WidgetTree_0.Image_ButtonBase_Cursor_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.84"
+      },
+      "Image_ButtonBase_Cursor_01": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_02.WidgetTree_0.Image_ButtonBase_Cursor_01'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.82"
+      },
+      "Image_ButtonBase_Cursor_02": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_02.WidgetTree_0.Image_ButtonBase_Cursor_02'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.83"
+      },
+      "P_ButtonText": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_02.WidgetTree_0.P_ButtonText'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.102"
+      },
+      "P_ButtonText_1": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_02.WidgetTree_0.P_ButtonText_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.103"
+      },
+      "P_ButtonText_2": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_02.WidgetTree_0.P_ButtonText_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.104"
+      },
+      "Select": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_02.WidgetTree_0.Select'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.28"
+      },
+      "Text": {
+        "Namespace": "",
+        "Key": "AAC8DEAD458595F4E728CBB79E429A12",
+        "SourceString": "脱退させる",
+        "LocalizedString": "脱退させる"
+      },
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_02.WidgetTree_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.117"
+      },
+      "bCookedWidgetTree": true,
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_52.CanvasPanelSlot_18'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.39"
+      }
+    }
+  },
+  {
+    "Type": "WBP_ManageTeam_Member_Bar_C",
+    "Name": "WidgetArchetype",
+    "Class": "WidgetBlueprintGeneratedClass'GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.WBP_ManageTeam_Member_Bar_C'",
+    "Template": {
+      "ObjectName": "WBP_ManageTeam_Member_Bar_C'Default__WBP_ManageTeam_Member_Bar_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.2"
+    },
+    "Flags": "RF_Public | RF_Standalone | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "P_MemberName": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.P_MemberName'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.98"
+      },
+      "WBP_ManageTeam_Button_01": {
+        "ObjectName": "WBP_ManageTeam_Button_C'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_01'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.109"
+      },
+      "WBP_ManageTeam_Button_02": {
+        "ObjectName": "WBP_ManageTeam_Button_C'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_02'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.110"
+      },
+      "WBP_Team_ClassIcon": {
+        "ObjectName": "WBP_Team_ClassIcon_C'WidgetArchetype:WidgetTree_0.WBP_Team_ClassIcon'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.113"
+      },
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.115"
+      },
+      "bCookedWidgetTree": true
+    }
+  },
+  {
+    "Type": "WBP_Team_ClassIcon_C",
+    "Name": "WBP_Team_ClassIcon",
+    "Outer": "WidgetTree",
+    "Class": "WidgetBlueprintGeneratedClass'GameProject/Content/IND/UI/Team/Common/WBP_Team_ClassIcon.WBP_Team_ClassIcon_C'",
+    "Template": {
+      "ObjectName": "WBP_Team_ClassIcon_C'Default__WBP_Team_ClassIcon_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_Team_ClassIcon.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_ManageTeam_Member_Bar_C:WidgetTree.CanvasPanel_52.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.32"
+      }
+    }
+  },
+  {
+    "Type": "WBP_Team_ClassIcon_C",
+    "Name": "WBP_Team_ClassIcon",
+    "Outer": "WidgetTree_0",
+    "Class": "WidgetBlueprintGeneratedClass'GameProject/Content/IND/UI/Team/Common/WBP_Team_ClassIcon.WBP_Team_ClassIcon_C'",
+    "Template": {
+      "ObjectName": "WBP_Team_ClassIcon_C'Default__WBP_Team_ClassIcon_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Team/Common/WBP_Team_ClassIcon.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ClassIcon": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_Team_ClassIcon.WidgetTree_0.ClassIcon'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.88"
+      },
+      "ClassIcon_Effect": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_Team_ClassIcon.WidgetTree_0.ClassIcon_Effect'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.89"
+      },
+      "Image_Effect_Star": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_Team_ClassIcon.WidgetTree_0.Image_Effect_Star'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.90"
+      },
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.WBP_Team_ClassIcon.WidgetTree_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.118"
+      },
+      "bCookedWidgetTree": true,
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_52.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.38"
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Outer": "WBP_ManageTeam_Member_Bar_C",
+    "Class": "UScriptClass'WidgetTree'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CanvasPanel'WBP_ManageTeam_Member_Bar_C:WidgetTree.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.17"
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree_0",
+    "Outer": "WidgetArchetype",
+    "Class": "UScriptClass'WidgetTree'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.19"
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree_0",
+    "Outer": "WBP_ManageTeam_Button_01",
+    "Class": "UScriptClass'WidgetTree'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_01.WidgetTree_0.CanvasPanel_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.21"
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree_0",
+    "Outer": "WBP_ManageTeam_Button_02",
+    "Class": "UScriptClass'WidgetTree'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_ManageTeam_Button_02.WidgetTree_0.CanvasPanel_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.25"
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree_0",
+    "Outer": "WBP_Team_ClassIcon",
+    "Class": "UScriptClass'WidgetTree'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_Team_ClassIcon.WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Member_Bar.29"
+      }
+    }
+  }
+]

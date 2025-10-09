@@ -1,0 +1,934 @@
+[
+  {
+    "Type": "ObjectProperty",
+    "Name": "Base",
+    "Outer": "WBP_PlayStamp_SelectSkipInfo_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'Image'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "WBP_PlayStamp_SelectSkipInfo_C",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WBP_PlayStamp_SelectSkipInfo_C:WidgetTree'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Continue/PlayStamp/WBP_PlayStamp_SelectSkipInfo.31"
+      },
+      "bAllowTemplate": true,
+      "bValidTemplate": true,
+      "TemplateAsset": {
+        "AssetPathName": "/Game/IND/UI/Select/Continue/PlayStamp/WBP_PlayStamp_SelectSkipInfo.WidgetArchetype",
+        "SubPathString": ""
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'CustomWidgetBase'",
+      "ObjectPath": "/Script/GameProject"
+    },
+    "Children": [
+      {
+        "ObjectName": "ObjectProperty'WBP_PlayStamp_SelectSkipInfo_C:Base'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Continue/PlayStamp/WBP_PlayStamp_SelectSkipInfo.0"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_PlayStamp_SelectSkipInfo_C:RetainerBox_88'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Continue/PlayStamp/WBP_PlayStamp_SelectSkipInfo.19"
+      }
+    ],
+    "ClassFlags": "CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "WBP_PlayStamp_SelectSkipInfo_C'Default__WBP_PlayStamp_SelectSkipInfo_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Select/Continue/PlayStamp/WBP_PlayStamp_SelectSkipInfo.2"
+    }
+  },
+  {
+    "Type": "WBP_PlayStamp_SelectSkipInfo_C",
+    "Name": "Default__WBP_PlayStamp_SelectSkipInfo_C",
+    "Class": "WidgetBlueprintGeneratedClass'GameProject/Content/IND/UI/Select/Continue/PlayStamp/WBP_PlayStamp_SelectSkipInfo.WBP_PlayStamp_SelectSkipInfo_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "bHasScriptImplementedTick": false,
+      "bHasScriptImplementedPaint": false
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_0",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_PlayStamp_SelectSkipInfo_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Continue/PlayStamp/WBP_PlayStamp_SelectSkipInfo.7"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_PlayStamp_SelectSkipInfo_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_7'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Continue/PlayStamp/WBP_PlayStamp_SelectSkipInfo.9"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_PlayStamp_SelectSkipInfo_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_8'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Continue/PlayStamp/WBP_PlayStamp_SelectSkipInfo.10"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_PlayStamp_SelectSkipInfo_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_10'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Continue/PlayStamp/WBP_PlayStamp_SelectSkipInfo.8"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_133",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_PlayStamp_SelectSkipInfo_C:WidgetTree.CanvasPanel_133.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Continue/PlayStamp/WBP_PlayStamp_SelectSkipInfo.11"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "PanelSlot'WBP_PlayStamp_SelectSkipInfo_C:WidgetTree.RetainerBox_88.PanelSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Continue/PlayStamp/WBP_PlayStamp_SelectSkipInfo.20"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_0",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Continue/PlayStamp/WBP_PlayStamp_SelectSkipInfo.12"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_7'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Continue/PlayStamp/WBP_PlayStamp_SelectSkipInfo.14"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_8'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Continue/PlayStamp/WBP_PlayStamp_SelectSkipInfo.15"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_10'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Continue/PlayStamp/WBP_PlayStamp_SelectSkipInfo.13"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_133",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_133.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Continue/PlayStamp/WBP_PlayStamp_SelectSkipInfo.16"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "PanelSlot'WidgetArchetype:WidgetTree_0.RetainerBox_88.PanelSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Continue/PlayStamp/WBP_PlayStamp_SelectSkipInfo.21"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_PlayStamp_SelectSkipInfo_C:WidgetTree.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Continue/PlayStamp/WBP_PlayStamp_SelectSkipInfo.3"
+      },
+      "Content": {
+        "ObjectName": "Image'WBP_PlayStamp_SelectSkipInfo_C:WidgetTree.Base'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Continue/PlayStamp/WBP_PlayStamp_SelectSkipInfo.17"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_10",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 381.0,
+          "Bottom": 112.0
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_PlayStamp_SelectSkipInfo_C:WidgetTree.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Continue/PlayStamp/WBP_PlayStamp_SelectSkipInfo.3"
+      },
+      "Content": {
+        "ObjectName": "RetainerBox'WBP_PlayStamp_SelectSkipInfo_C:WidgetTree.RetainerBox_88'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Continue/PlayStamp/WBP_PlayStamp_SelectSkipInfo.22"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_7",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 208.0,
+          "Top": 37.0
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_PlayStamp_SelectSkipInfo_C:WidgetTree.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Continue/PlayStamp/WBP_PlayStamp_SelectSkipInfo.3"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WBP_PlayStamp_SelectSkipInfo_C:WidgetTree.TextBlock_118'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Continue/PlayStamp/WBP_PlayStamp_SelectSkipInfo.26"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_8",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 205.8696,
+          "Top": 65.15381
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_PlayStamp_SelectSkipInfo_C:WidgetTree.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Continue/PlayStamp/WBP_PlayStamp_SelectSkipInfo.3"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WBP_PlayStamp_SelectSkipInfo_C:WidgetTree.TextBlock'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Continue/PlayStamp/WBP_PlayStamp_SelectSkipInfo.24"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "CanvasPanel_133",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 205.8696,
+          "Top": 65.15381
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_PlayStamp_SelectSkipInfo_C:WidgetTree.CanvasPanel_133'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Continue/PlayStamp/WBP_PlayStamp_SelectSkipInfo.4"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WBP_PlayStamp_SelectSkipInfo_C:WidgetTree.TextBlock_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Continue/PlayStamp/WBP_PlayStamp_SelectSkipInfo.25"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Continue/PlayStamp/WBP_PlayStamp_SelectSkipInfo.5"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.Base'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Continue/PlayStamp/WBP_PlayStamp_SelectSkipInfo.18"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_10",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 381.0,
+          "Bottom": 112.0
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Continue/PlayStamp/WBP_PlayStamp_SelectSkipInfo.5"
+      },
+      "Content": {
+        "ObjectName": "RetainerBox'WidgetArchetype:WidgetTree_0.RetainerBox_88'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Continue/PlayStamp/WBP_PlayStamp_SelectSkipInfo.23"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_7",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 208.0,
+          "Top": 37.0
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Continue/PlayStamp/WBP_PlayStamp_SelectSkipInfo.5"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.TextBlock_118'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Continue/PlayStamp/WBP_PlayStamp_SelectSkipInfo.29"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_8",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 205.8696,
+          "Top": 65.15381
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Continue/PlayStamp/WBP_PlayStamp_SelectSkipInfo.5"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.TextBlock'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Continue/PlayStamp/WBP_PlayStamp_SelectSkipInfo.27"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "CanvasPanel_133",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 205.8696,
+          "Top": 65.15381
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_133'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Continue/PlayStamp/WBP_PlayStamp_SelectSkipInfo.6"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.TextBlock_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Continue/PlayStamp/WBP_PlayStamp_SelectSkipInfo.28"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Base",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 384.0,
+          "Y": 116.0
+        },
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 0.790476,
+            "Hex": "CAFFFFFF"
+          }
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Continue_Playstamp_SkipIconBase'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Continue/PlayStamp/Texture/T_Continue_Playstamp_SkipIconBase.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_PlayStamp_SelectSkipInfo_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Continue/PlayStamp/WBP_PlayStamp_SelectSkipInfo.7"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Base",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 384.0,
+          "Y": 116.0
+        },
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 0.790476,
+            "Hex": "CAFFFFFF"
+          }
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Continue_Playstamp_SkipIconBase'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Continue/PlayStamp/Texture/T_Continue_Playstamp_SkipIconBase.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Continue/PlayStamp/WBP_PlayStamp_SelectSkipInfo.12"
+      }
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "RetainerBox_88",
+    "Outer": "WBP_PlayStamp_SelectSkipInfo_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'RetainerBox'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "PanelSlot",
+    "Name": "PanelSlot_1",
+    "Outer": "RetainerBox_88",
+    "Class": "UScriptClass'PanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "RetainerBox'WBP_PlayStamp_SelectSkipInfo_C:WidgetTree.RetainerBox_88'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Continue/PlayStamp/WBP_PlayStamp_SelectSkipInfo.22"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WBP_PlayStamp_SelectSkipInfo_C:WidgetTree.CanvasPanel_133'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Continue/PlayStamp/WBP_PlayStamp_SelectSkipInfo.4"
+      }
+    }
+  },
+  {
+    "Type": "PanelSlot",
+    "Name": "PanelSlot_1",
+    "Outer": "RetainerBox_88",
+    "Class": "UScriptClass'PanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "RetainerBox'WidgetArchetype:WidgetTree_0.RetainerBox_88'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Continue/PlayStamp/WBP_PlayStamp_SelectSkipInfo.23"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_133'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Continue/PlayStamp/WBP_PlayStamp_SelectSkipInfo.6"
+      }
+    }
+  },
+  {
+    "Type": "RetainerBox",
+    "Name": "RetainerBox_88",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'RetainerBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EffectMaterial": {
+        "ObjectName": "MaterialInstanceConstant'MI_Retainer_Add'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Continue/PlayStamp/Material/MI_Retainer_Add.0"
+      },
+      "TextureParameter": "RetainerTexture",
+      "Slots": [
+        {
+          "ObjectName": "PanelSlot'WBP_PlayStamp_SelectSkipInfo_C:WidgetTree.RetainerBox_88.PanelSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Continue/PlayStamp/WBP_PlayStamp_SelectSkipInfo.20"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_PlayStamp_SelectSkipInfo_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_10'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Continue/PlayStamp/WBP_PlayStamp_SelectSkipInfo.8"
+      }
+    }
+  },
+  {
+    "Type": "RetainerBox",
+    "Name": "RetainerBox_88",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'RetainerBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EffectMaterial": {
+        "ObjectName": "MaterialInstanceConstant'MI_Retainer_Add'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Continue/PlayStamp/Material/MI_Retainer_Add.0"
+      },
+      "TextureParameter": "RetainerTexture",
+      "Slots": [
+        {
+          "ObjectName": "PanelSlot'WidgetArchetype:WidgetTree_0.RetainerBox_88.PanelSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Continue/PlayStamp/WBP_PlayStamp_SelectSkipInfo.21"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_10'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Continue/PlayStamp/WBP_PlayStamp_SelectSkipInfo.13"
+      }
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "TextBlock",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "E8CA9D6940AECCB90CAC248BF45C0F8D",
+        "SourceString": "スキップON",
+        "LocalizedString": "スキップON"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 1.0,
+          "G": 0.822786,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "FFEA00"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 2,
+          "OutlineColor": {
+            "R": 0.015209,
+            "G": 0.015209,
+            "B": 0.015209,
+            "A": 1.0,
+            "Hex": "212121"
+          }
+        },
+        "TypefaceFontName": "RodinN_EB",
+        "Size": 22
+      },
+      "ShadowOffset": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_PlayStamp_SelectSkipInfo_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_8'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Continue/PlayStamp/WBP_PlayStamp_SelectSkipInfo.10"
+      },
+      "RenderTransform": {
+        "Shear": {
+          "X": -11.0,
+          "Y": 0.0
+        }
+      }
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "TextBlock_1",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "E8CA9D6940AECCB90CAC248BF45C0F8D",
+        "SourceString": "スキップON",
+        "LocalizedString": "スキップON"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 1.0,
+          "G": 0.48748,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "FFBA00"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 2,
+          "OutlineColor": {
+            "R": 0.015209,
+            "G": 0.015209,
+            "B": 0.015209,
+            "A": 0.0,
+            "Hex": "212121"
+          }
+        },
+        "TypefaceFontName": "RodinN_EB",
+        "Size": 22
+      },
+      "ShadowOffset": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_PlayStamp_SelectSkipInfo_C:WidgetTree.CanvasPanel_133.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Continue/PlayStamp/WBP_PlayStamp_SelectSkipInfo.11"
+      },
+      "RenderTransform": {
+        "Shear": {
+          "X": -11.0,
+          "Y": 0.0
+        }
+      }
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "TextBlock_118",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "9C91953346AA8BB1B047D99A3286A6F1",
+        "SourceString": "プレイスタンプ選択",
+        "LocalizedString": "プレイスタンプ選択"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 2,
+          "OutlineColor": {
+            "R": 0.015209,
+            "G": 0.015209,
+            "B": 0.015209,
+            "A": 1.0,
+            "Hex": "212121"
+          }
+        },
+        "TypefaceFontName": "RodinN_EB",
+        "Size": 13
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_PlayStamp_SelectSkipInfo_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_7'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Continue/PlayStamp/WBP_PlayStamp_SelectSkipInfo.9"
+      },
+      "RenderTransform": {
+        "Shear": {
+          "X": -11.0,
+          "Y": 0.0
+        }
+      }
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "TextBlock",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "E8CA9D6940AECCB90CAC248BF45C0F8D",
+        "SourceString": "スキップON",
+        "LocalizedString": "スキップON"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 1.0,
+          "G": 0.822786,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "FFEA00"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 2,
+          "OutlineColor": {
+            "R": 0.015209,
+            "G": 0.015209,
+            "B": 0.015209,
+            "A": 1.0,
+            "Hex": "212121"
+          }
+        },
+        "TypefaceFontName": "RodinN_EB",
+        "Size": 22
+      },
+      "ShadowOffset": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_8'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Continue/PlayStamp/WBP_PlayStamp_SelectSkipInfo.15"
+      },
+      "RenderTransform": {
+        "Shear": {
+          "X": -11.0,
+          "Y": 0.0
+        }
+      }
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "TextBlock_1",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "E8CA9D6940AECCB90CAC248BF45C0F8D",
+        "SourceString": "スキップON",
+        "LocalizedString": "スキップON"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 1.0,
+          "G": 0.48748,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "FFBA00"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 2,
+          "OutlineColor": {
+            "R": 0.015209,
+            "G": 0.015209,
+            "B": 0.015209,
+            "A": 0.0,
+            "Hex": "212121"
+          }
+        },
+        "TypefaceFontName": "RodinN_EB",
+        "Size": 22
+      },
+      "ShadowOffset": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_133.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Continue/PlayStamp/WBP_PlayStamp_SelectSkipInfo.16"
+      },
+      "RenderTransform": {
+        "Shear": {
+          "X": -11.0,
+          "Y": 0.0
+        }
+      }
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "TextBlock_118",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "9C91953346AA8BB1B047D99A3286A6F1",
+        "SourceString": "プレイスタンプ選択",
+        "LocalizedString": "プレイスタンプ選択"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 2,
+          "OutlineColor": {
+            "R": 0.015209,
+            "G": 0.015209,
+            "B": 0.015209,
+            "A": 1.0,
+            "Hex": "212121"
+          }
+        },
+        "TypefaceFontName": "RodinN_EB",
+        "Size": 13
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_7'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Continue/PlayStamp/WBP_PlayStamp_SelectSkipInfo.14"
+      },
+      "RenderTransform": {
+        "Shear": {
+          "X": -11.0,
+          "Y": 0.0
+        }
+      }
+    }
+  },
+  {
+    "Type": "WBP_PlayStamp_SelectSkipInfo_C",
+    "Name": "WidgetArchetype",
+    "Class": "WidgetBlueprintGeneratedClass'GameProject/Content/IND/UI/Select/Continue/PlayStamp/WBP_PlayStamp_SelectSkipInfo.WBP_PlayStamp_SelectSkipInfo_C'",
+    "Template": {
+      "ObjectName": "WBP_PlayStamp_SelectSkipInfo_C'Default__WBP_PlayStamp_SelectSkipInfo_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Select/Continue/PlayStamp/WBP_PlayStamp_SelectSkipInfo.2"
+    },
+    "Flags": "RF_Public | RF_Standalone | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Base": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.Base'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Continue/PlayStamp/WBP_PlayStamp_SelectSkipInfo.18"
+      },
+      "RetainerBox_88": {
+        "ObjectName": "RetainerBox'WidgetArchetype:WidgetTree_0.RetainerBox_88'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Continue/PlayStamp/WBP_PlayStamp_SelectSkipInfo.23"
+      },
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Continue/PlayStamp/WBP_PlayStamp_SelectSkipInfo.32"
+      },
+      "bCookedWidgetTree": true
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Outer": "WBP_PlayStamp_SelectSkipInfo_C",
+    "Class": "UScriptClass'WidgetTree'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CanvasPanel'WBP_PlayStamp_SelectSkipInfo_C:WidgetTree.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Continue/PlayStamp/WBP_PlayStamp_SelectSkipInfo.3"
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree_0",
+    "Outer": "WidgetArchetype",
+    "Class": "UScriptClass'WidgetTree'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Continue/PlayStamp/WBP_PlayStamp_SelectSkipInfo.5"
+      }
+    }
+  }
+]

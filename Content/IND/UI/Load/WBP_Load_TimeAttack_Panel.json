@@ -1,0 +1,1992 @@
+[
+  {
+    "Type": "StructProperty",
+    "Name": "UberGraphFrame",
+    "Outer": "WBP_Load_TimeAttack_Panel_C",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "Transient | DuplicateTransient",
+    "Struct": {
+      "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "WBP_Load_TimeAttack_Panel_C",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Super": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'UserWidget_Control_CarInfo_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Common/Parent/UserWidget_Control_CarInfo.1"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WBP_Load_TimeAttack_Panel_C:WidgetTree'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.86"
+      },
+      "bAllowTemplate": true,
+      "bValidTemplate": true,
+      "TemplateAsset": {
+        "AssetPathName": "/Game/IND/UI/Load/WBP_Load_TimeAttack_Panel.WidgetArchetype",
+        "SubPathString": ""
+      },
+      "UberGraphFramePointerProperty": {
+        "ObjectName": "StructProperty'WBP_Load_TimeAttack_Panel_C:UberGraphFrame'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.0"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'WBP_Load_TimeAttack_Panel_C:ExecuteUbergraph_WBP_Load_TimeAttack_Panel'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.5"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'UserWidget_Control_CarInfo_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Common/Parent/UserWidget_Control_CarInfo.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'WBP_Load_TimeAttack_Panel_C:UberGraphFrame'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.0"
+      },
+      {
+        "ObjectName": "Function'WBP_Load_TimeAttack_Panel_C:SetCarParam'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.53"
+      },
+      {
+        "ObjectName": "Function'WBP_Load_TimeAttack_Panel_C:PreConstruct'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.15"
+      },
+      {
+        "ObjectName": "Function'WBP_Load_TimeAttack_Panel_C:ExecuteUbergraph_WBP_Load_TimeAttack_Panel'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.5"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Load_TimeAttack_Panel_C:P_InfoText'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.3"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Load_TimeAttack_Panel_C:P_LayoutType'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.65"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Load_TimeAttack_Panel_C:P_NameText'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.66"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Load_TimeAttack_Panel_C:P_RootType'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.67"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Load_TimeAttack_Panel_C:P_Spec'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.68"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Load_TimeAttack_Panel_C:WBP_MenuCarIcon'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.69"
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_WBP_Load_TimeAttack_Panel": {
+        "ObjectName": "Function'WBP_Load_TimeAttack_Panel_C:ExecuteUbergraph_WBP_Load_TimeAttack_Panel'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.5"
+      },
+      "PreConstruct": {
+        "ObjectName": "Function'WBP_Load_TimeAttack_Panel_C:PreConstruct'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.15"
+      },
+      "SetCarParam": {
+        "ObjectName": "Function'WBP_Load_TimeAttack_Panel_C:SetCarParam'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.53"
+      }
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "WBP_Load_TimeAttack_Panel_C'Default__WBP_Load_TimeAttack_Panel_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.2"
+    }
+  },
+  {
+    "Type": "WBP_Load_TimeAttack_Panel_C",
+    "Name": "Default__WBP_Load_TimeAttack_Panel_C",
+    "Class": "WidgetBlueprintGeneratedClass'GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.WBP_Load_TimeAttack_Panel_C'",
+    "Template": {
+      "ObjectName": "UserWidget_Control_CarInfo_C'Default__UserWidget_Control_CarInfo_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Common/Parent/UserWidget_Control_CarInfo.2"
+    },
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "UberGraphFrame": {}
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "P_InfoText",
+    "Outer": "WBP_Load_TimeAttack_Panel_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'TextBlock'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "EntryPoint",
+    "Outer": "ExecuteUbergraph_WBP_Load_TimeAttack_Panel",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_WBP_Load_TimeAttack_Panel",
+    "Outer": "WBP_Load_TimeAttack_Panel_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "IntProperty'WBP_Load_TimeAttack_Panel_C:ExecuteUbergraph_WBP_Load_TimeAttack_Panel.EntryPoint'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.4"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Load_TimeAttack_Panel_C:ExecuteUbergraph_WBP_Load_TimeAttack_Panel.Temp_bool_Variable'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.11"
+      },
+      {
+        "ObjectName": "StructProperty'WBP_Load_TimeAttack_Panel_C:ExecuteUbergraph_WBP_Load_TimeAttack_Panel.CallFunc_GetDesiredSize_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.76"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_Load_TimeAttack_Panel_C:ExecuteUbergraph_WBP_Load_TimeAttack_Panel.Temp_float_Variable'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.43"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_Load_TimeAttack_Panel_C:ExecuteUbergraph_WBP_Load_TimeAttack_Panel.CallFunc_BreakVector2D_X'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.35"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_Load_TimeAttack_Panel_C:ExecuteUbergraph_WBP_Load_TimeAttack_Panel.CallFunc_BreakVector2D_Y'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.36"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_Load_TimeAttack_Panel_C:ExecuteUbergraph_WBP_Load_TimeAttack_Panel.CallFunc_Divide_FloatFloat_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.37"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Load_TimeAttack_Panel_C:ExecuteUbergraph_WBP_Load_TimeAttack_Panel.CallFunc_Less_FloatFloat_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.6"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Load_TimeAttack_Panel_C:ExecuteUbergraph_WBP_Load_TimeAttack_Panel.CallFunc_Less_FloatFloat_ReturnValue_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.7"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_Load_TimeAttack_Panel_C:ExecuteUbergraph_WBP_Load_TimeAttack_Panel.CallFunc_Divide_FloatFloat_ReturnValue_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.38"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Load_TimeAttack_Panel_C:ExecuteUbergraph_WBP_Load_TimeAttack_Panel.Temp_bool_Variable_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.12"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_Load_TimeAttack_Panel_C:ExecuteUbergraph_WBP_Load_TimeAttack_Panel.Temp_float_Variable_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.44"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_Load_TimeAttack_Panel_C:ExecuteUbergraph_WBP_Load_TimeAttack_Panel.Temp_float_Variable_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.45"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Load_TimeAttack_Panel_C:ExecuteUbergraph_WBP_Load_TimeAttack_Panel.Temp_bool_Variable_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.13"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_Load_TimeAttack_Panel_C:ExecuteUbergraph_WBP_Load_TimeAttack_Panel.Temp_float_Variable_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.46"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_Load_TimeAttack_Panel_C:ExecuteUbergraph_WBP_Load_TimeAttack_Panel.K2Node_Select_Default'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.39"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Load_TimeAttack_Panel_C:ExecuteUbergraph_WBP_Load_TimeAttack_Panel.Temp_bool_Variable_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.14"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Load_TimeAttack_Panel_C:ExecuteUbergraph_WBP_Load_TimeAttack_Panel.CallFunc_Less_FloatFloat_ReturnValue_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.8"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_Load_TimeAttack_Panel_C:ExecuteUbergraph_WBP_Load_TimeAttack_Panel.K2Node_Select_Default_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.40"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_Load_TimeAttack_Panel_C:ExecuteUbergraph_WBP_Load_TimeAttack_Panel.K2Node_Select_Default_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.41"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Load_TimeAttack_Panel_C:ExecuteUbergraph_WBP_Load_TimeAttack_Panel.CallFunc_Less_FloatFloat_ReturnValue_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.9"
+      },
+      {
+        "ObjectName": "StructProperty'WBP_Load_TimeAttack_Panel_C:ExecuteUbergraph_WBP_Load_TimeAttack_Panel.K2Node_CustomEvent_StyleCarID'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.49"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Load_TimeAttack_Panel_C:ExecuteUbergraph_WBP_Load_TimeAttack_Panel.K2Node_CustomEvent_TuneSpec'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.48"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Load_TimeAttack_Panel_C:ExecuteUbergraph_WBP_Load_TimeAttack_Panel.K2Node_CustomEvent_RenderTargetNo'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.47"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_Load_TimeAttack_Panel_C:ExecuteUbergraph_WBP_Load_TimeAttack_Panel.K2Node_Select_Default_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.42"
+      },
+      {
+        "ObjectName": "StructProperty'WBP_Load_TimeAttack_Panel_C:ExecuteUbergraph_WBP_Load_TimeAttack_Panel.CallFunc_MakeVector2D_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.77"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Load_TimeAttack_Panel_C:ExecuteUbergraph_WBP_Load_TimeAttack_Panel.K2Node_Event_IsDesignTime'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.10"
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction | FUNC_HasDefaults"
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_Less_FloatFloat_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_Load_TimeAttack_Panel",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_Less_FloatFloat_ReturnValue_1",
+    "Outer": "ExecuteUbergraph_WBP_Load_TimeAttack_Panel",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_Less_FloatFloat_ReturnValue_2",
+    "Outer": "ExecuteUbergraph_WBP_Load_TimeAttack_Panel",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_Less_FloatFloat_ReturnValue_3",
+    "Outer": "ExecuteUbergraph_WBP_Load_TimeAttack_Panel",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_Event_IsDesignTime",
+    "Outer": "ExecuteUbergraph_WBP_Load_TimeAttack_Panel",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "Temp_bool_Variable",
+    "Outer": "ExecuteUbergraph_WBP_Load_TimeAttack_Panel",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "Temp_bool_Variable_1",
+    "Outer": "ExecuteUbergraph_WBP_Load_TimeAttack_Panel",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "Temp_bool_Variable_2",
+    "Outer": "ExecuteUbergraph_WBP_Load_TimeAttack_Panel",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "Temp_bool_Variable_3",
+    "Outer": "ExecuteUbergraph_WBP_Load_TimeAttack_Panel",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "Function",
+    "Name": "PreConstruct",
+    "Outer": "WBP_Load_TimeAttack_Panel_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Function'UserWidget:PreConstruct'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "Children": [
+      {
+        "ObjectName": "BoolProperty'WBP_Load_TimeAttack_Panel_C:PreConstruct.IsDesignTime'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.16"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCosmetic | FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "IsDesignTime",
+    "Outer": "PreConstruct",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_2",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Load_TimeAttack_Panel_C:WidgetTree.CanvasPanel_2.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.20"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Load_TimeAttack_Panel_C:WidgetTree.CanvasPanel_2.CanvasPanelSlot_2'",
+          "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.25"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Load_TimeAttack_Panel_C:WidgetTree.CanvasPanel_2.CanvasPanelSlot_9'",
+          "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.26"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Load_TimeAttack_Panel_C:WidgetTree.CanvasPanel_2.CanvasPanelSlot_11'",
+          "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.21"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Load_TimeAttack_Panel_C:WidgetTree.CanvasPanel_2.CanvasPanelSlot_13'",
+          "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.22"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Load_TimeAttack_Panel_C:WidgetTree.CanvasPanel_2.CanvasPanelSlot_16'",
+          "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.24"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Load_TimeAttack_Panel_C:WidgetTree.CanvasPanel_2.CanvasPanelSlot_15'",
+          "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.23"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_2",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_2.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.27"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_2.CanvasPanelSlot_2'",
+          "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.32"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_2.CanvasPanelSlot_9'",
+          "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.33"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_2.CanvasPanelSlot_11'",
+          "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.28"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_2.CanvasPanelSlot_13'",
+          "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.29"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_2.CanvasPanelSlot_16'",
+          "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.31"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_2.CanvasPanelSlot_15'",
+          "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.30"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_0",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_MenuCarIcon.WidgetTree_0.WBP_MenuCarIcon_LoadIcon.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.34"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "CanvasPanel_2",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Load_TimeAttack_Panel_C:WidgetTree.CanvasPanel_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.17"
+      },
+      "Content": {
+        "ObjectName": "Image'WBP_Load_TimeAttack_Panel_C:WidgetTree.Base'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.54"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_11",
+    "Outer": "CanvasPanel_2",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -58.0,
+          "Top": 33.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Load_TimeAttack_Panel_C:WidgetTree.CanvasPanel_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.17"
+      },
+      "Content": {
+        "ObjectName": "Image'WBP_Load_TimeAttack_Panel_C:WidgetTree.P_RootType'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.56"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_13",
+    "Outer": "CanvasPanel_2",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 32.0,
+          "Top": 47.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Load_TimeAttack_Panel_C:WidgetTree.CanvasPanel_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.17"
+      },
+      "Content": {
+        "ObjectName": "Image'WBP_Load_TimeAttack_Panel_C:WidgetTree.P_Spec'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.57"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_15",
+    "Outer": "CanvasPanel_2",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 35.0,
+          "Top": 23.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Load_TimeAttack_Panel_C:WidgetTree.CanvasPanel_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.17"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WBP_Load_TimeAttack_Panel_C:WidgetTree.P_InfoText'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.78"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_16",
+    "Outer": "CanvasPanel_2",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -92.01041,
+          "Top": -29.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Load_TimeAttack_Panel_C:WidgetTree.CanvasPanel_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.17"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WBP_Load_TimeAttack_Panel_C:WidgetTree.P_NameText'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.79"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_2",
+    "Outer": "CanvasPanel_2",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -328.0,
+          "Right": 360.0,
+          "Bottom": 200.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Load_TimeAttack_Panel_C:WidgetTree.CanvasPanel_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.17"
+      },
+      "Content": {
+        "ObjectName": "WBP_MenuCarIcon_C'WBP_Load_TimeAttack_Panel_C:WidgetTree.WBP_MenuCarIcon'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.83"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_9",
+    "Outer": "CanvasPanel_2",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -116.0,
+          "Top": 33.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Load_TimeAttack_Panel_C:WidgetTree.CanvasPanel_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.17"
+      },
+      "Content": {
+        "ObjectName": "Image'WBP_Load_TimeAttack_Panel_C:WidgetTree.P_LayoutType'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.55"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "CanvasPanel_2",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.18"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.Base'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.58"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_11",
+    "Outer": "CanvasPanel_2",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -58.0,
+          "Top": 33.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.18"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.P_RootType'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.60"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_13",
+    "Outer": "CanvasPanel_2",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 32.0,
+          "Top": 47.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.18"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.P_Spec'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.61"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_15",
+    "Outer": "CanvasPanel_2",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 35.0,
+          "Top": 23.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.18"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.P_InfoText'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.80"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_16",
+    "Outer": "CanvasPanel_2",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -92.01041,
+          "Top": -29.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.18"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.P_NameText'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.81"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_2",
+    "Outer": "CanvasPanel_2",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -328.0,
+          "Right": 360.0,
+          "Bottom": 200.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.18"
+      },
+      "Content": {
+        "ObjectName": "WBP_MenuCarIcon_C'WidgetArchetype:WidgetTree_0.WBP_MenuCarIcon'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.84"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_9",
+    "Outer": "CanvasPanel_2",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -116.0,
+          "Top": 33.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.18"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.P_LayoutType'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.59"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_MenuCarIcon.WidgetTree_0.WBP_MenuCarIcon_LoadIcon.WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.19"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_MenuCarIcon.WidgetTree_0.WBP_MenuCarIcon_LoadIcon.WidgetTree_0.Image_58'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.64"
+      }
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_BreakVector2D_X",
+    "Outer": "ExecuteUbergraph_WBP_Load_TimeAttack_Panel",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_BreakVector2D_Y",
+    "Outer": "ExecuteUbergraph_WBP_Load_TimeAttack_Panel",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_Divide_FloatFloat_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_Load_TimeAttack_Panel",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_Divide_FloatFloat_ReturnValue_1",
+    "Outer": "ExecuteUbergraph_WBP_Load_TimeAttack_Panel",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "K2Node_Select_Default",
+    "Outer": "ExecuteUbergraph_WBP_Load_TimeAttack_Panel",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "K2Node_Select_Default_1",
+    "Outer": "ExecuteUbergraph_WBP_Load_TimeAttack_Panel",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "K2Node_Select_Default_2",
+    "Outer": "ExecuteUbergraph_WBP_Load_TimeAttack_Panel",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "K2Node_Select_Default_3",
+    "Outer": "ExecuteUbergraph_WBP_Load_TimeAttack_Panel",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "Temp_float_Variable",
+    "Outer": "ExecuteUbergraph_WBP_Load_TimeAttack_Panel",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "Temp_float_Variable_1",
+    "Outer": "ExecuteUbergraph_WBP_Load_TimeAttack_Panel",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "Temp_float_Variable_2",
+    "Outer": "ExecuteUbergraph_WBP_Load_TimeAttack_Panel",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "Temp_float_Variable_3",
+    "Outer": "ExecuteUbergraph_WBP_Load_TimeAttack_Panel",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "K2Node_CustomEvent_RenderTargetNo",
+    "Outer": "ExecuteUbergraph_WBP_Load_TimeAttack_Panel",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "K2Node_CustomEvent_TuneSpec",
+    "Outer": "ExecuteUbergraph_WBP_Load_TimeAttack_Panel",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "K2Node_CustomEvent_StyleCarID",
+    "Outer": "ExecuteUbergraph_WBP_Load_TimeAttack_Panel",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Struct": {
+      "ObjectName": "ScriptStruct'StyleCarIDType'",
+      "ObjectPath": "/Script/GameProject"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "RenderTargetNo",
+    "Outer": "SetCarParam",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "TuneSpec",
+    "Outer": "SetCarParam",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "StyleCarID",
+    "Outer": "SetCarParam",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "Struct": {
+      "ObjectName": "ScriptStruct'StyleCarIDType'",
+      "ObjectPath": "/Script/GameProject"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "SetCarParam",
+    "Outer": "WBP_Load_TimeAttack_Panel_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "StructProperty'WBP_Load_TimeAttack_Panel_C:SetCarParam.StyleCarID'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.52"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Load_TimeAttack_Panel_C:SetCarParam.TuneSpec'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.51"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Load_TimeAttack_Panel_C:SetCarParam.RenderTargetNo'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.50"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Image",
+    "Name": "Base",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 924.0,
+          "Y": 144.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Load_TimeAttack_PanelBase'",
+          "ObjectPath": "GameProject/Content/IND/UI/Load/Texture/T_Load_TimeAttack_PanelBase.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Load_TimeAttack_Panel_C:WidgetTree.CanvasPanel_2.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.20"
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "P_LayoutType",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 54.0,
+          "Y": 54.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'course_sel_icon_07'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Course/Texture/icon/course_sel_icon_07.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Load_TimeAttack_Panel_C:WidgetTree.CanvasPanel_2.CanvasPanelSlot_9'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.26"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "P_RootType",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 54.0,
+          "Y": 54.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'course_sel_icon_03'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Course/Texture/icon/course_sel_icon_03.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Load_TimeAttack_Panel_C:WidgetTree.CanvasPanel_2.CanvasPanelSlot_11'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.21"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "P_Spec",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 132.0,
+          "Y": 32.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'spec_01_01'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Course/Texture/icon/spec_01_01.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Load_TimeAttack_Panel_C:WidgetTree.CanvasPanel_2.CanvasPanelSlot_13'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.22"
+      },
+      "RenderTransform": {
+        "Scale": {
+          "X": 0.75,
+          "Y": 0.75
+        }
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Base",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 924.0,
+          "Y": 144.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Load_TimeAttack_PanelBase'",
+          "ObjectPath": "GameProject/Content/IND/UI/Load/Texture/T_Load_TimeAttack_PanelBase.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_2.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.27"
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "P_LayoutType",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 54.0,
+          "Y": 54.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'course_sel_icon_07'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Course/Texture/icon/course_sel_icon_07.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_2.CanvasPanelSlot_9'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.33"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "P_RootType",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 54.0,
+          "Y": 54.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'course_sel_icon_03'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Course/Texture/icon/course_sel_icon_03.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_2.CanvasPanelSlot_11'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.28"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "P_Spec",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 132.0,
+          "Y": 32.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'spec_01_01'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Course/Texture/icon/spec_01_01.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_2.CanvasPanelSlot_13'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.29"
+      },
+      "RenderTransform": {
+        "Scale": {
+          "X": 0.75,
+          "Y": 0.75
+        }
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Image_Dummy",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 716.0,
+          "Y": 384.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'AE86T_large01'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/CarShop/CarSelect/CarLargeTex/AE86T_large01.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.WBP_MenuCarIcon.WidgetTree_0.Overlay_96.OverlaySlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.71"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Image_RT",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 716.0,
+          "Y": 384.0
+        },
+        "ResourceObject": {
+          "ObjectName": "MaterialInstanceConstant'M_MenuCarIcon_Inst'",
+          "ObjectPath": "GameProject/Content/IND/UI/MenuCarIcon/M_MenuCarIcon_Inst.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.WBP_MenuCarIcon.WidgetTree_0.Overlay_96.OverlaySlot_5'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.73"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Image_58",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 168.0,
+          "Y": 168.0
+        },
+        "ResourceObject": {
+          "ObjectName": "MaterialInstanceConstant'MI_NowLoadingIcon_01'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/NowLoadingIcon/MI_NowLoadingIcon_01.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_MenuCarIcon.WidgetTree_0.WBP_MenuCarIcon_LoadIcon.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.34"
+      }
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "P_LayoutType",
+    "Outer": "WBP_Load_TimeAttack_Panel_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'Image'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "P_NameText",
+    "Outer": "WBP_Load_TimeAttack_Panel_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'TextBlock'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "P_RootType",
+    "Outer": "WBP_Load_TimeAttack_Panel_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'Image'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "P_Spec",
+    "Outer": "WBP_Load_TimeAttack_Panel_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'Image'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "WBP_MenuCarIcon",
+    "Outer": "WBP_Load_TimeAttack_Panel_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'WBP_MenuCarIcon_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/MenuCarIcon/WBP_MenuCarIcon.1"
+    }
+  },
+  {
+    "Type": "Overlay",
+    "Name": "Overlay_96",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Overlay'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.WBP_MenuCarIcon.WidgetTree_0.Overlay_96.OverlaySlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.71"
+        },
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.WBP_MenuCarIcon.WidgetTree_0.Overlay_96.OverlaySlot_5'",
+          "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.73"
+        },
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.WBP_MenuCarIcon.WidgetTree_0.Overlay_96.OverlaySlot_3'",
+          "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.72"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "ScaleBoxSlot'WidgetArchetype:WidgetTree_0.WBP_MenuCarIcon.WidgetTree_0.ScaleBox_2.ScaleBoxSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.75"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_1",
+    "Outer": "Overlay_96",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Fill",
+      "VerticalAlignment": "VAlign_Fill",
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.WBP_MenuCarIcon.WidgetTree_0.Overlay_96'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.70"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_MenuCarIcon.WidgetTree_0.Image_Dummy'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.62"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_3",
+    "Outer": "Overlay_96",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.WBP_MenuCarIcon.WidgetTree_0.Overlay_96'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.70"
+      },
+      "Content": {
+        "ObjectName": "WBP_MenuCarIcon_LoadIcon_C'WidgetArchetype:WidgetTree_0.WBP_MenuCarIcon.WidgetTree_0.WBP_MenuCarIcon_LoadIcon'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.85"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_5",
+    "Outer": "Overlay_96",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Fill",
+      "VerticalAlignment": "VAlign_Fill",
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.WBP_MenuCarIcon.WidgetTree_0.Overlay_96'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.70"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_MenuCarIcon.WidgetTree_0.Image_RT'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.63"
+      }
+    }
+  },
+  {
+    "Type": "ScaleBox",
+    "Name": "ScaleBox_2",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'ScaleBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "ScaleBoxSlot'WidgetArchetype:WidgetTree_0.WBP_MenuCarIcon.WidgetTree_0.ScaleBox_2.ScaleBoxSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.75"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ScaleBoxSlot",
+    "Name": "ScaleBoxSlot_0",
+    "Outer": "ScaleBox_2",
+    "Class": "UScriptClass'ScaleBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "ScaleBox'WidgetArchetype:WidgetTree_0.WBP_MenuCarIcon.WidgetTree_0.ScaleBox_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.74"
+      },
+      "Content": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.WBP_MenuCarIcon.WidgetTree_0.Overlay_96'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.70"
+      }
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_GetDesiredSize_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_Load_TimeAttack_Panel",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector2D'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_MakeVector2D_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_Load_TimeAttack_Panel",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector2D'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "P_InfoText",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "F838FC5C4E05F226EAFE9590918C3D1D",
+        "SourceString": "4WD / 5 Spd",
+        "LocalizedString": "4WD / 5 Spd"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 0.0,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "000000"
+        }
+      },
+      "Font": {
+        "Size": 14
+      },
+      "ShadowOffset": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Load_TimeAttack_Panel_C:WidgetTree.CanvasPanel_2.CanvasPanelSlot_15'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.23"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "P_NameText",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "31281DAF4C999A46EF76A6BD9627172F",
+        "SourceString": "GR YARIS 1st Edition RZ “High performance” (GXPA16)",
+        "LocalizedString": "GR YARIS 1st Edition RZ “High performance” (GXPA16)"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 2,
+          "OutlineColor": {
+            "R": 0.017642,
+            "G": 0.017642,
+            "B": 0.017642,
+            "A": 1.0,
+            "Hex": "242424"
+          }
+        },
+        "TypefaceFontName": "RodinN_B",
+        "Size": 18
+      },
+      "ShadowOffset": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Load_TimeAttack_Panel_C:WidgetTree.CanvasPanel_2.CanvasPanelSlot_16'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.24"
+      },
+      "RenderTransformPivot": {
+        "X": 0.0,
+        "Y": 0.5
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "P_InfoText",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "F838FC5C4E05F226EAFE9590918C3D1D",
+        "SourceString": "4WD / 5 Spd",
+        "LocalizedString": "4WD / 5 Spd"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 0.0,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "000000"
+        }
+      },
+      "Font": {
+        "Size": 14
+      },
+      "ShadowOffset": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_2.CanvasPanelSlot_15'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.30"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "P_NameText",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "31281DAF4C999A46EF76A6BD9627172F",
+        "SourceString": "GR YARIS 1st Edition RZ “High performance” (GXPA16)",
+        "LocalizedString": "GR YARIS 1st Edition RZ “High performance” (GXPA16)"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 2,
+          "OutlineColor": {
+            "R": 0.017642,
+            "G": 0.017642,
+            "B": 0.017642,
+            "A": 1.0,
+            "Hex": "242424"
+          }
+        },
+        "TypefaceFontName": "RodinN_B",
+        "Size": 18
+      },
+      "ShadowOffset": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_2.CanvasPanelSlot_16'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.31"
+      },
+      "RenderTransformPivot": {
+        "X": 0.0,
+        "Y": 0.5
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "WBP_Load_TimeAttack_Panel_C",
+    "Name": "WidgetArchetype",
+    "Class": "WidgetBlueprintGeneratedClass'GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.WBP_Load_TimeAttack_Panel_C'",
+    "Template": {
+      "ObjectName": "WBP_Load_TimeAttack_Panel_C'Default__WBP_Load_TimeAttack_Panel_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.2"
+    },
+    "Flags": "RF_Public | RF_Standalone | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "P_InfoText": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.P_InfoText'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.80"
+      },
+      "P_LayoutType": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.P_LayoutType'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.59"
+      },
+      "P_NameText": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.P_NameText'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.81"
+      },
+      "P_RootType": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.P_RootType'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.60"
+      },
+      "P_Spec": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.P_Spec'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.61"
+      },
+      "WBP_MenuCarIcon": {
+        "ObjectName": "WBP_MenuCarIcon_C'WidgetArchetype:WidgetTree_0.WBP_MenuCarIcon'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.84"
+      },
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.87"
+      },
+      "bCookedWidgetTree": true
+    }
+  },
+  {
+    "Type": "WBP_MenuCarIcon_C",
+    "Name": "WBP_MenuCarIcon",
+    "Outer": "WidgetTree",
+    "Class": "WidgetBlueprintGeneratedClass'GameProject/Content/IND/UI/MenuCarIcon/WBP_MenuCarIcon.WBP_MenuCarIcon_C'",
+    "Template": {
+      "ObjectName": "WBP_MenuCarIcon_C'Default__WBP_MenuCarIcon_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/MenuCarIcon/WBP_MenuCarIcon.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Load_TimeAttack_Panel_C:WidgetTree.CanvasPanel_2.CanvasPanelSlot_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.25"
+      },
+      "RenderTransform": {
+        "Scale": {
+          "X": 0.7,
+          "Y": 0.7
+        }
+      }
+    }
+  },
+  {
+    "Type": "WBP_MenuCarIcon_C",
+    "Name": "WBP_MenuCarIcon",
+    "Outer": "WidgetTree_0",
+    "Class": "WidgetBlueprintGeneratedClass'GameProject/Content/IND/UI/MenuCarIcon/WBP_MenuCarIcon.WBP_MenuCarIcon_C'",
+    "Template": {
+      "ObjectName": "WBP_MenuCarIcon_C'Default__WBP_MenuCarIcon_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/MenuCarIcon/WBP_MenuCarIcon.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Image_Dummy": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_MenuCarIcon.WidgetTree_0.Image_Dummy'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.62"
+      },
+      "Image_RT": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_MenuCarIcon.WidgetTree_0.Image_RT'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.63"
+      },
+      "WBP_MenuCarIcon_LoadIcon": {
+        "ObjectName": "WBP_MenuCarIcon_LoadIcon_C'WidgetArchetype:WidgetTree_0.WBP_MenuCarIcon.WidgetTree_0.WBP_MenuCarIcon_LoadIcon'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.85"
+      },
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.WBP_MenuCarIcon.WidgetTree_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.88"
+      },
+      "bCookedWidgetTree": true,
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_2.CanvasPanelSlot_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.32"
+      },
+      "RenderTransform": {
+        "Scale": {
+          "X": 0.7,
+          "Y": 0.7
+        }
+      }
+    }
+  },
+  {
+    "Type": "WBP_MenuCarIcon_LoadIcon_C",
+    "Name": "WBP_MenuCarIcon_LoadIcon",
+    "Outer": "WidgetTree_0",
+    "Class": "WidgetBlueprintGeneratedClass'GameProject/Content/IND/UI/MenuCarIcon/WBP_MenuCarIcon_LoadIcon.WBP_MenuCarIcon_LoadIcon_C'",
+    "Template": {
+      "ObjectName": "WBP_MenuCarIcon_LoadIcon_C'Default__WBP_MenuCarIcon_LoadIcon_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/MenuCarIcon/WBP_MenuCarIcon_LoadIcon.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Image_58": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_MenuCarIcon.WidgetTree_0.WBP_MenuCarIcon_LoadIcon.WidgetTree_0.Image_58'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.64"
+      },
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.WBP_MenuCarIcon.WidgetTree_0.WBP_MenuCarIcon_LoadIcon.WidgetTree_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.89"
+      },
+      "bCookedWidgetTree": true,
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.WBP_MenuCarIcon.WidgetTree_0.Overlay_96.OverlaySlot_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.72"
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Outer": "WBP_Load_TimeAttack_Panel_C",
+    "Class": "UScriptClass'WidgetTree'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CanvasPanel'WBP_Load_TimeAttack_Panel_C:WidgetTree.CanvasPanel_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.17"
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree_0",
+    "Outer": "WidgetArchetype",
+    "Class": "UScriptClass'WidgetTree'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.18"
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree_0",
+    "Outer": "WBP_MenuCarIcon",
+    "Class": "UScriptClass'WidgetTree'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "ScaleBox'WidgetArchetype:WidgetTree_0.WBP_MenuCarIcon.WidgetTree_0.ScaleBox_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.74"
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree_0",
+    "Outer": "WBP_MenuCarIcon_LoadIcon",
+    "Class": "UScriptClass'WidgetTree'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_MenuCarIcon.WidgetTree_0.WBP_MenuCarIcon_LoadIcon.WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Load/WBP_Load_TimeAttack_Panel.19"
+      }
+    }
+  }
+]

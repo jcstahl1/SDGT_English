@@ -1,0 +1,1670 @@
+[
+  {
+    "Type": "StructProperty",
+    "Name": "UberGraphFrame",
+    "Outer": "WBP_ManageTeam_Confirm_C",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "Transient | DuplicateTransient",
+    "Struct": {
+      "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "WBP_ManageTeam_Confirm_C",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WBP_ManageTeam_Confirm_C:WidgetTree'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.83"
+      },
+      "bAllowTemplate": true,
+      "bValidTemplate": true,
+      "TemplateAsset": {
+        "AssetPathName": "/Game/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.WidgetArchetype",
+        "SubPathString": ""
+      },
+      "UberGraphFramePointerProperty": {
+        "ObjectName": "StructProperty'WBP_ManageTeam_Confirm_C:UberGraphFrame'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.0"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'WBP_ManageTeam_Confirm_C:ExecuteUbergraph_WBP_ManageTeam_Confirm'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.5"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'CustomWidgetBase'",
+      "ObjectPath": "/Script/GameProject"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'WBP_ManageTeam_Confirm_C:UberGraphFrame'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.0"
+      },
+      {
+        "ObjectName": "Function'WBP_ManageTeam_Confirm_C:CallCustomActionbyID'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.30"
+      },
+      {
+        "ObjectName": "Function'WBP_ManageTeam_Confirm_C:Setup_Confirm'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.16"
+      },
+      {
+        "ObjectName": "Function'WBP_ManageTeam_Confirm_C:ExecuteUbergraph_WBP_ManageTeam_Confirm'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.5"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_ManageTeam_Confirm_C:P_Text_AfterSetting'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.3"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_ManageTeam_Confirm_C:P_Text_BeforeSetting'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.41"
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_WBP_ManageTeam_Confirm": {
+        "ObjectName": "Function'WBP_ManageTeam_Confirm_C:ExecuteUbergraph_WBP_ManageTeam_Confirm'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.5"
+      },
+      "Setup_Confirm": {
+        "ObjectName": "Function'WBP_ManageTeam_Confirm_C:Setup_Confirm'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.16"
+      },
+      "CallCustomActionbyID": {
+        "ObjectName": "Function'WBP_ManageTeam_Confirm_C:CallCustomActionbyID'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.30"
+      }
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "WBP_ManageTeam_Confirm_C'Default__WBP_ManageTeam_Confirm_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.2"
+    }
+  },
+  {
+    "Type": "WBP_ManageTeam_Confirm_C",
+    "Name": "Default__WBP_ManageTeam_Confirm_C",
+    "Class": "WidgetBlueprintGeneratedClass'GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.WBP_ManageTeam_Confirm_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "UberGraphFrame": {},
+      "CustomActionStringArray": [
+        "現在自動勧誘ON",
+        "現在D番号のみ"
+      ],
+      "bHasScriptImplementedTick": false,
+      "bHasScriptImplementedPaint": false
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "P_Text_AfterSetting",
+    "Outer": "WBP_ManageTeam_Confirm_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'RichTextBlock'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "EntryPoint",
+    "Outer": "ExecuteUbergraph_WBP_ManageTeam_Confirm",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_WBP_ManageTeam_Confirm",
+    "Outer": "WBP_ManageTeam_Confirm_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "IntProperty'WBP_ManageTeam_Confirm_C:ExecuteUbergraph_WBP_ManageTeam_Confirm.EntryPoint'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.4"
+      },
+      {
+        "ObjectName": "TextProperty'WBP_ManageTeam_Confirm_C:ExecuteUbergraph_WBP_ManageTeam_Confirm.CallFunc_MakeLiteralText_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.76"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_ManageTeam_Confirm_C:ExecuteUbergraph_WBP_ManageTeam_Confirm.Temp_bool_Variable'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.14"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_ManageTeam_Confirm_C:ExecuteUbergraph_WBP_ManageTeam_Confirm.CallFunc_IsShippingBuild_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.10"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_ManageTeam_Confirm_C:ExecuteUbergraph_WBP_ManageTeam_Confirm.K2Node_Event_ActionIndex'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.28"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_ManageTeam_Confirm_C:ExecuteUbergraph_WBP_ManageTeam_Confirm.K2Node_CustomEvent_bNowAutoInviteSetting'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.12"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_ManageTeam_Confirm_C:ExecuteUbergraph_WBP_ManageTeam_Confirm.K2Node_SwitchInteger_CmpSuccess'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.13"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_ManageTeam_Confirm_C:ExecuteUbergraph_WBP_ManageTeam_Confirm.CallFunc_Not_PreBool_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.11"
+      },
+      {
+        "ObjectName": "TextProperty'WBP_ManageTeam_Confirm_C:ExecuteUbergraph_WBP_ManageTeam_Confirm.CallFunc_MakeLiteralText_ReturnValue_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.77"
+      },
+      {
+        "ObjectName": "TextProperty'WBP_ManageTeam_Confirm_C:ExecuteUbergraph_WBP_ManageTeam_Confirm.CallFunc_MakeLiteralText_ReturnValue_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.78"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_ManageTeam_Confirm_C:ExecuteUbergraph_WBP_ManageTeam_Confirm.Temp_bool_Variable_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.15"
+      },
+      {
+        "ObjectName": "TextProperty'WBP_ManageTeam_Confirm_C:ExecuteUbergraph_WBP_ManageTeam_Confirm.CallFunc_MakeLiteralText_ReturnValue_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.79"
+      },
+      {
+        "ObjectName": "TextProperty'WBP_ManageTeam_Confirm_C:ExecuteUbergraph_WBP_ManageTeam_Confirm.K2Node_Select_Default'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.80"
+      },
+      {
+        "ObjectName": "TextProperty'WBP_ManageTeam_Confirm_C:ExecuteUbergraph_WBP_ManageTeam_Confirm.K2Node_Select_Default_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.81"
+      },
+      {
+        "ObjectName": "StructProperty'WBP_ManageTeam_Confirm_C:ExecuteUbergraph_WBP_ManageTeam_Confirm.K2Node_MakeStruct_FormatArgumentData'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.72"
+      },
+      {
+        "ObjectName": "StructProperty'WBP_ManageTeam_Confirm_C:ExecuteUbergraph_WBP_ManageTeam_Confirm.K2Node_MakeStruct_FormatArgumentData_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.73"
+      },
+      {
+        "ObjectName": "ArrayProperty'WBP_ManageTeam_Confirm_C:ExecuteUbergraph_WBP_ManageTeam_Confirm.K2Node_MakeArray_Array'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.7"
+      },
+      {
+        "ObjectName": "ArrayProperty'WBP_ManageTeam_Confirm_C:ExecuteUbergraph_WBP_ManageTeam_Confirm.K2Node_MakeArray_Array_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.9"
+      },
+      {
+        "ObjectName": "TextProperty'WBP_ManageTeam_Confirm_C:ExecuteUbergraph_WBP_ManageTeam_Confirm.CallFunc_Format_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.74"
+      },
+      {
+        "ObjectName": "TextProperty'WBP_ManageTeam_Confirm_C:ExecuteUbergraph_WBP_ManageTeam_Confirm.CallFunc_Format_ReturnValue_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.75"
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction | FUNC_HasDefaults"
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "K2Node_MakeArray_Array",
+    "Outer": "K2Node_MakeArray_Array",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Struct": {
+      "ObjectName": "ScriptStruct'FormatArgumentData'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ArrayProperty",
+    "Name": "K2Node_MakeArray_Array",
+    "Outer": "ExecuteUbergraph_WBP_ManageTeam_Confirm",
+    "Class": "UScriptClass'ArrayProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "ReferenceParm",
+    "Inner": {
+      "ObjectName": "StructProperty'WBP_ManageTeam_Confirm_C:ExecuteUbergraph_WBP_ManageTeam_Confirm.K2Node_MakeArray_Array.K2Node_MakeArray_Array'",
+      "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.6"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "K2Node_MakeArray_Array_1",
+    "Outer": "K2Node_MakeArray_Array_1",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Struct": {
+      "ObjectName": "ScriptStruct'FormatArgumentData'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ArrayProperty",
+    "Name": "K2Node_MakeArray_Array_1",
+    "Outer": "ExecuteUbergraph_WBP_ManageTeam_Confirm",
+    "Class": "UScriptClass'ArrayProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "ReferenceParm",
+    "Inner": {
+      "ObjectName": "StructProperty'WBP_ManageTeam_Confirm_C:ExecuteUbergraph_WBP_ManageTeam_Confirm.K2Node_MakeArray_Array_1.K2Node_MakeArray_Array_1'",
+      "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.8"
+    }
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_IsShippingBuild_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_ManageTeam_Confirm",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_Not_PreBool_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_ManageTeam_Confirm",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_CustomEvent_bNowAutoInviteSetting",
+    "Outer": "ExecuteUbergraph_WBP_ManageTeam_Confirm",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_SwitchInteger_CmpSuccess",
+    "Outer": "ExecuteUbergraph_WBP_ManageTeam_Confirm",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "Temp_bool_Variable",
+    "Outer": "ExecuteUbergraph_WBP_ManageTeam_Confirm",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "Temp_bool_Variable_1",
+    "Outer": "ExecuteUbergraph_WBP_ManageTeam_Confirm",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "Function",
+    "Name": "Setup_Confirm",
+    "Outer": "WBP_ManageTeam_Confirm_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "BoolProperty'WBP_ManageTeam_Confirm_C:Setup_Confirm.bNowAutoInviteSetting'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.17"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "bNowAutoInviteSetting",
+    "Outer": "Setup_Confirm",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_0",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_ManageTeam_Confirm_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.22"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_84",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_ManageTeam_Confirm_C:WidgetTree.CanvasPanel_84.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.23"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_ManageTeam_Confirm_C:WidgetTree.CanvasPanel_84.CanvasPanelSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.24"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_ManageTeam_Confirm_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.22"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_0",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.25"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_84",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_84.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.26"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_84.CanvasPanelSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.27"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.25"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 800.0,
+          "Bottom": 200.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_ManageTeam_Confirm_C:WidgetTree.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.18"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WBP_ManageTeam_Confirm_C:WidgetTree.CanvasPanel_84'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.19"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "CanvasPanel_84",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": -81.0417
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_ManageTeam_Confirm_C:WidgetTree.CanvasPanel_84'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.19"
+      },
+      "Content": {
+        "ObjectName": "RichTextBlock'WBP_ManageTeam_Confirm_C:WidgetTree.RichTextBlock_50'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.51"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "CanvasPanel_84",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": 45.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_ManageTeam_Confirm_C:WidgetTree.CanvasPanel_84'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.19"
+      },
+      "Content": {
+        "ObjectName": "HorizontalBox'WBP_ManageTeam_Confirm_C:WidgetTree.HorizontalBox_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.31"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 800.0,
+          "Bottom": 200.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.20"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_84'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.21"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "CanvasPanel_84",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": -81.0417
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_84'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.21"
+      },
+      "Content": {
+        "ObjectName": "RichTextBlock'WidgetArchetype:WidgetTree_0.RichTextBlock_50'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.55"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "CanvasPanel_84",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": 45.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_84'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.21"
+      },
+      "Content": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.HorizontalBox_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.32"
+      }
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "K2Node_Event_ActionIndex",
+    "Outer": "ExecuteUbergraph_WBP_ManageTeam_Confirm",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "ActionIndex",
+    "Outer": "CallCustomActionbyID",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "CallCustomActionbyID",
+    "Outer": "WBP_ManageTeam_Confirm_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Function'CustomWidgetBase:CallCustomActionbyID'",
+      "ObjectPath": "/Script/GameProject"
+    },
+    "Children": [
+      {
+        "ObjectName": "IntProperty'WBP_ManageTeam_Confirm_C:CallCustomActionbyID.ActionIndex'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.29"
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "HorizontalBox",
+    "Name": "HorizontalBox_0",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'HorizontalBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "HorizontalBoxSlot'WBP_ManageTeam_Confirm_C:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_3'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.34"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot'WBP_ManageTeam_Confirm_C:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.33"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot'WBP_ManageTeam_Confirm_C:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_4'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.35"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_ManageTeam_Confirm_C:WidgetTree.CanvasPanel_84.CanvasPanelSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.24"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBox",
+    "Name": "HorizontalBox_0",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'HorizontalBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.HorizontalBox_0.HorizontalBoxSlot_3'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.37"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.HorizontalBox_0.HorizontalBoxSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.36"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.HorizontalBox_0.HorizontalBoxSlot_4'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.38"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_84.CanvasPanelSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.27"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_0",
+    "Outer": "HorizontalBox_0",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox'WBP_ManageTeam_Confirm_C:WidgetTree.HorizontalBox_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.31"
+      },
+      "Content": {
+        "ObjectName": "Image'WBP_ManageTeam_Confirm_C:WidgetTree.Arrow'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.39"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_3",
+    "Outer": "HorizontalBox_0",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox'WBP_ManageTeam_Confirm_C:WidgetTree.HorizontalBox_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.31"
+      },
+      "Content": {
+        "ObjectName": "SizeBox'WBP_ManageTeam_Confirm_C:WidgetTree.SizeBox'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.64"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_4",
+    "Outer": "HorizontalBox_0",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox'WBP_ManageTeam_Confirm_C:WidgetTree.HorizontalBox_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.31"
+      },
+      "Content": {
+        "ObjectName": "SizeBox'WBP_ManageTeam_Confirm_C:WidgetTree.SizeBox_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.65"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_0",
+    "Outer": "HorizontalBox_0",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.HorizontalBox_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.32"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.Arrow'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.40"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_3",
+    "Outer": "HorizontalBox_0",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.HorizontalBox_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.32"
+      },
+      "Content": {
+        "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.SizeBox'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.66"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_4",
+    "Outer": "HorizontalBox_0",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.HorizontalBox_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.32"
+      },
+      "Content": {
+        "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.SizeBox_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.67"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Arrow",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 80.0,
+          "Y": 48.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'ManageTeam_Confirm_Arrow'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/Texture/ManageTeam_Confirm_Arrow.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WBP_ManageTeam_Confirm_C:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.33"
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Arrow",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 80.0,
+          "Y": 48.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'ManageTeam_Confirm_Arrow'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/Texture/ManageTeam_Confirm_Arrow.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.HorizontalBox_0.HorizontalBoxSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.36"
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "P_Text_BeforeSetting",
+    "Outer": "WBP_ManageTeam_Confirm_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'RichTextBlock'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "Overlay",
+    "Name": "Overlay_1",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'Overlay'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "OverlaySlot'WBP_ManageTeam_Confirm_C:WidgetTree.Overlay_1.OverlaySlot_2'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.44"
+        },
+        {
+          "ObjectName": "OverlaySlot'WBP_ManageTeam_Confirm_C:WidgetTree.Overlay_1.OverlaySlot_3'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.45"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "SizeBoxSlot'WBP_ManageTeam_Confirm_C:WidgetTree.SizeBox.SizeBoxSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.68"
+      }
+    }
+  },
+  {
+    "Type": "Overlay",
+    "Name": "Overlay_1",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Overlay'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.Overlay_1.OverlaySlot_2'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.46"
+        },
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.Overlay_1.OverlaySlot_3'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.47"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "SizeBoxSlot'WidgetArchetype:WidgetTree_0.SizeBox.SizeBoxSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.70"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_2",
+    "Outer": "Overlay_1",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Padding": {
+        "Top": -30.0
+      },
+      "HorizontalAlignment": "HAlign_Center",
+      "Parent": {
+        "ObjectName": "Overlay'WBP_ManageTeam_Confirm_C:WidgetTree.Overlay_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.42"
+      },
+      "Content": {
+        "ObjectName": "RichTextBlock'WBP_ManageTeam_Confirm_C:WidgetTree.midasi'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.48"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_3",
+    "Outer": "Overlay_1",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Padding": {
+        "Left": 10.0,
+        "Right": 10.0
+      },
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "Overlay'WBP_ManageTeam_Confirm_C:WidgetTree.Overlay_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.42"
+      },
+      "Content": {
+        "ObjectName": "ScaleBox'WBP_ManageTeam_Confirm_C:WidgetTree.ScaleBox_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.57"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_2",
+    "Outer": "Overlay_1",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Padding": {
+        "Top": -30.0
+      },
+      "HorizontalAlignment": "HAlign_Center",
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.Overlay_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.43"
+      },
+      "Content": {
+        "ObjectName": "RichTextBlock'WidgetArchetype:WidgetTree_0.midasi'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.52"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_3",
+    "Outer": "Overlay_1",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Padding": {
+        "Left": 10.0,
+        "Right": 10.0
+      },
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.Overlay_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.43"
+      },
+      "Content": {
+        "ObjectName": "ScaleBox'WidgetArchetype:WidgetTree_0.ScaleBox_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.59"
+      }
+    }
+  },
+  {
+    "Type": "RichTextBlock",
+    "Name": "midasi",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'RichTextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "TableId": "/Game/IND/StringTable/BP/ST_GameMessage.ST_GameMessage",
+        "Key": "TeamSeq_TeamManage_AutoInviteConfirm_Current",
+        "SourceString": "<small>現在の設定</>",
+        "LocalizedString": "<small>Current setting</>"
+      },
+      "TextStyleSet": {
+        "ObjectName": "DataTable'RichTextStyleSet_Dialog'",
+        "ObjectPath": "GameProject/Content/IND/UI/RichTextStyle/RichTextStyleSet_Dialog.0"
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot'WBP_ManageTeam_Confirm_C:WidgetTree.Overlay_1.OverlaySlot_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.44"
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "RichTextBlock",
+    "Name": "P_Text_AfterSetting",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'RichTextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "A6F0874340E50E218CD179BA38C34AF7",
+        "SourceString": "<Yellow>D番号入力のみ</>",
+        "LocalizedString": "<Yellow>D番号入力のみ</>"
+      },
+      "TextStyleSet": {
+        "ObjectName": "DataTable'RichTextStyleSet_Dialog'",
+        "ObjectPath": "GameProject/Content/IND/UI/RichTextStyle/RichTextStyleSet_Dialog.0"
+      },
+      "Slot": {
+        "ObjectName": "ScaleBoxSlot'WBP_ManageTeam_Confirm_C:WidgetTree.ScaleBox_0.ScaleBoxSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.60"
+      }
+    }
+  },
+  {
+    "Type": "RichTextBlock",
+    "Name": "P_Text_BeforeSetting",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'RichTextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "F1A431A54F0ACF8E81BFD08AA43245B0",
+        "SourceString": "自動勧誘を行う",
+        "LocalizedString": "自動勧誘を行う"
+      },
+      "TextStyleSet": {
+        "ObjectName": "DataTable'RichTextStyleSet_Dialog'",
+        "ObjectPath": "GameProject/Content/IND/UI/RichTextStyle/RichTextStyleSet_Dialog.0"
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "ScaleBoxSlot'WBP_ManageTeam_Confirm_C:WidgetTree.ScaleBox_1.ScaleBoxSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.61"
+      }
+    }
+  },
+  {
+    "Type": "RichTextBlock",
+    "Name": "RichTextBlock_50",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'RichTextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "TableId": "/Game/IND/StringTable/BP/ST_GameMessage.ST_GameMessage",
+        "Key": "TeamSeq_TeamManage_AutoInviteConfirm_Title",
+        "SourceString": "<Middle>チーム勧誘設定を変更しますか？</>",
+        "LocalizedString": "Do you want to change\nyour team solicitation settings?"
+      },
+      "TextStyleSet": {
+        "ObjectName": "DataTable'RichTextStyleSet_Dialog'",
+        "ObjectPath": "GameProject/Content/IND/UI/RichTextStyle/RichTextStyleSet_Dialog.0"
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_ManageTeam_Confirm_C:WidgetTree.CanvasPanel_84.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.23"
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "RichTextBlock",
+    "Name": "midasi",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'RichTextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "TableId": "/Game/IND/StringTable/BP/ST_GameMessage.ST_GameMessage",
+        "Key": "TeamSeq_TeamManage_AutoInviteConfirm_Current",
+        "SourceString": "<small>現在の設定</>",
+        "LocalizedString": "<small>Current setting</>"
+      },
+      "TextStyleSet": {
+        "ObjectName": "DataTable'RichTextStyleSet_Dialog'",
+        "ObjectPath": "GameProject/Content/IND/UI/RichTextStyle/RichTextStyleSet_Dialog.0"
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.Overlay_1.OverlaySlot_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.46"
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "RichTextBlock",
+    "Name": "P_Text_AfterSetting",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'RichTextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "A6F0874340E50E218CD179BA38C34AF7",
+        "SourceString": "<Yellow>D番号入力のみ</>",
+        "LocalizedString": "<Yellow>D番号入力のみ</>"
+      },
+      "TextStyleSet": {
+        "ObjectName": "DataTable'RichTextStyleSet_Dialog'",
+        "ObjectPath": "GameProject/Content/IND/UI/RichTextStyle/RichTextStyleSet_Dialog.0"
+      },
+      "Slot": {
+        "ObjectName": "ScaleBoxSlot'WidgetArchetype:WidgetTree_0.ScaleBox_0.ScaleBoxSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.62"
+      }
+    }
+  },
+  {
+    "Type": "RichTextBlock",
+    "Name": "P_Text_BeforeSetting",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'RichTextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "F1A431A54F0ACF8E81BFD08AA43245B0",
+        "SourceString": "自動勧誘を行う",
+        "LocalizedString": "自動勧誘を行う"
+      },
+      "TextStyleSet": {
+        "ObjectName": "DataTable'RichTextStyleSet_Dialog'",
+        "ObjectPath": "GameProject/Content/IND/UI/RichTextStyle/RichTextStyleSet_Dialog.0"
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "ScaleBoxSlot'WidgetArchetype:WidgetTree_0.ScaleBox_1.ScaleBoxSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.63"
+      }
+    }
+  },
+  {
+    "Type": "RichTextBlock",
+    "Name": "RichTextBlock_50",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'RichTextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "TableId": "/Game/IND/StringTable/BP/ST_GameMessage.ST_GameMessage",
+        "Key": "TeamSeq_TeamManage_AutoInviteConfirm_Title",
+        "SourceString": "<Middle>チーム勧誘設定を変更しますか？</>",
+        "LocalizedString": "Do you want to change\nyour team solicitation settings?"
+      },
+      "TextStyleSet": {
+        "ObjectName": "DataTable'RichTextStyleSet_Dialog'",
+        "ObjectPath": "GameProject/Content/IND/UI/RichTextStyle/RichTextStyleSet_Dialog.0"
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_84.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.26"
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "ScaleBox",
+    "Name": "ScaleBox_0",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'ScaleBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "ScaleBoxSlot'WBP_ManageTeam_Confirm_C:WidgetTree.ScaleBox_0.ScaleBoxSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.60"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "SizeBoxSlot'WBP_ManageTeam_Confirm_C:WidgetTree.SizeBox_0.SizeBoxSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.69"
+      }
+    }
+  },
+  {
+    "Type": "ScaleBox",
+    "Name": "ScaleBox_1",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'ScaleBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "ScaleBoxSlot'WBP_ManageTeam_Confirm_C:WidgetTree.ScaleBox_1.ScaleBoxSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.61"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "OverlaySlot'WBP_ManageTeam_Confirm_C:WidgetTree.Overlay_1.OverlaySlot_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.45"
+      }
+    }
+  },
+  {
+    "Type": "ScaleBox",
+    "Name": "ScaleBox_0",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'ScaleBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "ScaleBoxSlot'WidgetArchetype:WidgetTree_0.ScaleBox_0.ScaleBoxSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.62"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "SizeBoxSlot'WidgetArchetype:WidgetTree_0.SizeBox_0.SizeBoxSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.71"
+      }
+    }
+  },
+  {
+    "Type": "ScaleBox",
+    "Name": "ScaleBox_1",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'ScaleBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "ScaleBoxSlot'WidgetArchetype:WidgetTree_0.ScaleBox_1.ScaleBoxSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.63"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.Overlay_1.OverlaySlot_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.47"
+      }
+    }
+  },
+  {
+    "Type": "ScaleBoxSlot",
+    "Name": "ScaleBoxSlot_0",
+    "Outer": "ScaleBox_0",
+    "Class": "UScriptClass'ScaleBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Padding": {
+        "Left": 20.0
+      },
+      "Parent": {
+        "ObjectName": "ScaleBox'WBP_ManageTeam_Confirm_C:WidgetTree.ScaleBox_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.56"
+      },
+      "Content": {
+        "ObjectName": "RichTextBlock'WBP_ManageTeam_Confirm_C:WidgetTree.P_Text_AfterSetting'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.49"
+      }
+    }
+  },
+  {
+    "Type": "ScaleBoxSlot",
+    "Name": "ScaleBoxSlot_1",
+    "Outer": "ScaleBox_1",
+    "Class": "UScriptClass'ScaleBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "ScaleBox'WBP_ManageTeam_Confirm_C:WidgetTree.ScaleBox_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.57"
+      },
+      "Content": {
+        "ObjectName": "RichTextBlock'WBP_ManageTeam_Confirm_C:WidgetTree.P_Text_BeforeSetting'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.50"
+      }
+    }
+  },
+  {
+    "Type": "ScaleBoxSlot",
+    "Name": "ScaleBoxSlot_0",
+    "Outer": "ScaleBox_0",
+    "Class": "UScriptClass'ScaleBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Padding": {
+        "Left": 20.0
+      },
+      "Parent": {
+        "ObjectName": "ScaleBox'WidgetArchetype:WidgetTree_0.ScaleBox_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.58"
+      },
+      "Content": {
+        "ObjectName": "RichTextBlock'WidgetArchetype:WidgetTree_0.P_Text_AfterSetting'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.53"
+      }
+    }
+  },
+  {
+    "Type": "ScaleBoxSlot",
+    "Name": "ScaleBoxSlot_1",
+    "Outer": "ScaleBox_1",
+    "Class": "UScriptClass'ScaleBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "ScaleBox'WidgetArchetype:WidgetTree_0.ScaleBox_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.59"
+      },
+      "Content": {
+        "ObjectName": "RichTextBlock'WidgetArchetype:WidgetTree_0.P_Text_BeforeSetting'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.54"
+      }
+    }
+  },
+  {
+    "Type": "SizeBox",
+    "Name": "SizeBox",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'SizeBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "WidthOverride": 350.0,
+      "bOverride_WidthOverride": true,
+      "Slots": [
+        {
+          "ObjectName": "SizeBoxSlot'WBP_ManageTeam_Confirm_C:WidgetTree.SizeBox.SizeBoxSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.68"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WBP_ManageTeam_Confirm_C:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.34"
+      }
+    }
+  },
+  {
+    "Type": "SizeBox",
+    "Name": "SizeBox_0",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'SizeBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "WidthOverride": 350.0,
+      "bOverride_WidthOverride": true,
+      "Slots": [
+        {
+          "ObjectName": "SizeBoxSlot'WBP_ManageTeam_Confirm_C:WidgetTree.SizeBox_0.SizeBoxSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.69"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WBP_ManageTeam_Confirm_C:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_4'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.35"
+      }
+    }
+  },
+  {
+    "Type": "SizeBox",
+    "Name": "SizeBox",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'SizeBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "WidthOverride": 350.0,
+      "bOverride_WidthOverride": true,
+      "Slots": [
+        {
+          "ObjectName": "SizeBoxSlot'WidgetArchetype:WidgetTree_0.SizeBox.SizeBoxSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.70"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.HorizontalBox_0.HorizontalBoxSlot_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.37"
+      }
+    }
+  },
+  {
+    "Type": "SizeBox",
+    "Name": "SizeBox_0",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'SizeBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "WidthOverride": 350.0,
+      "bOverride_WidthOverride": true,
+      "Slots": [
+        {
+          "ObjectName": "SizeBoxSlot'WidgetArchetype:WidgetTree_0.SizeBox_0.SizeBoxSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.71"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.HorizontalBox_0.HorizontalBoxSlot_4'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.38"
+      }
+    }
+  },
+  {
+    "Type": "SizeBoxSlot",
+    "Name": "SizeBoxSlot_1",
+    "Outer": "SizeBox",
+    "Class": "UScriptClass'SizeBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "SizeBox'WBP_ManageTeam_Confirm_C:WidgetTree.SizeBox'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.64"
+      },
+      "Content": {
+        "ObjectName": "Overlay'WBP_ManageTeam_Confirm_C:WidgetTree.Overlay_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.42"
+      }
+    }
+  },
+  {
+    "Type": "SizeBoxSlot",
+    "Name": "SizeBoxSlot_0",
+    "Outer": "SizeBox_0",
+    "Class": "UScriptClass'SizeBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "SizeBox'WBP_ManageTeam_Confirm_C:WidgetTree.SizeBox_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.65"
+      },
+      "Content": {
+        "ObjectName": "ScaleBox'WBP_ManageTeam_Confirm_C:WidgetTree.ScaleBox_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.56"
+      }
+    }
+  },
+  {
+    "Type": "SizeBoxSlot",
+    "Name": "SizeBoxSlot_1",
+    "Outer": "SizeBox",
+    "Class": "UScriptClass'SizeBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.SizeBox'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.66"
+      },
+      "Content": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.Overlay_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.43"
+      }
+    }
+  },
+  {
+    "Type": "SizeBoxSlot",
+    "Name": "SizeBoxSlot_0",
+    "Outer": "SizeBox_0",
+    "Class": "UScriptClass'SizeBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.SizeBox_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.67"
+      },
+      "Content": {
+        "ObjectName": "ScaleBox'WidgetArchetype:WidgetTree_0.ScaleBox_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.58"
+      }
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "K2Node_MakeStruct_FormatArgumentData",
+    "Outer": "ExecuteUbergraph_WBP_ManageTeam_Confirm",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Struct": {
+      "ObjectName": "ScriptStruct'FormatArgumentData'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "K2Node_MakeStruct_FormatArgumentData_1",
+    "Outer": "ExecuteUbergraph_WBP_ManageTeam_Confirm",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Struct": {
+      "ObjectName": "ScriptStruct'FormatArgumentData'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "CallFunc_Format_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_ManageTeam_Confirm",
+    "Class": "UScriptClass'TextProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "CallFunc_Format_ReturnValue_1",
+    "Outer": "ExecuteUbergraph_WBP_ManageTeam_Confirm",
+    "Class": "UScriptClass'TextProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "CallFunc_MakeLiteralText_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_ManageTeam_Confirm",
+    "Class": "UScriptClass'TextProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "CallFunc_MakeLiteralText_ReturnValue_1",
+    "Outer": "ExecuteUbergraph_WBP_ManageTeam_Confirm",
+    "Class": "UScriptClass'TextProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "CallFunc_MakeLiteralText_ReturnValue_2",
+    "Outer": "ExecuteUbergraph_WBP_ManageTeam_Confirm",
+    "Class": "UScriptClass'TextProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "CallFunc_MakeLiteralText_ReturnValue_3",
+    "Outer": "ExecuteUbergraph_WBP_ManageTeam_Confirm",
+    "Class": "UScriptClass'TextProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "K2Node_Select_Default",
+    "Outer": "ExecuteUbergraph_WBP_ManageTeam_Confirm",
+    "Class": "UScriptClass'TextProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "ConstParm"
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "K2Node_Select_Default_1",
+    "Outer": "ExecuteUbergraph_WBP_ManageTeam_Confirm",
+    "Class": "UScriptClass'TextProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "ConstParm"
+  },
+  {
+    "Type": "WBP_ManageTeam_Confirm_C",
+    "Name": "WidgetArchetype",
+    "Class": "WidgetBlueprintGeneratedClass'GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.WBP_ManageTeam_Confirm_C'",
+    "Template": {
+      "ObjectName": "WBP_ManageTeam_Confirm_C'Default__WBP_ManageTeam_Confirm_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.2"
+    },
+    "Flags": "RF_Public | RF_Standalone | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "P_Text_AfterSetting": {
+        "ObjectName": "RichTextBlock'WidgetArchetype:WidgetTree_0.P_Text_AfterSetting'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.53"
+      },
+      "P_Text_BeforeSetting": {
+        "ObjectName": "RichTextBlock'WidgetArchetype:WidgetTree_0.P_Text_BeforeSetting'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.54"
+      },
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.84"
+      },
+      "bCookedWidgetTree": true
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Outer": "WBP_ManageTeam_Confirm_C",
+    "Class": "UScriptClass'WidgetTree'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CanvasPanel'WBP_ManageTeam_Confirm_C:WidgetTree.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.18"
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree_0",
+    "Outer": "WidgetArchetype",
+    "Class": "UScriptClass'WidgetTree'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/ManageTeam/WBP_ManageTeam_Confirm.20"
+      }
+    }
+  }
+]

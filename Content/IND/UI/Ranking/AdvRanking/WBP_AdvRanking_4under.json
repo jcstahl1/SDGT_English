@@ -1,0 +1,4263 @@
+[
+  {
+    "Type": "StructProperty",
+    "Name": "UberGraphFrame",
+    "Outer": "WBP_AdvRanking_4under_C",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "Transient | DuplicateTransient",
+    "Struct": {
+      "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "WBP_AdvRanking_4under_C",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WBP_AdvRanking_4under_C:WidgetTree'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.218"
+      },
+      "bAllowTemplate": true,
+      "bValidTemplate": true,
+      "bClassRequiresNativeTick": true,
+      "TemplateAsset": {
+        "AssetPathName": "/Game/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.WidgetArchetype",
+        "SubPathString": ""
+      },
+      "UberGraphFramePointerProperty": {
+        "ObjectName": "StructProperty'WBP_AdvRanking_4under_C:UberGraphFrame'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.0"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'WBP_AdvRanking_4under_C:ExecuteUbergraph_WBP_AdvRanking_4under'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.5"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'AdvRanking_Record'",
+      "ObjectPath": "/Script/GameProject"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'WBP_AdvRanking_4under_C:UberGraphFrame'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.0"
+      },
+      {
+        "ObjectName": "Function'WBP_AdvRanking_4under_C:Construct'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.58"
+      },
+      {
+        "ObjectName": "Function'WBP_AdvRanking_4under_C:SetRankingType'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.79"
+      },
+      {
+        "ObjectName": "Function'WBP_AdvRanking_4under_C:SetUserName'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.88"
+      },
+      {
+        "ObjectName": "Function'WBP_AdvRanking_4under_C:SetDate'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.64"
+      },
+      {
+        "ObjectName": "Function'WBP_AdvRanking_4under_C:SetGrade'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.67"
+      },
+      {
+        "ObjectName": "Function'WBP_AdvRanking_4under_C:SetTimeRecord'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.85"
+      },
+      {
+        "ObjectName": "Function'WBP_AdvRanking_4under_C:SetCarName'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.61"
+      },
+      {
+        "ObjectName": "Function'WBP_AdvRanking_4under_C:SetHomeStroeName'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.73"
+      },
+      {
+        "ObjectName": "Function'WBP_AdvRanking_4under_C:SetHomeAreaName'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.70"
+      },
+      {
+        "ObjectName": "Function'WBP_AdvRanking_4under_C:SetInstoreRank'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.76"
+      },
+      {
+        "ObjectName": "Function'WBP_AdvRanking_4under_C:SetRankNum'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.82"
+      },
+      {
+        "ObjectName": "Function'WBP_AdvRanking_4under_C:ExecuteUbergraph_WBP_AdvRanking_4under'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.5"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_AdvRanking_4under_C:Base'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.3"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_AdvRanking_4under_C:Grade'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.113"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_AdvRanking_4under_C:Grade_TimeSwitcher'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.114"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_AdvRanking_4under_C:P_Area'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.115"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_AdvRanking_4under_C:P_CarName'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.116"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_AdvRanking_4under_C:P_Date'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.117"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_AdvRanking_4under_C:P_RankNum'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.118"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_AdvRanking_4under_C:P_RankNum_Effect'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.119"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_AdvRanking_4under_C:P_ShopName'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.120"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_AdvRanking_4under_C:P_Time'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.121"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_AdvRanking_4under_C:P_UserName'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.122"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_AdvRanking_4under_C:BpvCardDBObject'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.109"
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_WBP_AdvRanking_4under": {
+        "ObjectName": "Function'WBP_AdvRanking_4under_C:ExecuteUbergraph_WBP_AdvRanking_4under'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.5"
+      },
+      "SetRankNum": {
+        "ObjectName": "Function'WBP_AdvRanking_4under_C:SetRankNum'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.82"
+      },
+      "SetInstoreRank": {
+        "ObjectName": "Function'WBP_AdvRanking_4under_C:SetInstoreRank'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.76"
+      },
+      "SetHomeAreaName": {
+        "ObjectName": "Function'WBP_AdvRanking_4under_C:SetHomeAreaName'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.70"
+      },
+      "SetHomeStroeName": {
+        "ObjectName": "Function'WBP_AdvRanking_4under_C:SetHomeStroeName'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.73"
+      },
+      "SetCarName": {
+        "ObjectName": "Function'WBP_AdvRanking_4under_C:SetCarName'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.61"
+      },
+      "SetTimeRecord": {
+        "ObjectName": "Function'WBP_AdvRanking_4under_C:SetTimeRecord'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.85"
+      },
+      "SetGrade": {
+        "ObjectName": "Function'WBP_AdvRanking_4under_C:SetGrade'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.67"
+      },
+      "SetDate": {
+        "ObjectName": "Function'WBP_AdvRanking_4under_C:SetDate'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.64"
+      },
+      "SetUserName": {
+        "ObjectName": "Function'WBP_AdvRanking_4under_C:SetUserName'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.88"
+      },
+      "SetRankingType": {
+        "ObjectName": "Function'WBP_AdvRanking_4under_C:SetRankingType'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.79"
+      },
+      "Construct": {
+        "ObjectName": "Function'WBP_AdvRanking_4under_C:Construct'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.58"
+      }
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "WBP_AdvRanking_4under_C'Default__WBP_AdvRanking_4under_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.2"
+    }
+  },
+  {
+    "Type": "WBP_AdvRanking_4under_C",
+    "Name": "Default__WBP_AdvRanking_4under_C",
+    "Class": "WidgetBlueprintGeneratedClass'GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.WBP_AdvRanking_4under_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "UberGraphFrame": {},
+      "bHasScriptImplementedTick": false,
+      "bHasScriptImplementedPaint": false
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Base",
+    "Outer": "WBP_AdvRanking_4under_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'Image'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "EntryPoint",
+    "Outer": "ExecuteUbergraph_WBP_AdvRanking_4under",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_WBP_AdvRanking_4under",
+    "Outer": "WBP_AdvRanking_4under_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "IntProperty'WBP_AdvRanking_4under_C:ExecuteUbergraph_WBP_AdvRanking_4under.EntryPoint'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.4"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_AdvRanking_4under_C:ExecuteUbergraph_WBP_AdvRanking_4under.Temp_bool_Variable'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.14"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_AdvRanking_4under_C:ExecuteUbergraph_WBP_AdvRanking_4under.Temp_bool_Variable_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.15"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_AdvRanking_4under_C:ExecuteUbergraph_WBP_AdvRanking_4under.Temp_float_Variable'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.50"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_AdvRanking_4under_C:ExecuteUbergraph_WBP_AdvRanking_4under.Temp_bool_Variable_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.16"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_AdvRanking_4under_C:ExecuteUbergraph_WBP_AdvRanking_4under.Temp_float_Variable_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.51"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_AdvRanking_4under_C:ExecuteUbergraph_WBP_AdvRanking_4under.Temp_bool_Variable_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.17"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_AdvRanking_4under_C:ExecuteUbergraph_WBP_AdvRanking_4under.Temp_float_Variable_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.52"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_AdvRanking_4under_C:ExecuteUbergraph_WBP_AdvRanking_4under.Temp_float_Variable_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.53"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_AdvRanking_4under_C:ExecuteUbergraph_WBP_AdvRanking_4under.Temp_bool_Variable_4'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.18"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_AdvRanking_4under_C:ExecuteUbergraph_WBP_AdvRanking_4under.Temp_float_Variable_4'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.54"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_AdvRanking_4under_C:ExecuteUbergraph_WBP_AdvRanking_4under.Temp_bool_Variable_5'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.19"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_AdvRanking_4under_C:ExecuteUbergraph_WBP_AdvRanking_4under.Temp_float_Variable_5'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.55"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_AdvRanking_4under_C:ExecuteUbergraph_WBP_AdvRanking_4under.Temp_bool_Variable_6'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.20"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_AdvRanking_4under_C:ExecuteUbergraph_WBP_AdvRanking_4under.Temp_float_Variable_6'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.56"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_AdvRanking_4under_C:ExecuteUbergraph_WBP_AdvRanking_4under.Temp_bool_Variable_7'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.21"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_AdvRanking_4under_C:ExecuteUbergraph_WBP_AdvRanking_4under.Temp_float_Variable_7'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.57"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_AdvRanking_4under_C:ExecuteUbergraph_WBP_AdvRanking_4under.CallFunc_Generate_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.110"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_AdvRanking_4under_C:ExecuteUbergraph_WBP_AdvRanking_4under.K2Node_Event_RankingType'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.77"
+      },
+      {
+        "ObjectName": "StrProperty'WBP_AdvRanking_4under_C:ExecuteUbergraph_WBP_AdvRanking_4under.K2Node_Event_UserName'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.86"
+      },
+      {
+        "ObjectName": "Int64Property'WBP_AdvRanking_4under_C:ExecuteUbergraph_WBP_AdvRanking_4under.K2Node_Event_TimeStamp'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.62"
+      },
+      {
+        "ObjectName": "TextProperty'WBP_AdvRanking_4under_C:ExecuteUbergraph_WBP_AdvRanking_4under.CallFunc_Conv_StringToText_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.198"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_AdvRanking_4under_C:ExecuteUbergraph_WBP_AdvRanking_4under.K2Node_Event_Grade'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.65"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_AdvRanking_4under_C:ExecuteUbergraph_WBP_AdvRanking_4under.K2Node_Event_TimeRecord'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.83"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_AdvRanking_4under_C:ExecuteUbergraph_WBP_AdvRanking_4under.K2Node_Event_StyleCarID'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.59"
+      },
+      {
+        "ObjectName": "StrProperty'WBP_AdvRanking_4under_C:ExecuteUbergraph_WBP_AdvRanking_4under.K2Node_Event_HomeStoreName'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.71"
+      },
+      {
+        "ObjectName": "StrProperty'WBP_AdvRanking_4under_C:ExecuteUbergraph_WBP_AdvRanking_4under.K2Node_Event_HomeAreaName'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.68"
+      },
+      {
+        "ObjectName": "TextProperty'WBP_AdvRanking_4under_C:ExecuteUbergraph_WBP_AdvRanking_4under.CallFunc_Conv_StringToText_ReturnValue_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.199"
+      },
+      {
+        "ObjectName": "TextProperty'WBP_AdvRanking_4under_C:ExecuteUbergraph_WBP_AdvRanking_4under.CallFunc_Conv_StringToText_ReturnValue_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.200"
+      },
+      {
+        "ObjectName": "StructProperty'WBP_AdvRanking_4under_C:ExecuteUbergraph_WBP_AdvRanking_4under.CallFunc_GetDesiredSize_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.181"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_AdvRanking_4under_C:ExecuteUbergraph_WBP_AdvRanking_4under.CallFunc_BreakVector2D_X'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.33"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_AdvRanking_4under_C:ExecuteUbergraph_WBP_AdvRanking_4under.CallFunc_BreakVector2D_Y'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.35"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_AdvRanking_4under_C:ExecuteUbergraph_WBP_AdvRanking_4under.CallFunc_Divide_FloatFloat_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.38"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_AdvRanking_4under_C:ExecuteUbergraph_WBP_AdvRanking_4under.CallFunc_Less_FloatFloat_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.6"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_AdvRanking_4under_C:ExecuteUbergraph_WBP_AdvRanking_4under.CallFunc_Less_FloatFloat_ReturnValue_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.7"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_AdvRanking_4under_C:ExecuteUbergraph_WBP_AdvRanking_4under.K2Node_Select_Default'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.42"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_AdvRanking_4under_C:ExecuteUbergraph_WBP_AdvRanking_4under.CallFunc_Divide_FloatFloat_ReturnValue_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.39"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_AdvRanking_4under_C:ExecuteUbergraph_WBP_AdvRanking_4under.CallFunc_Less_FloatFloat_ReturnValue_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.8"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_AdvRanking_4under_C:ExecuteUbergraph_WBP_AdvRanking_4under.K2Node_Select_Default_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.43"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_AdvRanking_4under_C:ExecuteUbergraph_WBP_AdvRanking_4under.CallFunc_Less_FloatFloat_ReturnValue_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.9"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_AdvRanking_4under_C:ExecuteUbergraph_WBP_AdvRanking_4under.K2Node_Select_Default_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.44"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_AdvRanking_4under_C:ExecuteUbergraph_WBP_AdvRanking_4under.K2Node_Select_Default_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.45"
+      },
+      {
+        "ObjectName": "StructProperty'WBP_AdvRanking_4under_C:ExecuteUbergraph_WBP_AdvRanking_4under.CallFunc_MakeVector2D_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.183"
+      },
+      {
+        "ObjectName": "StructProperty'WBP_AdvRanking_4under_C:ExecuteUbergraph_WBP_AdvRanking_4under.CallFunc_GetDesiredSize_ReturnValue_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.182"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_AdvRanking_4under_C:ExecuteUbergraph_WBP_AdvRanking_4under.CallFunc_BreakVector2D_X_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.34"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_AdvRanking_4under_C:ExecuteUbergraph_WBP_AdvRanking_4under.CallFunc_BreakVector2D_Y_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.36"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_AdvRanking_4under_C:ExecuteUbergraph_WBP_AdvRanking_4under.CallFunc_Divide_FloatFloat_ReturnValue_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.40"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_AdvRanking_4under_C:ExecuteUbergraph_WBP_AdvRanking_4under.CallFunc_Less_FloatFloat_ReturnValue_4'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.10"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_AdvRanking_4under_C:ExecuteUbergraph_WBP_AdvRanking_4under.CallFunc_Less_FloatFloat_ReturnValue_5'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.11"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_AdvRanking_4under_C:ExecuteUbergraph_WBP_AdvRanking_4under.K2Node_Select_Default_4'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.46"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_AdvRanking_4under_C:ExecuteUbergraph_WBP_AdvRanking_4under.CallFunc_Divide_FloatFloat_ReturnValue_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.41"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_AdvRanking_4under_C:ExecuteUbergraph_WBP_AdvRanking_4under.CallFunc_Less_FloatFloat_ReturnValue_6'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.12"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_AdvRanking_4under_C:ExecuteUbergraph_WBP_AdvRanking_4under.K2Node_Select_Default_5'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.47"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_AdvRanking_4under_C:ExecuteUbergraph_WBP_AdvRanking_4under.CallFunc_Less_FloatFloat_ReturnValue_7'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.13"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_AdvRanking_4under_C:ExecuteUbergraph_WBP_AdvRanking_4under.K2Node_Select_Default_6'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.48"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_AdvRanking_4under_C:ExecuteUbergraph_WBP_AdvRanking_4under.K2Node_Select_Default_7'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.49"
+      },
+      {
+        "ObjectName": "StructProperty'WBP_AdvRanking_4under_C:ExecuteUbergraph_WBP_AdvRanking_4under.CallFunc_MakeVector2D_ReturnValue_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.184"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_AdvRanking_4under_C:ExecuteUbergraph_WBP_AdvRanking_4under.K2Node_Event_InstoreRank'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.74"
+      },
+      {
+        "ObjectName": "TextProperty'WBP_AdvRanking_4under_C:ExecuteUbergraph_WBP_AdvRanking_4under.CallFunc_Conv_IntToText_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.197"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_AdvRanking_4under_C:ExecuteUbergraph_WBP_AdvRanking_4under.K2Node_Event_RankNum'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.80"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_AdvRanking_4under_C:ExecuteUbergraph_WBP_AdvRanking_4under.CallFunc_Conv_IntToFloat_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.37"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_AdvRanking_4under_C:ExecuteUbergraph_WBP_AdvRanking_4under.CallFunc_GetDynamicMaterial_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.111"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_AdvRanking_4under_C:ExecuteUbergraph_WBP_AdvRanking_4under.CallFunc_GetDynamicMaterial_ReturnValue_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.112"
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction | FUNC_HasDefaults"
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_Less_FloatFloat_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_AdvRanking_4under",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_Less_FloatFloat_ReturnValue_1",
+    "Outer": "ExecuteUbergraph_WBP_AdvRanking_4under",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_Less_FloatFloat_ReturnValue_2",
+    "Outer": "ExecuteUbergraph_WBP_AdvRanking_4under",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_Less_FloatFloat_ReturnValue_3",
+    "Outer": "ExecuteUbergraph_WBP_AdvRanking_4under",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_Less_FloatFloat_ReturnValue_4",
+    "Outer": "ExecuteUbergraph_WBP_AdvRanking_4under",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_Less_FloatFloat_ReturnValue_5",
+    "Outer": "ExecuteUbergraph_WBP_AdvRanking_4under",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_Less_FloatFloat_ReturnValue_6",
+    "Outer": "ExecuteUbergraph_WBP_AdvRanking_4under",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_Less_FloatFloat_ReturnValue_7",
+    "Outer": "ExecuteUbergraph_WBP_AdvRanking_4under",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "Temp_bool_Variable",
+    "Outer": "ExecuteUbergraph_WBP_AdvRanking_4under",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "Temp_bool_Variable_1",
+    "Outer": "ExecuteUbergraph_WBP_AdvRanking_4under",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "Temp_bool_Variable_2",
+    "Outer": "ExecuteUbergraph_WBP_AdvRanking_4under",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "Temp_bool_Variable_3",
+    "Outer": "ExecuteUbergraph_WBP_AdvRanking_4under",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "Temp_bool_Variable_4",
+    "Outer": "ExecuteUbergraph_WBP_AdvRanking_4under",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "Temp_bool_Variable_5",
+    "Outer": "ExecuteUbergraph_WBP_AdvRanking_4under",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "Temp_bool_Variable_6",
+    "Outer": "ExecuteUbergraph_WBP_AdvRanking_4under",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "Temp_bool_Variable_7",
+    "Outer": "ExecuteUbergraph_WBP_AdvRanking_4under",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_3",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_AdvRanking_4under_C:WidgetTree.CanvasPanel_3.CanvasPanelSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.27"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "OwnCarName",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_AdvRanking_4under_C:WidgetTree.OwnCarName.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.28"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WBP_AdvRanking_4under_C:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.93"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_3",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_3.CanvasPanelSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.29"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_0",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.Grade.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.30"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.Grade.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.31"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "ScaleBoxSlot'WidgetArchetype:WidgetTree_0.Grade.WidgetTree_0.ScaleBox_10.ScaleBoxSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.153"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "OwnCarName",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.OwnCarName.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.32"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.HorizontalBox_0.HorizontalBoxSlot_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.98"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "CanvasPanel_3",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Anchors": {
+          "Minimum": {
+            "X": 0.0,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.0,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.0,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_AdvRanking_4under_C:WidgetTree.CanvasPanel_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.22"
+      },
+      "Content": {
+        "ObjectName": "SizeBox'WBP_AdvRanking_4under_C:WidgetTree.SizeBox_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.161"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "OwnCarName",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 420.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_AdvRanking_4under_C:WidgetTree.OwnCarName'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.23"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WBP_AdvRanking_4under_C:WidgetTree.P_CarName'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.186"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "CanvasPanel_3",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Anchors": {
+          "Minimum": {
+            "X": 0.0,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.0,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.0,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.24"
+      },
+      "Content": {
+        "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.SizeBox_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.166"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.Grade.WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.25"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.Grade.WidgetTree_0.P_Grade_S'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.105"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 34.0,
+          "Top": 20.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.Grade.WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.25"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.Grade.WidgetTree_0.P_NumDigit1s'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.106"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "OwnCarName",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 420.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.OwnCarName'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.26"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.P_CarName'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.192"
+      }
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_BreakVector2D_X",
+    "Outer": "ExecuteUbergraph_WBP_AdvRanking_4under",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_BreakVector2D_X_1",
+    "Outer": "ExecuteUbergraph_WBP_AdvRanking_4under",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_BreakVector2D_Y",
+    "Outer": "ExecuteUbergraph_WBP_AdvRanking_4under",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_BreakVector2D_Y_1",
+    "Outer": "ExecuteUbergraph_WBP_AdvRanking_4under",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_Conv_IntToFloat_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_AdvRanking_4under",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_Divide_FloatFloat_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_AdvRanking_4under",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_Divide_FloatFloat_ReturnValue_1",
+    "Outer": "ExecuteUbergraph_WBP_AdvRanking_4under",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_Divide_FloatFloat_ReturnValue_2",
+    "Outer": "ExecuteUbergraph_WBP_AdvRanking_4under",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_Divide_FloatFloat_ReturnValue_3",
+    "Outer": "ExecuteUbergraph_WBP_AdvRanking_4under",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "K2Node_Select_Default",
+    "Outer": "ExecuteUbergraph_WBP_AdvRanking_4under",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "K2Node_Select_Default_1",
+    "Outer": "ExecuteUbergraph_WBP_AdvRanking_4under",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "K2Node_Select_Default_2",
+    "Outer": "ExecuteUbergraph_WBP_AdvRanking_4under",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "K2Node_Select_Default_3",
+    "Outer": "ExecuteUbergraph_WBP_AdvRanking_4under",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "K2Node_Select_Default_4",
+    "Outer": "ExecuteUbergraph_WBP_AdvRanking_4under",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "K2Node_Select_Default_5",
+    "Outer": "ExecuteUbergraph_WBP_AdvRanking_4under",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "K2Node_Select_Default_6",
+    "Outer": "ExecuteUbergraph_WBP_AdvRanking_4under",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "K2Node_Select_Default_7",
+    "Outer": "ExecuteUbergraph_WBP_AdvRanking_4under",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "Temp_float_Variable",
+    "Outer": "ExecuteUbergraph_WBP_AdvRanking_4under",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "Temp_float_Variable_1",
+    "Outer": "ExecuteUbergraph_WBP_AdvRanking_4under",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "Temp_float_Variable_2",
+    "Outer": "ExecuteUbergraph_WBP_AdvRanking_4under",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "Temp_float_Variable_3",
+    "Outer": "ExecuteUbergraph_WBP_AdvRanking_4under",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "Temp_float_Variable_4",
+    "Outer": "ExecuteUbergraph_WBP_AdvRanking_4under",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "Temp_float_Variable_5",
+    "Outer": "ExecuteUbergraph_WBP_AdvRanking_4under",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "Temp_float_Variable_6",
+    "Outer": "ExecuteUbergraph_WBP_AdvRanking_4under",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "Temp_float_Variable_7",
+    "Outer": "ExecuteUbergraph_WBP_AdvRanking_4under",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "Function",
+    "Name": "Construct",
+    "Outer": "WBP_AdvRanking_4under_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Function'UserWidget:Construct'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "FunctionFlags": "FUNC_BlueprintCosmetic | FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "K2Node_Event_StyleCarID",
+    "Outer": "ExecuteUbergraph_WBP_AdvRanking_4under",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "StyleCarID",
+    "Outer": "SetCarName",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "SetCarName",
+    "Outer": "WBP_AdvRanking_4under_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Function'AdvRanking_Record:SetCarName'",
+      "ObjectPath": "/Script/GameProject"
+    },
+    "Children": [
+      {
+        "ObjectName": "IntProperty'WBP_AdvRanking_4under_C:SetCarName.StyleCarID'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.60"
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Int64Property",
+    "Name": "K2Node_Event_TimeStamp",
+    "Outer": "ExecuteUbergraph_WBP_AdvRanking_4under",
+    "Class": "UScriptClass'Int64Property'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "Int64Property",
+    "Name": "TimeStamp",
+    "Outer": "SetDate",
+    "Class": "UScriptClass'Int64Property'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "Function",
+    "Name": "SetDate",
+    "Outer": "WBP_AdvRanking_4under_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Function'AdvRanking_Record:SetDate'",
+      "ObjectPath": "/Script/GameProject"
+    },
+    "Children": [
+      {
+        "ObjectName": "Int64Property'WBP_AdvRanking_4under_C:SetDate.TimeStamp'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.63"
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "K2Node_Event_Grade",
+    "Outer": "ExecuteUbergraph_WBP_AdvRanking_4under",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "Grade",
+    "Outer": "SetGrade",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "SetGrade",
+    "Outer": "WBP_AdvRanking_4under_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Function'AdvRanking_Record:SetGrade'",
+      "ObjectPath": "/Script/GameProject"
+    },
+    "Children": [
+      {
+        "ObjectName": "IntProperty'WBP_AdvRanking_4under_C:SetGrade.Grade'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.66"
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "StrProperty",
+    "Name": "K2Node_Event_HomeAreaName",
+    "Outer": "ExecuteUbergraph_WBP_AdvRanking_4under",
+    "Class": "UScriptClass'StrProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "StrProperty",
+    "Name": "HomeAreaName",
+    "Outer": "SetHomeAreaName",
+    "Class": "UScriptClass'StrProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "SetHomeAreaName",
+    "Outer": "WBP_AdvRanking_4under_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Function'AdvRanking_Record:SetHomeAreaName'",
+      "ObjectPath": "/Script/GameProject"
+    },
+    "Children": [
+      {
+        "ObjectName": "StrProperty'WBP_AdvRanking_4under_C:SetHomeAreaName.HomeAreaName'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.69"
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "StrProperty",
+    "Name": "K2Node_Event_HomeStoreName",
+    "Outer": "ExecuteUbergraph_WBP_AdvRanking_4under",
+    "Class": "UScriptClass'StrProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "StrProperty",
+    "Name": "HomeStoreName",
+    "Outer": "SetHomeStroeName",
+    "Class": "UScriptClass'StrProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "SetHomeStroeName",
+    "Outer": "WBP_AdvRanking_4under_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Function'AdvRanking_Record:SetHomeStroeName'",
+      "ObjectPath": "/Script/GameProject"
+    },
+    "Children": [
+      {
+        "ObjectName": "StrProperty'WBP_AdvRanking_4under_C:SetHomeStroeName.HomeStoreName'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.72"
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "K2Node_Event_InstoreRank",
+    "Outer": "ExecuteUbergraph_WBP_AdvRanking_4under",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "InstoreRank",
+    "Outer": "SetInstoreRank",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "SetInstoreRank",
+    "Outer": "WBP_AdvRanking_4under_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Function'AdvRanking_Record:SetInstoreRank'",
+      "ObjectPath": "/Script/GameProject"
+    },
+    "Children": [
+      {
+        "ObjectName": "IntProperty'WBP_AdvRanking_4under_C:SetInstoreRank.InstoreRank'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.75"
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "K2Node_Event_RankingType",
+    "Outer": "ExecuteUbergraph_WBP_AdvRanking_4under",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "RankingType",
+    "Outer": "SetRankingType",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "SetRankingType",
+    "Outer": "WBP_AdvRanking_4under_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Function'AdvRanking_Record:SetRankingType'",
+      "ObjectPath": "/Script/GameProject"
+    },
+    "Children": [
+      {
+        "ObjectName": "IntProperty'WBP_AdvRanking_4under_C:SetRankingType.RankingType'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.78"
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "K2Node_Event_RankNum",
+    "Outer": "ExecuteUbergraph_WBP_AdvRanking_4under",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "RankNum",
+    "Outer": "SetRankNum",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "SetRankNum",
+    "Outer": "WBP_AdvRanking_4under_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Function'AdvRanking_Record:SetRankNum'",
+      "ObjectPath": "/Script/GameProject"
+    },
+    "Children": [
+      {
+        "ObjectName": "IntProperty'WBP_AdvRanking_4under_C:SetRankNum.RankNum'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.81"
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "K2Node_Event_TimeRecord",
+    "Outer": "ExecuteUbergraph_WBP_AdvRanking_4under",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "TimeRecord",
+    "Outer": "SetTimeRecord",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "SetTimeRecord",
+    "Outer": "WBP_AdvRanking_4under_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Function'AdvRanking_Record:SetTimeRecord'",
+      "ObjectPath": "/Script/GameProject"
+    },
+    "Children": [
+      {
+        "ObjectName": "IntProperty'WBP_AdvRanking_4under_C:SetTimeRecord.TimeRecord'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.84"
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "StrProperty",
+    "Name": "K2Node_Event_UserName",
+    "Outer": "ExecuteUbergraph_WBP_AdvRanking_4under",
+    "Class": "UScriptClass'StrProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "StrProperty",
+    "Name": "UserName",
+    "Outer": "SetUserName",
+    "Class": "UScriptClass'StrProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "SetUserName",
+    "Outer": "WBP_AdvRanking_4under_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Function'AdvRanking_Record:SetUserName'",
+      "ObjectPath": "/Script/GameProject"
+    },
+    "Children": [
+      {
+        "ObjectName": "StrProperty'WBP_AdvRanking_4under_C:SetUserName.UserName'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.87"
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "HorizontalBox",
+    "Name": "HorizontalBox_0",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'HorizontalBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "HorizontalBoxSlot'WBP_AdvRanking_4under_C:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.91"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot'WBP_AdvRanking_4under_C:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.92"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot'WBP_AdvRanking_4under_C:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_2'",
+          "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.93"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot'WBP_AdvRanking_4under_C:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_5'",
+          "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.95"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot'WBP_AdvRanking_4under_C:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_3'",
+          "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.94"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "OverlaySlot'WBP_AdvRanking_4under_C:WidgetTree.Overlay_2.OverlaySlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.127"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBox",
+    "Name": "HorizontalBox_0",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'HorizontalBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.HorizontalBox_0.HorizontalBoxSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.96"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.HorizontalBox_0.HorizontalBoxSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.97"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.HorizontalBox_0.HorizontalBoxSlot_2'",
+          "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.98"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.HorizontalBox_0.HorizontalBoxSlot_5'",
+          "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.100"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.HorizontalBox_0.HorizontalBoxSlot_3'",
+          "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.99"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.Overlay_2.OverlaySlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.132"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_0",
+    "Outer": "HorizontalBox_0",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Padding": {
+        "Left": 10.0,
+        "Right": 10.0
+      },
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox'WBP_AdvRanking_4under_C:WidgetTree.HorizontalBox_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.89"
+      },
+      "Content": {
+        "ObjectName": "SizeBox'WBP_AdvRanking_4under_C:WidgetTree.SizeBox_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.160"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_1",
+    "Outer": "HorizontalBox_0",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Padding": {
+        "Left": 20.0,
+        "Right": 10.0
+      },
+      "Parent": {
+        "ObjectName": "HorizontalBox'WBP_AdvRanking_4under_C:WidgetTree.HorizontalBox_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.89"
+      },
+      "Content": {
+        "ObjectName": "WidgetSwitcher'WBP_AdvRanking_4under_C:WidgetTree.Grade_TimeSwitcher'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.212"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_2",
+    "Outer": "HorizontalBox_0",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Padding": {
+        "Left": 20.0,
+        "Right": 20.0
+      },
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox'WBP_AdvRanking_4under_C:WidgetTree.HorizontalBox_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.89"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WBP_AdvRanking_4under_C:WidgetTree.OwnCarName'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.23"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_3",
+    "Outer": "HorizontalBox_0",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Padding": {
+        "Left": 10.0,
+        "Right": 10.0
+      },
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox'WBP_AdvRanking_4under_C:WidgetTree.HorizontalBox_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.89"
+      },
+      "Content": {
+        "ObjectName": "SizeBox'WBP_AdvRanking_4under_C:WidgetTree.SizeBox_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.163"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_5",
+    "Outer": "HorizontalBox_0",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Padding": {
+        "Left": 10.0,
+        "Right": 10.0
+      },
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox'WBP_AdvRanking_4under_C:WidgetTree.HorizontalBox_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.89"
+      },
+      "Content": {
+        "ObjectName": "SizeBox'WBP_AdvRanking_4under_C:WidgetTree.ShopName'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.159"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_0",
+    "Outer": "HorizontalBox_0",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Padding": {
+        "Left": 10.0,
+        "Right": 10.0
+      },
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.HorizontalBox_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.90"
+      },
+      "Content": {
+        "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.SizeBox_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.165"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_1",
+    "Outer": "HorizontalBox_0",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Padding": {
+        "Left": 20.0,
+        "Right": 10.0
+      },
+      "Parent": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.HorizontalBox_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.90"
+      },
+      "Content": {
+        "ObjectName": "WidgetSwitcher'WidgetArchetype:WidgetTree_0.Grade_TimeSwitcher'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.213"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_2",
+    "Outer": "HorizontalBox_0",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Padding": {
+        "Left": 20.0,
+        "Right": 20.0
+      },
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.HorizontalBox_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.90"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.OwnCarName'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.26"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_3",
+    "Outer": "HorizontalBox_0",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Padding": {
+        "Left": 10.0,
+        "Right": 10.0
+      },
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.HorizontalBox_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.90"
+      },
+      "Content": {
+        "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.SizeBox_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.168"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_5",
+    "Outer": "HorizontalBox_0",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Padding": {
+        "Left": 10.0,
+        "Right": 10.0
+      },
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.HorizontalBox_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.90"
+      },
+      "Content": {
+        "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.ShopName'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.164"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Base",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 1300.0,
+          "Y": 68.0
+        },
+        "Margin": {
+          "Left": 0.5,
+          "Right": 0.5
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_AdvRanking_4thBar'",
+          "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/Texture/T_AdvRanking_4thBar.0"
+        },
+        "DrawAs": "ESlateBrushDrawType::Box"
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot'WBP_AdvRanking_4under_C:WidgetTree.Overlay_2.OverlaySlot_5'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.129"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "P_RankNum",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 156.0,
+          "Y": 76.0
+        },
+        "ResourceObject": {
+          "ObjectName": "MaterialInstanceConstant'MI_AdvRank_RankNum'",
+          "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/Material/MI_AdvRank_RankNum.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot'WBP_AdvRanking_4under_C:WidgetTree.RankNum.OverlaySlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.130"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "P_RankNum_Effect",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 156.0,
+          "Y": 76.0
+        },
+        "ResourceObject": {
+          "ObjectName": "MaterialInstanceConstant'MI_AdvRank_RankNum_Effect'",
+          "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/Material/MI_AdvRank_RankNum_Effect.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot'WBP_AdvRanking_4under_C:WidgetTree.RankNum.OverlaySlot_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.131"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Base",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 1300.0,
+          "Y": 68.0
+        },
+        "Margin": {
+          "Left": 0.5,
+          "Right": 0.5
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_AdvRanking_4thBar'",
+          "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/Texture/T_AdvRanking_4thBar.0"
+        },
+        "DrawAs": "ESlateBrushDrawType::Box"
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.Overlay_2.OverlaySlot_5'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.134"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "P_Grade_S",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 128.0,
+          "Y": 128.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Com_GradeRank_s01_E'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/Grade/Texture_s/T_Com_GradeRank_s01_E.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.Grade.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.30"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "P_NumDigit1s",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 60.0,
+          "Y": 68.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Com_GradeNum_s01_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/Grade/Texture_s/T_Com_GradeNum_s01_0.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.Grade.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.31"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "P_RankNum",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 156.0,
+          "Y": 76.0
+        },
+        "ResourceObject": {
+          "ObjectName": "MaterialInstanceConstant'MI_AdvRank_RankNum'",
+          "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/Material/MI_AdvRank_RankNum.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.RankNum.OverlaySlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.135"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "P_RankNum_Effect",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 156.0,
+          "Y": 76.0
+        },
+        "ResourceObject": {
+          "ObjectName": "MaterialInstanceConstant'MI_AdvRank_RankNum_Effect'",
+          "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/Material/MI_AdvRank_RankNum_Effect.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.RankNum.OverlaySlot_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.136"
+      }
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "BpvCardDBObject",
+    "Outer": "WBP_AdvRanking_4under_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'CarDBObject'",
+      "ObjectPath": "/Script/GameProject"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_Generate_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_AdvRanking_4under",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyClass": {
+      "ObjectName": "Class'CarDBObject'",
+      "ObjectPath": "/Script/GameProject"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetDynamicMaterial_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_AdvRanking_4under",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyClass": {
+      "ObjectName": "Class'MaterialInstanceDynamic'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetDynamicMaterial_ReturnValue_1",
+    "Outer": "ExecuteUbergraph_WBP_AdvRanking_4under",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyClass": {
+      "ObjectName": "Class'MaterialInstanceDynamic'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Grade",
+    "Outer": "WBP_AdvRanking_4under_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'WBP_Com_GradeSmall_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Common/Grade/WBP_Com_GradeSmall.1"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Grade_TimeSwitcher",
+    "Outer": "WBP_AdvRanking_4under_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'WidgetSwitcher'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "P_Area",
+    "Outer": "WBP_AdvRanking_4under_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'TextBlock'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "P_CarName",
+    "Outer": "WBP_AdvRanking_4under_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'TextBlock'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "P_Date",
+    "Outer": "WBP_AdvRanking_4under_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'TextBlock'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "P_RankNum",
+    "Outer": "WBP_AdvRanking_4under_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'Image'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "P_RankNum_Effect",
+    "Outer": "WBP_AdvRanking_4under_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'Image'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "P_ShopName",
+    "Outer": "WBP_AdvRanking_4under_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'TextBlock'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "P_Time",
+    "Outer": "WBP_AdvRanking_4under_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'TextBlock'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "P_UserName",
+    "Outer": "WBP_AdvRanking_4under_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'TextBlock'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "Overlay",
+    "Name": "Overlay_2",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'Overlay'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "OverlaySlot'WBP_AdvRanking_4under_C:WidgetTree.Overlay_2.OverlaySlot_5'",
+          "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.129"
+        },
+        {
+          "ObjectName": "OverlaySlot'WBP_AdvRanking_4under_C:WidgetTree.Overlay_2.OverlaySlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.127"
+        },
+        {
+          "ObjectName": "OverlaySlot'WBP_AdvRanking_4under_C:WidgetTree.Overlay_2.OverlaySlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.128"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "ScaleBoxSlot'WBP_AdvRanking_4under_C:WidgetTree.ScaleBox_3.ScaleBoxSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.150"
+      }
+    }
+  },
+  {
+    "Type": "Overlay",
+    "Name": "RankNum",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'Overlay'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "OverlaySlot'WBP_AdvRanking_4under_C:WidgetTree.RankNum.OverlaySlot_2'",
+          "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.131"
+        },
+        {
+          "ObjectName": "OverlaySlot'WBP_AdvRanking_4under_C:WidgetTree.RankNum.OverlaySlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.130"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "OverlaySlot'WBP_AdvRanking_4under_C:WidgetTree.Overlay_2.OverlaySlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.128"
+      }
+    }
+  },
+  {
+    "Type": "Overlay",
+    "Name": "Overlay_2",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Overlay'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.Overlay_2.OverlaySlot_5'",
+          "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.134"
+        },
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.Overlay_2.OverlaySlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.132"
+        },
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.Overlay_2.OverlaySlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.133"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "ScaleBoxSlot'WidgetArchetype:WidgetTree_0.ScaleBox_3.ScaleBoxSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.156"
+      }
+    }
+  },
+  {
+    "Type": "Overlay",
+    "Name": "RankNum",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Overlay'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.RankNum.OverlaySlot_2'",
+          "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.136"
+        },
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.RankNum.OverlaySlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.135"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.Overlay_2.OverlaySlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.133"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_0",
+    "Outer": "Overlay_2",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Padding": {
+        "Left": 90.0
+      },
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "Overlay'WBP_AdvRanking_4under_C:WidgetTree.Overlay_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.123"
+      },
+      "Content": {
+        "ObjectName": "HorizontalBox'WBP_AdvRanking_4under_C:WidgetTree.HorizontalBox_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.89"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_1",
+    "Outer": "Overlay_2",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Padding": {
+        "Left": -35.0
+      },
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "Overlay'WBP_AdvRanking_4under_C:WidgetTree.Overlay_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.123"
+      },
+      "Content": {
+        "ObjectName": "Overlay'WBP_AdvRanking_4under_C:WidgetTree.RankNum'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.124"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_5",
+    "Outer": "Overlay_2",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Padding": {
+        "Left": -50.0,
+        "Right": -40.0
+      },
+      "HorizontalAlignment": "HAlign_Fill",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "Overlay'WBP_AdvRanking_4under_C:WidgetTree.Overlay_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.123"
+      },
+      "Content": {
+        "ObjectName": "Image'WBP_AdvRanking_4under_C:WidgetTree.Base'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.101"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_0",
+    "Outer": "RankNum",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Padding": {
+        "Left": -18.0,
+        "Top": -4.0,
+        "Bottom": -4.0
+      },
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "Overlay'WBP_AdvRanking_4under_C:WidgetTree.RankNum'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.124"
+      },
+      "Content": {
+        "ObjectName": "Image'WBP_AdvRanking_4under_C:WidgetTree.P_RankNum'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.102"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_2",
+    "Outer": "RankNum",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Padding": {
+        "Left": -18.0,
+        "Top": -4.0,
+        "Bottom": -4.0
+      },
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "Overlay'WBP_AdvRanking_4under_C:WidgetTree.RankNum'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.124"
+      },
+      "Content": {
+        "ObjectName": "Image'WBP_AdvRanking_4under_C:WidgetTree.P_RankNum_Effect'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.103"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_0",
+    "Outer": "Overlay_2",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Padding": {
+        "Left": 90.0
+      },
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.Overlay_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.125"
+      },
+      "Content": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.HorizontalBox_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.90"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_1",
+    "Outer": "Overlay_2",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Padding": {
+        "Left": -35.0
+      },
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.Overlay_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.125"
+      },
+      "Content": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.RankNum'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.126"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_5",
+    "Outer": "Overlay_2",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Padding": {
+        "Left": -50.0,
+        "Right": -40.0
+      },
+      "HorizontalAlignment": "HAlign_Fill",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.Overlay_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.125"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.Base'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.104"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_0",
+    "Outer": "RankNum",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Padding": {
+        "Left": -18.0,
+        "Top": -4.0,
+        "Bottom": -4.0
+      },
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.RankNum'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.126"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.P_RankNum'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.107"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_2",
+    "Outer": "RankNum",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Padding": {
+        "Left": -18.0,
+        "Top": -4.0,
+        "Bottom": -4.0
+      },
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.RankNum'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.126"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.P_RankNum_Effect'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.108"
+      }
+    }
+  },
+  {
+    "Type": "ScaleBox",
+    "Name": "ScaleBox_0",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'ScaleBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "ScaleBoxSlot'WBP_AdvRanking_4under_C:WidgetTree.ScaleBox_0.ScaleBoxSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.148"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "SizeBoxSlot'WBP_AdvRanking_4under_C:WidgetTree.ShopName.SizeBoxSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.169"
+      }
+    }
+  },
+  {
+    "Type": "ScaleBox",
+    "Name": "ScaleBox_2",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'ScaleBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "ScaleBoxSlot'WBP_AdvRanking_4under_C:WidgetTree.ScaleBox_2.ScaleBoxSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.149"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "SizeBoxSlot'WBP_AdvRanking_4under_C:WidgetTree.SizeBox_0.SizeBoxSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.170"
+      }
+    }
+  },
+  {
+    "Type": "ScaleBox",
+    "Name": "ScaleBox_3",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'ScaleBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "ScaleBoxSlot'WBP_AdvRanking_4under_C:WidgetTree.ScaleBox_3.ScaleBoxSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.150"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "SizeBoxSlot'WBP_AdvRanking_4under_C:WidgetTree.SizeBox_1.SizeBoxSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.171"
+      }
+    }
+  },
+  {
+    "Type": "ScaleBox",
+    "Name": "ScaleBox_4",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'ScaleBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "ScaleBoxSlot'WBP_AdvRanking_4under_C:WidgetTree.ScaleBox_4.ScaleBoxSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.151"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "SizeBoxSlot'WBP_AdvRanking_4under_C:WidgetTree.SizeBox_2.SizeBoxSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.172"
+      }
+    }
+  },
+  {
+    "Type": "ScaleBox",
+    "Name": "ScaleBox_5",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'ScaleBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "ScaleBoxSlot'WBP_AdvRanking_4under_C:WidgetTree.ScaleBox_5.ScaleBoxSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.152"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "SizeBoxSlot'WBP_AdvRanking_4under_C:WidgetTree.SizeBox_3.SizeBoxSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.173"
+      }
+    }
+  },
+  {
+    "Type": "ScaleBox",
+    "Name": "ScaleBox_10",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'ScaleBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "StretchDirection": "EStretchDirection::DownOnly",
+      "Slots": [
+        {
+          "ObjectName": "ScaleBoxSlot'WidgetArchetype:WidgetTree_0.Grade.WidgetTree_0.ScaleBox_10.ScaleBoxSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.153"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ScaleBox",
+    "Name": "ScaleBox_0",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'ScaleBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "ScaleBoxSlot'WidgetArchetype:WidgetTree_0.ScaleBox_0.ScaleBoxSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.154"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "SizeBoxSlot'WidgetArchetype:WidgetTree_0.ShopName.SizeBoxSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.174"
+      }
+    }
+  },
+  {
+    "Type": "ScaleBox",
+    "Name": "ScaleBox_2",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'ScaleBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "ScaleBoxSlot'WidgetArchetype:WidgetTree_0.ScaleBox_2.ScaleBoxSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.155"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "SizeBoxSlot'WidgetArchetype:WidgetTree_0.SizeBox_0.SizeBoxSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.175"
+      }
+    }
+  },
+  {
+    "Type": "ScaleBox",
+    "Name": "ScaleBox_3",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'ScaleBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "ScaleBoxSlot'WidgetArchetype:WidgetTree_0.ScaleBox_3.ScaleBoxSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.156"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "SizeBoxSlot'WidgetArchetype:WidgetTree_0.SizeBox_1.SizeBoxSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.176"
+      }
+    }
+  },
+  {
+    "Type": "ScaleBox",
+    "Name": "ScaleBox_4",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'ScaleBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "ScaleBoxSlot'WidgetArchetype:WidgetTree_0.ScaleBox_4.ScaleBoxSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.157"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "SizeBoxSlot'WidgetArchetype:WidgetTree_0.SizeBox_2.SizeBoxSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.177"
+      }
+    }
+  },
+  {
+    "Type": "ScaleBox",
+    "Name": "ScaleBox_5",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'ScaleBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "ScaleBoxSlot'WidgetArchetype:WidgetTree_0.ScaleBox_5.ScaleBoxSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.158"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "SizeBoxSlot'WidgetArchetype:WidgetTree_0.SizeBox_3.SizeBoxSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.178"
+      }
+    }
+  },
+  {
+    "Type": "ScaleBoxSlot",
+    "Name": "ScaleBoxSlot_0",
+    "Outer": "ScaleBox_0",
+    "Class": "UScriptClass'ScaleBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "ScaleBox'WBP_AdvRanking_4under_C:WidgetTree.ScaleBox_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.137"
+      },
+      "Content": {
+        "ObjectName": "VerticalBox'WBP_AdvRanking_4under_C:WidgetTree.VerticalBox_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.201"
+      }
+    }
+  },
+  {
+    "Type": "ScaleBoxSlot",
+    "Name": "ScaleBoxSlot_0",
+    "Outer": "ScaleBox_2",
+    "Class": "UScriptClass'ScaleBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "ScaleBox'WBP_AdvRanking_4under_C:WidgetTree.ScaleBox_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.138"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WBP_AdvRanking_4under_C:WidgetTree.P_UserName'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.190"
+      }
+    }
+  },
+  {
+    "Type": "ScaleBoxSlot",
+    "Name": "ScaleBoxSlot_0",
+    "Outer": "ScaleBox_3",
+    "Class": "UScriptClass'ScaleBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Fill",
+      "Parent": {
+        "ObjectName": "ScaleBox'WBP_AdvRanking_4under_C:WidgetTree.ScaleBox_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.139"
+      },
+      "Content": {
+        "ObjectName": "Overlay'WBP_AdvRanking_4under_C:WidgetTree.Overlay_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.123"
+      }
+    }
+  },
+  {
+    "Type": "ScaleBoxSlot",
+    "Name": "ScaleBoxSlot_0",
+    "Outer": "ScaleBox_4",
+    "Class": "UScriptClass'ScaleBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "ScaleBox'WBP_AdvRanking_4under_C:WidgetTree.ScaleBox_4'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.140"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WBP_AdvRanking_4under_C:WidgetTree.P_Time'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.189"
+      }
+    }
+  },
+  {
+    "Type": "ScaleBoxSlot",
+    "Name": "ScaleBoxSlot_0",
+    "Outer": "ScaleBox_5",
+    "Class": "UScriptClass'ScaleBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "ScaleBox'WBP_AdvRanking_4under_C:WidgetTree.ScaleBox_5'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.141"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WBP_AdvRanking_4under_C:WidgetTree.P_Date'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.187"
+      }
+    }
+  },
+  {
+    "Type": "ScaleBoxSlot",
+    "Name": "ScaleBoxSlot_0",
+    "Outer": "ScaleBox_10",
+    "Class": "UScriptClass'ScaleBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "ScaleBox'WidgetArchetype:WidgetTree_0.Grade.WidgetTree_0.ScaleBox_10'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.142"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.Grade.WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.25"
+      }
+    }
+  },
+  {
+    "Type": "ScaleBoxSlot",
+    "Name": "ScaleBoxSlot_0",
+    "Outer": "ScaleBox_0",
+    "Class": "UScriptClass'ScaleBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "ScaleBox'WidgetArchetype:WidgetTree_0.ScaleBox_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.143"
+      },
+      "Content": {
+        "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.VerticalBox_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.202"
+      }
+    }
+  },
+  {
+    "Type": "ScaleBoxSlot",
+    "Name": "ScaleBoxSlot_0",
+    "Outer": "ScaleBox_2",
+    "Class": "UScriptClass'ScaleBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "ScaleBox'WidgetArchetype:WidgetTree_0.ScaleBox_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.144"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.P_UserName'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.196"
+      }
+    }
+  },
+  {
+    "Type": "ScaleBoxSlot",
+    "Name": "ScaleBoxSlot_0",
+    "Outer": "ScaleBox_3",
+    "Class": "UScriptClass'ScaleBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Fill",
+      "Parent": {
+        "ObjectName": "ScaleBox'WidgetArchetype:WidgetTree_0.ScaleBox_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.145"
+      },
+      "Content": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.Overlay_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.125"
+      }
+    }
+  },
+  {
+    "Type": "ScaleBoxSlot",
+    "Name": "ScaleBoxSlot_0",
+    "Outer": "ScaleBox_4",
+    "Class": "UScriptClass'ScaleBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "ScaleBox'WidgetArchetype:WidgetTree_0.ScaleBox_4'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.146"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.P_Time'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.195"
+      }
+    }
+  },
+  {
+    "Type": "ScaleBoxSlot",
+    "Name": "ScaleBoxSlot_0",
+    "Outer": "ScaleBox_5",
+    "Class": "UScriptClass'ScaleBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "ScaleBox'WidgetArchetype:WidgetTree_0.ScaleBox_5'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.147"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.P_Date'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.193"
+      }
+    }
+  },
+  {
+    "Type": "SizeBox",
+    "Name": "ShopName",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'SizeBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "WidthOverride": 420.0,
+      "HeightOverride": 50.0,
+      "bOverride_WidthOverride": true,
+      "bOverride_HeightOverride": true,
+      "Slots": [
+        {
+          "ObjectName": "SizeBoxSlot'WBP_AdvRanking_4under_C:WidgetTree.ShopName.SizeBoxSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.169"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WBP_AdvRanking_4under_C:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_5'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.95"
+      }
+    }
+  },
+  {
+    "Type": "SizeBox",
+    "Name": "SizeBox_0",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'SizeBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "WidthOverride": 235.0,
+      "bOverride_WidthOverride": true,
+      "Slots": [
+        {
+          "ObjectName": "SizeBoxSlot'WBP_AdvRanking_4under_C:WidgetTree.SizeBox_0.SizeBoxSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.170"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WBP_AdvRanking_4under_C:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.91"
+      }
+    }
+  },
+  {
+    "Type": "SizeBox",
+    "Name": "SizeBox_1",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'SizeBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "SizeBoxSlot'WBP_AdvRanking_4under_C:WidgetTree.SizeBox_1.SizeBoxSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.171"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_AdvRanking_4under_C:WidgetTree.CanvasPanel_3.CanvasPanelSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.27"
+      }
+    }
+  },
+  {
+    "Type": "SizeBox",
+    "Name": "SizeBox_2",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'SizeBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "WidthOverride": 245.0,
+      "bOverride_WidthOverride": true,
+      "Slots": [
+        {
+          "ObjectName": "SizeBoxSlot'WBP_AdvRanking_4under_C:WidgetTree.SizeBox_2.SizeBoxSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.172"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "WidgetSwitcherSlot'WBP_AdvRanking_4under_C:WidgetTree.Grade_TimeSwitcher.WidgetSwitcherSlot_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.215"
+      }
+    }
+  },
+  {
+    "Type": "SizeBox",
+    "Name": "SizeBox_3",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'SizeBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "WidthOverride": 180.0,
+      "bOverride_WidthOverride": true,
+      "Slots": [
+        {
+          "ObjectName": "SizeBoxSlot'WBP_AdvRanking_4under_C:WidgetTree.SizeBox_3.SizeBoxSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.173"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WBP_AdvRanking_4under_C:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.94"
+      }
+    }
+  },
+  {
+    "Type": "SizeBox",
+    "Name": "ShopName",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'SizeBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "WidthOverride": 420.0,
+      "HeightOverride": 50.0,
+      "bOverride_WidthOverride": true,
+      "bOverride_HeightOverride": true,
+      "Slots": [
+        {
+          "ObjectName": "SizeBoxSlot'WidgetArchetype:WidgetTree_0.ShopName.SizeBoxSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.174"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.HorizontalBox_0.HorizontalBoxSlot_5'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.100"
+      }
+    }
+  },
+  {
+    "Type": "SizeBox",
+    "Name": "SizeBox_0",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'SizeBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "WidthOverride": 235.0,
+      "bOverride_WidthOverride": true,
+      "Slots": [
+        {
+          "ObjectName": "SizeBoxSlot'WidgetArchetype:WidgetTree_0.SizeBox_0.SizeBoxSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.175"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.HorizontalBox_0.HorizontalBoxSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.96"
+      }
+    }
+  },
+  {
+    "Type": "SizeBox",
+    "Name": "SizeBox_1",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'SizeBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "SizeBoxSlot'WidgetArchetype:WidgetTree_0.SizeBox_1.SizeBoxSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.176"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_3.CanvasPanelSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.29"
+      }
+    }
+  },
+  {
+    "Type": "SizeBox",
+    "Name": "SizeBox_2",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'SizeBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "WidthOverride": 245.0,
+      "bOverride_WidthOverride": true,
+      "Slots": [
+        {
+          "ObjectName": "SizeBoxSlot'WidgetArchetype:WidgetTree_0.SizeBox_2.SizeBoxSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.177"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "WidgetSwitcherSlot'WidgetArchetype:WidgetTree_0.Grade_TimeSwitcher.WidgetSwitcherSlot_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.217"
+      }
+    }
+  },
+  {
+    "Type": "SizeBox",
+    "Name": "SizeBox_3",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'SizeBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "WidthOverride": 180.0,
+      "bOverride_WidthOverride": true,
+      "Slots": [
+        {
+          "ObjectName": "SizeBoxSlot'WidgetArchetype:WidgetTree_0.SizeBox_3.SizeBoxSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.178"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.HorizontalBox_0.HorizontalBoxSlot_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.99"
+      }
+    }
+  },
+  {
+    "Type": "SizeBoxSlot",
+    "Name": "SizeBoxSlot_0",
+    "Outer": "ShopName",
+    "Class": "UScriptClass'SizeBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "SizeBox'WBP_AdvRanking_4under_C:WidgetTree.ShopName'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.159"
+      },
+      "Content": {
+        "ObjectName": "ScaleBox'WBP_AdvRanking_4under_C:WidgetTree.ScaleBox_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.137"
+      }
+    }
+  },
+  {
+    "Type": "SizeBoxSlot",
+    "Name": "SizeBoxSlot_0",
+    "Outer": "SizeBox_0",
+    "Class": "UScriptClass'SizeBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "SizeBox'WBP_AdvRanking_4under_C:WidgetTree.SizeBox_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.160"
+      },
+      "Content": {
+        "ObjectName": "ScaleBox'WBP_AdvRanking_4under_C:WidgetTree.ScaleBox_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.138"
+      }
+    }
+  },
+  {
+    "Type": "SizeBoxSlot",
+    "Name": "SizeBoxSlot_0",
+    "Outer": "SizeBox_1",
+    "Class": "UScriptClass'SizeBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "SizeBox'WBP_AdvRanking_4under_C:WidgetTree.SizeBox_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.161"
+      },
+      "Content": {
+        "ObjectName": "ScaleBox'WBP_AdvRanking_4under_C:WidgetTree.ScaleBox_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.139"
+      }
+    }
+  },
+  {
+    "Type": "SizeBoxSlot",
+    "Name": "SizeBoxSlot_0",
+    "Outer": "SizeBox_2",
+    "Class": "UScriptClass'SizeBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "SizeBox'WBP_AdvRanking_4under_C:WidgetTree.SizeBox_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.162"
+      },
+      "Content": {
+        "ObjectName": "ScaleBox'WBP_AdvRanking_4under_C:WidgetTree.ScaleBox_4'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.140"
+      }
+    }
+  },
+  {
+    "Type": "SizeBoxSlot",
+    "Name": "SizeBoxSlot_0",
+    "Outer": "SizeBox_3",
+    "Class": "UScriptClass'SizeBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "SizeBox'WBP_AdvRanking_4under_C:WidgetTree.SizeBox_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.163"
+      },
+      "Content": {
+        "ObjectName": "ScaleBox'WBP_AdvRanking_4under_C:WidgetTree.ScaleBox_5'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.141"
+      }
+    }
+  },
+  {
+    "Type": "SizeBoxSlot",
+    "Name": "SizeBoxSlot_0",
+    "Outer": "ShopName",
+    "Class": "UScriptClass'SizeBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.ShopName'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.164"
+      },
+      "Content": {
+        "ObjectName": "ScaleBox'WidgetArchetype:WidgetTree_0.ScaleBox_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.143"
+      }
+    }
+  },
+  {
+    "Type": "SizeBoxSlot",
+    "Name": "SizeBoxSlot_0",
+    "Outer": "SizeBox_0",
+    "Class": "UScriptClass'SizeBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.SizeBox_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.165"
+      },
+      "Content": {
+        "ObjectName": "ScaleBox'WidgetArchetype:WidgetTree_0.ScaleBox_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.144"
+      }
+    }
+  },
+  {
+    "Type": "SizeBoxSlot",
+    "Name": "SizeBoxSlot_0",
+    "Outer": "SizeBox_1",
+    "Class": "UScriptClass'SizeBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.SizeBox_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.166"
+      },
+      "Content": {
+        "ObjectName": "ScaleBox'WidgetArchetype:WidgetTree_0.ScaleBox_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.145"
+      }
+    }
+  },
+  {
+    "Type": "SizeBoxSlot",
+    "Name": "SizeBoxSlot_0",
+    "Outer": "SizeBox_2",
+    "Class": "UScriptClass'SizeBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.SizeBox_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.167"
+      },
+      "Content": {
+        "ObjectName": "ScaleBox'WidgetArchetype:WidgetTree_0.ScaleBox_4'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.146"
+      }
+    }
+  },
+  {
+    "Type": "SizeBoxSlot",
+    "Name": "SizeBoxSlot_0",
+    "Outer": "SizeBox_3",
+    "Class": "UScriptClass'SizeBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.SizeBox_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.168"
+      },
+      "Content": {
+        "ObjectName": "ScaleBox'WidgetArchetype:WidgetTree_0.ScaleBox_5'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.147"
+      }
+    }
+  },
+  {
+    "Type": "Spacer",
+    "Name": "Spacer_158",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'Spacer'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'WBP_AdvRanking_4under_C:WidgetTree.VerticalBox_0.VerticalBoxSlot_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.203"
+      }
+    }
+  },
+  {
+    "Type": "Spacer",
+    "Name": "Spacer_158",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Spacer'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'WidgetArchetype:WidgetTree_0.VerticalBox_0.VerticalBoxSlot_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.206"
+      }
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_GetDesiredSize_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_AdvRanking_4under",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector2D'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_GetDesiredSize_ReturnValue_1",
+    "Outer": "ExecuteUbergraph_WBP_AdvRanking_4under",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector2D'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_MakeVector2D_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_AdvRanking_4under",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector2D'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_MakeVector2D_ReturnValue_1",
+    "Outer": "ExecuteUbergraph_WBP_AdvRanking_4under",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector2D'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "P_Area",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "FFB8BE9B432F85633C2B5AB4C0AF56BF",
+        "SourceString": "都道府県",
+        "LocalizedString": "都道府県"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "TypefaceFontName": "RodinN_EB",
+        "Size": 20
+      },
+      "ShadowOffset": {
+        "X": 2.0,
+        "Y": 2.0
+      },
+      "ShadowColorAndOpacity": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "000000"
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'WBP_AdvRanking_4under_C:WidgetTree.VerticalBox_0.VerticalBoxSlot_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.204"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "P_CarName",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "0EE9CEF9430919991D8E7FBF2A57A206",
+        "SourceString": "Lancer Evolution III (CE9A)",
+        "LocalizedString": "Lancer Evolution III (CE9A)"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "TypefaceFontName": "RodinN_EB",
+        "Size": 20
+      },
+      "ShadowOffset": {
+        "X": 2.0,
+        "Y": 2.0
+      },
+      "ShadowColorAndOpacity": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "000000"
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_AdvRanking_4under_C:WidgetTree.OwnCarName.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.28"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "P_Date",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "D6E323364DDFFD78ED6EDDA44070975F",
+        "SourceString": "2020.01.01",
+        "LocalizedString": "2020.01.01"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "TypefaceFontName": "RodinN_EB",
+        "Size": 20
+      },
+      "ShadowOffset": {
+        "X": 2.0,
+        "Y": 2.0
+      },
+      "ShadowColorAndOpacity": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "000000"
+      },
+      "Slot": {
+        "ObjectName": "ScaleBoxSlot'WBP_AdvRanking_4under_C:WidgetTree.ScaleBox_5.ScaleBoxSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.152"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "P_ShopName",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "1B4189CB4324361641B2629A6C7F83DA",
+        "SourceString": "店舗名40文字あういえおあいうえおあいうえおあいうえおあいうえおあおあいうえお",
+        "LocalizedString": "店舗名40文字あういえおあいうえおあいうえおあいうえおあいうえおあおあいうえお"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "TypefaceFontName": "RodinN_EB",
+        "Size": 20
+      },
+      "ShadowOffset": {
+        "X": 2.0,
+        "Y": 2.0
+      },
+      "ShadowColorAndOpacity": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "000000"
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'WBP_AdvRanking_4under_C:WidgetTree.VerticalBox_0.VerticalBoxSlot_4'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.205"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "P_Time",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "43F9C23544B4E4883D28608C32EED816",
+        "SourceString": "0'00''000",
+        "LocalizedString": "0'00''000"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "TypefaceFontName": "RodinN_EB",
+        "Size": 30
+      },
+      "ShadowOffset": {
+        "X": 2.0,
+        "Y": 2.0
+      },
+      "ShadowColorAndOpacity": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "000000"
+      },
+      "Slot": {
+        "ObjectName": "ScaleBoxSlot'WBP_AdvRanking_4under_C:WidgetTree.ScaleBox_4.ScaleBoxSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.151"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "P_UserName",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "B9942B7A421152DFD727C29072D9E0C2",
+        "SourceString": "名前6文字◯",
+        "LocalizedString": "名前6文字◯"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 2
+        },
+        "TypefaceFontName": "RodinN_EB",
+        "Size": 28
+      },
+      "ShadowOffset": {
+        "X": 2.0,
+        "Y": 2.0
+      },
+      "ShadowColorAndOpacity": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "000000"
+      },
+      "Slot": {
+        "ObjectName": "ScaleBoxSlot'WBP_AdvRanking_4under_C:WidgetTree.ScaleBox_2.ScaleBoxSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.149"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "P_Area",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "FFB8BE9B432F85633C2B5AB4C0AF56BF",
+        "SourceString": "都道府県",
+        "LocalizedString": "都道府県"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "TypefaceFontName": "RodinN_EB",
+        "Size": 20
+      },
+      "ShadowOffset": {
+        "X": 2.0,
+        "Y": 2.0
+      },
+      "ShadowColorAndOpacity": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "000000"
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'WidgetArchetype:WidgetTree_0.VerticalBox_0.VerticalBoxSlot_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.207"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "P_CarName",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "0EE9CEF9430919991D8E7FBF2A57A206",
+        "SourceString": "Lancer Evolution III (CE9A)",
+        "LocalizedString": "Lancer Evolution III (CE9A)"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "TypefaceFontName": "RodinN_EB",
+        "Size": 20
+      },
+      "ShadowOffset": {
+        "X": 2.0,
+        "Y": 2.0
+      },
+      "ShadowColorAndOpacity": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "000000"
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.OwnCarName.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.32"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "P_Date",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "D6E323364DDFFD78ED6EDDA44070975F",
+        "SourceString": "2020.01.01",
+        "LocalizedString": "2020.01.01"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "TypefaceFontName": "RodinN_EB",
+        "Size": 20
+      },
+      "ShadowOffset": {
+        "X": 2.0,
+        "Y": 2.0
+      },
+      "ShadowColorAndOpacity": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "000000"
+      },
+      "Slot": {
+        "ObjectName": "ScaleBoxSlot'WidgetArchetype:WidgetTree_0.ScaleBox_5.ScaleBoxSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.158"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "P_ShopName",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "1B4189CB4324361641B2629A6C7F83DA",
+        "SourceString": "店舗名40文字あういえおあいうえおあいうえおあいうえおあいうえおあおあいうえお",
+        "LocalizedString": "店舗名40文字あういえおあいうえおあいうえおあいうえおあいうえおあおあいうえお"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "TypefaceFontName": "RodinN_EB",
+        "Size": 20
+      },
+      "ShadowOffset": {
+        "X": 2.0,
+        "Y": 2.0
+      },
+      "ShadowColorAndOpacity": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "000000"
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'WidgetArchetype:WidgetTree_0.VerticalBox_0.VerticalBoxSlot_4'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.208"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "P_Time",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "43F9C23544B4E4883D28608C32EED816",
+        "SourceString": "0'00''000",
+        "LocalizedString": "0'00''000"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "TypefaceFontName": "RodinN_EB",
+        "Size": 30
+      },
+      "ShadowOffset": {
+        "X": 2.0,
+        "Y": 2.0
+      },
+      "ShadowColorAndOpacity": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "000000"
+      },
+      "Slot": {
+        "ObjectName": "ScaleBoxSlot'WidgetArchetype:WidgetTree_0.ScaleBox_4.ScaleBoxSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.157"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "P_UserName",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "B9942B7A421152DFD727C29072D9E0C2",
+        "SourceString": "名前6文字◯",
+        "LocalizedString": "名前6文字◯"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 2
+        },
+        "TypefaceFontName": "RodinN_EB",
+        "Size": 28
+      },
+      "ShadowOffset": {
+        "X": 2.0,
+        "Y": 2.0
+      },
+      "ShadowColorAndOpacity": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "000000"
+      },
+      "Slot": {
+        "ObjectName": "ScaleBoxSlot'WidgetArchetype:WidgetTree_0.ScaleBox_2.ScaleBoxSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.155"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "CallFunc_Conv_IntToText_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_AdvRanking_4under",
+    "Class": "UScriptClass'TextProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "CallFunc_Conv_StringToText_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_AdvRanking_4under",
+    "Class": "UScriptClass'TextProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "CallFunc_Conv_StringToText_ReturnValue_1",
+    "Outer": "ExecuteUbergraph_WBP_AdvRanking_4under",
+    "Class": "UScriptClass'TextProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "CallFunc_Conv_StringToText_ReturnValue_2",
+    "Outer": "ExecuteUbergraph_WBP_AdvRanking_4under",
+    "Class": "UScriptClass'TextProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "VerticalBox",
+    "Name": "VerticalBox_0",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'VerticalBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "VerticalBoxSlot'WBP_AdvRanking_4under_C:WidgetTree.VerticalBox_0.VerticalBoxSlot_3'",
+          "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.204"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'WBP_AdvRanking_4under_C:WidgetTree.VerticalBox_0.VerticalBoxSlot_2'",
+          "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.203"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'WBP_AdvRanking_4under_C:WidgetTree.VerticalBox_0.VerticalBoxSlot_4'",
+          "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.205"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "ScaleBoxSlot'WBP_AdvRanking_4under_C:WidgetTree.ScaleBox_0.ScaleBoxSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.148"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBox",
+    "Name": "VerticalBox_0",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'VerticalBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "VerticalBoxSlot'WidgetArchetype:WidgetTree_0.VerticalBox_0.VerticalBoxSlot_3'",
+          "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.207"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'WidgetArchetype:WidgetTree_0.VerticalBox_0.VerticalBoxSlot_2'",
+          "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.206"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'WidgetArchetype:WidgetTree_0.VerticalBox_0.VerticalBoxSlot_4'",
+          "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.208"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "ScaleBoxSlot'WidgetArchetype:WidgetTree_0.ScaleBox_0.ScaleBoxSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.154"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_2",
+    "Outer": "VerticalBox_0",
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Padding": {
+        "Left": 5.0,
+        "Bottom": 5.0
+      },
+      "Parent": {
+        "ObjectName": "VerticalBox'WBP_AdvRanking_4under_C:WidgetTree.VerticalBox_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.201"
+      },
+      "Content": {
+        "ObjectName": "Spacer'WBP_AdvRanking_4under_C:WidgetTree.Spacer_158'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.179"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_3",
+    "Outer": "VerticalBox_0",
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "Parent": {
+        "ObjectName": "VerticalBox'WBP_AdvRanking_4under_C:WidgetTree.VerticalBox_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.201"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WBP_AdvRanking_4under_C:WidgetTree.P_Area'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.185"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_4",
+    "Outer": "VerticalBox_0",
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "VerticalBox'WBP_AdvRanking_4under_C:WidgetTree.VerticalBox_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.201"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WBP_AdvRanking_4under_C:WidgetTree.P_ShopName'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.188"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_2",
+    "Outer": "VerticalBox_0",
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Padding": {
+        "Left": 5.0,
+        "Bottom": 5.0
+      },
+      "Parent": {
+        "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.VerticalBox_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.202"
+      },
+      "Content": {
+        "ObjectName": "Spacer'WidgetArchetype:WidgetTree_0.Spacer_158'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.180"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_3",
+    "Outer": "VerticalBox_0",
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "Parent": {
+        "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.VerticalBox_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.202"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.P_Area'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.191"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_4",
+    "Outer": "VerticalBox_0",
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.VerticalBox_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.202"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.P_ShopName'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.194"
+      }
+    }
+  },
+  {
+    "Type": "WBP_AdvRanking_4under_C",
+    "Name": "WidgetArchetype",
+    "Class": "WidgetBlueprintGeneratedClass'GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.WBP_AdvRanking_4under_C'",
+    "Template": {
+      "ObjectName": "WBP_AdvRanking_4under_C'Default__WBP_AdvRanking_4under_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.2"
+    },
+    "Flags": "RF_Public | RF_Standalone | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Base": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.Base'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.104"
+      },
+      "Grade": {
+        "ObjectName": "WBP_Com_GradeSmall_C'WidgetArchetype:WidgetTree_0.Grade'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.211"
+      },
+      "Grade_TimeSwitcher": {
+        "ObjectName": "WidgetSwitcher'WidgetArchetype:WidgetTree_0.Grade_TimeSwitcher'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.213"
+      },
+      "P_Area": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.P_Area'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.191"
+      },
+      "P_CarName": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.P_CarName'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.192"
+      },
+      "P_Date": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.P_Date'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.193"
+      },
+      "P_RankNum": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.P_RankNum'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.107"
+      },
+      "P_RankNum_Effect": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.P_RankNum_Effect'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.108"
+      },
+      "P_ShopName": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.P_ShopName'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.194"
+      },
+      "P_Time": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.P_Time'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.195"
+      },
+      "P_UserName": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.P_UserName'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.196"
+      },
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.219"
+      },
+      "bCookedWidgetTree": true
+    }
+  },
+  {
+    "Type": "WBP_Com_GradeSmall_C",
+    "Name": "Grade",
+    "Outer": "WidgetTree",
+    "Class": "WidgetBlueprintGeneratedClass'GameProject/Content/IND/UI/Common/Grade/WBP_Com_GradeSmall.WBP_Com_GradeSmall_C'",
+    "Template": {
+      "ObjectName": "WBP_Com_GradeSmall_C'Default__WBP_Com_GradeSmall_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Common/Grade/WBP_Com_GradeSmall.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "BpvNumList": [
+        null,
+        null
+      ],
+      "Slot": {
+        "ObjectName": "WidgetSwitcherSlot'WBP_AdvRanking_4under_C:WidgetTree.Grade_TimeSwitcher.WidgetSwitcherSlot_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.214"
+      },
+      "RenderTransform": {
+        "Scale": {
+          "X": 0.7,
+          "Y": 0.7
+        }
+      }
+    }
+  },
+  {
+    "Type": "WBP_Com_GradeSmall_C",
+    "Name": "Grade",
+    "Outer": "WidgetTree_0",
+    "Class": "WidgetBlueprintGeneratedClass'GameProject/Content/IND/UI/Common/Grade/WBP_Com_GradeSmall.WBP_Com_GradeSmall_C'",
+    "Template": {
+      "ObjectName": "WBP_Com_GradeSmall_C'Default__WBP_Com_GradeSmall_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Common/Grade/WBP_Com_GradeSmall.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "P_Grade_S": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.Grade.WidgetTree_0.P_Grade_S'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.105"
+      },
+      "P_NumDigit1s": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.Grade.WidgetTree_0.P_NumDigit1s'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.106"
+      },
+      "BpvNumList": [
+        null,
+        null
+      ],
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.Grade.WidgetTree_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.220"
+      },
+      "bCookedWidgetTree": true,
+      "Slot": {
+        "ObjectName": "WidgetSwitcherSlot'WidgetArchetype:WidgetTree_0.Grade_TimeSwitcher.WidgetSwitcherSlot_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.216"
+      },
+      "RenderTransform": {
+        "Scale": {
+          "X": 0.7,
+          "Y": 0.7
+        }
+      }
+    }
+  },
+  {
+    "Type": "WidgetSwitcher",
+    "Name": "Grade_TimeSwitcher",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'WidgetSwitcher'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "WidgetSwitcherSlot'WBP_AdvRanking_4under_C:WidgetTree.Grade_TimeSwitcher.WidgetSwitcherSlot_3'",
+          "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.215"
+        },
+        {
+          "ObjectName": "WidgetSwitcherSlot'WBP_AdvRanking_4under_C:WidgetTree.Grade_TimeSwitcher.WidgetSwitcherSlot_2'",
+          "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.214"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WBP_AdvRanking_4under_C:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.92"
+      }
+    }
+  },
+  {
+    "Type": "WidgetSwitcher",
+    "Name": "Grade_TimeSwitcher",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'WidgetSwitcher'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "WidgetSwitcherSlot'WidgetArchetype:WidgetTree_0.Grade_TimeSwitcher.WidgetSwitcherSlot_3'",
+          "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.217"
+        },
+        {
+          "ObjectName": "WidgetSwitcherSlot'WidgetArchetype:WidgetTree_0.Grade_TimeSwitcher.WidgetSwitcherSlot_2'",
+          "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.216"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.HorizontalBox_0.HorizontalBoxSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.97"
+      }
+    }
+  },
+  {
+    "Type": "WidgetSwitcherSlot",
+    "Name": "WidgetSwitcherSlot_2",
+    "Outer": "Grade_TimeSwitcher",
+    "Class": "UScriptClass'WidgetSwitcherSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Padding": {
+        "Left": 10.0,
+        "Top": -35.0,
+        "Right": 10.0,
+        "Bottom": -32.0
+      },
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "WidgetSwitcher'WBP_AdvRanking_4under_C:WidgetTree.Grade_TimeSwitcher'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.212"
+      },
+      "Content": {
+        "ObjectName": "WBP_Com_GradeSmall_C'WBP_AdvRanking_4under_C:WidgetTree.Grade'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.210"
+      }
+    }
+  },
+  {
+    "Type": "WidgetSwitcherSlot",
+    "Name": "WidgetSwitcherSlot_3",
+    "Outer": "Grade_TimeSwitcher",
+    "Class": "UScriptClass'WidgetSwitcherSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Padding": {
+        "Left": 10.0,
+        "Right": 10.0
+      },
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "WidgetSwitcher'WBP_AdvRanking_4under_C:WidgetTree.Grade_TimeSwitcher'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.212"
+      },
+      "Content": {
+        "ObjectName": "SizeBox'WBP_AdvRanking_4under_C:WidgetTree.SizeBox_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.162"
+      }
+    }
+  },
+  {
+    "Type": "WidgetSwitcherSlot",
+    "Name": "WidgetSwitcherSlot_2",
+    "Outer": "Grade_TimeSwitcher",
+    "Class": "UScriptClass'WidgetSwitcherSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Padding": {
+        "Left": 10.0,
+        "Top": -35.0,
+        "Right": 10.0,
+        "Bottom": -32.0
+      },
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "WidgetSwitcher'WidgetArchetype:WidgetTree_0.Grade_TimeSwitcher'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.213"
+      },
+      "Content": {
+        "ObjectName": "WBP_Com_GradeSmall_C'WidgetArchetype:WidgetTree_0.Grade'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.211"
+      }
+    }
+  },
+  {
+    "Type": "WidgetSwitcherSlot",
+    "Name": "WidgetSwitcherSlot_3",
+    "Outer": "Grade_TimeSwitcher",
+    "Class": "UScriptClass'WidgetSwitcherSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Padding": {
+        "Left": 10.0,
+        "Right": 10.0
+      },
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "WidgetSwitcher'WidgetArchetype:WidgetTree_0.Grade_TimeSwitcher'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.213"
+      },
+      "Content": {
+        "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.SizeBox_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.167"
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Outer": "WBP_AdvRanking_4under_C",
+    "Class": "UScriptClass'WidgetTree'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CanvasPanel'WBP_AdvRanking_4under_C:WidgetTree.CanvasPanel_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.22"
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree_0",
+    "Outer": "WidgetArchetype",
+    "Class": "UScriptClass'WidgetTree'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.24"
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree_0",
+    "Outer": "Grade",
+    "Class": "UScriptClass'WidgetTree'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "ScaleBox'WidgetArchetype:WidgetTree_0.Grade.WidgetTree_0.ScaleBox_10'",
+        "ObjectPath": "GameProject/Content/IND/UI/Ranking/AdvRanking/WBP_AdvRanking_4under.142"
+      }
+    }
+  }
+]

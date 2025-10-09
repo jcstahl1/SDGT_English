@@ -1,0 +1,286 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_TeamMainMenuPanelList",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "UserDefinedStruct'ST_TeamPanelBase'",
+        "ObjectPath": "GameProject/Content/IND/DataTable/Team/Sequence/Selector/ST_TeamPanelBase.1"
+      }
+    },
+    "Rows": {
+      "NewRow_7": {
+        "SubMode_23_4F77190340F6EEAA0C7373836BD489AE": "ESubMode_Team::kSM_TEAM_Recruit",
+        "BaseTexture_2_F2540A8C4C0AE01E908DAF83C9C715CB": {
+          "ObjectName": "Texture2D'T_Team_SelectPanel09'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/Select/Texture/T_Team_SelectPanel09.0"
+        },
+        "LineTexture_4_237E19564C945070352086A420AB75DD": {
+          "ObjectName": "Texture2D'T_course_sel_win_baseline_team'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/Select/Texture/T_course_sel_win_baseline_team.0"
+        },
+        "NameMain_11_13AC84EA42C331C3627F668C1B76A0B3": {
+          "Namespace": "",
+          "Key": "9205C22449CA0B4FD45DD89F3A41DCEB",
+          "SourceString": "チーム勧誘情報",
+          "LocalizedString": "チーム勧誘情報"
+        },
+        "NameSub_10_11E55C3E49E329C9A81C8FB0AFC5DBF5": {
+          "Namespace": "",
+          "Key": "2171BC664440A996BBDD909F51B0CF89",
+          "SourceString": "Team Recruitment Information",
+          "LocalizedString": "Team Recruitment Information"
+        },
+        "Description_26_B3E181A2454E1DEE111DD889845D8354": {
+          "TableId": "/Game/IND/StringTable/BP/ST_GameMessage.ST_GameMessage",
+          "Key": "TeamSeq_Common_SeqDetail_Recruit",
+          "SourceString": "チーム勧誘情報を確認します",
+          "LocalizedString": "Check team recruitment information"
+        },
+        "SpeechBublesID_29_F994FEBC4C15FC4A73913FB75E65DCF2": 0
+      },
+      "NewRow": {
+        "SubMode_23_4F77190340F6EEAA0C7373836BD489AE": "ESubMode_Team::kSM_TEAM_CreateTeam",
+        "BaseTexture_2_F2540A8C4C0AE01E908DAF83C9C715CB": {
+          "ObjectName": "Texture2D'T_Team_SelectPanel01'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/Select/Texture/T_Team_SelectPanel01.0"
+        },
+        "LineTexture_4_237E19564C945070352086A420AB75DD": {
+          "ObjectName": "Texture2D'T_course_sel_win_baseline_team'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/Select/Texture/T_course_sel_win_baseline_team.0"
+        },
+        "NameMain_11_13AC84EA42C331C3627F668C1B76A0B3": {
+          "Namespace": "",
+          "Key": "0E2F913449CC4F92EA3BCA9B278A41B4",
+          "SourceString": "チーム作成",
+          "LocalizedString": "チーム作成"
+        },
+        "NameSub_10_11E55C3E49E329C9A81C8FB0AFC5DBF5": {
+          "Namespace": "",
+          "Key": "25C247424B2B55C3361B0080656AE221",
+          "SourceString": "Create Team",
+          "LocalizedString": "Create Team"
+        },
+        "Description_26_B3E181A2454E1DEE111DD889845D8354": {
+          "TableId": "/Game/IND/StringTable/BP/ST_GameMessage.ST_GameMessage",
+          "Key": "TeamSeq_Common_SeqDetail_Create",
+          "SourceString": "新たなチームを作成します",
+          "LocalizedString": "Create a new team"
+        },
+        "SpeechBublesID_29_F994FEBC4C15FC4A73913FB75E65DCF2": -1
+      },
+      "NewRow_0": {
+        "SubMode_23_4F77190340F6EEAA0C7373836BD489AE": "ESubMode_Team::kSM_TEAM_JoinTeam",
+        "BaseTexture_2_F2540A8C4C0AE01E908DAF83C9C715CB": {
+          "ObjectName": "Texture2D'T_Team_SelectPanel02'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/Select/Texture/T_Team_SelectPanel02.0"
+        },
+        "LineTexture_4_237E19564C945070352086A420AB75DD": {
+          "ObjectName": "Texture2D'T_course_sel_win_baseline_team'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/Select/Texture/T_course_sel_win_baseline_team.0"
+        },
+        "NameMain_11_13AC84EA42C331C3627F668C1B76A0B3": {
+          "Namespace": "",
+          "Key": "14AA586B45E2C2F7B12A0FBFFB402E2E",
+          "SourceString": "チーム加入",
+          "LocalizedString": "チーム加入"
+        },
+        "NameSub_10_11E55C3E49E329C9A81C8FB0AFC5DBF5": {
+          "Namespace": "",
+          "Key": "E07A17CF47D42E4A5EFC8B93914242CC",
+          "SourceString": "Join a Team",
+          "LocalizedString": "Join a Team"
+        },
+        "Description_26_B3E181A2454E1DEE111DD889845D8354": {
+          "TableId": "/Game/IND/StringTable/BP/ST_GameMessage.ST_GameMessage",
+          "Key": "TeamSeq_Common_SeqDetail_Join",
+          "SourceString": "D番号を入力しチームに加入します",
+          "LocalizedString": "Enter your D Number to join the team"
+        },
+        "SpeechBublesID_29_F994FEBC4C15FC4A73913FB75E65DCF2": -1
+      },
+      "NewRow_1": {
+        "SubMode_23_4F77190340F6EEAA0C7373836BD489AE": "ESubMode_Team::kSM_TEAM_TeamInformation",
+        "BaseTexture_2_F2540A8C4C0AE01E908DAF83C9C715CB": {
+          "ObjectName": "Texture2D'T_Team_SelectPanel05'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/Select/Texture/T_Team_SelectPanel05.0"
+        },
+        "LineTexture_4_237E19564C945070352086A420AB75DD": {
+          "ObjectName": "Texture2D'T_course_sel_win_baseline_team'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/Select/Texture/T_course_sel_win_baseline_team.0"
+        },
+        "NameMain_11_13AC84EA42C331C3627F668C1B76A0B3": {
+          "Namespace": "",
+          "Key": "3588D68F417A93F3324C3BB06227EBB3",
+          "SourceString": "チーム情報",
+          "LocalizedString": "チーム情報"
+        },
+        "NameSub_10_11E55C3E49E329C9A81C8FB0AFC5DBF5": {
+          "Namespace": "",
+          "Key": "FF42913A494242A5A9F410BE63C4268C",
+          "SourceString": "Team Information",
+          "LocalizedString": "Team Information"
+        },
+        "Description_26_B3E181A2454E1DEE111DD889845D8354": {
+          "TableId": "/Game/IND/StringTable/BP/ST_GameMessage.ST_GameMessage",
+          "Key": "TeamSeq_Common_SeqDetail_Info",
+          "SourceString": "チーム情報を確認します",
+          "LocalizedString": "Check team information"
+        },
+        "SpeechBublesID_29_F994FEBC4C15FC4A73913FB75E65DCF2": -1
+      },
+      "NewRow_2": {
+        "SubMode_23_4F77190340F6EEAA0C7373836BD489AE": "ESubMode_Team::kSM_TEAM_Customize",
+        "BaseTexture_2_F2540A8C4C0AE01E908DAF83C9C715CB": {
+          "ObjectName": "Texture2D'T_Team_SelectPanel04'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/Select/Texture/T_Team_SelectPanel04.0"
+        },
+        "LineTexture_4_237E19564C945070352086A420AB75DD": {
+          "ObjectName": "Texture2D'T_course_sel_win_baseline_team'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/Select/Texture/T_course_sel_win_baseline_team.0"
+        },
+        "NameMain_11_13AC84EA42C331C3627F668C1B76A0B3": {
+          "Namespace": "",
+          "Key": "D2E3DABD49E64B9355C2BF89E15037B2",
+          "SourceString": "背景カスタマイズ",
+          "LocalizedString": "背景カスタマイズ"
+        },
+        "NameSub_10_11E55C3E49E329C9A81C8FB0AFC5DBF5": {
+          "Namespace": "",
+          "Key": "BAE9B91C4E2CAA84880E1E9E524CB9F1",
+          "SourceString": "Background Customize",
+          "LocalizedString": "Background Customize"
+        },
+        "Description_26_B3E181A2454E1DEE111DD889845D8354": {
+          "TableId": "/Game/IND/StringTable/BP/ST_GameMessage.ST_GameMessage",
+          "Key": "TeamSeq_Common_SeqDetail_StickerCustom",
+          "SourceString": "チームステッカー背景をカスタマイズします",
+          "LocalizedString": "Customize Team sticker background"
+        },
+        "SpeechBublesID_29_F994FEBC4C15FC4A73913FB75E65DCF2": -1
+      },
+      "NewRow_3": {
+        "SubMode_23_4F77190340F6EEAA0C7373836BD489AE": "ESubMode_Team::kSM_TEAM_ManageTeam",
+        "BaseTexture_2_F2540A8C4C0AE01E908DAF83C9C715CB": {
+          "ObjectName": "Texture2D'T_Team_SelectPanel06'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/Select/Texture/T_Team_SelectPanel06.0"
+        },
+        "LineTexture_4_237E19564C945070352086A420AB75DD": {
+          "ObjectName": "Texture2D'T_course_sel_win_baseline_team'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/Select/Texture/T_course_sel_win_baseline_team.0"
+        },
+        "NameMain_11_13AC84EA42C331C3627F668C1B76A0B3": {
+          "Namespace": "",
+          "Key": "E10D808E4EB43A3CC16840BF84B570B2",
+          "SourceString": "チーム管理",
+          "LocalizedString": "チーム管理"
+        },
+        "NameSub_10_11E55C3E49E329C9A81C8FB0AFC5DBF5": {
+          "Namespace": "",
+          "Key": "6026C13047AB57FF0679198D543A8A72",
+          "SourceString": "Manage Team",
+          "LocalizedString": "Manage Team"
+        },
+        "Description_26_B3E181A2454E1DEE111DD889845D8354": {
+          "TableId": "/Game/IND/StringTable/BP/ST_GameMessage.ST_GameMessage",
+          "Key": "TeamSeq_Common_SeqDetail_Manage",
+          "SourceString": "D番号管理やメンバーの管理を行います",
+          "LocalizedString": "D Number management and team members"
+        },
+        "SpeechBublesID_29_F994FEBC4C15FC4A73913FB75E65DCF2": -1
+      },
+      "NewRow_6": {
+        "SubMode_23_4F77190340F6EEAA0C7373836BD489AE": "ESubMode_Team::kSM_TEAM_ViewBackground",
+        "BaseTexture_2_F2540A8C4C0AE01E908DAF83C9C715CB": {
+          "ObjectName": "Texture2D'T_Team_SelectPanel08'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/Select/Texture/T_Team_SelectPanel08.0"
+        },
+        "LineTexture_4_237E19564C945070352086A420AB75DD": {
+          "ObjectName": "Texture2D'T_course_sel_win_baseline_team'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/Select/Texture/T_course_sel_win_baseline_team.0"
+        },
+        "NameMain_11_13AC84EA42C331C3627F668C1B76A0B3": {
+          "Namespace": "",
+          "Key": "B96B1EAC42770A71B7AD40855DF3D515",
+          "SourceString": "鑑賞モード",
+          "LocalizedString": "鑑賞モード"
+        },
+        "NameSub_10_11E55C3E49E329C9A81C8FB0AFC5DBF5": {
+          "Namespace": "",
+          "Key": "7E6A978D4B1100383E1A5B9845789349",
+          "SourceString": "View Mode",
+          "LocalizedString": "View Mode"
+        },
+        "Description_26_B3E181A2454E1DEE111DD889845D8354": {
+          "TableId": "/Game/IND/StringTable/BP/ST_GameMessage.ST_GameMessage",
+          "Key": "TeamSeq_Common_SeqDetail_View",
+          "SourceString": "鑑賞モードに切り替えます",
+          "LocalizedString": "Switch to viewing mode"
+        },
+        "SpeechBublesID_29_F994FEBC4C15FC4A73913FB75E65DCF2": -1
+      },
+      "NewRow_4": {
+        "SubMode_23_4F77190340F6EEAA0C7373836BD489AE": "ESubMode_Team::kSM_TEAM_LeftTeam",
+        "BaseTexture_2_F2540A8C4C0AE01E908DAF83C9C715CB": {
+          "ObjectName": "Texture2D'T_Team_SelectPanel03'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/Select/Texture/T_Team_SelectPanel03.0"
+        },
+        "LineTexture_4_237E19564C945070352086A420AB75DD": {
+          "ObjectName": "Texture2D'T_course_sel_win_baseline_team'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/Select/Texture/T_course_sel_win_baseline_team.0"
+        },
+        "NameMain_11_13AC84EA42C331C3627F668C1B76A0B3": {
+          "Namespace": "",
+          "Key": "CA43CB5040DE389282ABBF8A682E8E7B",
+          "SourceString": "チーム脱退",
+          "LocalizedString": "チーム脱退"
+        },
+        "NameSub_10_11E55C3E49E329C9A81C8FB0AFC5DBF5": {
+          "Namespace": "",
+          "Key": "BD5F8EEF4165BCF5DAA290B9FEFE21E1",
+          "SourceString": "Leave the Team",
+          "LocalizedString": "Leave the Team"
+        },
+        "Description_26_B3E181A2454E1DEE111DD889845D8354": {
+          "TableId": "/Game/IND/StringTable/BP/ST_GameMessage.ST_GameMessage",
+          "Key": "TeamSeq_Common_SeqDetail_Left",
+          "SourceString": "チームから脱退します",
+          "LocalizedString": "I'm leaving the team"
+        },
+        "SpeechBublesID_29_F994FEBC4C15FC4A73913FB75E65DCF2": -1
+      },
+      "NewRow_5": {
+        "SubMode_23_4F77190340F6EEAA0C7373836BD489AE": "ESubMode_Team::kSM_TEAM_Exit",
+        "BaseTexture_2_F2540A8C4C0AE01E908DAF83C9C715CB": {
+          "ObjectName": "Texture2D'start_menu_base_01'",
+          "ObjectPath": "GameProject/Content/IND/UI/StartMenu/Select/texture/start_menu_base_01.0"
+        },
+        "LineTexture_4_237E19564C945070352086A420AB75DD": {
+          "ObjectName": "Texture2D'T_course_sel_win_baseline_team'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/Select/Texture/T_course_sel_win_baseline_team.0"
+        },
+        "NameMain_11_13AC84EA42C331C3627F668C1B76A0B3": {
+          "Namespace": "",
+          "Key": "0EC9A32243558E7E46F79791E631B68D",
+          "SourceString": "モード選択",
+          "LocalizedString": "モード選択"
+        },
+        "NameSub_10_11E55C3E49E329C9A81C8FB0AFC5DBF5": {
+          "Namespace": "",
+          "Key": "BD065C554DF7A32E837FCE8880782BB5",
+          "SourceString": "Mode Select",
+          "LocalizedString": "Mode Select"
+        },
+        "Description_26_B3E181A2454E1DEE111DD889845D8354": {
+          "TableId": "/Game/IND/StringTable/BP/ST_GameMessage.ST_GameMessage",
+          "Key": "TeamSeq_Common_SeqDetail_ModeSelect",
+          "SourceString": "モード選択画面へ移動します",
+          "LocalizedString": "Proceeding to MODE SELECT screen"
+        },
+        "SpeechBublesID_29_F994FEBC4C15FC4A73913FB75E65DCF2": -1
+      }
+    }
+  }
+]

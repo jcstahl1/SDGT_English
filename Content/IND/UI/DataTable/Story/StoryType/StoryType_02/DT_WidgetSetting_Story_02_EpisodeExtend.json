@@ -1,0 +1,304 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_WidgetSetting_Story_02_EpisodeExtend",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'MenuStoryDesignData'",
+        "ObjectPath": "/Script/GameProject"
+      }
+    },
+    "Rows": {
+      "s02_c01_e01": {
+        "Rival": {
+          "UseEpisodeData": true,
+          "CharacterID": []
+        },
+        "Load": {
+          "LoadingImageID": {
+            "AssetPathName": "/Game/IND/UI/Load/Texture/StoryLoadBG/T_Load_StoryBG_akinalake_n_f_01.T_Load_StoryBG_akinalake_n_f_01",
+            "SubPathString": ""
+          },
+          "LoadingTextID": {
+            "TableId": "/Game/IND/UI/DataTable/Story/StoryType/StoryType_01/Str_WD_Load_Story_01_Prologue.Str_WD_Load_Story_01_Prologue",
+            "Key": "1_1_1",
+            "SourceString": "This is the first battle of the street racer\r\nwho would later be called a legend—\r\nOne that never made it into the records...",
+            "LocalizedString": "This is the first battle of the street racer\r\nwho would later be called a legend—\r\nOne that never made it into the records..."
+          },
+          "NarrationVoice": {
+            "ObjectName": "SoundAtomCue'prolouge_01_01_01_01'",
+            "ObjectPath": "GameProject/Content/IND/Sound/VOICE/prolouge_01_01_01_01.0"
+          },
+          "NarrationVoiceDelay": 2.5,
+          "ViewTimeAfter": 2.0
+        },
+        "NextEpisode": {
+          "AnimType": 0,
+          "AutoSetting": true,
+          "ChapterID": -1,
+          "EpisodeID": -1,
+          "MainImage": {
+            "AssetPathName": "/Game/IND/UI/Load/Texture/StoryLoadBG/T_Load_StoryBG_akinalake_n_f_02.T_Load_StoryBG_akinalake_n_f_02",
+            "SubPathString": ""
+          },
+          "NarrationTextID": {
+            "TableId": "/Game/IND/UI/DataTable/Story/StoryType/StoryType_01/Str_WD_Race_Story_01_NextPreview.Str_WD_Race_Story_01_NextPreview",
+            "Key": "1_1_1",
+            "SourceString": "A man with a dangerous aura, Wataru Akiyama.\r\nMeeting him will change fate!",
+            "LocalizedString": "A man with a dangerous aura, Wataru Akiyama.\r\nMeeting him will change fate!"
+          },
+          "NarrationVoice": {
+            "ObjectName": "SoundAtomCue'yokoku_01_01_01_01'",
+            "ObjectPath": "GameProject/Content/IND/Sound/VOICE/yokoku_01_01_01_01.0"
+          },
+          "NarrationVoiceDelay": 1.0,
+          "ViewTimeAfter": 2.0,
+          "ViewTimeAll": 12.0,
+          "PlaybackSpeed": 1.0
+        }
+      },
+      "s04_c01_e01": {
+        "Rival": {
+          "UseEpisodeData": true,
+          "CharacterID": [
+            "WATARU"
+          ]
+        },
+        "Load": {
+          "LoadingImageID": {
+            "AssetPathName": "/Game/IND/UI/Load/Texture/StoryLoadBG/T_Load_StoryBG_akinalake_n_f_02.T_Load_StoryBG_akinalake_n_f_02",
+            "SubPathString": ""
+          },
+          "LoadingTextID": {
+            "TableId": "/Game/IND/UI/DataTable/Story/StoryType/StoryType_01/Str_WD_Load_Story_01_Prologue.Str_WD_Load_Story_01_Prologue",
+            "Key": "1_1_2",
+            "SourceString": "Wataru Akiyama flags down a street racer\r\n he happens to meet by chance. Surprised by the racer's\r\ntechnique, Wataru makes a proposal.",
+            "LocalizedString": "Wataru Akiyama flags down a street racer\r\n he happens to meet by chance. Surprised by the racer's\r\ntechnique, Wataru makes a proposal."
+          },
+          "NarrationVoice": {
+            "ObjectName": "SoundAtomCue'prolouge_01_01_02_01'",
+            "ObjectPath": "GameProject/Content/IND/Sound/VOICE/prolouge_01_01_02_01.0"
+          },
+          "NarrationVoiceDelay": 2.5,
+          "ViewTimeAfter": 2.0
+        },
+        "NextEpisode": {
+          "AnimType": 0,
+          "AutoSetting": true,
+          "ChapterID": -1,
+          "EpisodeID": -1,
+          "MainImage": {
+            "AssetPathName": "/Game/IND/UI/Load/Texture/StoryLoadBG/T_Load_StoryBG_akina_n_f_01.T_Load_StoryBG_akina_n_f_01",
+            "SubPathString": ""
+          },
+          "NarrationTextID": {
+            "TableId": "/Game/IND/UI/DataTable/Story/StoryType/StoryType_01/Str_WD_Race_Story_01_NextPreview.Str_WD_Race_Story_01_NextPreview",
+            "Key": "1_1_2",
+            "SourceString": "After parting with Wataru, a new encounter waited just ahead...",
+            "LocalizedString": "After parting with Wataru, a new encounter waited just ahead..."
+          },
+          "NarrationVoice": {
+            "ObjectName": "SoundAtomCue'yokoku_01_01_02_01'",
+            "ObjectPath": "GameProject/Content/IND/Sound/VOICE/yokoku_01_01_02_01.0"
+          },
+          "NarrationVoiceDelay": 1.0,
+          "ViewTimeAfter": 2.0,
+          "ViewTimeAll": 12.0,
+          "PlaybackSpeed": 1.0
+        }
+      },
+      "s06_c01_e01": {
+        "Rival": {
+          "UseEpisodeData": false,
+          "CharacterID": [
+            "HV_MOB_001"
+          ]
+        },
+        "Load": {
+          "LoadingImageID": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "LoadingTextID": {
+            "CultureInvariantString": null
+          },
+          "NarrationVoice": null,
+          "NarrationVoiceDelay": 0.0,
+          "ViewTimeAfter": 2.0
+        },
+        "NextEpisode": {
+          "AnimType": 0,
+          "AutoSetting": true,
+          "ChapterID": -1,
+          "EpisodeID": -1,
+          "MainImage": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "NarrationTextID": {
+            "CultureInvariantString": null
+          },
+          "NarrationVoice": null,
+          "NarrationVoiceDelay": 1.0,
+          "ViewTimeAfter": 2.0,
+          "ViewTimeAll": 12.0,
+          "PlaybackSpeed": 1.0
+        }
+      },
+      "s06_c02_e01": {
+        "Rival": {
+          "UseEpisodeData": false,
+          "CharacterID": [
+            "HV_MOB_006"
+          ]
+        },
+        "Load": {
+          "LoadingImageID": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "LoadingTextID": {
+            "CultureInvariantString": null
+          },
+          "NarrationVoice": null,
+          "NarrationVoiceDelay": 0.0,
+          "ViewTimeAfter": 2.0
+        },
+        "NextEpisode": {
+          "AnimType": 0,
+          "AutoSetting": true,
+          "ChapterID": -1,
+          "EpisodeID": -1,
+          "MainImage": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "NarrationTextID": {
+            "CultureInvariantString": null
+          },
+          "NarrationVoice": null,
+          "NarrationVoiceDelay": 1.0,
+          "ViewTimeAfter": 2.0,
+          "ViewTimeAll": 12.0,
+          "PlaybackSpeed": 1.0
+        }
+      },
+      "s06_c03_e01": {
+        "Rival": {
+          "UseEpisodeData": false,
+          "CharacterID": [
+            "HV_MOB_011"
+          ]
+        },
+        "Load": {
+          "LoadingImageID": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "LoadingTextID": {
+            "CultureInvariantString": null
+          },
+          "NarrationVoice": null,
+          "NarrationVoiceDelay": 0.0,
+          "ViewTimeAfter": 2.0
+        },
+        "NextEpisode": {
+          "AnimType": 0,
+          "AutoSetting": true,
+          "ChapterID": -1,
+          "EpisodeID": -1,
+          "MainImage": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "NarrationTextID": {
+            "CultureInvariantString": null
+          },
+          "NarrationVoice": null,
+          "NarrationVoiceDelay": 1.0,
+          "ViewTimeAfter": 2.0,
+          "ViewTimeAll": 12.0,
+          "PlaybackSpeed": 1.0
+        }
+      },
+      "s06_c04_e01": {
+        "Rival": {
+          "UseEpisodeData": false,
+          "CharacterID": [
+            "HV_MOB_016"
+          ]
+        },
+        "Load": {
+          "LoadingImageID": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "LoadingTextID": {
+            "CultureInvariantString": null
+          },
+          "NarrationVoice": null,
+          "NarrationVoiceDelay": 0.0,
+          "ViewTimeAfter": 2.0
+        },
+        "NextEpisode": {
+          "AnimType": 0,
+          "AutoSetting": true,
+          "ChapterID": -1,
+          "EpisodeID": -1,
+          "MainImage": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "NarrationTextID": {
+            "CultureInvariantString": null
+          },
+          "NarrationVoice": null,
+          "NarrationVoiceDelay": 1.0,
+          "ViewTimeAfter": 2.0,
+          "ViewTimeAll": 12.0,
+          "PlaybackSpeed": 1.0
+        }
+      },
+      "s06_c05_e01": {
+        "Rival": {
+          "UseEpisodeData": false,
+          "CharacterID": [
+            "HV_MOB_010"
+          ]
+        },
+        "Load": {
+          "LoadingImageID": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "LoadingTextID": {
+            "CultureInvariantString": null
+          },
+          "NarrationVoice": null,
+          "NarrationVoiceDelay": 0.0,
+          "ViewTimeAfter": 2.0
+        },
+        "NextEpisode": {
+          "AnimType": 0,
+          "AutoSetting": true,
+          "ChapterID": -1,
+          "EpisodeID": -1,
+          "MainImage": {
+            "AssetPathName": "None",
+            "SubPathString": ""
+          },
+          "NarrationTextID": {
+            "CultureInvariantString": null
+          },
+          "NarrationVoice": null,
+          "NarrationVoiceDelay": 1.0,
+          "ViewTimeAfter": 2.0,
+          "ViewTimeAll": 12.0,
+          "PlaybackSpeed": 1.0
+        }
+      }
+    }
+  }
+]

@@ -1,0 +1,2785 @@
+[
+  {
+    "Type": "StructProperty",
+    "Name": "UberGraphFrame",
+    "Outer": "WBP_TeamRankingResult_League_C",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "Transient | DuplicateTransient",
+    "Struct": {
+      "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "WBP_TeamRankingResult_League_C",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WBP_TeamRankingResult_League_C:WidgetTree'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.115"
+      },
+      "bAllowTemplate": true,
+      "bValidTemplate": true,
+      "TemplateAsset": {
+        "AssetPathName": "/Game/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.WidgetArchetype",
+        "SubPathString": ""
+      },
+      "UberGraphFramePointerProperty": {
+        "ObjectName": "StructProperty'WBP_TeamRankingResult_League_C:UberGraphFrame'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.0"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'WBP_TeamRankingResult_League_C:ExecuteUbergraph_WBP_TeamRankingResult_League'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.5"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'UserWidget'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'WBP_TeamRankingResult_League_C:UberGraphFrame'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.0"
+      },
+      {
+        "ObjectName": "Function'WBP_TeamRankingResult_League_C:Selected'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.60"
+      },
+      {
+        "ObjectName": "Function'WBP_TeamRankingResult_League_C:Basic'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.55"
+      },
+      {
+        "ObjectName": "Function'WBP_TeamRankingResult_League_C:Bronze'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.56"
+      },
+      {
+        "ObjectName": "Function'WBP_TeamRankingResult_League_C:Silver'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.61"
+      },
+      {
+        "ObjectName": "Function'WBP_TeamRankingResult_League_C:Gold'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.57"
+      },
+      {
+        "ObjectName": "Function'WBP_TeamRankingResult_League_C:Plutinum'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.59"
+      },
+      {
+        "ObjectName": "Function'WBP_TeamRankingResult_League_C:Master'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.58"
+      },
+      {
+        "ObjectName": "Function'WBP_TeamRankingResult_League_C:SetRank'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.23"
+      },
+      {
+        "ObjectName": "Function'WBP_TeamRankingResult_League_C:RankUp'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.20"
+      },
+      {
+        "ObjectName": "Function'WBP_TeamRankingResult_League_C:NextLeagueRank'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.19"
+      },
+      {
+        "ObjectName": "Function'WBP_TeamRankingResult_League_C:NextLeagueRankUp'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.18"
+      },
+      {
+        "ObjectName": "Function'WBP_TeamRankingResult_League_C:BlackOut'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.17"
+      },
+      {
+        "ObjectName": "Function'WBP_TeamRankingResult_League_C:Deselected'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.16"
+      },
+      {
+        "ObjectName": "Function'WBP_TeamRankingResult_League_C:SetConditionText'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.14"
+      },
+      {
+        "ObjectName": "Function'WBP_TeamRankingResult_League_C:ExecuteUbergraph_WBP_TeamRankingResult_League'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.5"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_TeamRankingResult_League_C:BaseEff'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.3"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_TeamRankingResult_League_C:Belonging'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.80"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_TeamRankingResult_League_C:CanvasPanel_LeagueBase'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.81"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_TeamRankingResult_League_C:Condition'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.82"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_TeamRankingResult_League_C:ConditionType'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.83"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_TeamRankingResult_League_C:Image_200'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.88"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_TeamRankingResult_League_C:LeagueBase'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.89"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_TeamRankingResult_League_C:LeagueBase_BG'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.90"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_TeamRankingResult_League_C:LeagueEff'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.91"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_TeamRankingResult_League_C:LeagueEff_Frame'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.92"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_TeamRankingResult_League_C:LeagueIcon'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.93"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_TeamRankingResult_League_C:P_RankUpDown'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.94"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_TeamRankingResult_League_C:RankUpCondition'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.95"
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_WBP_TeamRankingResult_League": {
+        "ObjectName": "Function'WBP_TeamRankingResult_League_C:ExecuteUbergraph_WBP_TeamRankingResult_League'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.5"
+      },
+      "SetConditionText": {
+        "ObjectName": "Function'WBP_TeamRankingResult_League_C:SetConditionText'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.14"
+      },
+      "Deselected": {
+        "ObjectName": "Function'WBP_TeamRankingResult_League_C:Deselected'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.16"
+      },
+      "BlackOut": {
+        "ObjectName": "Function'WBP_TeamRankingResult_League_C:BlackOut'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.17"
+      },
+      "NextLeagueRankUp": {
+        "ObjectName": "Function'WBP_TeamRankingResult_League_C:NextLeagueRankUp'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.18"
+      },
+      "NextLeagueRank": {
+        "ObjectName": "Function'WBP_TeamRankingResult_League_C:NextLeagueRank'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.19"
+      },
+      "RankUp": {
+        "ObjectName": "Function'WBP_TeamRankingResult_League_C:RankUp'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.20"
+      },
+      "SetRank": {
+        "ObjectName": "Function'WBP_TeamRankingResult_League_C:SetRank'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.23"
+      },
+      "Master": {
+        "ObjectName": "Function'WBP_TeamRankingResult_League_C:Master'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.58"
+      },
+      "Plutinum": {
+        "ObjectName": "Function'WBP_TeamRankingResult_League_C:Plutinum'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.59"
+      },
+      "Gold": {
+        "ObjectName": "Function'WBP_TeamRankingResult_League_C:Gold'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.57"
+      },
+      "Silver": {
+        "ObjectName": "Function'WBP_TeamRankingResult_League_C:Silver'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.61"
+      },
+      "Bronze": {
+        "ObjectName": "Function'WBP_TeamRankingResult_League_C:Bronze'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.56"
+      },
+      "Basic": {
+        "ObjectName": "Function'WBP_TeamRankingResult_League_C:Basic'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.55"
+      },
+      "Selected": {
+        "ObjectName": "Function'WBP_TeamRankingResult_League_C:Selected'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.60"
+      }
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "WBP_TeamRankingResult_League_C'Default__WBP_TeamRankingResult_League_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.2"
+    }
+  },
+  {
+    "Type": "WBP_TeamRankingResult_League_C",
+    "Name": "Default__WBP_TeamRankingResult_League_C",
+    "Class": "WidgetBlueprintGeneratedClass'GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.WBP_TeamRankingResult_League_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "UberGraphFrame": {},
+      "bHasScriptImplementedTick": false,
+      "bHasScriptImplementedPaint": false
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "BaseEff",
+    "Outer": "WBP_TeamRankingResult_League_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'Image'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "EntryPoint",
+    "Outer": "ExecuteUbergraph_WBP_TeamRankingResult_League",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_WBP_TeamRankingResult_League",
+    "Outer": "WBP_TeamRankingResult_League_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "IntProperty'WBP_TeamRankingResult_League_C:ExecuteUbergraph_WBP_TeamRankingResult_League.EntryPoint'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.4"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_TeamRankingResult_League_C:ExecuteUbergraph_WBP_TeamRankingResult_League.Temp_bool_Variable'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.11"
+      },
+      {
+        "ObjectName": "TextProperty'WBP_TeamRankingResult_League_C:ExecuteUbergraph_WBP_TeamRankingResult_League.Temp_text_Variable'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.112"
+      },
+      {
+        "ObjectName": "TextProperty'WBP_TeamRankingResult_League_C:ExecuteUbergraph_WBP_TeamRankingResult_League.Temp_text_Variable_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.113"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_TeamRankingResult_League_C:ExecuteUbergraph_WBP_TeamRankingResult_League.Temp_bool_Variable_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.12"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_TeamRankingResult_League_C:ExecuteUbergraph_WBP_TeamRankingResult_League.Temp_object_Variable'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.86"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_TeamRankingResult_League_C:ExecuteUbergraph_WBP_TeamRankingResult_League.Temp_object_Variable_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.87"
+      },
+      {
+        "ObjectName": "EnumProperty'WBP_TeamRankingResult_League_C:ExecuteUbergraph_WBP_TeamRankingResult_League.K2Node_CustomEvent_LeagueRank'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.54"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_TeamRankingResult_League_C:ExecuteUbergraph_WBP_TeamRankingResult_League.K2Node_CustomEvent_IsSelected'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.8"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_TeamRankingResult_League_C:ExecuteUbergraph_WBP_TeamRankingResult_League.K2Node_SwitchEnum_CmpSuccess'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.10"
+      },
+      {
+        "ObjectName": "StructProperty'WBP_TeamRankingResult_League_C:ExecuteUbergraph_WBP_TeamRankingResult_League.K2Node_MakeStruct_WidgetTransform'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.104"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_TeamRankingResult_League_C:ExecuteUbergraph_WBP_TeamRankingResult_League.CallFunc_GetDynamicMaterial_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.84"
+      },
+      {
+        "ObjectName": "StructProperty'WBP_TeamRankingResult_League_C:ExecuteUbergraph_WBP_TeamRankingResult_League.K2Node_MakeStruct_WidgetTransform_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.105"
+      },
+      {
+        "ObjectName": "TextProperty'WBP_TeamRankingResult_League_C:ExecuteUbergraph_WBP_TeamRankingResult_League.K2Node_CustomEvent_InText'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.110"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_TeamRankingResult_League_C:ExecuteUbergraph_WBP_TeamRankingResult_League.K2Node_CustomEvent_IsUpCondition'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.9"
+      },
+      {
+        "ObjectName": "TextProperty'WBP_TeamRankingResult_League_C:ExecuteUbergraph_WBP_TeamRankingResult_League.K2Node_Select_Default'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.111"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_TeamRankingResult_League_C:ExecuteUbergraph_WBP_TeamRankingResult_League.K2Node_Select_Default_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.85"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_TeamRankingResult_League_C:ExecuteUbergraph_WBP_TeamRankingResult_League.CallFunc_TextIsEmpty_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.7"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_TeamRankingResult_League_C:ExecuteUbergraph_WBP_TeamRankingResult_League.CallFunc_Not_PreBool_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.6"
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction | FUNC_HasDefaults"
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_Not_PreBool_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_TeamRankingResult_League",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_TextIsEmpty_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_TeamRankingResult_League",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_CustomEvent_IsSelected",
+    "Outer": "ExecuteUbergraph_WBP_TeamRankingResult_League",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_CustomEvent_IsUpCondition",
+    "Outer": "ExecuteUbergraph_WBP_TeamRankingResult_League",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_SwitchEnum_CmpSuccess",
+    "Outer": "ExecuteUbergraph_WBP_TeamRankingResult_League",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "Temp_bool_Variable",
+    "Outer": "ExecuteUbergraph_WBP_TeamRankingResult_League",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "Temp_bool_Variable_1",
+    "Outer": "ExecuteUbergraph_WBP_TeamRankingResult_League",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "InText",
+    "Outer": "SetConditionText",
+    "Class": "UScriptClass'TextProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "SetConditionText",
+    "Outer": "WBP_TeamRankingResult_League_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "TextProperty'WBP_TeamRankingResult_League_C:SetConditionText.InText'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.13"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_TeamRankingResult_League_C:SetConditionText.IsUpCondition'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.15"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "IsUpCondition",
+    "Outer": "SetConditionText",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "Function",
+    "Name": "Deselected",
+    "Outer": "WBP_TeamRankingResult_League_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "BlackOut",
+    "Outer": "WBP_TeamRankingResult_League_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "NextLeagueRankUp",
+    "Outer": "WBP_TeamRankingResult_League_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "NextLeagueRank",
+    "Outer": "WBP_TeamRankingResult_League_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "RankUp",
+    "Outer": "WBP_TeamRankingResult_League_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Outer": "LeagueRank",
+    "Class": "UScriptClass'ByteProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": null
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "LeagueRank",
+    "Outer": "SetRank",
+    "Class": "UScriptClass'EnumProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "Enum": {
+      "ObjectName": "Enum'ETeamLeagueRankId'",
+      "ObjectPath": "/Script/GameProject"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'WBP_TeamRankingResult_League_C:SetRank.LeagueRank.UnderlyingType'",
+      "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.21"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "SetRank",
+    "Outer": "WBP_TeamRankingResult_League_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "EnumProperty'WBP_TeamRankingResult_League_C:SetRank.LeagueRank'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.22"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_TeamRankingResult_League_C:SetRank.IsSelected'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.24"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "IsSelected",
+    "Outer": "SetRank",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Outer": "K2Node_CustomEvent_LeagueRank",
+    "Class": "UScriptClass'ByteProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": null
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_LeagueBase",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_TeamRankingResult_League_C:WidgetTree.CanvasPanel_LeagueBase.CanvasPanelSlot_5'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.35"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_TeamRankingResult_League_C:WidgetTree.CanvasPanel_LeagueBase.CanvasPanelSlot_6'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.36"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_TeamRankingResult_League_C:WidgetTree.CanvasPanel_LeagueBase.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.30"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_TeamRankingResult_League_C:WidgetTree.CanvasPanel_LeagueBase.CanvasPanelSlot_3'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.34"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_TeamRankingResult_League_C:WidgetTree.CanvasPanel_LeagueBase.CanvasPanelSlot_7'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.37"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_TeamRankingResult_League_C:WidgetTree.CanvasPanel_LeagueBase.CanvasPanelSlot_2'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.33"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_TeamRankingResult_League_C:WidgetTree.CanvasPanel_LeagueBase.CanvasPanelSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.31"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_TeamRankingResult_League_C:WidgetTree.CanvasPanel_LeagueBase.CanvasPanelSlot_10'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.32"
+        }
+      ],
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "RankUpCondition",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_TeamRankingResult_League_C:WidgetTree.RankUpCondition.CanvasPanelSlot_5'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.41"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_TeamRankingResult_League_C:WidgetTree.RankUpCondition.CanvasPanelSlot_2'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.39"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_TeamRankingResult_League_C:WidgetTree.RankUpCondition.CanvasPanelSlot_3'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.40"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_TeamRankingResult_League_C:WidgetTree.RankUpCondition.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.38"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_TeamRankingResult_League_C:WidgetTree.CanvasPanel_LeagueBase.CanvasPanelSlot_10'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.32"
+      },
+      "bIsVariable": true,
+      "Visibility": "ESlateVisibility::Collapsed"
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_LeagueBase",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_LeagueBase.CanvasPanelSlot_5'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.47"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_LeagueBase.CanvasPanelSlot_6'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.48"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_LeagueBase.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.42"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_LeagueBase.CanvasPanelSlot_3'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.46"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_LeagueBase.CanvasPanelSlot_7'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.49"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_LeagueBase.CanvasPanelSlot_2'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.45"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_LeagueBase.CanvasPanelSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.43"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_LeagueBase.CanvasPanelSlot_10'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.44"
+        }
+      ],
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "RankUpCondition",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.RankUpCondition.CanvasPanelSlot_5'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.53"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.RankUpCondition.CanvasPanelSlot_2'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.51"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.RankUpCondition.CanvasPanelSlot_3'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.52"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.RankUpCondition.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.50"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_LeagueBase.CanvasPanelSlot_10'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.44"
+      },
+      "bIsVariable": true,
+      "Visibility": "ESlateVisibility::Collapsed"
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "CanvasPanel_LeagueBase",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 200.0,
+          "Bottom": 612.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_TeamRankingResult_League_C:WidgetTree.CanvasPanel_LeagueBase'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.26"
+      },
+      "Content": {
+        "ObjectName": "Image'WBP_TeamRankingResult_League_C:WidgetTree.LeagueBase'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.65"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "CanvasPanel_LeagueBase",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": -14.0,
+          "Right": 200.0,
+          "Bottom": 200.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_TeamRankingResult_League_C:WidgetTree.CanvasPanel_LeagueBase'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.26"
+      },
+      "Content": {
+        "ObjectName": "Image'WBP_TeamRankingResult_League_C:WidgetTree.LeagueIcon'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.69"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_10",
+    "Outer": "CanvasPanel_LeagueBase",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 180.0,
+          "Bottom": 600.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_TeamRankingResult_League_C:WidgetTree.CanvasPanel_LeagueBase'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.26"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WBP_TeamRankingResult_League_C:WidgetTree.RankUpCondition'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.27"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_2",
+    "Outer": "CanvasPanel_LeagueBase",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": 241.15907,
+          "Right": 240.0,
+          "Bottom": 52.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_TeamRankingResult_League_C:WidgetTree.CanvasPanel_LeagueBase'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.26"
+      },
+      "Content": {
+        "ObjectName": "Image'WBP_TeamRankingResult_League_C:WidgetTree.Belonging'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.63"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_3",
+    "Outer": "CanvasPanel_LeagueBase",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 200.0,
+          "Bottom": 612.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_TeamRankingResult_League_C:WidgetTree.CanvasPanel_LeagueBase'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.26"
+      },
+      "Content": {
+        "ObjectName": "Image'WBP_TeamRankingResult_League_C:WidgetTree.LeagueEff'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.67"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_5",
+    "Outer": "CanvasPanel_LeagueBase",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 240.0,
+          "Bottom": 960.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_TeamRankingResult_League_C:WidgetTree.CanvasPanel_LeagueBase'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.26"
+      },
+      "Content": {
+        "ObjectName": "Image'WBP_TeamRankingResult_League_C:WidgetTree.BaseEff'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.62"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_6",
+    "Outer": "CanvasPanel_LeagueBase",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 200.0,
+          "Bottom": 612.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_TeamRankingResult_League_C:WidgetTree.CanvasPanel_LeagueBase'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.26"
+      },
+      "Content": {
+        "ObjectName": "Image'WBP_TeamRankingResult_League_C:WidgetTree.LeagueBase_BG'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.66"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_7",
+    "Outer": "CanvasPanel_LeagueBase",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 220.0,
+          "Bottom": 632.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_TeamRankingResult_League_C:WidgetTree.CanvasPanel_LeagueBase'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.26"
+      },
+      "Content": {
+        "ObjectName": "Image'WBP_TeamRankingResult_League_C:WidgetTree.LeagueEff_Frame'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.68"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "RankUpCondition",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": 154.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_TeamRankingResult_League_C:WidgetTree.RankUpCondition'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.27"
+      },
+      "Content": {
+        "ObjectName": "Image'WBP_TeamRankingResult_League_C:WidgetTree.P_RankUpDown'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.70"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_2",
+    "Outer": "RankUpCondition",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": 114.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_TeamRankingResult_League_C:WidgetTree.RankUpCondition'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.27"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WBP_TeamRankingResult_League_C:WidgetTree.ConditionType'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.107"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_3",
+    "Outer": "RankUpCondition",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": 240.0,
+          "Right": 118.0,
+          "Bottom": 116.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_TeamRankingResult_League_C:WidgetTree.RankUpCondition'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.27"
+      },
+      "Content": {
+        "ObjectName": "SizeBox'WBP_TeamRankingResult_League_C:WidgetTree.SizeBox_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.100"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_5",
+    "Outer": "RankUpCondition",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": 170.0,
+          "Right": 150.0,
+          "Bottom": 150.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_TeamRankingResult_League_C:WidgetTree.RankUpCondition'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.27"
+      },
+      "Content": {
+        "ObjectName": "Image'WBP_TeamRankingResult_League_C:WidgetTree.Image_200'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.64"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "CanvasPanel_LeagueBase",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 200.0,
+          "Bottom": 612.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_LeagueBase'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.28"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.LeagueBase'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.74"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "CanvasPanel_LeagueBase",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": -14.0,
+          "Right": 200.0,
+          "Bottom": 200.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_LeagueBase'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.28"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.LeagueIcon'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.78"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_10",
+    "Outer": "CanvasPanel_LeagueBase",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 180.0,
+          "Bottom": 600.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_LeagueBase'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.28"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.RankUpCondition'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.29"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_2",
+    "Outer": "CanvasPanel_LeagueBase",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": 241.15907,
+          "Right": 240.0,
+          "Bottom": 52.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_LeagueBase'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.28"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.Belonging'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.72"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_3",
+    "Outer": "CanvasPanel_LeagueBase",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 200.0,
+          "Bottom": 612.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_LeagueBase'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.28"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.LeagueEff'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.76"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_5",
+    "Outer": "CanvasPanel_LeagueBase",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 240.0,
+          "Bottom": 960.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_LeagueBase'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.28"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.BaseEff'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.71"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_6",
+    "Outer": "CanvasPanel_LeagueBase",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 200.0,
+          "Bottom": 612.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_LeagueBase'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.28"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.LeagueBase_BG'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.75"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_7",
+    "Outer": "CanvasPanel_LeagueBase",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 220.0,
+          "Bottom": 632.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_LeagueBase'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.28"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.LeagueEff_Frame'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.77"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "RankUpCondition",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": 154.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.RankUpCondition'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.29"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.P_RankUpDown'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.79"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_2",
+    "Outer": "RankUpCondition",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": 114.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.RankUpCondition'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.29"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.ConditionType'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.109"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_3",
+    "Outer": "RankUpCondition",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": 240.0,
+          "Right": 118.0,
+          "Bottom": 116.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.RankUpCondition'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.29"
+      },
+      "Content": {
+        "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.SizeBox_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.101"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_5",
+    "Outer": "RankUpCondition",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": 170.0,
+          "Right": 150.0,
+          "Bottom": 150.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.RankUpCondition'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.29"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.Image_200'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.73"
+      }
+    }
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "K2Node_CustomEvent_LeagueRank",
+    "Outer": "ExecuteUbergraph_WBP_TeamRankingResult_League",
+    "Class": "UScriptClass'EnumProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": {
+      "ObjectName": "Enum'ETeamLeagueRankId'",
+      "ObjectPath": "/Script/GameProject"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'WBP_TeamRankingResult_League_C:ExecuteUbergraph_WBP_TeamRankingResult_League.K2Node_CustomEvent_LeagueRank.UnderlyingType'",
+      "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.25"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "Basic",
+    "Outer": "WBP_TeamRankingResult_League_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "Bronze",
+    "Outer": "WBP_TeamRankingResult_League_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "Gold",
+    "Outer": "WBP_TeamRankingResult_League_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "Master",
+    "Outer": "WBP_TeamRankingResult_League_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "Plutinum",
+    "Outer": "WBP_TeamRankingResult_League_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "Selected",
+    "Outer": "WBP_TeamRankingResult_League_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "Silver",
+    "Outer": "WBP_TeamRankingResult_League_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Image",
+    "Name": "BaseEff",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ResourceObject": {
+          "ObjectName": "MaterialInstanceConstant'MI_TeamRankingResult_Gradation'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/Material/MI_TeamRankingResult_Gradation.0"
+        }
+      },
+      "ColorAndOpacity": {
+        "R": 0.564712,
+        "G": 1.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "C6FF00"
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_TeamRankingResult_League_C:WidgetTree.CanvasPanel_LeagueBase.CanvasPanelSlot_5'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.35"
+      },
+      "RenderTransform": {
+        "Scale": {
+          "X": 0.9,
+          "Y": 0.9
+        }
+      },
+      "Visibility": "ESlateVisibility::Collapsed"
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Belonging",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ResourceObject": {
+          "ObjectName": "MaterialInstanceConstant'MI_TeamLeagueScroll'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/Material/MI_TeamLeagueScroll.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_TeamRankingResult_League_C:WidgetTree.CanvasPanel_LeagueBase.CanvasPanelSlot_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.33"
+      },
+      "RenderTransform": {
+        "Scale": {
+          "X": 3.0,
+          "Y": 1.0
+        },
+        "Shear": {
+          "X": -21.0,
+          "Y": 0.0
+        },
+        "Angle": -22.0
+      },
+      "Visibility": "ESlateVisibility::Collapsed"
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Image_200",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ColorAndOpacity": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 0.8,
+        "Hex": "CC000000"
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_TeamRankingResult_League_C:WidgetTree.RankUpCondition.CanvasPanelSlot_5'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.41"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "LeagueBase",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 200.0,
+          "Y": 612.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_TeamRankingResult_LeagueBase_06'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/Texture/T_TeamRankingResult_LeagueBase_06.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_TeamRankingResult_League_C:WidgetTree.CanvasPanel_LeagueBase.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.30"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "LeagueBase_BG",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 240.0,
+          "Y": 652.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_TeamRankingResult_LeagueBase_BG'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/Texture/T_TeamRankingResult_LeagueBase_BG.0"
+        }
+      },
+      "ColorAndOpacity": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "000000"
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_TeamRankingResult_League_C:WidgetTree.CanvasPanel_LeagueBase.CanvasPanelSlot_6'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.36"
+      },
+      "Visibility": "ESlateVisibility::Collapsed"
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "LeagueEff",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 200.0,
+          "Y": 612.0
+        }
+      },
+      "ColorAndOpacity": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 0.02,
+        "Hex": "05FFFFFF"
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_TeamRankingResult_League_C:WidgetTree.CanvasPanel_LeagueBase.CanvasPanelSlot_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.34"
+      },
+      "Visibility": "ESlateVisibility::Collapsed"
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "LeagueEff_Frame",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 200.0,
+          "Y": 612.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Material'M_TeamRankingResult_Eff'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/Material/M_TeamRankingResult_Eff.0"
+        }
+      },
+      "ColorAndOpacity": {
+        "R": 0.564712,
+        "G": 1.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "C6FF00"
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_TeamRankingResult_League_C:WidgetTree.CanvasPanel_LeagueBase.CanvasPanelSlot_7'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.37"
+      },
+      "Visibility": "ESlateVisibility::Collapsed"
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "LeagueIcon",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 512.0,
+          "Y": 512.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_TeamLeagueIcon_06'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/TeamLeagueIcon/Texture/T_TeamLeagueIcon_06.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_TeamRankingResult_League_C:WidgetTree.CanvasPanel_LeagueBase.CanvasPanelSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.31"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "P_RankUpDown",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 120.0,
+          "Y": 48.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_TeamRankingResult_RankUp'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/Texture/T_TeamRankingResult_RankUp.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_TeamRankingResult_League_C:WidgetTree.RankUpCondition.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.38"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "BaseEff",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ResourceObject": {
+          "ObjectName": "MaterialInstanceConstant'MI_TeamRankingResult_Gradation'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/Material/MI_TeamRankingResult_Gradation.0"
+        }
+      },
+      "ColorAndOpacity": {
+        "R": 0.564712,
+        "G": 1.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "C6FF00"
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_LeagueBase.CanvasPanelSlot_5'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.47"
+      },
+      "RenderTransform": {
+        "Scale": {
+          "X": 0.9,
+          "Y": 0.9
+        }
+      },
+      "Visibility": "ESlateVisibility::Collapsed"
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Belonging",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ResourceObject": {
+          "ObjectName": "MaterialInstanceConstant'MI_TeamLeagueScroll'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/Material/MI_TeamLeagueScroll.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_LeagueBase.CanvasPanelSlot_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.45"
+      },
+      "RenderTransform": {
+        "Scale": {
+          "X": 3.0,
+          "Y": 1.0
+        },
+        "Shear": {
+          "X": -21.0,
+          "Y": 0.0
+        },
+        "Angle": -22.0
+      },
+      "Visibility": "ESlateVisibility::Collapsed"
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Image_200",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ColorAndOpacity": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 0.8,
+        "Hex": "CC000000"
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.RankUpCondition.CanvasPanelSlot_5'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.53"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "LeagueBase",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 200.0,
+          "Y": 612.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_TeamRankingResult_LeagueBase_06'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/Texture/T_TeamRankingResult_LeagueBase_06.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_LeagueBase.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.42"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "LeagueBase_BG",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 240.0,
+          "Y": 652.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_TeamRankingResult_LeagueBase_BG'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/Texture/T_TeamRankingResult_LeagueBase_BG.0"
+        }
+      },
+      "ColorAndOpacity": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "000000"
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_LeagueBase.CanvasPanelSlot_6'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.48"
+      },
+      "Visibility": "ESlateVisibility::Collapsed"
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "LeagueEff",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 200.0,
+          "Y": 612.0
+        }
+      },
+      "ColorAndOpacity": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 0.02,
+        "Hex": "05FFFFFF"
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_LeagueBase.CanvasPanelSlot_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.46"
+      },
+      "Visibility": "ESlateVisibility::Collapsed"
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "LeagueEff_Frame",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 200.0,
+          "Y": 612.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Material'M_TeamRankingResult_Eff'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/Material/M_TeamRankingResult_Eff.0"
+        }
+      },
+      "ColorAndOpacity": {
+        "R": 0.564712,
+        "G": 1.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "C6FF00"
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_LeagueBase.CanvasPanelSlot_7'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.49"
+      },
+      "Visibility": "ESlateVisibility::Collapsed"
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "LeagueIcon",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 512.0,
+          "Y": 512.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_TeamLeagueIcon_06'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/TeamLeagueIcon/Texture/T_TeamLeagueIcon_06.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_LeagueBase.CanvasPanelSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.43"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "P_RankUpDown",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 120.0,
+          "Y": 48.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_TeamRankingResult_RankUp'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/Texture/T_TeamRankingResult_RankUp.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.RankUpCondition.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.50"
+      }
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Belonging",
+    "Outer": "WBP_TeamRankingResult_League_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'Image'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CanvasPanel_LeagueBase",
+    "Outer": "WBP_TeamRankingResult_League_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'CanvasPanel'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Condition",
+    "Outer": "WBP_TeamRankingResult_League_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'TextBlock'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "ConditionType",
+    "Outer": "WBP_TeamRankingResult_League_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'TextBlock'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetDynamicMaterial_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_TeamRankingResult_League",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyClass": {
+      "ObjectName": "Class'MaterialInstanceDynamic'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "K2Node_Select_Default_1",
+    "Outer": "ExecuteUbergraph_WBP_TeamRankingResult_League",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyClass": {
+      "ObjectName": "Class'Texture2D'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Temp_object_Variable",
+    "Outer": "ExecuteUbergraph_WBP_TeamRankingResult_League",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyClass": {
+      "ObjectName": "Class'Texture2D'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Temp_object_Variable_1",
+    "Outer": "ExecuteUbergraph_WBP_TeamRankingResult_League",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyClass": {
+      "ObjectName": "Class'Texture2D'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Image_200",
+    "Outer": "WBP_TeamRankingResult_League_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'Image'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "LeagueBase",
+    "Outer": "WBP_TeamRankingResult_League_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'Image'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "LeagueBase_BG",
+    "Outer": "WBP_TeamRankingResult_League_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'Image'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "LeagueEff",
+    "Outer": "WBP_TeamRankingResult_League_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'Image'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "LeagueEff_Frame",
+    "Outer": "WBP_TeamRankingResult_League_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'Image'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "LeagueIcon",
+    "Outer": "WBP_TeamRankingResult_League_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'Image'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "P_RankUpDown",
+    "Outer": "WBP_TeamRankingResult_League_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'Image'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "RankUpCondition",
+    "Outer": "WBP_TeamRankingResult_League_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'CanvasPanel'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ScaleBox",
+    "Name": "ScaleBox_0",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'ScaleBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "ScaleBoxSlot'WBP_TeamRankingResult_League_C:WidgetTree.ScaleBox_0.ScaleBoxSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.98"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "SizeBoxSlot'WBP_TeamRankingResult_League_C:WidgetTree.SizeBox_0.SizeBoxSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.102"
+      }
+    }
+  },
+  {
+    "Type": "ScaleBox",
+    "Name": "ScaleBox_0",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'ScaleBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "ScaleBoxSlot'WidgetArchetype:WidgetTree_0.ScaleBox_0.ScaleBoxSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.99"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "SizeBoxSlot'WidgetArchetype:WidgetTree_0.SizeBox_0.SizeBoxSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.103"
+      }
+    }
+  },
+  {
+    "Type": "ScaleBoxSlot",
+    "Name": "ScaleBoxSlot_0",
+    "Outer": "ScaleBox_0",
+    "Class": "UScriptClass'ScaleBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "VerticalAlignment": "VAlign_Top",
+      "Parent": {
+        "ObjectName": "ScaleBox'WBP_TeamRankingResult_League_C:WidgetTree.ScaleBox_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.96"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WBP_TeamRankingResult_League_C:WidgetTree.Condition'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.106"
+      }
+    }
+  },
+  {
+    "Type": "ScaleBoxSlot",
+    "Name": "ScaleBoxSlot_0",
+    "Outer": "ScaleBox_0",
+    "Class": "UScriptClass'ScaleBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "VerticalAlignment": "VAlign_Top",
+      "Parent": {
+        "ObjectName": "ScaleBox'WidgetArchetype:WidgetTree_0.ScaleBox_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.97"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.Condition'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.108"
+      }
+    }
+  },
+  {
+    "Type": "SizeBox",
+    "Name": "SizeBox_0",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'SizeBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "SizeBoxSlot'WBP_TeamRankingResult_League_C:WidgetTree.SizeBox_0.SizeBoxSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.102"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_TeamRankingResult_League_C:WidgetTree.RankUpCondition.CanvasPanelSlot_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.40"
+      }
+    }
+  },
+  {
+    "Type": "SizeBox",
+    "Name": "SizeBox_0",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'SizeBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "SizeBoxSlot'WidgetArchetype:WidgetTree_0.SizeBox_0.SizeBoxSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.103"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.RankUpCondition.CanvasPanelSlot_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.52"
+      }
+    }
+  },
+  {
+    "Type": "SizeBoxSlot",
+    "Name": "SizeBoxSlot_0",
+    "Outer": "SizeBox_0",
+    "Class": "UScriptClass'SizeBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "SizeBox'WBP_TeamRankingResult_League_C:WidgetTree.SizeBox_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.100"
+      },
+      "Content": {
+        "ObjectName": "ScaleBox'WBP_TeamRankingResult_League_C:WidgetTree.ScaleBox_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.96"
+      }
+    }
+  },
+  {
+    "Type": "SizeBoxSlot",
+    "Name": "SizeBoxSlot_0",
+    "Outer": "SizeBox_0",
+    "Class": "UScriptClass'SizeBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.SizeBox_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.101"
+      },
+      "Content": {
+        "ObjectName": "ScaleBox'WidgetArchetype:WidgetTree_0.ScaleBox_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.97"
+      }
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "K2Node_MakeStruct_WidgetTransform",
+    "Outer": "ExecuteUbergraph_WBP_TeamRankingResult_League",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Struct": {
+      "ObjectName": "ScriptStruct'WidgetTransform'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "K2Node_MakeStruct_WidgetTransform_1",
+    "Outer": "ExecuteUbergraph_WBP_TeamRankingResult_League",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Struct": {
+      "ObjectName": "ScriptStruct'WidgetTransform'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "Condition",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "F6B8AB0647FE03FF7B79B5B614F1BAB0",
+        "SourceString": "チームポイント\r\n5000以上",
+        "LocalizedString": "チームポイント\r\n5000以上"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "TypefaceFontName": "RodinN_EB",
+        "Size": 14
+      },
+      "ShadowOffset": {
+        "X": 2.0,
+        "Y": 2.0
+      },
+      "ShadowColorAndOpacity": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "000000"
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "ScaleBoxSlot'WBP_TeamRankingResult_League_C:WidgetTree.ScaleBox_0.ScaleBoxSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.98"
+      },
+      "RenderTransform": {
+        "Shear": {
+          "X": -10.0,
+          "Y": 0.0
+        }
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "ConditionType",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "34D022884F03B64DC86C4284682CAA38",
+        "SourceString": "昇格条件",
+        "LocalizedString": "昇格条件"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "TypefaceFontName": "RodinN_EB",
+        "Size": 10
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_TeamRankingResult_League_C:WidgetTree.RankUpCondition.CanvasPanelSlot_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.39"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "Condition",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "F6B8AB0647FE03FF7B79B5B614F1BAB0",
+        "SourceString": "チームポイント\r\n5000以上",
+        "LocalizedString": "チームポイント\r\n5000以上"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "TypefaceFontName": "RodinN_EB",
+        "Size": 14
+      },
+      "ShadowOffset": {
+        "X": 2.0,
+        "Y": 2.0
+      },
+      "ShadowColorAndOpacity": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "000000"
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "ScaleBoxSlot'WidgetArchetype:WidgetTree_0.ScaleBox_0.ScaleBoxSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.99"
+      },
+      "RenderTransform": {
+        "Shear": {
+          "X": -10.0,
+          "Y": 0.0
+        }
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "ConditionType",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "34D022884F03B64DC86C4284682CAA38",
+        "SourceString": "昇格条件",
+        "LocalizedString": "昇格条件"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "TypefaceFontName": "RodinN_EB",
+        "Size": 10
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.RankUpCondition.CanvasPanelSlot_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.51"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "K2Node_CustomEvent_InText",
+    "Outer": "ExecuteUbergraph_WBP_TeamRankingResult_League",
+    "Class": "UScriptClass'TextProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "K2Node_Select_Default",
+    "Outer": "ExecuteUbergraph_WBP_TeamRankingResult_League",
+    "Class": "UScriptClass'TextProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "Temp_text_Variable",
+    "Outer": "ExecuteUbergraph_WBP_TeamRankingResult_League",
+    "Class": "UScriptClass'TextProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "Temp_text_Variable_1",
+    "Outer": "ExecuteUbergraph_WBP_TeamRankingResult_League",
+    "Class": "UScriptClass'TextProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "WBP_TeamRankingResult_League_C",
+    "Name": "WidgetArchetype",
+    "Class": "WidgetBlueprintGeneratedClass'GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.WBP_TeamRankingResult_League_C'",
+    "Template": {
+      "ObjectName": "WBP_TeamRankingResult_League_C'Default__WBP_TeamRankingResult_League_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.2"
+    },
+    "Flags": "RF_Public | RF_Standalone | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "BaseEff": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.BaseEff'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.71"
+      },
+      "Belonging": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.Belonging'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.72"
+      },
+      "CanvasPanel_LeagueBase": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_LeagueBase'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.28"
+      },
+      "Condition": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.Condition'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.108"
+      },
+      "ConditionType": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.ConditionType'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.109"
+      },
+      "Image_200": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.Image_200'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.73"
+      },
+      "LeagueBase": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.LeagueBase'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.74"
+      },
+      "LeagueBase_BG": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.LeagueBase_BG'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.75"
+      },
+      "LeagueEff": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.LeagueEff'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.76"
+      },
+      "LeagueEff_Frame": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.LeagueEff_Frame'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.77"
+      },
+      "LeagueIcon": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.LeagueIcon'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.78"
+      },
+      "P_RankUpDown": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.P_RankUpDown'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.79"
+      },
+      "RankUpCondition": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.RankUpCondition'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.29"
+      },
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.116"
+      },
+      "bCookedWidgetTree": true
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Outer": "WBP_TeamRankingResult_League_C",
+    "Class": "UScriptClass'WidgetTree'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CanvasPanel'WBP_TeamRankingResult_League_C:WidgetTree.CanvasPanel_LeagueBase'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.26"
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree_0",
+    "Outer": "WidgetArchetype",
+    "Class": "UScriptClass'WidgetTree'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_LeagueBase'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/TeamRankingResult/WBP_TeamRankingResult_League.28"
+      }
+    }
+  }
+]

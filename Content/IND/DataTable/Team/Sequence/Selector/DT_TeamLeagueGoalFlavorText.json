@@ -1,0 +1,199 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_TeamLeagueGoalFlavorText",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "UserDefinedStruct'ST_TeamLeagueGoalFlavorText'",
+        "ObjectPath": "GameProject/Content/IND/DataTable/Team/Sequence/Selector/ST_TeamLeagueGoalFlavorText.2"
+      }
+    },
+    "Rows": {
+      "NewRow": {
+        "LeagueRankId_6_304FDB314122C5F538025FA8BB5439FB": "ETeamLeagueRankId::BasicLeagueRank",
+        "Slogan_5_FE0844CE4887459DEE6A66B32B8CC034": {
+          "TableId": "/Game/IND/StringTable/BP/ST_GameMessage.ST_GameMessage",
+          "Key": "TeamSeq_TeamLeagueResult_Slogan_Basic",
+          "SourceString": "チームポイント1000以上を目指せ！",
+          "LocalizedString": "Go for over 1000 team points!"
+        },
+        "Conditions_13_6242FF3C443D0BE2D0DEA98F146637D3": [
+          {
+            "Key": "ETeamLeagueRankId::BasicLeagueRank",
+            "Value": {
+              "CultureInvariantString": null
+            }
+          },
+          {
+            "Key": "ETeamLeagueRankId::BronzeLeagueRank",
+            "Value": {
+              "Namespace": "",
+              "Key": "B59528024E7773D762AC95AAD872A305",
+              "SourceString": "Team Points 1000 or more",
+              "LocalizedString": "Team Points 1000 or more"
+            }
+          },
+          {
+            "Key": "ETeamLeagueRankId::SilverLeagueRank",
+            "Value": {
+              "Namespace": "",
+              "Key": "5DD3E5384F0623BB156A58BD736EF93E",
+              "SourceString": "Team Points 5000 or more",
+              "LocalizedString": "Team Points 5000 or more"
+            }
+          }
+        ]
+      },
+      "NewRow_0": {
+        "LeagueRankId_6_304FDB314122C5F538025FA8BB5439FB": "ETeamLeagueRankId::BronzeLeagueRank",
+        "Slogan_5_FE0844CE4887459DEE6A66B32B8CC034": {
+          "TableId": "/Game/IND/StringTable/BP/ST_GameMessage.ST_GameMessage",
+          "Key": "TeamSeq_TeamLeagueResult_Slogan_Bronze",
+          "SourceString": "チームポイント5000以上を目指せ！",
+          "LocalizedString": "Go for over 5000 team points!"
+        },
+        "Conditions_13_6242FF3C443D0BE2D0DEA98F146637D3": [
+          {
+            "Key": "ETeamLeagueRankId::BronzeLeagueRank",
+            "Value": {
+              "CultureInvariantString": null
+            }
+          },
+          {
+            "Key": "ETeamLeagueRankId::SilverLeagueRank",
+            "Value": {
+              "Namespace": "",
+              "Key": "8092DD3641CA3E32CCF636AA31B2D5BF",
+              "SourceString": "Team Points 5000 or more",
+              "LocalizedString": "Team Points 5000 or more"
+            }
+          }
+        ]
+      },
+      "NewRow_1": {
+        "LeagueRankId_6_304FDB314122C5F538025FA8BB5439FB": "ETeamLeagueRankId::SilverLeagueRank",
+        "Slogan_5_FE0844CE4887459DEE6A66B32B8CC034": {
+          "TableId": "/Game/IND/StringTable/BP/ST_GameMessage.ST_GameMessage",
+          "Key": "TeamSeq_TeamLeagueResult_Slogan_Silver",
+          "SourceString": "500位以内を目指せ！",
+          "LocalizedString": "Go for the top 500!"
+        },
+        "Conditions_13_6242FF3C443D0BE2D0DEA98F146637D3": [
+          {
+            "Key": "ETeamLeagueRankId::SilverLeagueRank",
+            "Value": {
+              "CultureInvariantString": null
+            }
+          },
+          {
+            "Key": "ETeamLeagueRankId::GoldLeagueRank",
+            "Value": {
+              "Namespace": "",
+              "Key": "74AB220C492D8BE69D616EA6F7EB918E",
+              "SourceString": "Top 500",
+              "LocalizedString": "Top 500"
+            }
+          }
+        ]
+      },
+      "NewRow_2": {
+        "LeagueRankId_6_304FDB314122C5F538025FA8BB5439FB": "ETeamLeagueRankId::GoldLeagueRank",
+        "Slogan_5_FE0844CE4887459DEE6A66B32B8CC034": {
+          "TableId": "/Game/IND/StringTable/BP/ST_GameMessage.ST_GameMessage",
+          "Key": "TeamSeq_TeamLeagueResult_Slogan_Gold",
+          "SourceString": "200位以内を目指せ！",
+          "LocalizedString": "Go for the top 200!"
+        },
+        "Conditions_13_6242FF3C443D0BE2D0DEA98F146637D3": [
+          {
+            "Key": "ETeamLeagueRankId::SilverLeagueRank",
+            "Value": {
+              "Namespace": "",
+              "Key": "A18BE7C1401CBA869F6BD2B1702FC635",
+              "SourceString": "Rank 1001 or lower",
+              "LocalizedString": "Rank 1001 or lower"
+            }
+          },
+          {
+            "Key": "ETeamLeagueRankId::GoldLeagueRank",
+            "Value": {
+              "CultureInvariantString": null
+            }
+          },
+          {
+            "Key": "ETeamLeagueRankId::PlatinumLeagueRank",
+            "Value": {
+              "Namespace": "",
+              "Key": "7AA3D6064B616AA3AD43BF9403B989CC",
+              "SourceString": "Top 200",
+              "LocalizedString": "Top 200"
+            }
+          }
+        ]
+      },
+      "NewRow_3": {
+        "LeagueRankId_6_304FDB314122C5F538025FA8BB5439FB": "ETeamLeagueRankId::PlatinumLeagueRank",
+        "Slogan_5_FE0844CE4887459DEE6A66B32B8CC034": {
+          "TableId": "/Game/IND/StringTable/BP/ST_GameMessage.ST_GameMessage",
+          "Key": "TeamSeq_TeamLeagueResult_Slogan_Platinum",
+          "SourceString": "50位以内を目指せ！",
+          "LocalizedString": "Go for the top 50!"
+        },
+        "Conditions_13_6242FF3C443D0BE2D0DEA98F146637D3": [
+          {
+            "Key": "ETeamLeagueRankId::GoldLeagueRank",
+            "Value": {
+              "Namespace": "",
+              "Key": "C6D645D9402E49D59FF931841C664512",
+              "SourceString": "Rank 301 or lower",
+              "LocalizedString": "Rank 301 or lower"
+            }
+          },
+          {
+            "Key": "ETeamLeagueRankId::PlatinumLeagueRank",
+            "Value": {
+              "CultureInvariantString": null
+            }
+          },
+          {
+            "Key": "ETeamLeagueRankId::MasterLeagueRank",
+            "Value": {
+              "Namespace": "",
+              "Key": "1E2D87B6441CF363AAEF8B89B5D37E3E",
+              "SourceString": "Top 50",
+              "LocalizedString": "Top 50"
+            }
+          }
+        ]
+      },
+      "NewRow_4": {
+        "LeagueRankId_6_304FDB314122C5F538025FA8BB5439FB": "ETeamLeagueRankId::MasterLeagueRank",
+        "Slogan_5_FE0844CE4887459DEE6A66B32B8CC034": {
+          "TableId": "/Game/IND/StringTable/BP/ST_GameMessage.ST_GameMessage",
+          "Key": "TeamSeq_TeamLeagueResult_Slogan_Master",
+          "SourceString": "150位以内を目指せ！",
+          "LocalizedString": "Go for the top 150!"
+        },
+        "Conditions_13_6242FF3C443D0BE2D0DEA98F146637D3": [
+          {
+            "Key": "ETeamLeagueRankId::PlatinumLeagueRank",
+            "Value": {
+              "Namespace": "",
+              "Key": "DC848A8D4D6EFF31210150A54FDB10B7",
+              "SourceString": "Rank 151 or lower",
+              "LocalizedString": "Rank 151 or lower"
+            }
+          },
+          {
+            "Key": "ETeamLeagueRankId::MasterLeagueRank",
+            "Value": {
+              "CultureInvariantString": null
+            }
+          }
+        ]
+      }
+    }
+  }
+]

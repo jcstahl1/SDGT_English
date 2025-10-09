@@ -1,0 +1,2173 @@
+[
+  {
+    "Type": "StructProperty",
+    "Name": "UberGraphFrame",
+    "Outer": "WBP_Couse_Info_Chara_C",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "Transient | DuplicateTransient",
+    "Struct": {
+      "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "WBP_Couse_Info_Chara_C",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WBP_Couse_Info_Chara_C:WidgetTree'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.100"
+      },
+      "bAllowTemplate": true,
+      "bValidTemplate": true,
+      "TemplateAsset": {
+        "AssetPathName": "/Game/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.WidgetArchetype",
+        "SubPathString": ""
+      },
+      "UberGraphFramePointerProperty": {
+        "ObjectName": "StructProperty'WBP_Couse_Info_Chara_C:UberGraphFrame'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.0"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'WBP_Couse_Info_Chara_C:ExecuteUbergraph_WBP_Couse_Info_Chara'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.5"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'UserWidget'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'WBP_Couse_Info_Chara_C:UberGraphFrame'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.0"
+      },
+      {
+        "ObjectName": "Function'WBP_Couse_Info_Chara_C:Set_Texture'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.66"
+      },
+      {
+        "ObjectName": "Function'WBP_Couse_Info_Chara_C:Set_Image_FromCharacterID'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.60"
+      },
+      {
+        "ObjectName": "Function'WBP_Couse_Info_Chara_C:Set_Image_FromIndex'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.63"
+      },
+      {
+        "ObjectName": "Function'WBP_Couse_Info_Chara_C:Set_Image_FromAsset'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.57"
+      },
+      {
+        "ObjectName": "Function'WBP_Couse_Info_Chara_C:ExecuteUbergraph_WBP_Couse_Info_Chara'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.5"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Couse_Info_Chara_C:P_Belong'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.3"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Couse_Info_Chara_C:P_CharacterMask'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.81"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Couse_Info_Chara_C:P_CharaName'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.82"
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_WBP_Couse_Info_Chara": {
+        "ObjectName": "Function'WBP_Couse_Info_Chara_C:ExecuteUbergraph_WBP_Couse_Info_Chara'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.5"
+      },
+      "Set_Image_FromAsset": {
+        "ObjectName": "Function'WBP_Couse_Info_Chara_C:Set_Image_FromAsset'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.57"
+      },
+      "Set_Image_FromIndex": {
+        "ObjectName": "Function'WBP_Couse_Info_Chara_C:Set_Image_FromIndex'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.63"
+      },
+      "Set_Image_FromCharacterID": {
+        "ObjectName": "Function'WBP_Couse_Info_Chara_C:Set_Image_FromCharacterID'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.60"
+      },
+      "Set_Texture": {
+        "ObjectName": "Function'WBP_Couse_Info_Chara_C:Set_Texture'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.66"
+      }
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "WBP_Couse_Info_Chara_C'Default__WBP_Couse_Info_Chara_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.2"
+    }
+  },
+  {
+    "Type": "WBP_Couse_Info_Chara_C",
+    "Name": "Default__WBP_Couse_Info_Chara_C",
+    "Class": "WidgetBlueprintGeneratedClass'GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.WBP_Couse_Info_Chara_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "UberGraphFrame": {},
+      "bHasScriptImplementedTick": false,
+      "bHasScriptImplementedPaint": false
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "P_Belong",
+    "Outer": "WBP_Couse_Info_Chara_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'TextBlock'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "EntryPoint",
+    "Outer": "ExecuteUbergraph_WBP_Couse_Info_Chara",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_WBP_Couse_Info_Chara",
+    "Outer": "WBP_Couse_Info_Chara_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "IntProperty'WBP_Couse_Info_Chara_C:ExecuteUbergraph_WBP_Couse_Info_Chara.EntryPoint'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.4"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Couse_Info_Chara_C:ExecuteUbergraph_WBP_Couse_Info_Chara.Temp_bool_Variable'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.13"
+      },
+      {
+        "ObjectName": "StructProperty'WBP_Couse_Info_Chara_C:ExecuteUbergraph_WBP_Couse_Info_Chara.CallFunc_GetDesiredSize_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.92"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_Couse_Info_Chara_C:ExecuteUbergraph_WBP_Couse_Info_Chara.Temp_float_Variable'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.51"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_Couse_Info_Chara_C:ExecuteUbergraph_WBP_Couse_Info_Chara.CallFunc_BreakVector2D_X'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.43"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_Couse_Info_Chara_C:ExecuteUbergraph_WBP_Couse_Info_Chara.CallFunc_BreakVector2D_Y'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.44"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_Couse_Info_Chara_C:ExecuteUbergraph_WBP_Couse_Info_Chara.CallFunc_Divide_FloatFloat_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.45"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Couse_Info_Chara_C:ExecuteUbergraph_WBP_Couse_Info_Chara.CallFunc_Less_FloatFloat_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.8"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Couse_Info_Chara_C:ExecuteUbergraph_WBP_Couse_Info_Chara.CallFunc_Less_FloatFloat_ReturnValue_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.9"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_Couse_Info_Chara_C:ExecuteUbergraph_WBP_Couse_Info_Chara.CallFunc_Divide_FloatFloat_ReturnValue_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.46"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_Couse_Info_Chara_C:ExecuteUbergraph_WBP_Couse_Info_Chara.Temp_float_Variable_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.52"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Couse_Info_Chara_C:ExecuteUbergraph_WBP_Couse_Info_Chara.Temp_bool_Variable_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.14"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_Couse_Info_Chara_C:ExecuteUbergraph_WBP_Couse_Info_Chara.Temp_float_Variable_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.53"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Couse_Info_Chara_C:ExecuteUbergraph_WBP_Couse_Info_Chara.Temp_bool_Variable_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.15"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_Couse_Info_Chara_C:ExecuteUbergraph_WBP_Couse_Info_Chara.Temp_float_Variable_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.54"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_Couse_Info_Chara_C:ExecuteUbergraph_WBP_Couse_Info_Chara.K2Node_Select_Default'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.47"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Couse_Info_Chara_C:ExecuteUbergraph_WBP_Couse_Info_Chara.CallFunc_Less_FloatFloat_ReturnValue_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.10"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Couse_Info_Chara_C:ExecuteUbergraph_WBP_Couse_Info_Chara.K2Node_CustomEvent_Value'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.64"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_Couse_Info_Chara_C:ExecuteUbergraph_WBP_Couse_Info_Chara.K2Node_Select_Default_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.48"
+      },
+      {
+        "ObjectName": "StrProperty'WBP_Couse_Info_Chara_C:ExecuteUbergraph_WBP_Couse_Info_Chara.K2Node_CustomEvent_CharacterID'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.58"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Couse_Info_Chara_C:ExecuteUbergraph_WBP_Couse_Info_Chara.CallFunc_GetDynamicMaterial_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.78"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Couse_Info_Chara_C:ExecuteUbergraph_WBP_Couse_Info_Chara.K2Node_CustomEvent_Index'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.61"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Couse_Info_Chara_C:ExecuteUbergraph_WBP_Couse_Info_Chara.CallFunc_GenerateStoryCharacterObject_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.76"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Couse_Info_Chara_C:ExecuteUbergraph_WBP_Couse_Info_Chara.CallFunc_GenerateStoryCharacterObject_ReturnValue_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.77"
+      },
+      {
+        "ObjectName": "StructProperty'WBP_Couse_Info_Chara_C:ExecuteUbergraph_WBP_Couse_Info_Chara.CallFunc_FindStoryCharacterInfo_OutCharacterAsset'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.91"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Couse_Info_Chara_C:ExecuteUbergraph_WBP_Couse_Info_Chara.CallFunc_FindStoryCharacterInfo_OutFound'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.6"
+      },
+      {
+        "ObjectName": "StructProperty'WBP_Couse_Info_Chara_C:ExecuteUbergraph_WBP_Couse_Info_Chara.CallFunc_GetStoryCharacterInfo_OutCharacterAsset'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.93"
+      },
+      {
+        "ObjectName": "StructProperty'WBP_Couse_Info_Chara_C:ExecuteUbergraph_WBP_Couse_Info_Chara.K2Node_CustomEvent_Asset'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.55"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Couse_Info_Chara_C:ExecuteUbergraph_WBP_Couse_Info_Chara.CallFunc_Conv_SoftObjectReferenceToObject_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.75"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Couse_Info_Chara_C:ExecuteUbergraph_WBP_Couse_Info_Chara.CallFunc_IsValidSoftObjectReference_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.7"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Couse_Info_Chara_C:ExecuteUbergraph_WBP_Couse_Info_Chara.K2Node_DynamicCast_AsTexture_2D'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.80"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Couse_Info_Chara_C:ExecuteUbergraph_WBP_Couse_Info_Chara.K2Node_DynamicCast_bSuccess'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.12"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Couse_Info_Chara_C:ExecuteUbergraph_WBP_Couse_Info_Chara.CallFunc_LoadAsset_Blocking_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.79"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Couse_Info_Chara_C:ExecuteUbergraph_WBP_Couse_Info_Chara.Temp_bool_Variable_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.16"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_Couse_Info_Chara_C:ExecuteUbergraph_WBP_Couse_Info_Chara.K2Node_Select_Default_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.49"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Couse_Info_Chara_C:ExecuteUbergraph_WBP_Couse_Info_Chara.CallFunc_Less_FloatFloat_ReturnValue_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.11"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_Couse_Info_Chara_C:ExecuteUbergraph_WBP_Couse_Info_Chara.K2Node_Select_Default_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.50"
+      },
+      {
+        "ObjectName": "StructProperty'WBP_Couse_Info_Chara_C:ExecuteUbergraph_WBP_Couse_Info_Chara.CallFunc_MakeVector2D_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.94"
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction | FUNC_HasDefaults"
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_FindStoryCharacterInfo_OutFound",
+    "Outer": "ExecuteUbergraph_WBP_Couse_Info_Chara",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_IsValidSoftObjectReference_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_Couse_Info_Chara",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_Less_FloatFloat_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_Couse_Info_Chara",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_Less_FloatFloat_ReturnValue_1",
+    "Outer": "ExecuteUbergraph_WBP_Couse_Info_Chara",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_Less_FloatFloat_ReturnValue_2",
+    "Outer": "ExecuteUbergraph_WBP_Couse_Info_Chara",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_Less_FloatFloat_ReturnValue_3",
+    "Outer": "ExecuteUbergraph_WBP_Couse_Info_Chara",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_DynamicCast_bSuccess",
+    "Outer": "ExecuteUbergraph_WBP_Couse_Info_Chara",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "Temp_bool_Variable",
+    "Outer": "ExecuteUbergraph_WBP_Couse_Info_Chara",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "Temp_bool_Variable_1",
+    "Outer": "ExecuteUbergraph_WBP_Couse_Info_Chara",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "Temp_bool_Variable_2",
+    "Outer": "ExecuteUbergraph_WBP_Couse_Info_Chara",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "Temp_bool_Variable_3",
+    "Outer": "ExecuteUbergraph_WBP_Couse_Info_Chara",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_0",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Couse_Info_Chara_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.25"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Couse_Info_Chara_C:WidgetTree.NameBar_2.CanvasPanelSlot_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.33"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_1",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Couse_Info_Chara_C:WidgetTree.CanvasPanel_1.CanvasPanelSlot_2'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.27"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Couse_Info_Chara_C:WidgetTree.CanvasPanel_1.CanvasPanelSlot_3'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.28"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Couse_Info_Chara_C:WidgetTree.CanvasPanel_1.CanvasPanelSlot_4'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.29"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Couse_Info_Chara_C:WidgetTree.CanvasPanel_1.CanvasPanelSlot_19'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.26"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "ScaleBoxSlot'WBP_Couse_Info_Chara_C:WidgetTree.ScaleBox_61.ScaleBoxSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.85"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_2",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Couse_Info_Chara_C:WidgetTree.CanvasPanel_2.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.30"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "NameBar_2",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Couse_Info_Chara_C:WidgetTree.NameBar_2.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.31"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Couse_Info_Chara_C:WidgetTree.NameBar_2.CanvasPanelSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.32"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Couse_Info_Chara_C:WidgetTree.NameBar_2.CanvasPanelSlot_2'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.33"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Couse_Info_Chara_C:WidgetTree.CanvasPanel_1.CanvasPanelSlot_19'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.26"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_0",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.34"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.NameBar_2.CanvasPanelSlot_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.42"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_1",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_1.CanvasPanelSlot_2'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.36"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_1.CanvasPanelSlot_3'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.37"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_1.CanvasPanelSlot_4'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.38"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_1.CanvasPanelSlot_19'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.35"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "ScaleBoxSlot'WidgetArchetype:WidgetTree_0.ScaleBox_61.ScaleBoxSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.86"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_2",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_2.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.39"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "NameBar_2",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.NameBar_2.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.40"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.NameBar_2.CanvasPanelSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.41"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.NameBar_2.CanvasPanelSlot_2'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.42"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_1.CanvasPanelSlot_19'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.35"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 170.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 1.0,
+            "Y": 1.0
+          },
+          "Maximum": {
+            "X": 1.0,
+            "Y": 1.0
+          }
+        },
+        "Alignment": {
+          "X": 1.0,
+          "Y": 1.0
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Couse_Info_Chara_C:WidgetTree.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.17"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WBP_Couse_Info_Chara_C:WidgetTree.P_CharaName'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.96"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_19",
+    "Outer": "CanvasPanel_1",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 296.0,
+          "Bottom": 296.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Couse_Info_Chara_C:WidgetTree.CanvasPanel_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.18"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WBP_Couse_Info_Chara_C:WidgetTree.NameBar_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.20"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_2",
+    "Outer": "CanvasPanel_1",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Couse_Info_Chara_C:WidgetTree.CanvasPanel_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.18"
+      },
+      "Content": {
+        "ObjectName": "Image'WBP_Couse_Info_Chara_C:WidgetTree.Base'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.67"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_3",
+    "Outer": "CanvasPanel_1",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Couse_Info_Chara_C:WidgetTree.CanvasPanel_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.18"
+      },
+      "Content": {
+        "ObjectName": "Image'WBP_Couse_Info_Chara_C:WidgetTree.P_CharacterMask'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.69"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_4",
+    "Outer": "CanvasPanel_1",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Couse_Info_Chara_C:WidgetTree.CanvasPanel_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.18"
+      },
+      "Content": {
+        "ObjectName": "Image'WBP_Couse_Info_Chara_C:WidgetTree.waku'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.70"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "CanvasPanel_2",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 296.0,
+          "Bottom": 296.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Couse_Info_Chara_C:WidgetTree.CanvasPanel_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.19"
+      },
+      "Content": {
+        "ObjectName": "SizeBox'WBP_Couse_Info_Chara_C:WidgetTree.SizeBox_60'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.87"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "NameBar_2",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -127.0,
+          "Top": 100.0,
+          "Right": 190.0,
+          "Bottom": 24.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Couse_Info_Chara_C:WidgetTree.NameBar_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.20"
+      },
+      "Content": {
+        "ObjectName": "Image'WBP_Couse_Info_Chara_C:WidgetTree.NameBase'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.68"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "NameBar_2",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 30.0,
+          "Top": 238.63994
+        },
+        "Alignment": {
+          "X": 0.0,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Couse_Info_Chara_C:WidgetTree.NameBar_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.20"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WBP_Couse_Info_Chara_C:WidgetTree.P_Belong'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.95"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_2",
+    "Outer": "NameBar_2",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 101.40554,
+          "Top": 240.0
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Couse_Info_Chara_C:WidgetTree.NameBar_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.20"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WBP_Couse_Info_Chara_C:WidgetTree.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.17"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 170.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 1.0,
+            "Y": 1.0
+          },
+          "Maximum": {
+            "X": 1.0,
+            "Y": 1.0
+          }
+        },
+        "Alignment": {
+          "X": 1.0,
+          "Y": 1.0
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.21"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.P_CharaName'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.98"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_19",
+    "Outer": "CanvasPanel_1",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 296.0,
+          "Bottom": 296.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.22"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.NameBar_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.24"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_2",
+    "Outer": "CanvasPanel_1",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.22"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.Base'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.71"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_3",
+    "Outer": "CanvasPanel_1",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.22"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.P_CharacterMask'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.73"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_4",
+    "Outer": "CanvasPanel_1",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.22"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.waku'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.74"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "CanvasPanel_2",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 296.0,
+          "Bottom": 296.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.23"
+      },
+      "Content": {
+        "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.SizeBox_60'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.88"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "NameBar_2",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -127.0,
+          "Top": 100.0,
+          "Right": 190.0,
+          "Bottom": 24.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.NameBar_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.24"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.NameBase'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.72"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "NameBar_2",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 30.0,
+          "Top": 238.63994
+        },
+        "Alignment": {
+          "X": 0.0,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.NameBar_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.24"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.P_Belong'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.97"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_2",
+    "Outer": "NameBar_2",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 101.40554,
+          "Top": 240.0
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.NameBar_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.24"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.21"
+      }
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_BreakVector2D_X",
+    "Outer": "ExecuteUbergraph_WBP_Couse_Info_Chara",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_BreakVector2D_Y",
+    "Outer": "ExecuteUbergraph_WBP_Couse_Info_Chara",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_Divide_FloatFloat_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_Couse_Info_Chara",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_Divide_FloatFloat_ReturnValue_1",
+    "Outer": "ExecuteUbergraph_WBP_Couse_Info_Chara",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "K2Node_Select_Default",
+    "Outer": "ExecuteUbergraph_WBP_Couse_Info_Chara",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "K2Node_Select_Default_1",
+    "Outer": "ExecuteUbergraph_WBP_Couse_Info_Chara",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "K2Node_Select_Default_2",
+    "Outer": "ExecuteUbergraph_WBP_Couse_Info_Chara",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "K2Node_Select_Default_3",
+    "Outer": "ExecuteUbergraph_WBP_Couse_Info_Chara",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "Temp_float_Variable",
+    "Outer": "ExecuteUbergraph_WBP_Couse_Info_Chara",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "Temp_float_Variable_1",
+    "Outer": "ExecuteUbergraph_WBP_Couse_Info_Chara",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "Temp_float_Variable_2",
+    "Outer": "ExecuteUbergraph_WBP_Couse_Info_Chara",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "Temp_float_Variable_3",
+    "Outer": "ExecuteUbergraph_WBP_Couse_Info_Chara",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "K2Node_CustomEvent_Asset",
+    "Outer": "ExecuteUbergraph_WBP_Couse_Info_Chara",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "ConstParm",
+    "Struct": {
+      "ObjectName": "ScriptStruct'StoryCharacterAsset'",
+      "ObjectPath": "/Script/GameProject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "Asset",
+    "Outer": "Set_Image_FromAsset",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "ConstParm | BlueprintVisible | BlueprintReadOnly | Parm | OutParm | ReferenceParm",
+    "Struct": {
+      "ObjectName": "ScriptStruct'StoryCharacterAsset'",
+      "ObjectPath": "/Script/GameProject"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "Set_Image_FromAsset",
+    "Outer": "WBP_Couse_Info_Chara_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "StructProperty'WBP_Couse_Info_Chara_C:Set_Image_FromAsset.Asset'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.56"
+      }
+    ],
+    "FunctionFlags": "FUNC_HasOutParms | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "StrProperty",
+    "Name": "K2Node_CustomEvent_CharacterID",
+    "Outer": "ExecuteUbergraph_WBP_Couse_Info_Chara",
+    "Class": "UScriptClass'StrProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "StrProperty",
+    "Name": "CharacterID",
+    "Outer": "Set_Image_FromCharacterID",
+    "Class": "UScriptClass'StrProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "Set_Image_FromCharacterID",
+    "Outer": "WBP_Couse_Info_Chara_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "StrProperty'WBP_Couse_Info_Chara_C:Set_Image_FromCharacterID.CharacterID'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.59"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "K2Node_CustomEvent_Index",
+    "Outer": "ExecuteUbergraph_WBP_Couse_Info_Chara",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "Index",
+    "Outer": "Set_Image_FromIndex",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "Set_Image_FromIndex",
+    "Outer": "WBP_Couse_Info_Chara_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "IntProperty'WBP_Couse_Info_Chara_C:Set_Image_FromIndex.Index'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.62"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "K2Node_CustomEvent_Value",
+    "Outer": "ExecuteUbergraph_WBP_Couse_Info_Chara",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyClass": {
+      "ObjectName": "Class'Texture'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Value",
+    "Outer": "Set_Texture",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "PropertyClass": {
+      "ObjectName": "Class'Texture'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "Set_Texture",
+    "Outer": "WBP_Couse_Info_Chara_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "ObjectProperty'WBP_Couse_Info_Chara_C:Set_Texture.Value'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.65"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Image",
+    "Name": "Base",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 287.0,
+          "Y": 263.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'sel_story_chara_base'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/Texture/sel_story_chara_base.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Couse_Info_Chara_C:WidgetTree.CanvasPanel_1.CanvasPanelSlot_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.27"
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "NameBase",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 140.0,
+          "Y": 24.0
+        },
+        "Margin": {
+          "Left": 0.5,
+          "Right": 0.5
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Story_CharaNamePlate'",
+          "ObjectPath": "GameProject/Content/IND/UI/Load/Texture/T_Story_CharaNamePlate.0"
+        },
+        "DrawAs": "ESlateBrushDrawType::Box"
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Couse_Info_Chara_C:WidgetTree.NameBar_2.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.31"
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "P_CharacterMask",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 296.0,
+          "Y": 296.0
+        },
+        "ResourceObject": {
+          "ObjectName": "MaterialInstanceConstant'MI_CourseInfoMask'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/MI_CourseInfoMask.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Couse_Info_Chara_C:WidgetTree.CanvasPanel_1.CanvasPanelSlot_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.28"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "waku",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 298.0,
+          "Y": 270.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'sel_story_chara_waku'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/Texture/sel_story_chara_waku.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Couse_Info_Chara_C:WidgetTree.CanvasPanel_1.CanvasPanelSlot_4'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.29"
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Base",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 287.0,
+          "Y": 263.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'sel_story_chara_base'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/Texture/sel_story_chara_base.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_1.CanvasPanelSlot_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.36"
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "NameBase",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 140.0,
+          "Y": 24.0
+        },
+        "Margin": {
+          "Left": 0.5,
+          "Right": 0.5
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Story_CharaNamePlate'",
+          "ObjectPath": "GameProject/Content/IND/UI/Load/Texture/T_Story_CharaNamePlate.0"
+        },
+        "DrawAs": "ESlateBrushDrawType::Box"
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.NameBar_2.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.40"
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "P_CharacterMask",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 296.0,
+          "Y": 296.0
+        },
+        "ResourceObject": {
+          "ObjectName": "MaterialInstanceConstant'MI_CourseInfoMask'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/MI_CourseInfoMask.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_1.CanvasPanelSlot_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.37"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "waku",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 298.0,
+          "Y": 270.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'sel_story_chara_waku'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/Texture/sel_story_chara_waku.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_1.CanvasPanelSlot_4'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.38"
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_Conv_SoftObjectReferenceToObject_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_Couse_Info_Chara",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyClass": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GenerateStoryCharacterObject_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_Couse_Info_Chara",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyClass": {
+      "ObjectName": "Class'StoryCharacterDBObject'",
+      "ObjectPath": "/Script/GameProject"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GenerateStoryCharacterObject_ReturnValue_1",
+    "Outer": "ExecuteUbergraph_WBP_Couse_Info_Chara",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyClass": {
+      "ObjectName": "Class'StoryCharacterDBObject'",
+      "ObjectPath": "/Script/GameProject"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetDynamicMaterial_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_Couse_Info_Chara",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyClass": {
+      "ObjectName": "Class'MaterialInstanceDynamic'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_LoadAsset_Blocking_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_Couse_Info_Chara",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyClass": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "K2Node_DynamicCast_AsTexture_2D",
+    "Outer": "ExecuteUbergraph_WBP_Couse_Info_Chara",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyClass": {
+      "ObjectName": "Class'Texture2D'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "P_CharacterMask",
+    "Outer": "WBP_Couse_Info_Chara_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'Image'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "P_CharaName",
+    "Outer": "WBP_Couse_Info_Chara_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'TextBlock'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ScaleBox",
+    "Name": "ScaleBox_61",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'ScaleBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "ScaleBoxSlot'WBP_Couse_Info_Chara_C:WidgetTree.ScaleBox_61.ScaleBoxSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.85"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "SizeBoxSlot'WBP_Couse_Info_Chara_C:WidgetTree.SizeBox_60.SizeBoxSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.89"
+      }
+    }
+  },
+  {
+    "Type": "ScaleBox",
+    "Name": "ScaleBox_61",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'ScaleBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "ScaleBoxSlot'WidgetArchetype:WidgetTree_0.ScaleBox_61.ScaleBoxSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.86"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "SizeBoxSlot'WidgetArchetype:WidgetTree_0.SizeBox_60.SizeBoxSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.90"
+      }
+    }
+  },
+  {
+    "Type": "ScaleBoxSlot",
+    "Name": "ScaleBoxSlot_0",
+    "Outer": "ScaleBox_61",
+    "Class": "UScriptClass'ScaleBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "ScaleBox'WBP_Couse_Info_Chara_C:WidgetTree.ScaleBox_61'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.83"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WBP_Couse_Info_Chara_C:WidgetTree.CanvasPanel_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.18"
+      }
+    }
+  },
+  {
+    "Type": "ScaleBoxSlot",
+    "Name": "ScaleBoxSlot_0",
+    "Outer": "ScaleBox_61",
+    "Class": "UScriptClass'ScaleBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "ScaleBox'WidgetArchetype:WidgetTree_0.ScaleBox_61'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.84"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.22"
+      }
+    }
+  },
+  {
+    "Type": "SizeBox",
+    "Name": "SizeBox_60",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'SizeBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "SizeBoxSlot'WBP_Couse_Info_Chara_C:WidgetTree.SizeBox_60.SizeBoxSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.89"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Couse_Info_Chara_C:WidgetTree.CanvasPanel_2.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.30"
+      }
+    }
+  },
+  {
+    "Type": "SizeBox",
+    "Name": "SizeBox_60",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'SizeBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "SizeBoxSlot'WidgetArchetype:WidgetTree_0.SizeBox_60.SizeBoxSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.90"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_2.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.39"
+      }
+    }
+  },
+  {
+    "Type": "SizeBoxSlot",
+    "Name": "SizeBoxSlot_0",
+    "Outer": "SizeBox_60",
+    "Class": "UScriptClass'SizeBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "SizeBox'WBP_Couse_Info_Chara_C:WidgetTree.SizeBox_60'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.87"
+      },
+      "Content": {
+        "ObjectName": "ScaleBox'WBP_Couse_Info_Chara_C:WidgetTree.ScaleBox_61'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.83"
+      }
+    }
+  },
+  {
+    "Type": "SizeBoxSlot",
+    "Name": "SizeBoxSlot_0",
+    "Outer": "SizeBox_60",
+    "Class": "UScriptClass'SizeBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.SizeBox_60'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.88"
+      },
+      "Content": {
+        "ObjectName": "ScaleBox'WidgetArchetype:WidgetTree_0.ScaleBox_61'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.84"
+      }
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_FindStoryCharacterInfo_OutCharacterAsset",
+    "Outer": "ExecuteUbergraph_WBP_Couse_Info_Chara",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Struct": {
+      "ObjectName": "ScriptStruct'StoryCharacterAsset'",
+      "ObjectPath": "/Script/GameProject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_GetDesiredSize_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_Couse_Info_Chara",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector2D'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_GetStoryCharacterInfo_OutCharacterAsset",
+    "Outer": "ExecuteUbergraph_WBP_Couse_Info_Chara",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Struct": {
+      "ObjectName": "ScriptStruct'StoryCharacterAsset'",
+      "ObjectPath": "/Script/GameProject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_MakeVector2D_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_Couse_Info_Chara",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector2D'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "P_Belong",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "A6D1D7424E734F6611207A8856D67B86",
+        "SourceString": "埼玉北西エリア連合",
+        "LocalizedString": "埼玉北西エリア連合"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 1.0,
+          "G": 1.0,
+          "B": 0.85,
+          "A": 1.0,
+          "Hex": "FFFFEE"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 1
+        },
+        "TypefaceFontName": "RodinN_B",
+        "Size": 10
+      },
+      "ShadowOffset": {
+        "X": 2.0,
+        "Y": 2.0
+      },
+      "ShadowColorAndOpacity": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "000000"
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Couse_Info_Chara_C:WidgetTree.NameBar_2.CanvasPanelSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.32"
+      },
+      "RenderTransform": {
+        "Shear": {
+          "X": -10.0,
+          "Y": 0.0
+        }
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "P_CharaName",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "D219A4364D9D5052F7ABDFB87547C698",
+        "SourceString": "池谷浩一郎",
+        "LocalizedString": "池谷浩一郎"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 1.0,
+          "G": 1.0,
+          "B": 0.85,
+          "A": 1.0,
+          "Hex": "FFFFEE"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 1
+        },
+        "TypefaceFontName": "RodinN_B",
+        "Size": 18
+      },
+      "ShadowOffset": {
+        "X": 2.0,
+        "Y": 2.0
+      },
+      "ShadowColorAndOpacity": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "000000"
+      },
+      "Justification": "ETextJustify::Right",
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Couse_Info_Chara_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.25"
+      },
+      "RenderTransform": {
+        "Shear": {
+          "X": -10.0,
+          "Y": 0.0
+        }
+      },
+      "RenderTransformPivot": {
+        "X": 1.0,
+        "Y": 1.0
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "P_Belong",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "A6D1D7424E734F6611207A8856D67B86",
+        "SourceString": "埼玉北西エリア連合",
+        "LocalizedString": "埼玉北西エリア連合"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 1.0,
+          "G": 1.0,
+          "B": 0.85,
+          "A": 1.0,
+          "Hex": "FFFFEE"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 1
+        },
+        "TypefaceFontName": "RodinN_B",
+        "Size": 10
+      },
+      "ShadowOffset": {
+        "X": 2.0,
+        "Y": 2.0
+      },
+      "ShadowColorAndOpacity": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "000000"
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.NameBar_2.CanvasPanelSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.41"
+      },
+      "RenderTransform": {
+        "Shear": {
+          "X": -10.0,
+          "Y": 0.0
+        }
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "P_CharaName",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "D219A4364D9D5052F7ABDFB87547C698",
+        "SourceString": "池谷浩一郎",
+        "LocalizedString": "池谷浩一郎"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 1.0,
+          "G": 1.0,
+          "B": 0.85,
+          "A": 1.0,
+          "Hex": "FFFFEE"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 1
+        },
+        "TypefaceFontName": "RodinN_B",
+        "Size": 18
+      },
+      "ShadowOffset": {
+        "X": 2.0,
+        "Y": 2.0
+      },
+      "ShadowColorAndOpacity": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "000000"
+      },
+      "Justification": "ETextJustify::Right",
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.34"
+      },
+      "RenderTransform": {
+        "Shear": {
+          "X": -10.0,
+          "Y": 0.0
+        }
+      },
+      "RenderTransformPivot": {
+        "X": 1.0,
+        "Y": 1.0
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "WBP_Couse_Info_Chara_C",
+    "Name": "WidgetArchetype",
+    "Class": "WidgetBlueprintGeneratedClass'GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.WBP_Couse_Info_Chara_C'",
+    "Template": {
+      "ObjectName": "WBP_Couse_Info_Chara_C'Default__WBP_Couse_Info_Chara_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.2"
+    },
+    "Flags": "RF_Public | RF_Standalone | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "P_Belong": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.P_Belong'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.97"
+      },
+      "P_CharacterMask": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.P_CharacterMask'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.73"
+      },
+      "P_CharaName": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.P_CharaName'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.98"
+      },
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.101"
+      },
+      "bCookedWidgetTree": true
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Outer": "WBP_Couse_Info_Chara_C",
+    "Class": "UScriptClass'WidgetTree'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CanvasPanel'WBP_Couse_Info_Chara_C:WidgetTree.CanvasPanel_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.19"
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree_0",
+    "Outer": "WidgetArchetype",
+    "Class": "UScriptClass'WidgetTree'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/Story/Course_Info/WBP_Couse_Info_Chara.23"
+      }
+    }
+  }
+]

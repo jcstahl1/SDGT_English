@@ -1,0 +1,726 @@
+[
+  {
+    "Type": "ObjectProperty",
+    "Name": "Error",
+    "Outer": "WBP_NetWorkErrorIcon_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'CanvasPanel'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "WBP_NetWorkErrorIcon_C",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WBP_NetWorkErrorIcon_C:WidgetTree'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/NetworkErrorIcon/WBP_NetWorkErrorIcon.27"
+      },
+      "bAllowTemplate": true,
+      "bValidTemplate": true,
+      "TemplateAsset": {
+        "AssetPathName": "/Game/IND/UI/Common/NetworkErrorIcon/WBP_NetWorkErrorIcon.WidgetArchetype",
+        "SubPathString": ""
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'UserWidget'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "Children": [
+      {
+        "ObjectName": "ObjectProperty'WBP_NetWorkErrorIcon_C:Error'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/NetworkErrorIcon/WBP_NetWorkErrorIcon.0"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_NetWorkErrorIcon_C:RetainerBox_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/NetworkErrorIcon/WBP_NetWorkErrorIcon.15"
+      }
+    ],
+    "ClassFlags": "CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "WBP_NetWorkErrorIcon_C'Default__WBP_NetWorkErrorIcon_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Common/NetworkErrorIcon/WBP_NetWorkErrorIcon.2"
+    }
+  },
+  {
+    "Type": "WBP_NetWorkErrorIcon_C",
+    "Name": "Default__WBP_NetWorkErrorIcon_C",
+    "Class": "WidgetBlueprintGeneratedClass'GameProject/Content/IND/UI/Common/NetworkErrorIcon/WBP_NetWorkErrorIcon.WBP_NetWorkErrorIcon_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "bHasScriptImplementedTick": false,
+      "bHasScriptImplementedPaint": false
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_0",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_NetWorkErrorIcon_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/NetworkErrorIcon/WBP_NetWorkErrorIcon.7"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "Error",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_NetWorkErrorIcon_C:WidgetTree.Error.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/NetworkErrorIcon/WBP_NetWorkErrorIcon.8"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_NetWorkErrorIcon_C:WidgetTree.Error.CanvasPanelSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/NetworkErrorIcon/WBP_NetWorkErrorIcon.9"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "PanelSlot'WBP_NetWorkErrorIcon_C:WidgetTree.RetainerBox_0.PanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/NetworkErrorIcon/WBP_NetWorkErrorIcon.16"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_0",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/NetworkErrorIcon/WBP_NetWorkErrorIcon.10"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "Error",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.Error.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/NetworkErrorIcon/WBP_NetWorkErrorIcon.11"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.Error.CanvasPanelSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/NetworkErrorIcon/WBP_NetWorkErrorIcon.12"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "PanelSlot'WidgetArchetype:WidgetTree_0.RetainerBox_0.PanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/NetworkErrorIcon/WBP_NetWorkErrorIcon.17"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_NetWorkErrorIcon_C:WidgetTree.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/NetworkErrorIcon/WBP_NetWorkErrorIcon.3"
+      },
+      "Content": {
+        "ObjectName": "RetainerBox'WBP_NetWorkErrorIcon_C:WidgetTree.RetainerBox_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/NetworkErrorIcon/WBP_NetWorkErrorIcon.18"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "Error",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_NetWorkErrorIcon_C:WidgetTree.Error'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/NetworkErrorIcon/WBP_NetWorkErrorIcon.4"
+      },
+      "Content": {
+        "ObjectName": "Image'WBP_NetWorkErrorIcon_C:WidgetTree.Base_r'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/NetworkErrorIcon/WBP_NetWorkErrorIcon.13"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "Error",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": 1.0,
+          "Right": 310.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_NetWorkErrorIcon_C:WidgetTree.Error'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/NetworkErrorIcon/WBP_NetWorkErrorIcon.4"
+      },
+      "Content": {
+        "ObjectName": "ScaleBox'WBP_NetWorkErrorIcon_C:WidgetTree.ScaleBox_98'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/NetworkErrorIcon/WBP_NetWorkErrorIcon.20"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/NetworkErrorIcon/WBP_NetWorkErrorIcon.5"
+      },
+      "Content": {
+        "ObjectName": "RetainerBox'WidgetArchetype:WidgetTree_0.RetainerBox_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/NetworkErrorIcon/WBP_NetWorkErrorIcon.19"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "Error",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.Error'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/NetworkErrorIcon/WBP_NetWorkErrorIcon.6"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.Base_r'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/NetworkErrorIcon/WBP_NetWorkErrorIcon.14"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "Error",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": 1.0,
+          "Right": 310.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.Error'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/NetworkErrorIcon/WBP_NetWorkErrorIcon.6"
+      },
+      "Content": {
+        "ObjectName": "ScaleBox'WidgetArchetype:WidgetTree_0.ScaleBox_98'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/NetworkErrorIcon/WBP_NetWorkErrorIcon.21"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Base_r",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 340.0,
+          "Y": 72.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Race_NetworkError'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/NetworkErrorIcon/Texture/T_Race_NetworkError.0"
+        }
+      },
+      "ColorAndOpacity": {
+        "R": 1.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FF0000"
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_NetWorkErrorIcon_C:WidgetTree.Error.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/NetworkErrorIcon/WBP_NetWorkErrorIcon.8"
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Base_r",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 340.0,
+          "Y": 72.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Race_NetworkError'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/NetworkErrorIcon/Texture/T_Race_NetworkError.0"
+        }
+      },
+      "ColorAndOpacity": {
+        "R": 1.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FF0000"
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.Error.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/NetworkErrorIcon/WBP_NetWorkErrorIcon.11"
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "RetainerBox_0",
+    "Outer": "WBP_NetWorkErrorIcon_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'RetainerBox'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "PanelSlot",
+    "Name": "PanelSlot_0",
+    "Outer": "RetainerBox_0",
+    "Class": "UScriptClass'PanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "RetainerBox'WBP_NetWorkErrorIcon_C:WidgetTree.RetainerBox_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/NetworkErrorIcon/WBP_NetWorkErrorIcon.18"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WBP_NetWorkErrorIcon_C:WidgetTree.Error'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/NetworkErrorIcon/WBP_NetWorkErrorIcon.4"
+      }
+    }
+  },
+  {
+    "Type": "PanelSlot",
+    "Name": "PanelSlot_0",
+    "Outer": "RetainerBox_0",
+    "Class": "UScriptClass'PanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "RetainerBox'WidgetArchetype:WidgetTree_0.RetainerBox_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/NetworkErrorIcon/WBP_NetWorkErrorIcon.19"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.Error'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/NetworkErrorIcon/WBP_NetWorkErrorIcon.6"
+      }
+    }
+  },
+  {
+    "Type": "RetainerBox",
+    "Name": "RetainerBox_0",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'RetainerBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EffectMaterial": {
+        "ObjectName": "MaterialInstanceConstant'MI_NetworkErrorBlink'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/NetworkErrorIcon/MI_NetworkErrorBlink.0"
+      },
+      "TextureParameter": "BlinkTexture",
+      "Slots": [
+        {
+          "ObjectName": "PanelSlot'WBP_NetWorkErrorIcon_C:WidgetTree.RetainerBox_0.PanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/NetworkErrorIcon/WBP_NetWorkErrorIcon.16"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_NetWorkErrorIcon_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/NetworkErrorIcon/WBP_NetWorkErrorIcon.7"
+      }
+    }
+  },
+  {
+    "Type": "RetainerBox",
+    "Name": "RetainerBox_0",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'RetainerBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "EffectMaterial": {
+        "ObjectName": "MaterialInstanceConstant'MI_NetworkErrorBlink'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/NetworkErrorIcon/MI_NetworkErrorBlink.0"
+      },
+      "TextureParameter": "BlinkTexture",
+      "Slots": [
+        {
+          "ObjectName": "PanelSlot'WidgetArchetype:WidgetTree_0.RetainerBox_0.PanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/NetworkErrorIcon/WBP_NetWorkErrorIcon.17"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/NetworkErrorIcon/WBP_NetWorkErrorIcon.10"
+      }
+    }
+  },
+  {
+    "Type": "ScaleBox",
+    "Name": "ScaleBox_98",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'ScaleBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "ScaleBoxSlot'WBP_NetWorkErrorIcon_C:WidgetTree.ScaleBox_98.ScaleBoxSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/NetworkErrorIcon/WBP_NetWorkErrorIcon.22"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_NetWorkErrorIcon_C:WidgetTree.Error.CanvasPanelSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/NetworkErrorIcon/WBP_NetWorkErrorIcon.9"
+      }
+    }
+  },
+  {
+    "Type": "ScaleBox",
+    "Name": "ScaleBox_98",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'ScaleBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "ScaleBoxSlot'WidgetArchetype:WidgetTree_0.ScaleBox_98.ScaleBoxSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/NetworkErrorIcon/WBP_NetWorkErrorIcon.23"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.Error.CanvasPanelSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/NetworkErrorIcon/WBP_NetWorkErrorIcon.12"
+      }
+    }
+  },
+  {
+    "Type": "ScaleBoxSlot",
+    "Name": "ScaleBoxSlot_0",
+    "Outer": "ScaleBox_98",
+    "Class": "UScriptClass'ScaleBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "ScaleBox'WBP_NetWorkErrorIcon_C:WidgetTree.ScaleBox_98'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/NetworkErrorIcon/WBP_NetWorkErrorIcon.20"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WBP_NetWorkErrorIcon_C:WidgetTree.P_ErrorMessage'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/NetworkErrorIcon/WBP_NetWorkErrorIcon.24"
+      }
+    }
+  },
+  {
+    "Type": "ScaleBoxSlot",
+    "Name": "ScaleBoxSlot_0",
+    "Outer": "ScaleBox_98",
+    "Class": "UScriptClass'ScaleBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "ScaleBox'WidgetArchetype:WidgetTree_0.ScaleBox_98'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/NetworkErrorIcon/WBP_NetWorkErrorIcon.21"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.P_ErrorMessage'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/NetworkErrorIcon/WBP_NetWorkErrorIcon.25"
+      }
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "P_ErrorMessage",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "TableId": "/Game/IND/StringTable/BP/ST_GameMessage.ST_GameMessage",
+        "Key": "ErrorCode_ConnectionLost",
+        "SourceString": "対戦相手との通信が切断されました",
+        "LocalizedString": "Connection with the opponent has been lost."
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "TypefaceFontName": "RodinN_B",
+        "Size": 15
+      },
+      "ShadowOffset": {
+        "X": 2.4,
+        "Y": 1.3
+      },
+      "ShadowColorAndOpacity": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "000000"
+      },
+      "Justification": "ETextJustify::Center",
+      "WrapTextAt": 400.0,
+      "Slot": {
+        "ObjectName": "ScaleBoxSlot'WBP_NetWorkErrorIcon_C:WidgetTree.ScaleBox_98.ScaleBoxSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/NetworkErrorIcon/WBP_NetWorkErrorIcon.22"
+      },
+      "RenderTransform": {
+        "Scale": {
+          "X": 0.9,
+          "Y": 1.0
+        }
+      }
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "P_ErrorMessage",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "TableId": "/Game/IND/StringTable/BP/ST_GameMessage.ST_GameMessage",
+        "Key": "ErrorCode_ConnectionLost",
+        "SourceString": "対戦相手との通信が切断されました",
+        "LocalizedString": "Connection with the opponent has been lost."
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "TypefaceFontName": "RodinN_B",
+        "Size": 15
+      },
+      "ShadowOffset": {
+        "X": 2.4,
+        "Y": 1.3
+      },
+      "ShadowColorAndOpacity": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "000000"
+      },
+      "Justification": "ETextJustify::Center",
+      "WrapTextAt": 400.0,
+      "Slot": {
+        "ObjectName": "ScaleBoxSlot'WidgetArchetype:WidgetTree_0.ScaleBox_98.ScaleBoxSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/NetworkErrorIcon/WBP_NetWorkErrorIcon.23"
+      },
+      "RenderTransform": {
+        "Scale": {
+          "X": 0.9,
+          "Y": 1.0
+        }
+      }
+    }
+  },
+  {
+    "Type": "WBP_NetWorkErrorIcon_C",
+    "Name": "WidgetArchetype",
+    "Class": "WidgetBlueprintGeneratedClass'GameProject/Content/IND/UI/Common/NetworkErrorIcon/WBP_NetWorkErrorIcon.WBP_NetWorkErrorIcon_C'",
+    "Template": {
+      "ObjectName": "WBP_NetWorkErrorIcon_C'Default__WBP_NetWorkErrorIcon_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Common/NetworkErrorIcon/WBP_NetWorkErrorIcon.2"
+    },
+    "Flags": "RF_Public | RF_Standalone | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Error": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.Error'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/NetworkErrorIcon/WBP_NetWorkErrorIcon.6"
+      },
+      "RetainerBox_0": {
+        "ObjectName": "RetainerBox'WidgetArchetype:WidgetTree_0.RetainerBox_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/NetworkErrorIcon/WBP_NetWorkErrorIcon.19"
+      },
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/NetworkErrorIcon/WBP_NetWorkErrorIcon.28"
+      },
+      "bCookedWidgetTree": true
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Outer": "WBP_NetWorkErrorIcon_C",
+    "Class": "UScriptClass'WidgetTree'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CanvasPanel'WBP_NetWorkErrorIcon_C:WidgetTree.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/NetworkErrorIcon/WBP_NetWorkErrorIcon.3"
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree_0",
+    "Outer": "WidgetArchetype",
+    "Class": "UScriptClass'WidgetTree'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/NetworkErrorIcon/WBP_NetWorkErrorIcon.5"
+      }
+    }
+  }
+]

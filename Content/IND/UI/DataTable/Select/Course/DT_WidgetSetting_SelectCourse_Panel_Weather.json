@@ -1,0 +1,52 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_WidgetSetting_SelectCourse_Panel_Weather",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "UserDefinedStruct'ST_WidgetSetting_SelectCommon_Panel'",
+        "ObjectPath": "GameProject/Content/IND/UI/DataTable/Select/Common/ST_WidgetSetting_SelectCommon_Panel.1"
+      }
+    },
+    "Rows": {
+      "ECourseWeather::Dry": {
+        "NameTexture_12_035068E9438EA556EA9D908A643734CD": {
+          "ObjectName": "Texture2D'weather_mozi_01'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Course/Texture/moji/weather_mozi_01.0"
+        },
+        "BaseTexture_11_845BCB0343FB8BBF58931BADC7487CC0": {
+          "ObjectName": "Texture2D'course_sel_weather_01'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Course/Texture/course_sel_weather_01.0"
+        },
+        "SubName_13_45F4AA6B42C79596232D3E80B09F892A": {
+          "Namespace": "",
+          "Key": "56F3AAD0451C74A85B25F2A932A41370",
+          "SourceString": "Clear",
+          "LocalizedString": "Clear"
+        },
+        "LineTexture_16_218ECB1E4D950C11709E9A919C8EFA1C": null,
+        "RewardTexture_19_61A0BB364D33195941B786813EB50B78": null
+      },
+      "ECourseWeather::Wet": {
+        "NameTexture_12_035068E9438EA556EA9D908A643734CD": {
+          "ObjectName": "Texture2D'weather_mozi_02'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Course/Texture/moji/weather_mozi_02.0"
+        },
+        "BaseTexture_11_845BCB0343FB8BBF58931BADC7487CC0": {
+          "ObjectName": "Texture2D'course_sel_weather_02'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Course/Texture/course_sel_weather_02.0"
+        },
+        "SubName_13_45F4AA6B42C79596232D3E80B09F892A": {
+          "Namespace": "",
+          "Key": "882122B24D9B43114F79DC9720125DF1",
+          "SourceString": "Rain",
+          "LocalizedString": "Rain"
+        },
+        "LineTexture_16_218ECB1E4D950C11709E9A919C8EFA1C": null,
+        "RewardTexture_19_61A0BB364D33195941B786813EB50B78": null
+      }
+    }
+  }
+]

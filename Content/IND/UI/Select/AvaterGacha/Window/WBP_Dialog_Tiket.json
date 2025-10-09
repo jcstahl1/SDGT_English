@@ -1,0 +1,1210 @@
+[
+  {
+    "Type": "StructProperty",
+    "Name": "UberGraphFrame",
+    "Outer": "WBP_Dialog_Tiket_C",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "Transient | DuplicateTransient",
+    "Struct": {
+      "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "WBP_Dialog_Tiket_C",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WBP_Dialog_Tiket_C:WidgetTree'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/AvaterGacha/Window/WBP_Dialog_Tiket.54"
+      },
+      "bAllowTemplate": true,
+      "bValidTemplate": true,
+      "TemplateAsset": {
+        "AssetPathName": "/Game/IND/UI/Select/AvaterGacha/Window/WBP_Dialog_Tiket.WidgetArchetype",
+        "SubPathString": ""
+      },
+      "UberGraphFramePointerProperty": {
+        "ObjectName": "StructProperty'WBP_Dialog_Tiket_C:UberGraphFrame'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/AvaterGacha/Window/WBP_Dialog_Tiket.0"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'WBP_Dialog_Tiket_C:ExecuteUbergraph_WBP_Dialog_Tiket'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/AvaterGacha/Window/WBP_Dialog_Tiket.5"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'UserWidget'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'WBP_Dialog_Tiket_C:UberGraphFrame'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/AvaterGacha/Window/WBP_Dialog_Tiket.0"
+      },
+      {
+        "ObjectName": "Function'WBP_Dialog_Tiket_C:SetCountAndToken'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/AvaterGacha/Window/WBP_Dialog_Tiket.39"
+      },
+      {
+        "ObjectName": "Function'WBP_Dialog_Tiket_C:ExecuteUbergraph_WBP_Dialog_Tiket'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/AvaterGacha/Window/WBP_Dialog_Tiket.5"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Dialog_Tiket_C:P_CostNumber'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/AvaterGacha/Window/WBP_Dialog_Tiket.3"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Dialog_Tiket_C:P_Number_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/AvaterGacha/Window/WBP_Dialog_Tiket.44"
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_WBP_Dialog_Tiket": {
+        "ObjectName": "Function'WBP_Dialog_Tiket_C:ExecuteUbergraph_WBP_Dialog_Tiket'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/AvaterGacha/Window/WBP_Dialog_Tiket.5"
+      },
+      "SetCountAndToken": {
+        "ObjectName": "Function'WBP_Dialog_Tiket_C:SetCountAndToken'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/AvaterGacha/Window/WBP_Dialog_Tiket.39"
+      }
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "WBP_Dialog_Tiket_C'Default__WBP_Dialog_Tiket_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Select/AvaterGacha/Window/WBP_Dialog_Tiket.2"
+    }
+  },
+  {
+    "Type": "WBP_Dialog_Tiket_C",
+    "Name": "Default__WBP_Dialog_Tiket_C",
+    "Class": "WidgetBlueprintGeneratedClass'GameProject/Content/IND/UI/Select/AvaterGacha/Window/WBP_Dialog_Tiket.WBP_Dialog_Tiket_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "UberGraphFrame": {},
+      "bHasScriptImplementedTick": false,
+      "bHasScriptImplementedPaint": false
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "P_CostNumber",
+    "Outer": "WBP_Dialog_Tiket_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'TextBlock'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "EntryPoint",
+    "Outer": "ExecuteUbergraph_WBP_Dialog_Tiket",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_WBP_Dialog_Tiket",
+    "Outer": "WBP_Dialog_Tiket_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "IntProperty'WBP_Dialog_Tiket_C:ExecuteUbergraph_WBP_Dialog_Tiket.EntryPoint'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/AvaterGacha/Window/WBP_Dialog_Tiket.4"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Dialog_Tiket_C:ExecuteUbergraph_WBP_Dialog_Tiket.Temp_bool_Variable'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/AvaterGacha/Window/WBP_Dialog_Tiket.11"
+      },
+      {
+        "ObjectName": "EnumProperty'WBP_Dialog_Tiket_C:ExecuteUbergraph_WBP_Dialog_Tiket.Temp_byte_Variable'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/AvaterGacha/Window/WBP_Dialog_Tiket.31"
+      },
+      {
+        "ObjectName": "EnumProperty'WBP_Dialog_Tiket_C:ExecuteUbergraph_WBP_Dialog_Tiket.Temp_byte_Variable_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/AvaterGacha/Window/WBP_Dialog_Tiket.32"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Dialog_Tiket_C:ExecuteUbergraph_WBP_Dialog_Tiket.Temp_bool_Variable_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/AvaterGacha/Window/WBP_Dialog_Tiket.12"
+      },
+      {
+        "ObjectName": "EnumProperty'WBP_Dialog_Tiket_C:ExecuteUbergraph_WBP_Dialog_Tiket.K2Node_Select_Default'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/AvaterGacha/Window/WBP_Dialog_Tiket.29"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Dialog_Tiket_C:ExecuteUbergraph_WBP_Dialog_Tiket.K2Node_CustomEvent_Count'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/AvaterGacha/Window/WBP_Dialog_Tiket.36"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Dialog_Tiket_C:ExecuteUbergraph_WBP_Dialog_Tiket.K2Node_CustomEvent_Ticket'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/AvaterGacha/Window/WBP_Dialog_Tiket.35"
+      },
+      {
+        "ObjectName": "StructProperty'WBP_Dialog_Tiket_C:ExecuteUbergraph_WBP_Dialog_Tiket.K2Node_MakeStruct_FormatArgumentData'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/AvaterGacha/Window/WBP_Dialog_Tiket.45"
+      },
+      {
+        "ObjectName": "StructProperty'WBP_Dialog_Tiket_C:ExecuteUbergraph_WBP_Dialog_Tiket.K2Node_MakeStruct_FormatArgumentData_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/AvaterGacha/Window/WBP_Dialog_Tiket.46"
+      },
+      {
+        "ObjectName": "ArrayProperty'WBP_Dialog_Tiket_C:ExecuteUbergraph_WBP_Dialog_Tiket.K2Node_MakeArray_Array'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/AvaterGacha/Window/WBP_Dialog_Tiket.7"
+      },
+      {
+        "ObjectName": "ArrayProperty'WBP_Dialog_Tiket_C:ExecuteUbergraph_WBP_Dialog_Tiket.K2Node_MakeArray_Array_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/AvaterGacha/Window/WBP_Dialog_Tiket.9"
+      },
+      {
+        "ObjectName": "TextProperty'WBP_Dialog_Tiket_C:ExecuteUbergraph_WBP_Dialog_Tiket.CallFunc_Format_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/AvaterGacha/Window/WBP_Dialog_Tiket.51"
+      },
+      {
+        "ObjectName": "TextProperty'WBP_Dialog_Tiket_C:ExecuteUbergraph_WBP_Dialog_Tiket.CallFunc_Format_ReturnValue_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/AvaterGacha/Window/WBP_Dialog_Tiket.52"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Dialog_Tiket_C:ExecuteUbergraph_WBP_Dialog_Tiket.CallFunc_Greater_IntInt_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/AvaterGacha/Window/WBP_Dialog_Tiket.10"
+      },
+      {
+        "ObjectName": "EnumProperty'WBP_Dialog_Tiket_C:ExecuteUbergraph_WBP_Dialog_Tiket.Temp_byte_Variable_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/AvaterGacha/Window/WBP_Dialog_Tiket.33"
+      },
+      {
+        "ObjectName": "EnumProperty'WBP_Dialog_Tiket_C:ExecuteUbergraph_WBP_Dialog_Tiket.Temp_byte_Variable_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/AvaterGacha/Window/WBP_Dialog_Tiket.34"
+      },
+      {
+        "ObjectName": "EnumProperty'WBP_Dialog_Tiket_C:ExecuteUbergraph_WBP_Dialog_Tiket.K2Node_Select_Default_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/AvaterGacha/Window/WBP_Dialog_Tiket.30"
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction | FUNC_HasDefaults"
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "K2Node_MakeArray_Array",
+    "Outer": "K2Node_MakeArray_Array",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Struct": {
+      "ObjectName": "ScriptStruct'FormatArgumentData'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ArrayProperty",
+    "Name": "K2Node_MakeArray_Array",
+    "Outer": "ExecuteUbergraph_WBP_Dialog_Tiket",
+    "Class": "UScriptClass'ArrayProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "ReferenceParm",
+    "Inner": {
+      "ObjectName": "StructProperty'WBP_Dialog_Tiket_C:ExecuteUbergraph_WBP_Dialog_Tiket.K2Node_MakeArray_Array.K2Node_MakeArray_Array'",
+      "ObjectPath": "GameProject/Content/IND/UI/Select/AvaterGacha/Window/WBP_Dialog_Tiket.6"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "K2Node_MakeArray_Array_1",
+    "Outer": "K2Node_MakeArray_Array_1",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Struct": {
+      "ObjectName": "ScriptStruct'FormatArgumentData'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ArrayProperty",
+    "Name": "K2Node_MakeArray_Array_1",
+    "Outer": "ExecuteUbergraph_WBP_Dialog_Tiket",
+    "Class": "UScriptClass'ArrayProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "ReferenceParm",
+    "Inner": {
+      "ObjectName": "StructProperty'WBP_Dialog_Tiket_C:ExecuteUbergraph_WBP_Dialog_Tiket.K2Node_MakeArray_Array_1.K2Node_MakeArray_Array_1'",
+      "ObjectPath": "GameProject/Content/IND/UI/Select/AvaterGacha/Window/WBP_Dialog_Tiket.8"
+    }
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_Greater_IntInt_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_Dialog_Tiket",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "Temp_bool_Variable",
+    "Outer": "ExecuteUbergraph_WBP_Dialog_Tiket",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "Temp_bool_Variable_1",
+    "Outer": "ExecuteUbergraph_WBP_Dialog_Tiket",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Outer": "K2Node_Select_Default",
+    "Class": "UScriptClass'ByteProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": null
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Outer": "K2Node_Select_Default_1",
+    "Class": "UScriptClass'ByteProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": null
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Outer": "Temp_byte_Variable",
+    "Class": "UScriptClass'ByteProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": null
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Outer": "Temp_byte_Variable_1",
+    "Class": "UScriptClass'ByteProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": null
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Outer": "Temp_byte_Variable_2",
+    "Class": "UScriptClass'ByteProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": null
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Outer": "Temp_byte_Variable_3",
+    "Class": "UScriptClass'ByteProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": null
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_0",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Dialog_Tiket_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/AvaterGacha/Window/WBP_Dialog_Tiket.21"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Dialog_Tiket_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_2'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/AvaterGacha/Window/WBP_Dialog_Tiket.22"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Dialog_Tiket_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_3'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/AvaterGacha/Window/WBP_Dialog_Tiket.23"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Dialog_Tiket_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_4'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/AvaterGacha/Window/WBP_Dialog_Tiket.24"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_0",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/AvaterGacha/Window/WBP_Dialog_Tiket.25"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_2'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/AvaterGacha/Window/WBP_Dialog_Tiket.26"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_3'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/AvaterGacha/Window/WBP_Dialog_Tiket.27"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_4'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/AvaterGacha/Window/WBP_Dialog_Tiket.28"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Dialog_Tiket_C:WidgetTree.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/AvaterGacha/Window/WBP_Dialog_Tiket.19"
+      },
+      "Content": {
+        "ObjectName": "Image'WBP_Dialog_Tiket_C:WidgetTree.T_QuantityBase'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/AvaterGacha/Window/WBP_Dialog_Tiket.40"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_2",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Dialog_Tiket_C:WidgetTree.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/AvaterGacha/Window/WBP_Dialog_Tiket.19"
+      },
+      "Content": {
+        "ObjectName": "Image'WBP_Dialog_Tiket_C:WidgetTree.Tiket'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/AvaterGacha/Window/WBP_Dialog_Tiket.41"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_3",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 90.0,
+          "Top": 1.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Dialog_Tiket_C:WidgetTree.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/AvaterGacha/Window/WBP_Dialog_Tiket.19"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WBP_Dialog_Tiket_C:WidgetTree.P_CostNumber'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/AvaterGacha/Window/WBP_Dialog_Tiket.47"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_4",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -56.0,
+          "Top": 1.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 1.0,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Dialog_Tiket_C:WidgetTree.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/AvaterGacha/Window/WBP_Dialog_Tiket.19"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WBP_Dialog_Tiket_C:WidgetTree.P_Number_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/AvaterGacha/Window/WBP_Dialog_Tiket.48"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/AvaterGacha/Window/WBP_Dialog_Tiket.20"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.T_QuantityBase'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/AvaterGacha/Window/WBP_Dialog_Tiket.42"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_2",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/AvaterGacha/Window/WBP_Dialog_Tiket.20"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.Tiket'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/AvaterGacha/Window/WBP_Dialog_Tiket.43"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_3",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 90.0,
+          "Top": 1.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/AvaterGacha/Window/WBP_Dialog_Tiket.20"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.P_CostNumber'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/AvaterGacha/Window/WBP_Dialog_Tiket.49"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_4",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -56.0,
+          "Top": 1.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 1.0,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/AvaterGacha/Window/WBP_Dialog_Tiket.20"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.P_Number_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/AvaterGacha/Window/WBP_Dialog_Tiket.50"
+      }
+    }
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "K2Node_Select_Default",
+    "Outer": "ExecuteUbergraph_WBP_Dialog_Tiket",
+    "Class": "UScriptClass'EnumProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": {
+      "ObjectName": "Enum'ESlateVisibility'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'WBP_Dialog_Tiket_C:ExecuteUbergraph_WBP_Dialog_Tiket.K2Node_Select_Default.UnderlyingType'",
+      "ObjectPath": "GameProject/Content/IND/UI/Select/AvaterGacha/Window/WBP_Dialog_Tiket.13"
+    }
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "K2Node_Select_Default_1",
+    "Outer": "ExecuteUbergraph_WBP_Dialog_Tiket",
+    "Class": "UScriptClass'EnumProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": {
+      "ObjectName": "Enum'ESlateVisibility'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'WBP_Dialog_Tiket_C:ExecuteUbergraph_WBP_Dialog_Tiket.K2Node_Select_Default_1.UnderlyingType'",
+      "ObjectPath": "GameProject/Content/IND/UI/Select/AvaterGacha/Window/WBP_Dialog_Tiket.14"
+    }
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "Temp_byte_Variable",
+    "Outer": "ExecuteUbergraph_WBP_Dialog_Tiket",
+    "Class": "UScriptClass'EnumProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": {
+      "ObjectName": "Enum'ESlateVisibility'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'WBP_Dialog_Tiket_C:ExecuteUbergraph_WBP_Dialog_Tiket.Temp_byte_Variable.UnderlyingType'",
+      "ObjectPath": "GameProject/Content/IND/UI/Select/AvaterGacha/Window/WBP_Dialog_Tiket.15"
+    }
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "Temp_byte_Variable_1",
+    "Outer": "ExecuteUbergraph_WBP_Dialog_Tiket",
+    "Class": "UScriptClass'EnumProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": {
+      "ObjectName": "Enum'ESlateVisibility'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'WBP_Dialog_Tiket_C:ExecuteUbergraph_WBP_Dialog_Tiket.Temp_byte_Variable_1.UnderlyingType'",
+      "ObjectPath": "GameProject/Content/IND/UI/Select/AvaterGacha/Window/WBP_Dialog_Tiket.16"
+    }
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "Temp_byte_Variable_2",
+    "Outer": "ExecuteUbergraph_WBP_Dialog_Tiket",
+    "Class": "UScriptClass'EnumProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": {
+      "ObjectName": "Enum'ESlateVisibility'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'WBP_Dialog_Tiket_C:ExecuteUbergraph_WBP_Dialog_Tiket.Temp_byte_Variable_2.UnderlyingType'",
+      "ObjectPath": "GameProject/Content/IND/UI/Select/AvaterGacha/Window/WBP_Dialog_Tiket.17"
+    }
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "Temp_byte_Variable_3",
+    "Outer": "ExecuteUbergraph_WBP_Dialog_Tiket",
+    "Class": "UScriptClass'EnumProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": {
+      "ObjectName": "Enum'ESlateVisibility'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'WBP_Dialog_Tiket_C:ExecuteUbergraph_WBP_Dialog_Tiket.Temp_byte_Variable_3.UnderlyingType'",
+      "ObjectPath": "GameProject/Content/IND/UI/Select/AvaterGacha/Window/WBP_Dialog_Tiket.18"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "K2Node_CustomEvent_Ticket",
+    "Outer": "ExecuteUbergraph_WBP_Dialog_Tiket",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "K2Node_CustomEvent_Count",
+    "Outer": "ExecuteUbergraph_WBP_Dialog_Tiket",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "Ticket",
+    "Outer": "SetCountAndToken",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "Count",
+    "Outer": "SetCountAndToken",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "SetCountAndToken",
+    "Outer": "WBP_Dialog_Tiket_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "IntProperty'WBP_Dialog_Tiket_C:SetCountAndToken.Count'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/AvaterGacha/Window/WBP_Dialog_Tiket.38"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Dialog_Tiket_C:SetCountAndToken.Ticket'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/AvaterGacha/Window/WBP_Dialog_Tiket.37"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Image",
+    "Name": "T_QuantityBase",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 372.0,
+          "Y": 52.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Gacha_DialogueQuantityBase'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/AvaterGacha/GachaResult/Texture/T_Gacha_DialogueQuantityBase.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Dialog_Tiket_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/AvaterGacha/Window/WBP_Dialog_Tiket.21"
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Tiket",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 90.0,
+          "Y": 90.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Com_RewardIcon005'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/RewardIcon/Texture/T_Com_RewardIcon005.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Dialog_Tiket_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/AvaterGacha/Window/WBP_Dialog_Tiket.22"
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "T_QuantityBase",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 372.0,
+          "Y": 52.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Gacha_DialogueQuantityBase'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/AvaterGacha/GachaResult/Texture/T_Gacha_DialogueQuantityBase.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/AvaterGacha/Window/WBP_Dialog_Tiket.25"
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Tiket",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 90.0,
+          "Y": 90.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Com_RewardIcon005'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/RewardIcon/Texture/T_Com_RewardIcon005.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/AvaterGacha/Window/WBP_Dialog_Tiket.26"
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "P_Number_1",
+    "Outer": "WBP_Dialog_Tiket_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'TextBlock'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "K2Node_MakeStruct_FormatArgumentData",
+    "Outer": "ExecuteUbergraph_WBP_Dialog_Tiket",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Struct": {
+      "ObjectName": "ScriptStruct'FormatArgumentData'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "K2Node_MakeStruct_FormatArgumentData_1",
+    "Outer": "ExecuteUbergraph_WBP_Dialog_Tiket",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Struct": {
+      "ObjectName": "ScriptStruct'FormatArgumentData'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "P_CostNumber",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "6DF3266B4A7A1204D737DF8B8B2C5E7E",
+        "SourceString": "×1",
+        "LocalizedString": "×1"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 1.0,
+          "G": 1.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "FFFF00"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 2
+        },
+        "TypefaceFontName": "RodinN_B",
+        "Size": 26
+      },
+      "ShadowOffset": {
+        "X": 2.0,
+        "Y": 2.0
+      },
+      "ShadowColorAndOpacity": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "000000"
+      },
+      "MinDesiredWidth": 1.0,
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Dialog_Tiket_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/AvaterGacha/Window/WBP_Dialog_Tiket.23"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "P_Number_1",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "862667D7471E198763501093D871E43E",
+        "SourceString": "1回",
+        "LocalizedString": "1回"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "FontMaterial": {
+          "ObjectName": "MaterialInstanceConstant'MI_GachaFont01'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/AvaterGacha/GachaResult/Material/MI_GachaFont01.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 2,
+          "OutlineColor": {
+            "R": 0.2,
+            "G": 0.2,
+            "B": 0.2,
+            "A": 1.0,
+            "Hex": "7C7C7C"
+          }
+        },
+        "TypefaceFontName": "RodinN_B",
+        "Size": 22
+      },
+      "ShadowOffset": {
+        "X": 2.0,
+        "Y": 2.0
+      },
+      "ShadowColorAndOpacity": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "000000"
+      },
+      "MinDesiredWidth": 1.0,
+      "Justification": "ETextJustify::Right",
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Dialog_Tiket_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_4'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/AvaterGacha/Window/WBP_Dialog_Tiket.24"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "P_CostNumber",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "6DF3266B4A7A1204D737DF8B8B2C5E7E",
+        "SourceString": "×1",
+        "LocalizedString": "×1"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 1.0,
+          "G": 1.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "FFFF00"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 2
+        },
+        "TypefaceFontName": "RodinN_B",
+        "Size": 26
+      },
+      "ShadowOffset": {
+        "X": 2.0,
+        "Y": 2.0
+      },
+      "ShadowColorAndOpacity": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "000000"
+      },
+      "MinDesiredWidth": 1.0,
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/AvaterGacha/Window/WBP_Dialog_Tiket.27"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "P_Number_1",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "862667D7471E198763501093D871E43E",
+        "SourceString": "1回",
+        "LocalizedString": "1回"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "FontMaterial": {
+          "ObjectName": "MaterialInstanceConstant'MI_GachaFont01'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/AvaterGacha/GachaResult/Material/MI_GachaFont01.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 2,
+          "OutlineColor": {
+            "R": 0.2,
+            "G": 0.2,
+            "B": 0.2,
+            "A": 1.0,
+            "Hex": "7C7C7C"
+          }
+        },
+        "TypefaceFontName": "RodinN_B",
+        "Size": 22
+      },
+      "ShadowOffset": {
+        "X": 2.0,
+        "Y": 2.0
+      },
+      "ShadowColorAndOpacity": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "000000"
+      },
+      "MinDesiredWidth": 1.0,
+      "Justification": "ETextJustify::Right",
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_4'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/AvaterGacha/Window/WBP_Dialog_Tiket.28"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "CallFunc_Format_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_Dialog_Tiket",
+    "Class": "UScriptClass'TextProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "CallFunc_Format_ReturnValue_1",
+    "Outer": "ExecuteUbergraph_WBP_Dialog_Tiket",
+    "Class": "UScriptClass'TextProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "WBP_Dialog_Tiket_C",
+    "Name": "WidgetArchetype",
+    "Class": "WidgetBlueprintGeneratedClass'GameProject/Content/IND/UI/Select/AvaterGacha/Window/WBP_Dialog_Tiket.WBP_Dialog_Tiket_C'",
+    "Template": {
+      "ObjectName": "WBP_Dialog_Tiket_C'Default__WBP_Dialog_Tiket_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Select/AvaterGacha/Window/WBP_Dialog_Tiket.2"
+    },
+    "Flags": "RF_Public | RF_Standalone | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "P_CostNumber": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.P_CostNumber'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/AvaterGacha/Window/WBP_Dialog_Tiket.49"
+      },
+      "P_Number_1": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.P_Number_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/AvaterGacha/Window/WBP_Dialog_Tiket.50"
+      },
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/AvaterGacha/Window/WBP_Dialog_Tiket.55"
+      },
+      "bCookedWidgetTree": true
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Outer": "WBP_Dialog_Tiket_C",
+    "Class": "UScriptClass'WidgetTree'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CanvasPanel'WBP_Dialog_Tiket_C:WidgetTree.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/AvaterGacha/Window/WBP_Dialog_Tiket.19"
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree_0",
+    "Outer": "WidgetArchetype",
+    "Class": "UScriptClass'WidgetTree'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/AvaterGacha/Window/WBP_Dialog_Tiket.20"
+      }
+    }
+  }
+]

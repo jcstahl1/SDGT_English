@@ -1,0 +1,978 @@
+[
+  {
+    "Type": "StructProperty",
+    "Name": "UberGraphFrame",
+    "Outer": "WBP_RecruitTeam_DecideMessage_C",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "Transient | DuplicateTransient",
+    "Struct": {
+      "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "WBP_RecruitTeam_DecideMessage_C",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WBP_RecruitTeam_DecideMessage_C:WidgetTree'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/RecruitTeam/WBP_RecruitTeam_DecideMessage.40"
+      },
+      "bAllowTemplate": true,
+      "bValidTemplate": true,
+      "TemplateAsset": {
+        "AssetPathName": "/Game/IND/UI/Team/RecruitTeam/WBP_RecruitTeam_DecideMessage.WidgetArchetype",
+        "SubPathString": ""
+      },
+      "UberGraphFramePointerProperty": {
+        "ObjectName": "StructProperty'WBP_RecruitTeam_DecideMessage_C:UberGraphFrame'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/RecruitTeam/WBP_RecruitTeam_DecideMessage.0"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'WBP_RecruitTeam_DecideMessage_C:ExecuteUbergraph_WBP_RecruitTeam_DecideMessage'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/RecruitTeam/WBP_RecruitTeam_DecideMessage.16"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'UserWidget'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'WBP_RecruitTeam_DecideMessage_C:UberGraphFrame'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/RecruitTeam/WBP_RecruitTeam_DecideMessage.0"
+      },
+      {
+        "ObjectName": "Function'WBP_RecruitTeam_DecideMessage_C:SetDecideButtonText'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/RecruitTeam/WBP_RecruitTeam_DecideMessage.18"
+      },
+      {
+        "ObjectName": "Function'WBP_RecruitTeam_DecideMessage_C:ExecuteUbergraph_WBP_RecruitTeam_DecideMessage'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/RecruitTeam/WBP_RecruitTeam_DecideMessage.16"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_RecruitTeam_DecideMessage_C:P_Text_DecideMessage'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/RecruitTeam/WBP_RecruitTeam_DecideMessage.13"
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_WBP_RecruitTeam_DecideMessage": {
+        "ObjectName": "Function'WBP_RecruitTeam_DecideMessage_C:ExecuteUbergraph_WBP_RecruitTeam_DecideMessage'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/RecruitTeam/WBP_RecruitTeam_DecideMessage.16"
+      },
+      "SetDecideButtonText": {
+        "ObjectName": "Function'WBP_RecruitTeam_DecideMessage_C:SetDecideButtonText'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/RecruitTeam/WBP_RecruitTeam_DecideMessage.18"
+      }
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "WBP_RecruitTeam_DecideMessage_C'Default__WBP_RecruitTeam_DecideMessage_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Team/RecruitTeam/WBP_RecruitTeam_DecideMessage.2"
+    }
+  },
+  {
+    "Type": "WBP_RecruitTeam_DecideMessage_C",
+    "Name": "Default__WBP_RecruitTeam_DecideMessage_C",
+    "Class": "WidgetBlueprintGeneratedClass'GameProject/Content/IND/UI/Team/RecruitTeam/WBP_RecruitTeam_DecideMessage.WBP_RecruitTeam_DecideMessage_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "UberGraphFrame": {},
+      "bHasScriptImplementedTick": false,
+      "bHasScriptImplementedPaint": false
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_0",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_RecruitTeam_DecideMessage_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/RecruitTeam/WBP_RecruitTeam_DecideMessage.7"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "DecideMessage",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_RecruitTeam_DecideMessage_C:WidgetTree.DecideMessage.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/RecruitTeam/WBP_RecruitTeam_DecideMessage.8"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_RecruitTeam_DecideMessage_C:WidgetTree.DecideMessage.CanvasPanelSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/RecruitTeam/WBP_RecruitTeam_DecideMessage.9"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_RecruitTeam_DecideMessage_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/RecruitTeam/WBP_RecruitTeam_DecideMessage.7"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_0",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/RecruitTeam/WBP_RecruitTeam_DecideMessage.10"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "DecideMessage",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.DecideMessage.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/RecruitTeam/WBP_RecruitTeam_DecideMessage.11"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.DecideMessage.CanvasPanelSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/RecruitTeam/WBP_RecruitTeam_DecideMessage.12"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/RecruitTeam/WBP_RecruitTeam_DecideMessage.10"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 1087.0,
+          "Bottom": 78.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_RecruitTeam_DecideMessage_C:WidgetTree.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/RecruitTeam/WBP_RecruitTeam_DecideMessage.3"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WBP_RecruitTeam_DecideMessage_C:WidgetTree.DecideMessage'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/RecruitTeam/WBP_RecruitTeam_DecideMessage.4"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "DecideMessage",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 0.0,
+          "Bottom": 0.0
+        },
+        "Anchors": {
+          "Maximum": {
+            "X": 1.0,
+            "Y": 1.0
+          }
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_RecruitTeam_DecideMessage_C:WidgetTree.DecideMessage'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/RecruitTeam/WBP_RecruitTeam_DecideMessage.4"
+      },
+      "Content": {
+        "ObjectName": "Image'WBP_RecruitTeam_DecideMessage_C:WidgetTree.bg'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/RecruitTeam/WBP_RecruitTeam_DecideMessage.25"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "DecideMessage",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 483.65707,
+          "Bottom": 87.68798
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_RecruitTeam_DecideMessage_C:WidgetTree.DecideMessage'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/RecruitTeam/WBP_RecruitTeam_DecideMessage.4"
+      },
+      "Content": {
+        "ObjectName": "HorizontalBox'WBP_RecruitTeam_DecideMessage_C:WidgetTree.HorizontalBox_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/RecruitTeam/WBP_RecruitTeam_DecideMessage.19"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 1087.0,
+          "Bottom": 78.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/RecruitTeam/WBP_RecruitTeam_DecideMessage.5"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.DecideMessage'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/RecruitTeam/WBP_RecruitTeam_DecideMessage.6"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "DecideMessage",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 0.0,
+          "Bottom": 0.0
+        },
+        "Anchors": {
+          "Maximum": {
+            "X": 1.0,
+            "Y": 1.0
+          }
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.DecideMessage'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/RecruitTeam/WBP_RecruitTeam_DecideMessage.6"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.bg'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/RecruitTeam/WBP_RecruitTeam_DecideMessage.28"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "DecideMessage",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 483.65707,
+          "Bottom": 87.68798
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.DecideMessage'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/RecruitTeam/WBP_RecruitTeam_DecideMessage.6"
+      },
+      "Content": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.HorizontalBox_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/RecruitTeam/WBP_RecruitTeam_DecideMessage.20"
+      }
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "P_Text_DecideMessage",
+    "Outer": "WBP_RecruitTeam_DecideMessage_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'TextBlock'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "K2Node_CustomEvent_InText",
+    "Outer": "ExecuteUbergraph_WBP_RecruitTeam_DecideMessage",
+    "Class": "UScriptClass'TextProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "EntryPoint",
+    "Outer": "ExecuteUbergraph_WBP_RecruitTeam_DecideMessage",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_WBP_RecruitTeam_DecideMessage",
+    "Outer": "WBP_RecruitTeam_DecideMessage_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "IntProperty'WBP_RecruitTeam_DecideMessage_C:ExecuteUbergraph_WBP_RecruitTeam_DecideMessage.EntryPoint'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/RecruitTeam/WBP_RecruitTeam_DecideMessage.15"
+      },
+      {
+        "ObjectName": "TextProperty'WBP_RecruitTeam_DecideMessage_C:ExecuteUbergraph_WBP_RecruitTeam_DecideMessage.K2Node_CustomEvent_InText'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/RecruitTeam/WBP_RecruitTeam_DecideMessage.14"
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction | FUNC_HasDefaults"
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "InText",
+    "Outer": "SetDecideButtonText",
+    "Class": "UScriptClass'TextProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "SetDecideButtonText",
+    "Outer": "WBP_RecruitTeam_DecideMessage_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "TextProperty'WBP_RecruitTeam_DecideMessage_C:SetDecideButtonText.InText'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/RecruitTeam/WBP_RecruitTeam_DecideMessage.17"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "HorizontalBox",
+    "Name": "HorizontalBox_0",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'HorizontalBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "HorizontalBoxSlot'WBP_RecruitTeam_DecideMessage_C:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_2'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/RecruitTeam/WBP_RecruitTeam_DecideMessage.21"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot'WBP_RecruitTeam_DecideMessage_C:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_4'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/RecruitTeam/WBP_RecruitTeam_DecideMessage.22"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_RecruitTeam_DecideMessage_C:WidgetTree.DecideMessage.CanvasPanelSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/RecruitTeam/WBP_RecruitTeam_DecideMessage.9"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBox",
+    "Name": "HorizontalBox_0",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'HorizontalBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.HorizontalBox_0.HorizontalBoxSlot_2'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/RecruitTeam/WBP_RecruitTeam_DecideMessage.23"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.HorizontalBox_0.HorizontalBoxSlot_4'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/RecruitTeam/WBP_RecruitTeam_DecideMessage.24"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.DecideMessage.CanvasPanelSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/RecruitTeam/WBP_RecruitTeam_DecideMessage.12"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_2",
+    "Outer": "HorizontalBox_0",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Right",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox'WBP_RecruitTeam_DecideMessage_C:WidgetTree.HorizontalBox_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/RecruitTeam/WBP_RecruitTeam_DecideMessage.19"
+      },
+      "Content": {
+        "ObjectName": "Overlay'WBP_RecruitTeam_DecideMessage_C:WidgetTree.StartButton'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/RecruitTeam/WBP_RecruitTeam_DecideMessage.31"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_4",
+    "Outer": "HorizontalBox_0",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Left",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox'WBP_RecruitTeam_DecideMessage_C:WidgetTree.HorizontalBox_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/RecruitTeam/WBP_RecruitTeam_DecideMessage.19"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WBP_RecruitTeam_DecideMessage_C:WidgetTree.P_Text_DecideMessage'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/RecruitTeam/WBP_RecruitTeam_DecideMessage.37"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_2",
+    "Outer": "HorizontalBox_0",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Right",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.HorizontalBox_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/RecruitTeam/WBP_RecruitTeam_DecideMessage.20"
+      },
+      "Content": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.StartButton'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/RecruitTeam/WBP_RecruitTeam_DecideMessage.32"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_4",
+    "Outer": "HorizontalBox_0",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Left",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.HorizontalBox_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/RecruitTeam/WBP_RecruitTeam_DecideMessage.20"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.P_Text_DecideMessage'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/RecruitTeam/WBP_RecruitTeam_DecideMessage.38"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "bg",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 0.9,
+            "Hex": "E6FFFFFF"
+          }
+        },
+        "ResourceObject": {
+          "ObjectName": "MaterialInstanceConstant'MI_TeamStoreName_BG'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/Common/Material/MI_TeamStoreName_BG.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_RecruitTeam_DecideMessage_C:WidgetTree.DecideMessage.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/RecruitTeam/WBP_RecruitTeam_DecideMessage.8"
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Suggest",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 72.0,
+          "Y": 72.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_TitleSuggest'",
+          "ObjectPath": "GameProject/Content/IND/UI/Boot/Title/Texture/T_TitleSuggest.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot'WBP_RecruitTeam_DecideMessage_C:WidgetTree.StartButton.OverlaySlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/RecruitTeam/WBP_RecruitTeam_DecideMessage.33"
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Suggest_Eff",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 82.0,
+          "Y": 83.0
+        },
+        "ResourceObject": {
+          "ObjectName": "MaterialInstanceConstant'MI_BlinkStartButton'",
+          "ObjectPath": "GameProject/Content/IND/UI/Boot/Title/Material/MI_BlinkStartButton.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot'WBP_RecruitTeam_DecideMessage_C:WidgetTree.StartButton.OverlaySlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/RecruitTeam/WBP_RecruitTeam_DecideMessage.34"
+      },
+      "RenderTransform": {
+        "Scale": {
+          "X": 1.3,
+          "Y": 1.3
+        }
+      },
+      "bIsVariable": false,
+      "RenderOpacity": 0.5
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "bg",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "TintColor": {
+          "SpecifiedColor": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 0.9,
+            "Hex": "E6FFFFFF"
+          }
+        },
+        "ResourceObject": {
+          "ObjectName": "MaterialInstanceConstant'MI_TeamStoreName_BG'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/Common/Material/MI_TeamStoreName_BG.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.DecideMessage.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/RecruitTeam/WBP_RecruitTeam_DecideMessage.11"
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Suggest",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 72.0,
+          "Y": 72.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_TitleSuggest'",
+          "ObjectPath": "GameProject/Content/IND/UI/Boot/Title/Texture/T_TitleSuggest.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.StartButton.OverlaySlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/RecruitTeam/WBP_RecruitTeam_DecideMessage.35"
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Suggest_Eff",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 82.0,
+          "Y": 83.0
+        },
+        "ResourceObject": {
+          "ObjectName": "MaterialInstanceConstant'MI_BlinkStartButton'",
+          "ObjectPath": "GameProject/Content/IND/UI/Boot/Title/Material/MI_BlinkStartButton.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.StartButton.OverlaySlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/RecruitTeam/WBP_RecruitTeam_DecideMessage.36"
+      },
+      "RenderTransform": {
+        "Scale": {
+          "X": 1.3,
+          "Y": 1.3
+        }
+      },
+      "bIsVariable": false,
+      "RenderOpacity": 0.5
+    }
+  },
+  {
+    "Type": "Overlay",
+    "Name": "StartButton",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'Overlay'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "OverlaySlot'WBP_RecruitTeam_DecideMessage_C:WidgetTree.StartButton.OverlaySlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/RecruitTeam/WBP_RecruitTeam_DecideMessage.33"
+        },
+        {
+          "ObjectName": "OverlaySlot'WBP_RecruitTeam_DecideMessage_C:WidgetTree.StartButton.OverlaySlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/RecruitTeam/WBP_RecruitTeam_DecideMessage.34"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WBP_RecruitTeam_DecideMessage_C:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/RecruitTeam/WBP_RecruitTeam_DecideMessage.21"
+      }
+    }
+  },
+  {
+    "Type": "Overlay",
+    "Name": "StartButton",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Overlay'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.StartButton.OverlaySlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/RecruitTeam/WBP_RecruitTeam_DecideMessage.35"
+        },
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.StartButton.OverlaySlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Team/RecruitTeam/WBP_RecruitTeam_DecideMessage.36"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.HorizontalBox_0.HorizontalBoxSlot_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/RecruitTeam/WBP_RecruitTeam_DecideMessage.23"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_0",
+    "Outer": "StartButton",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "Overlay'WBP_RecruitTeam_DecideMessage_C:WidgetTree.StartButton'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/RecruitTeam/WBP_RecruitTeam_DecideMessage.31"
+      },
+      "Content": {
+        "ObjectName": "Image'WBP_RecruitTeam_DecideMessage_C:WidgetTree.Suggest'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/RecruitTeam/WBP_RecruitTeam_DecideMessage.26"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_1",
+    "Outer": "StartButton",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "Overlay'WBP_RecruitTeam_DecideMessage_C:WidgetTree.StartButton'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/RecruitTeam/WBP_RecruitTeam_DecideMessage.31"
+      },
+      "Content": {
+        "ObjectName": "Image'WBP_RecruitTeam_DecideMessage_C:WidgetTree.Suggest_Eff'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/RecruitTeam/WBP_RecruitTeam_DecideMessage.27"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_0",
+    "Outer": "StartButton",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.StartButton'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/RecruitTeam/WBP_RecruitTeam_DecideMessage.32"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.Suggest'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/RecruitTeam/WBP_RecruitTeam_DecideMessage.29"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_1",
+    "Outer": "StartButton",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.StartButton'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/RecruitTeam/WBP_RecruitTeam_DecideMessage.32"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.Suggest_Eff'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/RecruitTeam/WBP_RecruitTeam_DecideMessage.30"
+      }
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "P_Text_DecideMessage",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "A5F0A154464DE321700FE78EC1ECADB5",
+        "SourceString": "このチームに加入！",
+        "LocalizedString": "このチームに加入！"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 1.0,
+          "G": 0.854518,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "FFEE00"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "TypefaceFontName": "RodinN_B",
+        "Size": 30
+      },
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WBP_RecruitTeam_DecideMessage_C:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_4'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/RecruitTeam/WBP_RecruitTeam_DecideMessage.22"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "P_Text_DecideMessage",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "A5F0A154464DE321700FE78EC1ECADB5",
+        "SourceString": "このチームに加入！",
+        "LocalizedString": "このチームに加入！"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 1.0,
+          "G": 0.854518,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "FFEE00"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "TypefaceFontName": "RodinN_B",
+        "Size": 30
+      },
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.HorizontalBox_0.HorizontalBoxSlot_4'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/RecruitTeam/WBP_RecruitTeam_DecideMessage.24"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "WBP_RecruitTeam_DecideMessage_C",
+    "Name": "WidgetArchetype",
+    "Class": "WidgetBlueprintGeneratedClass'GameProject/Content/IND/UI/Team/RecruitTeam/WBP_RecruitTeam_DecideMessage.WBP_RecruitTeam_DecideMessage_C'",
+    "Template": {
+      "ObjectName": "WBP_RecruitTeam_DecideMessage_C'Default__WBP_RecruitTeam_DecideMessage_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Team/RecruitTeam/WBP_RecruitTeam_DecideMessage.2"
+    },
+    "Flags": "RF_Public | RF_Standalone | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "P_Text_DecideMessage": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.P_Text_DecideMessage'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/RecruitTeam/WBP_RecruitTeam_DecideMessage.38"
+      },
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/RecruitTeam/WBP_RecruitTeam_DecideMessage.41"
+      },
+      "bCookedWidgetTree": true
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Outer": "WBP_RecruitTeam_DecideMessage_C",
+    "Class": "UScriptClass'WidgetTree'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CanvasPanel'WBP_RecruitTeam_DecideMessage_C:WidgetTree.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/RecruitTeam/WBP_RecruitTeam_DecideMessage.3"
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree_0",
+    "Outer": "WidgetArchetype",
+    "Class": "UScriptClass'WidgetTree'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Team/RecruitTeam/WBP_RecruitTeam_DecideMessage.5"
+      }
+    }
+  }
+]

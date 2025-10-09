@@ -1,0 +1,1789 @@
+[
+  {
+    "Type": "StructProperty",
+    "Name": "UberGraphFrame",
+    "Outer": "WBP_Match_Info_Car_C",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "Transient | DuplicateTransient",
+    "Struct": {
+      "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "WBP_Match_Info_Car_C",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Super": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'UserWidget_Control_CarInfo_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Common/Parent/UserWidget_Control_CarInfo.1"
+    },
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WBP_Match_Info_Car_C:WidgetTree'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.78"
+      },
+      "bAllowTemplate": true,
+      "bValidTemplate": true,
+      "TemplateAsset": {
+        "AssetPathName": "/Game/IND/UI/Matching/WBP_Match_Info_Car.WidgetArchetype",
+        "SubPathString": ""
+      },
+      "UberGraphFramePointerProperty": {
+        "ObjectName": "StructProperty'WBP_Match_Info_Car_C:UberGraphFrame'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.0"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'WBP_Match_Info_Car_C:ExecuteUbergraph_WBP_Match_Info_Car'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.5"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'UserWidget_Control_CarInfo_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Common/Parent/UserWidget_Control_CarInfo.1"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'WBP_Match_Info_Car_C:UberGraphFrame'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.0"
+      },
+      {
+        "ObjectName": "Function'WBP_Match_Info_Car_C:SetParam'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.51"
+      },
+      {
+        "ObjectName": "Function'WBP_Match_Info_Car_C:PreConstruct'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.15"
+      },
+      {
+        "ObjectName": "Function'WBP_Match_Info_Car_C:ExecuteUbergraph_WBP_Match_Info_Car'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.5"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Match_Info_Car_C:P_LayoutType'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.3"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Match_Info_Car_C:P_Name'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.61"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Match_Info_Car_C:P_RootType'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.62"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Match_Info_Car_C:WBP_MenuCarIcon'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.63"
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_WBP_Match_Info_Car": {
+        "ObjectName": "Function'WBP_Match_Info_Car_C:ExecuteUbergraph_WBP_Match_Info_Car'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.5"
+      },
+      "PreConstruct": {
+        "ObjectName": "Function'WBP_Match_Info_Car_C:PreConstruct'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.15"
+      },
+      "SetParam": {
+        "ObjectName": "Function'WBP_Match_Info_Car_C:SetParam'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.51"
+      }
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "WBP_Match_Info_Car_C'Default__WBP_Match_Info_Car_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.2"
+    }
+  },
+  {
+    "Type": "WBP_Match_Info_Car_C",
+    "Name": "Default__WBP_Match_Info_Car_C",
+    "Class": "WidgetBlueprintGeneratedClass'GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.WBP_Match_Info_Car_C'",
+    "Template": {
+      "ObjectName": "UserWidget_Control_CarInfo_C'Default__UserWidget_Control_CarInfo_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Common/Parent/UserWidget_Control_CarInfo.2"
+    },
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "UberGraphFrame": {}
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "P_LayoutType",
+    "Outer": "WBP_Match_Info_Car_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'Image'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "EntryPoint",
+    "Outer": "ExecuteUbergraph_WBP_Match_Info_Car",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_WBP_Match_Info_Car",
+    "Outer": "WBP_Match_Info_Car_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "IntProperty'WBP_Match_Info_Car_C:ExecuteUbergraph_WBP_Match_Info_Car.EntryPoint'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.4"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Match_Info_Car_C:ExecuteUbergraph_WBP_Match_Info_Car.Temp_bool_Variable'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.11"
+      },
+      {
+        "ObjectName": "StructProperty'WBP_Match_Info_Car_C:ExecuteUbergraph_WBP_Match_Info_Car.CallFunc_GetDesiredSize_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.70"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_Match_Info_Car_C:ExecuteUbergraph_WBP_Match_Info_Car.Temp_float_Variable'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.43"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_Match_Info_Car_C:ExecuteUbergraph_WBP_Match_Info_Car.CallFunc_BreakVector2D_X'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.35"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_Match_Info_Car_C:ExecuteUbergraph_WBP_Match_Info_Car.CallFunc_BreakVector2D_Y'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.36"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_Match_Info_Car_C:ExecuteUbergraph_WBP_Match_Info_Car.CallFunc_Divide_FloatFloat_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.37"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Match_Info_Car_C:ExecuteUbergraph_WBP_Match_Info_Car.CallFunc_Less_FloatFloat_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.6"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Match_Info_Car_C:ExecuteUbergraph_WBP_Match_Info_Car.CallFunc_Less_FloatFloat_ReturnValue_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.7"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_Match_Info_Car_C:ExecuteUbergraph_WBP_Match_Info_Car.CallFunc_Divide_FloatFloat_ReturnValue_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.38"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_Match_Info_Car_C:ExecuteUbergraph_WBP_Match_Info_Car.Temp_float_Variable_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.44"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Match_Info_Car_C:ExecuteUbergraph_WBP_Match_Info_Car.Temp_bool_Variable_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.12"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_Match_Info_Car_C:ExecuteUbergraph_WBP_Match_Info_Car.Temp_float_Variable_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.45"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Match_Info_Car_C:ExecuteUbergraph_WBP_Match_Info_Car.Temp_bool_Variable_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.13"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_Match_Info_Car_C:ExecuteUbergraph_WBP_Match_Info_Car.Temp_float_Variable_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.46"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_Match_Info_Car_C:ExecuteUbergraph_WBP_Match_Info_Car.K2Node_Select_Default'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.39"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Match_Info_Car_C:ExecuteUbergraph_WBP_Match_Info_Car.CallFunc_Less_FloatFloat_ReturnValue_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.8"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Match_Info_Car_C:ExecuteUbergraph_WBP_Match_Info_Car.K2Node_CustomEvent_ActortId'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.48"
+      },
+      {
+        "ObjectName": "StructProperty'WBP_Match_Info_Car_C:ExecuteUbergraph_WBP_Match_Info_Car.K2Node_CustomEvent_StyleCarID'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.47"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_Match_Info_Car_C:ExecuteUbergraph_WBP_Match_Info_Car.K2Node_Select_Default_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.40"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Match_Info_Car_C:ExecuteUbergraph_WBP_Match_Info_Car.Temp_bool_Variable_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.14"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Match_Info_Car_C:ExecuteUbergraph_WBP_Match_Info_Car.K2Node_Event_IsDesignTime'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.10"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_Match_Info_Car_C:ExecuteUbergraph_WBP_Match_Info_Car.K2Node_Select_Default_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.41"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Match_Info_Car_C:ExecuteUbergraph_WBP_Match_Info_Car.CallFunc_Less_FloatFloat_ReturnValue_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.9"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_Match_Info_Car_C:ExecuteUbergraph_WBP_Match_Info_Car.K2Node_Select_Default_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.42"
+      },
+      {
+        "ObjectName": "StructProperty'WBP_Match_Info_Car_C:ExecuteUbergraph_WBP_Match_Info_Car.CallFunc_MakeVector2D_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.71"
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction | FUNC_HasDefaults"
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_Less_FloatFloat_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_Match_Info_Car",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_Less_FloatFloat_ReturnValue_1",
+    "Outer": "ExecuteUbergraph_WBP_Match_Info_Car",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_Less_FloatFloat_ReturnValue_2",
+    "Outer": "ExecuteUbergraph_WBP_Match_Info_Car",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_Less_FloatFloat_ReturnValue_3",
+    "Outer": "ExecuteUbergraph_WBP_Match_Info_Car",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_Event_IsDesignTime",
+    "Outer": "ExecuteUbergraph_WBP_Match_Info_Car",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "Temp_bool_Variable",
+    "Outer": "ExecuteUbergraph_WBP_Match_Info_Car",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "Temp_bool_Variable_1",
+    "Outer": "ExecuteUbergraph_WBP_Match_Info_Car",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "Temp_bool_Variable_2",
+    "Outer": "ExecuteUbergraph_WBP_Match_Info_Car",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "Temp_bool_Variable_3",
+    "Outer": "ExecuteUbergraph_WBP_Match_Info_Car",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "Function",
+    "Name": "PreConstruct",
+    "Outer": "WBP_Match_Info_Car_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Function'UserWidget:PreConstruct'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "Children": [
+      {
+        "ObjectName": "BoolProperty'WBP_Match_Info_Car_C:PreConstruct.IsDesignTime'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.16"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCosmetic | FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "IsDesignTime",
+    "Outer": "PreConstruct",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_0",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Match_Info_Car_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.22"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Match_Info_Car_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_7'",
+          "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.25"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Match_Info_Car_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_10'",
+          "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.23"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Match_Info_Car_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_9'",
+          "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.26"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Match_Info_Car_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_11'",
+          "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.24"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Match_Info_Car_C:WidgetTree.CanvasPanel_1.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.27"
+      },
+      "Clipping": "EWidgetClipping::ClipToBounds"
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_1",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Match_Info_Car_C:WidgetTree.CanvasPanel_1.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.27"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_0",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.28"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_7'",
+          "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.31"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_10'",
+          "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.29"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_9'",
+          "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.32"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_11'",
+          "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.30"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_1.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.33"
+      },
+      "Clipping": "EWidgetClipping::ClipToBounds"
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_1",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_1.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.33"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_0",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_MenuCarIcon.WidgetTree_0.WBP_MenuCarIcon_LoadIcon.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.34"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 242.0,
+          "Bottom": 80.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Match_Info_Car_C:WidgetTree.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.17"
+      },
+      "Content": {
+        "ObjectName": "Image'WBP_Match_Info_Car_C:WidgetTree.Base'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.52"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_10",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 50.0,
+          "Top": 12.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Match_Info_Car_C:WidgetTree.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.17"
+      },
+      "Content": {
+        "ObjectName": "Image'WBP_Match_Info_Car_C:WidgetTree.P_LayoutType'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.53"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_11",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 6.0,
+          "Top": -36.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.0,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.0,
+            "Y": 0.5
+          }
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Match_Info_Car_C:WidgetTree.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.17"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WBP_Match_Info_Car_C:WidgetTree.P_Name'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.72"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_7",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -40.0,
+          "Top": 6.0,
+          "Right": 176.0,
+          "Bottom": 96.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Match_Info_Car_C:WidgetTree.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.17"
+      },
+      "Content": {
+        "ObjectName": "WBP_MenuCarIcon_C'WBP_Match_Info_Car_C:WidgetTree.WBP_MenuCarIcon'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.75"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_9",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 90.0,
+          "Top": 12.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Match_Info_Car_C:WidgetTree.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.17"
+      },
+      "Content": {
+        "ObjectName": "Image'WBP_Match_Info_Car_C:WidgetTree.P_RootType'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.54"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "CanvasPanel_1",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 242.0,
+          "Bottom": 80.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Match_Info_Car_C:WidgetTree.CanvasPanel_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.18"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WBP_Match_Info_Car_C:WidgetTree.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.17"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 242.0,
+          "Bottom": 80.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.19"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.Base'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.55"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_10",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 50.0,
+          "Top": 12.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.19"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.P_LayoutType'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.56"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_11",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 6.0,
+          "Top": -36.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.0,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.0,
+            "Y": 0.5
+          }
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.19"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.P_Name'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.73"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_7",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -40.0,
+          "Top": 6.0,
+          "Right": 176.0,
+          "Bottom": 96.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.19"
+      },
+      "Content": {
+        "ObjectName": "WBP_MenuCarIcon_C'WidgetArchetype:WidgetTree_0.WBP_MenuCarIcon'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.76"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_9",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 90.0,
+          "Top": 12.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.19"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.P_RootType'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.57"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "CanvasPanel_1",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 242.0,
+          "Bottom": 80.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.20"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.19"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_MenuCarIcon.WidgetTree_0.WBP_MenuCarIcon_LoadIcon.WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.21"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_MenuCarIcon.WidgetTree_0.WBP_MenuCarIcon_LoadIcon.WidgetTree_0.Image_58'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.60"
+      }
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_BreakVector2D_X",
+    "Outer": "ExecuteUbergraph_WBP_Match_Info_Car",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_BreakVector2D_Y",
+    "Outer": "ExecuteUbergraph_WBP_Match_Info_Car",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_Divide_FloatFloat_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_Match_Info_Car",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_Divide_FloatFloat_ReturnValue_1",
+    "Outer": "ExecuteUbergraph_WBP_Match_Info_Car",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "K2Node_Select_Default",
+    "Outer": "ExecuteUbergraph_WBP_Match_Info_Car",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "K2Node_Select_Default_1",
+    "Outer": "ExecuteUbergraph_WBP_Match_Info_Car",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "K2Node_Select_Default_2",
+    "Outer": "ExecuteUbergraph_WBP_Match_Info_Car",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "K2Node_Select_Default_3",
+    "Outer": "ExecuteUbergraph_WBP_Match_Info_Car",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "Temp_float_Variable",
+    "Outer": "ExecuteUbergraph_WBP_Match_Info_Car",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "Temp_float_Variable_1",
+    "Outer": "ExecuteUbergraph_WBP_Match_Info_Car",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "Temp_float_Variable_2",
+    "Outer": "ExecuteUbergraph_WBP_Match_Info_Car",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "Temp_float_Variable_3",
+    "Outer": "ExecuteUbergraph_WBP_Match_Info_Car",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "K2Node_CustomEvent_StyleCarID",
+    "Outer": "ExecuteUbergraph_WBP_Match_Info_Car",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Struct": {
+      "ObjectName": "ScriptStruct'StyleCarIDType'",
+      "ObjectPath": "/Script/GameProject"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "K2Node_CustomEvent_ActortId",
+    "Outer": "ExecuteUbergraph_WBP_Match_Info_Car",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "StyleCarID",
+    "Outer": "SetParam",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "Struct": {
+      "ObjectName": "ScriptStruct'StyleCarIDType'",
+      "ObjectPath": "/Script/GameProject"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "ActortId",
+    "Outer": "SetParam",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "SetParam",
+    "Outer": "WBP_Match_Info_Car_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "IntProperty'WBP_Match_Info_Car_C:SetParam.ActortId'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.50"
+      },
+      {
+        "ObjectName": "StructProperty'WBP_Match_Info_Car_C:SetParam.StyleCarID'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.49"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Image",
+    "Name": "Base",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 24.0,
+          "Y": 96.0
+        },
+        "Margin": {
+          "Left": 0.5,
+          "Top": 0.5,
+          "Right": 0.5,
+          "Bottom": 0.5
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_match_Info_Base_03'",
+          "ObjectPath": "GameProject/Content/IND/UI/Matching/Texture/T_match_Info_Base_03.0"
+        },
+        "DrawAs": "ESlateBrushDrawType::Box"
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Match_Info_Car_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.22"
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "P_LayoutType",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 54.0,
+          "Y": 54.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'course_sel_icon_07'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Course/Texture/icon/course_sel_icon_07.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Match_Info_Car_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_10'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.23"
+      },
+      "RenderTransform": {
+        "Scale": {
+          "X": 0.6,
+          "Y": 0.6
+        }
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "P_RootType",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 54.0,
+          "Y": 54.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'course_sel_icon_03'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Course/Texture/icon/course_sel_icon_03.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Match_Info_Car_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_9'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.26"
+      },
+      "RenderTransform": {
+        "Scale": {
+          "X": 0.6,
+          "Y": 0.6
+        }
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Base",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 24.0,
+          "Y": 96.0
+        },
+        "Margin": {
+          "Left": 0.5,
+          "Top": 0.5,
+          "Right": 0.5,
+          "Bottom": 0.5
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_match_Info_Base_03'",
+          "ObjectPath": "GameProject/Content/IND/UI/Matching/Texture/T_match_Info_Base_03.0"
+        },
+        "DrawAs": "ESlateBrushDrawType::Box"
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.28"
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "P_LayoutType",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 54.0,
+          "Y": 54.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'course_sel_icon_07'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Course/Texture/icon/course_sel_icon_07.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_10'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.29"
+      },
+      "RenderTransform": {
+        "Scale": {
+          "X": 0.6,
+          "Y": 0.6
+        }
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "P_RootType",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 54.0,
+          "Y": 54.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'course_sel_icon_03'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/Course/Texture/icon/course_sel_icon_03.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_9'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.32"
+      },
+      "RenderTransform": {
+        "Scale": {
+          "X": 0.6,
+          "Y": 0.6
+        }
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Image_Dummy",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 716.0,
+          "Y": 384.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'AE86T_large01'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/CarShop/CarSelect/CarLargeTex/AE86T_large01.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.WBP_MenuCarIcon.WidgetTree_0.Overlay_96.OverlaySlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.65"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Image_RT",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 716.0,
+          "Y": 384.0
+        },
+        "ResourceObject": {
+          "ObjectName": "MaterialInstanceConstant'M_MenuCarIcon_Inst'",
+          "ObjectPath": "GameProject/Content/IND/UI/MenuCarIcon/M_MenuCarIcon_Inst.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.WBP_MenuCarIcon.WidgetTree_0.Overlay_96.OverlaySlot_5'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.67"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Image_58",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 168.0,
+          "Y": 168.0
+        },
+        "ResourceObject": {
+          "ObjectName": "MaterialInstanceConstant'MI_NowLoadingIcon_01'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/NowLoadingIcon/MI_NowLoadingIcon_01.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_MenuCarIcon.WidgetTree_0.WBP_MenuCarIcon_LoadIcon.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.34"
+      }
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "P_Name",
+    "Outer": "WBP_Match_Info_Car_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'TextBlock'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "P_RootType",
+    "Outer": "WBP_Match_Info_Car_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'Image'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "WBP_MenuCarIcon",
+    "Outer": "WBP_Match_Info_Car_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'WBP_MenuCarIcon_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/MenuCarIcon/WBP_MenuCarIcon.1"
+    }
+  },
+  {
+    "Type": "Overlay",
+    "Name": "Overlay_96",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Overlay'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.WBP_MenuCarIcon.WidgetTree_0.Overlay_96.OverlaySlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.65"
+        },
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.WBP_MenuCarIcon.WidgetTree_0.Overlay_96.OverlaySlot_5'",
+          "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.67"
+        },
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.WBP_MenuCarIcon.WidgetTree_0.Overlay_96.OverlaySlot_3'",
+          "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.66"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "ScaleBoxSlot'WidgetArchetype:WidgetTree_0.WBP_MenuCarIcon.WidgetTree_0.ScaleBox_2.ScaleBoxSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.69"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_1",
+    "Outer": "Overlay_96",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Fill",
+      "VerticalAlignment": "VAlign_Fill",
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.WBP_MenuCarIcon.WidgetTree_0.Overlay_96'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.64"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_MenuCarIcon.WidgetTree_0.Image_Dummy'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.58"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_3",
+    "Outer": "Overlay_96",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.WBP_MenuCarIcon.WidgetTree_0.Overlay_96'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.64"
+      },
+      "Content": {
+        "ObjectName": "WBP_MenuCarIcon_LoadIcon_C'WidgetArchetype:WidgetTree_0.WBP_MenuCarIcon.WidgetTree_0.WBP_MenuCarIcon_LoadIcon'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.77"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_5",
+    "Outer": "Overlay_96",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Fill",
+      "VerticalAlignment": "VAlign_Fill",
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.WBP_MenuCarIcon.WidgetTree_0.Overlay_96'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.64"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_MenuCarIcon.WidgetTree_0.Image_RT'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.59"
+      }
+    }
+  },
+  {
+    "Type": "ScaleBox",
+    "Name": "ScaleBox_2",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'ScaleBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "ScaleBoxSlot'WidgetArchetype:WidgetTree_0.WBP_MenuCarIcon.WidgetTree_0.ScaleBox_2.ScaleBoxSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.69"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "ScaleBoxSlot",
+    "Name": "ScaleBoxSlot_0",
+    "Outer": "ScaleBox_2",
+    "Class": "UScriptClass'ScaleBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "ScaleBox'WidgetArchetype:WidgetTree_0.WBP_MenuCarIcon.WidgetTree_0.ScaleBox_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.68"
+      },
+      "Content": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.WBP_MenuCarIcon.WidgetTree_0.Overlay_96'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.64"
+      }
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_GetDesiredSize_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_Match_Info_Car",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector2D'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_MakeVector2D_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_Match_Info_Car",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector2D'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "P_Name",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "1E8034EB47CA23C7A6B15FAEA3182203",
+        "SourceString": "TRUENO 2door GT-APEX (AE86)[HC]",
+        "LocalizedString": "TRUENO 2door GT-APEX (AE86)[HC]"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 0.0,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "000000"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "TypefaceFontName": "RodinN_EB",
+        "Size": 10
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Match_Info_Car_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_11'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.24"
+      },
+      "RenderTransform": {
+        "Scale": {
+          "X": 0.8,
+          "Y": 1.0
+        }
+      },
+      "RenderTransformPivot": {
+        "X": 0.0,
+        "Y": 0.5
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "P_Name",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "1E8034EB47CA23C7A6B15FAEA3182203",
+        "SourceString": "TRUENO 2door GT-APEX (AE86)[HC]",
+        "LocalizedString": "TRUENO 2door GT-APEX (AE86)[HC]"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 0.0,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "000000"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "TypefaceFontName": "RodinN_EB",
+        "Size": 10
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_11'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.30"
+      },
+      "RenderTransform": {
+        "Scale": {
+          "X": 0.8,
+          "Y": 1.0
+        }
+      },
+      "RenderTransformPivot": {
+        "X": 0.0,
+        "Y": 0.5
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "WBP_Match_Info_Car_C",
+    "Name": "WidgetArchetype",
+    "Class": "WidgetBlueprintGeneratedClass'GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.WBP_Match_Info_Car_C'",
+    "Template": {
+      "ObjectName": "WBP_Match_Info_Car_C'Default__WBP_Match_Info_Car_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.2"
+    },
+    "Flags": "RF_Public | RF_Standalone | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "P_LayoutType": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.P_LayoutType'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.56"
+      },
+      "P_Name": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.P_Name'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.73"
+      },
+      "P_RootType": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.P_RootType'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.57"
+      },
+      "WBP_MenuCarIcon": {
+        "ObjectName": "WBP_MenuCarIcon_C'WidgetArchetype:WidgetTree_0.WBP_MenuCarIcon'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.76"
+      },
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.79"
+      },
+      "bCookedWidgetTree": true
+    }
+  },
+  {
+    "Type": "WBP_MenuCarIcon_C",
+    "Name": "WBP_MenuCarIcon",
+    "Outer": "WidgetTree",
+    "Class": "WidgetBlueprintGeneratedClass'GameProject/Content/IND/UI/MenuCarIcon/WBP_MenuCarIcon.WBP_MenuCarIcon_C'",
+    "Template": {
+      "ObjectName": "WBP_MenuCarIcon_C'Default__WBP_MenuCarIcon_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/MenuCarIcon/WBP_MenuCarIcon.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Match_Info_Car_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_7'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.25"
+      },
+      "RenderTransform": {
+        "Scale": {
+          "X": 0.8,
+          "Y": 0.8
+        }
+      }
+    }
+  },
+  {
+    "Type": "WBP_MenuCarIcon_C",
+    "Name": "WBP_MenuCarIcon",
+    "Outer": "WidgetTree_0",
+    "Class": "WidgetBlueprintGeneratedClass'GameProject/Content/IND/UI/MenuCarIcon/WBP_MenuCarIcon.WBP_MenuCarIcon_C'",
+    "Template": {
+      "ObjectName": "WBP_MenuCarIcon_C'Default__WBP_MenuCarIcon_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/MenuCarIcon/WBP_MenuCarIcon.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Image_Dummy": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_MenuCarIcon.WidgetTree_0.Image_Dummy'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.58"
+      },
+      "Image_RT": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_MenuCarIcon.WidgetTree_0.Image_RT'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.59"
+      },
+      "WBP_MenuCarIcon_LoadIcon": {
+        "ObjectName": "WBP_MenuCarIcon_LoadIcon_C'WidgetArchetype:WidgetTree_0.WBP_MenuCarIcon.WidgetTree_0.WBP_MenuCarIcon_LoadIcon'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.77"
+      },
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.WBP_MenuCarIcon.WidgetTree_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.80"
+      },
+      "bCookedWidgetTree": true,
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_7'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.31"
+      },
+      "RenderTransform": {
+        "Scale": {
+          "X": 0.8,
+          "Y": 0.8
+        }
+      }
+    }
+  },
+  {
+    "Type": "WBP_MenuCarIcon_LoadIcon_C",
+    "Name": "WBP_MenuCarIcon_LoadIcon",
+    "Outer": "WidgetTree_0",
+    "Class": "WidgetBlueprintGeneratedClass'GameProject/Content/IND/UI/MenuCarIcon/WBP_MenuCarIcon_LoadIcon.WBP_MenuCarIcon_LoadIcon_C'",
+    "Template": {
+      "ObjectName": "WBP_MenuCarIcon_LoadIcon_C'Default__WBP_MenuCarIcon_LoadIcon_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/MenuCarIcon/WBP_MenuCarIcon_LoadIcon.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Image_58": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_MenuCarIcon.WidgetTree_0.WBP_MenuCarIcon_LoadIcon.WidgetTree_0.Image_58'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.60"
+      },
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.WBP_MenuCarIcon.WidgetTree_0.WBP_MenuCarIcon_LoadIcon.WidgetTree_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.81"
+      },
+      "bCookedWidgetTree": true,
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.WBP_MenuCarIcon.WidgetTree_0.Overlay_96.OverlaySlot_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.66"
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Outer": "WBP_Match_Info_Car_C",
+    "Class": "UScriptClass'WidgetTree'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CanvasPanel'WBP_Match_Info_Car_C:WidgetTree.CanvasPanel_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.18"
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree_0",
+    "Outer": "WidgetArchetype",
+    "Class": "UScriptClass'WidgetTree'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.20"
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree_0",
+    "Outer": "WBP_MenuCarIcon",
+    "Class": "UScriptClass'WidgetTree'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "ScaleBox'WidgetArchetype:WidgetTree_0.WBP_MenuCarIcon.WidgetTree_0.ScaleBox_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.68"
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree_0",
+    "Outer": "WBP_MenuCarIcon_LoadIcon",
+    "Class": "UScriptClass'WidgetTree'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_MenuCarIcon.WidgetTree_0.WBP_MenuCarIcon_LoadIcon.WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Matching/WBP_Match_Info_Car.21"
+      }
+    }
+  }
+]

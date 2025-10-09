@@ -1,0 +1,4986 @@
+[
+  {
+    "Type": "StructProperty",
+    "Name": "UberGraphFrame",
+    "Outer": "WBP_Reward_Window_C",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "Transient | DuplicateTransient",
+    "Struct": {
+      "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "WBP_Reward_Window_C",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WBP_Reward_Window_C:WidgetTree'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.227"
+      },
+      "bAllowTemplate": true,
+      "bValidTemplate": true,
+      "TemplateAsset": {
+        "AssetPathName": "/Game/IND/UI/Reward/WBP_Reward_Window.WidgetArchetype",
+        "SubPathString": ""
+      },
+      "UberGraphFramePointerProperty": {
+        "ObjectName": "StructProperty'WBP_Reward_Window_C:UberGraphFrame'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.0"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'WBP_Reward_Window_C:ExecuteUbergraph_WBP_Reward_Window'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.5"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'UserWidget'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'WBP_Reward_Window_C:UberGraphFrame'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.0"
+      },
+      {
+        "ObjectName": "Function'WBP_Reward_Window_C:Set Reward Data STFor Play Stamp Pickup'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.21"
+      },
+      {
+        "ObjectName": "Function'WBP_Reward_Window_C:CanScroll'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.18"
+      },
+      {
+        "ObjectName": "Function'WBP_Reward_Window_C:GetScrollMove'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.16"
+      },
+      {
+        "ObjectName": "Function'WBP_Reward_Window_C:SetRewardNumber'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.14"
+      },
+      {
+        "ObjectName": "Function'WBP_Reward_Window_C:ScrollUp'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.12"
+      },
+      {
+        "ObjectName": "Function'WBP_Reward_Window_C:ScrollDown'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.11"
+      },
+      {
+        "ObjectName": "Function'WBP_Reward_Window_C:SetRewardDataST'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.10"
+      },
+      {
+        "ObjectName": "Function'WBP_Reward_Window_C:ExecuteUbergraph_WBP_Reward_Window'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.5"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Reward_Window_C:Image_88'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.3"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Reward_Window_C:Index_Text_Sub'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.161"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Reward_Window_C:P_Get_Num'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.162"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Reward_Window_C:P_Get_Unit'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.163"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Reward_Window_C:P_HelpText_01'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.164"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Reward_Window_C:P_HelpText_02'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.165"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Reward_Window_C:P_Index_Text_Main'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.166"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Reward_Window_C:P_Reward_List'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.167"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Reward_Window_C:WBP_ComWin'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.170"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Reward_Window_C:REWARD_PANEL_NUM'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.147"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Reward_Window_C:BpvRewardPanelLine'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.158"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Reward_Window_C:BpvRewardPanelLineNum'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.132"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Reward_Window_C:BpvScrollMoveOffset'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.133"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Reward_Window_C:DISPLAY_LINE_NUM'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.134"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Reward_Window_C:isMove'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.36"
+      },
+      {
+        "ObjectName": "StructProperty'WBP_Reward_Window_C:ReceiveRewardData'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.194"
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_WBP_Reward_Window": {
+        "ObjectName": "Function'WBP_Reward_Window_C:ExecuteUbergraph_WBP_Reward_Window'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.5"
+      },
+      "SetRewardDataST": {
+        "ObjectName": "Function'WBP_Reward_Window_C:SetRewardDataST'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.10"
+      },
+      "ScrollDown": {
+        "ObjectName": "Function'WBP_Reward_Window_C:ScrollDown'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.11"
+      },
+      "ScrollUp": {
+        "ObjectName": "Function'WBP_Reward_Window_C:ScrollUp'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.12"
+      },
+      "SetRewardNumber": {
+        "ObjectName": "Function'WBP_Reward_Window_C:SetRewardNumber'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.14"
+      },
+      "GetScrollMove": {
+        "ObjectName": "Function'WBP_Reward_Window_C:GetScrollMove'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.16"
+      },
+      "CanScroll": {
+        "ObjectName": "Function'WBP_Reward_Window_C:CanScroll'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.18"
+      },
+      "Set Reward Data STFor Play Stamp Pickup": {
+        "ObjectName": "Function'WBP_Reward_Window_C:Set Reward Data STFor Play Stamp Pickup'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.21"
+      }
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "WBP_Reward_Window_C'Default__WBP_Reward_Window_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.2"
+    }
+  },
+  {
+    "Type": "WBP_Reward_Window_C",
+    "Name": "Default__WBP_Reward_Window_C",
+    "Class": "WidgetBlueprintGeneratedClass'GameProject/Content/IND/UI/Reward/WBP_Reward_Window.WBP_Reward_Window_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "UberGraphFrame": {},
+      "REWARD_PANEL_NUM": 2,
+      "DISPLAY_LINE_NUM": 3,
+      "ReceiveRewardData": {
+        "RewardCategoryID_23_D591463E48E5C2FBCEB07D9ECA639B25": "ERewardCategoryID::Invalid",
+        "IconTexture_5_B374551C4A6B5F9D2A3DA3B2BA2AC31F": null,
+        "AvatarIconMID_26_547C4E2A4189354B64FA88BC1635CB6D": null,
+        "FrameID_8_1AC5EDC24FCF86ADEAD459B8C9F15D97": "ERewardIconFrameID::NewEnumerator0",
+        "ReplaceIconCaption_11_8D6C7FAB488B787840B4EA991AB84056": {
+          "Namespace": "",
+          "Key": "E70CDB834C765B8FD99B97BE39F01006",
+          "SourceString": "アイコン左上の付け替え可アイコンの説明文（空なら非表示）",
+          "LocalizedString": "アイコン左上の付け替え可アイコンの説明文（空なら非表示）"
+        },
+        "SubCaption_17_ADAC392F4585582F02AED78C097BE449": {
+          "Namespace": "",
+          "Key": "365473D24978DB42C39FC583552DF3A6",
+          "SourceString": "アイコン右下の説明文",
+          "LocalizedString": "アイコン右下の説明文"
+        },
+        "Title_21_5CD87E4540BD6979BA08B1A3516FD590": {
+          "Namespace": "",
+          "Key": "9A97F6B74273631323AA9B96210A0097",
+          "SourceString": "報酬獲得内容タイトル（テキスト内の{num}は個数で置き換えられる）",
+          "LocalizedString": "報酬獲得内容タイトル（テキスト内の{num}は個数で置き換えられる）"
+        },
+        "Detail_18_30F67F4341FAF3109709C483919AB18D": {
+          "Namespace": "",
+          "Key": "B35CA785439D827C7216DC9DB0900236",
+          "SourceString": "報酬獲得内容説明",
+          "LocalizedString": "報酬獲得内容説明"
+        },
+        "CategoryName_31_3C5342C74B1B17E7D86A7599C09D19C8": {
+          "CultureInvariantString": null
+        },
+        "RewardNameFormat_35_D47578024AC592ABAD1CD5BE544ED740": {
+          "CultureInvariantString": null
+        }
+      },
+      "bHasScriptImplementedTick": false,
+      "bHasScriptImplementedPaint": false
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Image_88",
+    "Outer": "WBP_Reward_Window_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'Image'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "EntryPoint",
+    "Outer": "ExecuteUbergraph_WBP_Reward_Window",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_WBP_Reward_Window",
+    "Outer": "WBP_Reward_Window_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "IntProperty'WBP_Reward_Window_C:ExecuteUbergraph_WBP_Reward_Window.EntryPoint'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.4"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Reward_Window_C:ExecuteUbergraph_WBP_Reward_Window.Temp_bool_Variable'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.34"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Reward_Window_C:ExecuteUbergraph_WBP_Reward_Window.Temp_int_Array_Index_Variable'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.144"
+      },
+      {
+        "ObjectName": "ByteProperty'WBP_Reward_Window_C:ExecuteUbergraph_WBP_Reward_Window.Temp_byte_Variable'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.45"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Reward_Window_C:ExecuteUbergraph_WBP_Reward_Window.K2Node_CustomEvent_Number'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.143"
+      },
+      {
+        "ObjectName": "TextProperty'WBP_Reward_Window_C:ExecuteUbergraph_WBP_Reward_Window.CallFunc_Conv_IntToText_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.215"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_Reward_Window_C:ExecuteUbergraph_WBP_Reward_Window.CallFunc_GetScrollOffset_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.93"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_Reward_Window_C:ExecuteUbergraph_WBP_Reward_Window.CallFunc_GetScrollMove_Move'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.91"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_Reward_Window_C:ExecuteUbergraph_WBP_Reward_Window.CallFunc_GetScrollOffsetOfEnd_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.95"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_Reward_Window_C:ExecuteUbergraph_WBP_Reward_Window.CallFunc_Subtract_FloatFloat_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.96"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_Reward_Window_C:ExecuteUbergraph_WBP_Reward_Window.CallFunc_GetScrollOffset_ReturnValue_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.94"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Reward_Window_C:ExecuteUbergraph_WBP_Reward_Window.CallFunc_GreaterEqual_FloatFloat_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.30"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_Reward_Window_C:ExecuteUbergraph_WBP_Reward_Window.CallFunc_GetScrollMove_Move_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.92"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_Reward_Window_C:ExecuteUbergraph_WBP_Reward_Window.CallFunc_Add_FloatFloat_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.90"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Reward_Window_C:ExecuteUbergraph_WBP_Reward_Window.CallFunc_GreaterEqual_FloatFloat_ReturnValue_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.31"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Reward_Window_C:ExecuteUbergraph_WBP_Reward_Window.CallFunc_Greater_IntInt_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.28"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Reward_Window_C:ExecuteUbergraph_WBP_Reward_Window.CallFunc_Greater_IntInt_ReturnValue_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.29"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Reward_Window_C:ExecuteUbergraph_WBP_Reward_Window.Temp_int_Loop_Counter_Variable'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.145"
+      },
+      {
+        "ObjectName": "ByteProperty'WBP_Reward_Window_C:ExecuteUbergraph_WBP_Reward_Window.Temp_byte_Variable_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.46"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Reward_Window_C:ExecuteUbergraph_WBP_Reward_Window.CallFunc_Add_IntInt_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.135"
+      },
+      {
+        "ObjectName": "ByteProperty'WBP_Reward_Window_C:ExecuteUbergraph_WBP_Reward_Window.Temp_byte_Variable_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.47"
+      },
+      {
+        "ObjectName": "ArrayProperty'WBP_Reward_Window_C:ExecuteUbergraph_WBP_Reward_Window.K2Node_CustomEvent_RewardData'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.7"
+      },
+      {
+        "ObjectName": "StructProperty'WBP_Reward_Window_C:ExecuteUbergraph_WBP_Reward_Window.CallFunc_Array_Get_Item'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.192"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Reward_Window_C:ExecuteUbergraph_WBP_Reward_Window.CallFunc_Array_Length_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.137"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Reward_Window_C:ExecuteUbergraph_WBP_Reward_Window.CallFunc_GetOverWriteRarity_bEnable'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.26"
+      },
+      {
+        "ObjectName": "EnumProperty'WBP_Reward_Window_C:ExecuteUbergraph_WBP_Reward_Window.CallFunc_GetOverWriteRarity_Rariry'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.88"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Reward_Window_C:ExecuteUbergraph_WBP_Reward_Window.CallFunc_Less_IntInt_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.32"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Reward_Window_C:ExecuteUbergraph_WBP_Reward_Window.CallFunc_Array_Length_ReturnValue_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.138"
+      },
+      {
+        "ObjectName": "StructProperty'WBP_Reward_Window_C:ExecuteUbergraph_WBP_Reward_Window.CallFunc_GetReceiveRewardData_ReceiveRewardData'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.193"
+      },
+      {
+        "ObjectName": "TextProperty'WBP_Reward_Window_C:ExecuteUbergraph_WBP_Reward_Window.CallFunc_GetReceiveRewardData_PartsName'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.216"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Reward_Window_C:ExecuteUbergraph_WBP_Reward_Window.CallFunc_GetReceiveRewardData_IsValid'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.27"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Reward_Window_C:ExecuteUbergraph_WBP_Reward_Window.CallFunc_Add_IntInt_ReturnValue_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.136"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Reward_Window_C:ExecuteUbergraph_WBP_Reward_Window.CallFunc_Array_Length_ReturnValue_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.139"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Reward_Window_C:ExecuteUbergraph_WBP_Reward_Window.CallFunc_Percent_IntInt_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.141"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Reward_Window_C:ExecuteUbergraph_WBP_Reward_Window.CallFunc_EqualEqual_IntInt_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.25"
+      },
+      {
+        "ObjectName": "EnumProperty'WBP_Reward_Window_C:ExecuteUbergraph_WBP_Reward_Window.Temp_byte_Variable_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.89"
+      },
+      {
+        "ObjectName": "ByteProperty'WBP_Reward_Window_C:ExecuteUbergraph_WBP_Reward_Window.K2Node_Select_Default'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.44"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Reward_Window_C:ExecuteUbergraph_WBP_Reward_Window.CallFunc_Percent_IntInt_ReturnValue_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.142"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Reward_Window_C:ExecuteUbergraph_WBP_Reward_Window.CallFunc_NotEqual_IntInt_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.33"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Reward_Window_C:ExecuteUbergraph_WBP_Reward_Window.CallFunc_AddChild_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.159"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Reward_Window_C:ExecuteUbergraph_WBP_Reward_Window.CallFunc_Create_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.160"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Reward_Window_C:ExecuteUbergraph_WBP_Reward_Window.CallFunc_Divide_IntInt_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.140"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_Reward_Window_C:ExecuteUbergraph_WBP_Reward_Window.K2Node_Select_Default_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.97"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_Reward_Window_C:ExecuteUbergraph_WBP_Reward_Window.Temp_float_Variable'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.99"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Reward_Window_C:ExecuteUbergraph_WBP_Reward_Window.Temp_bool_Variable_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.35"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_Reward_Window_C:ExecuteUbergraph_WBP_Reward_Window.K2Node_Select_Default_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.98"
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction | FUNC_HasDefaults"
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "K2Node_CustomEvent_RewardData",
+    "Outer": "K2Node_CustomEvent_RewardData",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Struct": {
+      "ObjectName": "ScriptStruct'CommonReceiveRewardData'",
+      "ObjectPath": "/Script/GameProject"
+    }
+  },
+  {
+    "Type": "ArrayProperty",
+    "Name": "K2Node_CustomEvent_RewardData",
+    "Outer": "ExecuteUbergraph_WBP_Reward_Window",
+    "Class": "UScriptClass'ArrayProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "ConstParm | ReferenceParm",
+    "Inner": {
+      "ObjectName": "StructProperty'WBP_Reward_Window_C:ExecuteUbergraph_WBP_Reward_Window.K2Node_CustomEvent_RewardData.K2Node_CustomEvent_RewardData'",
+      "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.6"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "RewardData",
+    "Outer": "RewardData",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Struct": {
+      "ObjectName": "ScriptStruct'CommonReceiveRewardData'",
+      "ObjectPath": "/Script/GameProject"
+    }
+  },
+  {
+    "Type": "ArrayProperty",
+    "Name": "RewardData",
+    "Outer": "SetRewardDataST",
+    "Class": "UScriptClass'ArrayProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "ConstParm | BlueprintVisible | BlueprintReadOnly | Parm | OutParm | ReferenceParm",
+    "Inner": {
+      "ObjectName": "StructProperty'WBP_Reward_Window_C:SetRewardDataST.RewardData.RewardData'",
+      "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.8"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "SetRewardDataST",
+    "Outer": "WBP_Reward_Window_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "ArrayProperty'WBP_Reward_Window_C:SetRewardDataST.RewardData'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.9"
+      }
+    ],
+    "FunctionFlags": "FUNC_HasOutParms | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ScrollDown",
+    "Outer": "WBP_Reward_Window_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ScrollUp",
+    "Outer": "WBP_Reward_Window_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "Number",
+    "Outer": "SetRewardNumber",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "SetRewardNumber",
+    "Outer": "WBP_Reward_Window_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "IntProperty'WBP_Reward_Window_C:SetRewardNumber.Number'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.13"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "Move",
+    "Outer": "GetScrollMove",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "Parm | OutParm"
+  },
+  {
+    "Type": "Function",
+    "Name": "GetScrollMove",
+    "Outer": "WBP_Reward_Window_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "FloatProperty'WBP_Reward_Window_C:GetScrollMove.Move'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.15"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_Reward_Window_C:GetScrollMove.CallFunc_GetScrollOffset_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.102"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Reward_Window_C:GetScrollMove.CallFunc_Subtract_IntInt_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.146"
+      },
+      {
+        "ObjectName": "StrProperty'WBP_Reward_Window_C:GetScrollMove.CallFunc_Conv_FloatToString_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.188"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_Reward_Window_C:GetScrollMove.CallFunc_Conv_IntToFloat_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.100"
+      },
+      {
+        "ObjectName": "StrProperty'WBP_Reward_Window_C:GetScrollMove.CallFunc_Conv_IntToString_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.191"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_Reward_Window_C:GetScrollMove.CallFunc_GetScrollOffsetOfEnd_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.103"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_Reward_Window_C:GetScrollMove.CallFunc_Divide_FloatFloat_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.101"
+      },
+      {
+        "ObjectName": "StrProperty'WBP_Reward_Window_C:GetScrollMove.CallFunc_Conv_FloatToString_ReturnValue_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.189"
+      },
+      {
+        "ObjectName": "StrProperty'WBP_Reward_Window_C:GetScrollMove.CallFunc_Concat_StrStr_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.181"
+      },
+      {
+        "ObjectName": "StrProperty'WBP_Reward_Window_C:GetScrollMove.CallFunc_Conv_FloatToString_ReturnValue_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.190"
+      },
+      {
+        "ObjectName": "StrProperty'WBP_Reward_Window_C:GetScrollMove.CallFunc_Concat_StrStr_ReturnValue_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.182"
+      },
+      {
+        "ObjectName": "StrProperty'WBP_Reward_Window_C:GetScrollMove.CallFunc_Concat_StrStr_ReturnValue_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.183"
+      },
+      {
+        "ObjectName": "StrProperty'WBP_Reward_Window_C:GetScrollMove.CallFunc_Concat_StrStr_ReturnValue_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.184"
+      },
+      {
+        "ObjectName": "StrProperty'WBP_Reward_Window_C:GetScrollMove.CallFunc_Concat_StrStr_ReturnValue_4'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.185"
+      },
+      {
+        "ObjectName": "StrProperty'WBP_Reward_Window_C:GetScrollMove.CallFunc_Concat_StrStr_ReturnValue_5'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.186"
+      },
+      {
+        "ObjectName": "StrProperty'WBP_Reward_Window_C:GetScrollMove.CallFunc_Concat_StrStr_ReturnValue_6'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.187"
+      }
+    ],
+    "FunctionFlags": "FUNC_Private | FUNC_HasOutParms | FUNC_BlueprintCallable | FUNC_BlueprintEvent | FUNC_BlueprintPure"
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "Re",
+    "Outer": "CanScroll",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "Parm | OutParm",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "Function",
+    "Name": "CanScroll",
+    "Outer": "WBP_Reward_Window_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "BoolProperty'WBP_Reward_Window_C:CanScroll.Re'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.17"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Reward_Window_C:CanScroll.CallFunc_Greater_IntInt_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.24"
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasOutParms | FUNC_BlueprintCallable | FUNC_BlueprintEvent | FUNC_BlueprintPure"
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "RewardData",
+    "Outer": "RewardData",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Struct": {
+      "ObjectName": "ScriptStruct'CommonReceiveRewardData'",
+      "ObjectPath": "/Script/GameProject"
+    }
+  },
+  {
+    "Type": "ArrayProperty",
+    "Name": "RewardData",
+    "Outer": "Set Reward Data STFor Play Stamp Pickup",
+    "Class": "UScriptClass'ArrayProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | OutParm | ReferenceParm",
+    "Inner": {
+      "ObjectName": "StructProperty'WBP_Reward_Window_C:Set Reward Data STFor Play Stamp Pickup.RewardData.RewardData'",
+      "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.19"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "Set Reward Data STFor Play Stamp Pickup",
+    "Outer": "WBP_Reward_Window_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "ArrayProperty'WBP_Reward_Window_C:Set Reward Data STFor Play Stamp Pickup.RewardData'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.20"
+      },
+      {
+        "ObjectName": "ArrayProperty'WBP_Reward_Window_C:Set Reward Data STFor Play Stamp Pickup.PickupReward'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.23"
+      },
+      {
+        "ObjectName": "StructProperty'WBP_Reward_Window_C:Set Reward Data STFor Play Stamp Pickup.Current'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.198"
+      },
+      {
+        "ObjectName": "StructProperty'WBP_Reward_Window_C:Set Reward Data STFor Play Stamp Pickup.CurrentRecive'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.199"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Reward_Window_C:Set Reward Data STFor Play Stamp Pickup.CallFunc_Array_Length_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.150"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Reward_Window_C:Set Reward Data STFor Play Stamp Pickup.Temp_int_Array_Index_Variable'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.156"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Reward_Window_C:Set Reward Data STFor Play Stamp Pickup.Temp_int_Loop_Counter_Variable'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.157"
+      },
+      {
+        "ObjectName": "StructProperty'WBP_Reward_Window_C:Set Reward Data STFor Play Stamp Pickup.CallFunc_Array_Get_Item'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.195"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Reward_Window_C:Set Reward Data STFor Play Stamp Pickup.CallFunc_Less_IntInt_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.40"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Reward_Window_C:Set Reward Data STFor Play Stamp Pickup.CallFunc_Add_IntInt_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.148"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Reward_Window_C:Set Reward Data STFor Play Stamp Pickup.CallFunc_Create_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.169"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Reward_Window_C:Set Reward Data STFor Play Stamp Pickup.CallFunc_Array_Length_ReturnValue_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.151"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Reward_Window_C:Set Reward Data STFor Play Stamp Pickup.CallFunc_Add_IntInt_ReturnValue_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.149"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Reward_Window_C:Set Reward Data STFor Play Stamp Pickup.CallFunc_Array_Length_ReturnValue_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.152"
+      },
+      {
+        "ObjectName": "StructProperty'WBP_Reward_Window_C:Set Reward Data STFor Play Stamp Pickup.CallFunc_GetReceiveRewardData_ReceiveRewardData'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.197"
+      },
+      {
+        "ObjectName": "TextProperty'WBP_Reward_Window_C:Set Reward Data STFor Play Stamp Pickup.CallFunc_GetReceiveRewardData_PartsName'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.217"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Reward_Window_C:Set Reward Data STFor Play Stamp Pickup.CallFunc_GetReceiveRewardData_IsValid'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.39"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Reward_Window_C:Set Reward Data STFor Play Stamp Pickup.CallFunc_Array_Contains_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.37"
+      },
+      {
+        "ObjectName": "StructProperty'WBP_Reward_Window_C:Set Reward Data STFor Play Stamp Pickup.CallFunc_ChangeIconFrameToRainbow_Result'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.196"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Reward_Window_C:Set Reward Data STFor Play Stamp Pickup.Temp_bool_Variable'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.42"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Reward_Window_C:Set Reward Data STFor Play Stamp Pickup.CallFunc_Divide_IntInt_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.153"
+      },
+      {
+        "ObjectName": "StructProperty'WBP_Reward_Window_C:Set Reward Data STFor Play Stamp Pickup.K2Node_Select_Default'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.200"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Reward_Window_C:Set Reward Data STFor Play Stamp Pickup.CallFunc_Percent_IntInt_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.154"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Reward_Window_C:Set Reward Data STFor Play Stamp Pickup.CallFunc_NotEqual_IntInt_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.41"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Reward_Window_C:Set Reward Data STFor Play Stamp Pickup.CallFunc_AddChild_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.168"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Reward_Window_C:Set Reward Data STFor Play Stamp Pickup.CallFunc_Percent_IntInt_ReturnValue_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.155"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Reward_Window_C:Set Reward Data STFor Play Stamp Pickup.CallFunc_EqualEqual_IntInt_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.38"
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasOutParms | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "PickupReward",
+    "Outer": "PickupReward",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Struct": {
+      "ObjectName": "ScriptStruct'RewardData'",
+      "ObjectPath": "/Script/GameProject"
+    }
+  },
+  {
+    "Type": "ArrayProperty",
+    "Name": "PickupReward",
+    "Outer": "Set Reward Data STFor Play Stamp Pickup",
+    "Class": "UScriptClass'ArrayProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | OutParm | ReferenceParm",
+    "Inner": {
+      "ObjectName": "StructProperty'WBP_Reward_Window_C:Set Reward Data STFor Play Stamp Pickup.PickupReward.PickupReward'",
+      "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.22"
+    }
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_Greater_IntInt_ReturnValue",
+    "Outer": "CanScroll",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_EqualEqual_IntInt_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_Reward_Window",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_GetOverWriteRarity_bEnable",
+    "Outer": "ExecuteUbergraph_WBP_Reward_Window",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_GetReceiveRewardData_IsValid",
+    "Outer": "ExecuteUbergraph_WBP_Reward_Window",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_Greater_IntInt_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_Reward_Window",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_Greater_IntInt_ReturnValue_1",
+    "Outer": "ExecuteUbergraph_WBP_Reward_Window",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_GreaterEqual_FloatFloat_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_Reward_Window",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_GreaterEqual_FloatFloat_ReturnValue_1",
+    "Outer": "ExecuteUbergraph_WBP_Reward_Window",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_Less_IntInt_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_Reward_Window",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_NotEqual_IntInt_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_Reward_Window",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "Temp_bool_Variable",
+    "Outer": "ExecuteUbergraph_WBP_Reward_Window",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "Temp_bool_Variable_1",
+    "Outer": "ExecuteUbergraph_WBP_Reward_Window",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "isMove",
+    "Outer": "WBP_Reward_Window_C",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_Array_Contains_ReturnValue",
+    "Outer": "Set Reward Data STFor Play Stamp Pickup",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_EqualEqual_IntInt_ReturnValue",
+    "Outer": "Set Reward Data STFor Play Stamp Pickup",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_GetReceiveRewardData_IsValid",
+    "Outer": "Set Reward Data STFor Play Stamp Pickup",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_Less_IntInt_ReturnValue",
+    "Outer": "Set Reward Data STFor Play Stamp Pickup",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_NotEqual_IntInt_ReturnValue",
+    "Outer": "Set Reward Data STFor Play Stamp Pickup",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "Temp_bool_Variable",
+    "Outer": "Set Reward Data STFor Play Stamp Pickup",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Outer": "CallFunc_GetOverWriteRarity_Rariry",
+    "Class": "UScriptClass'ByteProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": null
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "K2Node_Select_Default",
+    "Outer": "ExecuteUbergraph_WBP_Reward_Window",
+    "Class": "UScriptClass'ByteProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": {
+      "ObjectName": "UserDefinedEnum'ERewardIconFrameID'",
+      "ObjectPath": "GameProject/Content/IND/DataTable/RewardIcon/ERewardIconFrameID.0"
+    }
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "Temp_byte_Variable",
+    "Outer": "ExecuteUbergraph_WBP_Reward_Window",
+    "Class": "UScriptClass'ByteProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": {
+      "ObjectName": "UserDefinedEnum'ERewardIconFrameID'",
+      "ObjectPath": "GameProject/Content/IND/DataTable/RewardIcon/ERewardIconFrameID.0"
+    }
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "Temp_byte_Variable_1",
+    "Outer": "ExecuteUbergraph_WBP_Reward_Window",
+    "Class": "UScriptClass'ByteProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": {
+      "ObjectName": "UserDefinedEnum'ERewardIconFrameID'",
+      "ObjectPath": "GameProject/Content/IND/DataTable/RewardIcon/ERewardIconFrameID.0"
+    }
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "Temp_byte_Variable_2",
+    "Outer": "ExecuteUbergraph_WBP_Reward_Window",
+    "Class": "UScriptClass'ByteProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": {
+      "ObjectName": "UserDefinedEnum'ERewardIconFrameID'",
+      "ObjectPath": "GameProject/Content/IND/DataTable/RewardIcon/ERewardIconFrameID.0"
+    }
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "UnderlyingType",
+    "Outer": "Temp_byte_Variable_3",
+    "Class": "UScriptClass'ByteProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": null
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_48",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Reward_Window_C:WidgetTree.CanvasPanel_48.CanvasPanelSlot_7'",
+          "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.61"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Reward_Window_C:WidgetTree.CanvasPanel_48.CanvasPanelSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.56"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Reward_Window_C:WidgetTree.CanvasPanel_48.CanvasPanelSlot_3'",
+          "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.57"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Reward_Window_C:WidgetTree.CanvasPanel_48.CanvasPanelSlot_4'",
+          "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.58"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Reward_Window_C:WidgetTree.CanvasPanel_48.CanvasPanelSlot_5'",
+          "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.59"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Reward_Window_C:WidgetTree.CanvasPanel_48.CanvasPanelSlot_6'",
+          "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.60"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Reward_Window_C:WidgetTree.CanvasPanel_48.CanvasPanelSlot_9'",
+          "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.62"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "Help_01",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Reward_Window_C:WidgetTree.Help_01.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.63"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Reward_Window_C:WidgetTree.Help_01.CanvasPanelSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.64"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WBP_Reward_Window_C:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.110"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "Team",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Reward_Window_C:WidgetTree.Team.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.65"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Reward_Window_C:WidgetTree.Team.CanvasPanelSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.66"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WBP_Reward_Window_C:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.111"
+      },
+      "Visibility": "ESlateVisibility::Collapsed"
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_48",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_48.CanvasPanelSlot_7'",
+          "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.72"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_48.CanvasPanelSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.67"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_48.CanvasPanelSlot_3'",
+          "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.68"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_48.CanvasPanelSlot_4'",
+          "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.69"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_48.CanvasPanelSlot_5'",
+          "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.70"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_48.CanvasPanelSlot_6'",
+          "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.71"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_48.CanvasPanelSlot_9'",
+          "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.73"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "Help_01",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.Help_01.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.74"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.Help_01.CanvasPanelSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.75"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.HorizontalBox_0.HorizontalBoxSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.114"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "Team",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.Team.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.76"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.Team.CanvasPanelSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.77"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.HorizontalBox_0.HorizontalBoxSlot_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.115"
+      },
+      "Visibility": "ESlateVisibility::Collapsed"
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_0",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_ComWin.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.78"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_ComWin.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.79"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_ComWin.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_3'",
+          "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.83"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_ComWin.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_5'",
+          "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.84"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_ComWin.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_6'",
+          "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.85"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_ComWin.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_7'",
+          "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.86"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_ComWin.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_9'",
+          "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.87"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_ComWin.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_10'",
+          "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.80"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_ComWin.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_13'",
+          "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.81"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_ComWin.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_2'",
+          "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.82"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "CanvasPanel_48",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": -310.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Reward_Window_C:WidgetTree.CanvasPanel_48'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.49"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WBP_Reward_Window_C:WidgetTree.Index_Text_Sub'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.201"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_3",
+    "Outer": "CanvasPanel_48",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": -267.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Reward_Window_C:WidgetTree.CanvasPanel_48'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.49"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WBP_Reward_Window_C:WidgetTree.P_Index_Text_Main'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.206"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_4",
+    "Outer": "CanvasPanel_48",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": 8.0,
+          "Right": 1278.0,
+          "Bottom": 460.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Reward_Window_C:WidgetTree.CanvasPanel_48'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.49"
+      },
+      "Content": {
+        "ObjectName": "Image'WBP_Reward_Window_C:WidgetTree.BG_Black_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.116"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_5",
+    "Outer": "CanvasPanel_48",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": 8.0,
+          "Right": 1278.0,
+          "Bottom": 460.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Reward_Window_C:WidgetTree.CanvasPanel_48'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.49"
+      },
+      "Content": {
+        "ObjectName": "ScrollBox'WBP_Reward_Window_C:WidgetTree.P_Reward_List'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.175"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_6",
+    "Outer": "CanvasPanel_48",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 442.0,
+          "Top": -255.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Reward_Window_C:WidgetTree.CanvasPanel_48'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.49"
+      },
+      "Content": {
+        "ObjectName": "HorizontalBox'WBP_Reward_Window_C:WidgetTree.Get'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.104"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_7",
+    "Outer": "CanvasPanel_48",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 1304.0,
+          "Bottom": 669.6
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Reward_Window_C:WidgetTree.CanvasPanel_48'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.49"
+      },
+      "Content": {
+        "ObjectName": "WBP_ComWin_C'WBP_Reward_Window_C:WidgetTree.WBP_ComWin'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.224"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_9",
+    "Outer": "CanvasPanel_48",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": 285.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Reward_Window_C:WidgetTree.CanvasPanel_48'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.49"
+      },
+      "Content": {
+        "ObjectName": "VerticalBox'WBP_Reward_Window_C:WidgetTree.Help'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.218"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "Help_01",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 60.0,
+          "Bottom": 60.0
+        },
+        "Alignment": {
+          "X": 1.0,
+          "Y": 0.0
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Reward_Window_C:WidgetTree.Help_01'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.50"
+      },
+      "Content": {
+        "ObjectName": "Image'WBP_Reward_Window_C:WidgetTree.Icon'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.117"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "Help_01",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Anchors": {
+          "Minimum": {
+            "X": 0.0,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.0,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.0,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Reward_Window_C:WidgetTree.Help_01'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.50"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WBP_Reward_Window_C:WidgetTree.P_HelpText_01'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.204"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "Team",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -40.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Reward_Window_C:WidgetTree.Team'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.51"
+      },
+      "Content": {
+        "ObjectName": "Image'WBP_Reward_Window_C:WidgetTree.Image_88'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.118"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "Team",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -184.0,
+          "Right": 356.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.0,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Reward_Window_C:WidgetTree.Team'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.51"
+      },
+      "Content": {
+        "ObjectName": "ScaleBox'WBP_Reward_Window_C:WidgetTree.ScaleBox_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.171"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "CanvasPanel_48",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": -310.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_48'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.52"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.Index_Text_Sub'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.208"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_3",
+    "Outer": "CanvasPanel_48",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": -267.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_48'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.52"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.P_Index_Text_Main'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.213"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_4",
+    "Outer": "CanvasPanel_48",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": 8.0,
+          "Right": 1278.0,
+          "Bottom": 460.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_48'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.52"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.BG_Black_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.119"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_5",
+    "Outer": "CanvasPanel_48",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": 8.0,
+          "Right": 1278.0,
+          "Bottom": 460.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_48'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.52"
+      },
+      "Content": {
+        "ObjectName": "ScrollBox'WidgetArchetype:WidgetTree_0.P_Reward_List'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.176"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_6",
+    "Outer": "CanvasPanel_48",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 442.0,
+          "Top": -255.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_48'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.52"
+      },
+      "Content": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.Get'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.106"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_7",
+    "Outer": "CanvasPanel_48",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 1304.0,
+          "Bottom": 669.6
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_48'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.52"
+      },
+      "Content": {
+        "ObjectName": "WBP_ComWin_C'WidgetArchetype:WidgetTree_0.WBP_ComWin'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.225"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_9",
+    "Outer": "CanvasPanel_48",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": 285.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_48'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.52"
+      },
+      "Content": {
+        "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.Help'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.219"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "Help_01",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 60.0,
+          "Bottom": 60.0
+        },
+        "Alignment": {
+          "X": 1.0,
+          "Y": 0.0
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.Help_01'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.53"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.Icon'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.120"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "Help_01",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Anchors": {
+          "Minimum": {
+            "X": 0.0,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.0,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.0,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.Help_01'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.53"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.P_HelpText_01'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.211"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "Team",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -40.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.Team'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.54"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.Image_88'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.121"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "Team",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -184.0,
+          "Right": 356.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.0,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.Team'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.54"
+      },
+      "Content": {
+        "ObjectName": "ScaleBox'WidgetArchetype:WidgetTree_0.ScaleBox_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.172"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 0.0,
+          "Bottom": 0.0
+        },
+        "Anchors": {
+          "Maximum": {
+            "X": 1.0,
+            "Y": 1.0
+          }
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_ComWin.WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.55"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_ComWin.WidgetTree_0.Base'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.122"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 12.0,
+          "Top": 12.0,
+          "Right": 12.0,
+          "Bottom": 0.0
+        },
+        "Anchors": {
+          "Maximum": {
+            "X": 1.0,
+            "Y": 0.0
+          }
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_ComWin.WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.55"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_ComWin.WidgetTree_0.Pattern01'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.130"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_10",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 0.0,
+          "Bottom": 0.0
+        },
+        "Anchors": {
+          "Maximum": {
+            "X": 1.0,
+            "Y": 1.0
+          }
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_ComWin.WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.55"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_ComWin.WidgetTree_0.FrameSilver'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.128"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_13",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 0.0,
+          "Bottom": 0.0
+        },
+        "Anchors": {
+          "Maximum": {
+            "X": 1.0,
+            "Y": 1.0
+          }
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_ComWin.WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.55"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_ComWin.WidgetTree_0.FrameGold'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.127"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_2",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 28.0,
+          "Top": 29.0,
+          "Bottom": 40.0
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_ComWin.WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.55"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_ComWin.WidgetTree_0.Logo'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.129"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_3",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 12.0,
+          "Top": -12.0,
+          "Right": 12.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.0,
+            "Y": 1.0
+          },
+          "Maximum": {
+            "X": 1.0,
+            "Y": 1.0
+          }
+        },
+        "Alignment": {
+          "X": 0.0,
+          "Y": 1.0
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_ComWin.WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.55"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_ComWin.WidgetTree_0.Pattern02'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.131"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_5",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 0.0,
+          "Bottom": 0.0
+        },
+        "Anchors": {
+          "Maximum": {
+            "X": 1.0,
+            "Y": 1.0
+          }
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_ComWin.WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.55"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_ComWin.WidgetTree_0.Frame01'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.123"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_6",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 0.0,
+          "Bottom": 0.0
+        },
+        "Anchors": {
+          "Maximum": {
+            "X": 1.0,
+            "Y": 1.0
+          }
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_ComWin.WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.55"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_ComWin.WidgetTree_0.Frame02'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.124"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_7",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 0.0,
+          "Bottom": 0.0
+        },
+        "Anchors": {
+          "Maximum": {
+            "X": 1.0,
+            "Y": 1.0
+          }
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_ComWin.WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.55"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_ComWin.WidgetTree_0.Frame03'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.125"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_9",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 0.0,
+          "Bottom": 0.0
+        },
+        "Anchors": {
+          "Maximum": {
+            "X": 1.0,
+            "Y": 1.0
+          }
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_ComWin.WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.55"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_ComWin.WidgetTree_0.FrameBronze'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.126"
+      }
+    }
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "CallFunc_GetOverWriteRarity_Rariry",
+    "Outer": "ExecuteUbergraph_WBP_Reward_Window",
+    "Class": "UScriptClass'EnumProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": {
+      "ObjectName": "Enum'ERewardRarity'",
+      "ObjectPath": "/Script/GameProject"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'WBP_Reward_Window_C:ExecuteUbergraph_WBP_Reward_Window.CallFunc_GetOverWriteRarity_Rariry.UnderlyingType'",
+      "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.43"
+    }
+  },
+  {
+    "Type": "EnumProperty",
+    "Name": "Temp_byte_Variable_3",
+    "Outer": "ExecuteUbergraph_WBP_Reward_Window",
+    "Class": "UScriptClass'EnumProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Enum": {
+      "ObjectName": "Enum'ERewardRarity'",
+      "ObjectPath": "/Script/GameProject"
+    },
+    "UnderlyingProp": {
+      "ObjectName": "ByteProperty'WBP_Reward_Window_C:ExecuteUbergraph_WBP_Reward_Window.Temp_byte_Variable_3.UnderlyingType'",
+      "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.48"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_Add_FloatFloat_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_Reward_Window",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_GetScrollMove_Move",
+    "Outer": "ExecuteUbergraph_WBP_Reward_Window",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_GetScrollMove_Move_1",
+    "Outer": "ExecuteUbergraph_WBP_Reward_Window",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_GetScrollOffset_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_Reward_Window",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_GetScrollOffset_ReturnValue_1",
+    "Outer": "ExecuteUbergraph_WBP_Reward_Window",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_GetScrollOffsetOfEnd_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_Reward_Window",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_Subtract_FloatFloat_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_Reward_Window",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "K2Node_Select_Default_1",
+    "Outer": "ExecuteUbergraph_WBP_Reward_Window",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "K2Node_Select_Default_2",
+    "Outer": "ExecuteUbergraph_WBP_Reward_Window",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "Temp_float_Variable",
+    "Outer": "ExecuteUbergraph_WBP_Reward_Window",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_Conv_IntToFloat_ReturnValue",
+    "Outer": "GetScrollMove",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_Divide_FloatFloat_ReturnValue",
+    "Outer": "GetScrollMove",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_GetScrollOffset_ReturnValue",
+    "Outer": "GetScrollMove",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_GetScrollOffsetOfEnd_ReturnValue",
+    "Outer": "GetScrollMove",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "HorizontalBox",
+    "Name": "Get",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'HorizontalBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "HorizontalBoxSlot'WBP_Reward_Window_C:WidgetTree.Get.HorizontalBoxSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.109"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot'WBP_Reward_Window_C:WidgetTree.Get.HorizontalBoxSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.108"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Reward_Window_C:WidgetTree.CanvasPanel_48.CanvasPanelSlot_6'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.60"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBox",
+    "Name": "HorizontalBox_0",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'HorizontalBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "HorizontalBoxSlot'WBP_Reward_Window_C:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_2'",
+          "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.111"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot'WBP_Reward_Window_C:WidgetTree.HorizontalBox_0.HorizontalBoxSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.110"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'WBP_Reward_Window_C:WidgetTree.Help.VerticalBoxSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.221"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBox",
+    "Name": "Get",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'HorizontalBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.Get.HorizontalBoxSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.113"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.Get.HorizontalBoxSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.112"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_48.CanvasPanelSlot_6'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.71"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBox",
+    "Name": "HorizontalBox_0",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'HorizontalBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.HorizontalBox_0.HorizontalBoxSlot_2'",
+          "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.115"
+        },
+        {
+          "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.HorizontalBox_0.HorizontalBoxSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.114"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'WidgetArchetype:WidgetTree_0.Help.VerticalBoxSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.223"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_0",
+    "Outer": "Get",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Padding": {
+        "Top": 14.0
+      },
+      "Parent": {
+        "ObjectName": "HorizontalBox'WBP_Reward_Window_C:WidgetTree.Get'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.104"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WBP_Reward_Window_C:WidgetTree.P_Get_Unit'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.203"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_1",
+    "Outer": "Get",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "HorizontalBox'WBP_Reward_Window_C:WidgetTree.Get'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.104"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WBP_Reward_Window_C:WidgetTree.P_Get_Num'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.202"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_0",
+    "Outer": "HorizontalBox_0",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "HorizontalBox'WBP_Reward_Window_C:WidgetTree.HorizontalBox_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.105"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WBP_Reward_Window_C:WidgetTree.Help_01'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.50"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_2",
+    "Outer": "HorizontalBox_0",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Padding": {
+        "Right": 90.0
+      },
+      "Parent": {
+        "ObjectName": "HorizontalBox'WBP_Reward_Window_C:WidgetTree.HorizontalBox_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.105"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WBP_Reward_Window_C:WidgetTree.Team'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.51"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_0",
+    "Outer": "Get",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Padding": {
+        "Top": 14.0
+      },
+      "Parent": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.Get'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.106"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.P_Get_Unit'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.210"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_1",
+    "Outer": "Get",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.Get'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.106"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.P_Get_Num'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.209"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_0",
+    "Outer": "HorizontalBox_0",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.HorizontalBox_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.107"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.Help_01'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.53"
+      }
+    }
+  },
+  {
+    "Type": "HorizontalBoxSlot",
+    "Name": "HorizontalBoxSlot_2",
+    "Outer": "HorizontalBox_0",
+    "Class": "UScriptClass'HorizontalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Padding": {
+        "Right": 90.0
+      },
+      "Parent": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.HorizontalBox_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.107"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.Team'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.54"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "BG_Black_1",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ColorAndOpacity": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 0.5,
+        "Hex": "7F000000"
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Reward_Window_C:WidgetTree.CanvasPanel_48.CanvasPanelSlot_4'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.58"
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Icon",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 68.0,
+          "Y": 68.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Com_Customize_Icon_CustomIcon'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/ComParts/Texture/T_Com_Customize_Icon_CustomIcon.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Reward_Window_C:WidgetTree.Help_01.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.63"
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Image_88",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 636.0,
+          "Y": 44.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Reward_Window_TeamInfo'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/Texture/Team/T_Reward_Window_TeamInfo.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Reward_Window_C:WidgetTree.Team.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.65"
+      },
+      "RenderTransform": {
+        "Scale": {
+          "X": 0.9,
+          "Y": 0.9
+        }
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "BG_Black_1",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ColorAndOpacity": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 0.5,
+        "Hex": "7F000000"
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_48.CanvasPanelSlot_4'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.69"
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Icon",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 68.0,
+          "Y": 68.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Com_Customize_Icon_CustomIcon'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/ComParts/Texture/T_Com_Customize_Icon_CustomIcon.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.Help_01.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.74"
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Image_88",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 636.0,
+          "Y": 44.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Reward_Window_TeamInfo'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/Texture/Team/T_Reward_Window_TeamInfo.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.Team.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.76"
+      },
+      "RenderTransform": {
+        "Scale": {
+          "X": 0.9,
+          "Y": 0.9
+        }
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Base",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 108.0,
+          "Y": 108.0
+        },
+        "Margin": {
+          "Left": 0.5,
+          "Top": 0.5,
+          "Right": 0.5,
+          "Bottom": 0.5
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_ComWin_Base'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/ComWin/Texture/T_ComWin_Base.0"
+        },
+        "DrawAs": "ESlateBrushDrawType::Box"
+      },
+      "ColorAndOpacity": {
+        "R": 0.019382,
+        "G": 0.019382,
+        "B": 0.019382,
+        "A": 1.0,
+        "Hex": "262626"
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_ComWin.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.78"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Frame01",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 108.0,
+          "Y": 108.0
+        },
+        "Margin": {
+          "Left": 0.3,
+          "Top": 0.3,
+          "Right": 0.3,
+          "Bottom": 0.3
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_ComWin_Frame_01'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/ComWin/Texture/T_ComWin_Frame_01.0"
+        },
+        "DrawAs": "ESlateBrushDrawType::Box"
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_ComWin.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_5'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.84"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Frame02",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 108.0,
+          "Y": 108.0
+        },
+        "Margin": {
+          "Left": 0.3,
+          "Top": 0.3,
+          "Right": 0.3,
+          "Bottom": 0.3
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_ComWin_Frame_02'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/ComWin/Texture/T_ComWin_Frame_02.0"
+        },
+        "DrawAs": "ESlateBrushDrawType::Box"
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_ComWin.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_6'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.85"
+      },
+      "RenderOpacity": 0.0
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Frame03",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "Margin": {
+          "Left": 0.3,
+          "Top": 0.3,
+          "Right": 0.3,
+          "Bottom": 0.3
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_ComWin_Frame_03'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/ComWin/Texture/T_ComWin_Frame_03.0"
+        },
+        "DrawAs": "ESlateBrushDrawType::Box"
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_ComWin.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_7'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.86"
+      },
+      "RenderOpacity": 0.0
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "FrameBronze",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 108.0,
+          "Y": 108.0
+        },
+        "Margin": {
+          "Left": 0.3,
+          "Top": 0.3,
+          "Right": 0.3,
+          "Bottom": 0.3
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_ComWin_Frame_04'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/ComWin/Texture/T_ComWin_Frame_04.0"
+        },
+        "DrawAs": "ESlateBrushDrawType::Box"
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_ComWin.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_9'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.87"
+      },
+      "RenderOpacity": 0.0
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "FrameGold",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 108.0,
+          "Y": 108.0
+        },
+        "Margin": {
+          "Left": 0.3,
+          "Top": 0.3,
+          "Right": 0.3,
+          "Bottom": 0.3
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_ComWin_Frame_06'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/ComWin/Texture/T_ComWin_Frame_06.0"
+        },
+        "DrawAs": "ESlateBrushDrawType::Box"
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_ComWin.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_13'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.81"
+      },
+      "RenderOpacity": 0.0
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "FrameSilver",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 108.0,
+          "Y": 108.0
+        },
+        "Margin": {
+          "Left": 0.3,
+          "Top": 0.3,
+          "Right": 0.3,
+          "Bottom": 0.3
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_ComWin_Frame_05'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/ComWin/Texture/T_ComWin_Frame_05.0"
+        },
+        "DrawAs": "ESlateBrushDrawType::Box"
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_ComWin.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_10'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.80"
+      },
+      "RenderOpacity": 0.0
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Logo",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 372.0,
+          "Y": 132.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_ComWin_Logo'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/ComWin/Texture/T_ComWin_Logo.0"
+        }
+      },
+      "ColorAndOpacity": {
+        "R": 0.051269,
+        "G": 0.051269,
+        "B": 0.051269,
+        "A": 1.0,
+        "Hex": "404040"
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_ComWin.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.82"
+      }
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Pattern01",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 16.0,
+          "Y": 252.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_ComWin_Pattern01'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/ComWin/Texture/T_ComWin_Pattern01.0"
+        },
+        "Tiling": "ESlateBrushTileType::Horizontal"
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_ComWin.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.79"
+      },
+      "RenderOpacity": 0.5
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Pattern02",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 16.0,
+          "Y": 252.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_ComWin_Pattern02'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/ComWin/Texture/T_ComWin_Pattern02.0"
+        },
+        "Tiling": "ESlateBrushTileType::Horizontal"
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_ComWin.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.83"
+      },
+      "RenderOpacity": 0.2
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "BpvRewardPanelLineNum",
+    "Outer": "WBP_Reward_Window_C",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "BpvScrollMoveOffset",
+    "Outer": "WBP_Reward_Window_C",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "DISPLAY_LINE_NUM",
+    "Outer": "WBP_Reward_Window_C",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "Edit | BlueprintVisible | BlueprintReadOnly | DisableEditOnInstance"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_Add_IntInt_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_Reward_Window",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_Add_IntInt_ReturnValue_1",
+    "Outer": "ExecuteUbergraph_WBP_Reward_Window",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_Array_Length_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_Reward_Window",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_Array_Length_ReturnValue_1",
+    "Outer": "ExecuteUbergraph_WBP_Reward_Window",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_Array_Length_ReturnValue_2",
+    "Outer": "ExecuteUbergraph_WBP_Reward_Window",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_Divide_IntInt_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_Reward_Window",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_Percent_IntInt_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_Reward_Window",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_Percent_IntInt_ReturnValue_1",
+    "Outer": "ExecuteUbergraph_WBP_Reward_Window",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "K2Node_CustomEvent_Number",
+    "Outer": "ExecuteUbergraph_WBP_Reward_Window",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "Temp_int_Array_Index_Variable",
+    "Outer": "ExecuteUbergraph_WBP_Reward_Window",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "Temp_int_Loop_Counter_Variable",
+    "Outer": "ExecuteUbergraph_WBP_Reward_Window",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_Subtract_IntInt_ReturnValue",
+    "Outer": "GetScrollMove",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "REWARD_PANEL_NUM",
+    "Outer": "WBP_Reward_Window_C",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "Edit | BlueprintVisible | BlueprintReadOnly | DisableEditOnInstance"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_Add_IntInt_ReturnValue",
+    "Outer": "Set Reward Data STFor Play Stamp Pickup",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_Add_IntInt_ReturnValue_1",
+    "Outer": "Set Reward Data STFor Play Stamp Pickup",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_Array_Length_ReturnValue",
+    "Outer": "Set Reward Data STFor Play Stamp Pickup",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_Array_Length_ReturnValue_1",
+    "Outer": "Set Reward Data STFor Play Stamp Pickup",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_Array_Length_ReturnValue_2",
+    "Outer": "Set Reward Data STFor Play Stamp Pickup",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_Divide_IntInt_ReturnValue",
+    "Outer": "Set Reward Data STFor Play Stamp Pickup",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_Percent_IntInt_ReturnValue",
+    "Outer": "Set Reward Data STFor Play Stamp Pickup",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "CallFunc_Percent_IntInt_ReturnValue_1",
+    "Outer": "Set Reward Data STFor Play Stamp Pickup",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "Temp_int_Array_Index_Variable",
+    "Outer": "Set Reward Data STFor Play Stamp Pickup",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "Temp_int_Loop_Counter_Variable",
+    "Outer": "Set Reward Data STFor Play Stamp Pickup",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "BpvRewardPanelLine",
+    "Outer": "WBP_Reward_Window_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance | InstancedReference",
+    "PropertyClass": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'WBP_Reward_Panel_Line_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Panel_Line.1"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_AddChild_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_Reward_Window",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "InstancedReference",
+    "PropertyClass": {
+      "ObjectName": "Class'PanelSlot'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_Create_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_Reward_Window",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "InstancedReference",
+    "PropertyClass": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'WBP_Reward_Panel_Line_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Panel_Line.1"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Index_Text_Sub",
+    "Outer": "WBP_Reward_Window_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'TextBlock'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "P_Get_Num",
+    "Outer": "WBP_Reward_Window_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'TextBlock'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "P_Get_Unit",
+    "Outer": "WBP_Reward_Window_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'TextBlock'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "P_HelpText_01",
+    "Outer": "WBP_Reward_Window_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'TextBlock'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "P_HelpText_02",
+    "Outer": "WBP_Reward_Window_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'TextBlock'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "P_Index_Text_Main",
+    "Outer": "WBP_Reward_Window_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'TextBlock'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "P_Reward_List",
+    "Outer": "WBP_Reward_Window_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'ScrollBox'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_AddChild_ReturnValue",
+    "Outer": "Set Reward Data STFor Play Stamp Pickup",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "InstancedReference",
+    "PropertyClass": {
+      "ObjectName": "Class'PanelSlot'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_Create_ReturnValue",
+    "Outer": "Set Reward Data STFor Play Stamp Pickup",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "InstancedReference",
+    "PropertyClass": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'WBP_Reward_Panel_Line_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Panel_Line.1"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "WBP_ComWin",
+    "Outer": "WBP_Reward_Window_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'WBP_ComWin_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Common/ComWin/WBP_ComWin.1"
+    }
+  },
+  {
+    "Type": "ScaleBox",
+    "Name": "ScaleBox_1",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'ScaleBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "ScaleBoxSlot'WBP_Reward_Window_C:WidgetTree.ScaleBox_1.ScaleBoxSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.173"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Reward_Window_C:WidgetTree.Team.CanvasPanelSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.66"
+      }
+    }
+  },
+  {
+    "Type": "ScaleBox",
+    "Name": "ScaleBox_1",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'ScaleBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "ScaleBoxSlot'WidgetArchetype:WidgetTree_0.ScaleBox_1.ScaleBoxSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.174"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.Team.CanvasPanelSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.77"
+      }
+    }
+  },
+  {
+    "Type": "ScaleBoxSlot",
+    "Name": "ScaleBoxSlot_0",
+    "Outer": "ScaleBox_1",
+    "Class": "UScriptClass'ScaleBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "ScaleBox'WBP_Reward_Window_C:WidgetTree.ScaleBox_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.171"
+      },
+      "Content": {
+        "ObjectName": "SizeBox'WBP_Reward_Window_C:WidgetTree.SizeBox_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.177"
+      }
+    }
+  },
+  {
+    "Type": "ScaleBoxSlot",
+    "Name": "ScaleBoxSlot_0",
+    "Outer": "ScaleBox_1",
+    "Class": "UScriptClass'ScaleBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "ScaleBox'WidgetArchetype:WidgetTree_0.ScaleBox_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.172"
+      },
+      "Content": {
+        "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.SizeBox_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.178"
+      }
+    }
+  },
+  {
+    "Type": "ScrollBox",
+    "Name": "P_Reward_List",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'ScrollBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "WidgetStyle": {
+        "TopShadowBrush": {
+          "ImageSize": {
+            "X": 1278.0,
+            "Y": 64.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'T_Reward_List_Shadow_Top'",
+            "ObjectPath": "GameProject/Content/IND/UI/Reward/Texture/T_Reward_List_Shadow_Top.0"
+          },
+          "DrawAs": "ESlateBrushDrawType::Image"
+        },
+        "BottomShadowBrush": {
+          "ImageSize": {
+            "X": 1278.0,
+            "Y": 64.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'T_Reward_List_Shadow_Bottom'",
+            "ObjectPath": "GameProject/Content/IND/UI/Reward/Texture/T_Reward_List_Shadow_Bottom.0"
+          },
+          "DrawAs": "ESlateBrushDrawType::Image"
+        },
+        "LeftShadowBrush": {
+          "DrawAs": "ESlateBrushDrawType::NoDrawType"
+        },
+        "RightShadowBrush": {
+          "DrawAs": "ESlateBrushDrawType::NoDrawType"
+        }
+      },
+      "WidgetBarStyle": {
+        "VerticalBackgroundImage": {
+          "ImageSize": {
+            "X": 24.0,
+            "Y": 24.0
+          },
+          "Margin": {
+            "Left": 0.5,
+            "Top": 0.5,
+            "Right": 0.5,
+            "Bottom": 0.5
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'T_Reward_ScrollBack'",
+            "ObjectPath": "GameProject/Content/IND/UI/Reward/Texture/T_Reward_ScrollBack.0"
+          },
+          "DrawAs": "ESlateBrushDrawType::Box"
+        },
+        "VerticalTopSlotImage": {
+          "DrawAs": "ESlateBrushDrawType::NoDrawType"
+        },
+        "HorizontalTopSlotImage": {
+          "DrawAs": "ESlateBrushDrawType::NoDrawType"
+        },
+        "VerticalBottomSlotImage": {
+          "DrawAs": "ESlateBrushDrawType::NoDrawType"
+        },
+        "HorizontalBottomSlotImage": {
+          "DrawAs": "ESlateBrushDrawType::NoDrawType"
+        },
+        "NormalThumbImage": {
+          "ImageSize": {
+            "X": 24.0,
+            "Y": 24.0
+          },
+          "Margin": {
+            "Left": 0.5,
+            "Top": 0.5,
+            "Right": 0.5,
+            "Bottom": 0.5
+          },
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 0.637597,
+              "G": 0.386429,
+              "B": 0.01096,
+              "A": 1.0,
+              "Hex": "D1A71B"
+            }
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'T_Reward_ScrollThumb'",
+            "ObjectPath": "GameProject/Content/IND/UI/Reward/Texture/T_Reward_ScrollThumb.0"
+          }
+        }
+      },
+      "ScrollbarThickness": {
+        "X": 24.0,
+        "Y": 24.0
+      },
+      "ScrollbarPadding": {
+        "Left": 0.0,
+        "Top": -3.0,
+        "Right": 8.0,
+        "Bottom": -3.0
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Reward_Window_C:WidgetTree.CanvasPanel_48.CanvasPanelSlot_5'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.59"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "ScrollBox",
+    "Name": "P_Reward_List",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'ScrollBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "WidgetStyle": {
+        "TopShadowBrush": {
+          "ImageSize": {
+            "X": 1278.0,
+            "Y": 64.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'T_Reward_List_Shadow_Top'",
+            "ObjectPath": "GameProject/Content/IND/UI/Reward/Texture/T_Reward_List_Shadow_Top.0"
+          },
+          "DrawAs": "ESlateBrushDrawType::Image"
+        },
+        "BottomShadowBrush": {
+          "ImageSize": {
+            "X": 1278.0,
+            "Y": 64.0
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'T_Reward_List_Shadow_Bottom'",
+            "ObjectPath": "GameProject/Content/IND/UI/Reward/Texture/T_Reward_List_Shadow_Bottom.0"
+          },
+          "DrawAs": "ESlateBrushDrawType::Image"
+        },
+        "LeftShadowBrush": {
+          "DrawAs": "ESlateBrushDrawType::NoDrawType"
+        },
+        "RightShadowBrush": {
+          "DrawAs": "ESlateBrushDrawType::NoDrawType"
+        }
+      },
+      "WidgetBarStyle": {
+        "VerticalBackgroundImage": {
+          "ImageSize": {
+            "X": 24.0,
+            "Y": 24.0
+          },
+          "Margin": {
+            "Left": 0.5,
+            "Top": 0.5,
+            "Right": 0.5,
+            "Bottom": 0.5
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'T_Reward_ScrollBack'",
+            "ObjectPath": "GameProject/Content/IND/UI/Reward/Texture/T_Reward_ScrollBack.0"
+          },
+          "DrawAs": "ESlateBrushDrawType::Box"
+        },
+        "VerticalTopSlotImage": {
+          "DrawAs": "ESlateBrushDrawType::NoDrawType"
+        },
+        "HorizontalTopSlotImage": {
+          "DrawAs": "ESlateBrushDrawType::NoDrawType"
+        },
+        "VerticalBottomSlotImage": {
+          "DrawAs": "ESlateBrushDrawType::NoDrawType"
+        },
+        "HorizontalBottomSlotImage": {
+          "DrawAs": "ESlateBrushDrawType::NoDrawType"
+        },
+        "NormalThumbImage": {
+          "ImageSize": {
+            "X": 24.0,
+            "Y": 24.0
+          },
+          "Margin": {
+            "Left": 0.5,
+            "Top": 0.5,
+            "Right": 0.5,
+            "Bottom": 0.5
+          },
+          "TintColor": {
+            "SpecifiedColor": {
+              "R": 0.637597,
+              "G": 0.386429,
+              "B": 0.01096,
+              "A": 1.0,
+              "Hex": "D1A71B"
+            }
+          },
+          "ResourceObject": {
+            "ObjectName": "Texture2D'T_Reward_ScrollThumb'",
+            "ObjectPath": "GameProject/Content/IND/UI/Reward/Texture/T_Reward_ScrollThumb.0"
+          }
+        }
+      },
+      "ScrollbarThickness": {
+        "X": 24.0,
+        "Y": 24.0
+      },
+      "ScrollbarPadding": {
+        "Left": 0.0,
+        "Top": -3.0,
+        "Right": 8.0,
+        "Bottom": -3.0
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_48.CanvasPanelSlot_5'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.70"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "SizeBox",
+    "Name": "SizeBox_1",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'SizeBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "SizeBoxSlot'WBP_Reward_Window_C:WidgetTree.SizeBox_1.SizeBoxSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.179"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "ScaleBoxSlot'WBP_Reward_Window_C:WidgetTree.ScaleBox_1.ScaleBoxSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.173"
+      }
+    }
+  },
+  {
+    "Type": "SizeBox",
+    "Name": "SizeBox_1",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'SizeBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "SizeBoxSlot'WidgetArchetype:WidgetTree_0.SizeBox_1.SizeBoxSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.180"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "ScaleBoxSlot'WidgetArchetype:WidgetTree_0.ScaleBox_1.ScaleBoxSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.174"
+      }
+    }
+  },
+  {
+    "Type": "SizeBoxSlot",
+    "Name": "SizeBoxSlot_0",
+    "Outer": "SizeBox_1",
+    "Class": "UScriptClass'SizeBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "SizeBox'WBP_Reward_Window_C:WidgetTree.SizeBox_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.177"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WBP_Reward_Window_C:WidgetTree.TextBlock_71'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.207"
+      }
+    }
+  },
+  {
+    "Type": "SizeBoxSlot",
+    "Name": "SizeBoxSlot_0",
+    "Outer": "SizeBox_1",
+    "Class": "UScriptClass'SizeBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.SizeBox_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.178"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.TextBlock_71'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.214"
+      }
+    }
+  },
+  {
+    "Type": "StrProperty",
+    "Name": "CallFunc_Concat_StrStr_ReturnValue",
+    "Outer": "GetScrollMove",
+    "Class": "UScriptClass'StrProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "StrProperty",
+    "Name": "CallFunc_Concat_StrStr_ReturnValue_1",
+    "Outer": "GetScrollMove",
+    "Class": "UScriptClass'StrProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "StrProperty",
+    "Name": "CallFunc_Concat_StrStr_ReturnValue_2",
+    "Outer": "GetScrollMove",
+    "Class": "UScriptClass'StrProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "StrProperty",
+    "Name": "CallFunc_Concat_StrStr_ReturnValue_3",
+    "Outer": "GetScrollMove",
+    "Class": "UScriptClass'StrProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "StrProperty",
+    "Name": "CallFunc_Concat_StrStr_ReturnValue_4",
+    "Outer": "GetScrollMove",
+    "Class": "UScriptClass'StrProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "StrProperty",
+    "Name": "CallFunc_Concat_StrStr_ReturnValue_5",
+    "Outer": "GetScrollMove",
+    "Class": "UScriptClass'StrProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "StrProperty",
+    "Name": "CallFunc_Concat_StrStr_ReturnValue_6",
+    "Outer": "GetScrollMove",
+    "Class": "UScriptClass'StrProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "StrProperty",
+    "Name": "CallFunc_Conv_FloatToString_ReturnValue",
+    "Outer": "GetScrollMove",
+    "Class": "UScriptClass'StrProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "StrProperty",
+    "Name": "CallFunc_Conv_FloatToString_ReturnValue_1",
+    "Outer": "GetScrollMove",
+    "Class": "UScriptClass'StrProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "StrProperty",
+    "Name": "CallFunc_Conv_FloatToString_ReturnValue_2",
+    "Outer": "GetScrollMove",
+    "Class": "UScriptClass'StrProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "StrProperty",
+    "Name": "CallFunc_Conv_IntToString_ReturnValue",
+    "Outer": "GetScrollMove",
+    "Class": "UScriptClass'StrProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_Array_Get_Item",
+    "Outer": "ExecuteUbergraph_WBP_Reward_Window",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Struct": {
+      "ObjectName": "ScriptStruct'CommonReceiveRewardData'",
+      "ObjectPath": "/Script/GameProject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_GetReceiveRewardData_ReceiveRewardData",
+    "Outer": "ExecuteUbergraph_WBP_Reward_Window",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Struct": {
+      "ObjectName": "UserDefinedStruct'ST_ReceiveRewardData'",
+      "ObjectPath": "GameProject/Content/IND/DataTable/RewardIcon/ST_ReceiveRewardData.2"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "ReceiveRewardData",
+    "Outer": "WBP_Reward_Window_C",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+    "Struct": {
+      "ObjectName": "UserDefinedStruct'ST_ReceiveRewardData'",
+      "ObjectPath": "GameProject/Content/IND/DataTable/RewardIcon/ST_ReceiveRewardData.2"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_Array_Get_Item",
+    "Outer": "Set Reward Data STFor Play Stamp Pickup",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Struct": {
+      "ObjectName": "ScriptStruct'CommonReceiveRewardData'",
+      "ObjectPath": "/Script/GameProject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_ChangeIconFrameToRainbow_Result",
+    "Outer": "Set Reward Data STFor Play Stamp Pickup",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Struct": {
+      "ObjectName": "UserDefinedStruct'ST_ReceiveRewardData'",
+      "ObjectPath": "GameProject/Content/IND/DataTable/RewardIcon/ST_ReceiveRewardData.2"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_GetReceiveRewardData_ReceiveRewardData",
+    "Outer": "Set Reward Data STFor Play Stamp Pickup",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Struct": {
+      "ObjectName": "UserDefinedStruct'ST_ReceiveRewardData'",
+      "ObjectPath": "GameProject/Content/IND/DataTable/RewardIcon/ST_ReceiveRewardData.2"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "Current",
+    "Outer": "Set Reward Data STFor Play Stamp Pickup",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "Edit | BlueprintVisible",
+    "Struct": {
+      "ObjectName": "ScriptStruct'CommonReceiveRewardData'",
+      "ObjectPath": "/Script/GameProject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CurrentRecive",
+    "Outer": "Set Reward Data STFor Play Stamp Pickup",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "Edit | BlueprintVisible",
+    "Struct": {
+      "ObjectName": "UserDefinedStruct'ST_ReceiveRewardData'",
+      "ObjectPath": "GameProject/Content/IND/DataTable/RewardIcon/ST_ReceiveRewardData.2"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "K2Node_Select_Default",
+    "Outer": "Set Reward Data STFor Play Stamp Pickup",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Struct": {
+      "ObjectName": "UserDefinedStruct'ST_ReceiveRewardData'",
+      "ObjectPath": "GameProject/Content/IND/DataTable/RewardIcon/ST_ReceiveRewardData.2"
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "Index_Text_Sub",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "285537474E90C9CC051C3CA43BE693ED",
+        "SourceString": "R   E   W   A   R   D   L   I   S   T",
+        "LocalizedString": "R   E   W   A   R   D   L   I   S   T"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 1.0,
+          "G": 0.597202,
+          "B": 0.068478,
+          "A": 1.0,
+          "Hex": "FFCB4A"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "TypefaceFontName": "RodinN_B",
+        "Size": 10
+      },
+      "ShadowOffset": {
+        "X": 2.0,
+        "Y": 2.0
+      },
+      "ShadowColorAndOpacity": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "000000"
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Reward_Window_C:WidgetTree.CanvasPanel_48.CanvasPanelSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.56"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "P_Get_Num",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "33BAA08A463EBEA792A772B2EE48B7BF",
+        "SourceString": "99",
+        "LocalizedString": "99"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 1.0,
+          "G": 0.651406,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "FFD300"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "TypefaceFontName": "RodinN_B",
+        "Size": 36
+      },
+      "ShadowOffset": {
+        "X": 3.0,
+        "Y": 3.0
+      },
+      "ShadowColorAndOpacity": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "000000"
+      },
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WBP_Reward_Window_C:WidgetTree.Get.HorizontalBoxSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.109"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "P_Get_Unit",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "78FB74F749ECCACFC056768EA4EFF6BE",
+        "SourceString": "個受け取ります",
+        "LocalizedString": "個受け取ります"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 1.0,
+          "G": 0.651406,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "FFD300"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "TypefaceFontName": "RodinN_B",
+        "Size": 23
+      },
+      "ShadowOffset": {
+        "X": 3.0,
+        "Y": 3.0
+      },
+      "ShadowColorAndOpacity": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "000000"
+      },
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WBP_Reward_Window_C:WidgetTree.Get.HorizontalBoxSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.108"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "P_HelpText_01",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "TableId": "/Game/IND/StringTable/BP/ST_GameMessage.ST_GameMessage",
+        "Key": "RewardWindow_InstallParts",
+        "SourceString": "ショップ＆カスタマイズで付け替えができます",
+        "LocalizedString": "Install parts via Shop & Customization"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "TypefaceFontName": "RodinN_B",
+        "Size": 14
+      },
+      "ShadowOffset": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Reward_Window_C:WidgetTree.Help_01.CanvasPanelSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.64"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "P_HelpText_02",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "TableId": "/Game/IND/StringTable/BP/ST_GameMessage.ST_GameMessage",
+        "Key": "RewardWindow_ConvertTokens",
+        "SourceString": "最大所持数を超えて獲得した報酬を、キャッシュに変換します",
+        "LocalizedString": "If token overflows the maximum possess number, it will convert to cash."
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 1.0,
+          "G": 0.83077,
+          "B": 0.23074,
+          "A": 1.0,
+          "Hex": "FFEB84"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 2,
+          "OutlineColor": {
+            "R": 1.0,
+            "G": 0.059511,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "FF4500"
+          }
+        },
+        "TypefaceFontName": "RodinN_B",
+        "Size": 18
+      },
+      "ShadowOffset": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'WBP_Reward_Window_C:WidgetTree.Help.VerticalBoxSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.220"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "P_Index_Text_Main",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "899E5AF74803D8773C2B4EB723E22E86",
+        "SourceString": "報酬一覧",
+        "LocalizedString": "報酬一覧"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "FontMaterial": {
+          "ObjectName": "MaterialInstanceConstant'M_Font_01_Inst'",
+          "ObjectPath": "GameProject/Content/IND/UI/Matching/Material/M_Font_01_Inst.0"
+        },
+        "TypefaceFontName": "RodinN_B",
+        "Size": 54
+      },
+      "ShadowOffset": {
+        "X": 3.0,
+        "Y": 3.0
+      },
+      "ShadowColorAndOpacity": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "000000"
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Reward_Window_C:WidgetTree.CanvasPanel_48.CanvasPanelSlot_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.57"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "TextBlock_71",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "99740BD44A2AACAEA6288CA438E4C798",
+        "SourceString": "リーダーのみチームメニューで付け替えできます",
+        "LocalizedString": "リーダーのみチームメニューで付け替えできます"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "TypefaceFontName": "RodinN_B",
+        "Size": 14
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "SizeBoxSlot'WBP_Reward_Window_C:WidgetTree.SizeBox_1.SizeBoxSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.179"
+      }
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "Index_Text_Sub",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "285537474E90C9CC051C3CA43BE693ED",
+        "SourceString": "R   E   W   A   R   D   L   I   S   T",
+        "LocalizedString": "R   E   W   A   R   D   L   I   S   T"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 1.0,
+          "G": 0.597202,
+          "B": 0.068478,
+          "A": 1.0,
+          "Hex": "FFCB4A"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "TypefaceFontName": "RodinN_B",
+        "Size": 10
+      },
+      "ShadowOffset": {
+        "X": 2.0,
+        "Y": 2.0
+      },
+      "ShadowColorAndOpacity": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "000000"
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_48.CanvasPanelSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.67"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "P_Get_Num",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "33BAA08A463EBEA792A772B2EE48B7BF",
+        "SourceString": "99",
+        "LocalizedString": "99"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 1.0,
+          "G": 0.651406,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "FFD300"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "TypefaceFontName": "RodinN_B",
+        "Size": 36
+      },
+      "ShadowOffset": {
+        "X": 3.0,
+        "Y": 3.0
+      },
+      "ShadowColorAndOpacity": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "000000"
+      },
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.Get.HorizontalBoxSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.113"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "P_Get_Unit",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "78FB74F749ECCACFC056768EA4EFF6BE",
+        "SourceString": "個受け取ります",
+        "LocalizedString": "個受け取ります"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 1.0,
+          "G": 0.651406,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "FFD300"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "TypefaceFontName": "RodinN_B",
+        "Size": 23
+      },
+      "ShadowOffset": {
+        "X": 3.0,
+        "Y": 3.0
+      },
+      "ShadowColorAndOpacity": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "000000"
+      },
+      "Slot": {
+        "ObjectName": "HorizontalBoxSlot'WidgetArchetype:WidgetTree_0.Get.HorizontalBoxSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.112"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "P_HelpText_01",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "TableId": "/Game/IND/StringTable/BP/ST_GameMessage.ST_GameMessage",
+        "Key": "RewardWindow_InstallParts",
+        "SourceString": "ショップ＆カスタマイズで付け替えができます",
+        "LocalizedString": "Install parts via Shop & Customization"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "TypefaceFontName": "RodinN_B",
+        "Size": 14
+      },
+      "ShadowOffset": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.Help_01.CanvasPanelSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.75"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "P_HelpText_02",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "TableId": "/Game/IND/StringTable/BP/ST_GameMessage.ST_GameMessage",
+        "Key": "RewardWindow_ConvertTokens",
+        "SourceString": "最大所持数を超えて獲得した報酬を、キャッシュに変換します",
+        "LocalizedString": "If token overflows the maximum possess number, it will convert to cash."
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 1.0,
+          "G": 0.83077,
+          "B": 0.23074,
+          "A": 1.0,
+          "Hex": "FFEB84"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 2,
+          "OutlineColor": {
+            "R": 1.0,
+            "G": 0.059511,
+            "B": 0.0,
+            "A": 1.0,
+            "Hex": "FF4500"
+          }
+        },
+        "TypefaceFontName": "RodinN_B",
+        "Size": 18
+      },
+      "ShadowOffset": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "Slot": {
+        "ObjectName": "VerticalBoxSlot'WidgetArchetype:WidgetTree_0.Help.VerticalBoxSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.222"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "P_Index_Text_Main",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "899E5AF74803D8773C2B4EB723E22E86",
+        "SourceString": "報酬一覧",
+        "LocalizedString": "報酬一覧"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "FontMaterial": {
+          "ObjectName": "MaterialInstanceConstant'M_Font_01_Inst'",
+          "ObjectPath": "GameProject/Content/IND/UI/Matching/Material/M_Font_01_Inst.0"
+        },
+        "TypefaceFontName": "RodinN_B",
+        "Size": 54
+      },
+      "ShadowOffset": {
+        "X": 3.0,
+        "Y": 3.0
+      },
+      "ShadowColorAndOpacity": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "000000"
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_48.CanvasPanelSlot_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.68"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "TextBlock_71",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "99740BD44A2AACAEA6288CA438E4C798",
+        "SourceString": "リーダーのみチームメニューで付け替えできます",
+        "LocalizedString": "リーダーのみチームメニューで付け替えできます"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "TypefaceFontName": "RodinN_B",
+        "Size": 14
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "SizeBoxSlot'WidgetArchetype:WidgetTree_0.SizeBox_1.SizeBoxSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.180"
+      }
+    }
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "CallFunc_Conv_IntToText_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_Reward_Window",
+    "Class": "UScriptClass'TextProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "CallFunc_GetReceiveRewardData_PartsName",
+    "Outer": "ExecuteUbergraph_WBP_Reward_Window",
+    "Class": "UScriptClass'TextProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "CallFunc_GetReceiveRewardData_PartsName",
+    "Outer": "Set Reward Data STFor Play Stamp Pickup",
+    "Class": "UScriptClass'TextProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "VerticalBox",
+    "Name": "Help",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'VerticalBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "VerticalBoxSlot'WBP_Reward_Window_C:WidgetTree.Help.VerticalBoxSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.220"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'WBP_Reward_Window_C:WidgetTree.Help.VerticalBoxSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.221"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Reward_Window_C:WidgetTree.CanvasPanel_48.CanvasPanelSlot_9'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.62"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBox",
+    "Name": "Help",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'VerticalBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "VerticalBoxSlot'WidgetArchetype:WidgetTree_0.Help.VerticalBoxSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.222"
+        },
+        {
+          "ObjectName": "VerticalBoxSlot'WidgetArchetype:WidgetTree_0.Help.VerticalBoxSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.223"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_48.CanvasPanelSlot_9'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.73"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_0",
+    "Outer": "Help",
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "Parent": {
+        "ObjectName": "VerticalBox'WBP_Reward_Window_C:WidgetTree.Help'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.218"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WBP_Reward_Window_C:WidgetTree.P_HelpText_02'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.205"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_1",
+    "Outer": "Help",
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "Parent": {
+        "ObjectName": "VerticalBox'WBP_Reward_Window_C:WidgetTree.Help'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.218"
+      },
+      "Content": {
+        "ObjectName": "HorizontalBox'WBP_Reward_Window_C:WidgetTree.HorizontalBox_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.105"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_0",
+    "Outer": "Help",
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "Parent": {
+        "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.Help'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.219"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.P_HelpText_02'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.212"
+      }
+    }
+  },
+  {
+    "Type": "VerticalBoxSlot",
+    "Name": "VerticalBoxSlot_1",
+    "Outer": "Help",
+    "Class": "UScriptClass'VerticalBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "Parent": {
+        "ObjectName": "VerticalBox'WidgetArchetype:WidgetTree_0.Help'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.219"
+      },
+      "Content": {
+        "ObjectName": "HorizontalBox'WidgetArchetype:WidgetTree_0.HorizontalBox_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.107"
+      }
+    }
+  },
+  {
+    "Type": "WBP_ComWin_C",
+    "Name": "WBP_ComWin",
+    "Outer": "WidgetTree",
+    "Class": "WidgetBlueprintGeneratedClass'GameProject/Content/IND/UI/Common/ComWin/WBP_ComWin.WBP_ComWin_C'",
+    "Template": {
+      "ObjectName": "WBP_ComWin_C'Default__WBP_ComWin_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Common/ComWin/WBP_ComWin.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Reward_Window_C:WidgetTree.CanvasPanel_48.CanvasPanelSlot_7'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.61"
+      }
+    }
+  },
+  {
+    "Type": "WBP_ComWin_C",
+    "Name": "WBP_ComWin",
+    "Outer": "WidgetTree_0",
+    "Class": "WidgetBlueprintGeneratedClass'GameProject/Content/IND/UI/Common/ComWin/WBP_ComWin.WBP_ComWin_C'",
+    "Template": {
+      "ObjectName": "WBP_ComWin_C'Default__WBP_ComWin_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Common/ComWin/WBP_ComWin.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Base": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_ComWin.WidgetTree_0.Base'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.122"
+      },
+      "Frame01": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_ComWin.WidgetTree_0.Frame01'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.123"
+      },
+      "Frame02": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_ComWin.WidgetTree_0.Frame02'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.124"
+      },
+      "Frame03": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_ComWin.WidgetTree_0.Frame03'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.125"
+      },
+      "FrameBronze": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_ComWin.WidgetTree_0.FrameBronze'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.126"
+      },
+      "FrameGold": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_ComWin.WidgetTree_0.FrameGold'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.127"
+      },
+      "FrameSilver": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_ComWin.WidgetTree_0.FrameSilver'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.128"
+      },
+      "Logo": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_ComWin.WidgetTree_0.Logo'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.129"
+      },
+      "Pattern01": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_ComWin.WidgetTree_0.Pattern01'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.130"
+      },
+      "Pattern02": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_ComWin.WidgetTree_0.Pattern02'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.131"
+      },
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.WBP_ComWin.WidgetTree_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.229"
+      },
+      "bCookedWidgetTree": true,
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_48.CanvasPanelSlot_7'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.72"
+      }
+    }
+  },
+  {
+    "Type": "WBP_Reward_Window_C",
+    "Name": "WidgetArchetype",
+    "Class": "WidgetBlueprintGeneratedClass'GameProject/Content/IND/UI/Reward/WBP_Reward_Window.WBP_Reward_Window_C'",
+    "Template": {
+      "ObjectName": "WBP_Reward_Window_C'Default__WBP_Reward_Window_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.2"
+    },
+    "Flags": "RF_Public | RF_Standalone | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Image_88": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.Image_88'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.121"
+      },
+      "Index_Text_Sub": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.Index_Text_Sub'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.208"
+      },
+      "P_Get_Num": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.P_Get_Num'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.209"
+      },
+      "P_Get_Unit": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.P_Get_Unit'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.210"
+      },
+      "P_HelpText_01": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.P_HelpText_01'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.211"
+      },
+      "P_HelpText_02": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.P_HelpText_02'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.212"
+      },
+      "P_Index_Text_Main": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.P_Index_Text_Main'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.213"
+      },
+      "P_Reward_List": {
+        "ObjectName": "ScrollBox'WidgetArchetype:WidgetTree_0.P_Reward_List'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.176"
+      },
+      "WBP_ComWin": {
+        "ObjectName": "WBP_ComWin_C'WidgetArchetype:WidgetTree_0.WBP_ComWin'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.225"
+      },
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.228"
+      },
+      "bCookedWidgetTree": true
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Outer": "WBP_Reward_Window_C",
+    "Class": "UScriptClass'WidgetTree'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CanvasPanel'WBP_Reward_Window_C:WidgetTree.CanvasPanel_48'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.49"
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree_0",
+    "Outer": "WidgetArchetype",
+    "Class": "UScriptClass'WidgetTree'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_48'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.52"
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree_0",
+    "Outer": "WBP_ComWin",
+    "Class": "UScriptClass'WidgetTree'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_ComWin.WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Reward/WBP_Reward_Window.55"
+      }
+    }
+  }
+]

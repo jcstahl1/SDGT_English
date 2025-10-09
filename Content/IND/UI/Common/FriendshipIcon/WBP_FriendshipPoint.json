@@ -1,0 +1,643 @@
+[
+  {
+    "Type": "StructProperty",
+    "Name": "UberGraphFrame",
+    "Outer": "WBP_FriendshipPoint_C",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "Transient | DuplicateTransient",
+    "Struct": {
+      "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "WBP_FriendshipPoint_C",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WBP_FriendshipPoint_C:WidgetTree'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/FriendshipIcon/WBP_FriendshipPoint.26"
+      },
+      "bAllowTemplate": true,
+      "bValidTemplate": true,
+      "TemplateAsset": {
+        "AssetPathName": "/Game/IND/UI/Common/FriendshipIcon/WBP_FriendshipPoint.WidgetArchetype",
+        "SubPathString": ""
+      },
+      "UberGraphFramePointerProperty": {
+        "ObjectName": "StructProperty'WBP_FriendshipPoint_C:UberGraphFrame'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/FriendshipIcon/WBP_FriendshipPoint.0"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'WBP_FriendshipPoint_C:ExecuteUbergraph_WBP_FriendshipPoint'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/FriendshipIcon/WBP_FriendshipPoint.5"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'UserWidget'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'WBP_FriendshipPoint_C:UberGraphFrame'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/FriendshipIcon/WBP_FriendshipPoint.0"
+      },
+      {
+        "ObjectName": "Function'WBP_FriendshipPoint_C:Set_Num'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/FriendshipIcon/WBP_FriendshipPoint.9"
+      },
+      {
+        "ObjectName": "Function'WBP_FriendshipPoint_C:ExecuteUbergraph_WBP_FriendshipPoint'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/FriendshipIcon/WBP_FriendshipPoint.5"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_FriendshipPoint_C:P_CalcExpNum'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/FriendshipIcon/WBP_FriendshipPoint.3"
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_WBP_FriendshipPoint": {
+        "ObjectName": "Function'WBP_FriendshipPoint_C:ExecuteUbergraph_WBP_FriendshipPoint'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/FriendshipIcon/WBP_FriendshipPoint.5"
+      },
+      "Set_Num": {
+        "ObjectName": "Function'WBP_FriendshipPoint_C:Set_Num'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/FriendshipIcon/WBP_FriendshipPoint.9"
+      }
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "WBP_FriendshipPoint_C'Default__WBP_FriendshipPoint_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Common/FriendshipIcon/WBP_FriendshipPoint.2"
+    }
+  },
+  {
+    "Type": "WBP_FriendshipPoint_C",
+    "Name": "Default__WBP_FriendshipPoint_C",
+    "Class": "WidgetBlueprintGeneratedClass'GameProject/Content/IND/UI/Common/FriendshipIcon/WBP_FriendshipPoint.WBP_FriendshipPoint_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "UberGraphFrame": {},
+      "bHasScriptImplementedTick": false,
+      "bHasScriptImplementedPaint": false
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "P_CalcExpNum",
+    "Outer": "WBP_FriendshipPoint_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'TextBlock'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "EntryPoint",
+    "Outer": "ExecuteUbergraph_WBP_FriendshipPoint",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_WBP_FriendshipPoint",
+    "Outer": "WBP_FriendshipPoint_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "IntProperty'WBP_FriendshipPoint_C:ExecuteUbergraph_WBP_FriendshipPoint.EntryPoint'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/FriendshipIcon/WBP_FriendshipPoint.4"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_FriendshipPoint_C:ExecuteUbergraph_WBP_FriendshipPoint.Temp_bool_Variable'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/FriendshipIcon/WBP_FriendshipPoint.7"
+      },
+      {
+        "ObjectName": "TextProperty'WBP_FriendshipPoint_C:ExecuteUbergraph_WBP_FriendshipPoint.Temp_text_Variable'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/FriendshipIcon/WBP_FriendshipPoint.24"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_FriendshipPoint_C:ExecuteUbergraph_WBP_FriendshipPoint.K2Node_CustomEvent_Num'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/FriendshipIcon/WBP_FriendshipPoint.17"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_FriendshipPoint_C:ExecuteUbergraph_WBP_FriendshipPoint.K2Node_CustomEvent_Limit'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/FriendshipIcon/WBP_FriendshipPoint.6"
+      },
+      {
+        "ObjectName": "TextProperty'WBP_FriendshipPoint_C:ExecuteUbergraph_WBP_FriendshipPoint.CallFunc_Conv_IntToText_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/FriendshipIcon/WBP_FriendshipPoint.22"
+      },
+      {
+        "ObjectName": "TextProperty'WBP_FriendshipPoint_C:ExecuteUbergraph_WBP_FriendshipPoint.K2Node_Select_Default'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/FriendshipIcon/WBP_FriendshipPoint.23"
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction | FUNC_HasDefaults"
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_CustomEvent_Limit",
+    "Outer": "ExecuteUbergraph_WBP_FriendshipPoint",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "Temp_bool_Variable",
+    "Outer": "ExecuteUbergraph_WBP_FriendshipPoint",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "Num",
+    "Outer": "Set_Num",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "Set_Num",
+    "Outer": "WBP_FriendshipPoint_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "IntProperty'WBP_FriendshipPoint_C:Set_Num.Num'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/FriendshipIcon/WBP_FriendshipPoint.8"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_FriendshipPoint_C:Set_Num.Limit'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/FriendshipIcon/WBP_FriendshipPoint.10"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "Limit",
+    "Outer": "Set_Num",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_0",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_FriendshipPoint_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_2'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/FriendshipIcon/WBP_FriendshipPoint.13"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_FriendshipPoint_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_4'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/FriendshipIcon/WBP_FriendshipPoint.14"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_0",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_2'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/FriendshipIcon/WBP_FriendshipPoint.15"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_4'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/FriendshipIcon/WBP_FriendshipPoint.16"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_2",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": 1.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.0,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.0,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.0,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_FriendshipPoint_C:WidgetTree.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/FriendshipIcon/WBP_FriendshipPoint.11"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WBP_FriendshipPoint_C:WidgetTree.TextBlock_28'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/FriendshipIcon/WBP_FriendshipPoint.19"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_4",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -46.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 1.0,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 1.0,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_FriendshipPoint_C:WidgetTree.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/FriendshipIcon/WBP_FriendshipPoint.11"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WBP_FriendshipPoint_C:WidgetTree.P_CalcExpNum'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/FriendshipIcon/WBP_FriendshipPoint.18"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_2",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": 1.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.0,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.0,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.0,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/FriendshipIcon/WBP_FriendshipPoint.12"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.TextBlock_28'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/FriendshipIcon/WBP_FriendshipPoint.21"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_4",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -46.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 1.0,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 1.0,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/FriendshipIcon/WBP_FriendshipPoint.12"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.P_CalcExpNum'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/FriendshipIcon/WBP_FriendshipPoint.20"
+      }
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "K2Node_CustomEvent_Num",
+    "Outer": "ExecuteUbergraph_WBP_FriendshipPoint",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "P_CalcExpNum",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "3426874A4BB6E8479D100FB91024BF47",
+        "SourceString": "00000",
+        "LocalizedString": "00000"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 1
+        },
+        "TypefaceFontName": "RodinN_EB",
+        "Size": 16
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_FriendshipPoint_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_4'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/FriendshipIcon/WBP_FriendshipPoint.14"
+      },
+      "RenderTransform": {
+        "Shear": {
+          "X": -10.0,
+          "Y": 0.0
+        }
+      },
+      "RenderTransformPivot": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "TextBlock_28",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "D1258CDC41E604E1ACCFA58B7A8E8854",
+        "SourceString": "Until next promotion",
+        "LocalizedString": "Until next promotion"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 0.168269,
+          "G": 0.08022,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "725000"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 2,
+          "OutlineColor": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "FFFFFF"
+          }
+        },
+        "TypefaceFontName": "RodinN_EB",
+        "Size": 10
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_FriendshipPoint_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/FriendshipIcon/WBP_FriendshipPoint.13"
+      }
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "P_CalcExpNum",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "3426874A4BB6E8479D100FB91024BF47",
+        "SourceString": "00000",
+        "LocalizedString": "00000"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 1
+        },
+        "TypefaceFontName": "RodinN_EB",
+        "Size": 16
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_4'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/FriendshipIcon/WBP_FriendshipPoint.16"
+      },
+      "RenderTransform": {
+        "Shear": {
+          "X": -10.0,
+          "Y": 0.0
+        }
+      },
+      "RenderTransformPivot": {
+        "X": 0.0,
+        "Y": 0.0
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "TextBlock_28",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "D1258CDC41E604E1ACCFA58B7A8E8854",
+        "SourceString": "Until next promotion",
+        "LocalizedString": "Until next promotion"
+      },
+      "ColorAndOpacity": {
+        "SpecifiedColor": {
+          "R": 0.168269,
+          "G": 0.08022,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "725000"
+        }
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 2,
+          "OutlineColor": {
+            "R": 1.0,
+            "G": 1.0,
+            "B": 1.0,
+            "A": 1.0,
+            "Hex": "FFFFFF"
+          }
+        },
+        "TypefaceFontName": "RodinN_EB",
+        "Size": 10
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/FriendshipIcon/WBP_FriendshipPoint.15"
+      }
+    }
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "CallFunc_Conv_IntToText_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_FriendshipPoint",
+    "Class": "UScriptClass'TextProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "K2Node_Select_Default",
+    "Outer": "ExecuteUbergraph_WBP_FriendshipPoint",
+    "Class": "UScriptClass'TextProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "Temp_text_Variable",
+    "Outer": "ExecuteUbergraph_WBP_FriendshipPoint",
+    "Class": "UScriptClass'TextProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "WBP_FriendshipPoint_C",
+    "Name": "WidgetArchetype",
+    "Class": "WidgetBlueprintGeneratedClass'GameProject/Content/IND/UI/Common/FriendshipIcon/WBP_FriendshipPoint.WBP_FriendshipPoint_C'",
+    "Template": {
+      "ObjectName": "WBP_FriendshipPoint_C'Default__WBP_FriendshipPoint_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Common/FriendshipIcon/WBP_FriendshipPoint.2"
+    },
+    "Flags": "RF_Public | RF_Standalone | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "P_CalcExpNum": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.P_CalcExpNum'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/FriendshipIcon/WBP_FriendshipPoint.20"
+      },
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/FriendshipIcon/WBP_FriendshipPoint.27"
+      },
+      "bCookedWidgetTree": true
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Outer": "WBP_FriendshipPoint_C",
+    "Class": "UScriptClass'WidgetTree'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CanvasPanel'WBP_FriendshipPoint_C:WidgetTree.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/FriendshipIcon/WBP_FriendshipPoint.11"
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree_0",
+    "Outer": "WidgetArchetype",
+    "Class": "UScriptClass'WidgetTree'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/FriendshipIcon/WBP_FriendshipPoint.12"
+      }
+    }
+  }
+]

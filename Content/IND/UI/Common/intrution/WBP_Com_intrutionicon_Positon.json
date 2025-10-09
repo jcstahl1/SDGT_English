@@ -1,0 +1,5604 @@
+[
+  {
+    "Type": "StructProperty",
+    "Name": "UberGraphFrame",
+    "Outer": "WBP_Com_intrutionicon_Positon_C",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "Transient | DuplicateTransient",
+    "Struct": {
+      "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "WBP_Com_intrutionicon_Positon_C",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WBP_Com_intrutionicon_Positon_C:WidgetTree'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.122"
+      },
+      "bAllowTemplate": true,
+      "bValidTemplate": true,
+      "Animations": [
+        {
+          "ObjectName": "WidgetAnimation'WBP_Com_intrutionicon_Positon_C:Pos_Menu_INST'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.114"
+        },
+        {
+          "ObjectName": "WidgetAnimation'WBP_Com_intrutionicon_Positon_C:Pos_Race_INST'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.115"
+        },
+        {
+          "ObjectName": "WidgetAnimation'WBP_Com_intrutionicon_Positon_C:Pos_Match_INST'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.113"
+        }
+      ],
+      "TemplateAsset": {
+        "AssetPathName": "/Game/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.WidgetArchetype",
+        "SubPathString": ""
+      },
+      "UberGraphFramePointerProperty": {
+        "ObjectName": "StructProperty'WBP_Com_intrutionicon_Positon_C:UberGraphFrame'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.0"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'WBP_Com_intrutionicon_Positon_C:ExecuteUbergraph_WBP_Com_intrutionicon_Positon'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.5"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'UserWidget'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'WBP_Com_intrutionicon_Positon_C:UberGraphFrame'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.0"
+      },
+      {
+        "ObjectName": "Function'WBP_Com_intrutionicon_Positon_C:Set_Potision'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.50"
+      },
+      {
+        "ObjectName": "Function'WBP_Com_intrutionicon_Positon_C:Play_In'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.15"
+      },
+      {
+        "ObjectName": "Function'WBP_Com_intrutionicon_Positon_C:Play_Out'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.14"
+      },
+      {
+        "ObjectName": "Function'WBP_Com_intrutionicon_Positon_C:Set_Time'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.12"
+      },
+      {
+        "ObjectName": "Function'WBP_Com_intrutionicon_Positon_C:Set_Type'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.10"
+      },
+      {
+        "ObjectName": "Function'WBP_Com_intrutionicon_Positon_C:Construct'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.8"
+      },
+      {
+        "ObjectName": "Function'WBP_Com_intrutionicon_Positon_C:ExecuteUbergraph_WBP_Com_intrutionicon_Positon'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.5"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Com_intrutionicon_Positon_C:Pos_Match'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.3"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Com_intrutionicon_Positon_C:Pos_Race'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.78"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Com_intrutionicon_Positon_C:Pos_Menu'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.77"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Com_intrutionicon_Positon_C:WBP_Com_intrutionicon'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.79"
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_WBP_Com_intrutionicon_Positon": {
+        "ObjectName": "Function'WBP_Com_intrutionicon_Positon_C:ExecuteUbergraph_WBP_Com_intrutionicon_Positon'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.5"
+      },
+      "Construct": {
+        "ObjectName": "Function'WBP_Com_intrutionicon_Positon_C:Construct'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.8"
+      },
+      "Set_Type": {
+        "ObjectName": "Function'WBP_Com_intrutionicon_Positon_C:Set_Type'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.10"
+      },
+      "Set_Time": {
+        "ObjectName": "Function'WBP_Com_intrutionicon_Positon_C:Set_Time'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.12"
+      },
+      "Play_Out": {
+        "ObjectName": "Function'WBP_Com_intrutionicon_Positon_C:Play_Out'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.14"
+      },
+      "Play_In": {
+        "ObjectName": "Function'WBP_Com_intrutionicon_Positon_C:Play_In'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.15"
+      },
+      "Set_Potision": {
+        "ObjectName": "Function'WBP_Com_intrutionicon_Positon_C:Set_Potision'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.50"
+      }
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "WBP_Com_intrutionicon_Positon_C'Default__WBP_Com_intrutionicon_Positon_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.2"
+    }
+  },
+  {
+    "Type": "WBP_Com_intrutionicon_Positon_C",
+    "Name": "Default__WBP_Com_intrutionicon_Positon_C",
+    "Class": "WidgetBlueprintGeneratedClass'GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.WBP_Com_intrutionicon_Positon_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "UberGraphFrame": {},
+      "bHasScriptImplementedTick": false,
+      "bHasScriptImplementedPaint": false
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Pos_Match",
+    "Outer": "WBP_Com_intrutionicon_Positon_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Transient | RepSkip",
+    "PropertyClass": {
+      "ObjectName": "Class'WidgetAnimation'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "EntryPoint",
+    "Outer": "ExecuteUbergraph_WBP_Com_intrutionicon_Positon",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_WBP_Com_intrutionicon_Positon",
+    "Outer": "WBP_Com_intrutionicon_Positon_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "IntProperty'WBP_Com_intrutionicon_Positon_C:ExecuteUbergraph_WBP_Com_intrutionicon_Positon.EntryPoint'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.4"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Com_intrutionicon_Positon_C:ExecuteUbergraph_WBP_Com_intrutionicon_Positon.Temp_int_Variable'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.59"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Com_intrutionicon_Positon_C:ExecuteUbergraph_WBP_Com_intrutionicon_Positon.K2Node_CustomEvent_Index_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.48"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Com_intrutionicon_Positon_C:ExecuteUbergraph_WBP_Com_intrutionicon_Positon.K2Node_CustomEvent_Immediate_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.7"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Com_intrutionicon_Positon_C:ExecuteUbergraph_WBP_Com_intrutionicon_Positon.K2Node_CustomEvent_Immediate'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.6"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Com_intrutionicon_Positon_C:ExecuteUbergraph_WBP_Com_intrutionicon_Positon.K2Node_CustomEvent_Time'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.58"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Com_intrutionicon_Positon_C:ExecuteUbergraph_WBP_Com_intrutionicon_Positon.K2Node_CustomEvent_Index'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.57"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Com_intrutionicon_Positon_C:ExecuteUbergraph_WBP_Com_intrutionicon_Positon.K2Node_Select_Default'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.76"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Com_intrutionicon_Positon_C:ExecuteUbergraph_WBP_Com_intrutionicon_Positon.CallFunc_PlayAnimationForward_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.75"
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction"
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_CustomEvent_Immediate",
+    "Outer": "ExecuteUbergraph_WBP_Com_intrutionicon_Positon",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_CustomEvent_Immediate_1",
+    "Outer": "ExecuteUbergraph_WBP_Com_intrutionicon_Positon",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "Function",
+    "Name": "Construct",
+    "Outer": "WBP_Com_intrutionicon_Positon_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "SuperStruct": {
+      "ObjectName": "Function'UserWidget:Construct'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "FunctionFlags": "FUNC_BlueprintCosmetic | FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "Index",
+    "Outer": "Set_Type",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "Set_Type",
+    "Outer": "WBP_Com_intrutionicon_Positon_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "IntProperty'WBP_Com_intrutionicon_Positon_C:Set_Type.Index'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.9"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "Time",
+    "Outer": "Set_Time",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "Set_Time",
+    "Outer": "WBP_Com_intrutionicon_Positon_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "IntProperty'WBP_Com_intrutionicon_Positon_C:Set_Time.Time'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.11"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "Immediate",
+    "Outer": "Play_Out",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "Function",
+    "Name": "Play_Out",
+    "Outer": "WBP_Com_intrutionicon_Positon_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "BoolProperty'WBP_Com_intrutionicon_Positon_C:Play_Out.Immediate'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.13"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "Play_In",
+    "Outer": "WBP_Com_intrutionicon_Positon_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "BoolProperty'WBP_Com_intrutionicon_Positon_C:Play_In.Immediate'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.16"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "Immediate",
+    "Outer": "Play_In",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_19",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Com_intrutionicon_Positon_C:WidgetTree.CanvasPanel_19.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.25"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_19",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_19.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.26"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_0",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_3'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.27"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "P_Instore",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.P_Instore.CanvasPanelSlot_4'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.31"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.P_Instore.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.28"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.P_Instore.CanvasPanelSlot_2'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.29"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.P_Instore.CanvasPanelSlot_3'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.30"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "WidgetSwitcherSlot'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.P_SwitchBaseColor.WidgetSwitcherSlot_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.118"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "P_InstoreLoading",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.P_InstoreLoading.CanvasPanelSlot_4'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.34"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.P_InstoreLoading.CanvasPanelSlot_2'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.32"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.P_InstoreLoading.CanvasPanelSlot_3'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.33"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.P_InstoreLoading.CanvasPanelSlot_5'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.35"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.P_InstoreLoading.CanvasPanelSlot_6'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.36"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "WidgetSwitcherSlot'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.P_SwitchBaseColor.WidgetSwitcherSlot_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.119"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "P_OnLine",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.P_OnLine.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.37"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.P_OnLine.CanvasPanelSlot_4'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.40"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.P_OnLine.CanvasPanelSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.38"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.P_OnLine.CanvasPanelSlot_2'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.39"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "WidgetSwitcherSlot'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.P_SwitchBaseColor.WidgetSwitcherSlot_6'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.121"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "P_OnLineLoading",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.P_OnLineLoading.CanvasPanelSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.41"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.P_OnLineLoading.CanvasPanelSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.42"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.P_OnLineLoading.CanvasPanelSlot_3'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.43"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.P_OnLineLoading.CanvasPanelSlot_5'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.44"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.P_OnLineLoading.CanvasPanelSlot_6'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.45"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "WidgetSwitcherSlot'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.P_SwitchBaseColor.WidgetSwitcherSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.117"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "P_Private",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.P_Private.CanvasPanelSlot_4'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.47"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.P_Private.CanvasPanelSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.46"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "WidgetSwitcherSlot'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.P_SwitchBaseColor.WidgetSwitcherSlot_5'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.120"
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "CanvasPanel_19",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 1416.0,
+          "Top": 72.0,
+          "Right": 270.0,
+          "Bottom": 51.0
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Com_intrutionicon_Positon_C:WidgetTree.CanvasPanel_19'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.17"
+      },
+      "Content": {
+        "ObjectName": "WBP_Com_intrutionicon_C'WBP_Com_intrutionicon_Positon_C:WidgetTree.WBP_Com_intrutionicon'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.110"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "CanvasPanel_19",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 1416.0,
+          "Top": 72.0,
+          "Right": 270.0,
+          "Bottom": 51.0
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_19'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.18"
+      },
+      "Content": {
+        "ObjectName": "WBP_Com_intrutionicon_C'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.111"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_3",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.19"
+      },
+      "Content": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.Intrution_Icon_Top'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.80"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "P_Instore",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -36.0,
+          "Top": 1.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.P_Instore'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.20"
+      },
+      "Content": {
+        "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.SizeBox_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.89"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_2",
+    "Outer": "P_Instore",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -27.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 1.0,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 1.0,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 1.0,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.P_Instore'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.20"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.P_Time'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.105"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_3",
+    "Outer": "P_Instore",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -27.0,
+          "Top": 5.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 1.0,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 1.0,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.0,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.P_Instore'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.20"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.TextBlock_7'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.109"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_4",
+    "Outer": "P_Instore",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 300.0,
+          "Bottom": 44.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.P_Instore'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.20"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.Base_y'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.53"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_2",
+    "Outer": "P_InstoreLoading",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": 1.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.P_InstoreLoading'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.21"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.Loading_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.104"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_3",
+    "Outer": "P_InstoreLoading",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 60.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.P_InstoreLoading'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.21"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.dot1_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.95"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_4",
+    "Outer": "P_InstoreLoading",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.P_InstoreLoading'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.21"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.Base_y_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.54"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_5",
+    "Outer": "P_InstoreLoading",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 70.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.P_InstoreLoading'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.21"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.dot2_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.97"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_6",
+    "Outer": "P_InstoreLoading",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 80.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.P_InstoreLoading'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.21"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.dot3_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.99"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "P_OnLine",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 300.0,
+          "Bottom": 44.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.P_OnLine'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.22"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.Base_r'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.51"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "P_OnLine",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -27.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 1.0,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 1.0,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 1.0,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.P_OnLine'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.22"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.P_Time_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.106"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_2",
+    "Outer": "P_OnLine",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -27.0,
+          "Top": 5.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 1.0,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 1.0,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.0,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.P_OnLine'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.22"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.TextBlock'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.107"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_4",
+    "Outer": "P_OnLine",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": -36.0,
+          "Top": 1.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.P_OnLine'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.22"
+      },
+      "Content": {
+        "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.SizeBox_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.90"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_0",
+    "Outer": "P_OnLineLoading",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.P_OnLineLoading'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.23"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.Base_r_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.52"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "P_OnLineLoading",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": 1.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.P_OnLineLoading'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.23"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.Loading'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.103"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_3",
+    "Outer": "P_OnLineLoading",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 60.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.P_OnLineLoading'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.23"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.dot1_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.96"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_5",
+    "Outer": "P_OnLineLoading",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 70.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.P_OnLineLoading'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.23"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.dot2_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.98"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_6",
+    "Outer": "P_OnLineLoading",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 80.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.P_OnLineLoading'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.23"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.dot3_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.100"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "P_Private",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Top": 1.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.P_Private'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.24"
+      },
+      "Content": {
+        "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.SizeBox_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.91"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_4",
+    "Outer": "P_Private",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 300.0,
+          "Bottom": 44.0
+        },
+        "Anchors": {
+          "Minimum": {
+            "X": 0.5,
+            "Y": 0.5
+          },
+          "Maximum": {
+            "X": 0.5,
+            "Y": 0.5
+          }
+        },
+        "Alignment": {
+          "X": 0.5,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.P_Private'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.24"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.Base_y_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.55"
+      }
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "K2Node_CustomEvent_Index_1",
+    "Outer": "ExecuteUbergraph_WBP_Com_intrutionicon_Positon",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "Index",
+    "Outer": "Set_Potision",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "Set_Potision",
+    "Outer": "WBP_Com_intrutionicon_Positon_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "IntProperty'WBP_Com_intrutionicon_Positon_C:Set_Potision.Index'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.49"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Image",
+    "Name": "Base_r",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 300.0,
+          "Y": 44.0
+        },
+        "Margin": {
+          "Left": 0.5,
+          "Top": 0.5,
+          "Right": 0.5,
+          "Bottom": 0.5
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Battle_Icon'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/texture/T_Battle_Icon.0"
+        },
+        "DrawAs": "ESlateBrushDrawType::Box"
+      },
+      "ColorAndOpacity": {
+        "R": 1.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FF0000"
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.P_OnLine.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.37"
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Base_r_1",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 300.0,
+          "Y": 44.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Battle_Icon'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/texture/T_Battle_Icon.0"
+        }
+      },
+      "ColorAndOpacity": {
+        "R": 1.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "FF0000"
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.P_OnLineLoading.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.41"
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Base_y",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 300.0,
+          "Y": 44.0
+        },
+        "Margin": {
+          "Left": 0.5,
+          "Top": 0.5,
+          "Right": 0.5,
+          "Bottom": 0.5
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Battle_Icon'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/texture/T_Battle_Icon.0"
+        },
+        "DrawAs": "ESlateBrushDrawType::Box"
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.P_Instore.CanvasPanelSlot_4'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.31"
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Base_y_1",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 300.0,
+          "Y": 44.0
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Battle_Icon'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/texture/T_Battle_Icon.0"
+        }
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.P_InstoreLoading.CanvasPanelSlot_4'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.34"
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "Base_y_2",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 258.0,
+          "Y": 39.0
+        },
+        "Margin": {
+          "Left": 0.5,
+          "Top": 0.5,
+          "Right": 0.5,
+          "Bottom": 0.5
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'T_Battle_Icon'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/texture/T_Battle_Icon.0"
+        },
+        "DrawAs": "ESlateBrushDrawType::Box"
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.P_Private.CanvasPanelSlot_4'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.47"
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "eff",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 316.0,
+          "Y": 60.0
+        },
+        "Margin": {
+          "Left": 0.5,
+          "Top": 0.5,
+          "Right": 0.5,
+          "Bottom": 0.5
+        },
+        "ResourceObject": {
+          "ObjectName": "MaterialInstanceConstant'icon_eff_Inst'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/Materials/icon_eff_Inst.0"
+        },
+        "DrawAs": "ESlateBrushDrawType::Box"
+      },
+      "ColorAndOpacity": {
+        "R": 1.0,
+        "G": 0.968746,
+        "B": 0.222649,
+        "A": 1.0,
+        "Hex": "FFFC82"
+      },
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.Intrution_Icon_Top.OverlaySlot_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.81"
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "K2Node_CustomEvent_Index",
+    "Outer": "ExecuteUbergraph_WBP_Com_intrutionicon_Positon",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "K2Node_CustomEvent_Time",
+    "Outer": "ExecuteUbergraph_WBP_Com_intrutionicon_Positon",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "Temp_int_Variable",
+    "Outer": "ExecuteUbergraph_WBP_Com_intrutionicon_Positon",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "MovieScene",
+    "Name": "Pos_Match",
+    "Outer": "Pos_Match_INST",
+    "Class": "UScriptClass'MovieScene'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Possessables": [
+        {
+          "Tags": [],
+          "Guid": "CAA980C8-473974DB-BEE27387-14492EC8",
+          "Name": "WBP_Com_intrutionicon",
+          "PossessedObjectClass": {
+            "ObjectName": "WidgetBlueprintGeneratedClass'WBP_Com_intrutionicon_C'",
+            "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon.1"
+          },
+          "ParentGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "Tags": [],
+          "Guid": "E54F5C26-493F264C-1E817BA0-FA73BC58",
+          "Name": "CanvasPanelSlot_1",
+          "PossessedObjectClass": {
+            "ObjectName": "Class'CanvasPanelSlot'",
+            "ObjectPath": "/Script/UMG"
+          },
+          "ParentGuid": "CAA980C8-473974DB-BEE27387-14492EC8"
+        }
+      ],
+      "ObjectBindings": [
+        {
+          "ObjectGuid": "CAA980C8-473974DB-BEE27387-14492EC8",
+          "BindingName": "WBP_Com_intrutionicon",
+          "Tracks": []
+        },
+        {
+          "ObjectGuid": "E54F5C26-493F264C-1E817BA0-FA73BC58",
+          "BindingName": "CanvasPanelSlot_1",
+          "Tracks": [
+            {
+              "ObjectName": "MovieSceneMarginTrack'WBP_Com_intrutionicon_Positon_C:Pos_Match_INST.Pos_Match.MovieSceneMarginTrack_0'",
+              "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.72"
+            }
+          ]
+        }
+      ],
+      "PlaybackRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 15000
+            }
+          }
+        }
+      },
+      "DisplayRate": {
+        "Numerator": 20
+      },
+      "Signature": "20E071FA-48263134-1B30A8B5-05956751"
+    }
+  },
+  {
+    "Type": "MovieScene",
+    "Name": "Pos_Menu",
+    "Outer": "Pos_Menu_INST",
+    "Class": "UScriptClass'MovieScene'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Possessables": [
+        {
+          "Tags": [],
+          "Guid": "CD0413B7-46373BFC-302E55AC-BC946213",
+          "Name": "WBP_Com_intrutionicon",
+          "PossessedObjectClass": {
+            "ObjectName": "WidgetBlueprintGeneratedClass'WBP_Com_intrutionicon_C'",
+            "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon.1"
+          },
+          "ParentGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "Tags": [],
+          "Guid": "34DF2ABE-4C33B59B-15449D81-5D2CECCF",
+          "Name": "CanvasPanelSlot_1",
+          "PossessedObjectClass": {
+            "ObjectName": "Class'CanvasPanelSlot'",
+            "ObjectPath": "/Script/UMG"
+          },
+          "ParentGuid": "CD0413B7-46373BFC-302E55AC-BC946213"
+        }
+      ],
+      "ObjectBindings": [
+        {
+          "ObjectGuid": "CD0413B7-46373BFC-302E55AC-BC946213",
+          "BindingName": "WBP_Com_intrutionicon",
+          "Tracks": []
+        },
+        {
+          "ObjectGuid": "34DF2ABE-4C33B59B-15449D81-5D2CECCF",
+          "BindingName": "CanvasPanelSlot_1",
+          "Tracks": [
+            {
+              "ObjectName": "MovieSceneMarginTrack'WBP_Com_intrutionicon_Positon_C:Pos_Menu_INST.Pos_Menu.MovieSceneMarginTrack_0'",
+              "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.73"
+            }
+          ]
+        }
+      ],
+      "PlaybackRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 15000
+            }
+          }
+        }
+      },
+      "DisplayRate": {
+        "Numerator": 20
+      },
+      "Signature": "9988B19F-4FAD1158-57CD9194-3E22EB8B"
+    }
+  },
+  {
+    "Type": "MovieScene",
+    "Name": "Pos_Race",
+    "Outer": "Pos_Race_INST",
+    "Class": "UScriptClass'MovieScene'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Possessables": [
+        {
+          "Tags": [],
+          "Guid": "CD0413B7-46373BFC-302E55AC-BC946213",
+          "Name": "WBP_Com_intrutionicon",
+          "PossessedObjectClass": {
+            "ObjectName": "WidgetBlueprintGeneratedClass'WBP_Com_intrutionicon_C'",
+            "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon.1"
+          },
+          "ParentGuid": "00000000-00000000-00000000-00000000"
+        },
+        {
+          "Tags": [],
+          "Guid": "34DF2ABE-4C33B59B-15449D81-5D2CECCF",
+          "Name": "CanvasPanelSlot_1",
+          "PossessedObjectClass": {
+            "ObjectName": "Class'CanvasPanelSlot'",
+            "ObjectPath": "/Script/UMG"
+          },
+          "ParentGuid": "CD0413B7-46373BFC-302E55AC-BC946213"
+        }
+      ],
+      "ObjectBindings": [
+        {
+          "ObjectGuid": "CD0413B7-46373BFC-302E55AC-BC946213",
+          "BindingName": "WBP_Com_intrutionicon",
+          "Tracks": []
+        },
+        {
+          "ObjectGuid": "34DF2ABE-4C33B59B-15449D81-5D2CECCF",
+          "BindingName": "CanvasPanelSlot_1",
+          "Tracks": [
+            {
+              "ObjectName": "MovieSceneMarginTrack'WBP_Com_intrutionicon_Positon_C:Pos_Race_INST.Pos_Race.MovieSceneMarginTrack_0'",
+              "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.74"
+            }
+          ]
+        }
+      ],
+      "PlaybackRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 15000
+            }
+          }
+        }
+      },
+      "DisplayRate": {
+        "Numerator": 20
+      },
+      "Signature": "D24594DD-48CBC2B3-97C57C82-0AFCDBCE"
+    }
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Outer": "MovieSceneMarginSection_0",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Outer": "MovieSceneMarginSection_0",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Outer": "MovieSceneMarginSection_0",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Outer": "MovieSceneMarginSection_0",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseInFunction",
+    "Outer": "MovieSceneMarginSection_0",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "MovieSceneBuiltInEasingFunction",
+    "Name": "EaseOutFunction",
+    "Outer": "MovieSceneMarginSection_0",
+    "Class": "UScriptClass'MovieSceneBuiltInEasingFunction'",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "MovieSceneMarginSection",
+    "Name": "MovieSceneMarginSection_0",
+    "Outer": "MovieSceneMarginTrack_0",
+    "Class": "UScriptClass'MovieSceneMarginSection'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "TopCurve": {
+        "PreInfinityExtrap": "RCCE_None",
+        "PostInfinityExtrap": "RCCE_None",
+        "Times": [],
+        "Values": [],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 0,
+          "Denominator": 0
+        },
+        "bShowCurve": false,
+        "StructFallback": {
+          "Times": [
+            {
+              "Value": 0
+            }
+          ],
+          "Values": [
+            {
+              "Value": 72.0,
+              "Tangent": {
+                "ArriveTangent": 0.0,
+                "LeaveTangent": 0.0,
+                "ArriveTangentWeight": 0.0,
+                "LeaveTangentWeight": 0.0,
+                "TangentWeightMode": 0
+              },
+              "InterpMode": 2,
+              "TangentMode": 0
+            }
+          ]
+        }
+      },
+      "LeftCurve": {
+        "PreInfinityExtrap": "RCCE_None",
+        "PostInfinityExtrap": "RCCE_None",
+        "Times": [],
+        "Values": [],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 0,
+          "Denominator": 0
+        },
+        "bShowCurve": false,
+        "StructFallback": {
+          "Times": [
+            {
+              "Value": 0
+            }
+          ],
+          "Values": [
+            {
+              "Value": 360.0,
+              "Tangent": {
+                "ArriveTangent": 0.0,
+                "LeaveTangent": 0.0,
+                "ArriveTangentWeight": 0.0,
+                "LeaveTangentWeight": 0.0,
+                "TangentWeightMode": 0
+              },
+              "InterpMode": 2,
+              "TangentMode": 0
+            }
+          ]
+        }
+      },
+      "RightCurve": {
+        "PreInfinityExtrap": "RCCE_None",
+        "PostInfinityExtrap": "RCCE_None",
+        "Times": [],
+        "Values": [],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 0,
+          "Denominator": 0
+        },
+        "bShowCurve": false,
+        "StructFallback": {
+          "Times": [
+            {
+              "Value": 0
+            }
+          ],
+          "Values": [
+            {
+              "Value": 270.0,
+              "Tangent": {
+                "ArriveTangent": 0.0,
+                "LeaveTangent": 0.0,
+                "ArriveTangentWeight": 0.0,
+                "LeaveTangentWeight": 0.0,
+                "TangentWeightMode": 0
+              },
+              "InterpMode": 2,
+              "TangentMode": 0
+            }
+          ]
+        }
+      },
+      "BottomCurve": {
+        "PreInfinityExtrap": "RCCE_None",
+        "PostInfinityExtrap": "RCCE_None",
+        "Times": [],
+        "Values": [],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 0,
+          "Denominator": 0
+        },
+        "bShowCurve": false,
+        "StructFallback": {
+          "Times": [
+            {
+              "Value": 0
+            }
+          ],
+          "Values": [
+            {
+              "Value": 51.0,
+              "Tangent": {
+                "ArriveTangent": 0.0,
+                "LeaveTangent": 0.0,
+                "ArriveTangentWeight": 0.0,
+                "LeaveTangentWeight": 0.0,
+                "TangentWeightMode": 0
+              },
+              "InterpMode": 2,
+              "TangentMode": 0
+            }
+          ]
+        }
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'WBP_Com_intrutionicon_Positon_C:Pos_Match_INST.Pos_Match.MovieSceneMarginTrack_0.MovieSceneMarginSection_0.EaseInFunction'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.63"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'WBP_Com_intrutionicon_Positon_C:Pos_Match_INST.Pos_Match.MovieSceneMarginTrack_0.MovieSceneMarginSection_0.EaseOutFunction'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.64"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 15000
+            }
+          }
+        }
+      },
+      "Signature": "AF9CC427-44FBE242-290331B7-76D98B2E"
+    }
+  },
+  {
+    "Type": "MovieSceneMarginSection",
+    "Name": "MovieSceneMarginSection_0",
+    "Outer": "MovieSceneMarginTrack_0",
+    "Class": "UScriptClass'MovieSceneMarginSection'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "TopCurve": {
+        "PreInfinityExtrap": "RCCE_None",
+        "PostInfinityExtrap": "RCCE_None",
+        "Times": [],
+        "Values": [],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 0,
+          "Denominator": 0
+        },
+        "bShowCurve": false,
+        "StructFallback": {
+          "Times": [
+            {
+              "Value": 0
+            }
+          ],
+          "Values": [
+            {
+              "Value": 72.0,
+              "Tangent": {
+                "ArriveTangent": 0.0,
+                "LeaveTangent": 0.0,
+                "ArriveTangentWeight": 0.0,
+                "LeaveTangentWeight": 0.0,
+                "TangentWeightMode": 0
+              },
+              "InterpMode": 2,
+              "TangentMode": 0
+            }
+          ]
+        }
+      },
+      "LeftCurve": {
+        "PreInfinityExtrap": "RCCE_None",
+        "PostInfinityExtrap": "RCCE_None",
+        "Times": [],
+        "Values": [],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 0,
+          "Denominator": 0
+        },
+        "bShowCurve": false,
+        "StructFallback": {
+          "Times": [
+            {
+              "Value": 0
+            }
+          ],
+          "Values": [
+            {
+              "Value": 1416.0,
+              "Tangent": {
+                "ArriveTangent": 0.0,
+                "LeaveTangent": 0.0,
+                "ArriveTangentWeight": 0.0,
+                "LeaveTangentWeight": 0.0,
+                "TangentWeightMode": 0
+              },
+              "InterpMode": 2,
+              "TangentMode": 0
+            }
+          ]
+        }
+      },
+      "RightCurve": {
+        "PreInfinityExtrap": "RCCE_None",
+        "PostInfinityExtrap": "RCCE_None",
+        "Times": [],
+        "Values": [],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 0,
+          "Denominator": 0
+        },
+        "bShowCurve": false,
+        "StructFallback": {
+          "Times": [
+            {
+              "Value": 0
+            }
+          ],
+          "Values": [
+            {
+              "Value": 270.0,
+              "Tangent": {
+                "ArriveTangent": 0.0,
+                "LeaveTangent": 0.0,
+                "ArriveTangentWeight": 0.0,
+                "LeaveTangentWeight": 0.0,
+                "TangentWeightMode": 0
+              },
+              "InterpMode": 2,
+              "TangentMode": 0
+            }
+          ]
+        }
+      },
+      "BottomCurve": {
+        "PreInfinityExtrap": "RCCE_None",
+        "PostInfinityExtrap": "RCCE_None",
+        "Times": [],
+        "Values": [],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 0,
+          "Denominator": 0
+        },
+        "bShowCurve": false,
+        "StructFallback": {
+          "Times": [
+            {
+              "Value": 0
+            }
+          ],
+          "Values": [
+            {
+              "Value": 51.0,
+              "Tangent": {
+                "ArriveTangent": 0.0,
+                "LeaveTangent": 0.0,
+                "ArriveTangentWeight": 0.0,
+                "LeaveTangentWeight": 0.0,
+                "TangentWeightMode": 0
+              },
+              "InterpMode": 2,
+              "TangentMode": 0
+            }
+          ]
+        }
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'WBP_Com_intrutionicon_Positon_C:Pos_Menu_INST.Pos_Menu.MovieSceneMarginTrack_0.MovieSceneMarginSection_0.EaseInFunction'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.65"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'WBP_Com_intrutionicon_Positon_C:Pos_Menu_INST.Pos_Menu.MovieSceneMarginTrack_0.MovieSceneMarginSection_0.EaseOutFunction'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.66"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 15000
+            }
+          }
+        }
+      },
+      "Signature": "F97FCFEA-4FBD213A-1918AB8B-7FA81DD0"
+    }
+  },
+  {
+    "Type": "MovieSceneMarginSection",
+    "Name": "MovieSceneMarginSection_0",
+    "Outer": "MovieSceneMarginTrack_0",
+    "Class": "UScriptClass'MovieSceneMarginSection'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "TopCurve": {
+        "PreInfinityExtrap": "RCCE_None",
+        "PostInfinityExtrap": "RCCE_None",
+        "Times": [],
+        "Values": [],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 0,
+          "Denominator": 0
+        },
+        "bShowCurve": false,
+        "StructFallback": {
+          "Times": [
+            {
+              "Value": 0
+            }
+          ],
+          "Values": [
+            {
+              "Value": 51.0,
+              "Tangent": {
+                "ArriveTangent": 0.0,
+                "LeaveTangent": 0.0,
+                "ArriveTangentWeight": 0.0,
+                "LeaveTangentWeight": 0.0,
+                "TangentWeightMode": 0
+              },
+              "InterpMode": 2,
+              "TangentMode": 0
+            }
+          ]
+        }
+      },
+      "LeftCurve": {
+        "PreInfinityExtrap": "RCCE_None",
+        "PostInfinityExtrap": "RCCE_None",
+        "Times": [],
+        "Values": [],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 0,
+          "Denominator": 0
+        },
+        "bShowCurve": false,
+        "StructFallback": {
+          "Times": [
+            {
+              "Value": 0
+            }
+          ],
+          "Values": [
+            {
+              "Value": 450.0,
+              "Tangent": {
+                "ArriveTangent": 0.0,
+                "LeaveTangent": 0.0,
+                "ArriveTangentWeight": 0.0,
+                "LeaveTangentWeight": 0.0,
+                "TangentWeightMode": 0
+              },
+              "InterpMode": 2,
+              "TangentMode": 0
+            }
+          ]
+        }
+      },
+      "RightCurve": {
+        "PreInfinityExtrap": "RCCE_None",
+        "PostInfinityExtrap": "RCCE_None",
+        "Times": [],
+        "Values": [],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 0,
+          "Denominator": 0
+        },
+        "bShowCurve": false,
+        "StructFallback": {
+          "Times": [
+            {
+              "Value": 0
+            }
+          ],
+          "Values": [
+            {
+              "Value": 270.0,
+              "Tangent": {
+                "ArriveTangent": 0.0,
+                "LeaveTangent": 0.0,
+                "ArriveTangentWeight": 0.0,
+                "LeaveTangentWeight": 0.0,
+                "TangentWeightMode": 0
+              },
+              "InterpMode": 2,
+              "TangentMode": 0
+            }
+          ]
+        }
+      },
+      "BottomCurve": {
+        "PreInfinityExtrap": "RCCE_None",
+        "PostInfinityExtrap": "RCCE_None",
+        "Times": [],
+        "Values": [],
+        "DefaultValue": 0.0,
+        "bHasDefaultValue": false,
+        "TickResolution": {
+          "Numerator": 0,
+          "Denominator": 0
+        },
+        "bShowCurve": false,
+        "StructFallback": {
+          "Times": [
+            {
+              "Value": 0
+            }
+          ],
+          "Values": [
+            {
+              "Value": 51.0,
+              "Tangent": {
+                "ArriveTangent": 0.0,
+                "LeaveTangent": 0.0,
+                "ArriveTangentWeight": 0.0,
+                "LeaveTangentWeight": 0.0,
+                "TangentWeightMode": 0
+              },
+              "InterpMode": 2,
+              "TangentMode": 0
+            }
+          ]
+        }
+      },
+      "Easing": {
+        "EaseIn": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'WBP_Com_intrutionicon_Positon_C:Pos_Race_INST.Pos_Race.MovieSceneMarginTrack_0.MovieSceneMarginSection_0.EaseInFunction'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.67"
+        },
+        "EaseOut": {
+          "ObjectName": "MovieSceneBuiltInEasingFunction'WBP_Com_intrutionicon_Positon_C:Pos_Race_INST.Pos_Race.MovieSceneMarginTrack_0.MovieSceneMarginSection_0.EaseOutFunction'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.68"
+        }
+      },
+      "SectionRange": {
+        "Value": {
+          "LowerBound": {
+            "Type": 1,
+            "Value": {
+              "Value": 0
+            }
+          },
+          "UpperBound": {
+            "Type": 0,
+            "Value": {
+              "Value": 15000
+            }
+          }
+        }
+      },
+      "Signature": "71332A56-425D8401-6BD92E90-18CAFD22"
+    }
+  },
+  {
+    "Type": "MovieSceneMarginTrack",
+    "Name": "MovieSceneMarginTrack_0",
+    "Outer": "Pos_Match",
+    "Class": "UScriptClass'MovieSceneMarginTrack'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "PropertyName": "Offsets",
+      "PropertyPath": "LayoutData.Offsets",
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneMarginSection'WBP_Com_intrutionicon_Positon_C:Pos_Match_INST.Pos_Match.MovieSceneMarginTrack_0.MovieSceneMarginSection_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.69"
+        }
+      ],
+      "Signature": "CBD68D25-4749252C-592037B7-6A98C034"
+    }
+  },
+  {
+    "Type": "MovieSceneMarginTrack",
+    "Name": "MovieSceneMarginTrack_0",
+    "Outer": "Pos_Menu",
+    "Class": "UScriptClass'MovieSceneMarginTrack'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "PropertyName": "Offsets",
+      "PropertyPath": "LayoutData.Offsets",
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneMarginSection'WBP_Com_intrutionicon_Positon_C:Pos_Menu_INST.Pos_Menu.MovieSceneMarginTrack_0.MovieSceneMarginSection_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.70"
+        }
+      ],
+      "Signature": "8114A416-44DE59C0-A9C7928D-C39F1359"
+    }
+  },
+  {
+    "Type": "MovieSceneMarginTrack",
+    "Name": "MovieSceneMarginTrack_0",
+    "Outer": "Pos_Race",
+    "Class": "UScriptClass'MovieSceneMarginTrack'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "PropertyName": "Offsets",
+      "PropertyPath": "LayoutData.Offsets",
+      "Sections": [
+        {
+          "ObjectName": "MovieSceneMarginSection'WBP_Com_intrutionicon_Positon_C:Pos_Race_INST.Pos_Race.MovieSceneMarginTrack_0.MovieSceneMarginSection_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.71"
+        }
+      ],
+      "Signature": "4C7DCCA8-490ABE41-0F503FA8-EBC31B86"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_PlayAnimationForward_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_Com_intrutionicon_Positon",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyClass": {
+      "ObjectName": "Class'UMGSequencePlayer'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "K2Node_Select_Default",
+    "Outer": "ExecuteUbergraph_WBP_Com_intrutionicon_Positon",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyClass": {
+      "ObjectName": "Class'WidgetAnimation'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Pos_Menu",
+    "Outer": "WBP_Com_intrutionicon_Positon_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Transient | RepSkip",
+    "PropertyClass": {
+      "ObjectName": "Class'WidgetAnimation'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Pos_Race",
+    "Outer": "WBP_Com_intrutionicon_Positon_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Transient | RepSkip",
+    "PropertyClass": {
+      "ObjectName": "Class'WidgetAnimation'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "WBP_Com_intrutionicon",
+    "Outer": "WBP_Com_intrutionicon_Positon_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "WidgetBlueprintGeneratedClass'WBP_Com_intrutionicon_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon.1"
+    }
+  },
+  {
+    "Type": "Overlay",
+    "Name": "Intrution_Icon_Top",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Overlay'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.Intrution_Icon_Top.OverlaySlot_2'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.81"
+        },
+        {
+          "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.Intrution_Icon_Top.OverlaySlot_7'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.82"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.27"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_2",
+    "Outer": "Intrution_Icon_Top",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Fill",
+      "VerticalAlignment": "VAlign_Fill",
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.Intrution_Icon_Top'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.80"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.eff'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.56"
+      }
+    }
+  },
+  {
+    "Type": "OverlaySlot",
+    "Name": "OverlaySlot_7",
+    "Outer": "Intrution_Icon_Top",
+    "Class": "UScriptClass'OverlaySlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "Overlay'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.Intrution_Icon_Top'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.80"
+      },
+      "Content": {
+        "ObjectName": "WidgetSwitcher'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.P_SwitchBaseColor'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.116"
+      }
+    }
+  },
+  {
+    "Type": "ScaleBox",
+    "Name": "ScaleBox_1",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'ScaleBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "ScaleBoxSlot'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.ScaleBox_1.ScaleBoxSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.86"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "SizeBoxSlot'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.SizeBox_0.SizeBoxSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.92"
+      }
+    }
+  },
+  {
+    "Type": "ScaleBox",
+    "Name": "ScaleBox_2",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'ScaleBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "ScaleBoxSlot'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.ScaleBox_2.ScaleBoxSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.87"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "SizeBoxSlot'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.SizeBox_1.SizeBoxSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.93"
+      }
+    }
+  },
+  {
+    "Type": "ScaleBox",
+    "Name": "ScaleBox_3",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'ScaleBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "ScaleBoxSlot'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.ScaleBox_3.ScaleBoxSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.88"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "SizeBoxSlot'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.SizeBox_2.SizeBoxSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.94"
+      }
+    }
+  },
+  {
+    "Type": "ScaleBoxSlot",
+    "Name": "ScaleBoxSlot_0",
+    "Outer": "ScaleBox_1",
+    "Class": "UScriptClass'ScaleBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "ScaleBox'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.ScaleBox_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.83"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.InStoreText_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.102"
+      }
+    }
+  },
+  {
+    "Type": "ScaleBoxSlot",
+    "Name": "ScaleBoxSlot_0",
+    "Outer": "ScaleBox_2",
+    "Class": "UScriptClass'ScaleBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "ScaleBox'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.ScaleBox_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.84"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.TextBlock_124'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.108"
+      }
+    }
+  },
+  {
+    "Type": "ScaleBoxSlot",
+    "Name": "ScaleBoxSlot_1",
+    "Outer": "ScaleBox_3",
+    "Class": "UScriptClass'ScaleBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Parent": {
+        "ObjectName": "ScaleBox'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.ScaleBox_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.85"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.InStoreText'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.101"
+      }
+    }
+  },
+  {
+    "Type": "SizeBox",
+    "Name": "SizeBox_0",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'SizeBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "WidthOverride": 200.0,
+      "HeightOverride": 38.0,
+      "bOverride_WidthOverride": true,
+      "bOverride_HeightOverride": true,
+      "Slots": [
+        {
+          "ObjectName": "SizeBoxSlot'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.SizeBox_0.SizeBoxSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.92"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.P_Instore.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.28"
+      }
+    }
+  },
+  {
+    "Type": "SizeBox",
+    "Name": "SizeBox_1",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'SizeBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "WidthOverride": 200.0,
+      "HeightOverride": 38.0,
+      "bOverride_WidthOverride": true,
+      "bOverride_HeightOverride": true,
+      "Slots": [
+        {
+          "ObjectName": "SizeBoxSlot'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.SizeBox_1.SizeBoxSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.93"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.P_OnLine.CanvasPanelSlot_4'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.40"
+      }
+    }
+  },
+  {
+    "Type": "SizeBox",
+    "Name": "SizeBox_2",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'SizeBox'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "WidthOverride": 200.0,
+      "HeightOverride": 38.0,
+      "bOverride_WidthOverride": true,
+      "bOverride_HeightOverride": true,
+      "Slots": [
+        {
+          "ObjectName": "SizeBoxSlot'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.SizeBox_2.SizeBoxSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.94"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.P_Private.CanvasPanelSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.46"
+      }
+    }
+  },
+  {
+    "Type": "SizeBoxSlot",
+    "Name": "SizeBoxSlot_0",
+    "Outer": "SizeBox_0",
+    "Class": "UScriptClass'SizeBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.SizeBox_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.89"
+      },
+      "Content": {
+        "ObjectName": "ScaleBox'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.ScaleBox_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.83"
+      }
+    }
+  },
+  {
+    "Type": "SizeBoxSlot",
+    "Name": "SizeBoxSlot_0",
+    "Outer": "SizeBox_1",
+    "Class": "UScriptClass'SizeBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.SizeBox_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.90"
+      },
+      "Content": {
+        "ObjectName": "ScaleBox'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.ScaleBox_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.84"
+      }
+    }
+  },
+  {
+    "Type": "SizeBoxSlot",
+    "Name": "SizeBoxSlot_0",
+    "Outer": "SizeBox_2",
+    "Class": "UScriptClass'SizeBoxSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "SizeBox'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.SizeBox_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.91"
+      },
+      "Content": {
+        "ObjectName": "ScaleBox'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.ScaleBox_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.85"
+      }
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "dot1_1",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "2F521CFF4CF3FFFE8A65239C3DA45927",
+        "SourceString": ".",
+        "LocalizedString": "."
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 2
+        },
+        "TypefaceFontName": "RodinN_B",
+        "Size": 19
+      },
+      "ShadowOffset": {
+        "X": 2.4,
+        "Y": 1.3
+      },
+      "ShadowColorAndOpacity": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "000000"
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.P_InstoreLoading.CanvasPanelSlot_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.33"
+      },
+      "RenderTransformPivot": {
+        "X": 1.0,
+        "Y": 1.0
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "dot1_2",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "2F521CFF4CF3FFFE8A65239C3DA45927",
+        "SourceString": ".",
+        "LocalizedString": "."
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 2
+        },
+        "TypefaceFontName": "RodinN_B",
+        "Size": 19
+      },
+      "ShadowOffset": {
+        "X": 2.4,
+        "Y": 1.3
+      },
+      "ShadowColorAndOpacity": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "000000"
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.P_OnLineLoading.CanvasPanelSlot_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.43"
+      },
+      "RenderTransformPivot": {
+        "X": 1.0,
+        "Y": 1.0
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "dot2_1",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "3415DF2B4484D85D2FE3C389A25361F8",
+        "SourceString": ".",
+        "LocalizedString": "."
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 2
+        },
+        "TypefaceFontName": "RodinN_B",
+        "Size": 19
+      },
+      "ShadowOffset": {
+        "X": 2.4,
+        "Y": 1.3
+      },
+      "ShadowColorAndOpacity": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "000000"
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.P_InstoreLoading.CanvasPanelSlot_5'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.35"
+      },
+      "RenderTransformPivot": {
+        "X": 1.0,
+        "Y": 1.0
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "dot2_2",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "3415DF2B4484D85D2FE3C389A25361F8",
+        "SourceString": ".",
+        "LocalizedString": "."
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 2
+        },
+        "TypefaceFontName": "RodinN_B",
+        "Size": 19
+      },
+      "ShadowOffset": {
+        "X": 2.4,
+        "Y": 1.3
+      },
+      "ShadowColorAndOpacity": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "000000"
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.P_OnLineLoading.CanvasPanelSlot_5'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.44"
+      },
+      "RenderTransformPivot": {
+        "X": 1.0,
+        "Y": 1.0
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "dot3_1",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "264E1BBE46478DD7A8D455A143711E55",
+        "SourceString": ".",
+        "LocalizedString": "."
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 2
+        },
+        "TypefaceFontName": "RodinN_B",
+        "Size": 19
+      },
+      "ShadowOffset": {
+        "X": 2.4,
+        "Y": 1.3
+      },
+      "ShadowColorAndOpacity": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "000000"
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.P_InstoreLoading.CanvasPanelSlot_6'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.36"
+      },
+      "RenderTransformPivot": {
+        "X": 1.0,
+        "Y": 1.0
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "dot3_2",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "264E1BBE46478DD7A8D455A143711E55",
+        "SourceString": ".",
+        "LocalizedString": "."
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 2
+        },
+        "TypefaceFontName": "RodinN_B",
+        "Size": 19
+      },
+      "ShadowOffset": {
+        "X": 2.4,
+        "Y": 1.3
+      },
+      "ShadowColorAndOpacity": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "000000"
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.P_OnLineLoading.CanvasPanelSlot_6'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.45"
+      },
+      "RenderTransformPivot": {
+        "X": 1.0,
+        "Y": 1.0
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "InStoreText",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "TableId": "/Game/IND/StringTable/BP/ST_GameMessage.ST_GameMessage",
+        "Key": "Intrutionicon_PrivateMatching",
+        "SourceString": "店内バトル\nプライベートマッチング中",
+        "LocalizedString": "Now in private matching\nin In-store Battle."
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 2
+        },
+        "TypefaceFontName": "RodinN_B",
+        "Size": 16
+      },
+      "ShadowOffset": {
+        "X": 2.0,
+        "Y": 1.0
+      },
+      "ShadowColorAndOpacity": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "000000"
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "ScaleBoxSlot'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.ScaleBox_3.ScaleBoxSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.88"
+      }
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "InStoreText_1",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "TableId": "/Game/IND/StringTable/BP/ST_GameMessage.ST_GameMessage",
+        "Key": "Intrutionicon_Accepting",
+        "SourceString": "店内マッチ受付中",
+        "LocalizedString": "Accepting entries\nfor in-store match."
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 2
+        },
+        "TypefaceFontName": "RodinN_B",
+        "Size": 16
+      },
+      "ShadowOffset": {
+        "X": 2.0,
+        "Y": 1.0
+      },
+      "ShadowColorAndOpacity": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "000000"
+      },
+      "Slot": {
+        "ObjectName": "ScaleBoxSlot'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.ScaleBox_1.ScaleBoxSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.86"
+      }
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "Loading",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "07A0AE2D406A7017A2B465BB24D096A3",
+        "SourceString": "Connecting",
+        "LocalizedString": "Connecting"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 2
+        },
+        "TypefaceFontName": "RodinN_B",
+        "Size": 16
+      },
+      "ShadowOffset": {
+        "X": 2.4,
+        "Y": 1.3
+      },
+      "ShadowColorAndOpacity": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "000000"
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.P_OnLineLoading.CanvasPanelSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.42"
+      },
+      "RenderTransform": {
+        "Scale": {
+          "X": 0.85,
+          "Y": 1.0
+        }
+      },
+      "RenderTransformPivot": {
+        "X": 0.0,
+        "Y": 1.0
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "Loading_1",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "B59390B0490D9AEE82B1D0ABDA85F9B5",
+        "SourceString": "Connecting",
+        "LocalizedString": "Connecting"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 2
+        },
+        "TypefaceFontName": "RodinN_B",
+        "Size": 16
+      },
+      "ShadowOffset": {
+        "X": 2.4,
+        "Y": 1.3
+      },
+      "ShadowColorAndOpacity": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "000000"
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.P_InstoreLoading.CanvasPanelSlot_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.32"
+      },
+      "RenderTransform": {
+        "Scale": {
+          "X": 0.85,
+          "Y": 1.0
+        }
+      },
+      "RenderTransformPivot": {
+        "X": 0.0,
+        "Y": 1.0
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "P_Time",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "22F6D3B34C5B89FADB9B76B7AAC1089C",
+        "SourceString": "888",
+        "LocalizedString": "888"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 2
+        },
+        "TypefaceFontName": "RodinN_B",
+        "Size": 19
+      },
+      "ShadowOffset": {
+        "X": 2.0,
+        "Y": 1.0
+      },
+      "ShadowColorAndOpacity": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "000000"
+      },
+      "Justification": "ETextJustify::Right",
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.P_Instore.CanvasPanelSlot_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.29"
+      },
+      "RenderTransform": {
+        "Scale": {
+          "X": 0.8,
+          "Y": 1.0
+        }
+      },
+      "RenderTransformPivot": {
+        "X": 1.0,
+        "Y": 1.0
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "P_Time_1",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "5331D21E4A6A97FFE6E625ABB895EE31",
+        "SourceString": "888",
+        "LocalizedString": "888"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 2
+        },
+        "TypefaceFontName": "RodinN_B",
+        "Size": 19
+      },
+      "ShadowOffset": {
+        "X": 2.0,
+        "Y": 1.0
+      },
+      "ShadowColorAndOpacity": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "000000"
+      },
+      "Justification": "ETextJustify::Right",
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.P_OnLine.CanvasPanelSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.38"
+      },
+      "RenderTransform": {
+        "Scale": {
+          "X": 0.8,
+          "Y": 1.0
+        }
+      },
+      "RenderTransformPivot": {
+        "X": 1.0,
+        "Y": 1.0
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "TextBlock",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "TableId": "/Game/IND/StringTable/BP/ST_GameMessage.ST_GameMessage",
+        "Key": "Intrutionicon_Seconds",
+        "SourceString": "秒",
+        "LocalizedString": "s"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 1
+        },
+        "TypefaceFontName": "RodinN_B",
+        "Size": 12
+      },
+      "ShadowOffset": {
+        "X": 2.0,
+        "Y": 1.0
+      },
+      "ShadowColorAndOpacity": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "000000"
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.P_OnLine.CanvasPanelSlot_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.39"
+      }
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "TextBlock_124",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "TableId": "/Game/IND/StringTable/BP/ST_GameMessage.ST_GameMessage",
+        "Key": "ComIntrutionicon_AcceptingEntries",
+        "SourceString": "オンラインバトルマッチ\n受付中",
+        "LocalizedString": "Accepting entries for\nOnline Battle matches."
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 2
+        },
+        "TypefaceFontName": "RodinN_B",
+        "Size": 16
+      },
+      "ShadowOffset": {
+        "X": 2.0,
+        "Y": 1.0
+      },
+      "ShadowColorAndOpacity": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "000000"
+      },
+      "Justification": "ETextJustify::Center",
+      "Slot": {
+        "ObjectName": "ScaleBoxSlot'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.ScaleBox_2.ScaleBoxSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.87"
+      }
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "TextBlock_7",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "TableId": "/Game/IND/StringTable/BP/ST_GameMessage.ST_GameMessage",
+        "Key": "Intrutionicon_Seconds",
+        "SourceString": "秒",
+        "LocalizedString": "s"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 1
+        },
+        "TypefaceFontName": "RodinN_B",
+        "Size": 12
+      },
+      "ShadowOffset": {
+        "X": 2.0,
+        "Y": 1.0
+      },
+      "ShadowColorAndOpacity": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.0,
+        "A": 1.0,
+        "Hex": "000000"
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.P_Instore.CanvasPanelSlot_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.30"
+      }
+    }
+  },
+  {
+    "Type": "WBP_Com_intrutionicon_C",
+    "Name": "WBP_Com_intrutionicon",
+    "Outer": "WidgetTree",
+    "Class": "WidgetBlueprintGeneratedClass'GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon.WBP_Com_intrutionicon_C'",
+    "Template": {
+      "ObjectName": "WBP_Com_intrutionicon_C'Default__WBP_Com_intrutionicon_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Com_intrutionicon_Positon_C:WidgetTree.CanvasPanel_19.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.25"
+      }
+    }
+  },
+  {
+    "Type": "WBP_Com_intrutionicon_C",
+    "Name": "WBP_Com_intrutionicon",
+    "Outer": "WidgetTree_0",
+    "Class": "WidgetBlueprintGeneratedClass'GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon.WBP_Com_intrutionicon_C'",
+    "Template": {
+      "ObjectName": "WBP_Com_intrutionicon_C'Default__WBP_Com_intrutionicon_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon.2"
+    },
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "dot1_1": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.dot1_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.95"
+      },
+      "dot1_2": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.dot1_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.96"
+      },
+      "dot2_1": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.dot2_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.97"
+      },
+      "dot2_2": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.dot2_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.98"
+      },
+      "dot3_1": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.dot3_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.99"
+      },
+      "dot3_2": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.dot3_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.100"
+      },
+      "Loading": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.Loading'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.103"
+      },
+      "Loading_1": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.Loading_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.104"
+      },
+      "P_Instore": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.P_Instore'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.20"
+      },
+      "P_InstoreLoading": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.P_InstoreLoading'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.21"
+      },
+      "P_OnLine": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.P_OnLine'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.22"
+      },
+      "P_OnLineLoading": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.P_OnLineLoading'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.23"
+      },
+      "P_Private": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.P_Private'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.24"
+      },
+      "P_SwitchBaseColor": {
+        "ObjectName": "WidgetSwitcher'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.P_SwitchBaseColor'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.116"
+      },
+      "P_Time": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.P_Time'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.105"
+      },
+      "P_Time_1": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.P_Time_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.106"
+      },
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.124"
+      },
+      "bCookedWidgetTree": true,
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_19.CanvasPanelSlot_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.26"
+      }
+    }
+  },
+  {
+    "Type": "WBP_Com_intrutionicon_Positon_C",
+    "Name": "WidgetArchetype",
+    "Class": "WidgetBlueprintGeneratedClass'GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.WBP_Com_intrutionicon_Positon_C'",
+    "Template": {
+      "ObjectName": "WBP_Com_intrutionicon_Positon_C'Default__WBP_Com_intrutionicon_Positon_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.2"
+    },
+    "Flags": "RF_Public | RF_Standalone | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "WBP_Com_intrutionicon": {
+        "ObjectName": "WBP_Com_intrutionicon_C'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.111"
+      },
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.123"
+      },
+      "bCookedWidgetTree": true
+    }
+  },
+  {
+    "Type": "WidgetAnimation",
+    "Name": "Pos_Match_INST",
+    "Outer": "WBP_Com_intrutionicon_Positon_C",
+    "Class": "UScriptClass'WidgetAnimation'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "MovieScene": {
+        "ObjectName": "MovieScene'WBP_Com_intrutionicon_Positon_C:Pos_Match_INST.Pos_Match'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.60"
+      },
+      "AnimationBindings": [
+        {
+          "WidgetName": "WBP_Com_intrutionicon",
+          "SlotWidgetName": "None",
+          "AnimationGuid": "CAA980C8-473974DB-BEE27387-14492EC8",
+          "bIsRootWidget": false
+        },
+        {
+          "WidgetName": "WBP_Com_intrutionicon",
+          "SlotWidgetName": "CanvasPanelSlot_1",
+          "AnimationGuid": "E54F5C26-493F264C-1E817BA0-FA73BC58",
+          "bIsRootWidget": false
+        }
+      ],
+      "DisplayLabel": "Pos_Match",
+      "PrecompiledEvaluationTemplate": {
+        "Tracks": [
+          {
+            "Key": {
+              "Value": 0
+            },
+            "Value": {
+              "ObjectBindingID": "E54F5C26-493F264C-1E817BA0-FA73BC58",
+              "EvaluationPriority": 1000,
+              "EvaluationMethod": "EEvaluationMethod::Static",
+              "Segments": {
+                "SegmentIdentifierToIndex": [
+                  0
+                ],
+                "SortedSegments": [
+                  {
+                    "Range": {
+                      "LowerBound": {
+                        "Type": 1,
+                        "Value": {
+                          "Value": 0
+                        }
+                      },
+                      "UpperBound": {
+                        "Type": 0,
+                        "Value": {
+                          "Value": 15000
+                        }
+                      }
+                    },
+                    "ID": {
+                      "IdentifierIndex": 0
+                    },
+                    "bAllowEmpty": false,
+                    "Impls": [
+                      {
+                        "ImplIndex": 0,
+                        "ForcedTime": {
+                          "Value": -2147483648
+                        },
+                        "Flags": "ESectionEvaluationFlags::None"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "SourceTrack": {
+                "ObjectName": "MovieSceneMarginTrack'WBP_Com_intrutionicon_Positon_C:Pos_Match_INST.Pos_Match.MovieSceneMarginTrack_0'",
+                "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.72"
+              },
+              "EvaluationTree": {
+                "Tree": {
+                  "Data": {
+                    "Entries": [
+                      {
+                        "StartIndex": 0,
+                        "Size": 1,
+                        "Capacity": 1
+                      }
+                    ],
+                    "Items": [
+                      {
+                        "ImplIndex": 0,
+                        "ForcedTime": {
+                          "Value": -2147483648
+                        },
+                        "Flags": 0
+                      }
+                    ]
+                  },
+                  "RootNode": {
+                    "Range": {
+                      "LowerBound": {
+                        "Type": 2,
+                        "Value": {
+                          "Value": 0
+                        }
+                      },
+                      "UpperBound": {
+                        "Type": 2,
+                        "Value": {
+                          "Value": 0
+                        }
+                      }
+                    },
+                    "Parent": {
+                      "ChildrenHandle": {
+                        "EntryIndex": -1
+                      },
+                      "Index": -1
+                    },
+                    "ChildrenID": {
+                      "EntryIndex": 0
+                    },
+                    "DataID": {
+                      "EntryIndex": -1
+                    }
+                  },
+                  "ChildNodes": {
+                    "Entries": [
+                      {
+                        "StartIndex": 0,
+                        "Size": 1,
+                        "Capacity": 1
+                      }
+                    ],
+                    "Items": [
+                      {
+                        "Range": {
+                          "LowerBound": {
+                            "Type": 1,
+                            "Value": {
+                              "Value": 0
+                            }
+                          },
+                          "UpperBound": {
+                            "Type": 0,
+                            "Value": {
+                              "Value": 15000
+                            }
+                          }
+                        },
+                        "Parent": {
+                          "ChildrenHandle": {
+                            "EntryIndex": -1
+                          },
+                          "Index": 0
+                        },
+                        "ChildrenID": {
+                          "EntryIndex": -1
+                        },
+                        "DataID": {
+                          "EntryIndex": 0
+                        }
+                      }
+                    ]
+                  }
+                }
+              },
+              "ChildTemplates": [
+                {
+                  "TypeName": "/Script/UMG.MovieSceneMarginSectionTemplate",
+                  "Data": {
+                    "TopCurve": {
+                      "PreInfinityExtrap": "RCCE_None",
+                      "PostInfinityExtrap": "RCCE_None",
+                      "Times": [],
+                      "Values": [],
+                      "DefaultValue": 0.0,
+                      "bHasDefaultValue": false,
+                      "TickResolution": {
+                        "Numerator": 0,
+                        "Denominator": 0
+                      },
+                      "bShowCurve": false,
+                      "StructFallback": {
+                        "PreInfinityExtrap": "RCCE_Constant",
+                        "PostInfinityExtrap": "RCCE_Constant",
+                        "Times": [
+                          {
+                            "Value": 0
+                          }
+                        ],
+                        "Values": [
+                          {
+                            "Value": 72.0,
+                            "Tangent": {
+                              "ArriveTangent": 0.0,
+                              "LeaveTangent": 0.0,
+                              "ArriveTangentWeight": 0.0,
+                              "LeaveTangentWeight": 0.0,
+                              "TangentWeightMode": 0
+                            },
+                            "InterpMode": 2,
+                            "TangentMode": 0
+                          }
+                        ],
+                        "DefaultValue": 0.0,
+                        "bHasDefaultValue": false,
+                        "TickResolution": {
+                          "Numerator": 60000,
+                          "Denominator": 1
+                        }
+                      }
+                    },
+                    "LeftCurve": {
+                      "PreInfinityExtrap": "RCCE_None",
+                      "PostInfinityExtrap": "RCCE_None",
+                      "Times": [],
+                      "Values": [],
+                      "DefaultValue": 0.0,
+                      "bHasDefaultValue": false,
+                      "TickResolution": {
+                        "Numerator": 0,
+                        "Denominator": 0
+                      },
+                      "bShowCurve": false,
+                      "StructFallback": {
+                        "PreInfinityExtrap": "RCCE_Constant",
+                        "PostInfinityExtrap": "RCCE_Constant",
+                        "Times": [
+                          {
+                            "Value": 0
+                          }
+                        ],
+                        "Values": [
+                          {
+                            "Value": 360.0,
+                            "Tangent": {
+                              "ArriveTangent": 0.0,
+                              "LeaveTangent": 0.0,
+                              "ArriveTangentWeight": 0.0,
+                              "LeaveTangentWeight": 0.0,
+                              "TangentWeightMode": 0
+                            },
+                            "InterpMode": 2,
+                            "TangentMode": 0
+                          }
+                        ],
+                        "DefaultValue": 0.0,
+                        "bHasDefaultValue": false,
+                        "TickResolution": {
+                          "Numerator": 60000,
+                          "Denominator": 1
+                        }
+                      }
+                    },
+                    "RightCurve": {
+                      "PreInfinityExtrap": "RCCE_None",
+                      "PostInfinityExtrap": "RCCE_None",
+                      "Times": [],
+                      "Values": [],
+                      "DefaultValue": 0.0,
+                      "bHasDefaultValue": false,
+                      "TickResolution": {
+                        "Numerator": 0,
+                        "Denominator": 0
+                      },
+                      "bShowCurve": false,
+                      "StructFallback": {
+                        "PreInfinityExtrap": "RCCE_Constant",
+                        "PostInfinityExtrap": "RCCE_Constant",
+                        "Times": [
+                          {
+                            "Value": 0
+                          }
+                        ],
+                        "Values": [
+                          {
+                            "Value": 270.0,
+                            "Tangent": {
+                              "ArriveTangent": 0.0,
+                              "LeaveTangent": 0.0,
+                              "ArriveTangentWeight": 0.0,
+                              "LeaveTangentWeight": 0.0,
+                              "TangentWeightMode": 0
+                            },
+                            "InterpMode": 2,
+                            "TangentMode": 0
+                          }
+                        ],
+                        "DefaultValue": 0.0,
+                        "bHasDefaultValue": false,
+                        "TickResolution": {
+                          "Numerator": 60000,
+                          "Denominator": 1
+                        }
+                      }
+                    },
+                    "BottomCurve": {
+                      "PreInfinityExtrap": "RCCE_None",
+                      "PostInfinityExtrap": "RCCE_None",
+                      "Times": [],
+                      "Values": [],
+                      "DefaultValue": 0.0,
+                      "bHasDefaultValue": false,
+                      "TickResolution": {
+                        "Numerator": 0,
+                        "Denominator": 0
+                      },
+                      "bShowCurve": false,
+                      "StructFallback": {
+                        "PreInfinityExtrap": "RCCE_Constant",
+                        "PostInfinityExtrap": "RCCE_Constant",
+                        "Times": [
+                          {
+                            "Value": 0
+                          }
+                        ],
+                        "Values": [
+                          {
+                            "Value": 51.0,
+                            "Tangent": {
+                              "ArriveTangent": 0.0,
+                              "LeaveTangent": 0.0,
+                              "ArriveTangentWeight": 0.0,
+                              "LeaveTangentWeight": 0.0,
+                              "TangentWeightMode": 0
+                            },
+                            "InterpMode": 2,
+                            "TangentMode": 0
+                          }
+                        ],
+                        "DefaultValue": 0.0,
+                        "bHasDefaultValue": false,
+                        "TickResolution": {
+                          "Numerator": 60000,
+                          "Denominator": 1
+                        }
+                      }
+                    },
+                    "BlendType": "EMovieSceneBlendType::Absolute",
+                    "PropertyData": {
+                      "PropertyName": "Offsets",
+                      "PropertyPath": "LayoutData.Offsets",
+                      "FunctionName": "None",
+                      "NotifyFunctionName": "None"
+                    },
+                    "CompletionMode": "EMovieSceneCompletionMode::KeepState",
+                    "SourceSectionPtr": {
+                      "ObjectName": "MovieSceneMarginSection'WBP_Com_intrutionicon_Positon_C:Pos_Match_INST.Pos_Match.MovieSceneMarginTrack_0.MovieSceneMarginSection_0'",
+                      "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.69"
+                    }
+                  }
+                }
+              ],
+              "TrackTemplate": {
+                "TypeName": "",
+                "Data": null
+              },
+              "EvaluationGroup": "None",
+              "bEvaluateInPreroll": false,
+              "bEvaluateInPostroll": false,
+              "bTearDownPriority": false
+            }
+          }
+        ],
+        "EvaluationField": {
+          "Ranges": [
+            {
+              "Value": {
+                "LowerBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                },
+                "UpperBound": {
+                  "Type": 0,
+                  "Value": {
+                    "Value": 0
+                  }
+                }
+              }
+            },
+            {
+              "Value": {
+                "LowerBound": {
+                  "Type": 1,
+                  "Value": {
+                    "Value": 0
+                  }
+                },
+                "UpperBound": {
+                  "Type": 0,
+                  "Value": {
+                    "Value": 15000
+                  }
+                }
+              }
+            },
+            {
+              "Value": {
+                "LowerBound": {
+                  "Type": 1,
+                  "Value": {
+                    "Value": 15000
+                  }
+                },
+                "UpperBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                }
+              }
+            }
+          ],
+          "Groups": [
+            {
+              "LUTIndices": [],
+              "SegmentPtrLUT": []
+            },
+            {
+              "LUTIndices": [
+                {
+                  "LUTOffset": 0,
+                  "NumInitPtrs": 0,
+                  "NumEvalPtrs": 1
+                }
+              ],
+              "SegmentPtrLUT": [
+                {
+                  "SegmentID": {
+                    "IdentifierIndex": 0
+                  },
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 0
+                  }
+                }
+              ]
+            },
+            {
+              "LUTIndices": [],
+              "SegmentPtrLUT": []
+            }
+          ],
+          "MetaData": [
+            {
+              "ActiveSequences": [
+                {
+                  "Value": 0
+                }
+              ],
+              "ActiveEntities": [],
+              "SubTemplateSerialNumbers": []
+            },
+            {
+              "ActiveSequences": [
+                {
+                  "Value": 0
+                }
+              ],
+              "ActiveEntities": [
+                {
+                  "Key": {
+                    "SequenceID": {
+                      "Value": 0
+                    },
+                    "TrackIdentifier": {
+                      "Value": 0
+                    },
+                    "SectionIndex": 0
+                  },
+                  "SetupIndex": 1,
+                  "TearDownIndex": 65534
+                },
+                {
+                  "Key": {
+                    "SequenceID": {
+                      "Value": 0
+                    },
+                    "TrackIdentifier": {
+                      "Value": 0
+                    },
+                    "SectionIndex": 4294967295
+                  },
+                  "SetupIndex": 0,
+                  "TearDownIndex": 65535
+                }
+              ],
+              "SubTemplateSerialNumbers": []
+            },
+            {
+              "ActiveSequences": [
+                {
+                  "Value": 0
+                }
+              ],
+              "ActiveEntities": [],
+              "SubTemplateSerialNumbers": []
+            }
+          ]
+        },
+        "SequenceSignature": "8CF5C0C9-43EB12CD-53F78183-E500E6AF",
+        "TemplateSerialNumber": {
+          "Value": 1
+        },
+        "TemplateLedger": {
+          "LastTrackIdentifier": {
+            "Value": 0
+          },
+          "TrackSignatureToTrackIdentifier": [
+            {
+              "Key": "CBD68D25-4749252C-592037B7-6A98C034",
+              "Value": {
+                "Value": 0
+              }
+            }
+          ]
+        },
+        "TrackFieldData": {
+          "Field": {
+            "Data": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 1,
+                  "Capacity": 1
+                }
+              ],
+              "Items": [
+                0
+              ]
+            },
+            "RootNode": {
+              "Range": {
+                "LowerBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                },
+                "UpperBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                }
+              },
+              "Parent": {
+                "ChildrenHandle": {
+                  "EntryIndex": -1
+                },
+                "Index": -1
+              },
+              "ChildrenID": {
+                "EntryIndex": 0
+              },
+              "DataID": {
+                "EntryIndex": -1
+              }
+            },
+            "ChildNodes": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 1,
+                  "Capacity": 1
+                }
+              ],
+              "Items": [
+                {
+                  "Range": {
+                    "LowerBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": 0
+                      }
+                    },
+                    "UpperBound": {
+                      "Type": 0,
+                      "Value": {
+                        "Value": 15000
+                      }
+                    }
+                  },
+                  "Parent": {
+                    "ChildrenHandle": {
+                      "EntryIndex": -1
+                    },
+                    "Index": 0
+                  },
+                  "ChildrenID": {
+                    "EntryIndex": -1
+                  },
+                  "DataID": {
+                    "EntryIndex": 0
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "Signature": "8CF5C0C9-43EB12CD-53F78183-E500E6AF"
+    }
+  },
+  {
+    "Type": "WidgetAnimation",
+    "Name": "Pos_Menu_INST",
+    "Outer": "WBP_Com_intrutionicon_Positon_C",
+    "Class": "UScriptClass'WidgetAnimation'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "MovieScene": {
+        "ObjectName": "MovieScene'WBP_Com_intrutionicon_Positon_C:Pos_Menu_INST.Pos_Menu'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.61"
+      },
+      "AnimationBindings": [
+        {
+          "WidgetName": "WBP_Com_intrutionicon",
+          "SlotWidgetName": "None",
+          "AnimationGuid": "CD0413B7-46373BFC-302E55AC-BC946213",
+          "bIsRootWidget": false
+        },
+        {
+          "WidgetName": "WBP_Com_intrutionicon",
+          "SlotWidgetName": "CanvasPanelSlot_1",
+          "AnimationGuid": "34DF2ABE-4C33B59B-15449D81-5D2CECCF",
+          "bIsRootWidget": false
+        }
+      ],
+      "DisplayLabel": "Pos_Menu",
+      "PrecompiledEvaluationTemplate": {
+        "Tracks": [
+          {
+            "Key": {
+              "Value": 0
+            },
+            "Value": {
+              "ObjectBindingID": "34DF2ABE-4C33B59B-15449D81-5D2CECCF",
+              "EvaluationPriority": 1000,
+              "EvaluationMethod": "EEvaluationMethod::Static",
+              "Segments": {
+                "SegmentIdentifierToIndex": [
+                  0
+                ],
+                "SortedSegments": [
+                  {
+                    "Range": {
+                      "LowerBound": {
+                        "Type": 1,
+                        "Value": {
+                          "Value": 0
+                        }
+                      },
+                      "UpperBound": {
+                        "Type": 0,
+                        "Value": {
+                          "Value": 15000
+                        }
+                      }
+                    },
+                    "ID": {
+                      "IdentifierIndex": 0
+                    },
+                    "bAllowEmpty": false,
+                    "Impls": [
+                      {
+                        "ImplIndex": 0,
+                        "ForcedTime": {
+                          "Value": -2147483648
+                        },
+                        "Flags": "ESectionEvaluationFlags::None"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "SourceTrack": {
+                "ObjectName": "MovieSceneMarginTrack'WBP_Com_intrutionicon_Positon_C:Pos_Menu_INST.Pos_Menu.MovieSceneMarginTrack_0'",
+                "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.73"
+              },
+              "EvaluationTree": {
+                "Tree": {
+                  "Data": {
+                    "Entries": [
+                      {
+                        "StartIndex": 0,
+                        "Size": 1,
+                        "Capacity": 1
+                      }
+                    ],
+                    "Items": [
+                      {
+                        "ImplIndex": 0,
+                        "ForcedTime": {
+                          "Value": -2147483648
+                        },
+                        "Flags": 0
+                      }
+                    ]
+                  },
+                  "RootNode": {
+                    "Range": {
+                      "LowerBound": {
+                        "Type": 2,
+                        "Value": {
+                          "Value": 0
+                        }
+                      },
+                      "UpperBound": {
+                        "Type": 2,
+                        "Value": {
+                          "Value": 0
+                        }
+                      }
+                    },
+                    "Parent": {
+                      "ChildrenHandle": {
+                        "EntryIndex": -1
+                      },
+                      "Index": -1
+                    },
+                    "ChildrenID": {
+                      "EntryIndex": 0
+                    },
+                    "DataID": {
+                      "EntryIndex": -1
+                    }
+                  },
+                  "ChildNodes": {
+                    "Entries": [
+                      {
+                        "StartIndex": 0,
+                        "Size": 1,
+                        "Capacity": 1
+                      }
+                    ],
+                    "Items": [
+                      {
+                        "Range": {
+                          "LowerBound": {
+                            "Type": 1,
+                            "Value": {
+                              "Value": 0
+                            }
+                          },
+                          "UpperBound": {
+                            "Type": 0,
+                            "Value": {
+                              "Value": 15000
+                            }
+                          }
+                        },
+                        "Parent": {
+                          "ChildrenHandle": {
+                            "EntryIndex": -1
+                          },
+                          "Index": 0
+                        },
+                        "ChildrenID": {
+                          "EntryIndex": -1
+                        },
+                        "DataID": {
+                          "EntryIndex": 0
+                        }
+                      }
+                    ]
+                  }
+                }
+              },
+              "ChildTemplates": [
+                {
+                  "TypeName": "/Script/UMG.MovieSceneMarginSectionTemplate",
+                  "Data": {
+                    "TopCurve": {
+                      "PreInfinityExtrap": "RCCE_None",
+                      "PostInfinityExtrap": "RCCE_None",
+                      "Times": [],
+                      "Values": [],
+                      "DefaultValue": 0.0,
+                      "bHasDefaultValue": false,
+                      "TickResolution": {
+                        "Numerator": 0,
+                        "Denominator": 0
+                      },
+                      "bShowCurve": false,
+                      "StructFallback": {
+                        "PreInfinityExtrap": "RCCE_Constant",
+                        "PostInfinityExtrap": "RCCE_Constant",
+                        "Times": [
+                          {
+                            "Value": 0
+                          }
+                        ],
+                        "Values": [
+                          {
+                            "Value": 72.0,
+                            "Tangent": {
+                              "ArriveTangent": 0.0,
+                              "LeaveTangent": 0.0,
+                              "ArriveTangentWeight": 0.0,
+                              "LeaveTangentWeight": 0.0,
+                              "TangentWeightMode": 0
+                            },
+                            "InterpMode": 2,
+                            "TangentMode": 0
+                          }
+                        ],
+                        "DefaultValue": 0.0,
+                        "bHasDefaultValue": false,
+                        "TickResolution": {
+                          "Numerator": 60000,
+                          "Denominator": 1
+                        }
+                      }
+                    },
+                    "LeftCurve": {
+                      "PreInfinityExtrap": "RCCE_None",
+                      "PostInfinityExtrap": "RCCE_None",
+                      "Times": [],
+                      "Values": [],
+                      "DefaultValue": 0.0,
+                      "bHasDefaultValue": false,
+                      "TickResolution": {
+                        "Numerator": 0,
+                        "Denominator": 0
+                      },
+                      "bShowCurve": false,
+                      "StructFallback": {
+                        "PreInfinityExtrap": "RCCE_Constant",
+                        "PostInfinityExtrap": "RCCE_Constant",
+                        "Times": [
+                          {
+                            "Value": 0
+                          }
+                        ],
+                        "Values": [
+                          {
+                            "Value": 1416.0,
+                            "Tangent": {
+                              "ArriveTangent": 0.0,
+                              "LeaveTangent": 0.0,
+                              "ArriveTangentWeight": 0.0,
+                              "LeaveTangentWeight": 0.0,
+                              "TangentWeightMode": 0
+                            },
+                            "InterpMode": 2,
+                            "TangentMode": 0
+                          }
+                        ],
+                        "DefaultValue": 0.0,
+                        "bHasDefaultValue": false,
+                        "TickResolution": {
+                          "Numerator": 60000,
+                          "Denominator": 1
+                        }
+                      }
+                    },
+                    "RightCurve": {
+                      "PreInfinityExtrap": "RCCE_None",
+                      "PostInfinityExtrap": "RCCE_None",
+                      "Times": [],
+                      "Values": [],
+                      "DefaultValue": 0.0,
+                      "bHasDefaultValue": false,
+                      "TickResolution": {
+                        "Numerator": 0,
+                        "Denominator": 0
+                      },
+                      "bShowCurve": false,
+                      "StructFallback": {
+                        "PreInfinityExtrap": "RCCE_Constant",
+                        "PostInfinityExtrap": "RCCE_Constant",
+                        "Times": [
+                          {
+                            "Value": 0
+                          }
+                        ],
+                        "Values": [
+                          {
+                            "Value": 270.0,
+                            "Tangent": {
+                              "ArriveTangent": 0.0,
+                              "LeaveTangent": 0.0,
+                              "ArriveTangentWeight": 0.0,
+                              "LeaveTangentWeight": 0.0,
+                              "TangentWeightMode": 0
+                            },
+                            "InterpMode": 2,
+                            "TangentMode": 0
+                          }
+                        ],
+                        "DefaultValue": 0.0,
+                        "bHasDefaultValue": false,
+                        "TickResolution": {
+                          "Numerator": 60000,
+                          "Denominator": 1
+                        }
+                      }
+                    },
+                    "BottomCurve": {
+                      "PreInfinityExtrap": "RCCE_None",
+                      "PostInfinityExtrap": "RCCE_None",
+                      "Times": [],
+                      "Values": [],
+                      "DefaultValue": 0.0,
+                      "bHasDefaultValue": false,
+                      "TickResolution": {
+                        "Numerator": 0,
+                        "Denominator": 0
+                      },
+                      "bShowCurve": false,
+                      "StructFallback": {
+                        "PreInfinityExtrap": "RCCE_Constant",
+                        "PostInfinityExtrap": "RCCE_Constant",
+                        "Times": [
+                          {
+                            "Value": 0
+                          }
+                        ],
+                        "Values": [
+                          {
+                            "Value": 51.0,
+                            "Tangent": {
+                              "ArriveTangent": 0.0,
+                              "LeaveTangent": 0.0,
+                              "ArriveTangentWeight": 0.0,
+                              "LeaveTangentWeight": 0.0,
+                              "TangentWeightMode": 0
+                            },
+                            "InterpMode": 2,
+                            "TangentMode": 0
+                          }
+                        ],
+                        "DefaultValue": 0.0,
+                        "bHasDefaultValue": false,
+                        "TickResolution": {
+                          "Numerator": 60000,
+                          "Denominator": 1
+                        }
+                      }
+                    },
+                    "BlendType": "EMovieSceneBlendType::Absolute",
+                    "PropertyData": {
+                      "PropertyName": "Offsets",
+                      "PropertyPath": "LayoutData.Offsets",
+                      "FunctionName": "None",
+                      "NotifyFunctionName": "None"
+                    },
+                    "CompletionMode": "EMovieSceneCompletionMode::KeepState",
+                    "SourceSectionPtr": {
+                      "ObjectName": "MovieSceneMarginSection'WBP_Com_intrutionicon_Positon_C:Pos_Menu_INST.Pos_Menu.MovieSceneMarginTrack_0.MovieSceneMarginSection_0'",
+                      "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.70"
+                    }
+                  }
+                }
+              ],
+              "TrackTemplate": {
+                "TypeName": "",
+                "Data": null
+              },
+              "EvaluationGroup": "None",
+              "bEvaluateInPreroll": false,
+              "bEvaluateInPostroll": false,
+              "bTearDownPriority": false
+            }
+          }
+        ],
+        "EvaluationField": {
+          "Ranges": [
+            {
+              "Value": {
+                "LowerBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                },
+                "UpperBound": {
+                  "Type": 0,
+                  "Value": {
+                    "Value": 0
+                  }
+                }
+              }
+            },
+            {
+              "Value": {
+                "LowerBound": {
+                  "Type": 1,
+                  "Value": {
+                    "Value": 0
+                  }
+                },
+                "UpperBound": {
+                  "Type": 0,
+                  "Value": {
+                    "Value": 15000
+                  }
+                }
+              }
+            },
+            {
+              "Value": {
+                "LowerBound": {
+                  "Type": 1,
+                  "Value": {
+                    "Value": 15000
+                  }
+                },
+                "UpperBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                }
+              }
+            }
+          ],
+          "Groups": [
+            {
+              "LUTIndices": [],
+              "SegmentPtrLUT": []
+            },
+            {
+              "LUTIndices": [
+                {
+                  "LUTOffset": 0,
+                  "NumInitPtrs": 0,
+                  "NumEvalPtrs": 1
+                }
+              ],
+              "SegmentPtrLUT": [
+                {
+                  "SegmentID": {
+                    "IdentifierIndex": 0
+                  },
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 0
+                  }
+                }
+              ]
+            },
+            {
+              "LUTIndices": [],
+              "SegmentPtrLUT": []
+            }
+          ],
+          "MetaData": [
+            {
+              "ActiveSequences": [
+                {
+                  "Value": 0
+                }
+              ],
+              "ActiveEntities": [],
+              "SubTemplateSerialNumbers": []
+            },
+            {
+              "ActiveSequences": [
+                {
+                  "Value": 0
+                }
+              ],
+              "ActiveEntities": [
+                {
+                  "Key": {
+                    "SequenceID": {
+                      "Value": 0
+                    },
+                    "TrackIdentifier": {
+                      "Value": 0
+                    },
+                    "SectionIndex": 0
+                  },
+                  "SetupIndex": 1,
+                  "TearDownIndex": 65534
+                },
+                {
+                  "Key": {
+                    "SequenceID": {
+                      "Value": 0
+                    },
+                    "TrackIdentifier": {
+                      "Value": 0
+                    },
+                    "SectionIndex": 4294967295
+                  },
+                  "SetupIndex": 0,
+                  "TearDownIndex": 65535
+                }
+              ],
+              "SubTemplateSerialNumbers": []
+            },
+            {
+              "ActiveSequences": [
+                {
+                  "Value": 0
+                }
+              ],
+              "ActiveEntities": [],
+              "SubTemplateSerialNumbers": []
+            }
+          ]
+        },
+        "SequenceSignature": "99ECA8EC-46BCF7FC-2B41CB94-7B9B192B",
+        "TemplateSerialNumber": {
+          "Value": 1
+        },
+        "TemplateLedger": {
+          "LastTrackIdentifier": {
+            "Value": 0
+          },
+          "TrackSignatureToTrackIdentifier": [
+            {
+              "Key": "8114A416-44DE59C0-A9C7928D-C39F1359",
+              "Value": {
+                "Value": 0
+              }
+            }
+          ]
+        },
+        "TrackFieldData": {
+          "Field": {
+            "Data": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 1,
+                  "Capacity": 1
+                }
+              ],
+              "Items": [
+                0
+              ]
+            },
+            "RootNode": {
+              "Range": {
+                "LowerBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                },
+                "UpperBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                }
+              },
+              "Parent": {
+                "ChildrenHandle": {
+                  "EntryIndex": -1
+                },
+                "Index": -1
+              },
+              "ChildrenID": {
+                "EntryIndex": 0
+              },
+              "DataID": {
+                "EntryIndex": -1
+              }
+            },
+            "ChildNodes": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 1,
+                  "Capacity": 1
+                }
+              ],
+              "Items": [
+                {
+                  "Range": {
+                    "LowerBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": 0
+                      }
+                    },
+                    "UpperBound": {
+                      "Type": 0,
+                      "Value": {
+                        "Value": 15000
+                      }
+                    }
+                  },
+                  "Parent": {
+                    "ChildrenHandle": {
+                      "EntryIndex": -1
+                    },
+                    "Index": 0
+                  },
+                  "ChildrenID": {
+                    "EntryIndex": -1
+                  },
+                  "DataID": {
+                    "EntryIndex": 0
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "Signature": "99ECA8EC-46BCF7FC-2B41CB94-7B9B192B"
+    }
+  },
+  {
+    "Type": "WidgetAnimation",
+    "Name": "Pos_Race_INST",
+    "Outer": "WBP_Com_intrutionicon_Positon_C",
+    "Class": "UScriptClass'WidgetAnimation'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "MovieScene": {
+        "ObjectName": "MovieScene'WBP_Com_intrutionicon_Positon_C:Pos_Race_INST.Pos_Race'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.62"
+      },
+      "AnimationBindings": [
+        {
+          "WidgetName": "WBP_Com_intrutionicon",
+          "SlotWidgetName": "None",
+          "AnimationGuid": "CD0413B7-46373BFC-302E55AC-BC946213",
+          "bIsRootWidget": false
+        },
+        {
+          "WidgetName": "WBP_Com_intrutionicon",
+          "SlotWidgetName": "CanvasPanelSlot_1",
+          "AnimationGuid": "34DF2ABE-4C33B59B-15449D81-5D2CECCF",
+          "bIsRootWidget": false
+        }
+      ],
+      "DisplayLabel": "Pos_Race",
+      "PrecompiledEvaluationTemplate": {
+        "Tracks": [
+          {
+            "Key": {
+              "Value": 0
+            },
+            "Value": {
+              "ObjectBindingID": "34DF2ABE-4C33B59B-15449D81-5D2CECCF",
+              "EvaluationPriority": 1000,
+              "EvaluationMethod": "EEvaluationMethod::Static",
+              "Segments": {
+                "SegmentIdentifierToIndex": [
+                  0
+                ],
+                "SortedSegments": [
+                  {
+                    "Range": {
+                      "LowerBound": {
+                        "Type": 1,
+                        "Value": {
+                          "Value": 0
+                        }
+                      },
+                      "UpperBound": {
+                        "Type": 0,
+                        "Value": {
+                          "Value": 15000
+                        }
+                      }
+                    },
+                    "ID": {
+                      "IdentifierIndex": 0
+                    },
+                    "bAllowEmpty": false,
+                    "Impls": [
+                      {
+                        "ImplIndex": 0,
+                        "ForcedTime": {
+                          "Value": -2147483648
+                        },
+                        "Flags": "ESectionEvaluationFlags::None"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "SourceTrack": {
+                "ObjectName": "MovieSceneMarginTrack'WBP_Com_intrutionicon_Positon_C:Pos_Race_INST.Pos_Race.MovieSceneMarginTrack_0'",
+                "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.74"
+              },
+              "EvaluationTree": {
+                "Tree": {
+                  "Data": {
+                    "Entries": [
+                      {
+                        "StartIndex": 0,
+                        "Size": 1,
+                        "Capacity": 1
+                      }
+                    ],
+                    "Items": [
+                      {
+                        "ImplIndex": 0,
+                        "ForcedTime": {
+                          "Value": -2147483648
+                        },
+                        "Flags": 0
+                      }
+                    ]
+                  },
+                  "RootNode": {
+                    "Range": {
+                      "LowerBound": {
+                        "Type": 2,
+                        "Value": {
+                          "Value": 0
+                        }
+                      },
+                      "UpperBound": {
+                        "Type": 2,
+                        "Value": {
+                          "Value": 0
+                        }
+                      }
+                    },
+                    "Parent": {
+                      "ChildrenHandle": {
+                        "EntryIndex": -1
+                      },
+                      "Index": -1
+                    },
+                    "ChildrenID": {
+                      "EntryIndex": 0
+                    },
+                    "DataID": {
+                      "EntryIndex": -1
+                    }
+                  },
+                  "ChildNodes": {
+                    "Entries": [
+                      {
+                        "StartIndex": 0,
+                        "Size": 1,
+                        "Capacity": 1
+                      }
+                    ],
+                    "Items": [
+                      {
+                        "Range": {
+                          "LowerBound": {
+                            "Type": 1,
+                            "Value": {
+                              "Value": 0
+                            }
+                          },
+                          "UpperBound": {
+                            "Type": 0,
+                            "Value": {
+                              "Value": 15000
+                            }
+                          }
+                        },
+                        "Parent": {
+                          "ChildrenHandle": {
+                            "EntryIndex": -1
+                          },
+                          "Index": 0
+                        },
+                        "ChildrenID": {
+                          "EntryIndex": -1
+                        },
+                        "DataID": {
+                          "EntryIndex": 0
+                        }
+                      }
+                    ]
+                  }
+                }
+              },
+              "ChildTemplates": [
+                {
+                  "TypeName": "/Script/UMG.MovieSceneMarginSectionTemplate",
+                  "Data": {
+                    "TopCurve": {
+                      "PreInfinityExtrap": "RCCE_None",
+                      "PostInfinityExtrap": "RCCE_None",
+                      "Times": [],
+                      "Values": [],
+                      "DefaultValue": 0.0,
+                      "bHasDefaultValue": false,
+                      "TickResolution": {
+                        "Numerator": 0,
+                        "Denominator": 0
+                      },
+                      "bShowCurve": false,
+                      "StructFallback": {
+                        "PreInfinityExtrap": "RCCE_Constant",
+                        "PostInfinityExtrap": "RCCE_Constant",
+                        "Times": [
+                          {
+                            "Value": 0
+                          }
+                        ],
+                        "Values": [
+                          {
+                            "Value": 51.0,
+                            "Tangent": {
+                              "ArriveTangent": 0.0,
+                              "LeaveTangent": 0.0,
+                              "ArriveTangentWeight": 0.0,
+                              "LeaveTangentWeight": 0.0,
+                              "TangentWeightMode": 0
+                            },
+                            "InterpMode": 2,
+                            "TangentMode": 0
+                          }
+                        ],
+                        "DefaultValue": 0.0,
+                        "bHasDefaultValue": false,
+                        "TickResolution": {
+                          "Numerator": 60000,
+                          "Denominator": 1
+                        }
+                      }
+                    },
+                    "LeftCurve": {
+                      "PreInfinityExtrap": "RCCE_None",
+                      "PostInfinityExtrap": "RCCE_None",
+                      "Times": [],
+                      "Values": [],
+                      "DefaultValue": 0.0,
+                      "bHasDefaultValue": false,
+                      "TickResolution": {
+                        "Numerator": 0,
+                        "Denominator": 0
+                      },
+                      "bShowCurve": false,
+                      "StructFallback": {
+                        "PreInfinityExtrap": "RCCE_Constant",
+                        "PostInfinityExtrap": "RCCE_Constant",
+                        "Times": [
+                          {
+                            "Value": 0
+                          }
+                        ],
+                        "Values": [
+                          {
+                            "Value": 450.0,
+                            "Tangent": {
+                              "ArriveTangent": 0.0,
+                              "LeaveTangent": 0.0,
+                              "ArriveTangentWeight": 0.0,
+                              "LeaveTangentWeight": 0.0,
+                              "TangentWeightMode": 0
+                            },
+                            "InterpMode": 2,
+                            "TangentMode": 0
+                          }
+                        ],
+                        "DefaultValue": 0.0,
+                        "bHasDefaultValue": false,
+                        "TickResolution": {
+                          "Numerator": 60000,
+                          "Denominator": 1
+                        }
+                      }
+                    },
+                    "RightCurve": {
+                      "PreInfinityExtrap": "RCCE_None",
+                      "PostInfinityExtrap": "RCCE_None",
+                      "Times": [],
+                      "Values": [],
+                      "DefaultValue": 0.0,
+                      "bHasDefaultValue": false,
+                      "TickResolution": {
+                        "Numerator": 0,
+                        "Denominator": 0
+                      },
+                      "bShowCurve": false,
+                      "StructFallback": {
+                        "PreInfinityExtrap": "RCCE_Constant",
+                        "PostInfinityExtrap": "RCCE_Constant",
+                        "Times": [
+                          {
+                            "Value": 0
+                          }
+                        ],
+                        "Values": [
+                          {
+                            "Value": 270.0,
+                            "Tangent": {
+                              "ArriveTangent": 0.0,
+                              "LeaveTangent": 0.0,
+                              "ArriveTangentWeight": 0.0,
+                              "LeaveTangentWeight": 0.0,
+                              "TangentWeightMode": 0
+                            },
+                            "InterpMode": 2,
+                            "TangentMode": 0
+                          }
+                        ],
+                        "DefaultValue": 0.0,
+                        "bHasDefaultValue": false,
+                        "TickResolution": {
+                          "Numerator": 60000,
+                          "Denominator": 1
+                        }
+                      }
+                    },
+                    "BottomCurve": {
+                      "PreInfinityExtrap": "RCCE_None",
+                      "PostInfinityExtrap": "RCCE_None",
+                      "Times": [],
+                      "Values": [],
+                      "DefaultValue": 0.0,
+                      "bHasDefaultValue": false,
+                      "TickResolution": {
+                        "Numerator": 0,
+                        "Denominator": 0
+                      },
+                      "bShowCurve": false,
+                      "StructFallback": {
+                        "PreInfinityExtrap": "RCCE_Constant",
+                        "PostInfinityExtrap": "RCCE_Constant",
+                        "Times": [
+                          {
+                            "Value": 0
+                          }
+                        ],
+                        "Values": [
+                          {
+                            "Value": 51.0,
+                            "Tangent": {
+                              "ArriveTangent": 0.0,
+                              "LeaveTangent": 0.0,
+                              "ArriveTangentWeight": 0.0,
+                              "LeaveTangentWeight": 0.0,
+                              "TangentWeightMode": 0
+                            },
+                            "InterpMode": 2,
+                            "TangentMode": 0
+                          }
+                        ],
+                        "DefaultValue": 0.0,
+                        "bHasDefaultValue": false,
+                        "TickResolution": {
+                          "Numerator": 60000,
+                          "Denominator": 1
+                        }
+                      }
+                    },
+                    "BlendType": "EMovieSceneBlendType::Absolute",
+                    "PropertyData": {
+                      "PropertyName": "Offsets",
+                      "PropertyPath": "LayoutData.Offsets",
+                      "FunctionName": "None",
+                      "NotifyFunctionName": "None"
+                    },
+                    "CompletionMode": "EMovieSceneCompletionMode::KeepState",
+                    "SourceSectionPtr": {
+                      "ObjectName": "MovieSceneMarginSection'WBP_Com_intrutionicon_Positon_C:Pos_Race_INST.Pos_Race.MovieSceneMarginTrack_0.MovieSceneMarginSection_0'",
+                      "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.71"
+                    }
+                  }
+                }
+              ],
+              "TrackTemplate": {
+                "TypeName": "",
+                "Data": null
+              },
+              "EvaluationGroup": "None",
+              "bEvaluateInPreroll": false,
+              "bEvaluateInPostroll": false,
+              "bTearDownPriority": false
+            }
+          }
+        ],
+        "EvaluationField": {
+          "Ranges": [
+            {
+              "Value": {
+                "LowerBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                },
+                "UpperBound": {
+                  "Type": 0,
+                  "Value": {
+                    "Value": 0
+                  }
+                }
+              }
+            },
+            {
+              "Value": {
+                "LowerBound": {
+                  "Type": 1,
+                  "Value": {
+                    "Value": 0
+                  }
+                },
+                "UpperBound": {
+                  "Type": 0,
+                  "Value": {
+                    "Value": 15000
+                  }
+                }
+              }
+            },
+            {
+              "Value": {
+                "LowerBound": {
+                  "Type": 1,
+                  "Value": {
+                    "Value": 15000
+                  }
+                },
+                "UpperBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                }
+              }
+            }
+          ],
+          "Groups": [
+            {
+              "LUTIndices": [],
+              "SegmentPtrLUT": []
+            },
+            {
+              "LUTIndices": [
+                {
+                  "LUTOffset": 0,
+                  "NumInitPtrs": 0,
+                  "NumEvalPtrs": 1
+                }
+              ],
+              "SegmentPtrLUT": [
+                {
+                  "SegmentID": {
+                    "IdentifierIndex": 0
+                  },
+                  "SequenceID": {
+                    "Value": 0
+                  },
+                  "TrackIdentifier": {
+                    "Value": 0
+                  }
+                }
+              ]
+            },
+            {
+              "LUTIndices": [],
+              "SegmentPtrLUT": []
+            }
+          ],
+          "MetaData": [
+            {
+              "ActiveSequences": [
+                {
+                  "Value": 0
+                }
+              ],
+              "ActiveEntities": [],
+              "SubTemplateSerialNumbers": []
+            },
+            {
+              "ActiveSequences": [
+                {
+                  "Value": 0
+                }
+              ],
+              "ActiveEntities": [
+                {
+                  "Key": {
+                    "SequenceID": {
+                      "Value": 0
+                    },
+                    "TrackIdentifier": {
+                      "Value": 0
+                    },
+                    "SectionIndex": 0
+                  },
+                  "SetupIndex": 1,
+                  "TearDownIndex": 65534
+                },
+                {
+                  "Key": {
+                    "SequenceID": {
+                      "Value": 0
+                    },
+                    "TrackIdentifier": {
+                      "Value": 0
+                    },
+                    "SectionIndex": 4294967295
+                  },
+                  "SetupIndex": 0,
+                  "TearDownIndex": 65535
+                }
+              ],
+              "SubTemplateSerialNumbers": []
+            },
+            {
+              "ActiveSequences": [
+                {
+                  "Value": 0
+                }
+              ],
+              "ActiveEntities": [],
+              "SubTemplateSerialNumbers": []
+            }
+          ]
+        },
+        "SequenceSignature": "51EA6F52-4E213D30-B05CA098-048FED38",
+        "TemplateSerialNumber": {
+          "Value": 1
+        },
+        "TemplateLedger": {
+          "LastTrackIdentifier": {
+            "Value": 0
+          },
+          "TrackSignatureToTrackIdentifier": [
+            {
+              "Key": "4C7DCCA8-490ABE41-0F503FA8-EBC31B86",
+              "Value": {
+                "Value": 0
+              }
+            }
+          ]
+        },
+        "TrackFieldData": {
+          "Field": {
+            "Data": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 1,
+                  "Capacity": 1
+                }
+              ],
+              "Items": [
+                0
+              ]
+            },
+            "RootNode": {
+              "Range": {
+                "LowerBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                },
+                "UpperBound": {
+                  "Type": 2,
+                  "Value": {
+                    "Value": 0
+                  }
+                }
+              },
+              "Parent": {
+                "ChildrenHandle": {
+                  "EntryIndex": -1
+                },
+                "Index": -1
+              },
+              "ChildrenID": {
+                "EntryIndex": 0
+              },
+              "DataID": {
+                "EntryIndex": -1
+              }
+            },
+            "ChildNodes": {
+              "Entries": [
+                {
+                  "StartIndex": 0,
+                  "Size": 1,
+                  "Capacity": 1
+                }
+              ],
+              "Items": [
+                {
+                  "Range": {
+                    "LowerBound": {
+                      "Type": 1,
+                      "Value": {
+                        "Value": 0
+                      }
+                    },
+                    "UpperBound": {
+                      "Type": 0,
+                      "Value": {
+                        "Value": 15000
+                      }
+                    }
+                  },
+                  "Parent": {
+                    "ChildrenHandle": {
+                      "EntryIndex": -1
+                    },
+                    "Index": 0
+                  },
+                  "ChildrenID": {
+                    "EntryIndex": -1
+                  },
+                  "DataID": {
+                    "EntryIndex": 0
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "Signature": "51EA6F52-4E213D30-B05CA098-048FED38"
+    }
+  },
+  {
+    "Type": "WidgetSwitcher",
+    "Name": "P_SwitchBaseColor",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'WidgetSwitcher'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "WidgetSwitcherSlot'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.P_SwitchBaseColor.WidgetSwitcherSlot_2'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.118"
+        },
+        {
+          "ObjectName": "WidgetSwitcherSlot'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.P_SwitchBaseColor.WidgetSwitcherSlot_6'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.121"
+        },
+        {
+          "ObjectName": "WidgetSwitcherSlot'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.P_SwitchBaseColor.WidgetSwitcherSlot_3'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.119"
+        },
+        {
+          "ObjectName": "WidgetSwitcherSlot'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.P_SwitchBaseColor.WidgetSwitcherSlot_0'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.117"
+        },
+        {
+          "ObjectName": "WidgetSwitcherSlot'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.P_SwitchBaseColor.WidgetSwitcherSlot_5'",
+          "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.120"
+        }
+      ],
+      "Slot": {
+        "ObjectName": "OverlaySlot'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.Intrution_Icon_Top.OverlaySlot_7'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.82"
+      }
+    }
+  },
+  {
+    "Type": "WidgetSwitcherSlot",
+    "Name": "WidgetSwitcherSlot_0",
+    "Outer": "P_SwitchBaseColor",
+    "Class": "UScriptClass'WidgetSwitcherSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "WidgetSwitcher'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.P_SwitchBaseColor'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.116"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.P_OnLineLoading'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.23"
+      }
+    }
+  },
+  {
+    "Type": "WidgetSwitcherSlot",
+    "Name": "WidgetSwitcherSlot_2",
+    "Outer": "P_SwitchBaseColor",
+    "Class": "UScriptClass'WidgetSwitcherSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "WidgetSwitcher'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.P_SwitchBaseColor'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.116"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.P_Instore'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.20"
+      }
+    }
+  },
+  {
+    "Type": "WidgetSwitcherSlot",
+    "Name": "WidgetSwitcherSlot_3",
+    "Outer": "P_SwitchBaseColor",
+    "Class": "UScriptClass'WidgetSwitcherSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "WidgetSwitcher'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.P_SwitchBaseColor'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.116"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.P_InstoreLoading'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.21"
+      }
+    }
+  },
+  {
+    "Type": "WidgetSwitcherSlot",
+    "Name": "WidgetSwitcherSlot_5",
+    "Outer": "P_SwitchBaseColor",
+    "Class": "UScriptClass'WidgetSwitcherSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "WidgetSwitcher'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.P_SwitchBaseColor'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.116"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.P_Private'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.24"
+      }
+    }
+  },
+  {
+    "Type": "WidgetSwitcherSlot",
+    "Name": "WidgetSwitcherSlot_6",
+    "Outer": "P_SwitchBaseColor",
+    "Class": "UScriptClass'WidgetSwitcherSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "HorizontalAlignment": "HAlign_Center",
+      "VerticalAlignment": "VAlign_Center",
+      "Parent": {
+        "ObjectName": "WidgetSwitcher'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.P_SwitchBaseColor'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.116"
+      },
+      "Content": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.P_OnLine'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.22"
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Outer": "WBP_Com_intrutionicon_Positon_C",
+    "Class": "UScriptClass'WidgetTree'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CanvasPanel'WBP_Com_intrutionicon_Positon_C:WidgetTree.CanvasPanel_19'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.17"
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree_0",
+    "Outer": "WidgetArchetype",
+    "Class": "UScriptClass'WidgetTree'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_19'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.18"
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree_0",
+    "Outer": "WBP_Com_intrutionicon",
+    "Class": "UScriptClass'WidgetTree'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.WBP_Com_intrutionicon.WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Common/intrution/WBP_Com_intrutionicon_Positon.19"
+      }
+    }
+  }
+]

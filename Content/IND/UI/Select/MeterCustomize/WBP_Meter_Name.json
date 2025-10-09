@@ -1,0 +1,834 @@
+[
+  {
+    "Type": "StructProperty",
+    "Name": "UberGraphFrame",
+    "Outer": "WBP_Meter_Name_C",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "Transient | DuplicateTransient",
+    "Struct": {
+      "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "WidgetBlueprintGeneratedClass",
+    "Name": "WBP_Meter_Name_C",
+    "Class": "UScriptClass'WidgetBlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WBP_Meter_Name_C:WidgetTree'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/MeterCustomize/WBP_Meter_Name.46"
+      },
+      "bAllowTemplate": true,
+      "bValidTemplate": true,
+      "TemplateAsset": {
+        "AssetPathName": "/Game/IND/UI/Select/MeterCustomize/WBP_Meter_Name.WidgetArchetype",
+        "SubPathString": ""
+      },
+      "UberGraphFramePointerProperty": {
+        "ObjectName": "StructProperty'WBP_Meter_Name_C:UberGraphFrame'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/MeterCustomize/WBP_Meter_Name.0"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'WBP_Meter_Name_C:ExecuteUbergraph_WBP_Meter_Name'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/MeterCustomize/WBP_Meter_Name.5"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'UserWidget'",
+      "ObjectPath": "/Script/UMG"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'WBP_Meter_Name_C:UberGraphFrame'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/MeterCustomize/WBP_Meter_Name.0"
+      },
+      {
+        "ObjectName": "Function'WBP_Meter_Name_C:SetMeter'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/MeterCustomize/WBP_Meter_Name.35"
+      },
+      {
+        "ObjectName": "Function'WBP_Meter_Name_C:ExecuteUbergraph_WBP_Meter_Name'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/MeterCustomize/WBP_Meter_Name.5"
+      },
+      {
+        "ObjectName": "ObjectProperty'WBP_Meter_Name_C:P_Name'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/MeterCustomize/WBP_Meter_Name.3"
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_WBP_Meter_Name": {
+        "ObjectName": "Function'WBP_Meter_Name_C:ExecuteUbergraph_WBP_Meter_Name'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/MeterCustomize/WBP_Meter_Name.5"
+      },
+      "SetMeter": {
+        "ObjectName": "Function'WBP_Meter_Name_C:SetMeter'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/MeterCustomize/WBP_Meter_Name.35"
+      }
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_EditInlineNew | CLASS_CompiledFromBlueprint | CLASS_DefaultToInstanced | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "WBP_Meter_Name_C'Default__WBP_Meter_Name_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Select/MeterCustomize/WBP_Meter_Name.2"
+    }
+  },
+  {
+    "Type": "WBP_Meter_Name_C",
+    "Name": "Default__WBP_Meter_Name_C",
+    "Class": "WidgetBlueprintGeneratedClass'GameProject/Content/IND/UI/Select/MeterCustomize/WBP_Meter_Name.WBP_Meter_Name_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "UberGraphFrame": {},
+      "bHasScriptImplementedTick": false,
+      "bHasScriptImplementedPaint": false
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "P_Name",
+    "Outer": "WBP_Meter_Name_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | ExportObject | InstancedReference | RepSkip | PersistentInstance",
+    "PropertyClass": {
+      "ObjectName": "Class'TextBlock'",
+      "ObjectPath": "/Script/UMG"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "EntryPoint",
+    "Outer": "ExecuteUbergraph_WBP_Meter_Name",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_WBP_Meter_Name",
+    "Outer": "WBP_Meter_Name_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "IntProperty'WBP_Meter_Name_C:ExecuteUbergraph_WBP_Meter_Name.EntryPoint'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/MeterCustomize/WBP_Meter_Name.4"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_Meter_Name_C:ExecuteUbergraph_WBP_Meter_Name.Temp_float_Variable'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/MeterCustomize/WBP_Meter_Name.29"
+      },
+      {
+        "ObjectName": "StructProperty'WBP_Meter_Name_C:ExecuteUbergraph_WBP_Meter_Name.CallFunc_GetDesiredSize_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/MeterCustomize/WBP_Meter_Name.41"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Meter_Name_C:ExecuteUbergraph_WBP_Meter_Name.Temp_bool_Variable'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/MeterCustomize/WBP_Meter_Name.11"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_Meter_Name_C:ExecuteUbergraph_WBP_Meter_Name.CallFunc_BreakVector2D_X'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/MeterCustomize/WBP_Meter_Name.21"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_Meter_Name_C:ExecuteUbergraph_WBP_Meter_Name.CallFunc_BreakVector2D_Y'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/MeterCustomize/WBP_Meter_Name.22"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_Meter_Name_C:ExecuteUbergraph_WBP_Meter_Name.Temp_float_Variable_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/MeterCustomize/WBP_Meter_Name.30"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_Meter_Name_C:ExecuteUbergraph_WBP_Meter_Name.CallFunc_Divide_FloatFloat_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/MeterCustomize/WBP_Meter_Name.23"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Meter_Name_C:ExecuteUbergraph_WBP_Meter_Name.CallFunc_Less_FloatFloat_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/MeterCustomize/WBP_Meter_Name.7"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Meter_Name_C:ExecuteUbergraph_WBP_Meter_Name.CallFunc_Less_FloatFloat_ReturnValue_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/MeterCustomize/WBP_Meter_Name.8"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_Meter_Name_C:ExecuteUbergraph_WBP_Meter_Name.CallFunc_Divide_FloatFloat_ReturnValue_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/MeterCustomize/WBP_Meter_Name.24"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Meter_Name_C:ExecuteUbergraph_WBP_Meter_Name.Temp_bool_Variable_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/MeterCustomize/WBP_Meter_Name.12"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_Meter_Name_C:ExecuteUbergraph_WBP_Meter_Name.Temp_float_Variable_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/MeterCustomize/WBP_Meter_Name.31"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Meter_Name_C:ExecuteUbergraph_WBP_Meter_Name.Temp_bool_Variable_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/MeterCustomize/WBP_Meter_Name.13"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_Meter_Name_C:ExecuteUbergraph_WBP_Meter_Name.Temp_float_Variable_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/MeterCustomize/WBP_Meter_Name.32"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_Meter_Name_C:ExecuteUbergraph_WBP_Meter_Name.K2Node_Select_Default'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/MeterCustomize/WBP_Meter_Name.25"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Meter_Name_C:ExecuteUbergraph_WBP_Meter_Name.CallFunc_Less_FloatFloat_ReturnValue_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/MeterCustomize/WBP_Meter_Name.9"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Meter_Name_C:ExecuteUbergraph_WBP_Meter_Name.Temp_bool_Variable_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/MeterCustomize/WBP_Meter_Name.14"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_Meter_Name_C:ExecuteUbergraph_WBP_Meter_Name.K2Node_Select_Default_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/MeterCustomize/WBP_Meter_Name.26"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_Meter_Name_C:ExecuteUbergraph_WBP_Meter_Name.K2Node_Select_Default_2'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/MeterCustomize/WBP_Meter_Name.27"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Meter_Name_C:ExecuteUbergraph_WBP_Meter_Name.CallFunc_Less_FloatFloat_ReturnValue_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/MeterCustomize/WBP_Meter_Name.10"
+      },
+      {
+        "ObjectName": "IntProperty'WBP_Meter_Name_C:ExecuteUbergraph_WBP_Meter_Name.K2Node_CustomEvent_MeterID'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/MeterCustomize/WBP_Meter_Name.33"
+      },
+      {
+        "ObjectName": "StrProperty'WBP_Meter_Name_C:ExecuteUbergraph_WBP_Meter_Name.CallFunc_Conv_IntToString_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/MeterCustomize/WBP_Meter_Name.39"
+      },
+      {
+        "ObjectName": "FloatProperty'WBP_Meter_Name_C:ExecuteUbergraph_WBP_Meter_Name.K2Node_Select_Default_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/MeterCustomize/WBP_Meter_Name.28"
+      },
+      {
+        "ObjectName": "NameProperty'WBP_Meter_Name_C:ExecuteUbergraph_WBP_Meter_Name.CallFunc_Conv_StringToName_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/MeterCustomize/WBP_Meter_Name.38"
+      },
+      {
+        "ObjectName": "StructProperty'WBP_Meter_Name_C:ExecuteUbergraph_WBP_Meter_Name.CallFunc_MakeVector2D_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/MeterCustomize/WBP_Meter_Name.42"
+      },
+      {
+        "ObjectName": "StructProperty'WBP_Meter_Name_C:ExecuteUbergraph_WBP_Meter_Name.CallFunc_GetDataTableRowFromName_OutRow'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/MeterCustomize/WBP_Meter_Name.40"
+      },
+      {
+        "ObjectName": "BoolProperty'WBP_Meter_Name_C:ExecuteUbergraph_WBP_Meter_Name.CallFunc_GetDataTableRowFromName_ReturnValue'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/MeterCustomize/WBP_Meter_Name.6"
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction | FUNC_HasDefaults"
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_GetDataTableRowFromName_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_Meter_Name",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_Less_FloatFloat_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_Meter_Name",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_Less_FloatFloat_ReturnValue_1",
+    "Outer": "ExecuteUbergraph_WBP_Meter_Name",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_Less_FloatFloat_ReturnValue_2",
+    "Outer": "ExecuteUbergraph_WBP_Meter_Name",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_Less_FloatFloat_ReturnValue_3",
+    "Outer": "ExecuteUbergraph_WBP_Meter_Name",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "Temp_bool_Variable",
+    "Outer": "ExecuteUbergraph_WBP_Meter_Name",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "Temp_bool_Variable_1",
+    "Outer": "ExecuteUbergraph_WBP_Meter_Name",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "Temp_bool_Variable_2",
+    "Outer": "ExecuteUbergraph_WBP_Meter_Name",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "Temp_bool_Variable_3",
+    "Outer": "ExecuteUbergraph_WBP_Meter_Name",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_0",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Meter_Name_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/MeterCustomize/WBP_Meter_Name.17"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WBP_Meter_Name_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_3'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/MeterCustomize/WBP_Meter_Name.18"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CanvasPanel",
+    "Name": "CanvasPanel_0",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'CanvasPanel'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Slots": [
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_1'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/MeterCustomize/WBP_Meter_Name.19"
+        },
+        {
+          "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_3'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/MeterCustomize/WBP_Meter_Name.20"
+        }
+      ]
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 725.0,
+          "Bottom": 18.0
+        },
+        "Alignment": {
+          "X": 0.0,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Meter_Name_C:WidgetTree.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/MeterCustomize/WBP_Meter_Name.15"
+      },
+      "Content": {
+        "ObjectName": "Image'WBP_Meter_Name_C:WidgetTree.line'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/MeterCustomize/WBP_Meter_Name.36"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_3",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 64.0,
+          "Top": -10.0
+        },
+        "Alignment": {
+          "X": 0.0,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WBP_Meter_Name_C:WidgetTree.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/MeterCustomize/WBP_Meter_Name.15"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WBP_Meter_Name_C:WidgetTree.P_Name'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/MeterCustomize/WBP_Meter_Name.43"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_1",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Right": 725.0,
+          "Bottom": 18.0
+        },
+        "Alignment": {
+          "X": 0.0,
+          "Y": 0.5
+        }
+      },
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/MeterCustomize/WBP_Meter_Name.16"
+      },
+      "Content": {
+        "ObjectName": "Image'WidgetArchetype:WidgetTree_0.line'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/MeterCustomize/WBP_Meter_Name.37"
+      }
+    }
+  },
+  {
+    "Type": "CanvasPanelSlot",
+    "Name": "CanvasPanelSlot_3",
+    "Outer": "CanvasPanel_0",
+    "Class": "UScriptClass'CanvasPanelSlot'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "LayoutData": {
+        "Offsets": {
+          "Left": 64.0,
+          "Top": -10.0
+        },
+        "Alignment": {
+          "X": 0.0,
+          "Y": 0.5
+        }
+      },
+      "bAutoSize": true,
+      "Parent": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/MeterCustomize/WBP_Meter_Name.16"
+      },
+      "Content": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.P_Name'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/MeterCustomize/WBP_Meter_Name.44"
+      }
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_BreakVector2D_X",
+    "Outer": "ExecuteUbergraph_WBP_Meter_Name",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_BreakVector2D_Y",
+    "Outer": "ExecuteUbergraph_WBP_Meter_Name",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_Divide_FloatFloat_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_Meter_Name",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_Divide_FloatFloat_ReturnValue_1",
+    "Outer": "ExecuteUbergraph_WBP_Meter_Name",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "K2Node_Select_Default",
+    "Outer": "ExecuteUbergraph_WBP_Meter_Name",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "K2Node_Select_Default_1",
+    "Outer": "ExecuteUbergraph_WBP_Meter_Name",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "K2Node_Select_Default_2",
+    "Outer": "ExecuteUbergraph_WBP_Meter_Name",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "K2Node_Select_Default_3",
+    "Outer": "ExecuteUbergraph_WBP_Meter_Name",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "Temp_float_Variable",
+    "Outer": "ExecuteUbergraph_WBP_Meter_Name",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "Temp_float_Variable_1",
+    "Outer": "ExecuteUbergraph_WBP_Meter_Name",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "Temp_float_Variable_2",
+    "Outer": "ExecuteUbergraph_WBP_Meter_Name",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "Temp_float_Variable_3",
+    "Outer": "ExecuteUbergraph_WBP_Meter_Name",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "K2Node_CustomEvent_MeterID",
+    "Outer": "ExecuteUbergraph_WBP_Meter_Name",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "MeterID",
+    "Outer": "SetMeter",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "SetMeter",
+    "Outer": "WBP_Meter_Name_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Children": [
+      {
+        "ObjectName": "IntProperty'WBP_Meter_Name_C:SetMeter.MeterID'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/MeterCustomize/WBP_Meter_Name.34"
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Image",
+    "Name": "line",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 582.0,
+          "Y": 18.0
+        },
+        "Margin": {
+          "Left": 0.5,
+          "Right": 0.5
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'text_base'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/MeterCustomize/Texture/text_base.0"
+        },
+        "DrawAs": "ESlateBrushDrawType::Box"
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Meter_Name_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/MeterCustomize/WBP_Meter_Name.17"
+      },
+      "RenderTransform": {
+        "Scale": {
+          "X": -1.0,
+          "Y": 1.0
+        }
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "Image",
+    "Name": "line",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'Image'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Brush": {
+        "ImageSize": {
+          "X": 582.0,
+          "Y": 18.0
+        },
+        "Margin": {
+          "Left": 0.5,
+          "Right": 0.5
+        },
+        "ResourceObject": {
+          "ObjectName": "Texture2D'text_base'",
+          "ObjectPath": "GameProject/Content/IND/UI/Select/MeterCustomize/Texture/text_base.0"
+        },
+        "DrawAs": "ESlateBrushDrawType::Box"
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_1'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/MeterCustomize/WBP_Meter_Name.19"
+      },
+      "RenderTransform": {
+        "Scale": {
+          "X": -1.0,
+          "Y": 1.0
+        }
+      },
+      "bIsVariable": false
+    }
+  },
+  {
+    "Type": "NameProperty",
+    "Name": "CallFunc_Conv_StringToName_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_Meter_Name",
+    "Class": "UScriptClass'NameProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "StrProperty",
+    "Name": "CallFunc_Conv_IntToString_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_Meter_Name",
+    "Class": "UScriptClass'StrProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_GetDataTableRowFromName_OutRow",
+    "Outer": "ExecuteUbergraph_WBP_Meter_Name",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Struct": {
+      "ObjectName": "UserDefinedStruct'ST_RaceParam_Meter'",
+      "ObjectPath": "GameProject/Content/IND/DataTable/Sequence/Race/ST_RaceParam_Meter.1"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_GetDesiredSize_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_Meter_Name",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector2D'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_MakeVector2D_ReturnValue",
+    "Outer": "ExecuteUbergraph_WBP_Meter_Name",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector2D'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "P_Name",
+    "Outer": "WidgetTree",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "B40A81F9421C135D220A6F8993AD8C92",
+        "SourceString": "デフォルト",
+        "LocalizedString": "デフォルト"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "FontMaterial": {
+          "ObjectName": "MaterialInstanceConstant'MI_CourseFontTex'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/Material/MI_CourseFontTex.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 3,
+          "OutlineColor": {
+            "R": 0.019382,
+            "G": 0.019382,
+            "B": 0.019382,
+            "A": 1.0,
+            "Hex": "262626"
+          }
+        },
+        "TypefaceFontName": "RodinN_B",
+        "Size": 22
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WBP_Meter_Name_C:WidgetTree.CanvasPanel_0.CanvasPanelSlot_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/MeterCustomize/WBP_Meter_Name.18"
+      },
+      "RenderTransformPivot": {
+        "X": 0.0,
+        "Y": 0.5
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "TextBlock",
+    "Name": "P_Name",
+    "Outer": "WidgetTree_0",
+    "Class": "UScriptClass'TextBlock'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Text": {
+        "Namespace": "",
+        "Key": "B40A81F9421C135D220A6F8993AD8C92",
+        "SourceString": "デフォルト",
+        "LocalizedString": "デフォルト"
+      },
+      "Font": {
+        "FontObject": {
+          "ObjectName": "Font'NewRodinProN'",
+          "ObjectPath": "GameProject/Content/IND/UI/Font/Lisenced/NewRodinProN.0"
+        },
+        "FontMaterial": {
+          "ObjectName": "MaterialInstanceConstant'MI_CourseFontTex'",
+          "ObjectPath": "GameProject/Content/IND/UI/Result/Material/MI_CourseFontTex.0"
+        },
+        "OutlineSettings": {
+          "OutlineSize": 3,
+          "OutlineColor": {
+            "R": 0.019382,
+            "G": 0.019382,
+            "B": 0.019382,
+            "A": 1.0,
+            "Hex": "262626"
+          }
+        },
+        "TypefaceFontName": "RodinN_B",
+        "Size": 22
+      },
+      "Slot": {
+        "ObjectName": "CanvasPanelSlot'WidgetArchetype:WidgetTree_0.CanvasPanel_0.CanvasPanelSlot_3'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/MeterCustomize/WBP_Meter_Name.20"
+      },
+      "RenderTransformPivot": {
+        "X": 0.0,
+        "Y": 0.5
+      },
+      "bIsVariable": true
+    }
+  },
+  {
+    "Type": "WBP_Meter_Name_C",
+    "Name": "WidgetArchetype",
+    "Class": "WidgetBlueprintGeneratedClass'GameProject/Content/IND/UI/Select/MeterCustomize/WBP_Meter_Name.WBP_Meter_Name_C'",
+    "Template": {
+      "ObjectName": "WBP_Meter_Name_C'Default__WBP_Meter_Name_C'",
+      "ObjectPath": "GameProject/Content/IND/UI/Select/MeterCustomize/WBP_Meter_Name.2"
+    },
+    "Flags": "RF_Public | RF_Standalone | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "P_Name": {
+        "ObjectName": "TextBlock'WidgetArchetype:WidgetTree_0.P_Name'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/MeterCustomize/WBP_Meter_Name.44"
+      },
+      "WidgetTree": {
+        "ObjectName": "WidgetTree'WidgetArchetype:WidgetTree_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/MeterCustomize/WBP_Meter_Name.47"
+      },
+      "bCookedWidgetTree": true
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree",
+    "Outer": "WBP_Meter_Name_C",
+    "Class": "UScriptClass'WidgetTree'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CanvasPanel'WBP_Meter_Name_C:WidgetTree.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/MeterCustomize/WBP_Meter_Name.15"
+      }
+    }
+  },
+  {
+    "Type": "WidgetTree",
+    "Name": "WidgetTree_0",
+    "Outer": "WidgetArchetype",
+    "Class": "UScriptClass'WidgetTree'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootWidget": {
+        "ObjectName": "CanvasPanel'WidgetArchetype:WidgetTree_0.CanvasPanel_0'",
+        "ObjectPath": "GameProject/Content/IND/UI/Select/MeterCustomize/WBP_Meter_Name.16"
+      }
+    }
+  }
+]

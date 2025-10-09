@@ -1,0 +1,49 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_AdvertiseNetworkMessageParam",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "UserDefinedStruct'ST_AdvertiseNetworkMessageParam'",
+        "ObjectPath": "GameProject/Content/IND/DataTable/Sequence/Advertise/ST_AdvertiseNetworkMessageParam.1"
+      }
+    },
+    "Rows": {
+      "NewRow": {
+        "Type_2_33C138D9468AE733D1CA9EABD0D41629": "EAdvertiseNetworkMessageType::NotLanBattle",
+        "Message_6_0D6181C74AFAF0FD8DBB8D890D727D49": {
+          "TableId": "/Game/IND/StringTable/BP/ST_GameMessage.ST_GameMessage",
+          "Key": "DT_Advertise_InstoreBattleMode",
+          "SourceString": "現在、店内バトルモードはプレイできません。",
+          "LocalizedString": "In-store Battle mode\ncannot be played at this time."
+        }
+      },
+      "NewRow_0": {
+        "Type_2_33C138D9468AE733D1CA9EABD0D41629": "EAdvertiseNetworkMessageType::NotWanBattle",
+        "Message_6_0D6181C74AFAF0FD8DBB8D890D727D49": {
+          "TableId": "/Game/IND/StringTable/BP/ST_GameMessage.ST_GameMessage",
+          "Key": "DT_Advertise_OnlineCantPlayed",
+          "SourceString": "現在、ネットワークを使用するモードの\nプレイが制限されています",
+          "LocalizedString": "Currently, play in networked mode is restricted."
+        }
+      },
+      "NewRow_1": {
+        "Type_2_33C138D9468AE733D1CA9EABD0D41629": "EAdvertiseNetworkMessageType::NotWanAndAime",
+        "Message_6_0D6181C74AFAF0FD8DBB8D890D727D49": {
+          "TableId": "/Game/IND/StringTable/BP/ST_GameMessage.ST_GameMessage",
+          "Key": "DT_Advertise_OnlineCantUsed",
+          "SourceString": "現在、ネットワークを使用するモードのプレイ、\nＡｉｍｅの使用はできません。",
+          "LocalizedString": "Currently, it is not possible to play in\nnetworked mode. Aime is not available."
+        }
+      },
+      "NewRow_2": {
+        "Type_2_33C138D9468AE733D1CA9EABD0D41629": "EAdvertiseNetworkMessageType::None",
+        "Message_6_0D6181C74AFAF0FD8DBB8D890D727D49": {
+          "CultureInvariantString": null
+        }
+      }
+    }
+  }
+]

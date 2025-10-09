@@ -1,0 +1,730 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_CourseInfo",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct'CourseInfo'",
+        "ObjectPath": "/Script/GameProject"
+      }
+    },
+    "Rows": {
+      "AkinaLake": {
+        "CourseID": "ECourseID::AkinaLake",
+        "CourseDisplayIndex": 1,
+        "FormalName": {
+          "Namespace": "",
+          "Key": "1FC07AD4441EEE08AD7D74B51A60C538",
+          "SourceString": "Akina Lk",
+          "LocalizedString": "Akina Lk"
+        },
+        "AbbrName": "AkinaLake",
+        "CourseType": "ECourseType::LapCourse",
+        "LevelPathModels": "/Game/IND/Levels/COURSE/akinako/",
+        "LevelPathEvents": "/Game/IND/Levels/CourseEvent/akinalake/",
+        "OpenSeasonID": 1,
+        "CanRunFoward": true,
+        "CanRunBackward": true,
+        "CanRunDry": true,
+        "CanRunRain": true,
+        "CanRunDay": true,
+        "CanRunNight": true,
+        "PathDirectory": "COURSE/akina_lake/path/",
+        "FowardInfo": {
+          "CenterPathFileName": "akinaLake_path_road_c.pa4",
+          "LeftPathFileName": "akinaLake_path_road_l.pa4",
+          "RightPathFileName": "akinaLake_path_road_r.pa4",
+          "CollisionPathFileName": "akinaLake_collision.bin"
+        },
+        "BackwardInfo": {
+          "CenterPathFileName": "",
+          "LeftPathFileName": "",
+          "RightPathFileName": "",
+          "CollisionPathFileName": ""
+        }
+      },
+      "Myogi": {
+        "CourseID": "ECourseID::Myogi",
+        "CourseDisplayIndex": 4,
+        "FormalName": {
+          "Namespace": "",
+          "Key": "DCE800DF44B4FDA7CF19A0AB214AC01D",
+          "SourceString": "Myogi",
+          "LocalizedString": "Myogi"
+        },
+        "AbbrName": "Myogi",
+        "CourseType": "ECourseType::Touge",
+        "LevelPathModels": "/Game/IND/Levels/COURSE/myogi/",
+        "LevelPathEvents": "/Game/IND/Levels/CourseEvent/myogi/",
+        "OpenSeasonID": 1,
+        "CanRunFoward": true,
+        "CanRunBackward": true,
+        "CanRunDry": true,
+        "CanRunRain": true,
+        "CanRunDay": true,
+        "CanRunNight": true,
+        "PathDirectory": "COURSE/myogi/path/",
+        "FowardInfo": {
+          "CenterPathFileName": "myogi_path_road_c.pa4",
+          "LeftPathFileName": "myogi_path_road_l.pa4",
+          "RightPathFileName": "myogi_path_road_r.pa4",
+          "CollisionPathFileName": "myogi_collision.bin"
+        },
+        "BackwardInfo": {
+          "CenterPathFileName": "",
+          "LeftPathFileName": "",
+          "RightPathFileName": "",
+          "CollisionPathFileName": ""
+        }
+      },
+      "Akagi": {
+        "CourseID": "ECourseID::Akagi",
+        "CourseDisplayIndex": 5,
+        "FormalName": {
+          "Namespace": "",
+          "Key": "F029BB4542313A7A102878B644B5FBBD",
+          "SourceString": "Akagi",
+          "LocalizedString": "Akagi"
+        },
+        "AbbrName": "Akagi",
+        "CourseType": "ECourseType::Touge",
+        "LevelPathModels": "/Game/IND/Levels/COURSE/akagi/",
+        "LevelPathEvents": "/Game/IND/Levels/CourseEvent/akagi/",
+        "OpenSeasonID": 1,
+        "CanRunFoward": true,
+        "CanRunBackward": true,
+        "CanRunDry": true,
+        "CanRunRain": true,
+        "CanRunDay": true,
+        "CanRunNight": true,
+        "PathDirectory": "COURSE/akagi/path/",
+        "FowardInfo": {
+          "CenterPathFileName": "akagi.pa4",
+          "LeftPathFileName": "akagi_cmn_path_gard_l.pa4",
+          "RightPathFileName": "akagi_cmn_path_gard_r.pa4",
+          "CollisionPathFileName": "akagi_cmn_collision.bin"
+        },
+        "BackwardInfo": {
+          "CenterPathFileName": "",
+          "LeftPathFileName": "",
+          "RightPathFileName": "",
+          "CollisionPathFileName": ""
+        }
+      },
+      "Akina": {
+        "CourseID": "ECourseID::Akina",
+        "CourseDisplayIndex": 6,
+        "FormalName": {
+          "Namespace": "",
+          "Key": "B8A8671347EFD3F78BCAC0A03A26ED61",
+          "SourceString": "Akina",
+          "LocalizedString": "Akina"
+        },
+        "AbbrName": "Akina",
+        "CourseType": "ECourseType::Touge",
+        "LevelPathModels": "/Game/IND/Levels/COURSE/akina/",
+        "LevelPathEvents": "/Game/IND/Levels/CourseEvent/akina/",
+        "OpenSeasonID": 1,
+        "CanRunFoward": true,
+        "CanRunBackward": true,
+        "CanRunDry": true,
+        "CanRunRain": true,
+        "CanRunDay": true,
+        "CanRunNight": true,
+        "PathDirectory": "COURSE/akina/path/",
+        "FowardInfo": {
+          "CenterPathFileName": "akina_cmn_path_road_c.pa4",
+          "LeftPathFileName": "akina_cmn_path_gard_l.pa4",
+          "RightPathFileName": "akina_cmn_path_gard_r.pa4",
+          "CollisionPathFileName": "akina_cmn_collision.bin"
+        },
+        "BackwardInfo": {
+          "CenterPathFileName": "",
+          "LeftPathFileName": "",
+          "RightPathFileName": "",
+          "CollisionPathFileName": ""
+        }
+      },
+      "Irohazaka": {
+        "CourseID": "ECourseID::Irohazaka",
+        "CourseDisplayIndex": 7,
+        "FormalName": {
+          "Namespace": "",
+          "Key": "3A0829904148E9E570E6429A518302F5",
+          "SourceString": "Irohazaka",
+          "LocalizedString": "Irohazaka"
+        },
+        "AbbrName": "Irohazaka",
+        "CourseType": "ECourseType::Oneway",
+        "LevelPathModels": "/Game/IND/Levels/COURSE/iroha/",
+        "LevelPathEvents": "/Game/IND/Levels/CourseEvent/iroha/",
+        "OpenSeasonID": 1,
+        "CanRunFoward": true,
+        "CanRunBackward": true,
+        "CanRunDry": true,
+        "CanRunRain": true,
+        "CanRunDay": true,
+        "CanRunNight": true,
+        "PathDirectory": "COURSE/iroha/path/",
+        "FowardInfo": {
+          "CenterPathFileName": "iroha_cmn_path_road_c.pa4",
+          "LeftPathFileName": "iroha_cmn_path_gard_l.pa4",
+          "RightPathFileName": "iroha_cmn_path_gard_r.pa4",
+          "CollisionPathFileName": "iroha_cmn_collision.bin"
+        },
+        "BackwardInfo": {
+          "CenterPathFileName": "",
+          "LeftPathFileName": "",
+          "RightPathFileName": "",
+          "CollisionPathFileName": ""
+        }
+      },
+      "Tsukuba": {
+        "CourseID": "ECourseID::Tsukuba",
+        "CourseDisplayIndex": 10,
+        "FormalName": {
+          "Namespace": "",
+          "Key": "37FFE8434D42D7C283F16785A9987AF4",
+          "SourceString": "Tsukuba",
+          "LocalizedString": "Tsukuba"
+        },
+        "AbbrName": "Tsukuba",
+        "CourseType": "ECourseType::MountainPass",
+        "LevelPathModels": "/Game/IND/Levels/COURSE/tsukuba/",
+        "LevelPathEvents": "/Game/IND/Levels/CourseEvent/tsukuba/",
+        "OpenSeasonID": 2,
+        "CanRunFoward": true,
+        "CanRunBackward": true,
+        "CanRunDry": true,
+        "CanRunRain": true,
+        "CanRunDay": true,
+        "CanRunNight": true,
+        "PathDirectory": "COURSE/tsukuba/path/",
+        "FowardInfo": {
+          "CenterPathFileName": "tsukuba_path_road_c.pa4",
+          "LeftPathFileName": "tsukuba_cmn_path_gard_l.pa4",
+          "RightPathFileName": "tsukuba_cmn_path_gard_r.pa4",
+          "CollisionPathFileName": "tsukuba_collision.bin"
+        },
+        "BackwardInfo": {
+          "CenterPathFileName": "",
+          "LeftPathFileName": "",
+          "RightPathFileName": "",
+          "CollisionPathFileName": ""
+        }
+      },
+      "Happo": {
+        "CourseID": "ECourseID::Happo",
+        "CourseDisplayIndex": 11,
+        "FormalName": {
+          "Namespace": "",
+          "Key": "35AEF61648E26F3EF751CD91F44B2180",
+          "SourceString": "Happogahara",
+          "LocalizedString": "Happogahara"
+        },
+        "AbbrName": "Happo",
+        "CourseType": "ECourseType::MountainPass",
+        "LevelPathModels": "/Game/IND/Levels/COURSE/happo/",
+        "LevelPathEvents": "/Game/IND/Levels/CourseEvent/happo/",
+        "OpenSeasonID": 1,
+        "CanRunFoward": true,
+        "CanRunBackward": true,
+        "CanRunDry": true,
+        "CanRunRain": true,
+        "CanRunDay": true,
+        "CanRunNight": true,
+        "PathDirectory": "COURSE/happo/path/",
+        "FowardInfo": {
+          "CenterPathFileName": "happo_path_road_c.pa4",
+          "LeftPathFileName": "happo_path_road_l.pa4",
+          "RightPathFileName": "happo_path_road_r.pa4",
+          "CollisionPathFileName": "happo_collision.bin"
+        },
+        "BackwardInfo": {
+          "CenterPathFileName": "",
+          "LeftPathFileName": "",
+          "RightPathFileName": "",
+          "CollisionPathFileName": ""
+        }
+      },
+      "Nagao": {
+        "CourseID": "ECourseID::Nagao",
+        "CourseDisplayIndex": 14,
+        "FormalName": {
+          "Namespace": "",
+          "Key": "3A08367A47E50BEE5827C3A3DB7E1C02",
+          "SourceString": "Nagao",
+          "LocalizedString": "Nagao"
+        },
+        "AbbrName": "Nagao",
+        "CourseType": "ECourseType::Touge",
+        "LevelPathModels": "/Game/IND/Levels/COURSE/nagao/",
+        "LevelPathEvents": "/Game/IND/Levels/CourseEvent/nagao/",
+        "OpenSeasonID": 2,
+        "CanRunFoward": true,
+        "CanRunBackward": true,
+        "CanRunDry": true,
+        "CanRunRain": true,
+        "CanRunDay": true,
+        "CanRunNight": true,
+        "PathDirectory": "COURSE/nagao/path/",
+        "FowardInfo": {
+          "CenterPathFileName": "nagao_path_road_c.pa4",
+          "LeftPathFileName": "nagao_path_gard_l.pa4",
+          "RightPathFileName": "nagao_path_gard_r.pa4",
+          "CollisionPathFileName": "nagao_collision.bin"
+        },
+        "BackwardInfo": {
+          "CenterPathFileName": "",
+          "LeftPathFileName": "",
+          "RightPathFileName": "",
+          "CollisionPathFileName": ""
+        }
+      },
+      "Tsubaki": {
+        "CourseID": "ECourseID::Tsubaki",
+        "CourseDisplayIndex": 16,
+        "FormalName": {
+          "Namespace": "",
+          "Key": "C161A6B844B591DCB9A606B50EBEC059",
+          "SourceString": "Tsubaki",
+          "LocalizedString": "Tsubaki"
+        },
+        "AbbrName": "Tsubaki",
+        "CourseType": "ECourseType::Touge",
+        "LevelPathModels": "/Game/IND/Levels/COURSE/tsubaki/",
+        "LevelPathEvents": "/Game/IND/Levels/CourseEvent/tsubaki/",
+        "OpenSeasonID": 0,
+        "CanRunFoward": false,
+        "CanRunBackward": false,
+        "CanRunDry": true,
+        "CanRunRain": true,
+        "CanRunDay": true,
+        "CanRunNight": true,
+        "PathDirectory": "COURSE/tsubaki/path/",
+        "FowardInfo": {
+          "CenterPathFileName": "tsubaki_path_road_c.pa4",
+          "LeftPathFileName": "tsubaki_path_road_l.pa4",
+          "RightPathFileName": "tsubaki_path_road_r.pa4",
+          "CollisionPathFileName": "tsubaki_collision.bin"
+        },
+        "BackwardInfo": {
+          "CenterPathFileName": "",
+          "LeftPathFileName": "",
+          "RightPathFileName": "",
+          "CollisionPathFileName": ""
+        }
+      },
+      "Usui": {
+        "CourseID": "ECourseID::Usui",
+        "CourseDisplayIndex": 3,
+        "FormalName": {
+          "Namespace": "",
+          "Key": "68B342A241B2B12C1D5328B3DB6A7CA9",
+          "SourceString": "Usui",
+          "LocalizedString": "Usui"
+        },
+        "AbbrName": "Usui",
+        "CourseType": "ECourseType::LapCourse",
+        "LevelPathModels": "/Game/IND/Levels/COURSE/usui/",
+        "LevelPathEvents": "/Game/IND/Levels/CourseEvent/usui/",
+        "OpenSeasonID": 1,
+        "CanRunFoward": true,
+        "CanRunBackward": true,
+        "CanRunDry": true,
+        "CanRunRain": true,
+        "CanRunDay": true,
+        "CanRunNight": true,
+        "PathDirectory": "COURSE/usui/path/",
+        "FowardInfo": {
+          "CenterPathFileName": "usui_path_c.pa4",
+          "LeftPathFileName": "usui_path_l.pa4",
+          "RightPathFileName": "usui_path_r.pa4",
+          "CollisionPathFileName": "usui_collision.bin"
+        },
+        "BackwardInfo": {
+          "CenterPathFileName": "",
+          "LeftPathFileName": "",
+          "RightPathFileName": "",
+          "CollisionPathFileName": ""
+        }
+      },
+      "Sadamine": {
+        "CourseID": "ECourseID::Sadamine",
+        "CourseDisplayIndex": 12,
+        "FormalName": {
+          "Namespace": "",
+          "Key": "ADAE9FD54B015AFC23E7248213B3CE4E",
+          "SourceString": "Sadamine",
+          "LocalizedString": "Sadamine"
+        },
+        "AbbrName": "Sadamine",
+        "CourseType": "ECourseType::Touge",
+        "LevelPathModels": "/Game/IND/Levels/COURSE/sadamine/",
+        "LevelPathEvents": "/Game/IND/Levels/CourseEvent/sadamine/",
+        "OpenSeasonID": 1,
+        "CanRunFoward": true,
+        "CanRunBackward": true,
+        "CanRunDry": true,
+        "CanRunRain": true,
+        "CanRunDay": true,
+        "CanRunNight": true,
+        "PathDirectory": "COURSE/sadamine/path/",
+        "FowardInfo": {
+          "CenterPathFileName": "sadamine_path_road_c.pa4",
+          "LeftPathFileName": "sadamine_path_road_l.pa4",
+          "RightPathFileName": "sadamine_path_road_r.pa4",
+          "CollisionPathFileName": "sadamine_collision.bin"
+        },
+        "BackwardInfo": {
+          "CenterPathFileName": "",
+          "LeftPathFileName": "",
+          "RightPathFileName": "",
+          "CollisionPathFileName": ""
+        }
+      },
+      "Tsuchisaka": {
+        "CourseID": "ECourseID::Tsuchisaka",
+        "CourseDisplayIndex": 13,
+        "FormalName": {
+          "Namespace": "",
+          "Key": "52C17CC14BD11D92ADC4E1BC4F538967",
+          "SourceString": "Tsuchisaka",
+          "LocalizedString": "Tsuchisaka"
+        },
+        "AbbrName": "Tsuchisaka",
+        "CourseType": "ECourseType::MountainPass",
+        "LevelPathModels": "/Game/IND/Levels/COURSE/tsuchisaka/",
+        "LevelPathEvents": "/Game/IND/Levels/CourseEvent/tsuchisaka/",
+        "OpenSeasonID": 1,
+        "CanRunFoward": true,
+        "CanRunBackward": true,
+        "CanRunDry": true,
+        "CanRunRain": true,
+        "CanRunDay": true,
+        "CanRunNight": true,
+        "PathDirectory": "COURSE/tsuchisaka/path/",
+        "FowardInfo": {
+          "CenterPathFileName": "tsuchisaka_path_road_c.pa4",
+          "LeftPathFileName": "tsuchisaka_path_road_l.pa4",
+          "RightPathFileName": "tsuchisaka_path_road_r.pa4",
+          "CollisionPathFileName": "tsuchisaka_collision.bin"
+        },
+        "BackwardInfo": {
+          "CenterPathFileName": "",
+          "LeftPathFileName": "",
+          "RightPathFileName": "",
+          "CollisionPathFileName": ""
+        }
+      },
+      "AkinaSnow": {
+        "CourseID": "ECourseID::AkinaSnow",
+        "CourseDisplayIndex": 17,
+        "FormalName": {
+          "Namespace": "",
+          "Key": "E963642040FC0C5A2B0E82B7070C6CA3",
+          "SourceString": "Akina(S)",
+          "LocalizedString": "Akina(S)"
+        },
+        "AbbrName": "AkinaSnow",
+        "CourseType": "ECourseType::Touge",
+        "LevelPathModels": "/Game/IND/Levels/COURSE/akinasnow/",
+        "LevelPathEvents": "/Game/IND/Levels/CourseEvent/akinasnow/",
+        "OpenSeasonID": 1,
+        "CanRunFoward": true,
+        "CanRunBackward": true,
+        "CanRunDry": true,
+        "CanRunRain": true,
+        "CanRunDay": true,
+        "CanRunNight": true,
+        "PathDirectory": "COURSE/akinasnow/path/",
+        "FowardInfo": {
+          "CenterPathFileName": "akina_cmn_path_road_c.pa4",
+          "LeftPathFileName": "akina_cmn_path_gard_l.pa4",
+          "RightPathFileName": "akina_cmn_path_gard_r.pa4",
+          "CollisionPathFileName": "akina_snow_collision.bin"
+        },
+        "BackwardInfo": {
+          "CenterPathFileName": "",
+          "LeftPathFileName": "",
+          "RightPathFileName": "",
+          "CollisionPathFileName": ""
+        }
+      },
+      "Hakone": {
+        "CourseID": "ECourseID::Hakone",
+        "CourseDisplayIndex": 2,
+        "FormalName": {
+          "Namespace": "",
+          "Key": "B05F963547AAFD8D379F6FB63A61D770",
+          "SourceString": "Hakone",
+          "LocalizedString": "Hakone"
+        },
+        "AbbrName": "Hakone",
+        "CourseType": "ECourseType::Touge",
+        "LevelPathModels": "/Game/IND/Levels/COURSE/hakone/",
+        "LevelPathEvents": "/Game/IND/Levels/CourseEvent/hakone/",
+        "OpenSeasonID": 2,
+        "CanRunFoward": true,
+        "CanRunBackward": true,
+        "CanRunDry": true,
+        "CanRunRain": true,
+        "CanRunDay": true,
+        "CanRunNight": true,
+        "PathDirectory": "COURSE/hakone/path/",
+        "FowardInfo": {
+          "CenterPathFileName": "hakone_path_road_c.pa4",
+          "LeftPathFileName": "hakone_path_road_l.pa4",
+          "RightPathFileName": "hakone_path_road_r.pa4",
+          "CollisionPathFileName": "hakone_collision.bin"
+        },
+        "BackwardInfo": {
+          "CenterPathFileName": "",
+          "LeftPathFileName": "",
+          "RightPathFileName": "",
+          "CollisionPathFileName": ""
+        }
+      },
+      "Momiji": {
+        "CourseID": "ECourseID::Momiji",
+        "CourseDisplayIndex": 9,
+        "FormalName": {
+          "Namespace": "",
+          "Key": "B2B7F1004683B381D0BC8697B38F4D1C",
+          "SourceString": "Momiji Line",
+          "LocalizedString": "Momiji Line"
+        },
+        "AbbrName": "Momiji",
+        "CourseType": "ECourseType::Touge",
+        "LevelPathModels": "/Game/IND/Levels/COURSE/momiji/",
+        "LevelPathEvents": "/Game/IND/Levels/CourseEvent/momiji/",
+        "OpenSeasonID": 1,
+        "CanRunFoward": true,
+        "CanRunBackward": true,
+        "CanRunDry": true,
+        "CanRunRain": true,
+        "CanRunDay": true,
+        "CanRunNight": true,
+        "PathDirectory": "COURSE/momiji/path/",
+        "FowardInfo": {
+          "CenterPathFileName": "momiji_path_road_c.pa4",
+          "LeftPathFileName": "momiji_path_road_l.pa4",
+          "RightPathFileName": "momiji_path_road_r.pa4",
+          "CollisionPathFileName": "momiji_collision.bin"
+        },
+        "BackwardInfo": {
+          "CenterPathFileName": "",
+          "LeftPathFileName": "",
+          "RightPathFileName": "",
+          "CollisionPathFileName": ""
+        }
+      },
+      "Nanamagari": {
+        "CourseID": "ECourseID::Nanamagari",
+        "CourseDisplayIndex": 15,
+        "FormalName": {
+          "Namespace": "",
+          "Key": "7CD29726458A91A9E9F22AB05FFFEEA4",
+          "SourceString": "Nanamagari",
+          "LocalizedString": "Nanamagari"
+        },
+        "AbbrName": "Nanamagari",
+        "CourseType": "ECourseType::Touge",
+        "LevelPathModels": "/Game/IND/Levels/COURSE/nanamagari/",
+        "LevelPathEvents": "/Game/IND/Levels/CourseEvent/nanamagari/",
+        "OpenSeasonID": 3,
+        "CanRunFoward": true,
+        "CanRunBackward": true,
+        "CanRunDry": true,
+        "CanRunRain": true,
+        "CanRunDay": true,
+        "CanRunNight": true,
+        "PathDirectory": "COURSE/nanamagari/path/",
+        "FowardInfo": {
+          "CenterPathFileName": "nanamagari_path_road_c.pa4",
+          "LeftPathFileName": "nanamagari_path_road_l.pa4",
+          "RightPathFileName": "nanamagari_path_road_r.pa4",
+          "CollisionPathFileName": "nanamagari_collision.bin"
+        },
+        "BackwardInfo": {
+          "CenterPathFileName": "",
+          "LeftPathFileName": "",
+          "RightPathFileName": "",
+          "CollisionPathFileName": ""
+        }
+      },
+      "Gunsai": {
+        "CourseID": "ECourseID::Gunsai",
+        "CourseDisplayIndex": 18,
+        "FormalName": {
+          "Namespace": "",
+          "Key": "69DEC8DC451DEB9CD34C89A9987EF3F0",
+          "SourceString": "Gunsai",
+          "LocalizedString": "Gunsai"
+        },
+        "AbbrName": "Gunsai",
+        "CourseType": "ECourseType::MountainPass",
+        "LevelPathModels": "/Game/IND/Levels/COURSE/gunsai/",
+        "LevelPathEvents": "/Game/IND/Levels/CourseEvent/gunsai/",
+        "OpenSeasonID": 3,
+        "CanRunFoward": true,
+        "CanRunBackward": true,
+        "CanRunDry": true,
+        "CanRunRain": true,
+        "CanRunDay": true,
+        "CanRunNight": true,
+        "PathDirectory": "COURSE/gunsai/path/",
+        "FowardInfo": {
+          "CenterPathFileName": "gunsai_path_road_c.pa4",
+          "LeftPathFileName": "gunsai_path_road_l.pa4",
+          "RightPathFileName": "gunsai_path_road_r.pa4",
+          "CollisionPathFileName": "gunsai_collision.bin"
+        },
+        "BackwardInfo": {
+          "CenterPathFileName": "",
+          "LeftPathFileName": "",
+          "RightPathFileName": "",
+          "CollisionPathFileName": ""
+        }
+      },
+      "Odawara": {
+        "CourseID": "ECourseID::Odawara",
+        "CourseDisplayIndex": 19,
+        "FormalName": {
+          "Namespace": "",
+          "Key": "254CF65244A0C424ACE5B194D4BA854C",
+          "SourceString": "Odawara",
+          "LocalizedString": "Odawara"
+        },
+        "AbbrName": "Odawara",
+        "CourseType": "ECourseType::LapCourseDiff",
+        "LevelPathModels": "/Game/IND/Levels/COURSE/odawara/",
+        "LevelPathEvents": "/Game/IND/Levels/CourseEvent/odawara/",
+        "OpenSeasonID": 1,
+        "CanRunFoward": true,
+        "CanRunBackward": true,
+        "CanRunDry": true,
+        "CanRunRain": true,
+        "CanRunDay": true,
+        "CanRunNight": true,
+        "PathDirectory": "COURSE/odawara/path/",
+        "FowardInfo": {
+          "CenterPathFileName": "odawara_path_road_c.pa4",
+          "LeftPathFileName": "odawara_path_road_l.pa4",
+          "RightPathFileName": "odawara_path_road_r.pa4",
+          "CollisionPathFileName": "odawara_collision.bin"
+        },
+        "BackwardInfo": {
+          "CenterPathFileName": "odawara_path_road_b_c.pa4",
+          "LeftPathFileName": "odawara_path_road_b_l.pa4",
+          "RightPathFileName": "odawara_path_road_b_r.pa4",
+          "CollisionPathFileName": "odawara_collision_b.bin"
+        }
+      },
+      "TsukubaSnow": {
+        "CourseID": "ECourseID::TsukubaSnow",
+        "CourseDisplayIndex": 20,
+        "FormalName": {
+          "Namespace": "",
+          "Key": "0928D03C441BA1F852753982249BBFC6",
+          "SourceString": "Tsukuba(S)",
+          "LocalizedString": "Tsukuba(S)"
+        },
+        "AbbrName": "TsukubaSnow",
+        "CourseType": "ECourseType::MountainPass",
+        "LevelPathModels": "/Game/IND/Levels/COURSE/tsukubasnow/",
+        "LevelPathEvents": "/Game/IND/Levels/CourseEvent/tsukubasnow/",
+        "OpenSeasonID": 2,
+        "CanRunFoward": true,
+        "CanRunBackward": true,
+        "CanRunDry": true,
+        "CanRunRain": true,
+        "CanRunDay": true,
+        "CanRunNight": true,
+        "PathDirectory": "COURSE/tsukubasnow/path/",
+        "FowardInfo": {
+          "CenterPathFileName": "tsukubasnow_path_road_c.pa4",
+          "LeftPathFileName": "tsukubasnow_cmn_path_gard_l.pa4",
+          "RightPathFileName": "tsukubasnow_cmn_path_gard_r.pa4",
+          "CollisionPathFileName": "tsukubasnow_collision.bin"
+        },
+        "BackwardInfo": {
+          "CenterPathFileName": "",
+          "LeftPathFileName": "",
+          "RightPathFileName": "",
+          "CollisionPathFileName": ""
+        }
+      },
+      "Coute101": {
+        "CourseID": "ECourseID::Coute101",
+        "CourseDisplayIndex": 8,
+        "FormalName": {
+          "Namespace": "",
+          "Key": "22B7F88A43CA098A0722B49B17B30A03",
+          "SourceString": "Coute 101",
+          "LocalizedString": "Coute 101"
+        },
+        "AbbrName": "Coute 101",
+        "CourseType": "ECourseType::Touge",
+        "LevelPathModels": "/Game/IND/Levels/COURSE/coute101/",
+        "LevelPathEvents": "/Game/IND/Levels/CourseEvent/coute101/",
+        "OpenSeasonID": 3,
+        "CanRunFoward": true,
+        "CanRunBackward": true,
+        "CanRunDry": true,
+        "CanRunRain": true,
+        "CanRunDay": true,
+        "CanRunNight": true,
+        "PathDirectory": "COURSE/coute101/path/",
+        "FowardInfo": {
+          "CenterPathFileName": "coute101_path_road_c.pa4",
+          "LeftPathFileName": "coute101_path_road_l.pa4",
+          "RightPathFileName": "coute101_path_road_r.pa4",
+          "CollisionPathFileName": "coute101_collision.bin"
+        },
+        "BackwardInfo": {
+          "CenterPathFileName": "",
+          "LeftPathFileName": "",
+          "RightPathFileName": "",
+          "CollisionPathFileName": ""
+        }
+      },
+      "TsuchisakaSnow": {
+        "CourseID": "ECourseID::TsuchisakaSnow",
+        "CourseDisplayIndex": 21,
+        "FormalName": {
+          "Namespace": "",
+          "Key": "831A886240D221B2543A0DA4250CA845",
+          "SourceString": "Tsuchisaka(S)",
+          "LocalizedString": "Tsuchisaka(S)"
+        },
+        "AbbrName": "TsuchisakaSnow",
+        "CourseType": "ECourseType::MountainPass",
+        "LevelPathModels": "/Game/IND/Levels/COURSE/tsuchisakasnow/",
+        "LevelPathEvents": "/Game/IND/Levels/CourseEvent/tsuchisakasnow/",
+        "OpenSeasonID": 3,
+        "CanRunFoward": true,
+        "CanRunBackward": true,
+        "CanRunDry": true,
+        "CanRunRain": true,
+        "CanRunDay": true,
+        "CanRunNight": true,
+        "PathDirectory": "COURSE/tsuchisakasnow/path/",
+        "FowardInfo": {
+          "CenterPathFileName": "tsuchisakasnow_path_road_c.pa4",
+          "LeftPathFileName": "tsuchisakasnow_path_road_l.pa4",
+          "RightPathFileName": "tsuchisakasnow_path_road_r.pa4",
+          "CollisionPathFileName": "tsuchisakasnow_collision.bin"
+        },
+        "BackwardInfo": {
+          "CenterPathFileName": "",
+          "LeftPathFileName": "",
+          "RightPathFileName": "",
+          "CollisionPathFileName": ""
+        }
+      }
+    }
+  }
+]

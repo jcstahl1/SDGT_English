@@ -1,0 +1,34 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_TeamMenuDialog",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "UserDefinedStruct'ST_TeamMenuDialog'",
+        "ObjectPath": "GameProject/Content/IND/DataTable/Team/Sequence/ST_TeamMenuDialog.0"
+      }
+    },
+    "Rows": {
+      "NewRow": {
+        "Id_2_A52D26D443C38CA550074C98B33AFE60": 0,
+        "DialogText_5_F97997A347B09E8718A45F9192ECC97F": {
+          "TableId": "/Game/IND/StringTable/BP/ST_GameMessage.ST_GameMessage",
+          "Key": "TeamSeq_CreateTeam_CreateConfirmDialog",
+          "SourceString": "あなたがチームリーダーとなり\n新しいチームを作成します\nよろしいですか？",
+          "LocalizedString": "You will be the team leader\nI will create a new team.\nAre you sure?"
+        }
+      },
+      "NewRow_0": {
+        "Id_2_A52D26D443C38CA550074C98B33AFE60": 1,
+        "DialogText_5_F97997A347B09E8718A45F9192ECC97F": {
+          "TableId": "/Game/IND/StringTable/BP/ST_GameMessage.ST_GameMessage",
+          "Key": "TeamSeq_TeamMainMenu_QuitConfirm",
+          "SourceString": "チームメニュー画面を終了します\nよろしいですか？",
+          "LocalizedString": "Exit Team Menu screen.\nAre you sure?"
+        }
+      }
+    }
+  }
+]
