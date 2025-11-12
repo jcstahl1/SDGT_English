@@ -24,7 +24,7 @@ All translated JSON will continue to be published here as development progresses
 3. Place the translated `.pak` into your game’s `Paks` directory.
 4. Launch the game to view the English translation in effect.
 
-> 🛈 This project does **not** distribute, modify, or include any copyrighted content from the original game.
+> 🛈 This project does **not** distribute or include any copyrighted content from the original game.
 
 ---
 
