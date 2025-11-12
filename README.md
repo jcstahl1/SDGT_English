@@ -36,7 +36,7 @@ If anyone asks for payment or claims to sell access to it, they are **not affili
 If you’d like to support the ongoing work, you can do so here:
 ☕ [**buymeacoffee.com/jc15904**](https://buymeacoffee.com/jc15904)
 
-Your support helps cover the hundreds of time and testing resources that keep the translation improving.
+Your support helps cover the hundreds of hours in time and testing resources that keep the translation improving.
 
 ---
 
