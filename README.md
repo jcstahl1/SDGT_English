@@ -46,7 +46,3 @@ This fan-made project is provided **“as is”**, without warranty of any kind.
 By using or redistributing this content, you agree that the creator shall not be held liable for any damages or issues arising from its use.
 
 This is a **non-commercial**, **independent** community effort not affiliated with, endorsed by, or supported by any company or rights holder.
-
----
-
-Would you like me to append a short **license section** at the end (for example: *Licensed under CC BY-NC 4.0 – No commercial use permitted*)?
